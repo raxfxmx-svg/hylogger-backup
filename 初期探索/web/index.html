@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HyLogger 3D Core Visualisation</title>
+<link rel="stylesheet" href="/style.css">
+<!--
+  three.js loads from a CDN through an import map; no build step is required.
+  Primary CDN: https://cdn.jsdelivr.net/npm/three@0.160.0/...
+  Fallback: replace the two import URLs below with these unpkg URLs if needed:
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+-->
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<header id="topbar">
+  <span class="brand">HyLogger 3D Core Visualisation</span>
+  <label class="ctl">Borehole
+    <select id="hole-select"></select>
+  </label>
+  <span class="seg" id="sensor-seg">
+    <span class="seg-label">Sensor</span>
+    <button type="button" class="seg-btn" data-sensor="vnir">VNIR</button><button type="button" class="seg-btn" data-sensor="tir">TIR</button>
+  </span>
+  <span class="seg" id="mode-seg">
+    <span class="seg-label">Display</span>
+    <button type="button" class="seg-btn" data-mode="photo">Photo</button><button type="button" class="seg-btn" data-mode="mineral">Minerals</button><button type="button" class="seg-btn" data-mode="overlay">Overlay</button>
+  </span>
+  <span id="hole-info"></span>
+</header>
+
+<div id="error-banner" hidden>
+  <span id="error-text"></span>
+  <button type="button" id="error-close" title="Close">×</button>
+</div>
+
+<main id="main">
+  <section id="viewport">
+    <canvas id="gl"></canvas>
+    <div id="loading" hidden>
+      <div id="loading-text">Loading...</div>
+      <div id="loading-bar"><div id="loading-fill"></div></div>
+    </div>
+    <div id="viewport-hint">Drag to rotate · Scroll to zoom · Click the core to inspect an interval</div>
+  </section>
+  <aside id="sidebar">
+    <div id="chart-box"><canvas id="chart"></canvas></div>
+    <div id="legend"></div>
+    <div id="detail"><div class="placeholder">Click the 3D core or the depth chart to inspect intervals and spectra.</div></div>
+  </aside>
+</main>
+
+<script>
+// Show an error if the module script or the three.js CDN fails to load.
+window.__appStarted = false;
+setTimeout(function () {
+  if (!window.__appStarted) {
+    var banner = document.getElementById('error-banner');
+    document.getElementById('error-text').textContent =
+      'The 3D engine (three.js) failed to load. Check access to cdn.jsdelivr.net, ' +
+      'or use the unpkg URLs in the index.html comments and refresh the page.';
+    banner.hidden = false;
+  }
+}, 8000);
+</script>
+<script type="module" src="/app.js"></script>
+</body>
+</html>
