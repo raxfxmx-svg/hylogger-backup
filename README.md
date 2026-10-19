@@ -4,6 +4,8 @@ This project was developed with AI assistance.
 
 Data processing, PostgreSQL/PostGIS database development, and web integration for HyLogger borehole visualisation.
 
+Meghana contributed to part of the special-case processing work; I completed the remaining work independently.
+
 | Folder | Purpose |
 | --- | --- |
 | [history/](history/) | Project versions, processing code, database scripts, and handoff materials. |
