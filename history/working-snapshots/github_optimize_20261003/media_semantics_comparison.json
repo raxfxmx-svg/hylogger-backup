@@ -1,0 +1,31 @@
+{
+  "unchanged_current_definitions": [
+    "MEDIA_RULE_VERSION",
+    "MEDIA_RULE_VERSIONS",
+    "accept_prepared_package",
+    "check_package",
+    "insert_media_records",
+    "media_identity",
+    "media_rule_version",
+    "package_contexts",
+    "package_step",
+    "prepare_package",
+    "prepared_acceptance_content",
+    "prepared_context",
+    "remap",
+    "verify_media_sources"
+  ],
+  "unchanged_isolated_legacy_definitions": [
+    "CLONE_TABLES",
+    "clone_revision",
+    "import_media",
+    "release_context",
+    "select_revision",
+    "verify_source_assets"
+  ],
+  "changed_definitions": [],
+  "missing_definitions": [],
+  "old_module_lines": 826,
+  "current_module_lines": 586,
+  "legacy_module_lines": 249
+}

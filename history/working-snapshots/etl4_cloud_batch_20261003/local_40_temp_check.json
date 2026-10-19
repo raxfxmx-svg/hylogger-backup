@@ -1,0 +1,56 @@
+{
+  "comparison_queries": 510,
+  "core_snapshot_unchanged": true,
+  "core_write_permissions": false,
+  "database": "etl4_test_single_final_20260930",
+  "elapsed_seconds": 15.968554899998708,
+  "geometry": {
+    "differs": 0,
+    "nonnull": 17,
+    "rows": 17,
+    "srids": [
+      4326
+    ]
+  },
+  "manifest_sha256": "e8f404230838ba81fdea39b8fd57fcbddc2c285c7413b584d5a54d883ba348f5",
+  "operations": "session temporary tables and read-only core SELECT; forced transaction rollback",
+  "phases_seconds": {
+    "check_staging_scope": 0.408334299994749,
+    "compare_records": 7.335936700001184,
+    "load_staging": 7.832689599999867
+  },
+  "row_counts": {
+    "asset": 11685,
+    "borehole": 12,
+    "borehole_branch": 0,
+    "borehole_revision": 17,
+    "core_interval": 5819,
+    "data_chunk": 21133,
+    "dataset": 17,
+    "dataset_revision": 17,
+    "dataset_segment": 17,
+    "image_frame": 1081,
+    "image_region": 4738,
+    "image_region_asset": 4738,
+    "image_sample_mapping": 4738,
+    "interpretation_input": 0,
+    "interpretation_set": 83,
+    "log_asset": 9681,
+    "log_axis_binding": 2209,
+    "metric_definition": 956,
+    "quality_issue": 321,
+    "sample_axis": 17,
+    "scan_log": 2209,
+    "scan_sample": 732206,
+    "source_document": 238,
+    "source_reference": 51,
+    "spectral_array": 31,
+    "spectral_block": 1353,
+    "spectral_sample_map": 31,
+    "spectral_stream": 31,
+    "survey_station": 0
+  },
+  "schema_matches": true,
+  "status": "passed",
+  "temporary_tables_after_rollback": 0
+}

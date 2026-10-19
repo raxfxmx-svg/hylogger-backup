@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-16T04:47:24.481Z",
+  "scripts": 9,
+  "appScripts": [
+    "/_next/static/chunks/657-237316e74c6fb9af.js"
+  ],
+  "persistentCachePresent": false,
+  "refreshDataControlPresent": false,
+  "mineralGroupPresent": true,
+  "invalidNormalizationPresent": true,
+  "confidencePresent": true,
+  "apiOrigins": [
+    "https://api.example.com"
+  ]
+}

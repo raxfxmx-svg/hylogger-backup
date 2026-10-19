@@ -1,0 +1,161 @@
+{
+  "counts": {
+    "interpretation_sets": 5,
+    "logs": 127,
+    "metric_definitions": 48,
+    "source_metadata_documents_preserved": 13,
+    "spectral_streams": 2
+  },
+  "hole_id": "07THD002",
+  "issues": [
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustSample",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TIRDeltaTemp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Subpix",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustGroup",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecSamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Interactive Depth Logging",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustScore",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecDist (mm)",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HyLogDiag",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HoleID",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Final Mask",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "RockMarks",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TraySamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Date",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Domain",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv1",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv2",
+      "severity": "info"
+    },
+    {
+      "code": "UNRESOLVED_SOURCE_REFERENCE",
+      "detail": "No name-based replacement was made.",
+      "evidence": "93804932-f035-480b-95d6-79266ae77a1",
+      "scope": "domain_id",
+      "severity": "warning"
+    },
+    {
+      "code": "COORDINATE_DECLARATIONS_DIFFER",
+      "detail": "Canonical collar uses owner-confirmed borehole.json x/y.",
+      "evidence": {
+        "borehole_xy": [
+          121.46011927,
+          -23.56987364
+        ],
+        "xml_lon_lat": [
+          121.46011,
+          -23.569887
+        ]
+      },
+      "scope": "dataset XML",
+      "severity": "warning"
+    }
+  ],
+  "normalized_metadata_sha256": "e4e684e06353d3544e7ed8420c5ad5179c13c8063c3f69457bb7f3a23467c639",
+  "pipeline_id": "5dc45c0ef2a195bc0785da4196f018236dc8271968cdf9a1adc58022650c97fe",
+  "previous_report_sha256": "04823197df08a74084155fc10de0ec5ee3681b176375f6f3d26ce373a0c57699",
+  "python_version": "3.12.14",
+  "source_snapshot_id": "cc38581b9b2db9bd38cd6c40b4ed3265b161436aeb62130f7bf326206656818b",
+  "status": "passed_with_issues",
+  "step": 3
+}

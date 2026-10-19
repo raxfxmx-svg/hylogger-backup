@@ -1,0 +1,24 @@
+[
+  {
+    "dataset_id": "c10744cc-2e42-478a-8bc3-7cea1059044",
+    "dataset_name": "14KDD001_wedge",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/14KDD001",
+    "tray_id": "1628c605-3d99-4f51-aee1-09f76663174",
+    "section_id": "5198564d-4464-4b5e-82c6-e1723065459",
+    "domain_id": "e896fd32-5f7f-4761-ae83-853bc68212c",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>14KDD001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project></Project><Owner></Owner><DrillDate></DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>0.000000</Latitude><Longitude>0.000000</Longitude><Azimuth>0.000000</Azimuth><Inclination>0.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "dataset_id": "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+    "dataset_name": "14KDD001",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/14KDD001",
+    "tray_id": "6da8fa5d-1db2-4673-8f5f-6b8d2d5aede",
+    "section_id": "3e524742-1ac0-4920-ab48-451b119f54a",
+    "domain_id": "5657e5e5-3c71-4a06-92a1-7c75babb370",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>14KDD001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Kauring</Project><Owner></Owner><DrillDate></DrillDate><ExecSumm></ExecSumm><Datum>GDA94</Datum><Latitude>-31.919667</Latitude><Longitude>117.076382</Longitude><Azimuth>207.000000</Azimuth><Inclination>-60.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-22T00:00:00+08:00",
+    "created_date": "2018-05-15T00:00:00+08:00"
+  }
+]

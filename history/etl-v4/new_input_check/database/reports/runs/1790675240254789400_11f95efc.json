@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T09:47:19.538443+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "bench_step7_before.py",
+  "code_sha256": "0187857c9319e62b10e261b393d49684b95e866ede4dbd3af2df7c488a95573d",
+  "sha256_file_scans": 493,
+  "sha256_bytes_read": 274866791,
+  "same_check_cache_hits": 10,
+  "elapsed_seconds": 0.7107952000224032,
+  "finished_at": "2026-09-29T09:47:20.254789+00:00"
+}

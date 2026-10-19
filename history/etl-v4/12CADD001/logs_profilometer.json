@@ -1,0 +1,18 @@
+[
+  {
+    "log_id": "d8883e04-33d7-424d-8354-e2160d74039",
+    "log_name": "Profile log",
+    "sample_count": 49104,
+    "floats_per_sample": 128.0,
+    "min_val": 0.0038776398,
+    "max_val": 82.21057
+  },
+  {
+    "log_id": "729561f2-0917-496f-ae60-21879527eaf",
+    "log_name": "Profile log",
+    "sample_count": 30632,
+    "floats_per_sample": 128.0,
+    "min_val": 2.670288e-05,
+    "max_val": 73.49002
+  }
+]

@@ -1,0 +1,263 @@
+{
+  "checks": [
+    {
+      "migrations": 6,
+      "name": "Create only two isolated databases and apply all six migrations to the source database",
+      "status": "passed"
+    },
+    {
+      "datasets": 1,
+      "name": "Real batch A export and upload to an in-memory S3 test service",
+      "objects": 41,
+      "seconds": 0.328,
+      "status": "passed"
+    },
+    {
+      "datasets": 1,
+      "name": "Real batch A export and upload to an in-memory S3 test service",
+      "objects": 41,
+      "seconds": 0.296,
+      "status": "passed"
+    },
+    {
+      "name": "A complete rerun of A preserves all 39 table digests and adds no S3 objects",
+      "status": "passed",
+      "tables": 39
+    },
+    {
+      "name": "Complete-borehole selection rejects a partial dataset subset of a multi-dataset borehole",
+      "status": "passed"
+    },
+    {
+      "datasets": 2,
+      "name": "Real batch B export and upload to an in-memory S3 test service",
+      "objects": 42,
+      "seconds": 0.266,
+      "status": "passed"
+    },
+    {
+      "a_source_available": false,
+      "name": "Batch B still exports and uploads independently after local source A becomes unavailable",
+      "status": "passed"
+    },
+    {
+      "committed_datasets": 1,
+      "name": "A real transaction rolls back the second dataset in B while preserving the first",
+      "rolled_back_revision": "9969d9da-2435-51a2-9395-6938a3011fb6",
+      "status": "passed"
+    },
+    {
+      "name": "A partial merge receipt must not permit cleanup",
+      "status": "passed",
+      "unchanged_files": 2
+    },
+    {
+      "name": "A partial upload receipt must not permit cleanup",
+      "status": "passed",
+      "unchanged_files": 2
+    },
+    {
+      "candidate_release": "d2ab225c-10d8-5356-8538-2cec98828535",
+      "name": "B resumes to completion while preserving A; reruns leave all 39 table counts and contents unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "A finalize precondition mismatch rolls back the transaction and preserves the pointer",
+      "status": "passed"
+    },
+    {
+      "datasets": 3,
+      "display_samples": 7,
+      "duplicate_depth_and_null_preserved": true,
+      "full_samples": 9,
+      "name": "Retain complete sources for both final boreholes and their single/multi-dataset display selections",
+      "status": "passed"
+    }
+  ],
+  "cleanup": [
+    {
+      "fixture_file": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\batch_flow\\flow20261003\\raw\\A\\1.bin",
+      "status": "restored"
+    },
+    {
+      "database": "etl4_test_batch_flow_flow20261003_target",
+      "status": "dropped"
+    },
+    {
+      "database": "etl4_test_batch_flow_flow20261003_source",
+      "status": "dropped"
+    }
+  ],
+  "database_names": [
+    "etl4_test_batch_flow_flow20261003_source",
+    "etl4_test_batch_flow_flow20261003_target"
+  ],
+  "final_snapshot": {
+    "active_release": {
+      "count": 1,
+      "sha256": "fc59eaa0c8bad1305ca75c378f505a8e3ceac2eab66b55107f2d18abdecb6fee"
+    },
+    "asset": {
+      "count": 3,
+      "sha256": "8f3c9fb78ed26cb2349e642d049e2aa43ba0198cef6c788d8d239f2115f01f71"
+    },
+    "asset_location": {
+      "count": 3,
+      "sha256": "20476d77775157da52015ced228226a62461c6c87c76ded20621b96ff906ad37"
+    },
+    "borehole": {
+      "count": 2,
+      "sha256": "61409ddf421b32ad84b4bd8bb92b53f633898730b6866021ee175097e8d7cf97"
+    },
+    "borehole_branch": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "borehole_composite": {
+      "count": 3,
+      "sha256": "a0f543d456e155588e6077b795eb59133bc34920732ea47acb025cca4f32d172"
+    },
+    "borehole_composite_part": {
+      "count": 4,
+      "sha256": "c612e835a993acd46a2e82eec35392b3813ea462b18fac9851c9650d3e51903d"
+    },
+    "borehole_revision": {
+      "count": 2,
+      "sha256": "275c19ea7d4290aa2909cc91494bbd8ddbc208af0b0dcd3a661d89ce38af9061"
+    },
+    "core_interval": {
+      "count": 6,
+      "sha256": "6e4642cb48f868b5478aa7c1c9057cfcba2d6050b2b98d5e8bd8c730eeddf0d2"
+    },
+    "data_chunk": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "data_release": {
+      "count": 2,
+      "sha256": "8f45b738b6e6fc69d643159cb6bab436b81a332a0003e35a27f7ff8539bb1dc2"
+    },
+    "dataset": {
+      "count": 3,
+      "sha256": "8c86a6f4d4d9a95904c2980d2b184638ac66981cd141b62296ea8088af0424a4"
+    },
+    "dataset_revision": {
+      "count": 3,
+      "sha256": "4cfc0921e9294096a42fe556309cfe6f5927e08289417b9b123bb309cad515ba"
+    },
+    "dataset_segment": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "dataset_succession": {
+      "count": 1,
+      "sha256": "bf0cae8443bb3406e64d3f7b8bfb7f00323d822c6e39fc84904b1db9861f5fed"
+    },
+    "image_frame": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "image_region": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "image_region_asset": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "image_sample_mapping": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "ingest_run": {
+      "count": 2,
+      "sha256": "512e57754d2c2d351e6c6ad10eb41c320670120ec99f5c3cfccd7133cdd88343"
+    },
+    "interpretation_input": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "interpretation_set": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "log_asset": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "log_axis_binding": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "metric_definition": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "quality_issue": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "release_dataset": {
+      "count": 4,
+      "sha256": "95bd0a23b2b2f57fe49bbda8d04797702b8dfa6769a0bb86f7200badb84ed5b9"
+    },
+    "revision_validation": {
+      "count": 3,
+      "sha256": "30bd15451279f759f59d6e28f4ca56b137764ac0bfb6a29293f374b1536ac08d"
+    },
+    "sample_axis": {
+      "count": 3,
+      "sha256": "b273b8b7da3b80048e9f5f27e99b026dc0b054961a0482b88350954969bc3bd1"
+    },
+    "scan_log": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "scan_sample": {
+      "count": 9,
+      "sha256": "a178de5be4b2d01d723364378eaee0141a558b77e5e37c652b0706ad9489e4eb"
+    },
+    "schema_migration": {
+      "count": 6,
+      "sha256": "5148c192a7c13dc2bea6f7ae260e8dbfd3f13b78d3efaa0bc9080959fd556804"
+    },
+    "source_document": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "source_reference": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "spectral_array": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "spectral_block": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "spectral_sample_map": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "spectral_stream": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "survey_station": {
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  },
+  "network": "local PostgreSQL only; in-memory S3; no AWS or API",
+  "s3": {
+    "get_requests": 0,
+    "heads": 207,
+    "objects": 83,
+    "puts": 83
+  },
+  "scope": "Synthetic fixture: 2 boreholes, 3 datasets, 9 samples, and 3 small assets; software-workflow validation, not scientific acceptance",
+  "seconds": 4.625,
+  "status": "passed"
+}

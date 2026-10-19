@@ -1,0 +1,1259 @@
+{
+  "review_date": "2026-10-11",
+  "scope": "Source and preparation cases that required an adaptation after the standard processing failed; documentation only.",
+  "case_count": 16,
+  "source_index": {
+    "hylogger_aws_batch_20261005/all_section_numbering_audit.json": {
+      "sha256": "a5e30e27b5287fe4ab0dbfd2c391e0ab01e9599a4d13580a51f6562c69741dc0",
+      "archive_locator": "hylogger_aws_batch_20261005/all_section_numbering_audit.json"
+    },
+    "etl4_batch_work_20261010/section_numbering_review.json": {
+      "sha256": "c71eb3404a00be2f9b639224714dad4411b9e193967985bfcece530b6cbdfdb1",
+      "archive_locator": "etl4_batch_work_20261010/section_numbering_review.json"
+    },
+    "etl4_batch_work_20261011/section_numbering_review.json": {
+      "sha256": "38f5cef78fde51f610f61303f681d033d821ff869a61dc84f1ce71f17aa36535",
+      "archive_locator": "etl4_batch_work_20261011/section_numbering_review.json"
+    },
+    "hylogger_aws_batch_20261005/image_depth_audit.json": {
+      "sha256": "1be867100a9789d23ba56a1b5c47539ebc00252c3b5c5c4d500e0c8957d6851f",
+      "archive_locator": "hylogger_aws_batch_20261005/image_depth_audit.json"
+    },
+    "etl4_batch_work_20261005/source_variation_review.json": {
+      "sha256": "3a4db2a6bb28c5139477fabc9e09e936f3fc66668dccc07c750e70a0284f5e40",
+      "archive_locator": "etl4_batch_work_20261005/source_variation_review.json"
+    },
+    "hylogger_aws_batch_20261005/partial_section_audit.json": {
+      "sha256": "79bd914abb789d7f371de30e5ada86a496ae029eb75306c152758fb9d0723fac",
+      "archive_locator": "hylogger_aws_batch_20261005/partial_section_audit.json"
+    },
+    "etl4_batch_work_20261010/processing_changes.json": {
+      "sha256": "7a45c5ffe80d6fe0e3817bbe5d1633917ad4826ef37999dc8128292d6d9a759f",
+      "archive_locator": "etl4_batch_work_20261010/processing_changes.json"
+    },
+    "etl4_batch_work_20261011/processing_changes.json": {
+      "sha256": "802c3aa744fe4eb9604f876ae5a00d3dd8d958312aa02d3c64212c4aeed574b0",
+      "archive_locator": "etl4_batch_work_20261011/processing_changes.json"
+    },
+    "etl4_tamala1_check_20261011/comparison_summary.json": {
+      "sha256": "ecfad063e3674560fe0eb60a5a62c7bf157f575b1d2bcbef6d6611eb8f0b251b",
+      "archive_locator": "etl4_tamala1_check_20261011/comparison_summary.json"
+    },
+    "etl4_batch_work_20261005/local_processing_summary.json": {
+      "sha256": "8cabd4e6d75e22e7b7927d275ee4bc9effb18174e1babb995fe9e4e5f80394b6",
+      "archive_locator": "etl4_batch_work_20261005/local_processing_summary.json"
+    },
+    "etl4_batch_work_20261010/delivery_summary.json": {
+      "sha256": "46e74ee62abd7cefb00dcd74b66af01827d30455bbf5aba07a0ac148afa2f369",
+      "archive_locator": "etl4_batch_work_20261010/delivery_summary.json"
+    },
+    "etl4_batch_work_20261011/delivery_summary.json": {
+      "sha256": "d2055cab3291b9a078727dda5c3e599e2337d7cab3970cbcf4c1234c058129b6",
+      "archive_locator": "etl4_batch_work_20261011/delivery_summary.json"
+    }
+  },
+  "code_comparison": {
+    "_settings.py": {
+      "handoff_sha256": "580424e2ffad37a2e16f99aa26d039d667a3513de815edfcc12fbb01706df112",
+      "batch_20261011_sha256": "0b8db06fb1df5f7d4dcbc4eedb20539243abfee86b9ff2bf21f5ee2bafd974c7",
+      "same_bytes": false
+    },
+    "processing/0_check_raw.py": {
+      "handoff_sha256": "30a8b472fe9a4d426b29efbffc057aa83b46fefc4e2d7a39119fc189fa13cd34",
+      "batch_20261011_sha256": "5fdcd224a747ad25d1c0ebe8f19621592c304856aa0df6770ca9a09f5dbd8ff6",
+      "same_bytes": false
+    },
+    "processing/1_inventory.py": {
+      "handoff_sha256": "3e12a2958af847cbfaa33d50fcc15544e6c41d06699159516cb81c42bb6390ab",
+      "batch_20261011_sha256": "f913367141422a8f2900702ff6eaa129f9035be52e240815e8a5034743d54914",
+      "same_bytes": false
+    },
+    "processing/_etl_common.py": {
+      "handoff_sha256": "088ddcfc70264080098683f11d3fa169f4f29c680f2a21a1c02b35da66ccb964",
+      "batch_20261011_sha256": "1948c25cd54706d2816533fcb309a060237db4c3ffae038a504432e6141520a6",
+      "same_bytes": false
+    },
+    "processing/sample_alignment.py": {
+      "handoff_sha256": "bc3eeaa57f611c498cfa948f96d7c0e074d1d1f0475229c233735a9874c895b5",
+      "batch_20261011_sha256": "d3317ae26aae907cdef44868972d779bc039dff591e047ab07cc0c1fdd4f50a1",
+      "same_bytes": false
+    },
+    "processing/metadata_normalization.py": {
+      "handoff_sha256": "fa023208e98a57ab6661dbfb3226d2c146d9964223b95bc2ac02cea3e7ff9c31",
+      "batch_20261011_sha256": "1c31a7f3d65429092380c6eb74420f8e60b80a23958bb4de7024b4c7cb53af6a",
+      "same_bytes": false
+    },
+    "processing/payload_validation.py": {
+      "handoff_sha256": "224e2a5e1247270ac4b0d34c8553075315ec68839a9879b103add99d3aa1b948",
+      "batch_20261011_sha256": "a2bdfc74da955c0108fc9cb480c3f28bf1e14246bef6b6c4f2f2d43dd8c1c7da",
+      "same_bytes": false
+    },
+    "processing/columnar_storage.py": {
+      "handoff_sha256": "fe03716e6884ec3009b2c5a91c6a5e55de9ad87ada365b6233d87c4a47866431",
+      "batch_20261011_sha256": "d1d85514216364c72243f336a2c9fa7cbfcf525b00087f749bc52f88d26dc46f",
+      "same_bytes": false
+    },
+    "database/31_audit_multi_dataset_sources.py": {
+      "handoff_sha256": "6977959b7e7c5ba463f1ab5688c5f47111d82112599719dddc019e478c16a1e8",
+      "batch_20261011_sha256": "6977959b7e7c5ba463f1ab5688c5f47111d82112599719dddc019e478c16a1e8",
+      "same_bytes": true
+    }
+  },
+  "tray_local_sections": [
+    {
+      "hole": "16CADD002",
+      "dataset_id": "04c3638b-f0c9-41ef-94f6-ac3dfe74042",
+      "sample_count": 134804,
+      "global_label_mismatch_count": 134268,
+      "within_tray_mismatch_count": 0,
+      "review": "20261005"
+    },
+    {
+      "hole": "17DD003",
+      "dataset_id": "20ac8c87-0931-4e94-9261-c7dd4d3b84d",
+      "sample_count": 39420,
+      "global_label_mismatch_count": 38880,
+      "within_tray_mismatch_count": 0,
+      "review": "20261005"
+    },
+    {
+      "hole": "18MMDD0434",
+      "dataset_id": "94ecd7ae-6502-46e7-97f7-3c8ea7aa0cb",
+      "sample_count": 276035,
+      "global_label_mismatch_count": 275630,
+      "within_tray_mismatch_count": 0,
+      "review": "20261005"
+    },
+    {
+      "hole": "20EISD001",
+      "dataset_id": "8e2f9d18-3d35-4259-a539-8ff7b887519",
+      "sample_count": 45560,
+      "tray_count": 90,
+      "section_count": 340,
+      "global_label_mismatch_count": 45158,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "21MBRCD042",
+      "dataset_id": "04a36c0e-062d-4c49-94a5-29b98e10461",
+      "sample_count": 32357,
+      "tray_count": 50,
+      "section_count": 247,
+      "global_label_mismatch_count": 31833,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "21MBRCD043",
+      "dataset_id": "9474d1a6-24ea-4580-87bf-19163f0710c",
+      "sample_count": 18209,
+      "tray_count": 29,
+      "section_count": 139,
+      "global_label_mismatch_count": 17685,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "21MBRCD044",
+      "dataset_id": "b1777d48-1dc5-4c1b-b3f0-e81e861d172",
+      "sample_count": 15065,
+      "tray_count": 25,
+      "section_count": 115,
+      "global_label_mismatch_count": 14541,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22BGDD001",
+      "dataset_id": "7408eb54-a053-4c7e-9866-9fd16d52870",
+      "sample_count": 49520,
+      "tray_count": 86,
+      "section_count": 366,
+      "global_label_mismatch_count": 48980,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22BGDD002",
+      "dataset_id": "027c5b1a-dafc-4735-8de1-89e6b5b8638",
+      "sample_count": 46180,
+      "tray_count": 78,
+      "section_count": 341,
+      "global_label_mismatch_count": 45640,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22BGDD003",
+      "dataset_id": "39fb6f72-ed54-4292-bea8-10260e8baaf",
+      "sample_count": 47740,
+      "tray_count": 77,
+      "section_count": 352,
+      "global_label_mismatch_count": 47200,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22CRD008",
+      "dataset_id": "44642aac-0f81-4df4-b829-fc006b1f7c1",
+      "sample_count": 9520,
+      "tray_count": 14,
+      "section_count": 70,
+      "global_label_mismatch_count": 8840,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22CRD009",
+      "dataset_id": "7c854c99-8174-4147-b7c3-9863c7c3700",
+      "sample_count": 10880,
+      "tray_count": 16,
+      "section_count": 80,
+      "global_label_mismatch_count": 10200,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22CRD011",
+      "dataset_id": "9ad3d272-2f18-40e7-a91d-75c702c0b70",
+      "sample_count": 6120,
+      "tray_count": 9,
+      "section_count": 45,
+      "global_label_mismatch_count": 5440,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22EISD001",
+      "dataset_id": "f5e95faf-6cb2-49ad-b2c4-3d2b0269702",
+      "sample_count": 33768,
+      "tray_count": 66,
+      "section_count": 252,
+      "global_label_mismatch_count": 33366,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22EISD002",
+      "dataset_id": "7ec8058f-8d97-4a7b-8bad-3a5b9d9c145",
+      "sample_count": 33366,
+      "tray_count": 66,
+      "section_count": 249,
+      "global_label_mismatch_count": 32964,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22EISD003",
+      "dataset_id": "89232abe-e168-4e52-b3e8-ea3c15b0cc4",
+      "sample_count": 33523,
+      "tray_count": 67,
+      "section_count": 251,
+      "global_label_mismatch_count": 33130,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22EISD004",
+      "dataset_id": "cdcec3bd-f6ef-4bdf-bd24-95b40f4454e",
+      "sample_count": 34036,
+      "tray_count": 68,
+      "section_count": 254,
+      "global_label_mismatch_count": 33634,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22EISD005",
+      "dataset_id": "80b20f38-38af-4afd-8b64-0aaf3db8d50",
+      "sample_count": 33232,
+      "tray_count": 66,
+      "section_count": 248,
+      "global_label_mismatch_count": 32830,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22SBDD002",
+      "dataset_id": "51b192be-0b50-4d96-9174-7ed2b2212f8",
+      "sample_count": 83952,
+      "tray_count": 159,
+      "section_count": 636,
+      "global_label_mismatch_count": 83424,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "22SBDD004",
+      "dataset_id": "04dc6d7f-16c5-4014-8651-2726ef9d603",
+      "sample_count": 96624,
+      "tray_count": 183,
+      "section_count": 732,
+      "global_label_mismatch_count": 96096,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23AFDD103",
+      "dataset_id": "07dffc76-a820-4d65-a83f-57cef0923bb",
+      "sample_count": 112452,
+      "tray_count": 187,
+      "section_count": 856,
+      "global_label_mismatch_count": 111924,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23CTRCD002A",
+      "dataset_id": "bedf77ce-c4db-432e-acd1-8bb0a48ef9a",
+      "sample_count": 45031,
+      "tray_count": 73,
+      "section_count": 341,
+      "global_label_mismatch_count": 44491,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23CTRCD003",
+      "dataset_id": "f6893104-3230-475b-ae68-3388ce24114",
+      "sample_count": 85286,
+      "tray_count": 132,
+      "section_count": 650,
+      "global_label_mismatch_count": 84758,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23EISD001",
+      "dataset_id": "aeabe67d-4c0e-48fe-9ad1-c23c4d31101",
+      "sample_count": 160161,
+      "tray_count": 281,
+      "section_count": 1184,
+      "global_label_mismatch_count": 159756,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23EISD002",
+      "dataset_id": "cc7cfd5c-3947-42f7-af98-334191fec11",
+      "sample_count": 106431,
+      "tray_count": 199,
+      "section_count": 790,
+      "global_label_mismatch_count": 106026,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23MYCD0385",
+      "dataset_id": "155f99f8-2b2e-4d5c-a9fa-3ef9b5f7dc8",
+      "sample_count": 67160,
+      "tray_count": 100,
+      "section_count": 494,
+      "global_label_mismatch_count": 66620,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23MYD0532",
+      "dataset_id": "0ae9d0db-0534-4319-bf74-ebf1e6fd18f",
+      "sample_count": 54000,
+      "tray_count": 86,
+      "section_count": 398,
+      "global_label_mismatch_count": 53460,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23PTDR001",
+      "dataset_id": "037fe602-a0dc-453c-b75c-16c52b12a17",
+      "sample_count": 74162,
+      "tray_count": 114,
+      "section_count": 566,
+      "global_label_mismatch_count": 73634,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23PTDR003",
+      "dataset_id": "fe9d0364-3a81-40f4-abff-4ca2299beb7",
+      "sample_count": 106678,
+      "tray_count": 165,
+      "section_count": 814,
+      "global_label_mismatch_count": 106150,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "23TSD0001",
+      "dataset_id": "ab8b3f66-f204-4a88-94bb-4f51942a6c7",
+      "sample_count": 60580,
+      "tray_count": 93,
+      "section_count": 446,
+      "global_label_mismatch_count": 60040,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "24EKDD001",
+      "dataset_id": "56406a42-fcec-4bea-bb41-b52d6ad0390",
+      "sample_count": 43756,
+      "tray_count": 78,
+      "section_count": 333,
+      "global_label_mismatch_count": 43360,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "24MD001",
+      "dataset_id": "e85b90a4-f1ae-4906-bc5b-2f243be44c9",
+      "sample_count": 31240,
+      "tray_count": 48,
+      "section_count": 230,
+      "global_label_mismatch_count": 30700,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "24PMD0001",
+      "dataset_id": "615c4eca-9f97-4141-91e3-fe1007e2f14",
+      "sample_count": 54560,
+      "tray_count": 86,
+      "section_count": 402,
+      "global_label_mismatch_count": 54020,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "24PMD0002",
+      "dataset_id": "a63583dd-0c2f-43f0-8602-e0beb6761818",
+      "sample_count": 60340,
+      "tray_count": 91,
+      "section_count": 444,
+      "global_label_mismatch_count": 59800,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "24WBDD001",
+      "dataset_id": "1864f11b-4561-4b6b-8edc-861b6b2b11b",
+      "sample_count": 101358,
+      "tray_count": 183,
+      "section_count": 761,
+      "global_label_mismatch_count": 100826,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261010"
+    },
+    {
+      "hole": "ANDD0290",
+      "dataset_id": "67070ae4-f8f2-49f1-b323-6de362b6bdf",
+      "sample_count": 147147,
+      "tray_count": 239,
+      "section_count": 1121,
+      "global_label_mismatch_count": 146619,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0003",
+      "dataset_id": "9dbbf130-84e9-4c12-8925-35faa4e462c",
+      "sample_count": 20690,
+      "tray_count": 35,
+      "section_count": 155,
+      "global_label_mismatch_count": 20158,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0004",
+      "dataset_id": "4d1f763f-6851-49c4-8a4d-a67d2de3585",
+      "sample_count": 15784,
+      "tray_count": 25,
+      "section_count": 118,
+      "global_label_mismatch_count": 15252,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0005",
+      "dataset_id": "2cf817c7-f9e5-4308-8353-62d9ad5d044",
+      "sample_count": 15646,
+      "tray_count": 25,
+      "section_count": 117,
+      "global_label_mismatch_count": 15114,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0006",
+      "dataset_id": "bf768d7a-eca2-4283-894d-d3da78c32ed",
+      "sample_count": 21280,
+      "tray_count": 40,
+      "section_count": 160,
+      "global_label_mismatch_count": 20748,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0007",
+      "dataset_id": "15587dce-f756-4f94-bd27-90dd9edd7b9",
+      "sample_count": 58486,
+      "tray_count": 91,
+      "section_count": 437,
+      "global_label_mismatch_count": 57954,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0008",
+      "dataset_id": "c17e7d35-20bd-4e57-9fc4-60f17ccec70",
+      "sample_count": 22344,
+      "tray_count": 42,
+      "section_count": 168,
+      "global_label_mismatch_count": 21812,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0009",
+      "dataset_id": "12df4168-c8d1-4341-876a-9c1f9496b60",
+      "sample_count": 23410,
+      "tray_count": 37,
+      "section_count": 175,
+      "global_label_mismatch_count": 22878,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0010",
+      "dataset_id": "caa4b27d-8508-42ec-bebb-b4fa703f64c",
+      "sample_count": 45658,
+      "tray_count": 70,
+      "section_count": 341,
+      "global_label_mismatch_count": 45126,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBDD0011",
+      "dataset_id": "9629edcf-b3b1-40a3-8db6-369ad8d906e",
+      "sample_count": 22208,
+      "tray_count": 35,
+      "section_count": 166,
+      "global_label_mismatch_count": 21676,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBRD0056",
+      "dataset_id": "694c6629-c094-41e6-b707-f4fedc70800",
+      "sample_count": 9350,
+      "tray_count": 14,
+      "section_count": 70,
+      "global_label_mismatch_count": 8680,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBRD072",
+      "dataset_id": "acb0f2fe-7223-42b4-914f-a4606581ac5",
+      "sample_count": 44880,
+      "tray_count": 66,
+      "section_count": 330,
+      "global_label_mismatch_count": 44200,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BBRD076",
+      "dataset_id": "5e6e3966-e98b-490b-b6c9-3b517b881bd",
+      "sample_count": 61880,
+      "tray_count": 91,
+      "section_count": 455,
+      "global_label_mismatch_count": 61200,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BDD082",
+      "dataset_id": "730e6560-27cf-4e6b-b350-83a1bcf73ad",
+      "sample_count": 29868,
+      "tray_count": 38,
+      "section_count": 228,
+      "global_label_mismatch_count": 29082,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "BDD083",
+      "dataset_id": "c2e6b480-09b3-4946-ac7c-2f8ab106c02",
+      "sample_count": 25152,
+      "tray_count": 32,
+      "section_count": 192,
+      "global_label_mismatch_count": 24366,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "Beekeeper 1",
+      "dataset_id": "efdd2653-509f-4c5e-9898-4c29f03b77d",
+      "sample_count": 3024,
+      "tray_count": 8,
+      "section_count": 24,
+      "global_label_mismatch_count": 2646,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "Blina 2",
+      "dataset_id": "14a0909b-0fca-4fef-9905-e41c962f727",
+      "sample_count": 19706,
+      "tray_count": 57,
+      "section_count": 167,
+      "global_label_mismatch_count": 19352,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    },
+    {
+      "hole": "Bonaparte 2",
+      "dataset_id": "34eaa5b2-dee0-4bcd-b1d5-e4b224d3049",
+      "sample_count": 8160,
+      "tray_count": 12,
+      "section_count": 60,
+      "global_label_mismatch_count": 7480,
+      "within_tray_mismatch_count": 0,
+      "null_count": 0,
+      "raw_values_changed": false,
+      "review": "20261011"
+    }
+  ],
+  "image_depth_float32": [
+    {
+      "hole": "09THD032",
+      "dataset_id": "76a77cfe-95cc-41c9-81f4-37705c499eb",
+      "mismatch_count": 2,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "09THD033",
+      "dataset_id": "d4f7e955-74d7-4ed1-85bc-78ae44ede53",
+      "mismatch_count": 4,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "11SAVD003",
+      "dataset_id": "8c008fb5-63a6-41f9-8442-7fc10908760",
+      "mismatch_count": 27,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "12AMD0015",
+      "dataset_id": "f777c053-03d0-4403-8cf6-1acf3c4c25e",
+      "mismatch_count": 10,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "12DHDD0001",
+      "dataset_id": "1fd22ca3-4590-4b33-ba37-d8f84d4dc5b",
+      "mismatch_count": 2,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "12DHDD0002",
+      "dataset_id": "e2600191-b2dd-41fb-ace1-d36164b8651",
+      "mismatch_count": 2,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "12GMSD001",
+      "dataset_id": "9e7e9e36-a11e-47eb-9cd3-c7d4ac573ee",
+      "mismatch_count": 81,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "13TRDD012",
+      "dataset_id": "533fbd17-554b-4ec8-918c-467e13e9e64",
+      "mismatch_count": 47,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "13TRDD013",
+      "dataset_id": "27c5b310-d509-44e0-9b8c-2e1603f55c7",
+      "mismatch_count": 2,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "13TRDD014",
+      "dataset_id": "e5743239-d939-4c70-b546-208b7d2b9f2",
+      "mismatch_count": 27,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "14CADD001",
+      "dataset_id": "80ed1449-b0e1-410d-85a7-06736a15612",
+      "mismatch_count": 8,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "15BRDD001",
+      "dataset_id": "3bdc8f0a-0d28-4e87-8f02-37b12aaf4e9",
+      "mismatch_count": 13,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "15BRDD002",
+      "dataset_id": "5d998216-4eba-473b-a29a-2f1d812d3c5",
+      "mismatch_count": 2,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "15BRDD003",
+      "dataset_id": "f552cc33-7f17-4902-b756-711082a9984",
+      "mismatch_count": 17,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "15SYDD0004",
+      "dataset_id": "baa9bda8-0ae5-4ba2-a8f7-b8c11cb6e95",
+      "mismatch_count": 28,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "16CADD001",
+      "dataset_id": "ace388ac-e3a2-4ff7-a2c2-2353ffbbc5f",
+      "mismatch_count": 40,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "16CADD002",
+      "dataset_id": "04c3638b-f0c9-41ef-94f6-ac3dfe74042",
+      "mismatch_count": 62,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "16MYD0047",
+      "dataset_id": "51afa092-b66b-44f2-960c-86f9ae1a31c",
+      "mismatch_count": 13,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "16SHDD10",
+      "dataset_id": "fe7f30db-6681-480d-9896-f2c00ddd964",
+      "mismatch_count": 15,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "17BBDD002",
+      "dataset_id": "1f12c965-0d62-486c-b144-98339bb6afc",
+      "mismatch_count": 15,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "17BBDD004",
+      "dataset_id": "e06cd8f4-dc49-4e2c-b3d4-02ee70c1488",
+      "mismatch_count": 24,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "17FCHRCD001",
+      "dataset_id": "bf5965f4-aa82-4669-8a40-f062b22000f",
+      "mismatch_count": 22,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "17FCHRCD002",
+      "dataset_id": "223e930b-07b9-447a-80ef-ec06889c6dc",
+      "mismatch_count": 48,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "17NNMD001",
+      "dataset_id": "ea1593e1-6afb-4b41-bd3a-67806113de0",
+      "mismatch_count": 12,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18ABAD01",
+      "dataset_id": "9a666126-9922-4b5f-8c52-5cb75dcd561",
+      "mismatch_count": 155,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18ABAD02",
+      "dataset_id": "7db5b663-28ce-4ed8-868f-b784c8f1428",
+      "mismatch_count": 44,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18AFRD002",
+      "dataset_id": "dfa2ea42-3d6c-4cae-94b6-9c3e808a53a",
+      "mismatch_count": 16,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18EISD001",
+      "dataset_id": "755c8ab8-25e0-4c68-bc83-9013d4a60bf",
+      "mismatch_count": 95,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18EMRCD001",
+      "dataset_id": "2624eb8c-8fa5-4027-a4e3-a5d000d81bf",
+      "mismatch_count": 26,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18GSCRCD0001",
+      "dataset_id": "04a4a0a4-3db6-4627-83cd-235bd78ff55",
+      "mismatch_count": 2,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18GSCRCD0002",
+      "dataset_id": "b48dd0d1-c399-45ed-b3d1-4cc5c55ed72",
+      "mismatch_count": 20,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18KLDD007",
+      "dataset_id": "3456d746-92b1-43c5-8908-a3ac77dda6c",
+      "mismatch_count": 22,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18KLDD008",
+      "dataset_id": "73312ebc-21e4-4b41-8359-b7937e9a20a",
+      "mismatch_count": 8,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18LCDD0001",
+      "dataset_id": "32f4ff09-ea4c-41b7-b26e-c9b50f3bb96",
+      "mismatch_count": 59,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18MMDD0434",
+      "dataset_id": "94ecd7ae-6502-46e7-97f7-3c8ea7aa0cb",
+      "mismatch_count": 218,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18QMDD001",
+      "dataset_id": "13a73c10-b56a-4907-b73b-f0a4ef21cc3",
+      "mismatch_count": 1,
+      "all_identical_float32": true
+    },
+    {
+      "hole": "18QMDD002",
+      "dataset_id": "60456b68-5ce5-4d70-88ce-78b72158b38",
+      "mismatch_count": 8,
+      "all_identical_float32": true
+    }
+  ],
+  "nullable_section_labels": [
+    {
+      "hole": "15RCDVZ001",
+      "dataset_id": "115c6bdc-24e9-45ac-a3b5-4c822ae1012",
+      "sample_count": 61881,
+      "source_null_count": 15319,
+      "non_null_mismatch_count": 0,
+      "raw_values_changed": false,
+      "rule_version": "etl4-preparation-v6-null-aux-section"
+    },
+    {
+      "hole": "BM5346",
+      "dataset_id": "7be5705b-315c-4a0a-acdf-a6b9af6ccee",
+      "sample_count": 10800,
+      "null_count": 3577,
+      "non_null_mismatches": 0,
+      "source_sha256": "fdbc4e0ce9490d6d798b5153b983a89090504954708859e31d5b3dff3c45a57c",
+      "raw_values_changed": false
+    }
+  ],
+  "profile_reference_nulls": {
+    "source_null_prof_min": 15319,
+    "finite_mismatches": 0,
+    "policy": "Compare all non-null references; preserve nulls and explicit profile sampleNo."
+  },
+  "reviewed_depth_reset": {
+    "reset_after_sample": 6029,
+    "previous_depth_m": 162.87947,
+    "next_depth_m": 162.5359,
+    "tray_transition": [
+      "0009",
+      "0010"
+    ],
+    "section_transition": [
+      "45.0",
+      "46.0"
+    ],
+    "policy": "Preserve shared source depth and sample order; require exact reviewed boundary."
+  },
+  "parquet_replay": {
+    "probe_schema_and_values_equal": true,
+    "old_bytes": 2365100,
+    "new_bytes": 2364620,
+    "policy": "Reuse existing bytes only after schema, row groups, typed values and null masks agree.",
+    "nested_schema": {
+      "difference": "Arrow uses item in memory and element after Parquet serialization",
+      "policy": "Compare both on-disk schemas with metadata enabled; preserve row-group boundaries, typed value digests and null masks",
+      "same_profile_reused": true,
+      "changed_value_rejected": true,
+      "changed_metadata_rejected": true
+    }
+  },
+  "literal_text_csv": [
+    {
+      "hole": "ARMCDD001",
+      "dataset_id": "6427e561-3876-4f4a-8c0b-97b9f066345",
+      "log_id": "8aa08235-f728-419f-b578-ca9e146fe5e",
+      "log_name": "Lithology",
+      "sample_count": 68162,
+      "labels_with_commas": 3818,
+      "sha256": "579fb25beb72ba1063f2d6a75dc1bf843f58209e260311b8338fc656f31a434d",
+      "raw_values_changed": false
+    },
+    {
+      "hole": "ARMCRCD002A",
+      "dataset_id": "83905d91-791f-4165-8934-0f0b1c804de",
+      "log_id": "4d1f0ec0-76a2-4a81-88b1-fa6b12bbd45",
+      "log_name": "Lithology",
+      "sample_count": 59666,
+      "labels_with_commas": 33054,
+      "sha256": "5805e9a91f9dd7ee8f28515b777deec59a4471088a2955cdd59313ea074ca226",
+      "raw_values_changed": false
+    },
+    {
+      "hole": "ARMCRCD002A",
+      "dataset_id": "83905d91-791f-4165-8934-0f0b1c804de",
+      "log_id": "af32891f-c043-41d8-8c08-5648fba52e8",
+      "log_name": "Simplified Lithology",
+      "sample_count": 59666,
+      "labels_with_commas": 22699,
+      "sha256": "3b5d65e2730737624f08893674a7a963781b849b00748d71a4943450cc84e32c",
+      "raw_values_changed": false
+    },
+    {
+      "hole": "BM5346",
+      "dataset_id": "7be5705b-315c-4a0a-acdf-a6b9af6ccee",
+      "log_id": "357bc113-7070-4b2b-b4a3-04679c9a885",
+      "log_name": "Domain",
+      "sample_count": 10800,
+      "labels_with_commas": 1299,
+      "sha256": "5fd4a50ed4b48e21d6595afef16e9ae38090124f4bcbf6fb488adcbe4a7d6942",
+      "raw_values_changed": false
+    },
+    {
+      "hole": "BM5346",
+      "dataset_id": "7be5705b-315c-4a0a-acdf-a6b9af6ccee",
+      "log_id": "e2abbc70-f418-4482-8caf-45503ff2895",
+      "log_name": "Domain",
+      "sample_count": 10800,
+      "labels_with_commas": 1299,
+      "sha256": "5fd4a50ed4b48e21d6595afef16e9ae38090124f4bcbf6fb488adcbe4a7d6942",
+      "raw_values_changed": false
+    }
+  ],
+  "adaptations_20261010": [
+    {
+      "topic": "Downloader metadata and folder names",
+      "change": "Validate optional source_identity.json and encoded/spaced local directory names; preserve original source identifiers, including trailing whitespace."
+    },
+    {
+      "topic": "Tray-local section numbers",
+      "change": "Accept the reviewed dataset-specific convention only when every source virtual_section value equals its declared tray-local section index. Keep original global Section labels.",
+      "evidence": "section_numbering_review.json"
+    },
+    {
+      "topic": "Repeated source logs",
+      "holes": [
+        "24FNDD010",
+        "ADD10"
+      ],
+      "change": "Retain all source log metadata and raw files; select one image sequence only after full hashes, indices and depth boundaries match. Classify byte-identical Tray and Section aliases as intervals."
+    },
+    {
+      "topic": "Acacia 1 formation text",
+      "change": "Read the reviewed Formations log using literal quote characters; preserve all 160128 point rows and original text."
+    },
+    {
+      "topic": "Acacia 1 depth overlap",
+      "change": "Preserve source sample order and values at the reviewed sample 27800 depth reset; require it to coincide with both declared Tray and Section starts and require all dense depth vectors to match."
+    },
+    {
+      "topic": "24FNDD010 profile precision",
+      "sample_count": 232288,
+      "text_mismatch_count": 1,
+      "sample_no": 179248,
+      "source_scalar": 1234100.25,
+      "source_profile_min": 1234100.2,
+      "float32_mismatch_count": 0,
+      "change": "Preserve both source values. Require exact float32 equivalence across the complete axis for this reviewed dataset; retain the existing strict check for other datasets."
+    },
+    {
+      "topic": "Unclassified wavelength axes",
+      "holes": [
+        "24FNDD010",
+        "ADD10"
+      ],
+      "change": "Store UNCLASSIFIED instead of a null region code for unfamiliar axes. Preserve original wavelength coordinates and complete matrices; retain database NOT NULL constraints."
+    }
+  ],
+  "dataset_specific_rule_versions": {
+    "94ecd7ae-6502-46e7-97f7-3c8ea7aa0cb": "etl4-preparation-v5-tray-local-section",
+    "04c3638b-f0c9-41ef-94f6-ac3dfe74042": "etl4-preparation-v5-tray-local-section",
+    "20ac8c87-0931-4e94-9261-c7dd4d3b84d": "etl4-preparation-v5-tray-local-section",
+    "115c6bdc-24e9-45ac-a3b5-4c822ae1012": "etl4-preparation-v8-null-profile-reference",
+    "8a294cfc-68df-4f03-995b-c5fd0d47ab0": "etl4-preparation-v7-optional-profile",
+    "6a23f66a-00ff-44ae-9d3d-662a1c2a653": "etl4-preparation-v9-source-tray-overlap",
+    "8e2f9d18-3d35-4259-a539-8ff7b887519": "etl4-preparation-v5-tray-local-section",
+    "6427e561-3876-4f4a-8c0b-97b9f066345": "etl4-preparation-v17-literal-lithology-commas",
+    "83905d91-791f-4165-8934-0f0b1c804de": "etl4-preparation-v17-literal-lithology-commas",
+    "7be5705b-315c-4a0a-acdf-a6b9af6ccee": "etl4-preparation-v18-null-section-literal-domain",
+    "12df4168-c8d1-4341-876a-9c1f9496b60": "etl4-preparation-v5-tray-local-section",
+    "14a0909b-0fca-4fef-9905-e41c962f727": "etl4-preparation-v5-tray-local-section",
+    "15587dce-f756-4f94-bd27-90dd9edd7b9": "etl4-preparation-v5-tray-local-section",
+    "2cf817c7-f9e5-4308-8353-62d9ad5d044": "etl4-preparation-v5-tray-local-section",
+    "34eaa5b2-dee0-4bcd-b1d5-e4b224d3049": "etl4-preparation-v5-tray-local-section",
+    "4d1f763f-6851-49c4-8a4d-a67d2de3585": "etl4-preparation-v5-tray-local-section",
+    "5e6e3966-e98b-490b-b6c9-3b517b881bd": "etl4-preparation-v5-tray-local-section",
+    "67070ae4-f8f2-49f1-b323-6de362b6bdf": "etl4-preparation-v5-tray-local-section",
+    "694c6629-c094-41e6-b707-f4fedc70800": "etl4-preparation-v5-tray-local-section",
+    "730e6560-27cf-4e6b-b350-83a1bcf73ad": "etl4-preparation-v5-tray-local-section",
+    "9629edcf-b3b1-40a3-8db6-369ad8d906e": "etl4-preparation-v5-tray-local-section",
+    "9dbbf130-84e9-4c12-8925-35faa4e462c": "etl4-preparation-v5-tray-local-section",
+    "acb0f2fe-7223-42b4-914f-a4606581ac5": "etl4-preparation-v5-tray-local-section",
+    "bf768d7a-eca2-4283-894d-d3da78c32ed": "etl4-preparation-v5-tray-local-section",
+    "c17e7d35-20bd-4e57-9fc4-60f17ccec70": "etl4-preparation-v5-tray-local-section",
+    "c2e6b480-09b3-4946-ac7c-2f8ab106c02": "etl4-preparation-v5-tray-local-section",
+    "caa4b27d-8508-42ec-bebb-b4fa703f64c": "etl4-preparation-v5-tray-local-section",
+    "efdd2653-509f-4c5e-9898-4c29f03b77d": "etl4-preparation-v5-tray-local-section",
+    "340f4c72-49fb-43cd-8a30-c6efbedeff6": "etl4-preparation-v13-literal-formations-tray-overlap",
+    "2e574b9b-015b-457f-bbfd-9aa119a4fb16": "etl4-preparation-v15-identical-logs-profile-unclassified-axis",
+    "62804c78-d6e2-413b-95a1-d76b3613131f": "etl4-preparation-v15-identical-logs-unclassified-axis",
+    "037fe602-a0dc-453c-b75c-16c52b12a17": "etl4-preparation-v5-tray-local-section",
+    "07dffc76-a820-4d65-a83f-57cef0923bb": "etl4-preparation-v5-tray-local-section",
+    "0ae9d0db-0534-4319-bf74-ebf1e6fd18f": "etl4-preparation-v5-tray-local-section",
+    "155f99f8-2b2e-4d5c-a9fa-3ef9b5f7dc8": "etl4-preparation-v5-tray-local-section",
+    "1864f11b-4561-4b6b-8edc-861b6b2b11b": "etl4-preparation-v5-tray-local-section",
+    "56406a42-fcec-4bea-bb41-b52d6ad0390": "etl4-preparation-v5-tray-local-section",
+    "615c4eca-9f97-4141-91e3-fe1007e2f14": "etl4-preparation-v5-tray-local-section",
+    "a63583dd-0c2f-43f0-8602-e0beb6761818": "etl4-preparation-v5-tray-local-section",
+    "ab8b3f66-f204-4a88-94bb-4f51942a6c7": "etl4-preparation-v5-tray-local-section",
+    "bedf77ce-c4db-432e-acd1-8bb0a48ef9a": "etl4-preparation-v5-tray-local-section",
+    "e85b90a4-f1ae-4906-bc5b-2f243be44c9": "etl4-preparation-v5-tray-local-section",
+    "f6893104-3230-475b-ae68-3388ce24114": "etl4-preparation-v5-tray-local-section",
+    "fe9d0364-3a81-40f4-abff-4ca2299beb7": "etl4-preparation-v5-tray-local-section",
+    "027c5b1a-dafc-4735-8de1-89e6b5b8638": "etl4-preparation-v5-tray-local-section",
+    "04dc6d7f-16c5-4014-8651-2726ef9d603": "etl4-preparation-v5-tray-local-section",
+    "39fb6f72-ed54-4292-bea8-10260e8baaf": "etl4-preparation-v5-tray-local-section",
+    "44642aac-0f81-4df4-b829-fc006b1f7c1": "etl4-preparation-v5-tray-local-section",
+    "51b192be-0b50-4d96-9174-7ed2b2212f8": "etl4-preparation-v5-tray-local-section",
+    "7c854c99-8174-4147-b7c3-9863c7c3700": "etl4-preparation-v5-tray-local-section",
+    "7ec8058f-8d97-4a7b-8bad-3a5b9d9c145": "etl4-preparation-v5-tray-local-section",
+    "80b20f38-38af-4afd-8b64-0aaf3db8d50": "etl4-preparation-v5-tray-local-section",
+    "89232abe-e168-4e52-b3e8-ea3c15b0cc4": "etl4-preparation-v5-tray-local-section",
+    "9474d1a6-24ea-4580-87bf-19163f0710c": "etl4-preparation-v5-tray-local-section",
+    "9ad3d272-2f18-40e7-a91d-75c702c0b70": "etl4-preparation-v5-tray-local-section",
+    "aeabe67d-4c0e-48fe-9ad1-c23c4d31101": "etl4-preparation-v5-tray-local-section",
+    "b1777d48-1dc5-4c1b-b3f0-e81e861d172": "etl4-preparation-v5-tray-local-section",
+    "cc7cfd5c-3947-42f7-af98-334191fec11": "etl4-preparation-v5-tray-local-section",
+    "cdcec3bd-f6ef-4bdf-bd24-95b40f4454e": "etl4-preparation-v5-tray-local-section",
+    "f5e95faf-6cb2-49ad-b2c4-3d2b0269702": "etl4-preparation-v5-tray-local-section",
+    "04a36c0e-062d-4c49-94a5-29b98e10461": "etl4-preparation-v5-tray-local-section",
+    "7408eb54-a053-4c7e-9866-9fd16d52870": "etl4-preparation-v5-tray-local-section"
+  },
+  "tamala_local_validation": {
+    "status": "local_processing_passed_with_source_metadata_warnings",
+    "aws_uploaded": false,
+    "database_imported": false,
+    "total_samples": 7390,
+    "media": {
+      "code_sha256": "e9a4a81b8df0a80138ed1c88f3e6a4aef0b15ebb9ef713dd1831feade57d197f",
+      "contact_sheets": {
+        "33_review_1.png": "9d84443d0b6d016154e38f7557cf573c295fc2357d5ace149d64eed27cf6a2e9"
+      },
+      "dataset_count": 3,
+      "row_count": 55,
+      "spectral_arrays": 6,
+      "status": "passed"
+    },
+    "profile_alignment_checks": [
+      {
+        "dataset": "Tamala 1",
+        "checks": [
+          {
+            "compared_sample_count": 6030,
+            "max_absolute_difference": 3.688964838488573e-06,
+            "method": "minimum strictly positive profile value; all-zero row represented by 0; alignment evidence only",
+            "profile_log_id": "53d5ed03-3aae-4833-aefb-e683d3e258b",
+            "sample_count": 6030,
+            "scalar_log_id": "6192d2f2-970b-4c7a-92c8-13bee471fc6",
+            "source_null_reference_count": 0,
+            "tolerance": 0.0001
+          }
+        ]
+      },
+      {
+        "dataset": "Tamala 1_cuttings",
+        "checks": [
+          {
+            "compared_sample_count": 680,
+            "max_absolute_difference": 1.905517578393301e-06,
+            "method": "minimum strictly positive profile value; all-zero row represented by 0; alignment evidence only",
+            "profile_log_id": "3c1ddc8c-0df2-4c75-86cd-c0ac7786f0e",
+            "sample_count": 680,
+            "scalar_log_id": "de904437-1c52-43c1-91b8-1030a65256a",
+            "source_null_reference_count": 0,
+            "tolerance": 0.0001
+          }
+        ]
+      },
+      {
+        "dataset": "Tamala 1_cuttings2",
+        "checks": [
+          {
+            "compared_sample_count": 680,
+            "max_absolute_difference": 1.905517578393301e-06,
+            "method": "minimum strictly positive profile value; all-zero row represented by 0; alignment evidence only",
+            "profile_log_id": "34ca9bf7-5148-468f-9bcc-ad28a0d9dde",
+            "sample_count": 680,
+            "scalar_log_id": "63be4311-6bb4-4772-8caa-ac7f8b69030",
+            "source_null_reference_count": 0,
+            "tolerance": 0.0001
+          }
+        ]
+      }
+    ]
+  },
+  "historical_validation": {
+    "etl4_batch_work_20261005": {
+      "new_holes": 87,
+      "local_acceptance_by_batch": {
+        "batch_01": "passed",
+        "batch_02": "passed",
+        "batch_03": "passed",
+        "batch_04": "passed",
+        "batch_05": "passed",
+        "batch_06": "passed",
+        "batch_07": "passed",
+        "batch_08": "passed",
+        "batch_09": "passed",
+        "batch_10": "passed",
+        "batch_11": "passed"
+      }
+    },
+    "etl4_batch_work_20261010": {
+      "status": "published",
+      "new_holes": 148,
+      "batch_count": 21,
+      "raw_files_modified": false
+    },
+    "etl4_batch_work_20261011": {
+      "status": "published",
+      "new_holes": 139,
+      "batch_count": 18,
+      "raw_files_modified": false
+    }
+  },
+  "original_sources_not_bundled": "The source index contains archived record names and hashes; the package contains selected evidence, not source datasets, credentials, signed URLs, or full run logs."
+}

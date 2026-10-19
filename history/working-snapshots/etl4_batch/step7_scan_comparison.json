@@ -1,0 +1,18 @@
+{
+  "before": {
+    "status": "passed",
+    "sha256_file_scans": 493,
+    "sha256_bytes_read": 274866791,
+    "same_check_cache_hits": 10,
+    "elapsed_seconds": 0.7107952000224032,
+    "source_sha256": "99d54b22f0fcf2ecc403aca59cb4cf0d9ea0bc403efdc527c58fbdbd1222b119"
+  },
+  "after": {
+    "status": "passed",
+    "sha256_file_scans": 11,
+    "sha256_bytes_read": 1026202,
+    "same_check_cache_hits": 0,
+    "elapsed_seconds": 0.016129700001329184,
+    "source_sha256": "858d4f51cb20b4b518a49ee3a14eeec87253d46b3812824ad247c5b4ea45c9b1"
+  }
+}

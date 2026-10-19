@@ -1,0 +1,33 @@
+{
+  "assets": [
+    {
+      "asset_kind": "fixture",
+      "byte_size": 26,
+      "dataset_revision_id": "3f5bb5e8-1b49-56d8-98cb-d7ffde84277a",
+      "id": "1eb5b365-90f8-5158-b198-9888acab9c18",
+      "logical_path": "2.bin",
+      "media_type": "application/octet-stream",
+      "provenance": {
+        "fixture": true
+      },
+      "representation": "raw",
+      "semantic_status": "fixture_only",
+      "sha256": "0028b22a15f6033901c2caabdcaf96262b29e02aadec72b9fe81a336adf1a971"
+    },
+    {
+      "asset_kind": "fixture",
+      "byte_size": 26,
+      "dataset_revision_id": "9969d9da-2435-51a2-9395-6938a3011fb6",
+      "id": "3e72d5f6-a433-5a53-82a4-2fccde67eac0",
+      "logical_path": "3.bin",
+      "media_type": "application/octet-stream",
+      "provenance": {
+        "fixture": true
+      },
+      "representation": "raw",
+      "semantic_status": "fixture_only",
+      "sha256": "24b186be90b35c605ef1ce272d21c76ac81181592cc7c42cd5613e4b9fe2d1a2"
+    }
+  ],
+  "release_id": "9c6141a9-8f25-5f4b-991d-bffa7e752343"
+}

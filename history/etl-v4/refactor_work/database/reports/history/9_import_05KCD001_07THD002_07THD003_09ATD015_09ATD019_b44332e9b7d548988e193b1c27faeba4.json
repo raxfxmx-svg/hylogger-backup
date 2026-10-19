@@ -1,0 +1,33 @@
+{
+  "elapsed_seconds": 1.9766681999899447,
+  "holes": [
+    {
+      "action": "already_present",
+      "dataset_revision_id": "97afdd4f-28d3-5f43-b01f-53f8d4ed17a5",
+      "hole_id": "05KCD001"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "20bc66d6-78c8-5a46-9c5e-23d0fe9e67f9",
+      "hole_id": "07THD002"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "89130553-7a4f-53d9-8a8a-3221e8a0569d",
+      "hole_id": "07THD003"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "6f6a3838-72ef-5132-93c9-c2f0eaf12ffc",
+      "hole_id": "09ATD015"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "83ac0dd4-a7c6-5667-84ec-899f8d2eb9be",
+      "hole_id": "09ATD019"
+    }
+  ],
+  "recorded_at": "2026-09-28T17:15:40.612178+00:00",
+  "run_id": "09ff2f56-d547-42fe-a240-3d930cbdc0b4",
+  "status": "staged"
+}

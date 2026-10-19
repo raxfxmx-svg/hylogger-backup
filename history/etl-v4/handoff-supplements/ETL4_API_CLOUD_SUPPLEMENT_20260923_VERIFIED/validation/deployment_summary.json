@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-17T17:30:22.378883+00:00",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "account": "000000000000",
+  "region": "ap-southeast-2",
+  "cluster": "database-1",
+  "cluster_resource_id": "cluster-EXAMPLE",
+  "database": "etl4_core",
+  "database_bytes": 150815987,
+  "reader": "etl4_reader",
+  "s3_bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+  "s3_prefix": "etl4/releases/fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "locations": 3042,
+  "objects": 2810,
+  "s3_bytes": 2400546756,
+  "public_access_block": {
+    "BlockPublicAcls": true,
+    "IgnorePublicAcls": true,
+    "BlockPublicPolicy": true,
+    "RestrictPublicBuckets": true
+  },
+  "api_acceptance": "passed",
+  "launcher_check": "passed",
+  "public_api_hosted": false,
+  "runtime_sources_utf8_lf_sha256": {
+    "cloud_api/app.py": "0c2038c0ba518d965e8efdaa91dfe8bb21b0eba6b0a6ea116a48bdefd34457c8",
+    "cloud_api/reader.py": "94c38c7e431a04f74666a5914cdc5b5b536ed43392214cb25eaf057c07009a07",
+    "cloud_api/storage.py": "759ba6b61198e19d5ec0c551f18fe4f24ae29e04a339c62904a28d33f7744315",
+    "deployment/cloud_runner.py": "a052cc562465fb9bb0f1c7c03821790fe8be73e6fb90c523d9f70b846001048f",
+    "deployment/smoke_cloud.py": "496dc52c549f6ebf4c929fcdc83b78c13671724eb8044823d2ec5fbaca92591e",
+    "deployment/run_api.py": "e014e6570f0800b89a16e412dfa39a3847863890aa5c8ca75998842eb7607880"
+  },
+  "runtime_packages": {
+    "psycopg": "3.2.9",
+    "numpy": "2.3.2",
+    "pyarrow": "21.0.0",
+    "fastapi": "0.116.1",
+    "uvicorn": "0.35.0",
+    "Pillow": "11.3.0",
+    "httpx": "0.28.1",
+    "boto3": "1.43.96",
+    "botocore": "1.43.96",
+    "certifi": "2026.7.22"
+  }
+}

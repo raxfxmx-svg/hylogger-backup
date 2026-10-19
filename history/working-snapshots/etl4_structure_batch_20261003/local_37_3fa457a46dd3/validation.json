@@ -1,0 +1,97 @@
+{
+  "api_or_aws_used": false,
+  "earlier_script_failure": "The test used a production report writer restricted to database_dir; it stopped before database creation and preserved the failed work directory",
+  "elapsed_seconds": 0.37507219999679364,
+  "error": "OFFLINE_GUARD: database connection intentionally refused",
+  "error_type": "AssertionError",
+  "frames": [
+    {
+      "file": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\check_37_old_new.py",
+      "function": "run_check",
+      "line": 208
+    },
+    {
+      "file": "C:\\path\\to\\project\\etl4\\database\\_db_common.py",
+      "function": "connection",
+      "line": 78
+    },
+    {
+      "file": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\unittest\\mock.py",
+      "function": "__call__",
+      "line": 1139
+    },
+    {
+      "file": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\unittest\\mock.py",
+      "function": "_mock_call",
+      "line": 1143
+    },
+    {
+      "file": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\unittest\\mock.py",
+      "function": "_execute_mock_call",
+      "line": 1204
+    },
+    {
+      "file": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\check_37_old_new.py",
+      "function": "connect",
+      "line": 112
+    },
+    {
+      "file": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\unittest\\mock.py",
+      "function": "__call__",
+      "line": 1139
+    },
+    {
+      "file": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\unittest\\mock.py",
+      "function": "_mock_call",
+      "line": 1143
+    },
+    {
+      "file": "C:\\Users\\USER\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\unittest\\mock.py",
+      "function": "_execute_mock_call",
+      "line": 1198
+    }
+  ],
+  "input_checks": {
+    "elapsed_seconds": 0.2586509999964619,
+    "same_check_cache_hits": 432,
+    "sha256_bytes_read": 6609721,
+    "sha256_file_scans": 172
+  },
+  "input_identity": [
+    {
+      "axis_id": "f874a902-9fa0-51e9-ac14-27a1c9d6dc20",
+      "dataset_id": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+      "dataset_revision_id": "984f74b7-3ba5-5d14-bf9d-9f8f783d1506",
+      "input_digest": "7841dced30c03013bb9223e7a2cbade94e3fcf6e899f90b0946302a912db5fb0"
+    }
+  ],
+  "only_created_trial_database_modified": true,
+  "output_directory": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\local_37_3fa457a46dd3",
+  "preflight": {
+    "config_file": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\runtime\\local_config.json",
+    "database_accessed": false,
+    "first_acceptance": "C:\\path\\to\\project\\etl4\\single_final_check_20260930\\database\\reports\\local_acceptance_1_ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05.json",
+    "first_acceptance_sha256": "e4bfdf6bcf2af76822b7773141de4c1bcffd651e3f0a16cab0cec7c4a7781c47",
+    "host": "127.0.0.1",
+    "new_source_sha256": "513fbec07dd334cfb2c05c6467c7eb7518a4835ea83f6a486668e3f3deeba316",
+    "old_source": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\code_before\\etl4\\database\\_final_import.py",
+    "old_source_sha256": "fbf25a9093af2d335eae49b46736608841487fbf425514154a3b46c6d8ccc712",
+    "package": "C:\\path\\to\\project\\etl4\\structure_input_20260930\\database\\media_releases\\ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05",
+    "pending_before_database_creation": "Compare the complete prepared package and contents against the actual first validation",
+    "port": 55433,
+    "prepared_work": "C:\\path\\to\\project\\etl4\\structure_input_20260930",
+    "scope": {
+      "datasets": 1,
+      "hole": "14CADD003",
+      "row_images": 12,
+      "samples": 1584,
+      "spectral_arrays": 2
+    },
+    "status": "metadata_ready"
+  },
+  "raw_or_prepared_files_modified": false,
+  "status": "failed",
+  "trial_database": "etl4_test_structure37_3fa457a46dd3",
+  "trial_database_created": false,
+  "trial_database_dropped": false
+}

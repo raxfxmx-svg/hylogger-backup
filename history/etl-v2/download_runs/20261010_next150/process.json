@@ -1,0 +1,15 @@
+{
+  "status": "finished",
+  "requested": 150,
+  "workers": 5,
+  "reserve_gib": 30,
+  "runner_pid": 40288,
+  "download_pid": 15200,
+  "process_start_utc": "2026-10-09T19:06:40.0287371Z",
+  "stdout": "C:\\path\\to\\project\\etl2\\download_runs\\20261010_next150\\20261010_030640_009_download.log",
+  "stderr": "C:\\path\\to\\project\\etl2\\download_runs\\20261010_next150\\20261010_030640_009_download.err.log",
+  "raw_directory": "D:\\100demo\\data\\raw",
+  "cache_directory": "D:\\100demo\\data\\cache",
+  "exit_code": 0,
+  "finished_utc": "2026-10-09T22:19:42.3075603Z"
+}

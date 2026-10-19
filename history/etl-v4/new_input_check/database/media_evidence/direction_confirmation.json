@@ -1,0 +1,11 @@
+{
+  "source_depth_direction": "left_to_right",
+  "direction_status": "confirmed",
+  "direction_basis": "project_owner_confirmation_in_this_conversation",
+  "confirmed_on": "2026-09-29T04:08:05.668790+00:00",
+  "scope": [
+    "09ATRCD025",
+    "12BRDDH003"
+  ],
+  "statement": "Left-to-right direction confirmed for both boreholes."
+}

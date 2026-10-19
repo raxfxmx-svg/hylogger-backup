@@ -1,0 +1,16 @@
+{
+  "modules": [
+    "test_local_batch",
+    "test_batch_export",
+    "test_validation_flow",
+    "test_code_structure"
+  ],
+  "tests_run": 51,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "syntax_files": 5,
+  "elapsed_seconds": 15.784,
+  "real_database_connection_blocked": true,
+  "aws_access": false
+}

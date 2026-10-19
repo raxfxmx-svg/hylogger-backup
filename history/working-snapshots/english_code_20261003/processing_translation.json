@@ -1,0 +1,58 @@
+[
+  {
+    "file": "etl4\\processing\\0_check_raw.py",
+    "replacements": 78
+  },
+  {
+    "file": "etl4\\processing\\1_inventory.py",
+    "replacements": 2
+  },
+  {
+    "file": "etl4\\processing\\2_validate_payloads.py",
+    "replacements": 1
+  },
+  {
+    "file": "etl4\\processing\\3_normalize_metadata.py",
+    "replacements": 1
+  },
+  {
+    "file": "etl4\\processing\\4_align_samples.py",
+    "replacements": 1
+  },
+  {
+    "file": "etl4\\processing\\5_build_columnar.py",
+    "replacements": 1
+  },
+  {
+    "file": "etl4\\processing\\6_verify_prepared_data.py",
+    "replacements": 8
+  },
+  {
+    "file": "etl4\\processing\\columnar_storage.py",
+    "replacements": 5
+  },
+  {
+    "file": "etl4\\processing\\metadata_normalization.py",
+    "replacements": 14
+  },
+  {
+    "file": "etl4\\processing\\payload_validation.py",
+    "replacements": 3
+  },
+  {
+    "file": "etl4\\processing\\sample_alignment.py",
+    "replacements": 4
+  },
+  {
+    "file": "etl4\\processing\\_etl_common.py",
+    "replacements": 8
+  },
+  {
+    "file": "etl4\\_settings.py",
+    "replacements": 31
+  },
+  {
+    "file": "etl4\\_file_checks.py",
+    "replacements": 5
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "path": "frontend/.env.local.example",
+    "sha": "9232e982ab24055d9b885203093899482fa93541"
+  },
+  {
+    "path": "frontend/app/compare/page.js",
+    "sha": "e608a697953066b9fad86fb31dbf8b5a91a350c5"
+  },
+  {
+    "path": "frontend/app/globals.css",
+    "sha": "13df75ec675eaa1dc3630848714f51b0fbd2defb"
+  },
+  {
+    "path": "frontend/app/layout.js",
+    "sha": "ab1a55701477ce739b6191946f0cc551c4fb1fea"
+  },
+  {
+    "path": "frontend/app/page.js",
+    "sha": "f458fd1df7488f7aafc385d3cf64daf744b96980"
+  },
+  {
+    "path": "frontend/app/viewer3d/page.js",
+    "sha": "3792993b19cf19452253299c569cc13933f53b1f"
+  },
+  {
+    "path": "frontend/components/CoreStripPanel.jsx",
+    "sha": "f0d3092644e923995800871ab4ab9dd32dda396f"
+  },
+  {
+    "path": "frontend/components/CoreTrays.jsx",
+    "sha": "cf173d6e15558dc2ad1c9d397afc2c01ff29f56f"
+  },
+  {
+    "path": "frontend/components/Hole3D.jsx",
+    "sha": "59a79f946c2171c3a313766a5b2e4d7681952846"
+  },
+  {
+    "path": "frontend/components/HoleDetail.jsx",
+    "sha": "35bc79272ebf766a0963b0fc114eb2f6a37ca6fc"
+  },
+  {
+    "path": "frontend/components/HoleMap.jsx",
+    "sha": "4d75fd076df2e902b50902583c37068da220f1fd"
+  },
+  {
+    "path": "frontend/components/MapPanel.jsx",
+    "sha": "e85ee648cd7ff43e4bf39d57c6ab86cf4e2e0015"
+  },
+  {
+    "path": "frontend/components/Nav.jsx",
+    "sha": "740f53354bb93a8f298d0cb2e3c980f3399c48aa"
+  },
+  {
+    "path": "frontend/components/StripLog.jsx",
+    "sha": "01671f924dc0d3152ff3aa16e3db1b301cea6de1"
+  },
+  {
+    "path": "frontend/config.js",
+    "sha": "af0c4ed362580b4fe293e0a9b321ecae3bcb37b4"
+  },
+  {
+    "path": "frontend/jsconfig.json",
+    "sha": "558b087deb6449606962d0deca99e07e8c42f0e0"
+  },
+  {
+    "path": "frontend/lib/api.js",
+    "sha": "20718dca3d3eb8fcd8e6ee9bb4d5c60daecd3eaf"
+  },
+  {
+    "path": "frontend/lib/coreMesh.js",
+    "sha": "36ad8a44a73d692a824dc932b2f27db7856051dc"
+  },
+  {
+    "path": "frontend/lib/desurvey.js",
+    "sha": "f9057b6c759edc731ed59d21b01bee3bb4e192b3"
+  },
+  {
+    "path": "frontend/lib/format.js",
+    "sha": "7a07b56cbf376997a71c7956f6883ea2cfa6ddcc"
+  },
+  {
+    "path": "frontend/next.config.js",
+    "sha": "1c8c8f1c54b311082c89597880b0009a81816274"
+  },
+  {
+    "path": "frontend/package-lock.json",
+    "sha": "3b15ce6464467c7ef938a9f968b6968bc46f44ad"
+  },
+  {
+    "path": "frontend/package.json",
+    "sha": "efd57ebcbd9bf195095aface1fcf0f1092e68074"
+  }
+]

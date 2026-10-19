@@ -1,0 +1,4932 @@
+[
+  {
+    "log_id": "009d9545-b0ae-4744-ba64-42946f05b72",
+    "log_name": "Min2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0106c28f-ee39-40ae-b7c5-0933692e506",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "030dcaf5-f50a-4449-ba52-788123698c3",
+    "log_name": "Unbound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0995bd0a-942a-497b-954f-42acc22ba3f",
+    "log_name": "Wt3 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0c9b7206-109d-4c5e-98a2-51e5927aa7f",
+    "log_name": "Wt1 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0f73d94c-3f2e-4cbb-a2c2-19500bdbc1f",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "105e335c-0d6c-4339-b640-0975b8e30aa",
+    "log_name": "Grp3 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1494d371-56a3-4a20-a726-b6d17173aa3",
+    "log_name": "sRGB Tot Sat",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "160f479e-584f-4632-b63b-04ec2b68b7f",
+    "log_name": "Wt2 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "16349f48-56ed-42c2-a52b-9e82ae9c32d",
+    "log_name": "Quartz absorption depth Rmean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "17e81b89-162b-44b7-bd5c-55322b543e4",
+    "log_name": "Grp3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1877eca1-9e35-42b6-899b-3a69ec01396",
+    "log_name": "Carbonate abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1bdda7a9-917a-478e-a79b-d641c3a187d",
+    "log_name": "sec_end_mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1e3cd24a-baff-463d-ae09-be374866a10",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1e92b50b-5359-4ce4-8151-072b9ea767c",
+    "log_name": "NIL_Stat sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "101",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1e993737-eca0-417d-bbe0-cbbd7f24957",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1f6fca30-ddbd-4e50-b153-2173b695900",
+    "log_name": "Carbonate 11300nm WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "21e7e373-0119-4c86-8d57-3257b1ceb50",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "232940a9-5c9b-41e2-a14a-c4ca13a375c",
+    "log_name": "AspRat sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2419be31-ba1e-45cd-ada1-057d4ad3624",
+    "log_name": "SNR ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "243f7aac-659b-4c03-90c5-2299d871fdb",
+    "log_name": "Wt3 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "24566136-4698-487d-a5f4-647662eed78",
+    "log_name": "Error sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2a90ac76-84a5-42cc-ab15-57f48ec20b2",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2bd0eba7-db6a-45c8-8d24-0b984ed506e",
+    "log_name": "Min1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2c33e93d-0b03-4cfe-8583-80511458089",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2ce8285a-6714-4556-ac5b-285ee95e84a",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2f29734b-10fd-4cb9-a5e0-e5fba01fc74",
+    "log_name": "Grp1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "33881f7d-ed78-428b-bf0e-2b12e592ba1",
+    "log_name": "Wt2 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "36d0bd79-342c-4f71-be75-841586b8150",
+    "log_name": "SNR sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "386d4871-03af-4435-ab28-64ad48bc999",
+    "log_name": "w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "39d89d4a-1502-4a79-9c7e-a195636454a",
+    "log_name": "Wt2 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3b66711f-39ac-4485-8f0f-985f81f6d91",
+    "log_name": "Felsic-Mafic Index wvl RMean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3ca9e193-b04c-4be0-8e4d-cb2fa55215f",
+    "log_name": "AspRat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3e9682eb-b816-42ff-9f48-284a5ca167d",
+    "log_name": "Cu %",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3f8026ac-ba30-4f81-93f1-4b372ede8df",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4040779b-e5ab-448c-a29a-1f0ec6496bf",
+    "log_name": "Carbonate 11300nm Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "45521bc4-f6ee-4977-8ced-6b8e0c41188",
+    "log_name": "Section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "47a0f118-585d-4fed-864f-83355fc2513",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4e64c704-1c3f-4c0c-9c43-ff8643f2d9b",
+    "log_name": "Grp1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4ee5f758-d910-4875-8689-af85bae21c2",
+    "log_name": "White Mica w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "50904dc4-211f-438f-8524-db5567791dc",
+    "log_name": "AspRat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5557a178-bb16-45fa-9a73-470e68a95ee",
+    "log_name": "TirBkgOffset",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "556ea322-2e6f-4335-8a05-d4e2457dc6a",
+    "log_name": "TNorm sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "55c246b5-96fd-456a-b0f0-0ed09f4e6cd",
+    "log_name": "Min3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "56cbe69c-d645-486b-9332-816e499d514",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "578aab91-867d-401f-a7f3-4761cbf3215",
+    "log_name": "SNR sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "58500267-3417-4770-9e22-6b31e0e5891",
+    "log_name": "Calcite-dolomite-magnesite",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5b9df7bd-ac3c-4b75-90ee-0e4493d72df",
+    "log_name": "Min3 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5cee7f12-6a31-4371-bfbb-4058a6069df",
+    "log_name": "Min2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5e54fa83-eeca-4a1e-95cb-285bf70d293",
+    "log_name": "chlorite-epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5e633591-0d2b-44ee-aaeb-35c51f6ab54",
+    "log_name": "Carbonate 6500nm Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "60398a5d-0886-4b8c-9ec4-beb77818e78",
+    "log_name": "Wt3 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "60bcc173-277d-4f82-a241-8e1b2a99564",
+    "log_name": "Carbonate 6500 Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "61cf7f00-38c7-4446-b3cd-91c9b9b8c2e",
+    "log_name": "Wt2 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "629d2d0d-6005-4059-ab00-3eea4907abf",
+    "log_name": "Grp3 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "637082d9-dc36-49c5-9693-e735b83b21f",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "65439726-3f16-4549-9753-9e060aa931f",
+    "log_name": "Tray",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "66775684-8051-4700-89ba-365aa5c63cd",
+    "log_name": "Min3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "66ba2717-96e9-4271-b07f-bbee57d61e6",
+    "log_name": "Grp1 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "688a74fe-35a6-452e-8857-80cb7d3e011",
+    "log_name": "SNR sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "100",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "69b95ccd-d766-477c-bfe6-a0d25d4f30a",
+    "log_name": "Grp3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "6c0a97b9-318a-47ad-95a4-6f08b423f01",
+    "log_name": "NIL_Stat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "76a3db63-9b7c-4660-87f7-46a4bc4b755",
+    "log_name": "AspRat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "786c5e42-5219-4376-8e99-e50524a19e9",
+    "log_name": "Grp1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "788cdc02-6780-4f99-8346-43b589e00a4",
+    "log_name": "Min2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "79e2c149-71b5-43ae-ab73-6c29a064ea0",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "79e8448f-1861-47fb-b921-7692783d3eb",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "7ce26856-3897-4cbb-93a2-7e2c1c9076b",
+    "log_name": "Au ppm",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "7fbe3372-1ff7-479b-89cd-986d6fccc47",
+    "log_name": "Wt3 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "80f4e337-dca9-49b0-8be0-45d330812cf",
+    "log_name": "Quartz absorption Depth",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "842c5e55-4d4f-4d9a-ad52-b315fc4f23b",
+    "log_name": "Hematite-goethite_distr",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "847636d0-ed89-4bb3-8642-07aa11b722c",
+    "log_name": "TNorm ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "8955edcd-8b93-4781-8931-056e4b68c04",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "8dead078-01e6-41d3-ba76-807c0fb0d1d",
+    "log_name": "TNorm sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "8e169b51-be34-45c9-b372-bbd74f986d5",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "92809ad8-b3b5-4d84-879b-0fb367307a7",
+    "log_name": "NIL_Stat sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "99bd91df-9acb-4a8c-a733-bf50199c7b6",
+    "log_name": "Wt1 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9a510a7f-96dc-4b08-a9a8-faa91c1601e",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9a955cd3-1cdd-4759-84c6-c2ff750d199",
+    "log_name": "Unbound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9ea453db-8bd5-4185-b94f-bb4e687d324",
+    "log_name": "Grp1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "a8087745-b195-4a76-8318-142173bd638",
+    "log_name": "Grp2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "a91c2f6a-7b8c-4d2f-897f-706960c47c7",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "a9c8ede7-0043-44c8-9680-afbab34b699",
+    "log_name": "Wt1 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ab1f80f6-02cc-4955-b0a9-b15bc43aa3d",
+    "log_name": "Min1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "acb475ec-56ae-4836-9bdb-8a240c5eb7c",
+    "log_name": "Min1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "add39817-4f9b-498d-98f7-6e126a87ff7",
+    "log_name": "SNR uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b0ef450c-00ad-408e-a262-f1f8386530e",
+    "log_name": "NIL_Stat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b13e5de7-750a-476d-be1b-aef28b5b7ce",
+    "log_name": "Min2 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b1dc5723-0a6a-49cc-914e-656f4a71563",
+    "log_name": "Ferric oxide abundance 25062014",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b45eec3b-9ac6-4602-a5d6-c891384a4c9",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b477d29a-6b12-45ec-9a82-882377dce97",
+    "log_name": "chlorite-epidote composition",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b77283ff-8d38-46ba-a115-bbd8e7a5c0e",
+    "log_name": "Wt1 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "bc4c6df8-7fb1-4eac-ad4f-ad4b2432a81",
+    "log_name": "Min1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "be8c9d4f-321e-4ddf-b702-71c6aaa0b37",
+    "log_name": "TNorm uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "bed6e191-04ba-4d49-851a-d469a9d1b43",
+    "log_name": "Wt2 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "bef8c080-2d80-473c-9fdd-a54532f6bf0",
+    "log_name": "Albedo",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c6571b26-f154-4730-b784-d6e105675d4",
+    "log_name": "NIL_Stat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "cacd3a72-432a-4fec-94fb-e66c6c5a43a",
+    "log_name": "Bound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "cd38673f-793a-466c-91e7-ce9a9d8ba38",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ce3011b5-0420-4924-8820-1f516091ec5",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ceb77868-2356-474f-8175-da8100eb5eb",
+    "log_name": "Felsic-Mafic Index Wvl",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "cf7f6e24-7068-44df-9781-a1212944e33",
+    "log_name": "Bound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d1d7e27b-e7b2-41e5-a67f-741ad9b417d",
+    "log_name": "prof_min",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d2e66c8d-b859-41c3-b8b9-3fdff2a9997",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d39f4e15-fa48-465e-aae8-218407e72e2",
+    "log_name": "Chlorite w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d52318c9-ff84-4e92-9487-c9663ec14ba",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d646cdbd-6acb-427f-b63e-920fc335703",
+    "log_name": "Grp2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dc1a89bc-77b8-4a43-ab1d-ad425cbb36c",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dec8998e-4286-4d74-8243-de711fc521b",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dece8427-f261-41b6-bc81-cbdfe196684",
+    "log_name": "Lithology",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e0a1e072-33cb-4d2c-a02f-bcff03e4b7f",
+    "log_name": "Grp2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e359782b-652d-470a-a252-56b924a0935",
+    "log_name": "Grp2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e5828a4a-5e7f-4b29-8139-a7cba8b9a24",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e5fe89b9-8859-4ea0-9f2a-eb0e3ea5b02",
+    "log_name": "Min3 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e605c4ab-58b1-475c-b3f2-3dd9f601c7a",
+    "log_name": "Error sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "99",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e8e238cb-ea70-4c0b-bc29-b528aeb622c",
+    "log_name": "epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e9f691ab-50e2-40f0-a579-a86900eab2e",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "eb369615-dadb-454b-aabb-4c19038fab8",
+    "log_name": "Min2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "eb8b5b93-60c6-4f27-a274-54f2887e6e1",
+    "log_name": "Grp2 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "eda21db4-9856-4468-bd25-40e75ba73b6",
+    "log_name": "Wt1 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ee40d02c-7b14-41c0-aa77-c7366c95fb9",
+    "log_name": "w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f04bfd7a-483c-445a-a20b-c665c10126a",
+    "log_name": "Error ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f43e1a94-1912-4509-a7ee-b8e246edb82",
+    "log_name": "Error sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f43ec23b-bf5f-4744-8f31-fc31cdb2f97",
+    "log_name": "Min1 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f5cc079e-0ff1-44a6-ada7-ebd090f8ef1",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f797f32d-4063-4232-b581-7763a7a481f",
+    "log_name": "Carbonate 6500 WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "fb38320b-81c2-44e6-b6a8-65d52b05baf",
+    "log_name": "recovery_rate",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ff3ed54d-9cdc-4859-94ed-a2dbcb62837",
+    "log_name": "Error uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "000155a0-98cf-4ef0-9bc8-dbea62265d8",
+    "log_name": "Error sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "99",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "006a68ff-329b-47aa-a8ed-3ebe59fe838",
+    "log_name": "Tray",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "022e2fa3-db16-410e-bc62-4ea02ce33cb",
+    "log_name": "Felsic-Mafic Index wvl RMean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "02851596-2093-414e-9939-134deec3ca0",
+    "log_name": "w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "03a75983-dec2-406b-9224-5fdfd6afa48",
+    "log_name": "Wt1 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "06258863-f80c-4f52-aa34-9db15007df6",
+    "log_name": "Error uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "07ad2ed6-4d00-42af-a73e-062e69ebc8f",
+    "log_name": "SNR sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "100",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "09a460d4-5c28-4ef6-aaa1-e49222bc097",
+    "log_name": "Min2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "88",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "0d839b94-f0fc-49e1-9777-0ba1b36bcdd",
+    "log_name": "Min1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "12e26549-a18d-43ce-aca9-4e786dcd028",
+    "log_name": "Wt2 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "90",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "16797c7e-6920-4316-8fd1-add540f04d3",
+    "log_name": "Wt2 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "16fdb83a-d877-4b10-94b5-24e443d413d",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "1afd289f-4894-4b8d-af4f-5dc7cd86a1c",
+    "log_name": "Error sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "91",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "1b651b3f-3730-4459-a314-6e1febcff41",
+    "log_name": "chlorite-epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "1bd04683-784d-4934-93e3-406bb581e44",
+    "log_name": "Hematite-goethite_distr",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "238cf532-a6b8-408e-894d-08a6bc47a85",
+    "log_name": "NIL_Stat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "23a27ea3-f9a8-499b-af40-93ab78ebce4",
+    "log_name": "Grp1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "2bae7d1e-158c-425d-9a42-e715366b1f7",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "2cbcfbea-a5c4-4e96-b773-89e7cee4528",
+    "log_name": "Min2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "2d675262-f626-4d36-a2fa-31116548473",
+    "log_name": "Albedo",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "2fb2c6d4-27cd-4012-960f-f2fa3fc704f",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "395c614b-267f-4a42-a586-d3d301fcc47",
+    "log_name": "Carbonate 11300nm WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "3a884863-21ae-4291-80c6-cac00739ce5",
+    "log_name": "SNR ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "3ab3805f-951a-4cc3-8300-1bde5996a51",
+    "log_name": "Min3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "3b2a5c25-21d7-4a5d-a175-4f68618981b",
+    "log_name": "Grp2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "3e56c8f2-cf96-4889-95f6-d4a5b7b3ee7",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "3ea1a2b3-3a0e-4efc-9255-92b8e90b284",
+    "log_name": "w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "3ec17702-cc6b-44d2-ab49-26e51334e2a",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "44133afc-53e3-471f-a6e3-ec914757658",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "445f225f-095c-4d31-92ac-03119f005b0",
+    "log_name": "Chlorite w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "4d22d505-cadf-4386-bf35-611be85d047",
+    "log_name": "Grp3 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "50449f3a-d3be-4953-b818-3310cbb8eed",
+    "log_name": "Lithology",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "509e5663-7656-4d22-a51d-46abef48c55",
+    "log_name": "sRGB Tot Sat",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "52df1121-9c36-4294-bda4-41c85dfad25",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "5394683b-1ae8-4a2c-a25b-b9501a79de9",
+    "log_name": "Grp1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "89",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "5755376a-1fa0-40cd-8704-7f3e460043e",
+    "log_name": "NIL_Stat sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "101",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "57973af3-b2af-4e96-b337-b46e2b4b238",
+    "log_name": "TNorm uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "5984167a-1907-4710-87ee-4d9da43d02c",
+    "log_name": "NIL_Stat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "93",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "5a28f505-b213-4034-862f-fe2622c75a4",
+    "log_name": "SNR sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "92",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "5c9966fd-abe6-4e01-ad77-1406eaa58a5",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "62efe579-eec9-4f61-a7d1-2ee02f174ae",
+    "log_name": "Carbonate abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "64c6fb29-d879-4a9c-b416-2db588827a8",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "65a407ba-4455-41a8-8383-07f7eb347bc",
+    "log_name": "Carbonate 11300nm Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "65fae60f-168e-4b4f-82b9-04ba2753c4d",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "67b50fe3-ad3d-434a-8934-dc2454fa84d",
+    "log_name": "Wt3 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "690ed897-18d9-49cb-a101-85ab0dddc30",
+    "log_name": "Grp2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "698e8935-87bf-4cc5-8ab7-a85dfa30182",
+    "log_name": "Section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "6a07e41f-5521-4240-bba6-aae51ed3ba0",
+    "log_name": "Min1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "88",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "6a881269-5063-4084-8f3e-6f20d8776b6",
+    "log_name": "Error sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "71",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "6d4cbf8d-f7cd-499b-ad92-5c51ccbfb0a",
+    "log_name": "AspRat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "6dce56aa-aa37-461f-a4d6-a7038c88257",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "70ba513a-7335-4b5d-bbc3-3f657ad2391",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "72ff29c2-e416-4d9d-9090-87266d3da28",
+    "log_name": "Grp3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "75d81af8-6d0b-44b2-843a-d4260696daa",
+    "log_name": "Grp3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "75e1f9e7-6b79-48e6-a42f-6be58e864d9",
+    "log_name": "NIL_Stat sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "73",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "79777eef-634e-47c3-92be-81d5e616529",
+    "log_name": "Carbonate 6500nm Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "79a6c3aa-ccb8-4a9f-82b4-169379737ba",
+    "log_name": "Bound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "7b5003c4-4bbb-4de9-97fd-bbe18a79a28",
+    "log_name": "NIL_Stat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "7bdb9734-ca78-41b3-8ccd-29e23600bad",
+    "log_name": "Unbound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "94",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "7d87bdab-62e6-4aa2-92e9-0b2b6fe5afb",
+    "log_name": "Au ppm",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "7de81d0b-7a40-4ebb-a2ad-a1a3e2285c5",
+    "log_name": "Min2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "7f20b2ae-1d76-451a-b56e-c7e45585cc2",
+    "log_name": "TirBkgOffset",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "83c2117e-2fe5-4c86-806f-4b3f0b2eea0",
+    "log_name": "Unbound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "83f45f5b-d61b-4a55-8cff-84fb66fba9a",
+    "log_name": "TNorm ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "84bc27f9-b5b3-46b6-b506-7d9b82dab9e",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "876b3580-70b0-41b7-915c-3c2cd2a598e",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "8a2be377-82dc-4752-af89-566648adc0f",
+    "log_name": "Min1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "8c4532a3-ec4d-4e1a-a3b2-a6a3037ccb6",
+    "log_name": "Ferric oxide abundance 25062014",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "92154ce5-87d6-4e86-9608-2e1ba82503d",
+    "log_name": "Grp1 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "97f25508-4071-4b40-b6de-71ff3bf9c8e",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "99f15704-c984-47e8-9f8d-befd1c0a0e6",
+    "log_name": "Wt1 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "9b3f01d5-f6f8-43a9-85b5-bb6f9d71df2",
+    "log_name": "Min3 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "9ed597f1-250e-44e1-bc48-55a74b81471",
+    "log_name": "Wt1 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "90",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "9ed97583-d823-4d49-a9b6-e15e45a72a9",
+    "log_name": "SNR sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "72",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "9f6ab2db-34eb-4840-a0d9-f276a960a4b",
+    "log_name": "Wt2 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "a1d57aaf-ab13-4489-afe2-6bce41732c9",
+    "log_name": "chlorite-epidote composition",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "a2e6364e-0c06-4a2a-be3c-d4677068987",
+    "log_name": "Min2 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "a462311c-7303-49d7-a511-dd971c08894",
+    "log_name": "Felsic-Mafic Index Wvl",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ac2e26cb-66ce-4d83-a240-6a577922865",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ac3ceb6f-d3aa-4355-9071-2e1301d01d7",
+    "log_name": "Wt3 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ae12df32-02eb-463b-b926-2dc24fe17ca",
+    "log_name": "Grp1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "b0fbec9a-b177-4f63-ba2e-535a3d6671d",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "b192f5fe-b85a-4bc1-aebe-e9e6d51dfa5",
+    "log_name": "Wt1 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "b235c367-e0ee-429e-bd17-b209aa588b7",
+    "log_name": "Min1 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "b97f9a0c-750e-4dc6-86c0-5c124820920",
+    "log_name": "Min2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "bc19f92e-fa4e-4b8d-b10a-8c0a1294571",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "bcb1f016-c4b3-4f81-a630-86a7d8230ce",
+    "log_name": "recovery_rate",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "be4c99a1-7652-4c61-a0f0-35b22afe524",
+    "log_name": "SNR uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c073ea45-6b5b-4a30-8a51-df1784cc8ea",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c145f6e5-0f79-4514-8134-4ef0fe184c4",
+    "log_name": "Bound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "95",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c2841270-0e56-42a4-b728-3d319521f61",
+    "log_name": "Carbonate 6500 Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c3b6c2b7-9ec7-451b-a6e7-5fcd3d9c79c",
+    "log_name": "sec_end_mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c3bc5083-5987-4af7-856c-091749d6dde",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c6de19a7-79f1-42c3-b5db-f76242b2757",
+    "log_name": "prof_min",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c79554f2-ed9a-4ca1-a4a8-15e8b9d1ee4",
+    "log_name": "Wt1 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c816a5c8-8cef-4540-8ec9-210e671507c",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "c826c01c-ad8b-4a75-975e-47a142968ae",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ca7df112-f746-4c4c-bf5d-0ee084fa7f4",
+    "log_name": "AspRat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "caf0d01a-6a39-400b-b216-a97e7b0a3d4",
+    "log_name": "White Mica w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "cf1ea520-a2d3-4668-9370-e395dd5857b",
+    "log_name": "Quartz absorption Depth",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "d27a8437-32f7-478c-b3bc-e314ba253f1",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "d38e2528-0f82-44b6-b50e-94cae66a637",
+    "log_name": "epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "d8061fa8-01ff-4dc0-83ae-4a055324785",
+    "log_name": "Error ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "d8c73d77-6c66-4911-81a0-40fae7358fd",
+    "log_name": "Quartz absorption depth Rmean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "de35a5d8-f1fb-4b37-8608-2250dad478b",
+    "log_name": "Wt2 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "df0f61d3-7932-48c9-b44c-8e0f9d5b640",
+    "log_name": "Min3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "df39b394-8bf8-45ef-95c2-c9393516ddf",
+    "log_name": "Carbonate 6500 WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "e070f192-ea60-4655-946b-3b27e7f6136",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "e1046aaa-531e-488e-9b8b-3e72ae26a81",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "e4b49706-0e8a-4af8-abf9-b7c474c1940",
+    "log_name": "Grp1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "e58eb6f3-d0e2-4ba9-869f-dae900d1c9b",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ebcd1b74-fce4-4874-9a27-50b56a3ebf7",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ecea1df5-a1c1-47ab-925a-94ba5b0929b",
+    "log_name": "Wt3 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ed866d02-415c-440b-88e3-33b2b4c1536",
+    "log_name": "Grp2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "89",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "ef901a9d-dfaf-44eb-bf54-c03a01472b7",
+    "log_name": "Min1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "efa4a1bf-9748-4170-82b9-c7857ef23a0",
+    "log_name": "Calcite-dolomite-magnesite",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "f3dc1ef5-4663-4a68-8428-e2ce50fa4c1",
+    "log_name": "Grp2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "f47cf375-ed54-4460-bc7b-2eecfe0a3ba",
+    "log_name": "Wt2 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "f49f557a-249c-4712-908c-b695d280f60",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "f955f9fc-ec9e-45f6-b2a8-64b51dbee0a",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "fa710617-c48e-421e-867a-c6148ae6d11",
+    "log_name": "Grp2 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "012b0833-9fe4-4295-92bc-5567bb03484",
+    "log_name": "Wt2 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "03975ba8-783d-4703-b310-e3a4f0f42d2",
+    "log_name": "Grp2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "04a255f5-c34a-4e1f-8b19-90835a8f352",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0899a375-d353-4a55-9d59-c8ef824afa0",
+    "log_name": "SNR ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0970b141-eb86-4305-b220-16788703209",
+    "log_name": "Hematite-goethite_distr",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0c189e2a-c1d3-4c84-b56d-aa46ddd6946",
+    "log_name": "chlorite-epidote composition",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0c2878bc-bd17-4a78-b75d-95e73a0b73d",
+    "log_name": "Min1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0e135532-6f70-47b2-91e9-3c6ad799c36",
+    "log_name": "Wt1 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0ed6a4b7-48c2-4419-ba60-4ca174bbaeb",
+    "log_name": "Kahuna",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "104e1bb2-a814-485e-b53d-a39e4d01cef",
+    "log_name": "Unbound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "94",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "124beda1-4c06-4f03-9231-7424bc12ca7",
+    "log_name": "Quartz absorption Depth",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "13f37016-850c-4586-9ba2-c2e603ccd0e",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "19746d05-b1eb-4a9c-a850-abed2b5d05d",
+    "log_name": "Felsic-Mafic Index wvl RMean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "1fd282bc-eb80-4073-bf7b-68fa79229ee",
+    "log_name": "Min1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "216e3f62-692e-480a-a657-92b5b946530",
+    "log_name": "Grp2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "23215a54-15c5-4b4f-9716-caa1a685d83",
+    "log_name": "Wt3 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "232c5afd-aca1-400a-85d7-2f86493b4b5",
+    "log_name": "Wt2 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "258f3e01-b3ae-42f9-ba58-d48059b1964",
+    "log_name": "Grp3 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "25e9fba4-cf23-4d18-bd74-006618d5ae3",
+    "log_name": "Grp2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "89",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "28c3ad85-68d9-47f9-98da-ec54571b744",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "2b0f71ad-1448-4444-8ff1-21c5d8d2192",
+    "log_name": "SNR sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "92",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "2b96bc0e-4923-424a-b78a-ab3f27712a2",
+    "log_name": "Grp1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "89",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "2bc49343-4349-45b9-bf51-c93eca38cc1",
+    "log_name": "Grp1 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "2d8db07b-8272-4228-a46e-a3d790cea3f",
+    "log_name": "Calcite-dolomite-magnesite",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3441af01-86e6-4ced-9659-a3d95aaf6eb",
+    "log_name": "NIL_Stat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "34a8d045-67f8-4697-8fee-0c11faa681b",
+    "log_name": "Min2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "88",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "36741773-c9cf-4a71-abec-409e638fed0",
+    "log_name": "Carbonate abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3bb76e81-8963-47f0-92bc-1d86d6939eb",
+    "log_name": "Grp2 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3de8bbc5-ee76-4ae8-b272-ae28baf3ee3",
+    "log_name": "Tray",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "41099e86-fa5b-45be-ac8c-1d26f4dfa2f",
+    "log_name": "Grp3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "42d216fd-1057-4ed1-8b86-ce8722e2d48",
+    "log_name": "Min2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "44c2f936-6d6b-4eca-8753-fb039637122",
+    "log_name": "Min2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "459c056b-7e9d-4de7-9e6f-5a176364339",
+    "log_name": "AspRat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "468e6bbb-d7c9-4777-9072-fd6d7dd79f2",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4892f9f1-f5ac-422e-8366-51dc89274ab",
+    "log_name": "Min1 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4a69fa04-ebfe-4d0d-aefa-67a05d11ff8",
+    "log_name": "Min2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4adb575b-7883-4e65-a121-4311474e172",
+    "log_name": "SNR uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4cac1250-8eac-41e9-995e-1941a0ddba4",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5132b96a-013a-4219-bd2e-821638b4279",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "516649d0-cc5f-4c31-9c11-30b012a56d0",
+    "log_name": "Unbound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "522b0b17-75f3-4bf2-abe9-58f8abf6d15",
+    "log_name": "Error ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5b235d43-39ec-4c83-a39b-50556dced4a",
+    "log_name": "Wt2 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5cc222dd-526b-46f5-b0a9-61df317eee3",
+    "log_name": "Grp2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5f31c36c-54a3-4e04-83eb-003a00f79fa",
+    "log_name": "White Mica w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "60538daa-c60e-4454-bee1-9295b6ec5e0",
+    "log_name": "Wt1 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "90",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6215219a-3998-4ddd-b647-89f5f734d3f",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "630f54cd-a572-4171-8faf-4fd3db788eb",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "633226d9-a05b-4557-8731-459ad8ff8e1",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6373d402-b699-493b-be42-631bf164c26",
+    "log_name": "Min1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6648998d-acea-4656-8bd4-4394885c727",
+    "log_name": "Grp3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6694123c-a7fc-4fd6-a66d-0b4842f99e4",
+    "log_name": "Section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6a7e9aa7-20e3-481b-874f-4db2d605ce4",
+    "log_name": "Carbonate 11300nm Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6aefcee6-f253-4031-8c74-d5b10e7c5ae",
+    "log_name": "NIL_Stat sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "101",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "751a8c29-2cfa-4d3d-a923-76231f7cf28",
+    "log_name": "TIDL Depth Backup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "788c5da2-655c-4cfb-a2e3-05d11103989",
+    "log_name": "chlorite-epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "79ea6ffe-bec6-4779-8c2b-63c44e69617",
+    "log_name": "Grp1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "7cbd00d2-7b30-491d-a98c-6a0ce3f2113",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "7f6d260e-0e27-4611-b370-d0af869a068",
+    "log_name": "w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "87d005c6-cf2c-4991-9501-3de937957fc",
+    "log_name": "Grp1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8a15b1e4-b7e3-453b-9f56-c260de44f25",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8b46624d-530c-437f-b19e-1aae7ec1a92",
+    "log_name": "NIL_Stat sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "73",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8d52a2a8-fd44-4c33-b821-d797a02ccb6",
+    "log_name": "Grp1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8e2089f7-9ccb-4c19-aabf-4e670b5d1b9",
+    "log_name": "Wt1 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8f87f2f1-e842-4032-95d8-03d1d683bcf",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9120fdf8-32d4-44f5-9e94-73016d12510",
+    "log_name": "TNorm uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "964d6fd8-87cc-41ac-b46f-a58eb3ef23e",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9a14d31d-8c19-4542-956a-89455d3cf4b",
+    "log_name": "recovery_rate",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9bac80ee-adbf-49b1-80d2-469caca31a0",
+    "log_name": "Wt3 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9c48a789-7abc-4846-99a5-b0829316f4e",
+    "log_name": "Wt1 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9c645bea-3c2d-47a4-b147-5cf2b825c13",
+    "log_name": "TirBkgOffset",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9c695fdf-f1dc-4233-9482-2d3a4316025",
+    "log_name": "Wt2 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9d5e3e5f-2087-4d95-9a4f-abf04b7a97b",
+    "log_name": "Little Kahuna",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "a7952f40-db94-4357-a070-70227ae9ac4",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "a98e36c5-bc4c-40b1-ad91-2a9da005b45",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "aac85056-7acc-46f7-afee-556f0ff5bb9",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ad280cfc-aee6-4ad3-9d99-3f376579a5e",
+    "log_name": "Carbonate 6500 WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ae5b2134-971c-4c36-bf63-56d24d05d74",
+    "log_name": "prof_min",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "aebb3fdf-c391-4330-b343-d318ebeaca8",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "af93ffcb-3e84-443a-a0a6-3502b3f98a3",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b15b0069-beb0-45c1-9233-1332ba64c3a",
+    "log_name": "Wt2 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "90",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b47e66da-6d44-447c-8062-f1168ac61bd",
+    "log_name": "Wt1 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b4990b32-8113-465a-b14a-5e8ce479dd2",
+    "log_name": "sec_end_mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b506e9d6-02f7-4613-a651-4e70a117f4a",
+    "log_name": "Quartz absorption depth Rmean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b7139a48-331b-43c0-8d77-01d50258beb",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b89eeca6-5717-4766-9ece-df0abc281df",
+    "log_name": "Min1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "88",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b9aba889-efef-4522-bdd5-94164fa1e1a",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b9f91bf5-1f8d-4a06-9f64-206f18d8fd2",
+    "log_name": "Carbonate 6500 Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "bb7000fd-f448-4ca7-becc-3ed90deb13b",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "bb81393c-e94f-4e1d-bfcf-9068ec59cea",
+    "log_name": "Min3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c433675e-e728-494b-85e2-81902f97d95",
+    "log_name": "Min3 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c52a8e08-af2e-4ee1-990f-a75333aac78",
+    "log_name": "Error uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c5a80228-2a53-4282-bd7a-768bab431b2",
+    "log_name": "NIL_Stat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "cd19545f-ad42-4037-9872-e7445c77a8b",
+    "log_name": "Error sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "91",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d035cefc-f3d5-43b6-b35c-8f9418e6d70",
+    "log_name": "Min3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d0fd1d60-ed60-47c3-903c-33568de8cc1",
+    "log_name": "AspRat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d1632c7a-dc83-472a-babe-e9d0ec679a3",
+    "log_name": "NIL_Stat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "93",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d24a9c50-c71a-4dc3-96e1-cfd0e017c1d",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d32870d5-a418-45d6-ba3e-258649d884f",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d50ebc5b-60fb-4ba9-97b1-0fb944f1462",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d798c433-d42b-458a-bf09-fd892a2824d",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "da643130-63e9-45df-a3e7-fceba664c3b",
+    "log_name": "Felsic-Mafic Index Wvl",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "dac3f837-881c-4271-b48b-9e87c422e9d",
+    "log_name": "Min2 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e0c6da6a-37ff-4715-9251-6587c67a23a",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e3e2e5d1-42b7-4a19-8148-960dc1a0b0c",
+    "log_name": "TNorm ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e5c76c22-9a68-4204-8ea4-ca75ab724f7",
+    "log_name": "w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e6681cb2-9a0c-454f-bb66-06a007e53ce",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e6f44892-363c-4675-b13b-b4c282ee836",
+    "log_name": "SNR sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "72",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e8a91f38-f272-44af-a83c-ad0def4f671",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "eb5fdb5b-b6bc-40d9-8156-ed62b1e9cae",
+    "log_name": "Ferric oxide abundance 25062014",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "edacaa64-6bfe-4582-8602-2bc7f42f54a",
+    "log_name": "Carbonate 11300nm WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "edf90890-50b6-4cbc-8eca-769131c6517",
+    "log_name": "Bound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "95",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ef0e2c0a-2df4-44b7-88b0-ca6c7c6e664",
+    "log_name": "Carbonate 6500nm Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "f38f0584-16b2-424c-b3a6-3da5d21d9ef",
+    "log_name": "SNR sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "100",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "f97340fe-276f-4515-a2ac-5653ea3d50f",
+    "log_name": "Chlorite w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "fac01359-aca7-4df6-b099-7b2ddf828e7",
+    "log_name": "Bound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "fb54bd74-3df1-414e-968c-949a02c5716",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "fc913f7e-2289-4a5e-bf65-2d9282027b2",
+    "log_name": "Wt3 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ff4378d7-0dcc-42a9-b467-cd8f0900150",
+    "log_name": "Error sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "71",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8b912b50-2643-4e25-acb5-15ae66f26f1",
+    "log_name": "Error sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "99",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "55faa0e4-da16-4679-ae47-310a20aa795",
+    "log_name": "Albedo",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d9cfa78e-98a4-4cc8-a981-74f835ded63",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c5282667-bf2c-4f90-9960-05accfbc35c",
+    "log_name": "epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "aedd3774-e250-45cf-9e25-6563d4bfd36",
+    "log_name": "sRGB Tot Sat",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "00203bf6-854b-4b88-8356-423c6a49700",
+    "log_name": "sRGB Tot Sat",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "01dccee4-db17-4b98-863d-a813ab5bc5c",
+    "log_name": "Grp2 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "048defaf-a478-4034-9282-afd95b7fc3d",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "05065a93-d971-47e9-a3dc-0b7e6274ad9",
+    "log_name": "NIL_Stat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "06f7dccc-369c-4476-b7f2-ef5ca6043d6",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "0d973b40-51a1-475e-ae65-1c8b82756c4",
+    "log_name": "Wt3 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "103a32f9-797f-4051-a5b0-e8680e88055",
+    "log_name": "Wt1 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "11dda7d7-2ce6-4e3f-83f6-335ebbde6b9",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "1355bb7b-0e83-4195-aaab-8d87b855f46",
+    "log_name": "Grp1 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "19b3ffdb-8071-431d-a7ca-8a84fa276f5",
+    "log_name": "Unbound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "94",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "1b5a6b22-90e4-4e7d-adee-4dcb76051f5",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "1d1f43d7-e9da-4cec-a335-42e32c1ecff",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "1e887353-b25f-438a-a428-4de18d0d7cd",
+    "log_name": "Error ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "215e597c-0d5b-4b93-b715-27f65d0e675",
+    "log_name": "NIL_Stat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "21775e13-c564-4839-86f7-45b2aca0b04",
+    "log_name": "Min1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "26fa598a-1a3e-48e1-a673-044faa2dae3",
+    "log_name": "Albedo",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "28480533-2148-4870-8b48-7cb5c29cd24",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "28788674-6435-4567-a7bb-b5e5528b9e1",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "2e9605ba-b7ea-4c03-904f-becba755311",
+    "log_name": "Wt3 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "307d5634-8398-48c7-b763-489657df786",
+    "log_name": "Error sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "99",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "331778be-e6c5-4d14-a589-961269a04c6",
+    "log_name": "TNorm ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "33ddd6c1-07fa-4838-9dcd-33cc051ae2c",
+    "log_name": "Min2 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3596e67e-a095-4841-bef2-7e8084bc556",
+    "log_name": "White Mica w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "35acde71-461a-49bd-8809-c1a61305e7f",
+    "log_name": "SNR uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "36b2a593-4bf0-4831-8681-f9dd41f36e0",
+    "log_name": "Ferric oxide abundance 25062014",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3748e67c-fa78-49d9-b29c-01611f178b7",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "37cb456a-cbea-492e-aee9-c37e9800241",
+    "log_name": "Min1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3814e275-5c4a-45c0-9716-afc07a2186b",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "39c1cfc7-faf6-45c0-81f4-2e576e12134",
+    "log_name": "TirBkgOffset",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "3a19de07-f1b3-4b9b-b4b3-784a9e97e0f",
+    "log_name": "Min2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "88",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "43e12042-dcc0-475c-b8ff-f65b646c35d",
+    "log_name": "Min3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "489c8b31-9861-43b1-8a3e-cb9a20ad380",
+    "log_name": "TIDL Depth Backup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4959cf57-55c0-4d9e-ae7a-cf0e4fcbbaf",
+    "log_name": "Section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4b73224a-a511-4f77-90da-1ed87596fd9",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4e20ed13-bb85-4c12-9b22-622a4530fae",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "507841c4-8ae2-4a46-a769-68e0dcc07c0",
+    "log_name": "Quartz absorption depth Rmean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "50edaf45-c08e-4545-a1cd-663f6e9a0ad",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "53295df3-d1de-470c-87a5-ca9fb42b1f0",
+    "log_name": "Calcite-dolomite-magnesite",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "53a2bb19-b360-47d9-bc77-382efabc6c2",
+    "log_name": "Min1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "88",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5a3f8f10-4c48-43a1-a1c9-0f6f4be36af",
+    "log_name": "Grp1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5bca25d4-0e70-411a-91b5-06789a51df7",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5ce7a5eb-27ce-409b-acda-49e464272fb",
+    "log_name": "chlorite-epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "5fa02964-7797-41bb-bf3b-53430db9539",
+    "log_name": "w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "60dd8879-8861-4a5f-a2f9-1d26fcc2021",
+    "log_name": "Min2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6396e0ed-3132-4ba9-a493-6153e63dca9",
+    "log_name": "Wt3 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "646b01ff-46a0-41eb-9cf3-09cfb5fe54e",
+    "log_name": "Error sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "71",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "65307c33-77bd-48a6-8623-828d2225e49",
+    "log_name": "Quartz absorption Depth",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "65b6e344-16a6-4643-be73-73446b48a1a",
+    "log_name": "Min3 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "682d838c-783a-47e7-823b-6a2e43792c5",
+    "log_name": "TNorm uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "68937711-b44f-44ab-82bc-f8896309792",
+    "log_name": "AspRat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6f03eeae-af1f-4a5b-9f20-4e0ddaef562",
+    "log_name": "Wt1 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "725346b5-b170-43ff-bb7e-f61eba29ff2",
+    "log_name": "Grp1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "726d2cf5-cb7b-45cd-8c7f-f69194219e1",
+    "log_name": "NIL_Stat sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "73",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "72db3ae9-e0dd-470a-ae92-089cc1076e6",
+    "log_name": "Grp2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "75efa84b-b27f-4441-a25a-089572c2388",
+    "log_name": "Error sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "91",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "79489f1f-b574-442a-b117-d0dcea6c724",
+    "log_name": "Bound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "7abc9414-0b20-471f-8880-d0b480619a9",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "807395a5-eb2f-4711-b3f4-0ae1fbafa2f",
+    "log_name": "SNR sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "100",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "80c97a13-ea32-4693-b031-2cc9d7d6fd1",
+    "log_name": "recovery_rate",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "82201b89-cd02-43ed-a9ea-03ee0ad9454",
+    "log_name": "Wt1 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "83751b62-47a6-4f85-847b-b192436b132",
+    "log_name": "Carbonate 11300nm WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "85cbd61a-e43e-4141-835e-fc8dc8c26aa",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8941f0e2-30fc-472e-8f61-d16700e7ceb",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "89e04dd7-acb5-40f6-a507-8cddc80d556",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8d318b91-0f62-4e43-aa8e-7b0586212ea",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "8fd55828-2476-4f18-94c4-5b2fcb7de03",
+    "log_name": "AspRat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "922c6cc4-ed0b-4e38-83f0-becb6731a28",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9367f0e1-0946-4ad8-81b5-8d5c86c2afd",
+    "log_name": "SNR ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "979b5c50-3abb-4cdd-b135-78bd757b518",
+    "log_name": "Carbonate 6500 Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "996105cf-600d-40f8-bcd1-2e430c632e3",
+    "log_name": "SNR sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "92",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "9e12ad63-ef43-49a3-bbe2-1b7ebd99d81",
+    "log_name": "sec_end_mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "a1771bec-1c93-4d2c-aaa8-bef45736c69",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "a5db8fc2-8ad3-4b34-83b9-089850804f1",
+    "log_name": "Wt2 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "a98c27c9-c77a-4af9-8fb2-6551960de0c",
+    "log_name": "Chlorite w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "a98dca72-e08e-4456-9d5b-0f10763e555",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "aa4d528e-9965-4972-aab2-31fe1c233a0",
+    "log_name": "SNR sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "72",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ab3358e4-bc82-49a8-81b6-458cf802d65",
+    "log_name": "Grp3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ab4aa90d-5c0a-4490-b5af-02e6f62551c",
+    "log_name": "Unbound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ad57907d-adfb-4ab2-9894-74a1d3a4834",
+    "log_name": "Wt2 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "90",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ae1270e8-3aaa-4194-9971-34c9b611046",
+    "log_name": "Wt1 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "90",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b0434db3-0512-4575-b3dc-28094c5de96",
+    "log_name": "Carbonate 6500 WL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b8ee93f9-498b-4a4d-ade0-dce1cbff6c9",
+    "log_name": "w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "b91c67db-fae0-450c-bf1d-f00d1044548",
+    "log_name": "Grp2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "bb124613-ce33-4876-99b3-408c942c2a3",
+    "log_name": "Min1 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "68",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "be134a71-d603-47fc-9efa-8a3d9c15b8e",
+    "log_name": "Grp3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c06bc64a-a9fc-4877-9a54-8db4892205e",
+    "log_name": "Grp1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "89",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c22b6d6f-e7ba-4927-9e3c-db6ff91825b",
+    "log_name": "prof_min",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c336fffe-d20a-4fc5-a601-dd97ca6b307",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "c8c1562c-b30f-4f1d-a9e1-47350e4d96d",
+    "log_name": "Min2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "caf48f5e-f6c1-4bc5-8c88-efb37239efe",
+    "log_name": "Min1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "cc8a2ace-951a-405e-940b-780ae5a2c10",
+    "log_name": "Wt2 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "cd134d41-532c-4166-89cb-b7e562e47ee",
+    "log_name": "Hematite-goethite_distr",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "cd2d65c5-20cb-4926-bab9-0c18324e25e",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "cec8b6f1-4477-4b0d-a859-4e54b2c3eae",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d0c9d2b0-56bb-4b44-8a95-095bcfd3823",
+    "log_name": "Min2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d5ac301f-a7d6-4bde-8cf8-203fcc324e3",
+    "log_name": "Wt1 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d62be9ed-1c94-4e9a-8e06-ec1d3351c4f",
+    "log_name": "Grp2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "89",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d7931d81-b9da-4bcf-abc4-0b3e4d1a241",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d869f61b-d988-4480-b2ca-8177ca3faf6",
+    "log_name": "Felsic-Mafic Index wvl RMean",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d9cc22b1-48b7-4fc1-bcc2-801863bbc23",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "deb4cc62-d707-40c3-8fe9-12c7bf896fc",
+    "log_name": "Wt2 sTSAT",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "70",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e109139c-b8d7-4ea1-b9f3-09f123ce2b2",
+    "log_name": "Grp3 sTSAT",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "69",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e610d9ad-8c31-46b7-a5c5-001e92d99ad",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e6770f78-ef14-49ab-ba44-e1b3e8b60e4",
+    "log_name": "Wt2 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e73b96b0-71d3-4c10-8584-a73c47e8a08",
+    "log_name": "Lithology",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e8caa265-db13-4a49-b956-caaa292f160",
+    "log_name": "Error uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e926dc3f-6bd6-4188-addc-252a4a4a9b9",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "eac4627f-bcd0-4b2b-a31b-ee6638b96b3",
+    "log_name": "Grp1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ece1dfdc-073a-4925-9e97-5e76723c2f2",
+    "log_name": "Carbonate 11300nm Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "f58be977-6830-43c5-a655-47b0f622ad7",
+    "log_name": "NIL_Stat sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "101",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "f696ed06-9b3f-4bbc-9d32-990ffd67e42",
+    "log_name": "Tray",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "f9a6724a-4a68-4e7c-a0f7-5e5d7e389d4",
+    "log_name": "chlorite-epidote composition",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "fe620b33-183a-4099-bcc7-a0b1a5060fe",
+    "log_name": "epidote abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ff135d72-a88a-4860-acd6-1ab27e0a2eb",
+    "log_name": "Felsic-Mafic Index Wvl",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "ff2a4be9-b394-421f-ac31-b7101ace337",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "79f45e8c-4fd8-4e80-8df9-708b2553ae9",
+    "log_name": "Bound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "95",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "4bb20cd7-9030-4d18-89eb-e356aec31b1",
+    "log_name": "Grp2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "e169409b-ca78-4960-ac3a-a434af0787f",
+    "log_name": "Carbonate 6500nm Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "da915d70-2036-461f-bc9a-544146d99d1",
+    "log_name": "Min3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d1b4617b-2f14-43c4-93bc-2e58291ab7a",
+    "log_name": "NIL_Stat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "93",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "992a5dec-55ba-4131-ac6d-524c6bdaa82",
+    "log_name": "Carbonate abundance",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  }
+]

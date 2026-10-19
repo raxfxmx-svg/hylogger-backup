@@ -1,0 +1,25 @@
+{
+  "content_sha256": "b92ba5e681d64a1dc4f838e141b42a8e9830995f88e6aa38a7caacb25d4864ae",
+  "database": "etl4_test_batch_flow_flow20261003_source",
+  "dataset_contents": {
+    "00000000-0000-0000-0000-000000000001": {
+      "dataset_revision_id": "46de0178-b65d-5ad0-ba4e-bc1ad35e6f9d",
+      "input_digest": "df61ee4b296e1bbc19559bf82880acc811ce6acd1346af7887a41564b3827342"
+    }
+  },
+  "export_evidence": {
+    "omitted": "example_selections: local read examples are not cloud asset addresses",
+    "source_report_sha256": "df4e759cc75894eacb1223f731aa98bbd6d6007fcb80b07b4641602f8444317c"
+  },
+  "fixture_only": true,
+  "prepared_acceptances": [
+    {
+      "content_sha256": "ba9927f5c85a753f9b894cb8f3061860bae24daff80ebf30234b8fe86843c650",
+      "package_sha256": "8f42f5f975f54411b661ceac8218ce80b1687c9e8c8e02b5f0a8a49830779dc7",
+      "report_path": "evidence/acceptance_1_8f42f5f975f54411b661ceac8218ce80b1687c9e8c8e02b5f0a8a49830779dc7.json"
+    }
+  ],
+  "release_id": "0c9b9730-ee60-5557-9cd3-0771f7110891",
+  "stage": 2,
+  "status": "passed"
+}

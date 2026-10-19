@@ -1,0 +1,7 @@
+{
+  "detail": "Configured local port is already in use",
+  "error_type": "ValueError",
+  "recorded_at": "2026-10-03T19:57:43.498158+00:00",
+  "script": "7_preflight_database.py",
+  "status": "failed"
+}

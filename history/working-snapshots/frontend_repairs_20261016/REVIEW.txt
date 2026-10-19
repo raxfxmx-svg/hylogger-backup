@@ -1,0 +1,19 @@
+Frontend Repairs — 2026-10-16
+
+I corrected mineral classification, multi-dataset display, spectral requests and panel error handling. The nine tested files were merged through fork PR #2 at commit 656813ba496eef31bef6f7b4d35dc91774d40e59 on 2026-10-16 13:19:40 Asia/Shanghai. Their Git blobs matched the tested local files. A 13:21:45 deployment check matched eight release features; real-data browser acceptance was still in progress at that recorded point. Baseline: aacb5df1085e0ad1b4b8f1fef21b928ba91c5a6c.
+
+Changes:
+- Select Grp1 logs with mineral_group. INVALID, ASPECTRAL and NULL are excluded only from display classification; source rows/values remain and still count in the denominator.
+- Include each dataset in depth-ordered display continuation, preserving dataset identity for minerals, anomalies, trays, photos and spectra. Clip crossing intervals and photos at seams, handle either image depth direction, and report missing start depths.
+- Split spectral requests into batches of at most 16 log IDs for the same revision/axis/sample. Merge all results, show a local retry state and discard late responses after hole changes. Scale plots to panel width.
+- Retain confidence as dominant valid mineral samples divided by all samples in the metre interval, including gray display below 0.5. Keep tooltips on screen and preserve loaded mineral data when trays or nearby-hole requests fail. Process Level has no supplied live field and is not fabricated.
+
+Validation: 15 regression tests and the Next.js production build passed. Replaying 07THD003 retained all 54,432 rows, including 21,403 INVALID values and 188 metre intervals; 150 intervals remained below 0.5.
+
+Live API checks covered 12CADD001: two segments with 49,104 + 30,632 retained samples, 538 intervals, 151 trays and full TIR/VSWIR spectra at 400 m; and 15EIS001: four segments with 30,616 / 39,239 / 9,481 / 179,560 samples, 1,702 intervals, 487 trays and complete spectra at 900 m. All validation requests returned HTTP 200 with at most 16 log IDs.
+
+Browser checks covered failed/retried spectra, tray and nearby-hole failures, off-screen tooltips and delayed stale responses. Synthetic 3D screenshots use test data and colored images rather than live geological photos. git apply --check passed.
+
+Global homepage concurrency and existing failure-to-empty behavior remained outside this patch. No persistent cache, cache-refresh control or backend change was added. The earlier cache fallback was already merged through fork PR #1; upstream PR #13 remained a draft in this record.
+
+Review: frontend-repairs.patch; frontend/lib/api.js; frontend/components/HoleDetail.jsx, StripLog.jsx, CoreStripPanel.jsx and Hole3D.jsx. Evidence: verify/publication-result.json, real-fixture-result.json, live-adapter-result.json and scope-and-patch-result.json. Historical PR: https://github.com/raxfxmx-svg/hylogger/pull/2.

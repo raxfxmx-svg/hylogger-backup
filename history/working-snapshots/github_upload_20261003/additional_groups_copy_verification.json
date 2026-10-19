@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "new_python_files": 15,
+  "source_files_modified": false,
+  "database_or_cloud_actions": false,
+  "groups": {
+    "review-and-recovery": {
+      "entries": [
+        "etl4/database/13_audit_database.py",
+        "etl4/database/14_verify_database_backup.py",
+        "etl4/database/30_audit_media_database.py",
+        "etl4/database/36_backup_multi_dataset_database.py"
+      ],
+      "new_paths": [
+        "etl4/database/13_audit_database.py",
+        "etl4/database/14_verify_database_backup.py",
+        "etl4/database/29_verify_media_grain.py",
+        "etl4/database/30_audit_media_database.py",
+        "etl4/database/35_verify_multi_dataset_database.py",
+        "etl4/database/36_backup_multi_dataset_database.py",
+        "etl4/database/_media_tests.py",
+        "etl4/database/_multi_reader.py",
+        "etl4/database/_trial_support.py"
+      ],
+      "shared_paths": [
+        "etl4/_file_checks.py",
+        "etl4/_settings.py",
+        "etl4/database/_db_common.py",
+        "etl4/database/_db_files.py",
+        "etl4/database/_ingest.py",
+        "etl4/database/_media_common.py",
+        "etl4/database/_media_import.py",
+        "etl4/database/_media_manifest.py",
+        "etl4/database/_media_reader.py",
+        "etl4/database/_media_verification.py",
+        "etl4/database/_multi_common.py",
+        "etl4/database/_multi_db.py",
+        "etl4/database/_prepared_inputs.py",
+        "etl4/database/_publication.py",
+        "etl4/database/_run_reports.py",
+        "etl4/database/_schema_docs.py",
+        "etl4/database/_verification.py",
+        "etl4/processing/_etl_common.py"
+      ]
+    },
+    "cloud-batch-processing": {
+      "entries": [
+        "etl4/database/38_export_batch.py",
+        "etl4/database/39_upload_batch.py",
+        "etl4/database/40_merge_cloud_batch.py",
+        "etl4/database/41_cleanup_batch.py"
+      ],
+      "new_paths": [
+        "etl4/database/38_export_batch.py",
+        "etl4/database/39_upload_batch.py",
+        "etl4/database/40_merge_cloud_batch.py",
+        "etl4/database/41_cleanup_batch.py",
+        "etl4/database/_batch_files.py",
+        "etl4/handoff/tools/handoff.py"
+      ],
+      "shared_paths": [
+        "etl4/_file_checks.py",
+        "etl4/_settings.py",
+        "etl4/database/_db_common.py",
+        "etl4/database/_db_files.py",
+        "etl4/database/_ingest.py",
+        "etl4/database/_media_common.py",
+        "etl4/database/_media_manifest.py",
+        "etl4/database/_media_reader.py",
+        "etl4/database/_prepared_inputs.py",
+        "etl4/database/_run_reports.py"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "review-and-recovery/etl4/database/13_audit_database.py",
+      "source": "etl4/database/13_audit_database.py",
+      "sha256": "aabbe26fe1b092b818efabd65d398028c938bb8fe487bf4d29a0ea15312d3c4e",
+      "bytes": 33713
+    },
+    {
+      "path": "review-and-recovery/etl4/database/14_verify_database_backup.py",
+      "source": "etl4/database/14_verify_database_backup.py",
+      "sha256": "2c6d607c7b1d6a834bc2513db4773315eb87946b65a1408370006de8abec9778",
+      "bytes": 6628
+    },
+    {
+      "path": "review-and-recovery/etl4/database/29_verify_media_grain.py",
+      "source": "etl4/database/29_verify_media_grain.py",
+      "sha256": "79750dc6bcad1c68f542792581d1c47916b8cb038dfc7ef20090324594eedb93",
+      "bytes": 3663
+    },
+    {
+      "path": "review-and-recovery/etl4/database/30_audit_media_database.py",
+      "source": "etl4/database/30_audit_media_database.py",
+      "sha256": "69b2f010be90c42439e6fd4c00ab7314fcd108c0c637222251a49f78956b1b97",
+      "bytes": 23471
+    },
+    {
+      "path": "review-and-recovery/etl4/database/35_verify_multi_dataset_database.py",
+      "source": "etl4/database/35_verify_multi_dataset_database.py",
+      "sha256": "4a7893961169dca98f7410af36347c4c8191a77723af30a1dfb9582c9bbe736f",
+      "bytes": 12110
+    },
+    {
+      "path": "review-and-recovery/etl4/database/36_backup_multi_dataset_database.py",
+      "source": "etl4/database/36_backup_multi_dataset_database.py",
+      "sha256": "0d896f4fd0b90ced03d1aa49e114cd09f696379898c311c7758fddb33ec55a5e",
+      "bytes": 9296
+    },
+    {
+      "path": "review-and-recovery/etl4/database/_media_tests.py",
+      "source": "etl4/database/_media_tests.py",
+      "sha256": "d5aaa4b5b2bc75fb44a1575bab15267326f3215bdd52e0eacb226e342d394444",
+      "bytes": 21206
+    },
+    {
+      "path": "review-and-recovery/etl4/database/_multi_reader.py",
+      "source": "etl4/database/_multi_reader.py",
+      "sha256": "2e642d3ececdff9616dddedca7b4e244de8465727219a08d21ed0ccd5d61df0a",
+      "bytes": 2220
+    },
+    {
+      "path": "review-and-recovery/etl4/database/_trial_support.py",
+      "source": "etl4/database/_trial_support.py",
+      "sha256": "8be139692a89a6261db770c0422b145ec08922ada853507ed41ba17047d8734d",
+      "bytes": 5592
+    },
+    {
+      "path": "cloud-batch-processing/etl4/database/38_export_batch.py",
+      "source": "etl4/database/38_export_batch.py",
+      "sha256": "a6684d75f8f56fe17676445c9e5d242b08cad508ee87b4328853e3f3efbca25a",
+      "bytes": 24938
+    },
+    {
+      "path": "cloud-batch-processing/etl4/database/39_upload_batch.py",
+      "source": "etl4/database/39_upload_batch.py",
+      "sha256": "f28484c801dbbffb7d8fdfde801dee7ead0f6015a46cfbea31266b1028e9bd72",
+      "bytes": 26962
+    },
+    {
+      "path": "cloud-batch-processing/etl4/database/40_merge_cloud_batch.py",
+      "source": "etl4/database/40_merge_cloud_batch.py",
+      "sha256": "c40966769ab8db3aef7f7974872e8f95078d72d1ce515e486c7690a215659f38",
+      "bytes": 45827
+    },
+    {
+      "path": "cloud-batch-processing/etl4/database/41_cleanup_batch.py",
+      "source": "etl4/database/41_cleanup_batch.py",
+      "sha256": "f2494a488ac238ca57f0c718beb0d27c7a28ec33d2e5d50515a8bc29414954fb",
+      "bytes": 22081
+    },
+    {
+      "path": "cloud-batch-processing/etl4/database/_batch_files.py",
+      "source": "etl4/database/_batch_files.py",
+      "sha256": "39fad63076d01471617b66cb3b9f67bb0efd287bf459832a3d786f692736daa2",
+      "bytes": 8812
+    },
+    {
+      "path": "cloud-batch-processing/etl4/handoff/tools/handoff.py",
+      "source": "etl4/handoff/tools/handoff.py",
+      "sha256": "0058a7b7aa3f7e6a73159737db8920e2f5889d5a994e6da0aaf77be77674d0e8",
+      "bytes": 28119
+    }
+  ]
+}

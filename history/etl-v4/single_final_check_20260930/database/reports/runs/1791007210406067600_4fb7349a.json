@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-03T05:59:57.638783+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "28_import_media_revision.py",
+  "code_sha256": "968ca49ab31fe5487e083f0775b1fcece04e2d19480b2dfbaabb902d2f480ca0",
+  "sha256_file_scans": 5839,
+  "sha256_bytes_read": 4825649696,
+  "same_check_cache_hits": 1137,
+  "elapsed_seconds": 12.764774499999476,
+  "finished_at": "2026-10-03T06:00:10.406067+00:00"
+}

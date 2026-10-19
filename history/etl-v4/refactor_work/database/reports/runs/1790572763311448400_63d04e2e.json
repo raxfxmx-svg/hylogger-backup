@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:23.307813+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "9_import_prepared_data.py",
+  "code_sha256": "f107c253eed98981365f0413b7aab72c6d4da063584d5282f256b92df3b8da19",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.000666000007186085,
+  "finished_at": "2026-09-28T05:19:23.311448+00:00"
+}

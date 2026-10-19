@@ -1,0 +1,122 @@
+{
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "source": "Latest verified dump; offline extraction on 2026-09-12; not an AWS query",
+  "datasets": [
+    {
+      "hole_id": "05KCD001",
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "source_dataset_id": "99f2aa8a-a676-4416-964b-3f8d8dadf86",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+      "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+      "sample_count": 22356,
+      "sample_no_min": 0,
+      "sample_no_max": 22355,
+      "spectral_arrays": [
+        {
+          "region_code": "TIR",
+          "channel_count": 341,
+          "array_id": "8c7a5d9a-8598-5d52-b17e-ed833211d071",
+          "log_id": "dd85c79d-e980-536e-ad50-0b465b297406",
+          "asset_id": "58ddda28-3218-5bbc-91da-9493969a7e15"
+        },
+        {
+          "region_code": "VSWIR",
+          "channel_count": 531,
+          "array_id": "64314e74-306e-5f7b-9ae1-727cdc51f687",
+          "log_id": "7c1bcbf0-0aec-5fd2-b44c-06cf1b566f19",
+          "asset_id": "6a80de86-1437-5327-ab97-f8e5d4b2c410"
+        }
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "source_dataset_id": "92b7750d-5bf9-4115-bf29-dff7db936f6",
+      "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+      "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+      "sample_count": 116424,
+      "sample_no_min": 0,
+      "sample_no_max": 116423,
+      "spectral_arrays": [
+        {
+          "region_code": "VSWIR",
+          "channel_count": 531,
+          "array_id": "c419525b-c7a3-522b-b81e-2e16e4c2efa6",
+          "log_id": "1936b71e-f3bc-56d8-ae0e-d284edf0a86b",
+          "asset_id": "c7768896-ef20-52c0-a0a9-fb8131aaeeee"
+        },
+        {
+          "region_code": "TIR",
+          "channel_count": 341,
+          "array_id": "34c22b85-ea31-5a87-bc80-780453f5ec90",
+          "log_id": "8021acc8-2256-5810-b9dc-46ad2e7b7d64",
+          "asset_id": "1f183fa9-4aba-59f9-99a3-6dd8560a5992"
+        }
+      ]
+    },
+    {
+      "hole_id": "07THD003",
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "source_dataset_id": "4598e2a6-7910-43c1-8894-09b01d36567",
+      "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936",
+      "axis_id": "39f4f0a3-9ca2-5fe9-8ccf-9369ca0ba4ee",
+      "sample_count": 54432,
+      "sample_no_min": 0,
+      "sample_no_max": 54431,
+      "spectral_arrays": [
+        {
+          "region_code": "VSWIR",
+          "channel_count": 531,
+          "array_id": "1528dedb-ce78-5cee-9968-bee8156f9c4c",
+          "log_id": "e8f7e79e-8bac-5b3a-b7ba-bd7e5f4cdaae",
+          "asset_id": "799cd55e-4bbc-5072-a669-33990a18d2f5"
+        },
+        {
+          "region_code": "TIR",
+          "channel_count": 341,
+          "array_id": "85716f80-6d35-57a2-bfbe-a976d13da18e",
+          "log_id": "69012ea8-3501-5530-9645-cdb69975dfe3",
+          "asset_id": "940d98b3-0167-5011-8c52-fca115094335"
+        }
+      ]
+    },
+    {
+      "hole_id": "09ATD015",
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "source_dataset_id": "2faa992a-508f-4446-ad7d-095fa2739d1",
+      "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71",
+      "axis_id": "85089751-1589-5855-a936-d50f21c8d8d4",
+      "sample_count": 46030,
+      "sample_no_min": 0,
+      "sample_no_max": 46029,
+      "spectral_arrays": [
+        {
+          "region_code": "VSWIR",
+          "channel_count": 531,
+          "array_id": "45ff97a8-6a3b-5635-83de-985be90b784d",
+          "log_id": "34da3529-29b8-5284-89cd-24ea13ad4159",
+          "asset_id": "262a9aa3-748e-5dbb-b142-cf701c9a49a4"
+        }
+      ]
+    },
+    {
+      "hole_id": "09ATD019",
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "source_dataset_id": "df915067-0e08-4c9b-abb5-763b9c98c61",
+      "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2",
+      "axis_id": "d9afc2a4-6146-51b8-a896-8bfe3133d87e",
+      "sample_count": 22650,
+      "sample_no_min": 0,
+      "sample_no_max": 22649,
+      "spectral_arrays": [
+        {
+          "region_code": "VSWIR",
+          "channel_count": 531,
+          "array_id": "422fcd60-36f2-5884-adc8-db66838233ff",
+          "log_id": "9ff23a48-5379-5937-8adb-e2f3ec0f4dea",
+          "asset_id": "0cb2a2d3-afff-5b82-8aba-cb7a81ecd774"
+        }
+      ]
+    }
+  ]
+}

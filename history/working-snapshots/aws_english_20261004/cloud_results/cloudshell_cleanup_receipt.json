@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "removed_files": 156,
+  "removed_bytes": 108008876,
+  "scope": [
+    "/home/example-user/etl4-batch-20261003",
+    "/home/example-user/etl4-pilot/manifests",
+    "/home/example-user/etl4-pilot/validation",
+    "/home/example-user/etl4-upload-urls.json",
+    "/home/example-user/etl4_cloud_control.zip"
+  ]
+}

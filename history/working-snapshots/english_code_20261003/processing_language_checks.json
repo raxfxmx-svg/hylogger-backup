@@ -1,0 +1,100 @@
+[
+  {
+    "file": "etl4\\processing\\0_check_raw.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\1_inventory.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\2_validate_payloads.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\3_normalize_metadata.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\4_align_samples.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\5_build_columnar.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\6_verify_prepared_data.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\columnar_storage.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\metadata_normalization.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\payload_validation.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\sample_alignment.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\processing\\_etl_common.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\_settings.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  },
+  {
+    "file": "etl4\\_file_checks.py",
+    "runtime_english": true,
+    "comments_bilingual": true,
+    "nontext_logic_unchanged": true,
+    "copy_identical": true
+  }
+]

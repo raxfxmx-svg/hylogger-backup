@@ -1,0 +1,46 @@
+[
+  {
+    "dataset_id": "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+    "dataset_name": "15EIS001",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/15EIS001",
+    "tray_id": "65439726-3f16-4549-9753-9e060aa931f",
+    "section_id": "45521bc4-f6ee-4977-8ced-6b8e0c41188",
+    "domain_id": "99f20710-2ebb-48e8-86f7-ae691e0f6dd",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>15EIS001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Gruyere</Project><Owner>GSWA</Owner><DrillDate>2015-01-01 09:06:07</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-27.977556</Latitude><Longitude>123.859362</Longitude><Azimuth>0.000000</Azimuth><Inclination>0.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "dataset_id": "56d5fe91-626f-48ad-8786-acf91fe83a5",
+    "dataset_name": "15EIS001_wedge3",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/15EIS001",
+    "tray_id": "006a68ff-329b-47aa-a8ed-3ebe59fe838",
+    "section_id": "698e8935-87bf-4cc5-8ab7-a85dfa30182",
+    "domain_id": "b3a2b1b0-0a9b-4d8b-85ca-2c0acea3032",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>15EIS001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Gruyere</Project><Owner>GSWA</Owner><DrillDate>2015-01-01 16:05:16</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-27.977556</Latitude><Longitude>123.859362</Longitude><Azimuth>252.000000</Azimuth><Inclination>-63.000000</Inclination><RL>408.780000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "dataset_id": "c83afeab-5697-4476-b24a-e210af12137",
+    "dataset_name": "15EIS001_wedge2",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/15EIS001",
+    "tray_id": "3de8bbc5-ee76-4ae8-b272-ae28baf3ee3",
+    "section_id": "6694123c-a7fc-4fd6-a66d-0b4842f99e4",
+    "domain_id": "143a474f-fb5c-4ef8-8ebd-38f3417b481",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>15EIS001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Gruyere deep stratigraphic hole</Project><Owner>GSWA</Owner><DrillDate>2015-01-01 14:17:09</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-27.977556</Latitude><Longitude>123.859362</Longitude><Azimuth>252.000000</Azimuth><Inclination>-63.000000</Inclination><RL>408.780000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "dataset_id": "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+    "dataset_name": "15EIS001_wedge",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/15EIS001",
+    "tray_id": "f696ed06-9b3f-4bbc-9d32-990ffd67e42",
+    "section_id": "4959cf57-55c0-4d9e-ae7a-cf0e4fcbbaf",
+    "domain_id": "3b87101d-d858-4d9e-95ee-0d01fa51c25",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>15EIS001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Gruyere deep Stratigraphic hole.</Project><Owner>gswa</Owner><DrillDate></DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-27.977556</Latitude><Longitude>123.859362</Longitude><Azimuth>252.000000</Azimuth><Inclination>-63.000000</Inclination><RL>408.780000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:23.674128+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "2_validate_payloads.py",
+  "code_sha256": "461340331a539ea3c1e024b3bbbcde2ecaed1aab93d572063cfb961a28d88881",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0007277000113390386,
+  "finished_at": "2026-09-28T05:19:23.674128+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-29T04:04:15.988536+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "26_bind_image_rows_to_samples.py",
+  "code_sha256": "3f67a7a794ced003b8c04ca5eda58e31f9ca742d9e8a22d33e5e26d200a78213",
+  "error_type": "ValueError",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0046249000006355345,
+  "finished_at": "2026-09-29T04:04:16.003720+00:00"
+}

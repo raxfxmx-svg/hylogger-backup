@@ -1,0 +1,8 @@
+{
+  "acceptance_report": "single_final_check_20260930/database/reports/local_acceptance_1_1e61a6bcb1602865cf6ba9b814fde535c476220cac8425bed33f95cb7c280876.json",
+  "acceptance_status": "passed",
+  "local_acceptance": 1,
+  "package_object_key": "new_input_check/random_09THD028/database/media_releases/1e61a6bcb1602865cf6ba9b814fde535c476220cac8425bed33f95cb7c280876",
+  "recorded_at": "2026-10-03T06:00:13.561134+00:00",
+  "status": "prepared"
+}

@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-28T11:05:16.804312+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "script": "34_import_multi_dataset_database.py",
+  "code_sha256": "e58fb9b7e0a3e7a5c611552fdd6daf389f8fea9e8b8cb1ce0ec3b4ae076222ac",
+  "sha256_file_scans": 8776,
+  "sha256_bytes_read": 4914976920,
+  "same_check_cache_hits": 27581,
+  "elapsed_seconds": 140.5089496000146,
+  "finished_at": "2026-09-28T11:07:37.312991+00:00"
+}

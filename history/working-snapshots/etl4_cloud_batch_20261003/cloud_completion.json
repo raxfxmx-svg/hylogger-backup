@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "cloud_holes_before": 5,
+  "cloud_holes_after": 12,
+  "active_datasets": 17,
+  "total_versions": 27,
+  "samples": 732206,
+  "image_regions": 4738,
+  "spectral_arrays": 31,
+  "composite_samples": 715759,
+  "release_id": "292e1573-f868-5494-81a8-0f85bcdbb8ad",
+  "replay_business_counts_unchanged": true,
+  "replay_release_unchanged": true,
+  "active_assets_without_s3": 0,
+  "deleted_local_files": 0
+}

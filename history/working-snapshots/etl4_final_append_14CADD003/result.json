@@ -1,0 +1,66 @@
+{
+  "after": {
+    "borehole": 12,
+    "complete_samples": 732206,
+    "data_release": 3,
+    "dataset": 17,
+    "dataset_revision": 17,
+    "display_samples": 715759,
+    "image_region": 4738,
+    "release_id": "541df521-79c1-5488-b3ab-130a2e7065f5",
+    "scan_sample": 732206,
+    "spectral_array": 31
+  },
+  "backup": {
+    "bytes": 18107407,
+    "path": "C:\\path\\to\\project\\etl4\\single_final_check_20260930\\database\\backups\\final_12_holes_20260930.dump",
+    "restored_and_compared": true,
+    "sha256": "8a2a641080c46fc66bf879c626ae5549892fdeadb1dbb541767ef8ebfb2bc8fa"
+  },
+  "before": {
+    "borehole": 11,
+    "complete_samples": 730622,
+    "data_release": 2,
+    "dataset": 16,
+    "dataset_revision": 16,
+    "display_samples": 714175,
+    "image_region": 4726,
+    "release_id": "aa9899e8-e81e-5f5a-b5a0-74818c50cb1c",
+    "scan_sample": 730622,
+    "spectral_array": 29
+  },
+  "database": "etl4_test_single_final_20260930",
+  "import": {
+    "elapsed_seconds": 16.103373699996155
+  },
+  "incoming": {
+    "dataset_id": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+    "new_final_revision": "984f74b7-3ba5-5d14-bf9d-9f8f783d1506",
+    "old_media_revision": "6a4b7a14-b672-5b11-8fdb-930cfd45a244",
+    "source_dataset_id": "978822fb-de28-4603-b02e-af6882e5951"
+  },
+  "original_11_hole_business_records_unchanged": true,
+  "reference": {
+    "borehole": 12,
+    "complete_samples": 732206,
+    "data_release": 11,
+    "dataset": 17,
+    "dataset_revision": 34,
+    "display_samples": 715759,
+    "image_region": 4738,
+    "release_id": "c8522bfa-7c4b-5886-a7b3-b002eea84f4d",
+    "scan_sample": 1464412,
+    "spectral_array": 31
+  },
+  "reference_database": "etl4_refactor_check",
+  "reference_database_unchanged": true,
+  "replay": {
+    "elapsed_seconds": 15.247848699975293,
+    "new_business_records": 0,
+    "new_releases": 0,
+    "same_check_cache_hits": 2064,
+    "sha256_bytes_read": 7985334054,
+    "sha256_file_scans": 10422
+  },
+  "status": "passed"
+}

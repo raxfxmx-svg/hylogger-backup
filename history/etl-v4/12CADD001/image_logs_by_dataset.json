@@ -1,0 +1,50 @@
+[
+  {
+    "log_id": "360f90ff-8ad1-4784-b6b5-d2b34dce93b",
+    "log_name": "Mosaic",
+    "sample_count": 0,
+    "dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e"
+  },
+  {
+    "log_id": "ec9309c4-dbc6-431f-9f43-8cddb730101",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": 93,
+    "dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e"
+  },
+  {
+    "log_id": "fb880260-5b44-4736-8f24-6f946e45913",
+    "log_name": "Tray Images",
+    "sample_count": 93,
+    "dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e"
+  },
+  {
+    "log_id": "52e88344-d5ab-4cb4-a005-2a62c48ceeb",
+    "log_name": "Imagery",
+    "sample_count": 49104,
+    "dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e"
+  },
+  {
+    "log_id": "fe916414-5f3f-4fcf-b7d0-fe938d99679",
+    "log_name": "Mosaic",
+    "sample_count": 0,
+    "dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+  },
+  {
+    "log_id": "06d1494a-bd8e-48f9-b3da-0c8c80a414b",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": 58,
+    "dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+  },
+  {
+    "log_id": "0da4b105-f06f-4f9b-92a3-c7f83591513",
+    "log_name": "Tray Images",
+    "sample_count": 58,
+    "dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+  },
+  {
+    "log_id": "e4ac25df-fd2a-4695-906b-258f8badee9",
+    "log_name": "Imagery",
+    "sample_count": 30632,
+    "dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+  }
+]

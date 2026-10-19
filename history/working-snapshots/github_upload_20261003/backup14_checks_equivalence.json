@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_functions": {
+    "require": true,
+    "foreign_key_checks": true,
+    "schema_signature": true
+  },
+  "relationship_queries_identical": true,
+  "relationship_query_count": 21,
+  "database_operations": false
+}

@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T23:47:27.901008+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "27_build_image_row_assets.py",
+  "code_sha256": "8c40270bb5294e3d0aa55387abd1591c841d22e8a6695da370ad027b8f1d6002",
+  "sha256_file_scans": 15,
+  "sha256_bytes_read": 368524,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.058242600003723055,
+  "finished_at": "2026-09-29T23:47:27.962579+00:00"
+}

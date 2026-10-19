@@ -1,0 +1,366 @@
+{
+  "status": "passed",
+  "files": 26,
+  "results": [
+    {
+      "file": "20_audit_spectral_sources.py",
+      "changed_strings": [
+        {
+          "old": "\u4ece\u6587\u4ef6\u51c6\u5907\u6700\u7ec8\u7248\u672c\uff0c\u4e0d\u8981\u6c42\u57fa\u7840\u7248\u672c\u5148\u5165\u5e93",
+          "new": "Prepare the final version from files without importing a base version first"
+        },
+        {
+          "old": "\u663e\u5f0f\u5f15\u7528\u5df2\u6709\u51c6\u5907\u6587\u4ef6\u6240\u5728\u5de5\u4f5c\u76ee\u5f55",
+          "new": "Explicit work directory containing existing prepared files"
+        },
+        {
+          "old": "\u6587\u4ef6\u51c6\u5907\u4e0e\u6765\u6e90\u53d1\u5e03\u4e0d\u80fd\u540c\u65f6\u6307\u5b9a",
+          "new": "File preparation and a source release cannot be selected together"
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "e43ef1b848783afc3b102961c86af9c0ca84a21b11a89464bd6ddb6b56cf5d94"
+    },
+    {
+      "file": "21_verify_spectral_bindings.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "c429a35cce57c25133b3c2f46d91441afe6c2c02e8a5de354a74667c49931eb4"
+    },
+    {
+      "file": "22_prepare_spectral_access.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "b1ab98e78319ed1931b5bed7a1a15c68370294955622898c05ace088773ddebc"
+    },
+    {
+      "file": "23_audit_dataset_image_groups.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "7684c467c82717124ebe3710ed54c93ee7da331efa86b0cfda33ea935390388e"
+    },
+    {
+      "file": "24_detect_image_rows.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "5c17cc0efd4bb95fd0186b414f2cf7687603b3da4e14a23e45b8e5f65036f1d5"
+    },
+    {
+      "file": "25_review_image_row_regions.py",
+      "changed_strings": [
+        {
+          "old": "\u4fdd\u7559\u539f\u56fe\u884c\u5185\u50cf\u7d20\u3001\u5206\u9694\u7ebf\u548c\u7a7a\u6bb5\uff1b\u6309\u6765\u6e90\u89c4\u8303\u4ece\u5de6\u5230\u53f3\u589e\u52a0\u5b54\u6df1\u3002",
+          "new": "Preserve original row pixels, dividers, and empty sections; depth increases from left to right according to the source specification."
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "3b5a32470274e7bf7b92c6e41eb755f3b8a774d317a9de9235dee15734ecf58b"
+    },
+    {
+      "file": "26_bind_image_rows_to_samples.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "f7f46d548dc9cfd65b25b46536e72f729586905567e74349565c6198cdb17101"
+    },
+    {
+      "file": "27_build_image_row_assets.py",
+      "changed_strings": [],
+      "docstrings": 3,
+      "sha256": "07e78c4c771b2ffd3c37f62526862f2bca145c562f7b1eb7aba953763877f9ef"
+    },
+    {
+      "file": "28_import_media_revision.py",
+      "changed_strings": [
+        {
+          "old": "\u5df2\u6709\u5c01\u5b58\u5305\u76ee\u5f55\uff0c\u652f\u6301\u8131\u79bb\u5a92\u4f53\u5de5\u4f5c\u76ee\u5f55\u590d\u8dd1",
+          "new": "Existing sealed package directory; supports reruns without the media work directory"
+        },
+        {
+          "old": "\u517c\u5bb9\u539f\u547d\u4ee4\uff1b\u672c\u6b65\u9aa4\u9ed8\u8ba4\u53ea\u5c01\u5b58\u5e76\u9a8c\u6536\uff0c\u968f\u540e\u4f7f\u7528\u6b65\u9aa4 37",
+          "new": "Compatibility flag; this step seals and verifies packages by default, then use step 37"
+        },
+        {
+          "old": "\u65e7\u5305\u7684\u51c6\u5907\u5de5\u4f5c\u76ee\u5f55\uff1b\u65b0\u6279\u6b21\u4f7f\u7528\u540c\u4e00 --work-dir",
+          "new": "Preparation work directory for older packages; new batches share --work-dir"
+        },
+        {
+          "old": "\u5a92\u4f53\u6b65\u9aa4\u76ee\u5f55\uff0c\u591a dataset \u53ef\u6307\u5b9a multi_work/media",
+          "new": "Media step directory; use multi_work/media for multiple datasets"
+        },
+        {
+          "old": "\u5a92\u4f53\u8bc1\u636e\u76ee\u5f55\uff0c\u591a dataset \u53ef\u6307\u5b9a multi_work/evidence",
+          "new": "Media evidence directory; use multi_work/evidence for multiple datasets"
+        },
+        {
+          "old": "\u7b2c\u4e00\u6b21\u672c\u5730\u9a8c\u6536\u901a\u8fc7\uff1a",
+          "new": "First local acceptance passed: "
+        },
+        {
+          "old": "\uff1b\u4e0b\u4e00\u6b65\u8fd0\u884c 37 \u5b8c\u6574\u5165\u5e93\u3002",
+          "new": "; run step 37 next to import the full version."
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "4636ab7bb1cf65ee4b68d962e89f336a7ead486caa69cf569ba56dd5d2aba1b1"
+    },
+    {
+      "file": "31_audit_multi_dataset_sources.py",
+      "changed_strings": [
+        {
+          "old": "# \u591a dataset \u6765\u6e90\u6838\u67e5",
+          "new": "# Multiple dataset source audit"
+        },
+        {
+          "old": "| \u5b54 | dataset | \u6837\u672c\u6570 | \u6df1\u5ea6\u8303\u56f4 m | \u6258\u76d8\u6570 |",
+          "new": "| Hole | Dataset | Samples | Depth range (m) | Trays |"
+        },
+        {
+          "old": "\u65e5\u5fd7\u5f52\u5c5e\u4f9d\u636e\uff1a\u5b98\u65b9\u6309 dataset \u67e5\u8be2\u7684\u6807\u91cf/\u5149\u8c31\u65e5\u5fd7 ID \u4e0e\u539f\u59cb\u5305\u9010\u9879\u4ea4\u96c6\u6838\u5bf9\uff1b\u56fe\u7247\u4f7f\u7528\u539f\u59cb\u663e\u5f0f dataset_id\uff1b\u8f6e\u5ed3\u9700\u5728\u6b65\u9aa4 32 \u5b8c\u6210\u5168\u91cf prof_min \u5bf9\u7167\u3002",
+          "new": "Log membership evidence: intersect official scalar and spectral log IDs queried by dataset with each original package; use explicit source dataset_id values for images; compare all prof_min values for profiles in step 32."
+        },
+        {
+          "old": "\u63a5\u66ff\u5173\u7cfb\u4e0d\u80fd\u7531\u6b64\u8868\u7684\u6392\u5217\u63a8\u65ad\uff0c\u53e6\u884c\u8bb0\u5f55\u7528\u6237\u786e\u8ba4\u3002",
+          "new": "Do not infer succession relationships from the table order; record user confirmation separately."
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "6977959b7e7c5ba463f1ab5688c5f47111d82112599719dddc019e478c16a1e8"
+    },
+    {
+      "file": "32_prepare_multi_dataset_payloads.py",
+      "changed_strings": [
+        {
+          "old": "\u6240\u9009\u5b54\u4e0d\u5728\u6b65\u9aa4 31 \u7684\u6e05\u5355\u4e2d",
+          "new": "Selected holes are not in the step 31 manifest"
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "f1120cc72fb8e84dc77cafbb82e78b0f2c9b8d384de499c049ae7592ca1feed5"
+    },
+    {
+      "file": "33_prepare_multi_dataset_media.py",
+      "changed_strings": [],
+      "docstrings": 4,
+      "sha256": "e9a4a81b8df0a80138ed1c88f3e6a4aef0b15ebb9ef713dd1831feade57d197f"
+    },
+    {
+      "file": "37_import_final_version.py",
+      "changed_strings": [
+        {
+          "old": "\u589e\u91cf\u6279\u6b21\u7684\u6765\u6e90\u53d1\u5e03\u5df2\u6539\u53d8",
+          "new": "The source release for the incremental batch has changed"
+        },
+        {
+          "old": "\u6700\u7ec8\u7248\u672c\u5df2\u63d0\u4ea4\uff1b\u6700\u65b0\u6e05\u5355\u5165\u53e3\u5f85\u91cd\u5efa\uff1a",
+          "new": "Final version committed; the latest manifest entry needs rebuilding: "
+        },
+        {
+          "old": "\u8bf7\u4f7f\u7528\u660e\u786e\u9009\u5b9a\u7684\u672c\u5730\u6279\u6b21\u5e93\uff0c\u4e0d\u80fd\u8986\u76d6\u65e7\u4ea4\u4ed8\u5e93",
+          "new": "Use an explicitly selected local batch database; do not overwrite the previous delivery database"
+        },
+        {
+          "old": "\u53e6\u4e00\u4e2a\u5bfc\u5165\u6216\u9a8c\u6536\u6b63\u5728\u8fd0\u884c",
+          "new": "Another import or acceptance is running"
+        },
+        {
+          "old": "\u5bfc\u5165\u5e76\u9a8c\u6536 ",
+          "new": "Importing and verifying "
+        },
+        {
+          "old": "\u5305\u8def\u5f84\u3001\u51c6\u5907\u76ee\u5f55\u548c\u591a dataset \u53d6\u6bb5\u51b3\u7b56",
+          "new": "Package paths, preparation directories, and segment decisions for multiple datasets"
+        },
+        {
+          "old": "\u6700\u7ec8\u53d1\u5e03\uff1a",
+          "new": "Final release: "
+        },
+        {
+          "old": "\uff1b\u672c\u6279 ",
+          "new": "; "
+        },
+        {
+          "old": " \u4e2a dataset",
+          "new": " datasets in this batch"
+        }
+      ],
+      "docstrings": 6,
+      "sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "file": "7_preflight_database.py",
+      "changed_strings": [
+        {
+          "old": "\u5df2\u9009\u62e9\u73b0\u6709\u5b9e\u4f8b\u914d\u7f6e\uff1b\u767b\u8bb0\u8f93\u5165\u8bf7\u4f7f\u7528 --inputs-only\uff0c\u5b9e\u4f8b\u542f\u505c\u8bf7\u5728\u539f\u8fd0\u884c\u76ee\u5f55\u6267\u884c",
+          "new": "An existing instance configuration is selected; use --inputs-only to register inputs and start or stop the instance from its original runtime directory"
+        },
+        {
+          "old": "\u53ea\u6838\u5bf9\u8f93\u5165\uff1b\u4f7f\u7528\u5df2\u914d\u7f6e\u7684\u6570\u636e\u5e93\u5b9e\u4f8b",
+          "new": "Check inputs only and use the configured database instance"
+        },
+        {
+          "old": "--inputs-only \u4e0d\u80fd\u4e0e --runtime-only \u6216 --stop \u540c\u65f6\u4f7f\u7528",
+          "new": "--inputs-only cannot be combined with --runtime-only or --stop"
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "21ce90c0c409bddaa697cf9ce1431fc0f1a10581e07ca98c9b3f5f51085a101a"
+    },
+    {
+      "file": "8_apply_schema.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "75ca4128be2dede42bc5fbd4af21fc67a9888a64cdf9e971e384f3bd9646454a"
+    },
+    {
+      "file": "_final_import.py",
+      "changed_strings": [
+        {
+          "old": "\u6279\u6b21\u6ca1\u6709\u8f93\u5165\u5305",
+          "new": "The batch has no input packages"
+        },
+        {
+          "old": "\u7f3a\u5c11\u7b2c\u4e00\u6b21\u672c\u5730\u9a8c\u6536\uff0c\u8bf7\u5148\u8fd0\u884c\u6b65\u9aa4 28 --package-only",
+          "new": "First local acceptance is missing; run step 28 --package-only first"
+        },
+        {
+          "old": "\u7b2c\u4e00\u6b21\u672c\u5730\u9a8c\u6536\u4e0e\u5f53\u524d\u8f93\u5165\u4e0d\u4e00\u81f4\uff0c\u8bf7\u91cd\u65b0\u6267\u884c\u6b65\u9aa4 28 --package-only",
+          "new": "First local acceptance does not match the current inputs; rerun step 28 --package-only"
+        },
+        {
+          "old": "\u540c\u4e00\u6279\u6b21\u91cd\u590d\u5305\u542b dataset",
+          "new": "The batch contains a duplicate dataset"
+        },
+        {
+          "old": "\u5904\u7406\u89c4\u5219\u7248\u672c\u4e0d\u80fd\u4e3a\u7a7a",
+          "new": "The processing rule version must not be empty"
+        },
+        {
+          "old": "\u89c4\u5219\u7248\u672c\u8986\u76d6\u5305\u542b\u672c\u6279\u6b21\u4ee5\u5916\u7684 dataset",
+          "new": "Rule version overrides include datasets outside this batch"
+        }
+      ],
+      "docstrings": 4,
+      "sha256": "92f48e95195af42d849bc870b8ff0d6910b8010fc5f2f0a36fdf15107b2ade39"
+    },
+    {
+      "file": "_media_common.py",
+      "changed_strings": [],
+      "docstrings": 3,
+      "sha256": "a5a92351567c320073b950b66dd331a2fbca1da4236e9e2f69bc766fbb0a1d6d"
+    },
+    {
+      "file": "_media_import.py",
+      "changed_strings": [
+        {
+          "old": "\u5305\u5185 dataset \u4e0d\u5728\u51c6\u5907\u6e05\u5355\u4e2d",
+          "new": "A package dataset is not in the preparation manifest"
+        },
+        {
+          "old": "\u5a92\u4f53\u5305\u4e0e\u51c6\u5907\u6587\u4ef6\u7684 dataset\u3001\u7248\u672c\u6216\u6837\u672c\u8f74\u4e0d\u4e00\u81f4",
+          "new": "The media package and prepared files differ in dataset, version, or sample axis"
+        },
+        {
+          "old": "\u5a92\u4f53\u6b65\u9aa4 ",
+          "new": "Media step "
+        },
+        {
+          "old": " \u4e0d\u5728\u5c01\u5b58\u6e05\u5355\u4e2d",
+          "new": " is not in the sealed manifest"
+        },
+        {
+          "old": "\u5a92\u4f53\u6b65\u9aa4 ",
+          "new": "Media step "
+        },
+        {
+          "old": " \u672a\u5b8c\u6210",
+          "new": " is incomplete"
+        },
+        {
+          "old": "\u51c6\u5907\u62a5\u544a\u672a\u901a\u8fc7\u6216\u6df7\u7528\u4e86\u8f93\u5165\uff1a",
+          "new": "The preparation report failed or combines different inputs: "
+        },
+        {
+          "old": "\u51c6\u5907\u62a5\u544a\u4e0d\u5728\u9a8c\u6536\u6e05\u5355\u4e2d\uff1a",
+          "new": "The preparation report is not in the acceptance manifest: "
+        },
+        {
+          "old": "\u539f\u59cb\u6587\u4ef6\u4e0e\u51c6\u5907\u7ed3\u679c\u4e0d\u4e00\u81f4",
+          "new": "Raw files do not match the prepared results"
+        },
+        {
+          "old": "\u51c6\u5907\u6e05\u5355\u7f3a\u5c11\u5fc5\u8981\u4ea7\u7269",
+          "new": "The preparation manifest is missing required outputs"
+        },
+        {
+          "old": "\u51c6\u5907\u4ea7\u7269\u4e0e\u5b58\u50a8\u6e05\u5355\u4e0d\u4e00\u81f4",
+          "new": "Prepared outputs do not match the storage manifest"
+        }
+      ],
+      "docstrings": 9,
+      "sha256": "65e654a173a8af90614307e8da8b7bfdf0b4fb6c5dd309719dd37137f614e952"
+    },
+    {
+      "file": "_media_manifest.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "d18884bb3c293ef1111b9d29671db8b3697c1e5ad37d9b967754dcf733a08f90"
+    },
+    {
+      "file": "_media_reader.py",
+      "changed_strings": [
+        {
+          "old": "\u6307\u793a\u7ebf\u6309\u6837\u672c\u5e8f\u53f7\u4f30\u7b97\u4f4d\u7f6e\uff1b\u6df1\u5ea6\u4e0e\u7ed3\u679c\u6765\u81ea\u6240\u9009\u6837\u672c\u3002",
+          "new": "The indicator position is estimated from the sample number; depth and results come from the selected sample."
+        }
+      ],
+      "docstrings": 4,
+      "sha256": "cb0f7e09443f7effd1e8374f79407ea3de887b0c96638a7a5f67d943a5d36d3d"
+    },
+    {
+      "file": "_media_rows.py",
+      "changed_strings": [],
+      "docstrings": 3,
+      "sha256": "57e65ebff15d562d9d8229f95740b1ab2e8b6c008563e3b718b397442d80b043"
+    },
+    {
+      "file": "_media_verification.py",
+      "changed_strings": [
+        {
+          "old": "\u76f8\u90bb\u56fe\u7247\u884c\u7684\u8fb9\u754c\u6837\u672c\u4e0e\u5b9a\u4f4d\u4e0d\u4e00\u81f4",
+          "new": "Boundary samples and positions are inconsistent between adjacent image rows"
+        }
+      ],
+      "docstrings": 3,
+      "sha256": "4864477e03f0dc16655a1b87f920820eee4bb23d68dad13ec5b2a93de1bac71a"
+    },
+    {
+      "file": "_multi_common.py",
+      "changed_strings": [
+        {
+          "old": "\u591a dataset \u6d41\u7a0b\u8981\u6c42\u4e00\u4e2a\u5b54\u5305\u542b\u591a\u4e2a dataset",
+          "new": "The multiple dataset workflow requires more than one dataset in a hole"
+        }
+      ],
+      "docstrings": 1,
+      "sha256": "3baca7d35ab95938725b45ea5129ff5e0801d964a34424964ce98eafe527bc48"
+    },
+    {
+      "file": "_multi_db.py",
+      "changed_strings": [],
+      "docstrings": 3,
+      "sha256": "f02395ec6c6a2e5453b125c7e2d22d829cedf24b64ff3ceb3f4e58e675158ff5"
+    },
+    {
+      "file": "_prepared_inputs.py",
+      "changed_strings": [],
+      "docstrings": 3,
+      "sha256": "8b2e6e99d31fbcc8957c677d98a1d90dfca5f1e6e03dad46f9f58cae9c282de3"
+    },
+    {
+      "file": "_verification.py",
+      "changed_strings": [],
+      "docstrings": 1,
+      "sha256": "a0b7da8d56c40bfbf6281cc0230f86f0267b17e4c9a35af864b7cd18db788e86"
+    }
+  ]
+}

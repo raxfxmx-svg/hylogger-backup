@@ -1,0 +1,206 @@
+{
+  "backup_bytes": 28124073,
+  "backup_relative_path": "backups/etl4_multi_707bbb9e-6e0a-50f9-9638-96cb13a6daf3_20260928T111456Z.dump",
+  "backup_sha256": "20668d5efc5cc2872402fae557ff96e3ca4166a232109467a4578fa5c8d54e6a",
+  "business_table_hashes": {
+    "asset": "91dc0a049be384697cabe567323d564fb6ce82179cb0b1299c3b3c94773febac",
+    "asset_location": "55d7e2e1820320b899856f10838efeb6ed78a5e7534227da485463c00daa7deb",
+    "borehole": "4ab81d019ef80a9786a5f04009b4db4b69c8f1d355298d2b382eb9cde78fcbd7",
+    "borehole_branch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "borehole_composite": "387779104f4cda9496b13379bb642a8514a4986db8d7827e9f1b0b41d8448403",
+    "borehole_composite_part": "9827f3863eac7a39691202341e10a3bdf9cd4fcb1251dfedaeb88f15f4c54e21",
+    "borehole_revision": "03a560858b1911ebe5b23737f0463b4261e89a5b442a64eab6887716e3a97574",
+    "core_interval": "83e7634f4096fbb8583cc14681da35b4ee2890947198d8a0da20f62e0ea700fa",
+    "data_chunk": "4368917893275a718cce28c3692fa9a45e8f3f01db227e47caa3c774565cd309",
+    "data_release": "03c06c5fa116a8e81bf756da9ce6f8b0c702c4b3881777fe2c2dc1544b258c1a",
+    "dataset": "10d6f560950fb75de73fe0c5b9b9bd95ac8106c33e7b045d7698568a3cfb1148",
+    "dataset_revision": "798c101c48458418ad1a51eeb7cbcf54cb5136ad09d9d99f6cf36846b97ed640",
+    "dataset_segment": "1372e4f8bba304ecb8bfaa2d66cc8847331e8b81486c7dc5c53b8b8cb62d57db",
+    "dataset_succession": "8e6cb0f924faa569cdcf255fb6ce6c539cb0577a938d9e43fc77a2b49fb3254c",
+    "image_frame": "3b677f80981077fe4a5a94dc6bc916cd1c4e7b0401785207895f116aafeddec2",
+    "image_region": "6bdf7e047f2c2a15ce7d3b7620645888505383a99b4b04719557164c5eff679c",
+    "image_region_asset": "ab9c962f3e19d1a128fa0aa92de06b224ac2921aa9f19d8d26907d040731fbd2",
+    "image_sample_mapping": "5337638f8e45c2a71c88ab17d80d16c87558fe9d7ede6e072a81282192d3e3b5",
+    "interpretation_input": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "interpretation_set": "7d199ebee2a0c5e67b1a2651c80d16402789eed4e361e9b9ec3621fe80ccd161",
+    "log_asset": "f9cfd48deb94943a7a5441f40dedc95e6dec51c7de3c7f40b97df132bfaacc14",
+    "log_axis_binding": "2b8eaeb8d5734e657910ae38ab96d8cb9736126ec954091cc54d76348a2eba70",
+    "metric_definition": "d31692a094673abe8842484426955944205b79e164920b66510d06f80b483dd9",
+    "quality_issue": "b8a92272f9112b86dd5de78a890bcc8e45be220147a185481085a5ac56c5f4f1",
+    "release_dataset": "8555f79729d5afe5c41a9ff2c54a4255f73d61df66e08574a6ef3c84e3dd1d8d",
+    "sample_axis": "d122963e10f31d81fdcc5f77b956913b3a642c00caef066d82e4790fc217bc39",
+    "scan_log": "0f2a37e7be9773235bc97623e11d5adbf05e4d211fb526ff35517a201733d823",
+    "scan_sample": "39ec04ec33c904a77734035c2a1c1a62c79291bb8f46b64c0d75845512142b2c",
+    "source_document": "209f58f34f33e95c621b5913a27a6a8c83ef6ffbca1e3ec043ec1643901f1853",
+    "source_reference": "8dbe775df040fe2d0f05fd2eb0688f7c641e2a6f7417d07bbd253ada36ede020",
+    "spectral_array": "283fa713890f4e759e5d7916bcc13bcebff2da1157bb7897f46beba8c7ac331c",
+    "spectral_block": "dd46df0e41129ade5c72d36d55b27c17c19629b686d0fa6c0297a654db0cbf0e",
+    "spectral_sample_map": "caef9335aebfab85a8af7c2647c25b98e386060a04064a0444827329c502485a",
+    "spectral_stream": "76babe24ecda12c85cf37fe9203094928d6e816fb0751fc06dbea6582f1c3bb8",
+    "survey_station": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "independent_fault_checks": {
+    "composite": [
+      {
+        "case": "wrong source sample index",
+        "sqlstate": "P0001",
+        "status": "rejected"
+      },
+      {
+        "case": "overlap reintroduced into 3D",
+        "sqlstate": "P0001",
+        "status": "rejected"
+      },
+      {
+        "case": "cross-hole dataset assignment",
+        "sqlstate": "23503",
+        "status": "rejected"
+      },
+      {
+        "case": "wrong succession evidence",
+        "sqlstate": "P0001",
+        "status": "rejected"
+      },
+      {
+        "case": "missing succession evidence",
+        "sqlstate": "23514",
+        "status": "rejected"
+      }
+    ],
+    "media": [
+      {
+        "case": "same_hole_two_datasets_same_labels",
+        "passed": true
+      },
+      {
+        "case": "different_spectra_and_images",
+        "passed": true
+      },
+      {
+        "case": "duplicate_depth_distinct_samples",
+        "passed": true
+      },
+      {
+        "case": "missing_image_preserves_results",
+        "passed": true
+      },
+      {
+        "case": "multiple_image_logs_require_selection",
+        "passed": true
+      },
+      {
+        "case": "unmapped_region_no_indicator",
+        "passed": true
+      },
+      {
+        "case": "single_sample_single_pixel",
+        "passed": true
+      },
+      {
+        "case": "cross_dataset_selection",
+        "error": "ValueError",
+        "rejected": true
+      },
+      {
+        "case": "cross_dataset_result_log",
+        "error": "ValueError",
+        "rejected": true
+      },
+      {
+        "case": "invalid_sample_no",
+        "error": "ValueError",
+        "rejected": true
+      },
+      {
+        "case": "cross_revision_frame",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "overlapping_regions",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "out_of_bounds_crop",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "cross_revision_mapping",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "split_or_discontinuous_index_mapping",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "wrong_image_log",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "immutable_media",
+        "error": "ObjectNotInPrerequisiteState",
+        "rejected": true
+      },
+      {
+        "case": "invalid_spectral_byte_offset",
+        "error": "RaiseException",
+        "rejected": true
+      },
+      {
+        "case": "interrupted_revision_import",
+        "error": "ValueError",
+        "rejected": true
+      }
+    ]
+  },
+  "recorded_at": "2026-09-28T11:15:28.908530+00:00",
+  "release_id": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "restored_active_release_matches": true,
+  "restored_schema_matches": true,
+  "restored_table_hashes": {
+    "asset": "91dc0a049be384697cabe567323d564fb6ce82179cb0b1299c3b3c94773febac",
+    "asset_location": "55d7e2e1820320b899856f10838efeb6ed78a5e7534227da485463c00daa7deb",
+    "borehole": "4ab81d019ef80a9786a5f04009b4db4b69c8f1d355298d2b382eb9cde78fcbd7",
+    "borehole_branch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "borehole_composite": "387779104f4cda9496b13379bb642a8514a4986db8d7827e9f1b0b41d8448403",
+    "borehole_composite_part": "9827f3863eac7a39691202341e10a3bdf9cd4fcb1251dfedaeb88f15f4c54e21",
+    "borehole_revision": "03a560858b1911ebe5b23737f0463b4261e89a5b442a64eab6887716e3a97574",
+    "core_interval": "83e7634f4096fbb8583cc14681da35b4ee2890947198d8a0da20f62e0ea700fa",
+    "data_chunk": "4368917893275a718cce28c3692fa9a45e8f3f01db227e47caa3c774565cd309",
+    "data_release": "03c06c5fa116a8e81bf756da9ce6f8b0c702c4b3881777fe2c2dc1544b258c1a",
+    "dataset": "10d6f560950fb75de73fe0c5b9b9bd95ac8106c33e7b045d7698568a3cfb1148",
+    "dataset_revision": "798c101c48458418ad1a51eeb7cbcf54cb5136ad09d9d99f6cf36846b97ed640",
+    "dataset_segment": "1372e4f8bba304ecb8bfaa2d66cc8847331e8b81486c7dc5c53b8b8cb62d57db",
+    "dataset_succession": "8e6cb0f924faa569cdcf255fb6ce6c539cb0577a938d9e43fc77a2b49fb3254c",
+    "image_frame": "3b677f80981077fe4a5a94dc6bc916cd1c4e7b0401785207895f116aafeddec2",
+    "image_region": "6bdf7e047f2c2a15ce7d3b7620645888505383a99b4b04719557164c5eff679c",
+    "image_region_asset": "ab9c962f3e19d1a128fa0aa92de06b224ac2921aa9f19d8d26907d040731fbd2",
+    "image_sample_mapping": "5337638f8e45c2a71c88ab17d80d16c87558fe9d7ede6e072a81282192d3e3b5",
+    "interpretation_input": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "interpretation_set": "7d199ebee2a0c5e67b1a2651c80d16402789eed4e361e9b9ec3621fe80ccd161",
+    "log_asset": "f9cfd48deb94943a7a5441f40dedc95e6dec51c7de3c7f40b97df132bfaacc14",
+    "log_axis_binding": "2b8eaeb8d5734e657910ae38ab96d8cb9736126ec954091cc54d76348a2eba70",
+    "metric_definition": "d31692a094673abe8842484426955944205b79e164920b66510d06f80b483dd9",
+    "quality_issue": "b8a92272f9112b86dd5de78a890bcc8e45be220147a185481085a5ac56c5f4f1",
+    "release_dataset": "8555f79729d5afe5c41a9ff2c54a4255f73d61df66e08574a6ef3c84e3dd1d8d",
+    "sample_axis": "d122963e10f31d81fdcc5f77b956913b3a642c00caef066d82e4790fc217bc39",
+    "scan_log": "0f2a37e7be9773235bc97623e11d5adbf05e4d211fb526ff35517a201733d823",
+    "scan_sample": "39ec04ec33c904a77734035c2a1c1a62c79291bb8f46b64c0d75845512142b2c",
+    "source_document": "209f58f34f33e95c621b5913a27a6a8c83ef6ffbca1e3ec043ec1643901f1853",
+    "source_reference": "8dbe775df040fe2d0f05fd2eb0688f7c641e2a6f7417d07bbd253ada36ede020",
+    "spectral_array": "283fa713890f4e759e5d7916bcc13bcebff2da1157bb7897f46beba8c7ac331c",
+    "spectral_block": "dd46df0e41129ade5c72d36d55b27c17c19629b686d0fa6c0297a654db0cbf0e",
+    "spectral_sample_map": "caef9335aebfab85a8af7c2647c25b98e386060a04064a0444827329c502485a",
+    "spectral_stream": "76babe24ecda12c85cf37fe9203094928d6e816fb0751fc06dbea6582f1c3bb8",
+    "survey_station": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "restored_views_match": true,
+  "runtime_credentials_included": false,
+  "schema_sha256": "c54652c8be1cf82d7f90f1bcca7ac196661c9d444311f5c3ed51a24f3c78ad66",
+  "status": "passed"
+}

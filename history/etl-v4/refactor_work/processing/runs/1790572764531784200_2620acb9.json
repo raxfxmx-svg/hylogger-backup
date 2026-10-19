@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:24.531035+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "6_verify_prepared_data.py",
+  "code_sha256": "25efbf18ff5cb4b263fb99d1a048d7d2b84f036e41f7734ef4c7949e35158268",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0008346000104211271,
+  "finished_at": "2026-09-28T05:19:24.531784+00:00"
+}

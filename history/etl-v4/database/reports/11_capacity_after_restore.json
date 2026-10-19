@@ -1,0 +1,626 @@
+{
+  "all_asset_logical_bytes": 2344376294,
+  "all_asset_unique_bytes_by_sha256": 2272529530,
+  "asset_categories": {
+    "canonical_payloads": {
+      "logical_asset_count": 507,
+      "logical_bytes": 488295090,
+      "unique_bytes_by_sha256": 488295090,
+      "unique_files_by_sha256": 507
+    },
+    "original_spectral_arrays": {
+      "logical_asset_count": 8,
+      "logical_bytes": 819799776,
+      "unique_bytes_by_sha256": 819799776,
+      "unique_files_by_sha256": 8
+    },
+    "other_original_archive": {
+      "logical_asset_count": 577,
+      "logical_bytes": 1021583500,
+      "unique_bytes_by_sha256": 949736736,
+      "unique_files_by_sha256": 536
+    },
+    "processing_evidence": {
+      "logical_asset_count": 50,
+      "logical_bytes": 9808782,
+      "unique_bytes_by_sha256": 9808782,
+      "unique_files_by_sha256": 50
+    },
+    "tray_thumbnails": {
+      "logical_asset_count": 249,
+      "logical_bytes": 4889146,
+      "unique_bytes_by_sha256": 4889146,
+      "unique_files_by_sha256": 249
+    }
+  },
+  "asset_count": 1391,
+  "benchmarks": [
+    {
+      "backend": "local",
+      "checksum_bytes_read": 302301,
+      "checksum_cache": "empty",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 46.72139999456704,
+      "hole_id": "05KCD001",
+      "iteration": 0,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": false,
+      "payload_bytes_read": 120047,
+      "payload_read_calls": 9,
+      "range": "narrow",
+      "response_bytes": 13910,
+      "returned_rows": 77,
+      "row_groups": [
+        2
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 0,
+      "checksum_cache": "warm",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 42.123899795114994,
+      "hole_id": "05KCD001",
+      "iteration": 1,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": false,
+      "payload_bytes_read": 120047,
+      "payload_read_calls": 9,
+      "range": "narrow",
+      "response_bytes": 13910,
+      "returned_rows": 77,
+      "row_groups": [
+        2
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 302301,
+      "checksum_cache": "empty",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 97.85649995319545,
+      "hole_id": "05KCD001",
+      "iteration": 0,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": true,
+      "payload_bytes_read": 176728,
+      "payload_read_calls": 17,
+      "range": "wide",
+      "response_bytes": 826281,
+      "returned_rows": 5000,
+      "row_groups": [
+        0,
+        1
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 0,
+      "checksum_cache": "warm",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 94.52949999831617,
+      "hole_id": "05KCD001",
+      "iteration": 1,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": true,
+      "payload_bytes_read": 176728,
+      "payload_read_calls": 17,
+      "range": "wide",
+      "response_bytes": 826281,
+      "returned_rows": 5000,
+      "row_groups": [
+        0,
+        1
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 1447957,
+      "checksum_cache": "empty",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 42.12799994274974,
+      "hole_id": "07THD002",
+      "iteration": 0,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": false,
+      "payload_bytes_read": 112326,
+      "payload_read_calls": 9,
+      "range": "narrow",
+      "response_bytes": 25644,
+      "returned_rows": 148,
+      "row_groups": [
+        14
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 0,
+      "checksum_cache": "warm",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 41.186700109392405,
+      "hole_id": "07THD002",
+      "iteration": 1,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": false,
+      "payload_bytes_read": 112326,
+      "payload_read_calls": 9,
+      "range": "narrow",
+      "response_bytes": 25644,
+      "returned_rows": 148,
+      "row_groups": [
+        14
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 1447957,
+      "checksum_cache": "empty",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 95.35630000755191,
+      "hole_id": "07THD002",
+      "iteration": 0,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": true,
+      "payload_bytes_read": 171447,
+      "payload_read_calls": 17,
+      "range": "wide",
+      "response_bytes": 830740,
+      "returned_rows": 5000,
+      "row_groups": [
+        0,
+        1
+      ]
+    },
+    {
+      "backend": "local",
+      "checksum_bytes_read": 0,
+      "checksum_cache": "warm",
+      "checksum_validation_bytes_excluded": true,
+      "elapsed_ms": 90.20030009560287,
+      "hole_id": "07THD002",
+      "iteration": 1,
+      "os_cache": "uncontrolled; not a physical cold-disk measurement",
+      "pagination_required": true,
+      "payload_bytes_read": 171447,
+      "payload_read_calls": 17,
+      "range": "wide",
+      "response_bytes": 830740,
+      "returned_rows": 5000,
+      "row_groups": [
+        0,
+        1
+      ]
+    }
+  ],
+  "core_total_relation_bytes": 68911104,
+  "empty_extension_database_bytes": 16174227,
+  "increase_over_empty_bytes": 70156288,
+  "label": "after_restore",
+  "limitations": [
+    "WAL directory is a current allocation, not an observed historical peak",
+    "Query temp_bytes does not cover every index-build or OS temporary allocation",
+    "First timed reads include full-file checksum validation; payload byte counters exclude that separate pass",
+    "No cloud transfer, latency or egress has been measured",
+    "Five holes do not determine the final size of 2000 holes; full original archive retention and revision retention change storage needs"
+  ],
+  "minimum_scalar_thumbnail_payload_bytes": 493184236,
+  "query_plans": [
+    {
+      "hole_id": "05KCD001",
+      "sample_query_plan": [
+        {
+          "Execution Time": 0.084,
+          "Plan": {
+            "Actual Loops": 1,
+            "Actual Rows": 77,
+            "Actual Startup Time": 0.055,
+            "Actual Total Time": 0.074,
+            "Alias": "scan_sample",
+            "Async Capable": false,
+            "Index Cond": "((axis_id = '08b5e753-5d54-5379-ba0b-d7d951c54f05'::uuid) AND (md_m >= '129.71019'::double precision) AND (md_m <= '130.21019'::double precision))",
+            "Index Name": "sample_depth_idx",
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Node Type": "Index Scan",
+            "Parallel Aware": false,
+            "Plan Rows": 40,
+            "Plan Width": 88,
+            "Relation Name": "scan_sample",
+            "Rows Removed by Index Recheck": 0,
+            "Scan Direction": "Forward",
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 2,
+            "Shared Read Blocks": 4,
+            "Shared Written Blocks": 0,
+            "Startup Cost": 0.42,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0,
+            "Total Cost": 150.51
+          },
+          "Planning": {
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 45,
+            "Shared Read Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "Planning Time": 0.121,
+          "Triggers": []
+        }
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "sample_query_plan": [
+        {
+          "Execution Time": 0.071,
+          "Plan": {
+            "Actual Loops": 1,
+            "Actual Rows": 148,
+            "Actual Startup Time": 0.057,
+            "Actual Total Time": 0.06,
+            "Async Capable": false,
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Node Type": "Sort",
+            "Parallel Aware": false,
+            "Plan Rows": 93,
+            "Plan Width": 88,
+            "Plans": [
+              {
+                "Actual Loops": 1,
+                "Actual Rows": 148,
+                "Actual Startup Time": 0.039,
+                "Actual Total Time": 0.046,
+                "Alias": "scan_sample",
+                "Async Capable": false,
+                "Exact Heap Blocks": 3,
+                "Local Dirtied Blocks": 0,
+                "Local Hit Blocks": 0,
+                "Local Read Blocks": 0,
+                "Local Written Blocks": 0,
+                "Lossy Heap Blocks": 0,
+                "Node Type": "Bitmap Heap Scan",
+                "Parallel Aware": false,
+                "Parent Relationship": "Outer",
+                "Plan Rows": 93,
+                "Plan Width": 88,
+                "Plans": [
+                  {
+                    "Actual Loops": 1,
+                    "Actual Rows": 148,
+                    "Actual Startup Time": 0.035,
+                    "Actual Total Time": 0.035,
+                    "Async Capable": false,
+                    "Index Cond": "((axis_id = '6e4d8e1c-1859-510a-9ff9-d12c6c3a6bb9'::uuid) AND (md_m >= '265.38297'::double precision) AND (md_m <= '265.88297'::double precision))",
+                    "Index Name": "sample_depth_idx",
+                    "Local Dirtied Blocks": 0,
+                    "Local Hit Blocks": 0,
+                    "Local Read Blocks": 0,
+                    "Local Written Blocks": 0,
+                    "Node Type": "Bitmap Index Scan",
+                    "Parallel Aware": false,
+                    "Parent Relationship": "Outer",
+                    "Plan Rows": 93,
+                    "Plan Width": 0,
+                    "Shared Dirtied Blocks": 0,
+                    "Shared Hit Blocks": 1,
+                    "Shared Read Blocks": 3,
+                    "Shared Written Blocks": 0,
+                    "Startup Cost": 0.0,
+                    "Temp Read Blocks": 0,
+                    "Temp Written Blocks": 0,
+                    "Total Cost": 5.58
+                  }
+                ],
+                "Recheck Cond": "((axis_id = '6e4d8e1c-1859-510a-9ff9-d12c6c3a6bb9'::uuid) AND (md_m >= '265.38297'::double precision) AND (md_m <= '265.88297'::double precision))",
+                "Relation Name": "scan_sample",
+                "Rows Removed by Index Recheck": 0,
+                "Shared Dirtied Blocks": 0,
+                "Shared Hit Blocks": 4,
+                "Shared Read Blocks": 3,
+                "Shared Written Blocks": 0,
+                "Startup Cost": 5.61,
+                "Temp Read Blocks": 0,
+                "Temp Written Blocks": 0,
+                "Total Cost": 332.06
+              }
+            ],
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 4,
+            "Shared Read Blocks": 3,
+            "Shared Written Blocks": 0,
+            "Sort Key": [
+              "md_m",
+              "sample_no"
+            ],
+            "Sort Method": "quicksort",
+            "Sort Space Type": "Memory",
+            "Sort Space Used": 40,
+            "Startup Cost": 335.1,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0,
+            "Total Cost": 335.33
+          },
+          "Planning": {
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 0,
+            "Shared Read Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "Planning Time": 0.045,
+          "Triggers": []
+        }
+      ]
+    }
+  ],
+  "recorded_at": "2026-09-07T23:01:23.549746+00:00",
+  "release_id": "20bbb134-501d-54bc-9428-5ee48b6801e4",
+  "status": "measured_local_only",
+  "system": {
+    "cumulative_query_temp_bytes": 639664128,
+    "current_wal_directory_bytes": 117440512,
+    "database": "etl4_core",
+    "database_bytes": 86330515,
+    "postgis_version": "POSTGIS=\"3.6.2 3.6.2\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.14.1dev-CAPI-1.20.4\" PROJ=\"8.2.1 NETWORK_ENABLED=OFF URL_ENDPOINT=https://cdn.proj.org USER_WRITABLE_DIRECTORY=C:\\Users\\USER\\AppData DATABASE_PATH=C:\\Program Files\\PostgreSQL\\17\\share\\contrib\\postgis-3.6\\proj\\proj.db\" (compiled against PROJ 8.2.1) LIBXML=\"2.12.5\" LIBJSON=\"0.12\" LIBPROTOBUF=\"1.2.1\" WAGYU=\"0.5.0 (Internal)\"",
+    "postgres_version": "PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit",
+    "wal_lsn": "0/1D975418"
+  },
+  "tables": [
+    {
+      "index_bytes": 16384,
+      "row_count": 1,
+      "table_bytes": 8192,
+      "table_name": "active_release",
+      "toast_bytes_included": 0,
+      "total_bytes": 24576
+    },
+    {
+      "index_bytes": 417792,
+      "row_count": 1391,
+      "table_bytes": 876544,
+      "table_name": "asset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 1294336
+    },
+    {
+      "index_bytes": 376832,
+      "row_count": 1391,
+      "table_bytes": 385024,
+      "table_name": "asset_location",
+      "toast_bytes_included": 8192,
+      "total_bytes": 761856
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 5,
+      "table_bytes": 16384,
+      "table_name": "borehole",
+      "toast_bytes_included": 8192,
+      "total_bytes": 49152
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "borehole_branch",
+      "toast_bytes_included": 8192,
+      "total_bytes": 24576
+    },
+    {
+      "index_bytes": 40960,
+      "row_count": 5,
+      "table_bytes": 49152,
+      "table_name": "borehole_revision",
+      "toast_bytes_included": 8192,
+      "total_bytes": 90112
+    },
+    {
+      "index_bytes": 409600,
+      "row_count": 1610,
+      "table_bytes": 352256,
+      "table_name": "core_interval",
+      "toast_bytes_included": 8192,
+      "total_bytes": 761856
+    },
+    {
+      "index_bytes": 851968,
+      "row_count": 6777,
+      "table_bytes": 1630208,
+      "table_name": "data_chunk",
+      "toast_bytes_included": 8192,
+      "total_bytes": 2482176
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 2,
+      "table_bytes": 16384,
+      "table_name": "data_release",
+      "toast_bytes_included": 8192,
+      "total_bytes": 49152
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 5,
+      "table_bytes": 16384,
+      "table_name": "dataset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 65536
+    },
+    {
+      "index_bytes": 65536,
+      "row_count": 5,
+      "table_bytes": 49152,
+      "table_name": "dataset_revision",
+      "toast_bytes_included": 8192,
+      "total_bytes": 114688
+    },
+    {
+      "index_bytes": 8192,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "dataset_segment",
+      "toast_bytes_included": 8192,
+      "total_bytes": 16384
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 249,
+      "table_bytes": 114688,
+      "table_name": "image_frame",
+      "toast_bytes_included": 8192,
+      "total_bytes": 163840
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 4,
+      "table_bytes": 16384,
+      "table_name": "ingest_run",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 8192,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "interpretation_input",
+      "toast_bytes_included": 8192,
+      "total_bytes": 16384
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 23,
+      "table_bytes": 16384,
+      "table_name": "interpretation_set",
+      "toast_bytes_included": 8192,
+      "total_bytes": 65536
+    },
+    {
+      "index_bytes": 106496,
+      "row_count": 1266,
+      "table_bytes": 163840,
+      "table_name": "log_asset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 270336
+    },
+    {
+      "index_bytes": 40960,
+      "row_count": 583,
+      "table_bytes": 114688,
+      "table_name": "log_axis_binding",
+      "toast_bytes_included": 8192,
+      "total_bytes": 155648
+    },
+    {
+      "index_bytes": 40960,
+      "row_count": 240,
+      "table_bytes": 73728,
+      "table_name": "metric_definition",
+      "toast_bytes_included": 8192,
+      "total_bytes": 114688
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 75,
+      "table_bytes": 57344,
+      "table_name": "quality_issue",
+      "toast_bytes_included": 8192,
+      "total_bytes": 73728
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 6,
+      "table_bytes": 8192,
+      "table_name": "release_dataset",
+      "toast_bytes_included": 0,
+      "total_bytes": 24576
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 5,
+      "table_bytes": 16384,
+      "table_name": "revision_validation",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 5,
+      "table_bytes": 73728,
+      "table_name": "sample_axis",
+      "toast_bytes_included": 65536,
+      "total_bytes": 106496
+    },
+    {
+      "index_bytes": 270336,
+      "row_count": 583,
+      "table_bytes": 1236992,
+      "table_name": "scan_log",
+      "toast_bytes_included": 245760,
+      "total_bytes": 1507328
+    },
+    {
+      "index_bytes": 29196288,
+      "row_count": 261892,
+      "table_bytes": 30834688,
+      "table_name": "scan_sample",
+      "toast_bytes_included": 0,
+      "total_bytes": 60030976
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 3,
+      "table_bytes": 16384,
+      "table_name": "schema_migration",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 70,
+      "table_bytes": 376832,
+      "table_name": "source_document",
+      "toast_bytes_included": 311296,
+      "total_bytes": 409600
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 15,
+      "table_bytes": 16384,
+      "table_name": "source_reference",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 8,
+      "table_bytes": 57344,
+      "table_name": "spectral_stream",
+      "toast_bytes_included": 8192,
+      "total_bytes": 90112
+    },
+    {
+      "index_bytes": 8192,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "survey_station",
+      "toast_bytes_included": 8192,
+      "total_bytes": 16384
+    }
+  ]
+}

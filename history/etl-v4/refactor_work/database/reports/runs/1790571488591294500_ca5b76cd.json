@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T04:57:59.070653+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "29_verify_media_grain.py",
+  "code_sha256": "700fa63650bfc9eed3f3a522d30c2f9497284f320ce2fe1a565370d4313eb275",
+  "error_type": "TypeError",
+  "sha256_file_scans": 2820,
+  "sha256_bytes_read": 2404390032,
+  "same_check_cache_hits": 1732,
+  "elapsed_seconds": 9.520975999999791,
+  "finished_at": "2026-09-28T04:58:08.591294+00:00"
+}

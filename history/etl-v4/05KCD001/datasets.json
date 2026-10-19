@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "99f2aa8a-a676-4416-964b-3f8d8dadf86",
+    "dataset_name": "05KCD001",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/05KCD001",
+    "tray_id": "2fdbccfd-e016-4c85-8b39-040831f8509",
+    "section_id": "fa5739d5-9ad7-4cc0-9f13-6b5ef78ef30",
+    "domain_id": "1735bdc3-8893-41c1-b914-1e8e11dff12",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>05KCD001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project></Project><Owner></Owner><DrillDate></DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>0.000000</Latitude><Longitude>0.000000</Longitude><Azimuth>0.000000</Azimuth><Inclination>0.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  }
+]

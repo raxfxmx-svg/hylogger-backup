@@ -1,0 +1,69 @@
+{
+  "all_fault_transactions_rolled_back": true,
+  "code_only_replay": {
+    "elapsed_seconds": 3.4588706999784335,
+    "new_business_records": 0
+  },
+  "cross_dataset_log": {
+    "message": "Spectral source, dimensions or dataset differs",
+    "rejected_by": "ValueError",
+    "status": "passed"
+  },
+  "database": "etl4_test_c25fe59a51",
+  "file_checks": {
+    "elapsed_seconds": 34.45473120000679,
+    "same_check_cache_hits": 14856,
+    "sha256_bytes_read": 2335923884,
+    "sha256_file_scans": 6557
+  },
+  "first_import": {
+    "elapsed_seconds": 5.116219600022305,
+    "revisions": 2
+  },
+  "incremental_replay_uses_recorded_source": true,
+  "manifest_write_failure": {
+    "completed_version_retained_for_resume": true,
+    "message": "Injected manifest write failure",
+    "rejected_by": "OSError",
+    "status": "passed"
+  },
+  "one_dataset_rule_change": {
+    "new_revisions": 1,
+    "previous_release_preserved": true
+  },
+  "resume_completed_versions": {
+    "new_business_versions": 0,
+    "status": "passed"
+  },
+  "same_identity_different_output": {
+    "message": "Same revision identity has different content or schema mapping",
+    "rejected_by": "ValueError",
+    "status": "passed"
+  },
+  "sample_copy_interruption": {
+    "message": "Injected interruption after sample COPY",
+    "rejected_by": "ValueError",
+    "status": "passed"
+  },
+  "sample_out_of_range": {
+    "message": "Image mapping crosses source tray, section or axis",
+    "rejected_by": "RaiseException",
+    "status": "passed"
+  },
+  "spectral_dimensions": {
+    "message": "Spectral source, dimensions or dataset differs",
+    "rejected_by": "ValueError",
+    "status": "passed"
+  },
+  "status": "passed",
+  "verification_failure": {
+    "message": "Injected verification failure",
+    "rejected_by": "ValueError",
+    "status": "passed"
+  },
+  "wrong_crop_source": {
+    "message": "Crop refers to a different source frame",
+    "rejected_by": "ValueError",
+    "status": "passed"
+  }
+}

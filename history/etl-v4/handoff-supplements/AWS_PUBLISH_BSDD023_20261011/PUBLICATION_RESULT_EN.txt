@@ -1,0 +1,82 @@
+BSDD023 - CLOUD MERGE AND PUBLICATION COMPLETED
+
+Completed: 2026-10-11 03:07:45 UTC / 11:07:45 China Standard Time.
+The owner explicitly authorized merging this batch without waiting for the
+teammate's original upload_receipt.json.
+
+RESULT
+BSDD023 was added to the active cloud release. The published collection changed
+from 386 boreholes / 391 datasets to 387 boreholes / 392 datasets.
+Active release: 3bd3ae3a-04a8-5e98-a0b6-57894d65bf2f
+Previous release: 4ddd1962-028c-5baa-8614-6f522607152a
+Batch: e704df799acda67aa438cabf30d6a227dffd12b6ab84f7131021b3cbdeb1781d
+Dataset: 6f167916-b51d-584a-84b2-3fbc4a8dcde8
+Revision: 7711c92e-8698-5657-af71-308c382e4902
+Borehole: c1484f00-0d44-560b-b47c-a15f39229207
+
+SCOPE AND SAFEGUARDS
+The final selection explicitly included every current published dataset at its
+existing revision plus BSDD023. The latest candidate was checked against the
+current active release before import. A shared advisory lock protected the
+current-state check, merge, publication and post-publication verification.
+All previous members, their display selections, and the previous release
+manifest were verified unchanged. There were no replacements or omissions.
+The owner's existing Step 40 code was used unchanged. No schema migrations,
+permission changes, S3 overwrites, or other batches were applied.
+
+UPLOAD EVIDENCE
+All 315 required S3 objects were independently reverified against the manifest
+using native full-object SHA256 or full-body streaming SHA256. Object size,
+ETag and modification time were checked again immediately before import.
+The resulting owner_verified_upload_evidence.json is explicitly labeled
+owner-independent-s3-verification-v1. It is compatible with the unchanged
+Step 40 evidence validator, but is NOT the original teammate Step 39 receipt
+and does not identify the uploader. No file-integrity check was bypassed.
+Evidence SHA256:
+8c7b4259333c11e55130c7a9dc0cf1ea9d23edcc6002515b20ac68ae316b5452
+
+VERIFICATION
+- All imported table counts checked by the wrapper matched the batch manifest.
+- 8,040 composite samples are visible using database role etl4_reader.
+- 289 S3 asset-location records are visible using etl4_reader.
+- 15 original image frames, 60 image regions, 2 spectral arrays, 99 scan logs,
+  and 160 data chunks were imported.
+- Repeating the merge without another publication reused the completed batch,
+  left the active release unchanged, and did not duplicate the dataset.
+- Four 64-byte S3 range reads passed: scalar, spectral, image, core_row_image.
+  These S3 requests used the owner's AWS identity, not the teammate's IAM user.
+- An existing dataset remained readable through the active release.
+
+API HANDOVER
+Database: etl4_core
+Host: db.example.com
+Port: 5432
+Region: ap-southeast-2
+Reader role: etl4_reader (existing IAM authentication)
+Bucket: hyloggerdemo-000000000000-ap-southeast-2-an
+Object prefix: etl4/objects/sha256/
+Storage root key: etl4_s3_a22098dedb6798558858
+
+The API should resolve core.active_release and read the corresponding published
+views, rather than pin an older release or a fixed borehole list. The database
+and S3 path checks passed. No live teammate HTTP API endpoint was supplied, so
+an HTTP API smoke test and any application cache refresh remain unverified.
+The teammate can now test BSDD023 through their running API.
+
+EVIDENCE FILES
+results/merge_receipt.json - successful Step 40 import/publication receipt.
+results/replay_receipt.json - duplicate-submission reuse receipt.
+results/publication_verification.json - membership/count/preservation checks.
+results/reader_verification.json - database reader and S3 range checks.
+results/owner_verified_upload_evidence.json - independently verified S3 objects.
+results/finalize_selection.json - exact approved member list.
+results/publication_plan.json - baseline, safeguards and evidence hashes.
+code_manifest.json - hashes of the exact owner code used.
+
+Downloaded results archive: publish_BSDD023_20261011_results.zip
+Bytes: 146292
+SHA256: 9a2c7b47f9c5e7f6249ac6efb077702f11c6a571cd9ab91acfb1eb0deaa03929
+The downloaded archive hash was matched against the CloudShell result.
+
+The earlier upload-only audit is historical. This report supersedes its
+pending-approval / pending-receipt next steps for BSDD023 only.

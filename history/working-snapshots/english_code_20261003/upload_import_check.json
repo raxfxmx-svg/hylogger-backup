@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "modules_imported": 53,
+  "effect_attempts": [],
+  "original_source_fallback": false,
+  "legacy_or_api_loaded": false,
+  "modules": [
+    {
+      "module": "_file_checks",
+      "path": "etl4/_file_checks.py"
+    },
+    {
+      "module": "_settings",
+      "path": "etl4/_settings.py"
+    },
+    {
+      "module": "20_audit_spectral_sources",
+      "path": "etl4/database/20_audit_spectral_sources.py"
+    },
+    {
+      "module": "21_verify_spectral_bindings",
+      "path": "etl4/database/21_verify_spectral_bindings.py"
+    },
+    {
+      "module": "22_prepare_spectral_access",
+      "path": "etl4/database/22_prepare_spectral_access.py"
+    },
+    {
+      "module": "23_audit_dataset_image_groups",
+      "path": "etl4/database/23_audit_dataset_image_groups.py"
+    },
+    {
+      "module": "24_detect_image_rows",
+      "path": "etl4/database/24_detect_image_rows.py"
+    },
+    {
+      "module": "25_review_image_row_regions",
+      "path": "etl4/database/25_review_image_row_regions.py"
+    },
+    {
+      "module": "26_bind_image_rows_to_samples",
+      "path": "etl4/database/26_bind_image_rows_to_samples.py"
+    },
+    {
+      "module": "27_build_image_row_assets",
+      "path": "etl4/database/27_build_image_row_assets.py"
+    },
+    {
+      "module": "28_import_media_revision",
+      "path": "etl4/database/28_import_media_revision.py"
+    },
+    {
+      "module": "31_audit_multi_dataset_sources",
+      "path": "etl4/database/31_audit_multi_dataset_sources.py"
+    },
+    {
+      "module": "32_prepare_multi_dataset_payloads",
+      "path": "etl4/database/32_prepare_multi_dataset_payloads.py"
+    },
+    {
+      "module": "33_prepare_multi_dataset_media",
+      "path": "etl4/database/33_prepare_multi_dataset_media.py"
+    },
+    {
+      "module": "37_import_final_version",
+      "path": "etl4/database/37_import_final_version.py"
+    },
+    {
+      "module": "7_preflight_database",
+      "path": "etl4/database/7_preflight_database.py"
+    },
+    {
+      "module": "8_apply_schema",
+      "path": "etl4/database/8_apply_schema.py"
+    },
+    {
+      "module": "_db_common",
+      "path": "etl4/database/_db_common.py"
+    },
+    {
+      "module": "_db_files",
+      "path": "etl4/database/_db_files.py"
+    },
+    {
+      "module": "_final_import",
+      "path": "etl4/database/_final_import.py"
+    },
+    {
+      "module": "_ingest",
+      "path": "etl4/database/_ingest.py"
+    },
+    {
+      "module": "_media_common",
+      "path": "etl4/database/_media_common.py"
+    },
+    {
+      "module": "_media_import",
+      "path": "etl4/database/_media_import.py"
+    },
+    {
+      "module": "_media_manifest",
+      "path": "etl4/database/_media_manifest.py"
+    },
+    {
+      "module": "_media_reader",
+      "path": "etl4/database/_media_reader.py"
+    },
+    {
+      "module": "_media_rows",
+      "path": "etl4/database/_media_rows.py"
+    },
+    {
+      "module": "_media_verification",
+      "path": "etl4/database/_media_verification.py"
+    },
+    {
+      "module": "_multi_common",
+      "path": "etl4/database/_multi_common.py"
+    },
+    {
+      "module": "_multi_db",
+      "path": "etl4/database/_multi_db.py"
+    },
+    {
+      "module": "_prepared_inputs",
+      "path": "etl4/database/_prepared_inputs.py"
+    },
+    {
+      "module": "_publication",
+      "path": "etl4/database/_publication.py"
+    },
+    {
+      "module": "_run_reports",
+      "path": "etl4/database/_run_reports.py"
+    },
+    {
+      "module": "_schema_docs",
+      "path": "etl4/database/_schema_docs.py"
+    },
+    {
+      "module": "_verification",
+      "path": "etl4/database/_verification.py"
+    },
+    {
+      "module": "processing.0_check_raw",
+      "path": "etl4/processing/0_check_raw.py"
+    },
+    {
+      "module": "processing.1_inventory",
+      "path": "etl4/processing/1_inventory.py"
+    },
+    {
+      "module": "processing.2_validate_payloads",
+      "path": "etl4/processing/2_validate_payloads.py"
+    },
+    {
+      "module": "processing.3_normalize_metadata",
+      "path": "etl4/processing/3_normalize_metadata.py"
+    },
+    {
+      "module": "processing.4_align_samples",
+      "path": "etl4/processing/4_align_samples.py"
+    },
+    {
+      "module": "processing.5_build_columnar",
+      "path": "etl4/processing/5_build_columnar.py"
+    },
+    {
+      "module": "processing.6_verify_prepared_data",
+      "path": "etl4/processing/6_verify_prepared_data.py"
+    },
+    {
+      "module": "processing._etl_common",
+      "path": "etl4/processing/_etl_common.py"
+    },
+    {
+      "module": "processing.columnar_storage",
+      "path": "etl4/processing/columnar_storage.py"
+    },
+    {
+      "module": "processing.metadata_normalization",
+      "path": "etl4/processing/metadata_normalization.py"
+    },
+    {
+      "module": "processing.payload_validation",
+      "path": "etl4/processing/payload_validation.py"
+    },
+    {
+      "module": "processing.sample_alignment",
+      "path": "etl4/processing/sample_alignment.py"
+    },
+    {
+      "module": "38_export_batch",
+      "path": "etl4/database/38_export_batch.py"
+    },
+    {
+      "module": "39_upload_batch",
+      "path": "etl4/database/39_upload_batch.py"
+    },
+    {
+      "module": "40_merge_cloud_batch",
+      "path": "etl4/database/40_merge_cloud_batch.py"
+    },
+    {
+      "module": "41_cleanup_batch",
+      "path": "etl4/database/41_cleanup_batch.py"
+    },
+    {
+      "module": "_batch_files",
+      "path": "etl4/database/_batch_files.py"
+    },
+    {
+      "module": "_s3_upload",
+      "path": "etl4/database/_s3_upload.py"
+    },
+    {
+      "module": "14_verify_database_backup",
+      "path": "etl4/database/14_verify_database_backup.py"
+    }
+  ]
+}

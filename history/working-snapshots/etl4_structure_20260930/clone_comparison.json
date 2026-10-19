@@ -1,0 +1,14 @@
+[
+  {
+    "rows_read": 3016,
+    "seconds": 0.05645550001645461,
+    "sql_count": 19,
+    "version": "before"
+  },
+  {
+    "rows_read": 3,
+    "seconds": 0.0004759999574162066,
+    "sql_count": 3,
+    "version": "after"
+  }
+]

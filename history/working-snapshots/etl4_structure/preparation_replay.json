@@ -1,0 +1,18 @@
+{
+  "single": {
+    "status": "passed",
+    "hole": "05KCD001",
+    "identities_unchanged": true,
+    "byte_identical_files": 145,
+    "elapsed_seconds": 75.80931260000216
+  },
+  "multi": {
+    "status": "passed",
+    "hole": "14KDD001",
+    "source_dataset_id": "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+    "samples": 5300,
+    "cache_bypassed": true,
+    "byte_identical_files": 139,
+    "elapsed_seconds": 17.90009160002228
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "20260827_100559_remaining",
+  "mode": "remaining",
+  "state": "local_only_complete",
+  "target_count": 100,
+  "active_holes": 96,
+  "manifest_counts": {
+    "db_verified": 96,
+    "pending": 4
+  },
+  "waves_completed": 1,
+  "failures": 0,
+  "replacements": 0,
+  "detail": "processed one wave from existing valid raw packages; no downloads",
+  "updated_at": "2026-08-27T02:06:59+00:00",
+  "finished_at": "2026-08-27T02:06:59+00:00",
+  "exact_completion": false
+}

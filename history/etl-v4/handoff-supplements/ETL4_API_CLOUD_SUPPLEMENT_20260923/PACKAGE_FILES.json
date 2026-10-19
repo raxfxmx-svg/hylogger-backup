@@ -1,0 +1,124 @@
+{
+  "package": "ETL4_API_CLOUD_SUPPLEMENT_20260923",
+  "prepared_on": "2026-09-23",
+  "scope": "Standalone runtime supplement for the existing five-hole AWS deployment",
+  "copied_unchanged_from_handoff": [
+    "deployment/run_api.py",
+    "deployment/requirements-cloud.txt",
+    "deployment/target.json",
+    "deployment/runtime_policy.template.json",
+    "deployment/TEAMMEMBERA_SIGN_IN.md",
+    "cloud_api/__init__.py",
+    "cloud_api/app.py",
+    "cloud_api/reader.py",
+    "cloud_api/storage.py",
+    "docs/DATA_MODEL.md",
+    "docs/SCHEMA_DICTIONARY.md",
+    "examples/DATASET_CATALOG.json",
+    "validation/cloud_api_acceptance.json",
+    "validation/deployment_summary.json"
+  ],
+  "cloud_retested_during_packaging": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 35,
+      "sha256": "5f1eccc2ce41b7a694d11a7ce70b0afea277936853168309fae8de5fce6c2218"
+    },
+    {
+      "path": "cloud_api/__init__.py",
+      "bytes": 69,
+      "sha256": "2ee5a04c6559d1f00eac611792dd8efed7e1b38c77c3c31e8360808cab174ff6"
+    },
+    {
+      "path": "cloud_api/app.py",
+      "bytes": 8270,
+      "sha256": "0c2038c0ba518d965e8efdaa91dfe8bb21b0eba6b0a6ea116a48bdefd34457c8"
+    },
+    {
+      "path": "cloud_api/reader.py",
+      "bytes": 9684,
+      "sha256": "94c38c7e431a04f74666a5914cdc5b5b536ed43392214cb25eaf057c07009a07"
+    },
+    {
+      "path": "cloud_api/README.md",
+      "bytes": 4532,
+      "sha256": "b9338dd52c5e39b84503f11962ce9aa670c2670fce0623d6d10e42fa8987e7e7"
+    },
+    {
+      "path": "cloud_api/storage.py",
+      "bytes": 4225,
+      "sha256": "759ba6b61198e19d5ec0c551f18fe4f24ae29e04a339c62904a28d33f7744315"
+    },
+    {
+      "path": "deployment/TEAMMEMBERA_SIGN_IN.md",
+      "bytes": 5009,
+      "sha256": "5dca60d31f613954d773d48442b07d5b6894fff40a2661c2ea1819e3d8f043a1"
+    },
+    {
+      "path": "deployment/requirements-cloud.txt",
+      "bytes": 129,
+      "sha256": "2ad06e97ae49284548d73f5fdd7426c119839f46243f9c98d39b7914e26b3dc8"
+    },
+    {
+      "path": "deployment/run_api.py",
+      "bytes": 3727,
+      "sha256": "e014e6570f0800b89a16e412dfa39a3847863890aa5c8ca75998842eb7607880"
+    },
+    {
+      "path": "deployment/runtime_policy.template.json",
+      "bytes": 513,
+      "sha256": "8649b784875c5dabf38af468e6106fe7c443b805e0542dbc96b63b75a65008e2"
+    },
+    {
+      "path": "deployment/target.json",
+      "bytes": 1105,
+      "sha256": "7e4379babdefd3945344f380199e14163b9e9f5e177082741ea44dc7082dcfac"
+    },
+    {
+      "path": "deployment/TEAMMATE_START.md",
+      "bytes": 4202,
+      "sha256": "f4e023f5d5583b3432e9d9794a0104652cca06eba43c287adf3d52fc9c10e5ef"
+    },
+    {
+      "path": "docs/DATA_MODEL.md",
+      "bytes": 3591,
+      "sha256": "f2a4b244c386f336049eedbf198b12aba08006856d4eab5322a482d1e36c90bf"
+    },
+    {
+      "path": "docs/SCHEMA_DICTIONARY.md",
+      "bytes": 50352,
+      "sha256": "a77015b3b2e4a7c820aba7b684b498254104ae141da0fa22a2f97bee367414b6"
+    },
+    {
+      "path": "examples/DATASET_CATALOG.json",
+      "bytes": 4510,
+      "sha256": "efdaebf5c1f28d9d440e76dd68be7e4d7017561ff2496b99dfbd5628fc5704b0"
+    },
+    {
+      "path": "MESSAGE_TO_TEAMMEMBERA.txt",
+      "bytes": 678,
+      "sha256": "cadd84478880053e8dad8ed83ade5354a20239a93501497b502f4b00376a2b85"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2851,
+      "sha256": "bb6db256d6fd5a0003671cac848bb6cdf31f30f96c754d9ee3929a06bedc41f4"
+    },
+    {
+      "path": "validation/cloud_api_acceptance.json",
+      "bytes": 4756,
+      "sha256": "f4095c03945a6b8bc2cd8bb5d58d45c94c2c723daeb64f1e336605a2cf9f607d"
+    },
+    {
+      "path": "validation/deployment_summary.json",
+      "bytes": 1711,
+      "sha256": "6cb09075789656cac9c44aee41fa2ebfc5894723472dc8426ae691145dc667a3"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 740,
+      "sha256": "da2c78e84049ff1d6b66c21f9b0e578abe482a54040d34efe362b72725e9fe7b"
+    }
+  ]
+}

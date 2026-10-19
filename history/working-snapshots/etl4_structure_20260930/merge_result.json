@@ -1,0 +1,232 @@
+{
+  "assets": 11685,
+  "counts": {
+    "datasets": 17,
+    "display_samples": 715759,
+    "holes": 12,
+    "image_rows": 4738,
+    "revisions": 34,
+    "samples": 732206,
+    "spectral_arrays": 31
+  },
+  "database": "etl4_refactor_check",
+  "hole": "14CADD003",
+  "locations": 11685,
+  "old_display_parts_unchanged": true,
+  "original_tables_preserved": 35,
+  "previous_release": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "release": "c8522bfa-7c4b-5886-a7b3-b002eea84f4d",
+  "sample_reads": [
+    {
+      "dataset": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "hole": "05KCD001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "hole": "05KCD001",
+      "sample": 22355,
+      "spectra": 2
+    },
+    {
+      "dataset": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "hole": "07THD002",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "hole": "07THD002",
+      "sample": 116423,
+      "spectra": 2
+    },
+    {
+      "dataset": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "hole": "07THD003",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "hole": "07THD003",
+      "sample": 54431,
+      "spectra": 2
+    },
+    {
+      "dataset": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "hole": "09ATD015",
+      "sample": 0,
+      "spectra": 1
+    },
+    {
+      "dataset": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "hole": "09ATD015",
+      "sample": 46029,
+      "spectra": 1
+    },
+    {
+      "dataset": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "hole": "09ATD019",
+      "sample": 0,
+      "spectra": 1
+    },
+    {
+      "dataset": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "hole": "09ATD019",
+      "sample": 22649,
+      "spectra": 1
+    },
+    {
+      "dataset": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "hole": "09ATRCD025",
+      "sample": 0,
+      "spectra": 1
+    },
+    {
+      "dataset": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "hole": "09ATRCD025",
+      "sample": 22779,
+      "spectra": 1
+    },
+    {
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "sample": 42879,
+      "spectra": 2
+    },
+    {
+      "dataset": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "hole": "12BRDDH003",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "hole": "12BRDDH003",
+      "sample": 10183,
+      "spectra": 2
+    },
+    {
+      "dataset": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "hole": "12CADD001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "hole": "12CADD001",
+      "sample": 49103,
+      "spectra": 2
+    },
+    {
+      "dataset": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "hole": "12CADD001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "hole": "12CADD001",
+      "sample": 30631,
+      "spectra": 2
+    },
+    {
+      "dataset": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+      "hole": "14CADD003",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+      "hole": "14CADD003",
+      "sample": 1583,
+      "spectra": 2
+    },
+    {
+      "dataset": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "hole": "14KDD001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "hole": "14KDD001",
+      "sample": 5299,
+      "spectra": 2
+    },
+    {
+      "dataset": "4c791226-a966-5c15-a146-ed956f58948e",
+      "hole": "14KDD001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "4c791226-a966-5c15-a146-ed956f58948e",
+      "hole": "14KDD001",
+      "sample": 33149,
+      "spectra": 2
+    },
+    {
+      "dataset": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "hole": "15EIS001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "hole": "15EIS001",
+      "sample": 36715,
+      "spectra": 2
+    },
+    {
+      "dataset": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "hole": "15EIS001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "hole": "15EIS001",
+      "sample": 47971,
+      "spectra": 2
+    },
+    {
+      "dataset": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "hole": "15EIS001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "hole": "15EIS001",
+      "sample": 10451,
+      "spectra": 2
+    },
+    {
+      "dataset": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "hole": "15EIS001",
+      "sample": 0,
+      "spectra": 2
+    },
+    {
+      "dataset": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "hole": "15EIS001",
+      "sample": 179559,
+      "spectra": 2
+    }
+  ],
+  "scans": {
+    "elapsed_seconds": 28.769045099965297,
+    "same_check_cache_hits": 1283,
+    "sha256_bytes_read": 7985403504,
+    "sha256_file_scans": 10423
+  },
+  "status": "passed"
+}

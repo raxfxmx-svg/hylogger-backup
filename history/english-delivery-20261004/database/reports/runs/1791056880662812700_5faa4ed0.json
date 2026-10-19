@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-03T19:48:00.572061+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "7_preflight_database.py",
+  "code_sha256": "21ce90c0c409bddaa697cf9ce1431fc0f1a10581e07ca98c9b3f5f51085a101a",
+  "sha256_file_scans": 46,
+  "sha256_bytes_read": 6706848,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.07987010000215378,
+  "finished_at": "2026-10-03T19:48:00.662812+00:00"
+}

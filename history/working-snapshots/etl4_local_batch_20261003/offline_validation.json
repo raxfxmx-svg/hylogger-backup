@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "tests_run": 85,
+  "failures": 0,
+  "errors": 0,
+  "test_modules": [
+    "test_batch_entry",
+    "test_code_structure",
+    "test_input_selection",
+    "test_media_structure",
+    "test_refactor",
+    "test_validation_flow",
+    "test_local_batch",
+    "test_data_contracts"
+  ],
+  "ast_files": 62,
+  "elapsed_seconds": 9.041,
+  "database_connections": "blocked by mock in the offline suite",
+  "scope": "small fixtures and mocked connections; no full data import"
+}

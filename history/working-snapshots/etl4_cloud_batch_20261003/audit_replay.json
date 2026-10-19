@@ -1,0 +1,178 @@
+{
+  "active_assets_without_s3": 0,
+  "composite_samples": 715759,
+  "core_tables": 39,
+  "datasets": 17,
+  "dbname": "etl4_core",
+  "history_releases": 4,
+  "holes": 12,
+  "host": "db.example.com",
+  "image_region": 4738,
+  "label": "audit_replay",
+  "members": [
+    {
+      "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "dataset_revision_id": "272a7490-1ea8-527e-9683-8ce32fc8c9d1",
+      "source_dataset_id": "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+      "source_hole_id": "15EIS001"
+    },
+    {
+      "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "dataset_revision_id": "e8266bd3-c3a8-5986-b324-013b4838364f",
+      "source_dataset_id": "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+      "source_hole_id": "15EIS001"
+    },
+    {
+      "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "dataset_revision_id": "20748e03-c3ae-5d5c-9408-ff97f35f7a79",
+      "source_dataset_id": "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+      "source_hole_id": "14KDD001"
+    },
+    {
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "dataset_revision_id": "fbbb4591-fefe-533b-889e-0fd8582c709c",
+      "source_dataset_id": "4598e2a6-7910-43c1-8894-09b01d36567",
+      "source_hole_id": "07THD003"
+    },
+    {
+      "dataset_id": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "dataset_revision_id": "d1d626d3-b936-5ee4-8e4b-6b481d5beb39",
+      "source_dataset_id": "8ee07ba8-5646-45a0-b503-a0aeceec13b",
+      "source_hole_id": "09THD028"
+    },
+    {
+      "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+      "dataset_revision_id": "e544b7de-71f6-5415-93f0-7bf02556bf42",
+      "source_dataset_id": "c10744cc-2e42-478a-8bc3-7cea1059044",
+      "source_hole_id": "14KDD001"
+    },
+    {
+      "dataset_id": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+      "dataset_revision_id": "984f74b7-3ba5-5d14-bf9d-9f8f783d1506",
+      "source_dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "source_hole_id": "14CADD003"
+    },
+    {
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "dataset_revision_id": "aaa3b534-35cd-56d0-8045-6b8b7b4b28b7",
+      "source_dataset_id": "99f2aa8a-a676-4416-964b-3f8d8dadf86",
+      "source_hole_id": "05KCD001"
+    },
+    {
+      "dataset_id": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "dataset_revision_id": "39444d31-a0e1-5e90-bc16-4b5e7e8eed6e",
+      "source_dataset_id": "80b6a3df-6fff-4748-b744-a405a44696b",
+      "source_hole_id": "09ATRCD025"
+    },
+    {
+      "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "dataset_revision_id": "d79b5f40-3b84-5b31-a589-b04ef485ce25",
+      "source_dataset_id": "c83afeab-5697-4476-b24a-e210af12137",
+      "source_hole_id": "15EIS001"
+    },
+    {
+      "dataset_id": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "dataset_revision_id": "83338c9a-b15d-57d2-bb68-e89ad27134e2",
+      "source_dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "source_hole_id": "12BRDDH003"
+    },
+    {
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "dataset_revision_id": "67d7fc83-277d-56c2-9cdf-cdf264dae5c0",
+      "source_dataset_id": "2faa992a-508f-4446-ad7d-095fa2739d1",
+      "source_hole_id": "09ATD015"
+    },
+    {
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "dataset_revision_id": "ec3359c1-07d9-5350-bfc2-64a1836f2f49",
+      "source_dataset_id": "df915067-0e08-4c9b-abb5-763b9c98c61",
+      "source_hole_id": "09ATD019"
+    },
+    {
+      "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "dataset_revision_id": "df54a4fa-4228-5b47-b393-76845029d345",
+      "source_dataset_id": "56d5fe91-626f-48ad-8786-acf91fe83a5",
+      "source_hole_id": "15EIS001"
+    },
+    {
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "dataset_revision_id": "1661beef-a1dc-5e1c-a530-bf9cc1d8540b",
+      "source_dataset_id": "92b7750d-5bf9-4115-bf29-dff7db936f6",
+      "source_hole_id": "07THD002"
+    },
+    {
+      "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "dataset_revision_id": "68dd194b-04e6-5d6e-a6d3-c710fc5be4d4",
+      "source_dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1",
+      "source_hole_id": "12CADD001"
+    },
+    {
+      "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "dataset_revision_id": "79208036-8880-5d12-8e3a-94e4bb9478c1",
+      "source_dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+      "source_hole_id": "12CADD001"
+    }
+  ],
+  "migrations": [
+    {
+      "name": "001_initial.sql",
+      "sha256": "35ce6669acacd1e738f6d550f16c1a7631fc937d10f8fc61f063212d23071082"
+    },
+    {
+      "name": "002_nullable_metric_semantics.sql",
+      "sha256": "7cad9bd7fd5430dc773c1acee605b89c5465f33d246f15eb63e7e1e0553496db"
+    },
+    {
+      "name": "003_metric_source_identity.sql",
+      "sha256": "de3c9a0df5c59f7de888851528f14a2c9870f5f3ee61f14884c986050f885310"
+    },
+    {
+      "name": "004_relational_integrity.sql",
+      "sha256": "e0860f1a793ad022a642b3ca6261d0d69280e6687bed80d94d5b06f0b97a5cc9"
+    },
+    {
+      "name": "005_sample_media.sql",
+      "sha256": "5bea0cd4bd5cb454b1acec09544020f440460f16e69ee2ae8a0a254ffbbfa680"
+    },
+    {
+      "name": "006_multi_dataset_composites.sql",
+      "sha256": "8f8447e5805a409f2fdb5e5f1c5ca578ff208b8a1cf62d45a1280ce3c147e6a6"
+    }
+  ],
+  "reader_can_read_composites": true,
+  "release_id": "292e1573-f868-5494-81a8-0f85bcdbb8ad",
+  "s3_asset_locations": 14727,
+  "samples": 732206,
+  "spectral_array": 31,
+  "table_counts": {
+    "asset": 16118,
+    "borehole": 12,
+    "borehole_branch": 0,
+    "borehole_revision": 22,
+    "core_interval": 9039,
+    "data_chunk": 34687,
+    "dataset": 17,
+    "dataset_revision": 27,
+    "dataset_segment": 17,
+    "image_frame": 1579,
+    "image_region": 6099,
+    "image_region_asset": 6099,
+    "image_sample_mapping": 6099,
+    "interpretation_input": 0,
+    "interpretation_set": 129,
+    "log_asset": 13574,
+    "log_axis_binding": 3375,
+    "metric_definition": 1436,
+    "quality_issue": 471,
+    "sample_axis": 27,
+    "scan_log": 3375,
+    "scan_sample": 1255990,
+    "source_document": 378,
+    "source_reference": 81,
+    "spectral_array": 39,
+    "spectral_block": 1801,
+    "spectral_sample_map": 39,
+    "spectral_stream": 47,
+    "survey_station": 0
+  }
+}

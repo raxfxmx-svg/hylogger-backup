@@ -1,0 +1,26 @@
+[
+  {
+    "log_id": "32c9e19c-1403-49bf-a730-2887395dea4",
+    "log_name": "Mosaic",
+    "sample_count": 0,
+    "dataset_id": "978822fb-de28-4603-b02e-af6882e5951"
+  },
+  {
+    "log_id": "374b2ead-2625-4941-b2b9-7a96c7eb399",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": 3,
+    "dataset_id": "978822fb-de28-4603-b02e-af6882e5951"
+  },
+  {
+    "log_id": "d9a957eb-c59f-4617-868a-fcfe9bbd79e",
+    "log_name": "Tray Images",
+    "sample_count": 3,
+    "dataset_id": "978822fb-de28-4603-b02e-af6882e5951"
+  },
+  {
+    "log_id": "6574054e-82c5-4020-a7f7-426e78eb4bc",
+    "log_name": "Imagery",
+    "sample_count": 1584,
+    "dataset_id": "978822fb-de28-4603-b02e-af6882e5951"
+  }
+]

@@ -1,0 +1,497 @@
+{
+  "errors": [],
+  "interval_seconds": 0.1,
+  "max_sampled_temp_file_bytes": 11409552,
+  "max_sampled_wal_directory_bytes": 184549376,
+  "recorded_at": "2026-09-30T00:09:13.232176+00:00",
+  "samples": [
+    {
+      "at": "2026-09-30T00:09:03.870464+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:03.991404+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.100102+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.219033+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.331291+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.445875+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.554953+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.663727+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.782080+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:04.894888+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23522451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.015188+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 23563411,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.130240+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 27577491,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.251538+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 27929747,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.366904+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 28093587,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.481971+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 28773523,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.596968+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29330579,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.706402+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29674643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.821842+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29772947,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:05.936747+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29772947,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.045852+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29772947,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.164190+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29772947,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.288250+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29772947,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.397610+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29772947,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.506566+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 29813907,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.627179+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 32500883,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.742499+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 36727955,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:06.881931+00:00",
+      "current_temp_file_bytes": 4120576,
+      "database_bytes": 41790611,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.009179+00:00",
+      "current_temp_file_bytes": 5472256,
+      "database_bytes": 45624467,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.122035+00:00",
+      "current_temp_file_bytes": 7094272,
+      "database_bytes": 50400403,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.236717+00:00",
+      "current_temp_file_bytes": 8691712,
+      "database_bytes": 55127187,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.350665+00:00",
+      "current_temp_file_bytes": 10272768,
+      "database_bytes": 59321491,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.463792+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.579538+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.687607+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.803549+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:07.917742+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.031585+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.155586+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.263147+00:00",
+      "current_temp_file_bytes": 11403264,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.379756+00:00",
+      "current_temp_file_bytes": 11409552,
+      "database_bytes": 62901395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.496757+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 62934163,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.614571+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 63581331,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.729792+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 63925395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.839186+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 64228499,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:08.960348+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 64490643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.069445+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 64769171,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.193891+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 65031315,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.312346+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 65031315,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.425396+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 65031315,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.536857+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 65031315,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.663284+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 65236115,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.786391+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 69405843,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:09.899288+00:00",
+      "current_temp_file_bytes": 3497984,
+      "database_bytes": 72232083,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.015010+00:00",
+      "current_temp_file_bytes": 4513792,
+      "database_bytes": 74730643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.128041+00:00",
+      "current_temp_file_bytes": 5332992,
+      "database_bytes": 76573843,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.242333+00:00",
+      "current_temp_file_bytes": 5332992,
+      "database_bytes": 76573843,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.357525+00:00",
+      "current_temp_file_bytes": 5332992,
+      "database_bytes": 76573843,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.468887+00:00",
+      "current_temp_file_bytes": 5332992,
+      "database_bytes": 76573843,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.578057+00:00",
+      "current_temp_file_bytes": 5334336,
+      "database_bytes": 76573843,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.695178+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 77196435,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.806895+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 77606035,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:10.917670+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 77950099,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.051289+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 78154899,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.165801+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 78154899,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.287587+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 78154899,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.396731+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 78204051,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.517195+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 82234515,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.630585+00:00",
+      "current_temp_file_bytes": 3022848,
+      "database_bytes": 86453395,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.741939+00:00",
+      "current_temp_file_bytes": 4505600,
+      "database_bytes": 91114643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.856589+00:00",
+      "current_temp_file_bytes": 4505600,
+      "database_bytes": 91114643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:11.965665+00:00",
+      "current_temp_file_bytes": 4505600,
+      "database_bytes": 91114643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.080815+00:00",
+      "current_temp_file_bytes": 4505600,
+      "database_bytes": 91114643,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.196238+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 91384979,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.318071+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 91794579,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.444282+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 92130451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.565971+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 92130451,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.698939+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 92974227,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.813992+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 98290835,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:12.923631+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 98290835,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:13.038143+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 98430099,
+      "wal_directory_bytes": 184549376
+    },
+    {
+      "at": "2026-09-30T00:09:13.156378+00:00",
+      "current_temp_file_bytes": 0,
+      "database_bytes": 99003539,
+      "wal_directory_bytes": 184549376
+    }
+  ],
+  "scope": "Dedicated local cluster; WAL includes cluster background activity; 100 ms sampling may miss shorter temporary peaks",
+  "wal_generated_bytes": 95176088
+}

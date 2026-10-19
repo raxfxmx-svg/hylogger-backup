@@ -1,0 +1,14 @@
+[
+  {
+    "path": "D:\\100demo\\data\\raw\\19AFRD2004\\spectral\\9217e6e2-77e2-457d-b360-ef977abb5ad_Base_Refl.f32.part",
+    "bytes": 67043328,
+    "resume_sample": 49152,
+    "total_samples": 60425
+  },
+  {
+    "path": "D:\\100demo\\data\\raw\\19AFRD2003\\profilometer\\853d3273-5402-487d-b9e4-da617608123_Profile_log.jsonl.part",
+    "bytes": 39490190,
+    "resume_sample": 28672,
+    "total_samples": 76958
+  }
+]

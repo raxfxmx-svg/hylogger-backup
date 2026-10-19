@@ -1,0 +1,21 @@
+{
+  "scope": "Five verified ETL4 holes only; not the 2000-hole collection",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "aws_account_id": "000000000000",
+  "region": "ap-southeast-2",
+  "cluster_identifier": "database-1",
+  "cluster_resource_id": "cluster-EXAMPLE",
+  "engine": "aurora-postgresql",
+  "observed_engine_version": "17.9",
+  "host": "db.example.com",
+  "port": 5432,
+  "admin_user": "postgres",
+  "database": "etl4_core",
+  "s3_bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+  "s3_prefix": "etl4/releases/fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "authentication": "iam-only via Aurora Express internet access gateway",
+  "tls_trust": "AWS public roots in the operating-system CA bundle; not the ordinary RDS regional CA bundle",
+  "observed_aurora_version": "17.9.3",
+  "observed_available_postgis": "3.5.6",
+  "status": "five-hole deployment verified: database restored, 2810 S3 objects checksum-verified, 3042 S3 locations registered, read-only live API acceptance passed; no public API hosting"
+}

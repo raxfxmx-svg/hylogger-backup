@@ -1,0 +1,11 @@
+{
+  "batch_id": "2cf04fe38b7410eaf43d1938a4cc34d0f8dc95970a6f9d6cc9311a451bff9986",
+  "manifest_sha256": "51683b7760582a8b24344259965f10a7bdb1e7bcf756be078d05cd414bb659db",
+  "objects": {
+    "objects/sha256/ef/effb7c637037cf41d066fb388cf717e3071fc04903fff878b532a330380d65fb": {
+      "byte_size": 26,
+      "path": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\batch_flow\\flow20261003\\raw\\A\\1.bin",
+      "sha256": "effb7c637037cf41d066fb388cf717e3071fc04903fff878b532a330380d65fb"
+    }
+  }
+}

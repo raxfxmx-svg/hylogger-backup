@@ -1,0 +1,9 @@
+{
+  "datasets": [
+    {
+      "dataset_id": "00000000-0000-0000-0000-000000000001",
+      "dataset_revision_id": "46de0178-b65d-5ad0-ba4e-bc1ad35e6f9d"
+    }
+  ],
+  "expected_active_release_id": null
+}

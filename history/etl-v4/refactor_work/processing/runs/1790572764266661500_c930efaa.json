@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:24.266661+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "5_build_columnar.py",
+  "code_sha256": "555c2c173573a482b9757b2d2d9ebb6b3923f75d430a8777893230f08ec8339e",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0006310000026132911,
+  "finished_at": "2026-09-28T05:19:24.266661+00:00"
+}

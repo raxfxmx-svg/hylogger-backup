@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:09:52.570639+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "34_import_multi_dataset_database.py",
+  "code_sha256": "df81ab0533c623681b57cc4b7ab9dd9cab4c514ad2d6205c3942e18a4bba659e",
+  "error_type": "TypeError",
+  "sha256_file_scans": 8706,
+  "sha256_bytes_read": 4880634170,
+  "same_check_cache_hits": 27427,
+  "elapsed_seconds": 131.86422680001124,
+  "finished_at": "2026-09-28T05:12:04.432307+00:00"
+}

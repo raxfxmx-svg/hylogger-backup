@@ -1,0 +1,192 @@
+[
+  {
+    "path": "etl4\\_settings.py",
+    "added": 96,
+    "removed": 6
+  },
+  {
+    "path": "etl4\\database\\20_audit_spectral_sources.py",
+    "added": 7,
+    "removed": 7
+  },
+  {
+    "path": "etl4\\database\\21_verify_spectral_bindings.py",
+    "added": 2,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\28_import_media_revision.py",
+    "added": 13,
+    "removed": 8
+  },
+  {
+    "path": "etl4\\database\\31_audit_multi_dataset_sources.py",
+    "added": 4,
+    "removed": 4
+  },
+  {
+    "path": "etl4\\database\\32_prepare_multi_dataset_payloads.py",
+    "added": 7,
+    "removed": 7
+  },
+  {
+    "path": "etl4\\database\\33_prepare_multi_dataset_media.py",
+    "added": 4,
+    "removed": 11
+  },
+  {
+    "path": "etl4\\database\\37_import_final_version.py",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\7_preflight_database.py",
+    "added": 3,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\_db_common.py",
+    "added": 4,
+    "removed": 4
+  },
+  {
+    "path": "etl4\\database\\_final_import.py",
+    "added": 42,
+    "removed": 34
+  },
+  {
+    "path": "etl4\\database\\_ingest.py",
+    "added": 7,
+    "removed": 9
+  },
+  {
+    "path": "etl4\\database\\_media_common.py",
+    "added": 18,
+    "removed": 3
+  },
+  {
+    "path": "etl4\\database\\_media_import.py",
+    "added": 106,
+    "removed": 5
+  },
+  {
+    "path": "etl4\\database\\_media_manifest.py",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\_media_reader.py",
+    "added": 3,
+    "removed": 2
+  },
+  {
+    "path": "etl4\\database\\_media_verification.py",
+    "added": 5,
+    "removed": 4
+  },
+  {
+    "path": "etl4\\database\\_multi_common.py",
+    "added": 7,
+    "removed": 6
+  },
+  {
+    "path": "etl4\\database\\_prepared_inputs.py",
+    "added": 5,
+    "removed": 4
+  },
+  {
+    "path": "etl4\\database\\_publication.py",
+    "added": 2,
+    "removed": 2
+  },
+  {
+    "path": "etl4\\database\\_run_reports.py",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\_verification.py",
+    "added": 4,
+    "removed": 3
+  },
+  {
+    "path": "etl4\\database\\api\\app.py",
+    "added": 3,
+    "removed": 2
+  },
+  {
+    "path": "etl4\\database\\CODE_STRUCTURE.md",
+    "added": 2,
+    "removed": 0
+  },
+  {
+    "path": "etl4\\database\\README.md",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\REFACTOR_RUNBOOK.md",
+    "added": 2,
+    "removed": 0
+  },
+  {
+    "path": "etl4\\database\\SINGLE_FINAL_VERSION.md",
+    "added": 2,
+    "removed": 0
+  },
+  {
+    "path": "etl4\\database\\tests\\test_input_selection.py",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\tests\\test_validation_flow.py",
+    "added": 4,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\VALIDATION_POLICY.md",
+    "added": 14,
+    "removed": 0
+  },
+  {
+    "path": "etl4\\processing\\0_check_raw.py",
+    "added": 9,
+    "removed": 5
+  },
+  {
+    "path": "etl4\\processing\\1_inventory.py",
+    "added": 3,
+    "removed": 3
+  },
+  {
+    "path": "etl4\\processing\\_etl_common.py",
+    "added": 2,
+    "removed": 2
+  },
+  {
+    "path": "etl4\\processing\\README.md",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\processing\\RUNBOOK.md",
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "path": "etl4\\database\\tests\\test_local_batch.py",
+    "new": true,
+    "lines": 284
+  },
+  {
+    "path": "etl4\\database\\LOCAL_BATCH_RUNBOOK.md",
+    "new": true,
+    "lines": 124
+  },
+  {
+    "path": "etl4\\database\\LOCAL_BATCH_CHANGE_REPORT_20261003.md",
+    "new": true,
+    "lines": 42
+  }
+]

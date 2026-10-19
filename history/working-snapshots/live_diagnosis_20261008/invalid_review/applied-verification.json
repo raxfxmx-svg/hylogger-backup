@@ -1,0 +1,58 @@
+{
+  "commit": "8de7243f0c01880927ba1f5325003f5089d980ae",
+  "parent": "0da54e964cf6674774c6683c4c88c7330910d178",
+  "repository": "raxfxmx-svg/hylogger",
+  "branch": "main",
+  "upload_method": "Edge GitHub web editor",
+  "files": [
+    {
+      "path": "frontend/lib/api.js",
+      "additions": 5,
+      "deletions": 5,
+      "sha": "20718dca3d3eb8fcd8e6ee9bb4d5c60daecd3eaf"
+    }
+  ],
+  "amplify": {
+    "app_id": "d25z3xff1lg1mi",
+    "deployment": 10,
+    "status": "SUCCEED",
+    "duration": "2m13s",
+    "start_local": "2026-10-08 22:02 Asia/Shanghai"
+  },
+  "offline": {
+    "checks": 6,
+    "passed": 6,
+    "real_samples": 54432,
+    "raw_invalid_samples": 21403,
+    "intervals": 188,
+    "invalid_mineral_categories": 0,
+    "low_confidence_intervals": 150
+  },
+  "live": {
+    "hole": "07THD003",
+    "intervals": 188,
+    "logged_depth_m": [
+      64,
+      252
+    ],
+    "low_confidence_intervals": 150,
+    "invalid_in_display": false,
+    "core_trays": 36,
+    "spectral_sample": 27233,
+    "sample_depth_m": 160.21,
+    "TIR_channels": 341,
+    "VSWIR_channels": 531,
+    "global_holes": 99,
+    "global_intervals": 38526,
+    "global_flagged_displayed": 0,
+    "global_stats_and_core_photo": "finished loading; mineral colours and 07THD003 core photos visible"
+  },
+  "excluded": [
+    "backend raw data",
+    "AWS settings",
+    "concurrency",
+    "retries",
+    "error handling",
+    "caching"
+  ]
+}

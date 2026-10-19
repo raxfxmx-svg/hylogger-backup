@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-03T19:48:09.776469+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "31_audit_multi_dataset_sources.py",
+  "code_sha256": "6977959b7e7c5ba463f1ab5688c5f47111d82112599719dddc019e478c16a1e8",
+  "sha256_file_scans": 39,
+  "sha256_bytes_read": 1843908,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.10920249999617226,
+  "finished_at": "2026-10-03T19:48:09.890024+00:00"
+}

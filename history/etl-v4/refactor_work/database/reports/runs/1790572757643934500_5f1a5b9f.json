@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:17.639172+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "12_verify_restore.py",
+  "code_sha256": "4c7fdd264ead251ce4290a4791d46417c137ab4ef8730e75093cac61feb14300",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.000666000007186085,
+  "finished_at": "2026-09-28T05:19:17.643934+00:00"
+}

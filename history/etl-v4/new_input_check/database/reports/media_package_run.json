@@ -1,0 +1,18 @@
+{
+  "code_sha256": "52998bf2132fc1f514b2ab48b89ac04d769af487b3f3d23cc87e3b9365397e98",
+  "datasets": {
+    "8e8c1311-0b5c-533d-862d-931be0914b3e": {
+      "content_sha256": "21c38456ba0cd61c9cb7665e9386531559a53b9218b4920a798b086dd599402a",
+      "input_key": "48faa77f30b50d74060f8c98a2a2cc28c2a64726f2b02c5a1551cebc1bb7c53e",
+      "rule_version": "sample-media-v2"
+    },
+    "97bfea48-bed5-5488-99ee-52d4d5f3579b": {
+      "content_sha256": "c030e72a2c1af5b18d3f3784a4b4eaba9715af8280446715153ab0e000e75dfd",
+      "input_key": "98ccd6a98bd44fe70720f942a5df5c423f6928d0d417844740ea3b9c37dd9ae0",
+      "rule_version": "sample-media-v2"
+    }
+  },
+  "package": "72ca8878b9f2eaa97ef060ad17c514d4b29c02a6f1199fd988abf2832e4c7611",
+  "recorded_at": "2026-09-29T09:40:43.656952+00:00",
+  "status": "passed"
+}

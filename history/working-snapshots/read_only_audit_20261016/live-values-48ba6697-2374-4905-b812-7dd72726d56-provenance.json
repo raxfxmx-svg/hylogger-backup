@@ -1,0 +1,101 @@
+{
+  "log": {
+    "log_id": "6968d130-bed7-597f-aed1-edfb305f6814",
+    "source_log_id": "48ba6697-2374-4905-b812-7dd72726d56",
+    "source_log_name": "Min1 sTSAS",
+    "log_kind": "scalar",
+    "unit": null,
+    "metric_key": "mineral_name",
+    "availability_status": "payload_present",
+    "omission_reason": null,
+    "interpretation_set_id": "9a4a82bb-81aa-565a-93d3-b26be42fb6f8",
+    "axis_id": "9c84fbf6-6513-5200-a71a-c303713a122c",
+    "axis_binding_status": "verified",
+    "axis_binding_basis": "all point-depth coordinates equal in source row order",
+    "output_region": "SWIR",
+    "variant_code": "s",
+    "algorithm_family": "TSA",
+    "source_set_code": "sTSAS",
+    "spectral_region": null,
+    "is_probability": null
+  },
+  "pages": [
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=-1",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 4999,
+      "captured_at": "2026-10-16T05:51:37.889Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=4999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 9999,
+      "captured_at": "2026-10-16T05:51:38.906Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=9999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 14999,
+      "captured_at": "2026-10-16T05:51:39.511Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=14999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 19999,
+      "captured_at": "2026-10-16T05:51:40.109Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=19999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 24999,
+      "captured_at": "2026-10-16T05:51:40.714Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=24999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 29999,
+      "captured_at": "2026-10-16T05:51:41.303Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=29999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 34999,
+      "captured_at": "2026-10-16T05:51:41.912Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=34999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 39999,
+      "captured_at": "2026-10-16T05:51:42.844Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=39999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 44999,
+      "captured_at": "2026-10-16T05:51:43.441Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=44999",
+      "status": 200,
+      "count": 5000,
+      "next_after_sample": 49999,
+      "captured_at": "2026-10-16T05:51:44.059Z"
+    },
+    {
+      "url": "https://api.example.com/v1/datasets/87ff003a-7ec9-54b6-9927-d2a518e34aae/logs/6968d130-bed7-597f-aed1-edfb305f6814/values?axis_id=9c84fbf6-6513-5200-a71a-c303713a122c&limit=5000&after_sample=49999",
+      "status": 200,
+      "count": 4432,
+      "next_after_sample": null,
+      "captured_at": "2026-10-16T05:51:44.611Z"
+    }
+  ]
+}

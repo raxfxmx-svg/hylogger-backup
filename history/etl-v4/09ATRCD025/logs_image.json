@@ -1,0 +1,30 @@
+[
+  {
+    "log_id": "0c6a79cb-9a66-4da5-a414-548d984ba31",
+    "log_name": "Mosaic",
+    "sample_count": "0",
+    "modified_date": "2022-06-22T00:00:00+08:00",
+    "created_date": "2018-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1577436f-ae7e-4c9c-9371-8133ef0fbca",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": "34",
+    "modified_date": "2022-06-22T00:00:00+08:00",
+    "created_date": "2018-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c1c10e9b-76fc-418e-b47c-3ef9130d6c7",
+    "log_name": "Tray Images",
+    "sample_count": "34",
+    "modified_date": "2022-06-22T00:00:00+08:00",
+    "created_date": "2018-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d494df1e-afb1-4340-954d-f03cb10c724",
+    "log_name": "Imagery",
+    "sample_count": "22780",
+    "modified_date": "2022-06-22T00:00:00+08:00",
+    "created_date": "2018-12-06T00:00:00+08:00"
+  }
+]

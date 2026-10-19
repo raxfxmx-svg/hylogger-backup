@@ -1,0 +1,205 @@
+{
+  "fork_main": "02cac83a7c054777ca7a19b442299f10bd4371e7",
+  "csv_history": [
+    {
+      "sha": "bae25f95830370f894f974d3f73a9df192ce75f9",
+      "subject": "Add anomaly interval API",
+      "date": "2026-09-26T13:09:36Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/bae25f95830370f894f974d3f73a9df192ce75f9"
+    }
+  ],
+  "anomaly_history": [
+    {
+      "sha": "9978d955572dfe892f52122de588ccca5d126507",
+      "subject": "Normalize anomaly category values",
+      "date": "2026-09-26T04:41:03Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/9978d955572dfe892f52122de588ccca5d126507"
+    },
+    {
+      "sha": "e8b7f6c8d064d6e193cdcf3c627bf0b1e49f868a",
+      "subject": "Preserve FastAPI identifiers in anomaly outputs",
+      "date": "2026-09-25T13:20:11Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/e8b7f6c8d064d6e193cdcf3c627bf0b1e49f868a"
+    },
+    {
+      "sha": "6a080e0d94a5512aaf01dfa66a1fe06cf2fc69d8",
+      "subject": "Remove unused signal imports from anomaly model",
+      "date": "2026-09-25T08:35:48Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/6a080e0d94a5512aaf01dfa66a1fe06cf2fc69d8"
+    },
+    {
+      "sha": "34bf0bbcf16142e261f884d0a463183ce7cf56e2",
+      "subject": "Merge anomaly detection improvements into main",
+      "date": "2026-09-25T04:59:33Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/34bf0bbcf16142e261f884d0a463183ce7cf56e2"
+    },
+    {
+      "sha": "ea41ef8f3d4466d4e92f2315e39340141aed662e",
+      "subject": "Add LOF as diagnostic anomaly score",
+      "date": "2026-09-19T06:31:55Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/ea41ef8f3d4466d4e92f2315e39340141aed662e"
+    },
+    {
+      "sha": "c8b661bca91b452872d6e14b64ca63c347caff11",
+      "subject": "Add CLST channel disagreement diagnostics",
+      "date": "2026-09-19T06:10:18Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/c8b661bca91b452872d6e14b64ca63c347caff11"
+    },
+    {
+      "sha": "f7cd665d55428729d929a3ce3f69a48b5f3de6c1",
+      "subject": "Remove redundant HyLogger classification channels",
+      "date": "2026-09-19T06:03:35Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/f7cd665d55428729d929a3ce3f69a48b5f3de6c1"
+    },
+    {
+      "sha": "a33e4df89743810de0885239a70257f11bc92777",
+      "subject": "Add HyLogger channel agreement diagnostics",
+      "date": "2026-09-16T09:24:07Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/a33e4df89743810de0885239a70257f11bc92777"
+    },
+    {
+      "sha": "d7f1810df3621539fe33736a0810584d1cde1f94",
+      "subject": "Ignore invalid mineral classifications in anomaly features",
+      "date": "2026-09-16T08:50:55Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/d7f1810df3621539fe33736a0810584d1cde1f94"
+    },
+    {
+      "sha": "ae6ce9aed76b6afe5fca307e4abcacb628af46ab",
+      "subject": "Deduplicate mineral features in anomaly explanations",
+      "date": "2026-09-16T08:39:04Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/ae6ce9aed76b6afe5fca307e4abcacb628af46ab"
+    },
+    {
+      "sha": "a22371e14675e4bfdfeef776d03c0d55c38fcbd3",
+      "subject": "Update anomaly.py for geographic neighbours, feature filtering and clipped score labels",
+      "date": "2026-09-16T08:32:41Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/a22371e14675e4bfdfeef776d03c0d55c38fcbd3"
+    },
+    {
+      "sha": "e7ff9a18b898959cb3ac8535ef8767ce14c5a4cd",
+      "subject": "Improve anomaly detection with geographic context",
+      "date": "2026-09-16T07:20:27Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/e7ff9a18b898959cb3ac8535ef8767ce14c5a4cd"
+    },
+    {
+      "sha": "01820508cb8cd148d268256ce202aa2e60a5c816",
+      "subject": "Initial commit: GSWA HyLogger Explorer",
+      "date": "2026-08-25T06:58:10Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/01820508cb8cd148d268256ce202aa2e60a5c816"
+    }
+  ],
+  "frontend_api_history": [
+    {
+      "sha": "34dce94503e1649514ac2dfe9cfc4dd28beec491",
+      "subject": "Include every dataset extent in the hole list",
+      "date": "2026-10-16T05:28:17Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/34dce94503e1649514ac2dfe9cfc4dd28beec491"
+    },
+    {
+      "sha": "a1c26d590f69c35fde1508fda6162e6a2553f78c",
+      "subject": "Splice all dataset parts and batch exact-sample spectral requests",
+      "date": "2026-10-16T05:09:23Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/a1c26d590f69c35fde1508fda6162e6a2553f78c"
+    },
+    {
+      "sha": "fbf7bbe755f9fac3a35b1fe6e5b627cf9dd6a5db",
+      "subject": "Revert persistent API cache, retain mineral data fixes",
+      "date": "2026-10-16T04:41:32Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/fbf7bbe755f9fac3a35b1fe6e5b627cf9dd6a5db"
+    },
+    {
+      "sha": "934bb47cdad88842f4ee285101481de542da4dbf",
+      "subject": "Cache successful HyLogger data across page reloads",
+      "date": "2026-10-14T12:32:15Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/934bb47cdad88842f4ee285101481de542da4dbf"
+    },
+    {
+      "sha": "8de7243f0c01880927ba1f5325003f5089d980ae",
+      "subject": "Fix mineral group selection and invalid mineral labels",
+      "date": "2026-10-08T14:02:28Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/8de7243f0c01880927ba1f5325003f5089d980ae"
+    },
+    {
+      "sha": "2c5ac6383876aa429c3fcdf5d91218f621c524ec",
+      "subject": "Run the frontend on the FastAPI backend instead of Django",
+      "date": "2026-10-07T06:01:57Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/2c5ac6383876aa429c3fcdf5d91218f621c524ec"
+    },
+    {
+      "sha": "5dfd788067c5469f2744fd866028bf328de9b182",
+      "subject": "Merge Compare into a 3D core viewer; brighter theme",
+      "date": "2026-09-30T02:55:44Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/5dfd788067c5469f2744fd866028bf328de9b182"
+    },
+    {
+      "sha": "989231563b1ee677a18a243002fb86cb5760d783",
+      "subject": "Bring frontend up to date with local changes (core photo + 3D core viewer)",
+      "date": "2026-09-22T09:07:38Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/989231563b1ee677a18a243002fb86cb5760d783"
+    },
+    {
+      "sha": "01820508cb8cd148d268256ce202aa2e60a5c816",
+      "subject": "Initial commit: GSWA HyLogger Explorer",
+      "date": "2026-08-25T06:58:10Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/01820508cb8cd148d268256ce202aa2e60a5c816"
+    }
+  ],
+  "confidence_extract_history": [
+    {
+      "sha": "01820508cb8cd148d268256ce202aa2e60a5c816",
+      "subject": "Initial commit: GSWA HyLogger Explorer",
+      "date": "2026-08-25T06:58:10Z",
+      "url": "https://github.com/raxfxmx-svg/hylogger/commit/01820508cb8cd148d268256ce202aa2e60a5c816"
+    }
+  ],
+  "pull_requests": [
+    {
+      "number": 7,
+      "url": "https://github.com/nhuannguyen87/hylogger/pull/7",
+      "title": "Splice a hole's ETL4 datasets by depth",
+      "author": "nhuannguyen87",
+      "merged_at": null,
+      "head": "ec8a0b70ee948002dfbd22e311930619ec0b73ac",
+      "body": "Holes like 15EIS001 have several ETL4 datasets (main, _wedge, _wedge2, ...). \\`context()\\` in \\`frontend/lib/api.js\\` used only the largest one; it now keeps all of them in the order \\`/v1/boreholes/{id}/datasets\\` returns and uses each from its own start depth until the next one starts, as TeamMemberA and Contributor2 suggested. Mineral log, anomalies, trays, core photos and spectra all follow the splice.\n\n\\`next build\\` passes; not yet run against live ETL4 data.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)"
+    },
+    {
+      "number": 6,
+      "url": "https://github.com/nhuannguyen87/hylogger/pull/6",
+      "title": "Frontend fastapi",
+      "author": "nhuannguyen87",
+      "merged_at": "2026-10-07T11:33:57Z",
+      "head": "62c732157189e03c271c17c61f4b2a66899b1551",
+      "body": null
+    },
+    {
+      "number": 5,
+      "url": "https://github.com/nhuannguyen87/hylogger/pull/5",
+      "title": "Finalize anomaly model outputs and category normalization",
+      "author": "TeamContributor-s333",
+      "merged_at": "2026-09-30T03:50:30Z",
+      "head": "9978d955572dfe892f52122de588ccca5d126507",
+      "body": "- Removes unused imports from the anomaly model\r\n- Preserves FastAPI identifiers when supplied in the input data\r\n- Adds sample-number ranges to anomaly outputs\r\n- Normalizes categorical values case-insensitively\r\n- Tested on 261,892 samples across five ETL4 pilot holes\r\n- Generated 18 flagged intervals"
+    },
+    {
+      "number": 2,
+      "url": "https://github.com/nhuannguyen87/hylogger/pull/2",
+      "title": "Fastapi backend integration",
+      "author": "TeamMemberAaus",
+      "merged_at": "2026-09-30T03:23:31Z",
+      "head": "76227db847cca03e224c1511f56b80385540a1e8",
+      "body": "Task 3 FastAPI integration branch.\r\n\r\nIncludes:\r\n\r\n- FastAPI backend connected to the fixed ETL4/PostGIS handoff\r\n- AWS Aurora PostgreSQL/PostGIS support with IAM authentication\r\n- Private S3 access for spectra, Parquet data, and image assets\r\n- Live AWS validation completed\r\n- Anomaly interval API integrated from Task 2 outputs\r\n- 24 passing backend tests\r\n- Existing Django prototype preserved under `backend-django-old/`\r\n- Frontend API handoff at `backend/docs/FRONTEND_API.md`\r\n- Frontend code has not been modified\r\n\r\nValidated release:\r\n\r\n`fd02659c-dc3d-52ea-a8eb-c032b91e7624`\r\n\r\nNew anomaly endpoint:\r\n\r\n`GET /v1/datasets/{revision_id}/anomalies`\r\n\r\nStill pending:\r\n\r\n- Frontend integration by Task 4\r\n- Confidence-level integration once available"
+    }
+  ],
+  "mineral_fix": [
+    {
+      "filename": "frontend/lib/api.js",
+      "patch": "@@ -126,7 +126,7 @@ const usable = (log) => log.availability_status === \"payload_present\" && log.axi\n /** The mineral-GROUP log to colour by: Grp1, SWIR/VNIR unless asked for TIR. */\n function groupLog(logs, region) {\n   const groups = logs.filter(\n-    (l) => l.log_kind === \"scalar\" && l.metric_key === \"mineral_name\" && usable(l) && /^grp\\s*1/i.test(l.source_log_name)\n+    (l) => l.log_kind === \"scalar\" && l.metric_key === \"mineral_group\" && usable(l) && /^grp\\s*1/i.test(l.source_log_name)\n   );\n   const isTir = (l) => /TIR/i.test(l.output_region || \"\") || /TSAT/i.test(l.source_log_name);\n   return region === \"TIR\" ? groups.find(isTir) : groups.find((l) => !isTir(l));\n@@ -146,11 +146,11 @@ async function logValues({ revision, axis }, logId) {\n   }\n }\n \n-/** \"White Mica\" -> \"WHITE-MICA\", the config.js MINERAL_COLOURS key. Aspectral = no mineral seen. */\n+/** Normalise display labels; preserve non-mineral samples as null calls, not deleted rows. */\n function groupName(row) {\n-  if (row.status !== \"available\" || !row.value_text) return null;\n+  if (row.status !== \"available\" || typeof row.value_text !== \"string\") return null;\n   const name = row.value_text.trim().toUpperCase().replace(/[\\s_]+/g, \"-\");\n-  return name === \"ASPECTRAL\" || name === \"NULL\" ? null : name;\n+  return !name || [\"ASPECTRAL\", \"NULL\", \"INVALID\"].includes(name) ? null : name;\n }\n \n const groupSamples = (holeId, region = \"SWIR\") =>\n@@ -404,7 +404,7 @@ export const getSpectralSample = async (holeId, depthM) => {\n     md_m: raw.md_m,\n     source: \"etl4\",\n     minerals: raw.results\n-      .filter((r) => ok(r) && r.log_kind === \"scalar\" && r.value?.value_text)\n+      .filter((r) => r.log_kind === \"scalar\" && groupName({ status: r.status, value_text: r.value?.value_text }) !== null)\n       .map((r) => ({ log_name: r.source_log_name, mineral: r.value.value_text })),\n     spectra: raw.results\n       .filter((r) => ok(r) && r.log_kind === \"spectral\" && r.spectra?.length)"
+    }
+  ],
+  "frontend_migration": [
+    {
+      "filename": "frontend/lib/api.js",
+      "patch": "@@ -1,69 +1,413 @@\n-// Every call to the Django API goes through here. One place to add auth headers\n-// or change error handling later.\n+// Every call to the FastAPI backend (hylogger/backend, docs/FRONTEND_API.md)\n+// goes through here. FastAPI serves raw ETL4: one sample every few mm, keyed\n+// by dataset revision + axis. The components were written against one-metre\n+// intervals, so this file turns the one into the other and the components\n+// stay as they are.\n \n import { API_BASE } from \"@/config\";\n \n async function get(path) {\n   const response = await fetch(`${API_BASE}${path}`, { cache: \"no-store\" });\n   if (!response.ok) {\n     throw new Error(\n-      `${response.status} from ${path}. Is the Django server running on ${API_BASE}?`\n+      `${response.status} from ${path}. Is the FastAPI server running on ${API_BASE}?`\n     );\n   }\n   return response.json();\n }\n \n-export const getStats = () => get(\"/stats/\");\n+const qs = (params) => {\n+  const query = new URLSearchParams();\n+  for (const [key, value] of Object.entries(params)) {\n+    if (value == null) continue;\n+    for (const v of [].concat(value)) query.append(key, String(v));\n+  }\n+  return query.toString();\n+};\n+\n+/** Run fn over items, at most `limit` at once (the browser and FastAPI both choke on 300 at once). */\n+async function pool(items, limit, fn) {\n+  const out = new Array(items.length);\n+  let next = 0;\n+  const worker = async () => {\n+    while (next < items.length) {\n+      const i = next++;\n+      out[i] = await fn(items[i]);\n+    }\n+  };\n+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));\n+  return out;\n+}\n+\n+// One promise per key, kept for the session - opening a hole twice, or the\n+// map and the detail panel both asking, costs one round of requests.\n+const cache = new Map();\n+function once(key, fn) {\n+  if (!cache.has(key)) {\n+    const promise = fn();\n+    promise.catch(() => cache.delete(key)); // let a failed load retry\n+    cache.set(key, promise);\n+  }\n+  return cache.get(key);\n+}\n+\n+// ---------------------------------------------------------------- holes\n \n-export const getHoles = ({ search = \"\", anomaliesOnly = false, limit = 3000 } = {}) => {\n-  const query = new URLSearchParams({ limit: String(limit) });\n-  if (search) query.set(\"search\", search);\n-  if (anomaliesOnly) query.set(\"anomalies_only\", \"1\");\n-  return get(`/holes/?${query}`);\n+/** /v1/boreholes rows -> the hole shape the components use. */\n+function toHole(row) {\n+  const [longitude, latitude] = row.geometry?.coordinates ?? [null, null];\n+  return {\n+    hole_id: row.hole_id,\n+    hole_name: row.project || row.hole_id,\n+    latitude,\n+    longitude,\n+    elevation_m: null, // not in ETL4\n+    borehole_length_m: row.reported_length_m,\n+    drawn_length_m: row.scan_to_m ?? row.reported_length_m,\n+    logged_from_m: row.scan_from_m,\n+    logged_to_m: row.scan_to_m,\n+    // ETL4 withholds orientation for confidentiality; null keeps the map from\n+    // drawing a made-up trajectory (desurvey.js skips holes without one).\n+    inclination_deg: null,\n+    azimuth_deg: null,\n+    confidential: !!row.orientation_missing_reason,\n+    has_full_spectrum: true, // every ETL4 hole carries VSWIR/TIR spectra\n+    instrument: row.instrument,\n+  };\n+}\n+\n+const allHoles = () =>\n+  once(\"holes\", async () => {\n+    const { items } = await get(\"/v1/boreholes\");\n+    const byId = new Map();\n+    for (const row of items) if (!byId.has(row.hole_id)) byId.set(row.hole_id, toHole(row));\n+    return [...byId.values()];\n+  });\n+\n+export const getHoles = async ({ search = \"\", anomaliesOnly = false } = {}) => {\n+  const needle = search.trim().toLowerCase();\n+  let holes = (await allHoles()).filter(\n+    (h) => !needle || h.hole_id.toLowerCase().includes(needle) || h.hole_name.toLowerCase().includes(needle)\n+  );\n+  if (anomaliesOnly) {\n+    const flagged = await Promise.all(holes.map((h) => holeAnomalies(h.hole_id).then((a) => a.length > 0, () => false)));\n+    holes = holes.filter((_, i) => flagged[i]);\n+  }\n+  return holes;\n };\n \n-export const getHole = (holeId) => get(`/holes/${holeId}/`);\n-export const getMeasurements = (holeId) => get(`/holes/${holeId}/measurements/`);\n-export const getTrays = (holeId) => get(`/holes/${holeId}/trays/`);\n-export const getAnomalies = (holeId) => get(`/holes/${holeId}/anomalies/`);\n-export const getTrace = (holeId, stepM = 5) => get(`/holes/${holeId}/trace/?step_m=${stepM}`);\n-export const getNearby = (holeId, km = 25) => get(`/holes/${holeId}/nearby/?km=${km}`);\n-export const getDistance = (a, b) => get(`/distance/?a=${a}&b=${b}`);\n+export const getHole = async (holeId) => {\n+  const hole = (await allHoles()).find((h) => h.hole_id === holeId);\n+  if (!hole) throw new Error(`${holeId} is not in the active ETL4 release.`);\n+  const measurements = await getMeasurements(holeId);\n+  return {\n+    ...hole,\n+    measurement_count: measurements.length,\n+    anomaly_count: measurements.filter((m) => m.is_anomaly).length,\n+    logged_from_m: measurements[0]?.depth_from_m ?? hole.logged_from_m,\n+    logged_to_m: measurements.at(-1)?.depth_to_m ?? hole.logged_to_m,\n+  };\n+};\n \n-/**\n- * Every hole's mineral log in one call, merged into [from_m, to_m, group]\n- * runs - what lets the map colour every 3D core on first load. Pass\n- * CONFIDENCE_THRESHOLD so it greys out the same intervals StripLog does.\n- */\n-export const getMineralLogs = (minConfidence) => get(`/mineral-logs/?min_confidence=${minConfidence}`);\n+// ------------------------------------------------------- dataset context\n+\n+/** The hole's dataset revision + sample axis + log catalogue - every later call needs them. */\n+const context = (holeId) =>\n+  once(`ctx:${holeId}`, async () => {\n+    const { items } = await get(`/v1/boreholes/${encodeURIComponent(holeId)}/datasets`);\n+    const dataset = items.filter((d) => d.axis_id).sort((a, b) => b.sample_count - a.sample_count)[0];\n+    if (!dataset) throw new Error(`${holeId} has no sample axis in ETL4.`);\n+    const { items: logs } = await get(`/v1/datasets/${dataset.dataset_revision_id}/logs`);\n+    return { revision: dataset.dataset_revision_id, axis: dataset.axis_id, sampleCount: dataset.sample_count, logs };\n+  });\n+\n+const usable = (log) => log.availability_status === \"payload_present\" && log.axis_binding_status === \"verified\";\n+\n+/** The mineral-GROUP log to colour by: Grp1, SWIR/VNIR unless asked for TIR. */\n+function groupLog(logs, region) {\n+  const groups = logs.filter(\n+    (l) => l.log_kind === \"scalar\" && l.metric_key === \"mineral_name\" && usable(l) && /^grp\\s*1/i.test(l.source_log_name)\n+  );\n+  const isTir = (l) => /TIR/i.test(l.output_region || \"\") || /TSAT/i.test(l.source_log_name);\n+  return region === \"TIR\" ? groups.find(isTir) : groups.find((l) => !isTir(l));\n+}\n+\n+/** Every sample of one scalar log, paging through after_sample. */\n+async function logValues({ revision, axis }, logId) {\n+  const rows = [];\n+  let after = -1;\n+  for (;;) {\n+    const page = await get(\n+      `/v1/datasets/${revision}/logs/${logId}/values?${qs({ axis_id: axis, after_sample: after, limit: 5000 })}`\n+    );\n+    rows.push(...page.items);\n+    if (page.next_after_sample == null) return rows;\n+    after = page.next_after_sample;\n+  }\n+}\n+\n+/** \"White Mica\" -> \"WHITE-MICA\", the config.js MINERAL_COLOURS key. Aspectral = no mineral seen. */\n+function groupName(row) {\n+  if (row.status !== \"available\" || !row.value_text) return null;\n+  const name = row.value_text.trim().toUpperCase().replace(/[\\s_]+/g, \"-\");\n+  return name === \"ASPECTRAL\" || name === \"NULL\" ? null : name;\n+}\n+\n+const groupSamples = (holeId, region = \"SWIR\") =>\n+  once(`grp:${holeId}:${region}`, async () => {\n+    const ctx = await context(holeId);\n+    const log = groupLog(ctx.logs, region);\n+    return log ? logValues(ctx, log.log_id) : [];\n+  });\n+\n+// ------------------------------------------------------- measurements\n+\n+const holeAnomalies = (holeId) =>\n+  once(`anom:${holeId}`, async () => {\n+    const { revision, axis } = await context(holeId);\n+    const items = [];\n+    let offset = 0;\n+    while (offset != null) {\n+      const page = await get(`/v1/datasets/${revision}/anomalies?${qs({ axis_id: axis, flag: \"high\", offset, limit: 1000 })}`);\n+      items.push(...page.items);\n+      offset = page.next_offset;\n+    }\n+    return items;\n+  });\n+\n+/** Most common value and its count. */\n+function dominant(values) {\n+  const counts = new Map();\n+  for (const v of values) if (v) counts.set(v, (counts.get(v) || 0) + 1);\n+  let best = null, n = 0;\n+  for (const [v, c] of counts) if (c > n) [best, n] = [v, c];\n+  return [best, n];\n+}\n \n /**\n- * Real VSWIR/TIR spectrum + mineral call, only for the handful of holes with\n- * has_full_spectrum=true. null (not an error) for every other hole - that's\n- * the normal case, not a failure, so it doesn't go through get()'s throw.\n+ * Raw samples -> one interval per metre. confidence is the share of that\n+ * metre's samples agreeing with its dominant group - an honest read of how\n+ * mixed the metre is, NOT the Process-Level confidence FRONTEND_API.md §15\n+ * says is still to come. ponytail: swap for confidence_level once FastAPI exposes it.\n  */\n-export const getSpectralSample = async (holeId, depthM) => {\n-  const query = depthM != null ? `?depth_m=${depthM}` : \"\";\n-  const response = await fetch(`${API_BASE}/holes/${holeId}/spectral-sample/${query}`, { cache: \"no-store\" });\n-  if (response.status === 404) return null;\n-  if (!response.ok) throw new Error(`${response.status} from /holes/${holeId}/spectral-sample/`);\n-  return response.json();\n+export const getMeasurements = (holeId) =>\n+  once(`meas:${holeId}`, async () => {\n+    const [samples, anomalies] = await Promise.all([groupSamples(holeId), holeAnomalies(holeId).catch(() => [])]);\n+    const metres = new Map();\n+    for (const s of samples) {\n+      if (s.depth_m == null) continue;\n+      const m = Math.floor(s.depth_m);\n+      if (!metres.has(m)) metres.set(m, []);\n+      metres.get(m).push(groupName(s));\n+    }\n+    return [...metres.keys()].sort((a, b) => a - b).map((from) => {\n+      const calls = metres.get(from);\n+      const [mineral, n] = dominant(calls);\n+      const flag = anomalies.find((a) => a.depth_from_m < from + 1 && a.depth_to_m > from);\n+      return {\n+        depth_from_m: from,\n+        depth_to_m: from + 1,\n+        mineral_1: mineral,\n+        mineral_1_pct: mineral ? n / calls.length : null,\n+        confidence: n / calls.length,\n+        quality_flag: mineral ? \"ok\" : \"missing\",\n+        is_anomaly: !!flag,\n+        anomaly_score: flag?.anomaly_score ?? null, // 0-100 percentile, not a probability\n+        why: flag?.why ?? null,\n+      };\n+    });\n+  });\n+\n+export const getAnomalies = async (holeId) => (await getMeasurements(holeId)).filter((m) => m.is_anomaly);\n+\n+/** Every hole's log as merged [from_m, to_m, code] runs, code indexing `groups` (null = uncertain). */\n+export const getMineralLogs = async (minConfidence) => {\n+  const holes = await allHoles();\n+  const logs = await Promise.all(holes.map((h) => getMeasurements(h.hole_id).catch(() => [])));\n+  const groups = [];\n+  const code = (g) => (groups.includes(g) ? groups.indexOf(g) : groups.push(g) - 1);\n+  const result = {};\n+  holes.forEach((hole, i) => {\n+    const runs = [];\n+    for (const m of logs[i]) {\n+      const c = m.mineral_1 && m.confidence >= minConfidence ? code(m.mineral_1) : null;\n+      const last = runs.at(-1);\n+      if (last && last[2] === c && last[1] === m.depth_from_m) last[1] = m.depth_to_m;\n+      else runs.push([m.depth_from_m, m.depth_to_m, c]);\n+    }\n+    result[hole.hole_id] = runs;\n+  });\n+  return { groups, holes: result };\n+};\n+\n+export const getStats = async () => {\n+  const holes = await allHoles();\n+  const logs = await Promise.all(holes.map((h) => getMeasurements(h.hole_id).catch(() => [])));\n+  return {\n+    holes: holes.length,\n+    measurements: logs.reduce((n, l) => n + l.length, 0),\n+    anomalies: logs.reduce((n, l) => n + l.filter((m) => m.is_anomaly).length, 0),\n+  };\n+};\n+\n+// ------------------------------------------------------- where holes are\n+\n+function haversineKm(a, b) {\n+  const rad = Math.PI / 180;\n+  const dLat = (b.latitude - a.latitude) * rad;\n+  const dLon = (b.longitude - a.longitude) * rad;\n+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.latitude * rad) * Math.cos(b.latitude * rad) * Math.sin(dLon / 2) ** 2;\n+  return 2 * 6371.0088 * Math.asin(Math.sqrt(h));\n+}\n+\n+export const getNearby = async (holeId, km = 25) => {\n+  const hole = (await allHoles()).find((h) => h.hole_id === holeId);\n+  if (!hole) return [];\n+  const { items } = await get(\n+    `/v1/boreholes/nearby?${qs({ latitude: hole.latitude, longitude: hole.longitude, radius_km: km, limit: 20 })}`\n+  );\n+  const seen = new Set([holeId]);\n+  return items\n+    .filter((row) => !seen.has(row.hole_id) && seen.add(row.hole_id))\n+    .map((row) => ({ hole_id: row.hole_id, hole_name: row.project, distance_km: row.distance_km }));\n+};\n+\n+export const getDistance = async (a, b) => {\n+  const holes = await allHoles();\n+  const [ha, hb] = [a, b].map((id) => holes.find((h) => h.hole_id === id));\n+  if (!ha || !hb) throw new Error(`Unknown hole ${!ha ? a : b}`);\n+  return { a, b, distance_km: haversineKm(ha, hb) };\n+};\n+\n+// ------------------------------------------------------- trays & photos\n+\n+/** Interval rows (tray or section) with depths read off the sample axis. */\n+const intervals = (holeId, kind) =>\n+  once(`int:${holeId}:${kind}`, async () => {\n+    const { revision, axis } = await context(holeId);\n+    const items = [];\n+    let offset = 0;\n+    while (offset != null) {\n+      const page = await get(`/v1/datasets/${revision}/intervals?${qs({ axis_id: axis, kind, offset, limit: 1000 })}`);\n+      items.push(...page.items);\n+      offset = page.next_offset;\n+    }\n+    // the group log holds every sample's depth, so no extra /samples paging\n+    const samples = await groupSamples(holeId);\n+    const depth = new Map(samples.map((s) => [s.sample_no, s.depth_m]));\n+    return items\n+      .map((it) => ({ ...it, depth_from_m: depth.get(it.sample_no_from), depth_to_m: depth.get(it.sample_no_to) }))\n+      .filter((it) => it.depth_from_m != null && it.depth_to_m != null);\n+  });\n+\n+const callsBetween = (rows, from, to) => rows.filter((s) => s.sample_no >= from && s.sample_no <= to).map(groupName);\n+\n+export const getTrays = async (holeId) => {\n+  const [trays, swir, tir] = await Promise.all([\n+    intervals(holeId, \"tray\"),\n+    groupSamples(holeId, \"SWIR\"),\n+    groupSamples(holeId, \"TIR\"),\n+  ]);\n+  return trays.map((tray) => ({\n+    tray_no: tray.ordinal + 1,\n+    depth_from_m: tray.depth_from_m,\n+    depth_to_m: tray.depth_to_m,\n+    image_url: null, // ETL4 serves per-row crops, not whole-tray photos; those are in the core strip\n+    swir_vnir_mineral: dominant(callsBetween(swir, tray.sample_no_from, tray.sample_no_to))[0],\n+    tir_mineral: dominant(callsBetween(tir, tray.sample_no_from, tray.sample_no_to))[0],\n+  }));\n };\n \n /**\n- * Continuous core-photo + TSG strip (core_strip.py output), only for holes\n- * that have actually been run through that pipeline. null (not an error)\n- * for every other hole - same normal-not-a-failure shape as getSpectralSample.\n+ * ETL4's core photo: one ~400x25 px crop per core section (tray row), depth\n+ * running left to right along it. Returned in core_strip.py's sheet/row shape,\n+ * one sheet per row (photo_url relative to config.MEDIA_BASE), with `rotate` so Hole3D/CoreStripPanel stand it upright.\n+ * ponytail: one exact-sample call per section (~270 a hole); a FastAPI\n+ * /core-strip endpoint returning all mappings at once would make this one call.\n  */\n-export const getCoreStrip = async (holeId) => {\n-  const response = await fetch(`${API_BASE}/holes/${holeId}/core-strip/`, { cache: \"no-store\" });\n-  // 202: the backend is building this hole's strip from NVCL right now - ask again shortly\n-  if (response.status === 202) return { building: true };\n-  // 404: no photos for this hole (NVCL has none, or they're another hole's) - say why\n-  if (response.status === 404) {\n-    const body = await response.json().catch(() => ({}));\n-    return { unavailable: body.detail || \"No core photos for this hole.\" };\n+export const getCoreStrip = (holeId) =>\n+  once(`strip:${holeId}`, async () => {\n+    const ctx = await context(holeId);\n+    const sections = await intervals(holeId, \"section\");\n+    const anyLog = groupLog(ctx.logs, \"SWIR\") || ctx.logs.find(usable);\n+    if (!sections.length || !anyLog) return { unavailable: \"ETL4 has no core-section photos for this hole.\" };\n+\n+    const found = await pool(sections, 8, async (section) => {\n+      const sample = await get(\n+        `/v1/datasets/${ctx.revision}/samples/${section.sample_no_from}?${qs({ axis_id: ctx.axis, log_ids: anyLog.log_id })}`\n+      ).catch(() => null);\n+      const image = sample?.images?.find((im) => im.status === \"available\" && im.image_asset_id);\n+      return image && { section, image };\n+    });\n+\n+    const rows = found.filter(Boolean).map(({ section, image }, i) => ({\n+      sheet_index: i,\n+      depth_from_m: section.depth_from_m,\n+      depth_to_m: section.depth_to_m,\n+      // after rotating, depth runs down the image's width\n+      y_from_px: 0,\n+      y_to_px: image.width_px,\n+      rotate: true,\n+      flip: /right.?to.?left|decreas/i.test(image.source_depth_direction || \"\"),\n+      photo_url: `/v1/image-assets/${image.image_asset_id}/content`,\n+      height_px: image.height_px,\n+    }));\n+    if (!rows.length) return { unavailable: \"ETL4 has no reviewed core-section photos for this hole.\" };\n+\n+    return {\n+      depth_min_m: Math.min(...rows.map((r) => r.depth_from_m)),\n+      depth_max_m: Math.max(...rows.map((r) => r.depth_to_m)),\n+      core_width_px: Math.min(...rows.map((r) => r.height_px)),\n+      rows,\n+      sheets: rows.map((r) => ({\n+        sheet_index: r.sheet_index,\n+        depth_from_m: r.depth_from_m,\n+        depth_to_m: r.depth_to_m,\n+        photo_url: r.photo_url,\n+        tsg_url: null,\n+      })),\n+    };\n+  });\n+\n+// ------------------------------------------------------- spectra\n+\n+/** Real VSWIR/TIR spectrum + mineral calls at one sample (nearest to depthM, else mid-hole with a call). */\n+export const getSpectralSample = async (holeId, depthM) => {\n+  const ctx = await context(holeId).catch(() => null);\n+  if (!ctx) return null;\n+  const samples = await groupSamples(holeId);\n+  if (!samples.length) return null;\n+\n+  let pick;\n+  if (depthM != null) {\n+    pick = samples.reduce((best, s) => (Math.abs(s.depth_m - depthM) < Math.abs(best.depth_m - depthM) ? s : best));\n+  } else {\n+    // the sample with a real group call closest to mid-hole\n+    const mid = Math.floor(samples.length / 2);\n+    let best = mid;\n+    for (let d = 0; d <= mid; d += 1) {\n+      if (samples[mid + d] && groupName(samples[mid + d])) { best = mid + d; break; }\n+      if (samples[mid - d] && groupName(samples[mid - d])) { best = mid - d; break; }\n+    }\n+    pick = samples[best];\n   }\n-  if (!response.ok) throw new Error(`${response.status} from /holes/${holeId}/core-strip/`);\n-  return response.json();\n+\n+  const logIds = ctx.logs\n+    .filter((l) => usable(l) && (l.log_kind === \"spectral\" || (l.log_kind === \"scalar\" && l.metric_key === \"mineral_name\")))\n+    .map((l) => l.log_id);\n+  const raw = await get(`/v1/datasets/${ctx.revision}/samples/${pick.sample_no}?${qs({ axis_id: ctx.axis, log_ids: logIds })}`);\n+\n+  const ok = (r) => r.status === \"available\";\n+  return {\n+    sample_no: raw.sample_no,\n+    sample_count: raw.sample_count,\n+    md_m: raw.md_m,\n+    source: \"etl4\",\n+    minerals: raw.results\n+      .filter((r) => ok(r) && r.log_kind === \"scalar\" && r.value?.value_text)\n+      .map((r) => ({ log_name: r.source_log_name, mineral: r.value.value_text })),\n+    spectra: raw.results\n+      .filter((r) => ok(r) && r.log_kind === \"spectral\" && r.spectra?.length)\n+      .map((r) => ({ region: r.region_code, wavelength: r.wavelength, values: r.spectra, wavelength_unit: r.wavelength_unit || \"nm\" })),\n+  };\n };"
+    }
+  ]
+}

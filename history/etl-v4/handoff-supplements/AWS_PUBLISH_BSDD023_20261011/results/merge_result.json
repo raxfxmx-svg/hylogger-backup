@@ -1,0 +1,32 @@
+{
+  "active_release_changed": true,
+  "batch_id": "e704df799acda67aa438cabf30d6a227dffd12b6ab84f7131021b3cbdeb1781d",
+  "bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+  "cloud_target": {
+    "dbname": "etl4_core",
+    "fingerprint": "2673b12ce529799c169b0694e8413479a4c3440d3cbf2bd7a95d29cb350918d1",
+    "host": "db.example.com",
+    "port": 5432
+  },
+  "completed_at": "2026-10-11T03:07:45.029829+00:00",
+  "database_commit": "complete",
+  "datasets": [
+    {
+      "dataset_id": "6f167916-b51d-584a-84b2-3fbc4a8dcde8",
+      "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+      "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4"
+    }
+  ],
+  "finalized_release_id": "3bd3ae3a-04a8-5e98-a0b6-57894d65bf2f",
+  "format": "etl4-batch-merge-v1",
+  "manifest_sha256": "0e5d68eefbe628f18ed2c79c6a42299cc5fe6d58bdfb898feeeccadc7aa0301e",
+  "prefix": "etl4",
+  "region": "ap-southeast-2",
+  "release_id": "3bd3ae3a-04a8-5e98-a0b6-57894d65bf2f",
+  "replacements": [],
+  "reused": false,
+  "run_id": "a893b1fd-3d67-5118-b659-81a49e0a3b3e",
+  "s3_root_key": "etl4_s3_a22098dedb6798558858",
+  "status": "complete",
+  "upload_receipt_sha256": "8c7b4259333c11e55130c7a9dc0cf1ea9d23edcc6002515b20ac68ae316b5452"
+}

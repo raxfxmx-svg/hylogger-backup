@@ -1,0 +1,7 @@
+{
+  "detail": "[WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions.",
+  "error_type": "ConnectError",
+  "recorded_at": "2026-09-29T23:03:35.247079+00:00",
+  "script": "21_verify_spectral_bindings.py",
+  "status": "failed"
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "etl3.processed.v2",
+  "release_id": "etl3-v2_8c18013547c2b4ae",
+  "hole_id": "14CADD003",
+  "status": "pass",
+  "generated_at": "2026-08-26T20:07:51+00:00",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "raw_package_tree_recorded",
+      "status": "pass",
+      "details": {
+        "file_count": 145,
+        "nbytes": 13302321,
+        "tree_sha256": "36992fb4181d3ed202e0a666559155421bd0e46a37260f561e900804ef079fb8"
+      }
+    },
+    {
+      "name": "asset_files_verified_and_copied",
+      "status": "pass",
+      "details": {
+        "copied_files": 4,
+        "catalog_rows": 6
+      }
+    },
+    {
+      "name": "scalar_common_axis",
+      "status": "pass",
+      "details": {
+        "sample_count": 1584,
+        "axis_source_log_id": "00a4dec1-b6dc-4ee0-bb95-09f19a7f504",
+        "aligned_source_series": 122,
+        "irregular_source_series": 0,
+        "physical_value_columns": 97,
+        "duplicate_axis_coordinate_rows": 564
+      }
+    },
+    {
+      "name": "tray_partition",
+      "status": "pass",
+      "details": {
+        "tray_count": 3
+      }
+    },
+    {
+      "name": "section_partition",
+      "status": "pass",
+      "details": {
+        "section_count": 12,
+        "sections_per_tray": {
+          "0": 4,
+          "1": 4,
+          "2": 4
+        }
+      }
+    },
+    {
+      "name": "thumbnail_core_section_strips",
+      "status": "pass",
+      "details": {
+        "mapping_rows": 12,
+        "complete_strips": 12,
+        "unavailable_or_failed": 0,
+        "image_quality": "thumbnail_derived",
+        "output_resized": false,
+        "jpeg_quality": 90
+      }
+    },
+    {
+      "name": "spectral_series_separated",
+      "status": "pass",
+      "details": {
+        "source_series": 15,
+        "complete_series": 2,
+        "axis_count": 2,
+        "combined_signals_csv_created": false
+      }
+    }
+  ],
+  "counts": {
+    "hole_count": 1,
+    "dataset_count": 1,
+    "sample_count": 1584,
+    "scalar_source_series_count": 124,
+    "scalar_physical_value_columns": 97,
+    "tray_count": 3,
+    "section_count": 12,
+    "section_image_mapping_rows": 12,
+    "core_strip_complete_count": 12,
+    "spectral_source_series_count": 15,
+    "spectral_complete_series_count": 2,
+    "spectral_axis_count": 2,
+    "asset_catalog_rows": 18,
+    "availability_rows": 144
+  },
+  "important_storage_keys": {
+    "sample_axis": "holes/14CADD003/sample_axis.parquet",
+    "scalar_values": "holes/14CADD003/scalars/values.parquet",
+    "section_images": "holes/14CADD003/core/section_images.parquet"
+  },
+  "interpretation_policy": {
+    "scientific_interpretation_added": false,
+    "unknown_source_units_filled": false,
+    "mineral_truth_algorithm_selected": false,
+    "theoretical_borehole_path_generated": false,
+    "heatmap_or_other_visual_derivative_generated": true,
+    "visual_derivative_kinds": [
+      "thumbnail_core_section_strips"
+    ]
+  }
+}

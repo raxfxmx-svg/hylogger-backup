@@ -1,0 +1,40 @@
+{
+  "holes": [
+    {
+      "asset_bytes_hashed": 249184678,
+      "assets_hashed": 314,
+      "chunks_compared": 764,
+      "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+      "hole_id": "05KCD001",
+      "images_compared": 30,
+      "input_digest": "04c2c967a034b6b63f58065135b43e272a4928bcd3c36b672c4b87777c7c1e32",
+      "logs_compared": 147,
+      "samples_compared": 22356,
+      "status": "passed"
+    }
+  ],
+  "http_checks": [
+    {
+      "duplicate_samples_returned": 14,
+      "hole_id": "05KCD001",
+      "image_bytes_checked": true,
+      "profile_boundary_checked": true,
+      "range_rows": 77,
+      "read_stats": {
+        "backend": "local",
+        "checksum_validation_bytes_excluded": true,
+        "payload_bytes_read": 120047,
+        "payload_read_calls": 9,
+        "row_groups": [
+          2
+        ]
+      }
+    }
+  ],
+  "previous_release_id": null,
+  "published_locally": true,
+  "recorded_at": "2026-09-07T18:47:26.343049+00:00",
+  "release_id": "e0acd882-5e53-5730-b5ca-2e68ce6e841d",
+  "status": "passed",
+  "verification_code_sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+}

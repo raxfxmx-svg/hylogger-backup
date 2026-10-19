@@ -1,0 +1,12 @@
+{
+  "finished_at": "2026-09-29T18:05:27.6031818+08:00",
+  "removed_directories": 89,
+  "remaining_targets": 0,
+  "missing_preserved_holes": [],
+  "source_directory_present": true,
+  "free_after": 94644600832,
+  "free_before": 45724725248,
+  "removed_file_bytes": 48863049685,
+  "free_increase_gib": 45.56,
+  "free_after_gib": 88.145
+}

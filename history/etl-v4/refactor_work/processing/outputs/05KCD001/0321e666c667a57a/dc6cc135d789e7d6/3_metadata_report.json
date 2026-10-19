@@ -1,0 +1,154 @@
+{
+  "counts": {
+    "interpretation_sets": 5,
+    "logs": 147,
+    "metric_definitions": 68,
+    "source_metadata_documents_preserved": 13,
+    "spectral_streams": 2
+  },
+  "hole_id": "05KCD001",
+  "issues": [
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Final Mask",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecSamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "RockMarks",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HyLogDiag",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Subpix",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustScore",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HoleID",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecDist (mm)",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Date",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustSample",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TraySamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustGroup",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Interactive Depth Logging",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Domain",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv1",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv2",
+      "severity": "info"
+    },
+    {
+      "code": "UNRESOLVED_SOURCE_REFERENCE",
+      "detail": "No name-based replacement was made.",
+      "evidence": "1735bdc3-8893-41c1-b914-1e8e11dff12",
+      "scope": "domain_id",
+      "severity": "warning"
+    },
+    {
+      "code": "COORDINATE_DECLARATIONS_DIFFER",
+      "detail": "Canonical collar uses owner-confirmed borehole.json x/y.",
+      "evidence": {
+        "borehole_xy": [
+          118.96961011,
+          -33.72358607
+        ],
+        "xml_lon_lat": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "dataset XML",
+      "severity": "warning"
+    }
+  ],
+  "normalized_metadata_sha256": "20b838ec26c1355066fec2edc4fe26acd53a8a02f005518cd6d193bad3b59e64",
+  "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+  "previous_step": 2,
+  "report_format": 2,
+  "source_snapshot_id": "0321e666c667a57a3d2c4be5d984e16f4a814c4b4e8625c6405d38776011d825",
+  "status": "passed_with_issues",
+  "step": 3
+}

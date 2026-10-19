@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local data and generated databases
+/data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.bip
+*.dat
+
+# Logs and local history
+*.log
+.Rhistory
+*-report.txt
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

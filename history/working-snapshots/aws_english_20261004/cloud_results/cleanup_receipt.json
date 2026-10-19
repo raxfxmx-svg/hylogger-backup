@@ -1,0 +1,16 @@
+{
+  "batch_id": "ac79c3d1825a46ce967237b230bf615e1a2425dc759f4f9a2ec947c5c8bb1fe9",
+  "bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+  "delete_bytes": 4496752837,
+  "delete_count": 4997,
+  "delete_groups": {
+    "batches": 44,
+    "control": 1,
+    "objects": 2142,
+    "releases": 2810
+  },
+  "release_id": "0b2990a6-55d7-5569-8ac4-2b5d9fb346ac",
+  "removed_count": 4997,
+  "retained_count": 10132,
+  "status": "complete"
+}

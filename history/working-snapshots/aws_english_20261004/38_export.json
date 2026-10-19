@@ -1,0 +1,24 @@
+{
+  "stage": "38_export",
+  "exit_code": 0,
+  "seconds": 27.219,
+  "command": [
+    "C:\\path\\to\\project\\etl4\\database\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\path\\to\\project\\etl4\\database\\38_export_batch.py",
+    "--raw-dir",
+    "C:\\path\\to\\project\\etl4",
+    "--work-dir",
+    "C:\\path\\to\\project\\etl4_english_delivery_20261004",
+    "--dbname",
+    "etl4_english_delivery_20261004",
+    "--db-config",
+    "C:\\path\\to\\project\\etl4\\refactor_work\\database\\runtime\\local_config.json",
+    "--acceptance",
+    "C:\\path\\to\\project\\etl4_english_delivery_20261004\\database\\reports\\local_acceptance_2.json",
+    "--output-dir",
+    "C:\\path\\to\\project\\etl4_english_delivery_20261004\\database\\exports"
+  ]
+}

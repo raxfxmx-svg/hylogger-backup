@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "database": {
+    "dbname": "etl4_core",
+    "database_oid": 16456,
+    "release_id": "0b2990a6-55d7-5569-8ac4-2b5d9fb346ac",
+    "holes": 12,
+    "datasets": 17,
+    "revisions": 17,
+    "samples": 732206,
+    "image_rows": 4738,
+    "spectral_arrays": 31,
+    "display_samples": 715759,
+    "tables": 39
+  },
+  "s3_objects": 10132,
+  "required_objects_retained": true,
+  "old_s3_objects_remaining": 0
+}

@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:21.559845+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "32_prepare_multi_dataset_payloads.py",
+  "code_sha256": "adaf190f10f55890c98b8a1979e4bf9ad40783319ab15cd1e22fa1d4f0694af7",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0009845000167842954,
+  "finished_at": "2026-09-28T05:19:21.562465+00:00"
+}

@@ -1,0 +1,178 @@
+{
+  "selection": {
+    "hole": "09DKRCD002",
+    "source": "D:\\100demo\\data\\raw\\09DKRCD002",
+    "work_dir": "C:\\path\\to\\project\\etl4\\validation_input_check_20260930",
+    "database": "etl4_validation_check_20260930",
+    "method": "SystemRandom.choice: select once with equal probability among complete single-dataset boreholes not yet copied to etl4",
+    "candidate_count": 87,
+    "source_file_count": 191,
+    "source_bytes": 350001298
+  },
+  "counts": {
+    "holes": 1,
+    "datasets": 1,
+    "revisions": 2,
+    "all_revision_samples": 87210,
+    "image_rows": 323,
+    "spectral_arrays": 2,
+    "database_bytes": 45911187
+  },
+  "active_release": "160b608d-2c9a-5e3c-a093-1e725782f367",
+  "published_axis": [
+    {
+      "sample_count": 43605,
+      "depth_min_m": 68.80343,
+      "depth_max_m": 359.79828
+    }
+  ],
+  "base_release": "e5ba9502-c672-5d59-a0e9-b5b7e20b7ab8",
+  "base_checks": [
+    {
+      "asset_bytes_hashed": 432807060,
+      "assets_hashed": 308,
+      "chunks_compared": 1157,
+      "dataset_revision_id": "b6217c09-14cf-5038-841b-058bdfb0455b",
+      "hole_id": "09DKRCD002",
+      "images_compared": 68,
+      "input_digest": "8e5ce8cd1130bd9b337a32eea8dfd0df3bcbaf2feab2af5e645112d081a3d8ff",
+      "logs_compared": 125,
+      "samples_compared": 43605,
+      "status": "passed"
+    }
+  ],
+  "media_checks": [
+    {
+      "assets_checked": 657,
+      "dataset_revision_id": "3cc5cee0-b2d0-5f66-a166-0336dd47d3b6",
+      "hole_id": "09DKRCD002",
+      "input_digest": "dd445632d896f300cda146f4ffd99de03b2e6586aeb163971aa6523b0d995399",
+      "official_reference_spectra_compared": 20,
+      "row_count": 323,
+      "sample_count": 43605,
+      "sample_read_ms": [
+        25.30139998998493,
+        11.62770000519231,
+        11.272799980361015,
+        9.854400006588548,
+        16.68280002195388,
+        15.93480003066361
+      ],
+      "status": "passed"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "UNRESOLVED_SOURCE_REFERENCE",
+      "detail": "No name-based replacement was made.",
+      "evidence": "a381a666-efaf-4580-ae35-3fa0cb5b71c",
+      "scope": "domain_id",
+      "severity": "warning"
+    },
+    {
+      "code": "COORDINATE_DECLARATIONS_DIFFER",
+      "detail": "Canonical collar uses owner-confirmed borehole.json x/y.",
+      "evidence": {
+        "borehole_xy": [
+          118.56937469,
+          -27.10606189
+        ],
+        "xml_lon_lat": [
+          118.569366,
+          -27.106075
+        ]
+      },
+      "scope": "dataset XML",
+      "severity": "warning"
+    }
+  ],
+  "duplicate_depth_samples_preserved": 6539,
+  "spectral_shapes": [
+    [
+      43605,
+      531
+    ],
+    [
+      43605,
+      341
+    ]
+  ],
+  "raw_bytes": 350001298,
+  "work_bytes": 114316020,
+  "composite_checks": {
+    "status": "passed",
+    "database": "etl4_validation_check_20260930",
+    "checks": [
+      "Complete composition passed",
+      "Missing interval rejected",
+      "Missing composition rejected without creating a replacement"
+    ],
+    "forced_rollback": true
+  },
+  "replay": {
+    "business_tables_equal": 35,
+    "new_business_rows": 0,
+    "new_versions": 0,
+    "new_releases": 0
+  },
+  "existing_database_summaries_unchanged": {
+    "etl4_refactor_check": {
+      "active_release": {
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2"
+      },
+      "holes": [
+        {
+          "source_hole_id": "05KCD001"
+        },
+        {
+          "source_hole_id": "07THD002"
+        },
+        {
+          "source_hole_id": "07THD003"
+        },
+        {
+          "source_hole_id": "09ATD015"
+        },
+        {
+          "source_hole_id": "09ATD019"
+        },
+        {
+          "source_hole_id": "09ATRCD025"
+        },
+        {
+          "source_hole_id": "09THD028"
+        },
+        {
+          "source_hole_id": "12BRDDH003"
+        },
+        {
+          "source_hole_id": "12CADD001"
+        },
+        {
+          "source_hole_id": "14KDD001"
+        },
+        {
+          "source_hole_id": "15EIS001"
+        }
+      ],
+      "revisions": 32
+    },
+    "etl4_new_input_check": {
+      "active_release": {
+        "release_id": "e1083bca-f551-59d6-967a-2853c0e8cfa1"
+      },
+      "holes": [
+        {
+          "source_hole_id": "09ATRCD025"
+        },
+        {
+          "source_hole_id": "09THD028"
+        },
+        {
+          "source_hole_id": "12BRDDH003"
+        }
+      ],
+      "revisions": 6
+    }
+  }
+}

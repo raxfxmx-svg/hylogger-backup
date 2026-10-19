@@ -1,0 +1,132 @@
+[
+  {
+    "file": "20_audit_spectral_sources.py",
+    "docstrings_and_comments": 2,
+    "runtime_translations": 3
+  },
+  {
+    "file": "21_verify_spectral_bindings.py",
+    "docstrings_and_comments": 2,
+    "runtime_translations": 0
+  },
+  {
+    "file": "22_prepare_spectral_access.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 0
+  },
+  {
+    "file": "23_audit_dataset_image_groups.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 0
+  },
+  {
+    "file": "24_detect_image_rows.py",
+    "docstrings_and_comments": 2,
+    "runtime_translations": 0
+  },
+  {
+    "file": "25_review_image_row_regions.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 1
+  },
+  {
+    "file": "26_bind_image_rows_to_samples.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 0
+  },
+  {
+    "file": "27_build_image_row_assets.py",
+    "docstrings_and_comments": 3,
+    "runtime_translations": 0
+  },
+  {
+    "file": "28_import_media_revision.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 6
+  },
+  {
+    "file": "31_audit_multi_dataset_sources.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 4
+  },
+  {
+    "file": "32_prepare_multi_dataset_payloads.py",
+    "docstrings_and_comments": 3,
+    "runtime_translations": 1
+  },
+  {
+    "file": "33_prepare_multi_dataset_media.py",
+    "docstrings_and_comments": 4,
+    "runtime_translations": 0
+  },
+  {
+    "file": "37_import_final_version.py",
+    "docstrings_and_comments": 7,
+    "runtime_translations": 7
+  },
+  {
+    "file": "7_preflight_database.py",
+    "docstrings_and_comments": 4,
+    "runtime_translations": 3
+  },
+  {
+    "file": "8_apply_schema.py",
+    "docstrings_and_comments": 2,
+    "runtime_translations": 0
+  },
+  {
+    "file": "_final_import.py",
+    "docstrings_and_comments": 5,
+    "runtime_translations": 6
+  },
+  {
+    "file": "_media_common.py",
+    "docstrings_and_comments": 4,
+    "runtime_translations": 0
+  },
+  {
+    "file": "_media_import.py",
+    "docstrings_and_comments": 13,
+    "runtime_translations": 9
+  },
+  {
+    "file": "_media_manifest.py",
+    "docstrings_and_comments": 4,
+    "runtime_translations": 0
+  },
+  {
+    "file": "_media_reader.py",
+    "docstrings_and_comments": 5,
+    "runtime_translations": 1
+  },
+  {
+    "file": "_media_rows.py",
+    "docstrings_and_comments": 3,
+    "runtime_translations": 0
+  },
+  {
+    "file": "_media_verification.py",
+    "docstrings_and_comments": 7,
+    "runtime_translations": 1
+  },
+  {
+    "file": "_multi_common.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 1
+  },
+  {
+    "file": "_multi_db.py",
+    "docstrings_and_comments": 3,
+    "runtime_translations": 0
+  },
+  {
+    "file": "_prepared_inputs.py",
+    "docstrings_and_comments": 3,
+    "runtime_translations": 0
+  },
+  {
+    "file": "_verification.py",
+    "docstrings_and_comments": 1,
+    "runtime_translations": 0
+  }
+]

@@ -1,0 +1,495 @@
+{
+  "holes": [
+    {
+      "hole": "05KCD001",
+      "copied": 0,
+      "reused": 175
+    },
+    {
+      "hole": "07THD002",
+      "copied": 0,
+      "reused": 202
+    },
+    {
+      "hole": "07THD003",
+      "copied": 0,
+      "reused": 161
+    },
+    {
+      "hole": "09ATD015",
+      "copied": 0,
+      "reused": 167
+    },
+    {
+      "hole": "09ATD019",
+      "copied": 0,
+      "reused": 129
+    },
+    {
+      "hole": "09ATRCD025",
+      "copied": 0,
+      "reused": 133
+    },
+    {
+      "hole": "09DKRCD001A",
+      "copied": 211,
+      "reused": 0
+    },
+    {
+      "hole": "09DKRCD002",
+      "copied": 191,
+      "reused": 0
+    },
+    {
+      "hole": "09FKRCD001",
+      "copied": 188,
+      "reused": 0
+    },
+    {
+      "hole": "09HBRCD001",
+      "copied": 227,
+      "reused": 0
+    },
+    {
+      "hole": "09RTD001",
+      "copied": 149,
+      "reused": 0
+    },
+    {
+      "hole": "09THD028",
+      "copied": 208,
+      "reused": 0
+    },
+    {
+      "hole": "09THD029",
+      "copied": 214,
+      "reused": 0
+    },
+    {
+      "hole": "09THD030",
+      "copied": 182,
+      "reused": 0
+    },
+    {
+      "hole": "09THD031",
+      "copied": 197,
+      "reused": 0
+    },
+    {
+      "hole": "09THD032",
+      "copied": 227,
+      "reused": 0
+    },
+    {
+      "hole": "09THD033",
+      "copied": 258,
+      "reused": 0
+    },
+    {
+      "hole": "10CHD006",
+      "copied": 183,
+      "reused": 0
+    },
+    {
+      "hole": "10CHRCD005",
+      "copied": 165,
+      "reused": 0
+    },
+    {
+      "hole": "10KRD04",
+      "copied": 184,
+      "reused": 0
+    },
+    {
+      "hole": "10KRD06",
+      "copied": 196,
+      "reused": 0
+    },
+    {
+      "hole": "10LAD009",
+      "copied": 195,
+      "reused": 0
+    },
+    {
+      "hole": "10TJD001",
+      "copied": 189,
+      "reused": 0
+    },
+    {
+      "hole": "11SAVD003",
+      "copied": 305,
+      "reused": 0
+    },
+    {
+      "hole": "12AMD0015",
+      "copied": 253,
+      "reused": 0
+    },
+    {
+      "hole": "12BRDDH001",
+      "copied": 149,
+      "reused": 0
+    },
+    {
+      "hole": "12BRDDH002",
+      "copied": 159,
+      "reused": 0
+    },
+    {
+      "hole": "12BRDDH003",
+      "copied": 0,
+      "reused": 145
+    },
+    {
+      "hole": "12BRDDH004",
+      "copied": 159,
+      "reused": 0
+    },
+    {
+      "hole": "12CADD002",
+      "copied": 200,
+      "reused": 0
+    },
+    {
+      "hole": "12DHDD0001",
+      "copied": 232,
+      "reused": 0
+    },
+    {
+      "hole": "12DHDD0002",
+      "copied": 238,
+      "reused": 0
+    },
+    {
+      "hole": "12GMSD001",
+      "copied": 383,
+      "reused": 0
+    },
+    {
+      "hole": "13AHDD005",
+      "copied": 167,
+      "reused": 0
+    },
+    {
+      "hole": "13CGDD001",
+      "copied": 205,
+      "reused": 0
+    },
+    {
+      "hole": "13TRDD012",
+      "copied": 320,
+      "reused": 0
+    },
+    {
+      "hole": "13TRDD013",
+      "copied": 203,
+      "reused": 0
+    },
+    {
+      "hole": "13TRDD014",
+      "copied": 304,
+      "reused": 0
+    },
+    {
+      "hole": "14AMD0043",
+      "copied": 195,
+      "reused": 0
+    },
+    {
+      "hole": "14CADD001",
+      "copied": 217,
+      "reused": 0
+    },
+    {
+      "hole": "14CADD002",
+      "copied": 202,
+      "reused": 0
+    },
+    {
+      "hole": "14CADD003",
+      "copied": 145,
+      "reused": 0
+    },
+    {
+      "hole": "15BRDD001",
+      "copied": 245,
+      "reused": 0
+    },
+    {
+      "hole": "15BRDD002",
+      "copied": 210,
+      "reused": 0
+    },
+    {
+      "hole": "15BRDD003",
+      "copied": 238,
+      "reused": 0
+    },
+    {
+      "hole": "15RCDVZ001",
+      "copied": 301,
+      "reused": 0
+    },
+    {
+      "hole": "15SYDD0003B",
+      "copied": 251,
+      "reused": 0
+    },
+    {
+      "hole": "15SYDD0004",
+      "copied": 306,
+      "reused": 0
+    },
+    {
+      "hole": "16CADD001",
+      "copied": 358,
+      "reused": 0
+    },
+    {
+      "hole": "16CADD002",
+      "copied": 397,
+      "reused": 0
+    },
+    {
+      "hole": "16MYD0047",
+      "copied": 310,
+      "reused": 0
+    },
+    {
+      "hole": "16MYD0052",
+      "copied": 274,
+      "reused": 0
+    },
+    {
+      "hole": "16MYD0058",
+      "copied": 259,
+      "reused": 0
+    },
+    {
+      "hole": "16SHDD10",
+      "copied": 274,
+      "reused": 0
+    },
+    {
+      "hole": "17BBDD002",
+      "copied": 262,
+      "reused": 0
+    },
+    {
+      "hole": "17BBDD004",
+      "copied": 249,
+      "reused": 0
+    },
+    {
+      "hole": "17DD003",
+      "copied": 288,
+      "reused": 0
+    },
+    {
+      "hole": "17DHDD0016",
+      "copied": 278,
+      "reused": 0
+    },
+    {
+      "hole": "17DTDD0001",
+      "copied": 189,
+      "reused": 0
+    },
+    {
+      "hole": "17FCHRCD001",
+      "copied": 246,
+      "reused": 0
+    },
+    {
+      "hole": "17FCHRCD002",
+      "copied": 296,
+      "reused": 0
+    },
+    {
+      "hole": "17MNDD0001",
+      "copied": 187,
+      "reused": 0
+    },
+    {
+      "hole": "17MVDD001",
+      "copied": 168,
+      "reused": 0
+    },
+    {
+      "hole": "17MVDD002",
+      "copied": 145,
+      "reused": 0
+    },
+    {
+      "hole": "17MVDD003",
+      "copied": 166,
+      "reused": 0
+    },
+    {
+      "hole": "17MVDD004",
+      "copied": 184,
+      "reused": 0
+    },
+    {
+      "hole": "17MVRCD008",
+      "copied": 143,
+      "reused": 0
+    },
+    {
+      "hole": "17MVRCD018",
+      "copied": 141,
+      "reused": 0
+    },
+    {
+      "hole": "17NNMD001",
+      "copied": 318,
+      "reused": 0
+    },
+    {
+      "hole": "17SRDD0004",
+      "copied": 231,
+      "reused": 0
+    },
+    {
+      "hole": "17SRDD0010",
+      "copied": 176,
+      "reused": 0
+    },
+    {
+      "hole": "17SRDD0011",
+      "copied": 177,
+      "reused": 0
+    },
+    {
+      "hole": "18ABAD01",
+      "copied": 571,
+      "reused": 0
+    },
+    {
+      "hole": "18ABAD02",
+      "copied": 402,
+      "reused": 0
+    },
+    {
+      "hole": "18AFRD002",
+      "copied": 301,
+      "reused": 0
+    },
+    {
+      "hole": "18EISD001",
+      "copied": 414,
+      "reused": 0
+    },
+    {
+      "hole": "18EMRCD001",
+      "copied": 246,
+      "reused": 0
+    },
+    {
+      "hole": "18GSCRCD0001",
+      "copied": 150,
+      "reused": 0
+    },
+    {
+      "hole": "18GSCRCD0002",
+      "copied": 154,
+      "reused": 0
+    },
+    {
+      "hole": "18GSLARCD0003",
+      "copied": 106,
+      "reused": 0
+    },
+    {
+      "hole": "18JBDD001",
+      "copied": 277,
+      "reused": 0
+    },
+    {
+      "hole": "18JBDD002",
+      "copied": 300,
+      "reused": 0
+    },
+    {
+      "hole": "18KLDD007",
+      "copied": 230,
+      "reused": 0
+    },
+    {
+      "hole": "18KLDD008",
+      "copied": 214,
+      "reused": 0
+    },
+    {
+      "hole": "18KLDD010",
+      "copied": 194,
+      "reused": 0
+    },
+    {
+      "hole": "18LCDD0001",
+      "copied": 374,
+      "reused": 0
+    },
+    {
+      "hole": "18MBDD001",
+      "copied": 177,
+      "reused": 0
+    },
+    {
+      "hole": "18MMDD0434",
+      "copied": 753,
+      "reused": 0
+    },
+    {
+      "hole": "18QMDD001",
+      "copied": 204,
+      "reused": 0
+    },
+    {
+      "hole": "18QMDD002",
+      "copied": 239,
+      "reused": 0
+    },
+    {
+      "hole": "18SFDD001",
+      "copied": 172,
+      "reused": 0
+    },
+    {
+      "hole": "19AFDD1009",
+      "copied": 184,
+      "reused": 0
+    },
+    {
+      "hole": "19EISD002",
+      "copied": 208,
+      "reused": 0
+    },
+    {
+      "hole": "19EISD003",
+      "copied": 208,
+      "reused": 0
+    },
+    {
+      "hole": "19EISD004",
+      "copied": 218,
+      "reused": 0
+    },
+    {
+      "hole": "12CADD001",
+      "copied": 0,
+      "reused": 435
+    },
+    {
+      "hole": "14KDD001",
+      "copied": 0,
+      "reused": 265
+    },
+    {
+      "hole": "15EIS001",
+      "copied": 0,
+      "reused": 1039
+    }
+  ],
+  "elapsed_seconds": 409.9941812999896
+}

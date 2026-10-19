@@ -1,0 +1,30 @@
+{
+  "counts": {
+    "asset": 14307,
+    "borehole": 8,
+    "data_release": 3,
+    "dataset": 13,
+    "dataset_revision": 26,
+    "release_dataset": 23,
+    "sample_axis": 26,
+    "scan_sample": 1309556
+  },
+  "purpose": "Reran the final source through the normal entry point; changes to explicit rule records inside the package do not create a new data version.",
+  "recorded_at": "2026-09-28T11:26:04.258314+00:00",
+  "runs": [
+    {
+      "elapsed_seconds": 8.72510969999712,
+      "script": "28_import_media_revision.py"
+    },
+    {
+      "elapsed_seconds": 54.087074400042184,
+      "script": "34_import_multi_dataset_database.py"
+    },
+    {
+      "elapsed_seconds": 70.29250630002934,
+      "script": "35_verify_multi_dataset_database.py"
+    }
+  ],
+  "same_business_counts": true,
+  "status": "passed"
+}

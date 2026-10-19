@@ -1,0 +1,120 @@
+{
+  "hashes": {
+    "asset": "3ea3721c78167b88f6c1ea9757d07d87e8866a423b3c539cfd1d36671b142f4b",
+    "asset_location": "f0a62ae1020e7ffa7ac13a0ba475241f2e5f291ed08e95caf76fb6cd2a8b004e",
+    "borehole": "4cfa910ec200a6ce2a9ecc56d640f712398823bae288525fa707ae2a5a5a5d5c",
+    "borehole_branch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "borehole_revision": "04f99f17fdcf9ea596890b88b2d7b07794bc9b3da3837ec9d4b9c8260dbfaa39",
+    "core_interval": "e586280a0fb26a47fb74f93c13ac456275ce3f94cd90b025bbe2971b2eb7a234",
+    "data_chunk": "8efa75052c07e3ffeef1ede1c4357e0ab3af62f3d1dc7747a64e065293409f5d",
+    "data_release": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dataset": "3caa9b18617b1741648060a3bf77632a3f9e3f684b95b9ca8c716d82257716e8",
+    "dataset_revision": "db93cf0e1eec37089a702af09e25f1e9eace048120e27ecdd38dfe1bde17eb72",
+    "dataset_segment": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_frame": "e47581d02c614988e62f67a17d79b952c006944377ab4a5f837574aaecd2261f",
+    "interpretation_input": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "interpretation_set": "89b022d9311db73be052a58257a66a755f0c699d963ea3a03e8d1f7b7c2d3dee",
+    "log_asset": "9be734af0ccfb8f5ba41622248383738d90191ea8d8e61a8f1348385b1309c37",
+    "log_axis_binding": "95ab7d4001f7c881a71cbb364900fbb343a3744339b5557d60b03a6e0090b4b4",
+    "metric_definition": "98201536608cebb3d736be79be44555f5ad1938098e07ecf4e30b069623c4ec1",
+    "quality_issue": "dd7c52ecc16de937b9acd20412da1b644229ddbb4fa56afed4fa5be8d7053e65",
+    "release_dataset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sample_axis": "06285e17b2bd527990eec424160cebb68616d778d6c0be693d2b066aaa8d761f",
+    "scan_log": "d562186a0090ffba842f364e9eaef09ffd32b6781d140db3ea8222be7d7af68e",
+    "scan_sample": "7169bba63e286d4f114766ecfb8b7bc846d1181c603dd4e810a9f1794feeb29b",
+    "source_document": "da015bb9cdb441e15e33270fc335740877e5f5d23b8c5b111b94424036510ea7",
+    "source_reference": "52185fda4f99bbca20fc399e302ada8d713a450123ca493897df8ca2ccbc1edc",
+    "spectral_stream": "8d0fac68aa6018fb0a44e8a50537f0b440ba33113c5dd560d21457cc67d3ad9e",
+    "survey_station": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "import_seconds": 12.836883299984038,
+  "imported_holes": [
+    {
+      "action": "inserted",
+      "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+      "hole_id": "05KCD001",
+      "sample_count": 22356
+    },
+    {
+      "action": "inserted",
+      "dataset_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+      "hole_id": "07THD002",
+      "sample_count": 116424
+    },
+    {
+      "action": "inserted",
+      "dataset_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+      "hole_id": "07THD003",
+      "sample_count": 54432
+    },
+    {
+      "action": "inserted",
+      "dataset_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+      "hole_id": "09ATD015",
+      "sample_count": 46030
+    },
+    {
+      "action": "inserted",
+      "dataset_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+      "hole_id": "09ATD019",
+      "sample_count": 22650
+    }
+  ],
+  "recorded_at": "2026-09-08T02:44:14.853006+00:00",
+  "repeat_actions": [
+    {
+      "action": "already_present",
+      "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+      "hole_id": "05KCD001"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+      "hole_id": "07THD002"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+      "hole_id": "07THD003"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+      "hole_id": "09ATD015"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+      "hole_id": "09ATD019"
+    }
+  ],
+  "schema_sha256": "0e4477e35e73f70e72118d832d357fe0cba64caefae028a93c796a859c391f82",
+  "scientific_tables_compared": [
+    "asset",
+    "asset_location",
+    "borehole",
+    "borehole_branch",
+    "borehole_revision",
+    "core_interval",
+    "data_chunk",
+    "dataset",
+    "dataset_revision",
+    "dataset_segment",
+    "image_frame",
+    "interpretation_input",
+    "interpretation_set",
+    "log_asset",
+    "log_axis_binding",
+    "metric_definition",
+    "quality_issue",
+    "sample_axis",
+    "scan_log",
+    "scan_sample",
+    "source_document",
+    "source_reference",
+    "spectral_stream",
+    "survey_station"
+  ],
+  "scope": "isolated database import; no API; no publications; no source changes",
+  "status": "passed"
+}

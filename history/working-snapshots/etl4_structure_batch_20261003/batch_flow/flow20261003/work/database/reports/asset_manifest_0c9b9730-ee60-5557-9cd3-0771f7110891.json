@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "asset_kind": "fixture",
+      "byte_size": 26,
+      "dataset_revision_id": "46de0178-b65d-5ad0-ba4e-bc1ad35e6f9d",
+      "id": "9cfded56-05c2-52b6-86ad-f72bcee0bfec",
+      "logical_path": "1.bin",
+      "media_type": "application/octet-stream",
+      "provenance": {
+        "fixture": true
+      },
+      "representation": "raw",
+      "semantic_status": "fixture_only",
+      "sha256": "effb7c637037cf41d066fb388cf717e3071fc04903fff878b532a330380d65fb"
+    }
+  ],
+  "release_id": "0c9b9730-ee60-5557-9cd3-0771f7110891"
+}

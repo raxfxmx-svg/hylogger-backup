@@ -1,0 +1,13 @@
+{
+  "elapsed_seconds": 0.170172999962233,
+  "holes": [
+    {
+      "action": "already_present",
+      "dataset_revision_id": "4c4c5aab-9400-588b-b21f-c6443f5fab9d",
+      "hole_id": "14CADD003"
+    }
+  ],
+  "recorded_at": "2026-09-29T23:48:06.053197+00:00",
+  "run_id": "1d237152-162c-49c8-92dc-42a542315e1f",
+  "status": "staged"
+}

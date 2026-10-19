@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T04:02:33.375414+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "23_audit_dataset_image_groups.py",
+  "code_sha256": "ac8c1c36c36d92e914a6536955f59b424e73e7f1bc100883b3a8d5830b4c3392",
+  "sha256_file_scans": 53,
+  "sha256_bytes_read": 913508,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.14898170001106337,
+  "finished_at": "2026-09-29T04:02:33.528975+00:00"
+}

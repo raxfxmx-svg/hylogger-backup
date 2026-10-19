@@ -1,0 +1,224 @@
+{
+  "rounding": "Python format g default 6 significant digits",
+  "bins": 188,
+  "mismatching_bins": [],
+  "shifted_samples": [
+    {
+      "sample_no": 12329,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12330,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12331,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12332,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12333,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12334,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12335,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12336,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12337,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12338,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12339,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12340,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12341,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12342,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12343,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12344,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12345,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12346,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12347,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12348,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12349,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12350,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12351,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 12352,
+      "raw_depth_m": 106.99963,
+      "csv_depth_g_format": 107.0,
+      "raw_bin": 106,
+      "formatted_bin": 107
+    },
+    {
+      "sample_no": 14133,
+      "raw_depth_m": 113.99985,
+      "csv_depth_g_format": 114.0,
+      "raw_bin": 113,
+      "formatted_bin": 114
+    },
+    {
+      "sample_no": 16577,
+      "raw_depth_m": 121.9997,
+      "csv_depth_g_format": 122.0,
+      "raw_bin": 121,
+      "formatted_bin": 122
+    },
+    {
+      "sample_no": 30623,
+      "raw_depth_m": 171.99973,
+      "csv_depth_g_format": 172.0,
+      "raw_bin": 171,
+      "formatted_bin": 172
+    },
+    {
+      "sample_no": 39500,
+      "raw_depth_m": 203.9998,
+      "csv_depth_g_format": 204.0,
+      "raw_bin": 203,
+      "formatted_bin": 204
+    },
+    {
+      "sample_no": 42514,
+      "raw_depth_m": 213.99966,
+      "csv_depth_g_format": 214.0,
+      "raw_bin": 213,
+      "formatted_bin": 214
+    },
+    {
+      "sample_no": 44879,
+      "raw_depth_m": 221.99997,
+      "csv_depth_g_format": 222.0,
+      "raw_bin": 221,
+      "formatted_bin": 222
+    },
+    {
+      "sample_no": 46842,
+      "raw_depth_m": 228.99962,
+      "csv_depth_g_format": 229.0,
+      "raw_bin": 228,
+      "formatted_bin": 229
+    }
+  ]
+}

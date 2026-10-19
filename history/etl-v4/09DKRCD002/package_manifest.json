@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "hole_id": "09DKRCD002",
+  "provider": "wa",
+  "status": "complete_with_warnings",
+  "started_at": "2026-08-26T17:26:41+00:00",
+  "finished_at": "2026-08-26T17:33:10+00:00",
+  "content_fingerprint": "53f9e178f844924cfb991290b133dda69a07b7ea2e3bebbfbe399180c7276736",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T04:08:06.632205+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "25_review_image_row_regions.py",
+  "code_sha256": "e988f27841a60652a220f3066355e968fc0bfa894a858ed55ce41349577192a8",
+  "sha256_file_scans": 1,
+  "sha256_bytes_read": 846675,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.18032909999601543,
+  "finished_at": "2026-09-29T04:08:06.810232+00:00"
+}

@@ -1,0 +1,278 @@
+{
+  "logs": [
+    {
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "5e8803a9-b20e-4bee-b66a-5369be14d00",
+      "log_name": "Mosaic",
+      "sample_count": 0,
+      "downloaded": 1,
+      "status": "complete"
+    },
+    {
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "sample_count": 19,
+      "downloaded": 19,
+      "status": "complete"
+    },
+    {
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "8a1f8376-3975-46a4-a5c2-5e0c78b468c",
+      "log_name": "Tray Images",
+      "sample_count": 19,
+      "downloaded": 0,
+      "status": "metadata_only"
+    },
+    {
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "e356e94c-e491-4f8e-952a-ecf390a39bc",
+      "log_name": "Imagery",
+      "sample_count": 10184,
+      "downloaded": 0,
+      "status": "metadata_only"
+    }
+  ],
+  "files": [
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_0.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "0",
+      "depth_from": 20.5,
+      "depth_to": 24.48141,
+      "nbytes": 17696,
+      "sha256": "384ded44031d69768c24dea868f51447b01309453531530a208c10718a42855d"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_1.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "1",
+      "depth_from": 24.50353,
+      "depth_to": 28.28234,
+      "nbytes": 18578,
+      "sha256": "4c99249119e1b6ba69851738d1863465384add8fc2cf6e091b141758cab00761"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_2.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "2",
+      "depth_from": 28.30353,
+      "depth_to": 32.08234,
+      "nbytes": 18300,
+      "sha256": "ebfba8661fd4c689d35cc867e9ccae11c0f371e18f369e1956896e948948964c"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_3.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "3",
+      "depth_from": 32.10771,
+      "depth_to": 40.36143,
+      "nbytes": 18611,
+      "sha256": "1fb52a77f0b9a84b93e2cfff8e17d9f89f6172e6f928a0a67e295da919c9b35e"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_4.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "4",
+      "depth_from": 40.40363,
+      "depth_to": 44.28188,
+      "nbytes": 18629,
+      "sha256": "67354cf99c881f455090a924f37a5657f04c7d7bc012f1a1852d8c7ecaf9a3ff"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_5.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "5",
+      "depth_from": 44.30585,
+      "depth_to": 50.57072,
+      "nbytes": 18544,
+      "sha256": "4f1ffb5083c14d4b6e33afd813b96a3176e67ef7981f5635f77f82ca9ccad0ac"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_6.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "6",
+      "depth_from": 50.60344,
+      "depth_to": 54.28281,
+      "nbytes": 19184,
+      "sha256": "ac5c1a1fb75bba76ae2bc66ab0ddcb126253aec59d73214f2b84af6df635d267"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_7.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "7",
+      "depth_from": 54.30344,
+      "depth_to": 57.98281,
+      "nbytes": 18611,
+      "sha256": "74950e0728f8349b14604691b17ef9c02c20f9c4185fadd92589ea760b18bee5"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_8.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "8",
+      "depth_from": 58.00465,
+      "depth_to": 62.97676,
+      "nbytes": 18631,
+      "sha256": "30383d642d065103bc82cc2dc0691d586d05d5e2e73f339f77dc35148be522c2"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_9.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "9",
+      "depth_from": 63.00325,
+      "depth_to": 66.48373,
+      "nbytes": 17453,
+      "sha256": "7320ea23f0ec85168e1e09b7898a6d917db1dc75cd0153608da603c15a53a6c9"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_10.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "10",
+      "depth_from": 66.50353,
+      "depth_to": 70.28235,
+      "nbytes": 17858,
+      "sha256": "34ede9d56dc9a4d8d006b546fc8642e6f73c143e2c2021a32d124b13b8dc4c4c"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_11.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "11",
+      "depth_from": 70.30344,
+      "depth_to": 73.9828,
+      "nbytes": 16547,
+      "sha256": "6806cb95ee3bf9d89a971a2c4acda733b917cedd5b282036927be79ded4b0d9a"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_12.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "12",
+      "depth_from": 74.00335,
+      "depth_to": 77.58327,
+      "nbytes": 15807,
+      "sha256": "2aa405d1b7cb33dcd4cde85c74cf942a0edfff3e399cbace0f462f3f977514e3"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_13.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "13",
+      "depth_from": 77.60339,
+      "depth_to": 81.23304,
+      "nbytes": 17096,
+      "sha256": "62578c402276300a7fb9a5333b6b6e029e4430d1ab21d64aec862d5857bcfef9"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_14.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "14",
+      "depth_from": 81.2533,
+      "depth_to": 84.78351,
+      "nbytes": 16752,
+      "sha256": "16cacffe673c988ec3892c78c1ae2b783093b57b22df192fd07b5def2dfd7c78"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_15.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "15",
+      "depth_from": 84.80344,
+      "depth_to": 88.4828,
+      "nbytes": 15378,
+      "sha256": "7940b9dbb6fb0b086eefbc938c548a37057c3416177a8d698ee9c9225b4fa50d"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_16.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "16",
+      "depth_from": 88.50335,
+      "depth_to": 92.08327,
+      "nbytes": 15605,
+      "sha256": "687c9adc9fcb6b07ebaaeffe5b86b252b5b92841a5855d82d583724470528b0c"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_17.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "17",
+      "depth_from": 92.10349,
+      "depth_to": 95.83257,
+      "nbytes": 14418,
+      "sha256": "20b718e3e5800e8041ccf6fde7848c7f75a5c65a46b6f36d80aa80ac32fa7475"
+    },
+    {
+      "file": "images/tray_617e58c6-e421-416c-b687-40c0f54bcc1_18.jpg",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "18",
+      "depth_from": 95.85339,
+      "depth_to": 99.48304,
+      "nbytes": 15538,
+      "sha256": "979da965f3908bd42571751d6cbf797b5abe42371af4fc34886bd86ed201bd95"
+    },
+    {
+      "file": "mosaics/5e8803a9-b20e-4bee-b66a-5369be14d00_Mosaic.html",
+      "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "log_id": "5e8803a9-b20e-4bee-b66a-5369be14d00",
+      "log_name": "Mosaic",
+      "kind": "mosaic",
+      "sample_no": null,
+      "depth_from": null,
+      "depth_to": null,
+      "nbytes": 2233,
+      "sha256": "0a1da7d0d3acd6cca5afd738b1abff23d2cf7950a7f42164b901232ec0f02f1a"
+    }
+  ]
+}

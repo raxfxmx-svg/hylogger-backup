@@ -1,0 +1,8 @@
+{
+  "backup_relative_path": "backups/etl4_db_review_e1083bca-f551-59d6-967a-2853c0e8cfa1_20260929T041100Z.dump",
+  "backup_sha256": "58bd61512a23fbe01a4737d3e29afad9c5a4f1a163cb8bfe7ca41c626ef11fa1",
+  "recorded_at": "2026-09-29T04:11:03.175564+00:00",
+  "release_id": "e1083bca-f551-59d6-967a-2853c0e8cfa1",
+  "report": "14_database_only_restore.json",
+  "schema_sha256": "c54652c8be1cf82d7f90f1bcca7ac196661c9d444311f5c3ed51a24f3c78ad66"
+}

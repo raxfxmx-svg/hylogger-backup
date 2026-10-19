@@ -1,0 +1,17 @@
+{
+  "active_release": "c8522bfa-7c4b-5886-a7b3-b002eea84f4d",
+  "canonical_manifest": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\reports\\deployment_asset_manifest.json",
+  "counts": {
+    "datasets": 17,
+    "display_samples": 715759,
+    "holes": 12,
+    "image_rows": 4738,
+    "revisions": 34,
+    "samples": 732206,
+    "spectral_arrays": 31
+  },
+  "database": "etl4_refactor_check",
+  "media_revisions": 17,
+  "member_count": 17,
+  "status": "passed"
+}

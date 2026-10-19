@@ -1,0 +1,8 @@
+{
+  "database": "etl4_refactor_check",
+  "active_release": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "datasets": 13,
+  "samples": 654778,
+  "core_tables": 39,
+  "remaining_trial_databases": []
+}

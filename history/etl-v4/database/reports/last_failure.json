@@ -1,0 +1,7 @@
+{
+  "detail": "canceling statement due to statement timeout",
+  "error_type": "QueryCanceled",
+  "recorded_at": "2026-09-24T07:50:00.675760+00:00",
+  "script": "35_verify_multi_dataset_database.py",
+  "status": "failed"
+}

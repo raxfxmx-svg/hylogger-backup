@@ -1,0 +1,174 @@
+{
+  "49d29f5e-a4d3-4a98-8a59-3d18f68b6a2": [
+    {
+      "sample_no": "0",
+      "start_value": "79.00324",
+      "end_value": "82.50336"
+    },
+    {
+      "sample_no": "1",
+      "start_value": "82.50336",
+      "end_value": "87.00343"
+    },
+    {
+      "sample_no": "2",
+      "start_value": "87.00343",
+      "end_value": "91.60351"
+    },
+    {
+      "sample_no": "3",
+      "start_value": "91.60351",
+      "end_value": "96.30336"
+    },
+    {
+      "sample_no": "4",
+      "start_value": "96.30336",
+      "end_value": "100.80344"
+    },
+    {
+      "sample_no": "5",
+      "start_value": "100.80344",
+      "end_value": "105.40343"
+    },
+    {
+      "sample_no": "6",
+      "start_value": "105.40343",
+      "end_value": "110.00343"
+    },
+    {
+      "sample_no": "7",
+      "start_value": "110.00343",
+      "end_value": "114.60351"
+    },
+    {
+      "sample_no": "8",
+      "start_value": "114.60351",
+      "end_value": "119.30358"
+    },
+    {
+      "sample_no": "9",
+      "start_value": "119.30358",
+      "end_value": "124.10336"
+    },
+    {
+      "sample_no": "10",
+      "start_value": "124.10336",
+      "end_value": "128.60321"
+    },
+    {
+      "sample_no": "11",
+      "start_value": "128.60321",
+      "end_value": "132.90343"
+    },
+    {
+      "sample_no": "12",
+      "start_value": "132.90343",
+      "end_value": "137.5038"
+    },
+    {
+      "sample_no": "13",
+      "start_value": "137.5038",
+      "end_value": "142.6038"
+    },
+    {
+      "sample_no": "14",
+      "start_value": "142.6038",
+      "end_value": "146.6"
+    },
+    {
+      "sample_no": "15",
+      "start_value": "146.6",
+      "end_value": "151.30336"
+    },
+    {
+      "sample_no": "16",
+      "start_value": "151.30336",
+      "end_value": "155.80359"
+    },
+    {
+      "sample_no": "17",
+      "start_value": "155.80359",
+      "end_value": "160.60329"
+    },
+    {
+      "sample_no": "18",
+      "start_value": "160.60329",
+      "end_value": "165.00366"
+    },
+    {
+      "sample_no": "19",
+      "start_value": "165.00366",
+      "end_value": "169.9035"
+    },
+    {
+      "sample_no": "20",
+      "start_value": "169.9035",
+      "end_value": "174.60344"
+    },
+    {
+      "sample_no": "21",
+      "start_value": "174.60344",
+      "end_value": "179.20366"
+    },
+    {
+      "sample_no": "22",
+      "start_value": "179.20366",
+      "end_value": "184.10344"
+    },
+    {
+      "sample_no": "23",
+      "start_value": "184.10344",
+      "end_value": "188.7032"
+    },
+    {
+      "sample_no": "24",
+      "start_value": "188.7032",
+      "end_value": "193.00336"
+    },
+    {
+      "sample_no": "25",
+      "start_value": "193.00336",
+      "end_value": "197.50343"
+    },
+    {
+      "sample_no": "26",
+      "start_value": "197.50343",
+      "end_value": "202.10344"
+    },
+    {
+      "sample_no": "27",
+      "start_value": "202.10344",
+      "end_value": "206.70343"
+    },
+    {
+      "sample_no": "28",
+      "start_value": "206.70343",
+      "end_value": "211.30336"
+    },
+    {
+      "sample_no": "29",
+      "start_value": "211.30336",
+      "end_value": "215.80336"
+    },
+    {
+      "sample_no": "30",
+      "start_value": "215.80336",
+      "end_value": "220.3032"
+    },
+    {
+      "sample_no": "31",
+      "start_value": "220.3032",
+      "end_value": "224.60336"
+    },
+    {
+      "sample_no": "32",
+      "start_value": "224.60336",
+      "end_value": "229.10313"
+    },
+    {
+      "sample_no": "33",
+      "start_value": "229.10313",
+      "end_value": "233.29688"
+    }
+  ]
+}

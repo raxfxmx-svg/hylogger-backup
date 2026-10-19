@@ -1,0 +1,1081 @@
+{
+  "started_at": "2026-10-09T19:06:40+00:00",
+  "generated_at": "2026-10-09T22:19:42+00:00",
+  "status": "finished",
+  "pid": 3856,
+  "workers": 5,
+  "requested": 150,
+  "processed": 150,
+  "complete": 143,
+  "complete_with_warnings": 7,
+  "failed": 0,
+  "paused": 0,
+  "pause_reason": "",
+  "image_policy": "Tray Images and Imagery: metadata only",
+  "holes": [
+    {
+      "hole_id": "19AFRD2003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19AFRD2003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19AFRD2004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19AFRD2004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19AFRD2005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19AFRD2005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19EISD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19EISD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19EISD005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19EISD005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19EMRCD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19EMRCD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19EMRCD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19EMRCD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19GVDD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19GVDD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19GVDD0002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19GVDD0002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19GVDD0003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19GVDD0003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19MHDD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19MHDD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19MMDD0456",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19MMDD0456",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19MODD022",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19MODD022",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19MODD023",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19MODD023",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "19MODD024",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\19MODD024",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0006",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0006",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20ALDD0007",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20ALDD0007",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20BBDD0005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20BBDD0005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20CFRCD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20CFRCD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20CFRCD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20CFRCD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20CFRCD004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20CFRCD004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20CFRCD007",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20CFRCD007",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20CFRCD008",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20CFRCD008",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20DSDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20DSDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20DSRC011D",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20DSRC011D",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20EISD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20EISD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20EISD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20EISD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20EISD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20EISD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20EISD004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20EISD004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20EISD005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20EISD005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20GSDD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20GSDD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20GVDD0004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20GVDD0004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20H3DD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20H3DD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20HHDD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20HHDD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20KGDD0008",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20KGDD0008",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20LCDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20LCDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20LCDD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20LCDD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20LCDD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20LCDD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MNDD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MNDD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD011",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD011",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD014",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD014",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD017",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD017",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD018",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD018",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20MODD019",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20MODD019",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20NMDD25",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20NMDD25",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20PQDD0005A",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\20PQDD0005A",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "20PQDD0006",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\20PQDD0006",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "20WHD01",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20WHD01",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20WKDD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20WKDD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20WKDD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20WKDD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20WKDD005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20WKDD005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20WNRCD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20WNRCD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "20WNRCD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\20WNRCD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "21DSDD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\21DSDD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "21MBRCD042",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\21MBRCD042",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "21MBRCD043",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\21MBRCD043",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "21MBRCD044",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\21MBRCD044",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "21SSC005",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\21SSC005",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "21TWDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\21TWDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22ACHD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22ACHD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22ALDD0012",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22ALDD0012",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22BGDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22BGDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22BGDD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22BGDD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22BGDD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22BGDD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22CRD008",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22CRD008",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22CRD009",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22CRD009",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22CRD011",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22CRD011",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22EISD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22EISD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22EISD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22EISD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22EISD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22EISD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22EISD004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22EISD004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22EISD005",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22EISD005",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22HC001D",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22HC001D",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22SBDD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22SBDD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22SBDD004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\22SBDD004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "22USDH0206",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\22USDH0206",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "22USDH0207",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\22USDH0207",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "23AFDD103",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23AFDD103",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23CTRCD002A",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23CTRCD002A",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23CTRCD003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23CTRCD003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23EISD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23EISD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23EISD002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23EISD002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23MYCD0385",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23MYCD0385",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23MYD0532",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23MYD0532",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23PTDR001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23PTDR001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23PTDR003",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23PTDR003",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "23TSD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\23TSD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "24EKDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\24EKDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "24FNDD010",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\24FNDD010",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "24MD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\24MD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "24PMD0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\24PMD0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "24PMD0002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\24PMD0002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "24WBDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\24WBDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "79/9D1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\79%2F9D1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "79/9D2",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\79%2F9D2",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "85IRCH1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\85IRCH1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "95WGD002",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\95WGD002",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "95WGD004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\95WGD004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "95WGD006",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\95WGD006",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "96GVD1001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\96GVD1001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "A688",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\A688",
+      "warnings": [
+        "image: unknown image log 'holeimg'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "AB62",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AB62",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "Abbarwardoo 1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\Abbarwardoo 1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP10",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP10",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP2",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP2",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP3",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP3",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP4",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP4",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP5",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP5",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP5B",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP5B",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP6",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP6",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP8",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP8",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABDP9",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABDP9",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABND198",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABND198",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ABND199",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ABND199",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "Acacia 1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\Acacia 1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "Acacia 2",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\Acacia 2",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ACDD001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ACDD001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ADD10",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ADD10",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "ADH 001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\ADH 001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED013A",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED013A",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED016",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED016",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED017",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED017",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED018",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED018",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED019",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED019",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED021",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED021",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AED022",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AED022",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AELD0002",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AELD0002",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AELD0004",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AELD0004",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "Agonis 1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\Agonis 1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHD008",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHD008",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDD0010",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDD0010",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDD0011",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDD0011",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDH0001",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDH0001",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDH0006",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDH0006",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDH0007",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDH0007",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDH0008",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDH0008",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AHDH0008a",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AHDH0008a",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AIDP1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AIDP1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AIDP2",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AIDP2",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "AIDP3",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\AIDP3",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "Akubra 1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\Akubra 1",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "hole_id": "Allanooka 1",
+      "status": "complete",
+      "raw_dir": "D:\\100demo\\data\\raw\\Allanooka 1",
+      "warnings": [],
+      "errors": []
+    }
+  ]
+}

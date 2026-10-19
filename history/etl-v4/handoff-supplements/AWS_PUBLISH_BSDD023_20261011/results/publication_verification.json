@@ -1,0 +1,31 @@
+{
+  "after": {
+    "datasets": 392,
+    "holes": 387,
+    "release_id": "3bd3ae3a-04a8-5e98-a0b6-57894d65bf2f"
+  },
+  "all_previous_members_unchanged": true,
+  "batch_id": "e704df799acda67aa438cabf30d6a227dffd12b6ab84f7131021b3cbdeb1781d",
+  "before": {
+    "datasets": 391,
+    "holes": 386,
+    "release_id": "4ddd1962-028c-5baa-8614-6f522607152a"
+  },
+  "existing_display_selections_unchanged": true,
+  "imported_table_counts": {
+    "asset": 289,
+    "data_chunk": 160,
+    "image_frame": 15,
+    "image_region": 60,
+    "image_region_asset": 60,
+    "image_sample_mapping": 60,
+    "sample_axis": 1,
+    "scan_log": 99,
+    "spectral_array": 2,
+    "spectral_sample_map": 2
+  },
+  "prior_release_manifest_unchanged": true,
+  "repeat_submission_reused": true,
+  "status": "passed",
+  "verified_at": "2026-10-11T03:07:46.117156+00:00"
+}

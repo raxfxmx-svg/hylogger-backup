@@ -1,0 +1,438 @@
+{
+  "status": "passed",
+  "python_files": 53,
+  "bilingual_docstrings": 136,
+  "bilingual_comments": 76,
+  "runtime_chinese_occurrences": 0,
+  "metric_labels_translated": 10,
+  "metric_keys_types_units_unchanged": true,
+  "old_rule": "etl4-preparation-v2",
+  "new_rule": "etl4-preparation-v3",
+  "results": [
+    {
+      "file": "etl4/_file_checks.py",
+      "upload": "etl4/_file_checks.py",
+      "docstrings": 2,
+      "comments": 2,
+      "sha256": "d9ccf94924a1d6176aa9833b6ab2df85e4e52771e3145f4ef4405d24c7945ae4",
+      "issues": []
+    },
+    {
+      "file": "etl4/_settings.py",
+      "upload": "etl4/_settings.py",
+      "docstrings": 9,
+      "comments": 1,
+      "sha256": "580424e2ffad37a2e16f99aa26d039d667a3513de815edfcc12fbb01706df112",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/20_audit_spectral_sources.py",
+      "upload": "etl4/database/20_audit_spectral_sources.py",
+      "docstrings": 1,
+      "comments": 1,
+      "sha256": "e43ef1b848783afc3b102961c86af9c0ca84a21b11a89464bd6ddb6b56cf5d94",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/21_verify_spectral_bindings.py",
+      "upload": "etl4/database/21_verify_spectral_bindings.py",
+      "docstrings": 1,
+      "comments": 1,
+      "sha256": "c429a35cce57c25133b3c2f46d91441afe6c2c02e8a5de354a74667c49931eb4",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/22_prepare_spectral_access.py",
+      "upload": "etl4/database/22_prepare_spectral_access.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "b1ab98e78319ed1931b5bed7a1a15c68370294955622898c05ace088773ddebc",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/23_audit_dataset_image_groups.py",
+      "upload": "etl4/database/23_audit_dataset_image_groups.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "7684c467c82717124ebe3710ed54c93ee7da331efa86b0cfda33ea935390388e",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/24_detect_image_rows.py",
+      "upload": "etl4/database/24_detect_image_rows.py",
+      "docstrings": 1,
+      "comments": 1,
+      "sha256": "5c17cc0efd4bb95fd0186b414f2cf7687603b3da4e14a23e45b8e5f65036f1d5",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/25_review_image_row_regions.py",
+      "upload": "etl4/database/25_review_image_row_regions.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "3b5a32470274e7bf7b92c6e41eb755f3b8a774d317a9de9235dee15734ecf58b",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/26_bind_image_rows_to_samples.py",
+      "upload": "etl4/database/26_bind_image_rows_to_samples.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "f7f46d548dc9cfd65b25b46536e72f729586905567e74349565c6198cdb17101",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/27_build_image_row_assets.py",
+      "upload": "etl4/database/27_build_image_row_assets.py",
+      "docstrings": 3,
+      "comments": 0,
+      "sha256": "07e78c4c771b2ffd3c37f62526862f2bca145c562f7b1eb7aba953763877f9ef",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/28_import_media_revision.py",
+      "upload": "etl4/database/28_import_media_revision.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "4636ab7bb1cf65ee4b68d962e89f336a7ead486caa69cf569ba56dd5d2aba1b1",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/31_audit_multi_dataset_sources.py",
+      "upload": "etl4/database/31_audit_multi_dataset_sources.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "6977959b7e7c5ba463f1ab5688c5f47111d82112599719dddc019e478c16a1e8",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "upload": "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "docstrings": 1,
+      "comments": 2,
+      "sha256": "f1120cc72fb8e84dc77cafbb82e78b0f2c9b8d384de499c049ae7592ca1feed5",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/33_prepare_multi_dataset_media.py",
+      "upload": "etl4/database/33_prepare_multi_dataset_media.py",
+      "docstrings": 4,
+      "comments": 0,
+      "sha256": "e9a4a81b8df0a80138ed1c88f3e6a4aef0b15ebb9ef713dd1831feade57d197f",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/37_import_final_version.py",
+      "upload": "etl4/database/37_import_final_version.py",
+      "docstrings": 6,
+      "comments": 1,
+      "sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/7_preflight_database.py",
+      "upload": "etl4/database/7_preflight_database.py",
+      "docstrings": 1,
+      "comments": 3,
+      "sha256": "21ce90c0c409bddaa697cf9ce1431fc0f1a10581e07ca98c9b3f5f51085a101a",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/8_apply_schema.py",
+      "upload": "etl4/database/8_apply_schema.py",
+      "docstrings": 1,
+      "comments": 1,
+      "sha256": "75ca4128be2dede42bc5fbd4af21fc67a9888a64cdf9e971e384f3bd9646454a",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_db_common.py",
+      "upload": "etl4/database/_db_common.py",
+      "docstrings": 1,
+      "comments": 1,
+      "sha256": "5af704527939f1036a250ab27e702353c693938a2ce4ebeb16038ca54c2da65c",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_db_files.py",
+      "upload": "etl4/database/_db_files.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "42521ce6ad2812047722e460dbb5923912fce9f3e75c38ed52a16ff60bca78e7",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_final_import.py",
+      "upload": "etl4/database/_final_import.py",
+      "docstrings": 4,
+      "comments": 1,
+      "sha256": "92f48e95195af42d849bc870b8ff0d6910b8010fc5f2f0a36fdf15107b2ade39",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_ingest.py",
+      "upload": "etl4/database/_ingest.py",
+      "docstrings": 4,
+      "comments": 2,
+      "sha256": "2f3bc0dd85000fba9bfb9c0fc6b72f5863f2262da0c897f972127d69733bd7eb",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_media_common.py",
+      "upload": "etl4/database/_media_common.py",
+      "docstrings": 3,
+      "comments": 1,
+      "sha256": "a5a92351567c320073b950b66dd331a2fbca1da4236e9e2f69bc766fbb0a1d6d",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_media_import.py",
+      "upload": "etl4/database/_media_import.py",
+      "docstrings": 9,
+      "comments": 4,
+      "sha256": "65e654a173a8af90614307e8da8b7bfdf0b4fb6c5dd309719dd37137f614e952",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_media_manifest.py",
+      "upload": "etl4/database/_media_manifest.py",
+      "docstrings": 1,
+      "comments": 3,
+      "sha256": "d18884bb3c293ef1111b9d29671db8b3697c1e5ad37d9b967754dcf733a08f90",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_media_reader.py",
+      "upload": "etl4/database/_media_reader.py",
+      "docstrings": 4,
+      "comments": 1,
+      "sha256": "cb0f7e09443f7effd1e8374f79407ea3de887b0c96638a7a5f67d943a5d36d3d",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_media_rows.py",
+      "upload": "etl4/database/_media_rows.py",
+      "docstrings": 3,
+      "comments": 0,
+      "sha256": "57e65ebff15d562d9d8229f95740b1ab2e8b6c008563e3b718b397442d80b043",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_media_verification.py",
+      "upload": "etl4/database/_media_verification.py",
+      "docstrings": 3,
+      "comments": 4,
+      "sha256": "4864477e03f0dc16655a1b87f920820eee4bb23d68dad13ec5b2a93de1bac71a",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_multi_common.py",
+      "upload": "etl4/database/_multi_common.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "3baca7d35ab95938725b45ea5129ff5e0801d964a34424964ce98eafe527bc48",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_multi_db.py",
+      "upload": "etl4/database/_multi_db.py",
+      "docstrings": 3,
+      "comments": 0,
+      "sha256": "f02395ec6c6a2e5453b125c7e2d22d829cedf24b64ff3ceb3f4e58e675158ff5",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_prepared_inputs.py",
+      "upload": "etl4/database/_prepared_inputs.py",
+      "docstrings": 3,
+      "comments": 0,
+      "sha256": "8b2e6e99d31fbcc8957c677d98a1d90dfca5f1e6e03dad46f9f58cae9c282de3",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_publication.py",
+      "upload": "etl4/database/_publication.py",
+      "docstrings": 3,
+      "comments": 1,
+      "sha256": "db497555b43c10a7c69948a4e26f57fad9aa7ab47053ba217ecd90d0f2f2bdbf",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_run_reports.py",
+      "upload": "etl4/database/_run_reports.py",
+      "docstrings": 1,
+      "comments": 3,
+      "sha256": "53f6642f6447373307a4320eb29846e1ebab69c2b2c80c30a3fa972703cffdc2",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_schema_docs.py",
+      "upload": "etl4/database/_schema_docs.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "b79638fe4813e490a814203a37837d75c282f8a761f1a501ad6ca774bbfa735e",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_verification.py",
+      "upload": "etl4/database/_verification.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "a0b7da8d56c40bfbf6281cc0230f86f0267b17e4c9a35af864b7cd18db788e86",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/0_check_raw.py",
+      "upload": "etl4/processing/0_check_raw.py",
+      "docstrings": 2,
+      "comments": 5,
+      "sha256": "30a8b472fe9a4d426b29efbffc057aa83b46fefc4e2d7a39119fc189fa13cd34",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/1_inventory.py",
+      "upload": "etl4/processing/1_inventory.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "3e12a2958af847cbfaa33d50fcc15544e6c41d06699159516cb81c42bb6390ab",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/2_validate_payloads.py",
+      "upload": "etl4/processing/2_validate_payloads.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "afa2c011deecb4fafe4d9e9a98cf617f92cf18400a2bef6505fedc7844f2d112",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/3_normalize_metadata.py",
+      "upload": "etl4/processing/3_normalize_metadata.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "c6fd3a26b5da4205c7ac464d456574180376e31f0252d6a437c2398e16f5ea7d",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/4_align_samples.py",
+      "upload": "etl4/processing/4_align_samples.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "2698b577970a799a76cf24e05497347b9840b4632da2f4472296daf91447a0de",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/5_build_columnar.py",
+      "upload": "etl4/processing/5_build_columnar.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "8f1cf3058a71912599fefd734484ceac2f59134c1263284b48a1aca181c1e4b2",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/6_verify_prepared_data.py",
+      "upload": "etl4/processing/6_verify_prepared_data.py",
+      "docstrings": 1,
+      "comments": 1,
+      "sha256": "47b7f4b38ff8fb5b365f1a90d96d423f5bde4962ff2d7df7f190cfc6e3e29589",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/_etl_common.py",
+      "upload": "etl4/processing/_etl_common.py",
+      "docstrings": 3,
+      "comments": 3,
+      "sha256": "088ddcfc70264080098683f11d3fa169f4f29c680f2a21a1c02b35da66ccb964",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/columnar_storage.py",
+      "upload": "etl4/processing/columnar_storage.py",
+      "docstrings": 2,
+      "comments": 2,
+      "sha256": "fe03716e6884ec3009b2c5a91c6a5e55de9ad87ada365b6233d87c4a47866431",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/metadata_normalization.py",
+      "upload": "etl4/processing/metadata_normalization.py",
+      "docstrings": 2,
+      "comments": 0,
+      "sha256": "fa023208e98a57ab6661dbfb3226d2c146d9964223b95bc2ac02cea3e7ff9c31",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/payload_validation.py",
+      "upload": "etl4/processing/payload_validation.py",
+      "docstrings": 1,
+      "comments": 0,
+      "sha256": "224e2a5e1247270ac4b0d34c8553075315ec68839a9879b103add99d3aa1b948",
+      "issues": []
+    },
+    {
+      "file": "etl4/processing/sample_alignment.py",
+      "upload": "etl4/processing/sample_alignment.py",
+      "docstrings": 1,
+      "comments": 2,
+      "sha256": "bc3eeaa57f611c498cfa948f96d7c0e074d1d1f0475229c233735a9874c895b5",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/38_export_batch.py",
+      "upload": "cloud-batch-processing/etl4/database/38_export_batch.py",
+      "docstrings": 4,
+      "comments": 3,
+      "sha256": "4e8b4fef2d2e02acf8c0a3ed7572ea7027cb23a8db1f403e6d054e7a22f99a5f",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/39_upload_batch.py",
+      "upload": "cloud-batch-processing/etl4/database/39_upload_batch.py",
+      "docstrings": 5,
+      "comments": 11,
+      "sha256": "a76aad0bd0454144def41c1f34c43e358a8dfc52024b94bb20a2771331cde230",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/40_merge_cloud_batch.py",
+      "upload": "cloud-batch-processing/etl4/database/40_merge_cloud_batch.py",
+      "docstrings": 7,
+      "comments": 2,
+      "sha256": "5ea25ad7a496397c953074aa8234fbb09b2f96e4a99f1c2886a7810775d350a1",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/41_cleanup_batch.py",
+      "upload": "cloud-batch-processing/etl4/database/41_cleanup_batch.py",
+      "docstrings": 7,
+      "comments": 2,
+      "sha256": "3b34adfa7a8b1c812569092357bc4a49ef6d412ecd6af99378c343ee7d31f849",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_batch_files.py",
+      "upload": "cloud-batch-processing/etl4/database/_batch_files.py",
+      "docstrings": 4,
+      "comments": 3,
+      "sha256": "3d2059b441a7d30c50e76c11abe16b6f1eba018ada4d87d76eb431a602e7c3c7",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/_s3_upload.py",
+      "upload": "cloud-batch-processing/etl4/database/_s3_upload.py",
+      "docstrings": 5,
+      "comments": 6,
+      "sha256": "6e1b28f939280cd3fa90fe8397f47401bb812c54925143fe60420917b81e73f8",
+      "issues": []
+    },
+    {
+      "file": "etl4/database/14_verify_database_backup.py",
+      "upload": "review-and-recovery/etl4/database/14_verify_database_backup.py",
+      "docstrings": 5,
+      "comments": 2,
+      "sha256": "0eec379c4e08147dbc35c4cea0e58d8e3e78e6ff1ff700b8edcd406c130b9532",
+      "issues": []
+    }
+  ],
+  "errors": []
+}

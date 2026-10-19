@@ -1,0 +1,14 @@
+[
+  {
+    "path": "frontend/lib/api.js",
+    "sha": "d2149dc4a1b79870c7a27d7b8c2780444525aaca"
+  },
+  {
+    "path": "frontend/test/api-fixture.cjs",
+    "sha": "89c0493f1e7e7332d8cdbd97b56729ee6442ebaa"
+  },
+  {
+    "path": "frontend/test/api.test.cjs",
+    "sha": "090788ddbc72b3eb4b59685dc1413f583afe84c0"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:22.785612+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "7_preflight_database.py",
+  "code_sha256": "b9a76f08ea8b30ffe3fe0173736b784e3a7bcdeade55c68a83141a787280696a",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0008978999976534396,
+  "finished_at": "2026-09-28T05:19:22.786195+00:00"
+}

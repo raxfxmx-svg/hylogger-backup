@@ -1,0 +1,95 @@
+{
+  "active_holes": [
+    "09THD028"
+  ],
+  "all_five_verified": false,
+  "holes": [
+    {
+      "canonical_bytes": 84985617,
+      "canonical_file_count": 112,
+      "depth_range_query": {
+        "from_m": 183.342,
+        "matched_rows": 80,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          5
+        ],
+        "source_log_id": "f8a72dcd-e001-4bf5-b349-ef336d98781",
+        "to_m": 183.842
+      },
+      "directory": "09THD028/55f2d7945a8d4e20/dc6cc135d789e7d6",
+      "duplicate_depth_query": {
+        "depth_m": 41.70344,
+        "returned_sample_count": 13,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicate_depth_samples_preserved": 5818,
+      "hole_id": "09THD028",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 16,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 130,
+      "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "0556aa4cfe0155acd7f17f66ebd90187f7b461c15911a97ffedde3378ac4f669",
+        "2_integrity.json": "7f96498842816b59c7d6c9f7005c0b845e2122899f002fd1217aad932c6ed53c",
+        "3_metadata_report.json": "6cc01381b5b90240f6226c29943eddfa3c1414394966753cbc26edc5457abbe6",
+        "4_alignment_report.json": "0f9cc1d814859c05d901fa41b2c99b8959cf845e076d084d56e79f7a8c274f1c",
+        "5_storage_report.json": "2c541b94096a8510a4e997684e2dbb19dce13aae0bea9db53422eb502785352d"
+      },
+      "sample_count": 42880,
+      "scalar_data_rows": 4631440,
+      "scalar_log_count": 110,
+      "source_bytes": 346515827,
+      "source_file_count": 208,
+      "source_snapshot_id": "55f2d7945a8d4e20838327726b5dd27682bdc0289bfd2aaa00859d0b58962731",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 80
+    }
+  ],
+  "limitations": [
+    "F32 sample/wavelength order unconfirmed; no per-sample spectra published",
+    "Physical profile calibration and borehole trajectory unavailable",
+    "Source domain references remain unresolved",
+    "No confidence score computed",
+    "Database import and cloud upload not started"
+  ],
+  "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+  "source_check_scope": "Full raw hashes checked in step 2; selective raw rereads hashed in steps 4/5/6; source size checked at step entry; import and publication recheck content",
+  "status": "passed_with_known_limitations",
+  "totals": {
+    "canonical_bytes": 84985617,
+    "canonical_file_count": 112,
+    "duplicate_depth_samples_preserved": 5818,
+    "metadata_log_count": 130,
+    "profile_count": 1,
+    "sample_count": 42880,
+    "scalar_data_rows": 4631440,
+    "scalar_log_count": 110,
+    "source_bytes": 346515827,
+    "source_file_count": 208,
+    "spectral_array_count": 2,
+    "thumbnail_count": 80
+  },
+  "verification_code_sha256": "ab439fe2ae48152fdd3b3d4bbef3047b1fb3b61db77697d01978996c2d2f1d25"
+}

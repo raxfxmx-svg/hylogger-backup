@@ -1,0 +1,1072 @@
+[
+  {
+    "log_id": "0059c9e0-3272-40a8-8c85-24a90f30c3b",
+    "log_name": "SNR sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "04166ef1-5fcf-41b5-9cd3-8b3aae12152",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "06f56f92-5d40-4157-8509-8fb5bacb008",
+    "log_name": "SNR uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "079f4bb0-460d-4226-bac4-6a14838e2fe",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "07c896b3-6f30-457b-84ff-44a2bf82ecd",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "081aa55a-7efb-4bcd-9b93-2c7854d64ce",
+    "log_name": "Section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "08a82fdf-8755-4de4-bf96-bae12a94f6b",
+    "log_name": "Grp2 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "0b0e18f1-8254-4e7a-ad6e-126108a0103",
+    "log_name": "Wt2 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "0d9c6e49-f12e-4c46-996d-fbed46c9acc",
+    "log_name": "Error sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "99",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "0e678b9d-0059-4fb5-a6f4-09860eca460",
+    "log_name": "Tray",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "0f6ef16e-772c-43d3-b548-298f84fffb5",
+    "log_name": "sec_end_mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "112665ce-85ee-42fc-9430-91d5305cc9c",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "11bc8033-fd1e-43b4-b97e-d8b737d9797",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "1489df7a-9e8c-4d7d-9f6c-4c988482abb",
+    "log_name": "Grp3 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "14da7b56-9128-4d47-a66e-81b35de36d4",
+    "log_name": "NIL_Stat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "14e0e39d-525e-4854-8efb-aa0f4818af8",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "15dfbee2-6211-4532-a758-8f64c364927",
+    "log_name": "Bound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "178be28a-07b6-4bc5-baa9-e0a5181490a",
+    "log_name": "Min2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "1c33cf7d-829d-4583-8762-f18fc4efa63",
+    "log_name": "SNR ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "1f4707c8-9db6-4dff-a0aa-fa2ce978604",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2399f616-bb93-4067-b534-ad7111b5221",
+    "log_name": "TNorm ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "24c7b733-bd4a-4c57-859f-89b7b3e6a57",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "25fa14b8-1087-4c5d-8ebc-5040c49aba2",
+    "log_name": "TNorm sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "26c4eaeb-20bc-4239-8617-24ead169d86",
+    "log_name": "Grp3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2a38115a-a47f-4902-a557-29a77784543",
+    "log_name": "Wt1 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2acd41ef-c54e-41c7-a031-fad98f7eae1",
+    "log_name": "Grp2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2b2590b0-f771-4ad6-ab55-4dec6b090f9",
+    "log_name": "Wt1 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2b64f8db-d971-454a-9583-459cf85a538",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2ba34417-a6f2-43e8-a1b3-f130c48e19e",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2cd51f83-bad4-4506-93d1-1af939e45a8",
+    "log_name": "SNR sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "2df46701-4f4a-4f57-b6f0-490b5379caa",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "3bdb41dc-a857-4ff8-adbc-34633df7e20",
+    "log_name": "NIL_Stat sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "3c9df0fc-d74d-48fc-a9b2-db8f8fd8567",
+    "log_name": "Error sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "3ddd13e9-a316-4ac7-bb62-eb14b8f05a9",
+    "log_name": "AspRat sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "3e859e6c-6c3e-4525-bae7-562ac0d2bbd",
+    "log_name": "SNR sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "100",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "3f7f3b46-afeb-472f-9a3b-de1d12d1aee",
+    "log_name": "Unbound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "40ed259f-61d2-4a97-ba13-d41eea5d43d",
+    "log_name": "Wt2 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "40fbd10d-d91c-4c81-881c-aed0766be10",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "4326fe3e-ab1c-4750-b8fb-5a912a55229",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "48ba6697-2374-4905-b812-7dd72726d56",
+    "log_name": "Min1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "4914ca1a-3705-4840-8cc6-2b99dc294a7",
+    "log_name": "Min3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "534f3fc7-4e6b-4fd1-9b7f-9e0ed50c09f",
+    "log_name": "Grp2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "58fd3980-444f-4a58-bfd2-52261438d2f",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "5c91e690-a92d-4da2-99b8-3faba2e2665",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "5fa7fd10-8cfe-4ccd-8a32-e76a587feef",
+    "log_name": "Kahuna",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "62efcd23-4980-4569-b8e5-a7e8ff4af5f",
+    "log_name": "Min2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "650b5747-8248-4ca3-aa84-4d9bd5751fc",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "66938a5c-a4d4-4ed1-955a-0db33ba7b5c",
+    "log_name": "Min2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "6cca62e6-e463-44dd-80f3-0cbd1e6505b",
+    "log_name": "prof_min",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "6d94628e-be4e-44ba-b1fb-68991f55dd6",
+    "log_name": "AspRat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "6f3b2bc2-8886-4322-b049-9276daa72c1",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7024116f-51ec-4325-8f8e-174b20dba7c",
+    "log_name": "Grp1 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7073896b-0066-437a-8b9c-8e6522fa1f8",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "757126d2-ce58-4e78-855e-1347eeefa69",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7995715a-9cc2-474e-b559-6f6fec6d0db",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7b88df4b-ce26-4b6a-a797-5fdbfee9024",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7bf9944d-3674-42d7-880f-89b9ef3711f",
+    "log_name": "NIL_Stat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7c95a782-105f-4667-aa63-347cd34f2b1",
+    "log_name": "TirBkgOffset",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7d4be5a5-4912-496c-b275-98d4d319836",
+    "log_name": "Min3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "7f3a5667-c81b-470f-b8d6-350e5c0f123",
+    "log_name": "Min1 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "85674e53-5736-42de-93af-f639a1f2d84",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "8ba63973-d230-4bf4-b027-29ad103194b",
+    "log_name": "NIL_Stat sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "101",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "8ee1f6a7-9cc3-43a1-a22f-6503634bae5",
+    "log_name": "TNorm uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "91b1099f-e9ae-4d4d-9c22-e3175363c95",
+    "log_name": "Wt3 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "9560152a-7a74-4213-a4e0-3960d6acb08",
+    "log_name": "Min1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "96555800-6b7a-4c50-a34f-221716de831",
+    "log_name": "AspRat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "99011230-12ad-4e1f-9007-5986d9d1bd9",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "9d7e4ef6-208a-4fc1-bea8-a19f9eeceaa",
+    "log_name": "Min3 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "9e1e12bb-26cb-409e-9565-bb20cfaa47e",
+    "log_name": "Error uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "a031b90e-51cc-4006-bedc-8ed37572505",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "a05f5622-6e3c-4931-9231-0103f905346",
+    "log_name": "Grp1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "a22e19ea-6976-46a7-a86c-fe7269910a8",
+    "log_name": "Grp2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "a6539f00-0c53-468f-88b9-607e5541abb",
+    "log_name": "AspRat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "a87b1890-2630-495e-bd73-9a713664887",
+    "log_name": "TNorm sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "a9c53576-3e17-46e5-aff4-0bba16f7f30",
+    "log_name": "Wt3 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "aa7f582c-e13b-421f-90bb-650d6d9d1ff",
+    "log_name": "Error ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "af06d0ba-c5d5-4298-b54e-6250b1a2c17",
+    "log_name": "Grp3 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "af384bf0-2672-425c-92b1-875cf434f6c",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b0590ebc-1e5b-420a-a70b-593e7aa8015",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b24dad62-ae7a-4431-8317-7edd044e825",
+    "log_name": "Grp2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b411d10e-c20a-41e7-8ebf-6bd4245a6eb",
+    "log_name": "Grp1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b5a41f1d-b941-494a-a302-8249c1bea8b",
+    "log_name": "Wt1 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b6910561-84d6-4bc7-858e-31c9598f8cb",
+    "log_name": "Unbound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b7f2a385-a460-4933-8654-2c9e0e9838e",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "c0beb9a0-64b6-4265-8418-ea3136d365c",
+    "log_name": "Grp1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "c0f30c98-8b75-46d8-b0e9-ac43e3f235f",
+    "log_name": "Wt1 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "c2cb2280-3be8-4bc9-ae3b-f578ca949e2",
+    "log_name": "Wt1 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "c8b4eef7-c97a-4079-99f6-bf4db1c206d",
+    "log_name": "Min2 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "ce84bae7-9096-4be8-841d-03aab12fca0",
+    "log_name": "Bound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "d31d687b-75df-4152-b732-a6de7e7a60f",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "d51fd6ea-ea7e-48f8-87d3-13c224237ee",
+    "log_name": "Grp3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "d83b2d4f-45f7-4f4b-b8b2-e30fa1158be",
+    "log_name": "Min1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "d97cd970-cebf-45f6-848e-f95c0a248b3",
+    "log_name": "Little Kahuna",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "de088c91-457c-465c-85ae-52bb511b61b",
+    "log_name": "Error sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "e55d688b-e7b4-4b14-bd1c-5402d1f0ed7",
+    "log_name": "NIL_Stat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "ecb30f07-a382-4b9b-ad70-1822b8bc608",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "ed2fd153-1db6-4fbe-9361-f635abb52e5",
+    "log_name": "Min2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "ed6ecd7d-6a1d-4b14-a9bd-2926b40550b",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "f66d41a8-14c4-4d7e-8f3f-c76813b3069",
+    "log_name": "Wt3 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "f91edd92-92db-4424-be18-20bd3103681",
+    "log_name": "Wt3 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fd38f4b6-cab8-42cb-94f4-30aeba74585",
+    "log_name": "Wt2 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fda2cafc-9f65-49da-9179-7e006a9d5cb",
+    "log_name": "Wt2 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fdcf14b8-56c4-43fe-8f17-31440106557",
+    "log_name": "Grp1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fe95ae93-ce6c-4aca-8fc5-24b79f73150",
+    "log_name": "TIDL Depth Backup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fec308eb-a950-4fd7-b77d-86884b052c3",
+    "log_name": "Min1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fec34981-3fdd-4ee5-9b96-4b99a4b8b44",
+    "log_name": "Min3 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "fffc6f88-7a6b-4702-8f86-af50e82d637",
+    "log_name": "Wt2 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  }
+]

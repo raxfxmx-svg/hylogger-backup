@@ -1,0 +1,19 @@
+{
+  "environment": "Edge; local production build; synthetic API fixtures",
+  "optional_sections_failed_without_hiding_mineral_log": true,
+  "spectral_retry_restored_both_regions": true,
+  "last_mineral_log_preserved": "MINERAL-min15",
+  "confidence_tooltip": "confidence 0.25 (sample agreement) · ok",
+  "confidence_tooltip_inside_viewport": true,
+  "late_previous_hole_response_ignored": true,
+  "current_hole_after_switch": "OTHER; 11.00 m; dataset other",
+  "three_dimensional_core_and_mineral_log_rendered": true,
+  "browser_runtime_errors": [],
+  "final_detail_client_width": 237,
+  "final_detail_scroll_width": 237,
+  "final_spectrum_widths": [205, 205],
+  "production_build": "passed after final responsive spectrum change",
+  "screenshots": ["repair-browser.png", "spectrum-recovered.png", "spectrum-error.png", "3d-splice.png"],
+  "temporary_local_test_servers": "stopped after verification",
+  "remote_changes_this_repair": "none"
+}

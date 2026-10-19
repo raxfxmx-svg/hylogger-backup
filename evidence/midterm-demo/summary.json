@@ -1,0 +1,45 @@
+{
+  "project_stage": "midterm-demo",
+  "source_workspace": "100demo",
+  "recorded_at": "2026-08-27T02:06:59+00:00",
+  "target_holes": 100,
+  "recorded_manifest_statuses": {
+    "db_verified": 96,
+    "pending": 4
+  },
+  "target_completed": false,
+  "pending_holes": [
+    "19AFRD2003",
+    "19AFRD2004",
+    "19AFRD2005",
+    "19EISD001"
+  ],
+  "release_totals": {
+    "hole_count": 96,
+    "dataset_count": 96,
+    "sample_count": 5863516,
+    "tray_count": 9069,
+    "section_count": 41668,
+    "section_image_mapping_rows": 41668,
+    "core_strip_complete_count": 41668,
+    "spectral_complete_series_count": 188
+  },
+  "quality_report_statuses": {
+    "pass": 96
+  },
+  "quality_errors": 0,
+  "replacement_events": 3,
+  "recorded_hole_progress": [
+    6,
+    16,
+    93,
+    96
+  ],
+  "sources": {
+    "hole_status": "hole-status.csv",
+    "releases": "release-index.csv",
+    "quality_reports": "quality-reports/",
+    "latest_run": "batch-runs/20260827_100559_remaining/summary.json",
+    "replacements": "batch-runs/replacement-history.jsonl"
+  }
+}

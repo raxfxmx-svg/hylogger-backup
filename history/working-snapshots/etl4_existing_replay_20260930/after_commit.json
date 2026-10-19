@@ -1,0 +1,12 @@
+{
+  "active_release": {
+    "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+    "singleton": true,
+    "switched_at": "2026-09-29 19:21:15.153889+08:00"
+  },
+  "datasets": 16,
+  "holes": 11,
+  "published_samples": 730622,
+  "releases": 8,
+  "revisions": 32
+}

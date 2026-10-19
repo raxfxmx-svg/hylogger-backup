@@ -1,0 +1,6 @@
+{
+  "action": "preflight",
+  "detail": "See stage log",
+  "error_type": "KeyError",
+  "status": "stopped"
+}

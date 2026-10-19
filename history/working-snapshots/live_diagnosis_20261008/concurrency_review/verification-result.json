@@ -1,0 +1,35 @@
+{
+  "scope": "Offline simulated transport using actual frontend code. Fetch concurrency is not measured Lambda concurrency.",
+  "tests": {
+    "fanout": {
+      "original_peak_fetch": 198,
+      "bounded_peak_fetch": 4,
+      "requests_each": 397,
+      "duplicated_hole_context": false
+    },
+    "anomaly_cache": {
+      "old_returned_false_twice": true,
+      "old_backend_attempts": 1,
+      "corrected_first_request_rejected": true,
+      "corrected_second_request_recovered": true
+    },
+    "false_zero": {
+      "original_stats_measurements": 0,
+      "original_map_rows": 0,
+      "strict_error_propagated": true
+    },
+    "photo_cache": {
+      "original_rows": 1,
+      "original_second_read_rows": 1,
+      "corrected_recovered_rows": 2
+    },
+    "retries": {
+      "throttle_attempts": 3,
+      "backoff_ms": [
+        2000,
+        2000
+      ],
+      "not_found_attempts": 1
+    }
+  }
+}

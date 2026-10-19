@@ -1,0 +1,53 @@
+{
+  "source_commit": "baa66348aa4e4572af96cefa41b964299725fe13",
+  "hole": "07THD003",
+  "scope": "Offline replay of current frontend adapter using real captured API catalogue and all 54432 scalar rows. No deployed code or AWS settings modified.",
+  "results": [
+    {
+      "mode": "original",
+      "selected_log": null,
+      "interval_count": 0,
+      "depth_from_m": null,
+      "depth_to_m": null,
+      "dominant_interval_counts": {},
+      "invalid_high_confidence_intervals": 0,
+      "scalar_page_requests": 0
+    },
+    {
+      "mode": "metric_only",
+      "selected_log": "Grp1 sTSAS",
+      "interval_count": 188,
+      "depth_from_m": 64,
+      "depth_to_m": 252,
+      "dominant_interval_counts": {
+        "WHITE-MICA": 56,
+        "INVALID": 113,
+        "CARBONATE": 6,
+        "CHLORITE": 11,
+        "AMPHIBOLE": 1,
+        "OTHER-ALOH": 1
+      },
+      "invalid_high_confidence_intervals": 74,
+      "scalar_page_requests": 11
+    },
+    {
+      "mode": "metric_and_invalid",
+      "selected_log": "Grp1 sTSAS",
+      "interval_count": 188,
+      "depth_from_m": 64,
+      "depth_to_m": 252,
+      "dominant_interval_counts": {
+        "WHITE-MICA": 83,
+        "CARBONATE": 34,
+        "CHLORITE": 56,
+        "EPIDOTE": 7,
+        "AMPHIBOLE": 3,
+        "KAOLIN": 1,
+        "OTHER-ALOH": 2,
+        "SMECTITE": 2
+      },
+      "invalid_high_confidence_intervals": 0,
+      "scalar_page_requests": 11
+    }
+  ]
+}

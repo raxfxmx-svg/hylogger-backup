@@ -1,0 +1,57 @@
+Mineral interval rebuild for 05GJD001 - build_intervals.py
+fixture dir : C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture
+raw dir     : C:\path\to\project\8a294cfc-68df-4f03-995b-c5fd0d47ab0 (class-name decoding only, read-only)
+thresholds  : WT1_MIN={'vnir': 0.5, 'tir': 0.4} ERROR_MAX={'vnir': 300.0, 'tir': 200.0} NIL_MAX={'vnir': 0.5, 'tir': 0.1}
+
+vnir: 9426 intervals (2097 unassigned), confirmed/doubtful 5180/4246, depth 150.000..316.000 m
+tir: 5530 intervals (843 unassigned), confirmed/doubtful 3183/2347, depth 150.000..316.000 m
+
+wrote C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture\intervals.json (5631880 bytes)
+
+regression comparison against verified targets:
+[PASS] vnir: class 'S_SWIR_TSA705 Minerals' decoded by name — 61 entries (expect 61)
+[PASS] vnir: class 'S_SWIR_TSA705 Groups' decoded by name — 17 entries (expect 17)
+[PASS] vnir: scalar CSV rows — 25938 rows (expect 25938)
+[PASS] vnir: interval count — 9426 (expect 9426)
+[PASS] vnir: unassigned (mineral=NULL) intervals — 2097 (expect 2097)
+[PASS] vnir: confirmed/doubtful split — 5180/4246 (expect 5180/4246)
+[PASS] vnir: interval n_samples tiles all samples — sum(n_samples)=25938
+[PASS] vnir: depth coverage 150.000-316.000 m — 150.000000..316.000000 m over 33 trays
+[PASS] vnir: unassigned runs flagged doubtful/unassigned
+[PASS] tir: class 'S_jCLST_708 Minerals' decoded by name — 120 entries (expect 120)
+[PASS] tir: class 'S_jCLST_708 Groups' decoded by name — 26 entries (expect 26)
+[PASS] tir: scalar CSV rows — 25938 rows (expect 25938)
+[PASS] tir: interval count — 5530 (expect 5530)
+[PASS] tir: unassigned (mineral=NULL) intervals — 843 (expect 843)
+[PASS] tir: confirmed/doubtful split — 3183/2347 (expect 3183/2347)
+[PASS] tir: interval n_samples tiles all samples — sum(n_samples)=25938
+[PASS] tir: depth coverage 150.000-316.000 m — 150.000000..316.000000 m over 33 trays
+[PASS] tir: unassigned runs flagged doubtful/unassigned
+[PASS] tir: mineral index 12 is Quartz — index 12 -> 'Quartz'
+
+checks: 19/19 passed
+
+==============================================================================
+Database load for 05GJD001 - load_db.py
+hole db  : C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\hole.sqlite
+index db : C:\path\to\project\hylogger-visualisation\data\index.sqlite
+wrote C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture\hole.json
+
+regression comparison against verified targets:
+[PASS] samples: vnir rows inserted — 25938 (expect 25938)
+[PASS] samples: tir rows inserted — 25938 (expect 25938)
+[PASS] samples: vnir/tir tray geometry identical — per-tray depth min/max/count equal
+[PASS] trays: 33 rows, 786 samples each, photos exist in raw dir — 33 trays; missing photos: none (Mosaic not catalogued)
+[PASS] db samples[vnir] count — 25938
+[PASS] db intervals[vnir] total/unassigned/confirmed/doubtful — 9426/2097/5180/4246 (expect 9426/2097/5180/4246)
+[PASS] db intervals[vnir] mineral=NULL rows flagged correctly — 0 misflagged
+[PASS] db samples[tir] count — 25938
+[PASS] db intervals[tir] total/unassigned/confirmed/doubtful — 5530/843/3183/2347 (expect 5530/843/3183/2347)
+[PASS] db intervals[tir] mineral=NULL rows flagged correctly — 0 misflagged
+[PASS] db samples depth 150.000-316.000 m — 150.000000..316.000000
+[PASS] db trays/photos 33 rows, annotations empty — trays=33, photos=33, annotations=0
+[PASS] db samples name decode spot check (vnir 2=Kaolinite-PX, tir 12=Quartz) — vnir 2 -> 'Kaolinite-PX', tir 12 -> 'Quartz'
+[PASS] PRAGMA integrity_check — ok
+[PASS] index.sqlite holes upsert for 05GJD001 — row=('05GJD001', 150.0, 316.0, 33, 25938, '["vnir", "tir"]', 'C:\\path\\to\\project\\8a294cfc-68df-4f03-995b-c5fd0d47ab0', '2026-08-09T09:59:01+00:00')
+
+checks: 15/15 passed

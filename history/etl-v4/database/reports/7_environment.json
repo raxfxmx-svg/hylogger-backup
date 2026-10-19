@@ -1,0 +1,9 @@
+{
+  "cluster_path": "C:\\path\\to\\project\\etl4\\database\\runtime\\pgdata",
+  "host": "127.0.0.1",
+  "port": 55432,
+  "postgis_control": "# postgis extension\ncomment = 'PostGIS geometry and geography spatial types and functions'\ndefault_version = '3.6.2'\nmodule_pathname = '$libdir/postgis-3'\nrelocatable = false\n",
+  "postgres_version": "PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit",
+  "recorded_at": "2026-09-24T07:21:29.453169+00:00",
+  "status": "passed"
+}

@@ -1,0 +1,48 @@
+{
+  "code_sha256": "ff41578400570b3cadbe4588427f6fe51f311ec4c50275d4557cc45f08008a5e",
+  "datasets": {
+    "089954e6-2c8a-5f27-a9aa-d46fa81eb53c": {
+      "content_sha256": "a59ff2ddc2decbef7e76dbb7cee67bc167e29e08cc30945e5309bbc12146ebb4",
+      "input_key": "230cf30c7898b8e09fd874843e0e613ad567de642a8363ee1cab22f9035b551d",
+      "rule_version": "sample-media-v2"
+    },
+    "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba": {
+      "content_sha256": "18285ab3ee449baa5d52280c3dc701030aa400e4486592cd1e7c7bdc8f0c5236",
+      "input_key": "1dd00d7177533a77f2598e69e64ddc1903db57951eb9b65f58aca2f5b46b95b3",
+      "rule_version": "sample-media-v2"
+    },
+    "12af15ad-0e5b-53ec-a474-7feca99e5e18": {
+      "content_sha256": "b6114825aaabcd8354fdccf09d39348b046ba5b17c19d4614aabc9533ff0ab6e",
+      "input_key": "87b5199f7268f39a0c892f5167aee160ef9cebb59f41a1a823d6d62a245484d6",
+      "rule_version": "sample-media-v2"
+    },
+    "4c791226-a966-5c15-a146-ed956f58948e": {
+      "content_sha256": "891b4f4079dccfac9b93e695441edd0912d25c94598c49ec3e2a01260e5aefd5",
+      "input_key": "a191ad497c84a09fa73fbc3c6e774bb83c80ea8b3f1dacc5a77461962e1261ac",
+      "rule_version": "sample-media-v2"
+    },
+    "9396cf85-7dcb-50fe-9fae-d2b06b1082dc": {
+      "content_sha256": "d0c5e1667c1beb182fbcaf2ce9aa6c67c3e2a8c01cdc35d2964ac91a3aedd377",
+      "input_key": "1b03b17740f45521490b42c30b3982a53370dd1caa34389acadc7871eb41c4a9",
+      "rule_version": "sample-media-v2"
+    },
+    "cb8aa704-2fce-5816-be5f-b96931a57515": {
+      "content_sha256": "e6a6a8353e5165228098a8adb621ee91d58662a3233bae62641b5cd6c9ad4877",
+      "input_key": "955847dcdf096def585761a10fd0fbf5b0d295839b13549007da865e485214e4",
+      "rule_version": "sample-media-v2"
+    },
+    "e7d46c1d-76ae-5b76-818c-a56f373c3250": {
+      "content_sha256": "29b4db9ac95a8f2bdaac186938e9a722c5462a9deb30f0d7030038bf239607b5",
+      "input_key": "bd09a470c30debb23407602b8f2a49d0e7df8b4f14f6e1e6742e88e4a0b77c18",
+      "rule_version": "sample-media-v2"
+    },
+    "f8d45508-aa13-540b-8b2f-6a2b305892cd": {
+      "content_sha256": "49c31335c9637036ec3855b0921fe66712f5ed88a8f7cac2d2803575216a6e4d",
+      "input_key": "39d88c8387502c81e9619e0babcf199d458fb02b88dc6bb752d478f48721fc53",
+      "rule_version": "sample-media-v2"
+    }
+  },
+  "package": "db43afa4e04a790be80ae935621cc28c6adceb82314e5be3510707c0a55fcd88",
+  "recorded_at": "2026-09-28T11:24:14.286602+00:00",
+  "status": "passed"
+}

@@ -1,0 +1,168 @@
+{
+  "counts": {
+    "interpretation_sets": 5,
+    "logs": 127,
+    "metric_definitions": 48,
+    "source_metadata_documents_preserved": 13,
+    "spectral_streams": 2
+  },
+  "hole_id": "14KDD001",
+  "issues": [
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecDist (mm)",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TIRDeltaTemp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "RockMarks",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Subpix",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TraySamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Date",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Interactive Depth Logging",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Final Mask",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HyLogDiag",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HoleID",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustScore",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustGroup",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecSamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustSample",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Domain",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv1",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv2",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CLS Residual",
+      "severity": "info"
+    },
+    {
+      "code": "UNRESOLVED_SOURCE_REFERENCE",
+      "detail": "No name-based replacement was made.",
+      "evidence": "5657e5e5-3c71-4a06-92a1-7c75babb370",
+      "scope": "domain_id",
+      "severity": "warning"
+    },
+    {
+      "code": "COORDINATE_DECLARATIONS_DIFFER",
+      "detail": "Canonical collar uses owner-confirmed borehole.json x/y.",
+      "evidence": {
+        "borehole_xy": [
+          117.07639288,
+          -31.91965383
+        ],
+        "xml_lon_lat": [
+          117.076382,
+          -31.919667
+        ]
+      },
+      "scope": "dataset XML",
+      "severity": "warning"
+    }
+  ],
+  "normalized_metadata_sha256": "b48ba0a4a376754a99f3cd6956f4570940bfe6cea56a6a9f6ad38a47c1aca047",
+  "pipeline_id": "aa2248433e488fcb4e6b6643bd555c41d27c4ef72e549e47c8e5b81e45402c83",
+  "previous_step": 2,
+  "report_format": 2,
+  "source_snapshot_id": "c582492d2d7292aa3d0215a684e22436be45c54764b59c0013c020a1a04ff414",
+  "status": "passed_with_issues",
+  "step": 3
+}

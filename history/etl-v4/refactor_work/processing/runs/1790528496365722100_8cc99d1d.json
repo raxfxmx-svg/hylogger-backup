@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-27T17:01:35.062887+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "script": "6_verify_prepared_data.py",
+  "code_sha256": "5f5d6914508d0aebccb5c2b09f7c5c9aca1f8fd298b1e33a8c4c20ad3d08736d",
+  "sha256_file_scans": 559,
+  "sha256_bytes_read": 498089845,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 1.308971999998903,
+  "finished_at": "2026-09-27T17:01:36.365722+00:00"
+}

@@ -1,0 +1,222 @@
+{
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "checked_on": "2026-09-12",
+  "scope": "Offline dump and local files; no live database or AWS verification",
+  "checks": {
+    "sample_reference_depth_matches_dump": true,
+    "sample_reference_scalar_matches_parquet": true,
+    "sample_reference_image_dimensions_match": true,
+    "sample_reference_image_sha256_matches_manifest": true,
+    "05KCD001_129_130_same_depth_different_row": true
+  },
+  "sample_cases": [
+    {
+      "hole_id": "05KCD001",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+      "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+      "sample_no": 0,
+      "md_m": 59.5,
+      "image_region_ids": [
+        "e8e147a5-2386-5483-8b80-dfd0c67230d6"
+      ],
+      "row_intervals": [
+        [
+          0,
+          129
+        ]
+      ]
+    },
+    {
+      "hole_id": "05KCD001",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+      "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+      "sample_no": 129,
+      "md_m": 60.37269,
+      "image_region_ids": [
+        "e8e147a5-2386-5483-8b80-dfd0c67230d6"
+      ],
+      "row_intervals": [
+        [
+          0,
+          129
+        ]
+      ]
+    },
+    {
+      "hole_id": "05KCD001",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+      "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+      "sample_no": 130,
+      "md_m": 60.37269,
+      "image_region_ids": [
+        "f37dce7f-cd63-5b26-bce5-d1d0db639562"
+      ],
+      "row_intervals": [
+        [
+          130,
+          259
+        ]
+      ]
+    },
+    {
+      "hole_id": "05KCD001",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+      "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+      "sample_no": 22355,
+      "md_m": 201.5,
+      "image_region_ids": [
+        "b7159e15-d82e-5132-96fb-6ef9822a6d4e"
+      ],
+      "row_intervals": [
+        [
+          22225,
+          22355
+        ]
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+      "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+      "sample_no": 0,
+      "md_m": 62.50175,
+      "image_region_ids": [
+        "029d8fef-1907-5a35-b643-2b6a126ecea3"
+      ],
+      "row_intervals": [
+        [
+          0,
+          251
+        ]
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+      "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+      "sample_no": 15,
+      "md_m": 62.50175,
+      "image_region_ids": [
+        "029d8fef-1907-5a35-b643-2b6a126ecea3"
+      ],
+      "row_intervals": [
+        [
+          0,
+          251
+        ]
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+      "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+      "sample_no": 116423,
+      "md_m": 468.29929,
+      "image_region_ids": [
+        "d8f737b6-9b94-52d4-aad3-b5082c8bb1cc"
+      ],
+      "row_intervals": [
+        [
+          116172,
+          116423
+        ]
+      ]
+    },
+    {
+      "hole_id": "07THD003",
+      "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936",
+      "axis_id": "39f4f0a3-9ca2-5fe9-8ccf-9369ca0ba4ee",
+      "sample_no": 0,
+      "md_m": 64.00172,
+      "image_region_ids": [
+        "41b8038a-5742-5420-974f-ea957eb9e3b2"
+      ],
+      "row_intervals": [
+        [
+          0,
+          251
+        ]
+      ]
+    },
+    {
+      "hole_id": "07THD003",
+      "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936",
+      "axis_id": "39f4f0a3-9ca2-5fe9-8ccf-9369ca0ba4ee",
+      "sample_no": 54431,
+      "md_m": 251.99918,
+      "image_region_ids": [
+        "3b8a4097-77b0-50c3-bab3-862b63e6caa3"
+      ],
+      "row_intervals": [
+        [
+          54180,
+          54431
+        ]
+      ]
+    },
+    {
+      "hole_id": "09ATD015",
+      "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71",
+      "axis_id": "85089751-1589-5855-a936-d50f21c8d8d4",
+      "sample_no": 0,
+      "md_m": 63.70319,
+      "image_region_ids": [
+        "c919db0e-96f1-5098-967d-fdbcc9768bc2"
+      ],
+      "row_intervals": [
+        [
+          0,
+          134
+        ]
+      ]
+    },
+    {
+      "hole_id": "09ATD015",
+      "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71",
+      "axis_id": "85089751-1589-5855-a936-d50f21c8d8d4",
+      "sample_no": 46029,
+      "md_m": 369.39835,
+      "image_region_ids": [
+        "5133c128-3aae-5b00-a379-d92a90b12c02"
+      ],
+      "row_intervals": [
+        [
+          45896,
+          46029
+        ]
+      ]
+    },
+    {
+      "hole_id": "09ATD019",
+      "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2",
+      "axis_id": "d9afc2a4-6146-51b8-a896-8bfe3133d87e",
+      "sample_no": 0,
+      "md_m": 79.00324,
+      "image_region_ids": [
+        "db9e60ef-34db-5464-9550-c206fab0ea35"
+      ],
+      "row_intervals": [
+        [
+          0,
+          134
+        ]
+      ]
+    },
+    {
+      "hole_id": "09ATD019",
+      "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2",
+      "axis_id": "d9afc2a4-6146-51b8-a896-8bfe3133d87e",
+      "sample_no": 22649,
+      "md_m": 233.29688,
+      "image_region_ids": [
+        "90b9376c-5a8c-5a4d-80c6-7e6f355b90bb"
+      ],
+      "row_intervals": [
+        [
+          22516,
+          22649
+        ]
+      ]
+    }
+  ]
+}

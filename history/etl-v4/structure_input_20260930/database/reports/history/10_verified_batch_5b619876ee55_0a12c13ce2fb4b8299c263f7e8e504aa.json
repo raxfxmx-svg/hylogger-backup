@@ -1,0 +1,24 @@
+{
+  "activated": false,
+  "holes": [
+    {
+      "asset_bytes_hashed": 18323254,
+      "assets_hashed": 281,
+      "chunks_compared": 126,
+      "dataset_revision_id": "4c4c5aab-9400-588b-b21f-c6443f5fab9d",
+      "hole_id": "14CADD003",
+      "images_compared": 3,
+      "input_digest": "83524e384fd61ed24235627d3e1b7f1fcbfe43383ec68b516ee21c4f0bc1c409",
+      "logs_compared": 144,
+      "samples_compared": 1584,
+      "status": "passed"
+    }
+  ],
+  "http_checks": {
+    "status": "not_requested"
+  },
+  "recorded_at": "2026-09-29T23:45:30.147224+00:00",
+  "release_id": "72fb3992-0dd3-508a-b962-56585afa93b2",
+  "status": "passed",
+  "verification_code_sha256": "61e28313caf342b83345a9df74b419201f3b9e030a82bbb92045df4708787649"
+}

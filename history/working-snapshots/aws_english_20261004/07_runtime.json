@@ -1,0 +1,17 @@
+{
+  "stage": "07_runtime",
+  "exit_code": 1,
+  "seconds": 0.328,
+  "command": [
+    "C:\\path\\to\\project\\etl4\\database\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\path\\to\\project\\etl4\\database\\7_preflight_database.py",
+    "--runtime-only",
+    "--work-dir",
+    "C:\\path\\to\\project\\etl4\\refactor_work",
+    "--dbname",
+    "etl4_english_delivery_20261004"
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "log_id": "f958a494-9c1f-4e54-96c3-33d4ffb67a0",
+    "log_name": "Mosaic",
+    "sample_count": "0",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "cf3c94b5-2296-4ba3-b48a-ef2af5da6a6",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": "86",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e8e0f6d3-3d55-4c50-84e5-f7d6c8827c6",
+    "log_name": "Tray Images",
+    "sample_count": "86",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5805c122-09ee-42ad-bbcd-b1067e5e07c",
+    "log_name": "Imagery",
+    "sample_count": "36716",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b1798843-ab94-4425-9878-71911cc44ed",
+    "log_name": "Mosaic",
+    "sample_count": "0",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "084af0a5-c925-4d1f-a523-9f4b5482a6b",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": "291",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "9154ecd5-a07b-4df5-b902-f04a083668c",
+    "log_name": "Tray Images",
+    "sample_count": "291",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "f808d360-6817-485e-a648-66c1338f25f",
+    "log_name": "Imagery",
+    "sample_count": "179560",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-10T00:00:00+08:00"
+  },
+  {
+    "log_id": "d1c205a9-b530-417e-a1f7-060a41125ee",
+    "log_name": "Mosaic",
+    "sample_count": "0",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "d6c6d88f-f88e-48c7-afdb-d7e847e5417",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": "26",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "38ffdc0f-fb55-4587-9cfe-2f6d306275a",
+    "log_name": "Tray Images",
+    "sample_count": "26",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "6592d91f-2b68-4190-9103-84cfefdce50",
+    "log_name": "Imagery",
+    "sample_count": "10452",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "648dc8fe-55ef-4b1a-841b-ff701565e10",
+    "log_name": "Mosaic",
+    "sample_count": "0",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "f996642d-bc4d-48d8-a01b-43f8685eec6",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": "113",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "377ad552-72f2-4203-809d-8e61d8618fd",
+    "log_name": "Tray Images",
+    "sample_count": "113",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  },
+  {
+    "log_id": "aab42bed-590a-4cd4-9a5f-a4a2304fea7",
+    "log_name": "Imagery",
+    "sample_count": "47972",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-07T00:00:00+08:00"
+  }
+]

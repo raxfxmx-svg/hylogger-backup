@@ -1,0 +1,23 @@
+{
+  "repository": "raxfxmx-svg/hylogger",
+  "base_commit": "8de7243f0c01880927ba1f5325003f5089d980ae",
+  "final_commit": "2a6ca2312bf9a83b49644dfb46731e25895b600e",
+  "site": "https://app.example.com/",
+  "upload_method": "Edge GitHub file upload and web editor",
+  "cache": { "storage": "IndexedDB", "catalog_ttl_seconds": 300, "data_ttl_seconds": 3600, "max_payload_bytes": 134217728, "max_entries": 2048, "max_entry_bytes": 2097152 },
+  "verification": {
+    "production_build": "passed",
+    "real_browser_cache_tests": { "passed": 9, "failed": 0 },
+    "adapter_regression_tests": { "passed": 7, "failed": 0 },
+    "four_remote_files_match_local": true,
+    "deployed_cache_bundle": "/_next/static/chunks/659-c7d32b6d00dbc1d2.js",
+    "deployed_limits_and_ttls_verified": true,
+    "manual_clear_and_reload": "passed",
+    "visible_boreholes": 405,
+    "warm_directory_reload_ms": 838,
+    "measurement_scope": "Time from browser reload command to the visible 405-hole directory, not full-site interval loading",
+    "sample_dataset_endpoint_seconds": 0.6,
+    "sample_dataset_sample_count": 54432,
+    "full_site_cold_interval_load": "Still slow; not timed to completion. Existing concurrency policy unchanged."
+  }
+}

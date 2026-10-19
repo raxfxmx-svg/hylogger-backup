@@ -1,0 +1,56 @@
+{
+  "anchor_choice_basis": "lexically first source ID after all dense depth vectors verified equal",
+  "artifacts": {
+    "4_axis_bindings.json": "791b5394f32043c78fd13ceb51abf969afd297b07f8e8064421838b6544df368",
+    "4_core_intervals.json": "03e1d023306acbfe63d90f178b2343cfb1f57f6514cbcf483ef8d25f9452bc0d",
+    "4_image_frames.json": "5b878237053b4a0395348d92f2f6f49089b47811d3820bf28ac9f89939517d2d",
+    "4_sample_axis.npz": "34c1a438b1467b06b1277a62030f94baeddded6ffe6161630f1dc7ae9ae984b9"
+  },
+  "axis_id": "d2bc2cf5-8b4a-5123-9690-eea65602e7cf",
+  "dense_logs_aligned": 76,
+  "depth_anchor_log_id": "01f61f2c-3acb-49ff-a293-b28ba541f23",
+  "duplicate_depth_samples_preserved": 2984,
+  "hole_id": "09ATD019",
+  "image_depth_comparison_policy": "decimal_1e-5",
+  "image_frames_bound": 34,
+  "issues": [],
+  "observed_depth_max_m": 233.29688,
+  "observed_depth_min_m": 79.00324,
+  "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+  "position_evidence": [
+    {
+      "method": "all rows equal interval-relative one-based sample number",
+      "role": "TraySamp",
+      "source_log_id": "de7d4343-9577-455b-96c5-66b8b6a2842"
+    },
+    {
+      "method": "all rows equal interval-relative one-based sample number",
+      "role": "SecSamp",
+      "source_log_id": "add436e3-1089-4893-bba0-08892fbc0c4"
+    },
+    {
+      "role": "section_distance_mm",
+      "source_log_id": "210b478a-feb0-45f5-b71c-61a6c8a34bc"
+    }
+  ],
+  "previous_step": 3,
+  "profile_alignment_checks": [
+    {
+      "max_absolute_difference": 3.7744140684026206e-06,
+      "method": "minimum strictly positive profile value; all-zero row represented by 0; alignment evidence only",
+      "profile_log_id": "5ab298d6-ffce-425b-b539-a30b615a8cc",
+      "sample_count": 22650,
+      "scalar_log_id": "c653d95e-b50f-437a-9012-381c0d6fa87",
+      "tolerance": 0.0001
+    }
+  ],
+  "report_format": 2,
+  "sample_count": 22650,
+  "section_count": 169,
+  "source_snapshot_id": "dc8c8272dc97c57e7e2e26cad5e35630eaffd96923b333b28a53ff43ffd877a7",
+  "spectral_sample_binding_status": "unconfirmed_matrix_order",
+  "status": "passed",
+  "step": 4,
+  "tray_count": 34,
+  "unique_depth_count": 19666
+}

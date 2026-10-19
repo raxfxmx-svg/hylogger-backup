@@ -1,0 +1,146 @@
+[
+  {
+    "revision": "original",
+    "test": "search-old-response",
+    "passed": true,
+    "observation": {
+      "query": "new",
+      "displayed": [
+        "OLD"
+      ]
+    }
+  },
+  {
+    "revision": "original",
+    "test": "compare-reset-late-distance",
+    "passed": true,
+    "observation": {
+      "selectionReset": true,
+      "staleDistanceVisible": true
+    }
+  },
+  {
+    "revision": "original",
+    "test": "compare-swap-late-logs",
+    "passed": true,
+    "observation": {
+      "firstLogLabel": "B · Hole B",
+      "displayedDepth": "10",
+      "correctDepth": "20"
+    }
+  },
+  {
+    "revision": "original",
+    "test": "spectral-rejection",
+    "passed": true,
+    "observation": {
+      "unhandled": [
+        "503 spectral service unavailable"
+      ],
+      "spectralLoadingStuck": true,
+      "errorVisible": false,
+      "mineralLogRetained": true
+    }
+  },
+  {
+    "revision": "original",
+    "test": "viewer-clear-late-trace",
+    "passed": true,
+    "observation": {
+      "selectedHoles": [],
+      "displayedTraceIds": "A"
+    }
+  },
+  {
+    "revision": "original",
+    "test": "viewer-neighbours-rejection",
+    "passed": true,
+    "observation": {
+      "unhandled": [
+        "503 nearby service unavailable"
+      ],
+      "errorVisible": false,
+      "retryEnabled": true
+    }
+  },
+  {
+    "revision": "original",
+    "test": "viewer-neighbours-after-selection-cleared",
+    "passed": true,
+    "observation": {
+      "userClearedSelection": true,
+      "selectedAfterLateResponse": [
+        "B"
+      ]
+    }
+  },
+  {
+    "revision": "working",
+    "test": "search-old-response",
+    "passed": true,
+    "observation": {
+      "query": "new",
+      "displayed": [
+        "NEW"
+      ]
+    }
+  },
+  {
+    "revision": "working",
+    "test": "compare-reset-late-distance",
+    "passed": true,
+    "observation": {
+      "selectionReset": true,
+      "staleDistanceVisible": false
+    }
+  },
+  {
+    "revision": "working",
+    "test": "compare-swap-late-logs",
+    "passed": true,
+    "observation": {
+      "firstLogLabel": "B · Hole B",
+      "displayedDepth": "20",
+      "correctDepth": "20"
+    }
+  },
+  {
+    "revision": "working",
+    "test": "spectral-rejection",
+    "passed": true,
+    "observation": {
+      "unhandled": [],
+      "spectralLoadingStuck": false,
+      "errorVisible": true,
+      "mineralLogRetained": true
+    }
+  },
+  {
+    "revision": "working",
+    "test": "viewer-clear-late-trace",
+    "passed": true,
+    "observation": {
+      "selectedHoles": [],
+      "displayedTraceIds": ""
+    }
+  },
+  {
+    "revision": "working",
+    "test": "viewer-neighbours-rejection",
+    "passed": true,
+    "observation": {
+      "unhandled": [],
+      "errorVisible": true,
+      "retryEnabled": true
+    }
+  },
+  {
+    "revision": "working",
+    "test": "viewer-neighbours-after-selection-cleared",
+    "passed": true,
+    "observation": {
+      "userClearedSelection": true,
+      "selectedAfterLateResponse": []
+    }
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "counts": {
+    "interpretation_sets": 5,
+    "logs": 128,
+    "metric_definitions": 49,
+    "source_metadata_documents_preserved": 13,
+    "spectral_streams": 2
+  },
+  "hole_id": "12BRDDH003",
+  "issues": [
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Final Mask",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Date",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HoleID",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "RockMarks",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustScore",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TIRDeltaTemp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecSamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "SecDist (mm)",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "TraySamp",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustSample",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Domain",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "CustGroup",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "HyLogDiag",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Subpix",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Interactive Depth Logging",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv1",
+      "severity": "info"
+    },
+    {
+      "code": "DUPLICATE_LOG_NAME_PRESERVED",
+      "detail": "Preserved 2 source IDs",
+      "evidence": null,
+      "scope": "Deriv2",
+      "severity": "info"
+    },
+    {
+      "code": "UNRESOLVED_SOURCE_REFERENCE",
+      "detail": "No name-based replacement was made.",
+      "evidence": "12a469ec-5d93-49d9-ba8c-166ae181459",
+      "scope": "domain_id",
+      "severity": "warning"
+    },
+    {
+      "code": "COORDINATE_DECLARATIONS_DIFFER",
+      "detail": "Canonical collar uses owner-confirmed borehole.json x/y.",
+      "evidence": {
+        "borehole_xy": [
+          120.80087026,
+          -30.65676718
+        ],
+        "xml_lon_lat": [
+          120.80086,
+          -30.656781
+        ]
+      },
+      "scope": "dataset XML",
+      "severity": "warning"
+    }
+  ],
+  "normalized_metadata_sha256": "18be1cac27051429b1b9a5c272c4ae51d1a1573a4ed71291b0587aa2d6e6a833",
+  "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+  "previous_step": 2,
+  "report_format": 2,
+  "source_snapshot_id": "a7f77d9b3c9b9eb0b65483c2fff6f914395dac7c56e329d07e29d8ae00a3d3ef",
+  "status": "passed_with_issues",
+  "step": 3
+}

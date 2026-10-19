@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "datasets": 16,
+    "full_samples": 730622,
+    "holes": 11,
+    "image_rows": 4726,
+    "overview_samples": 714175,
+    "revisions": 32,
+    "spectral_arrays": 29
+  },
+  "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "report": "merge_new_input_check.json"
+}

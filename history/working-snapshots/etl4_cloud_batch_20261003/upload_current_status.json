@@ -1,0 +1,9 @@
+{
+  "status": "partial",
+  "completed_objects": 1324,
+  "expected_objects": 10163,
+  "completed_bytes": 651138157,
+  "started_at": "2026-10-03T06:30:35.948592+00:00",
+  "http_status": null,
+  "aws_error_code": null
+}

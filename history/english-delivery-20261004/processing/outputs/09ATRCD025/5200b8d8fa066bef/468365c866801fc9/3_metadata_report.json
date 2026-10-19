@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "interpretation_sets": 4,
+    "logs": 95,
+    "metric_definitions": 42,
+    "source_metadata_documents_preserved": 13,
+    "spectral_streams": 1
+  },
+  "hole_id": "09ATRCD025",
+  "issues": [
+    {
+      "code": "UNRESOLVED_SOURCE_REFERENCE",
+      "detail": "No name-based replacement was made.",
+      "evidence": "6d2c5b85-de85-4be3-84cc-875b9d69af2",
+      "scope": "domain_id",
+      "severity": "warning"
+    },
+    {
+      "code": "COORDINATE_DECLARATIONS_DIFFER",
+      "detail": "Canonical collar uses owner-confirmed borehole.json x/y.",
+      "evidence": {
+        "borehole_xy": [
+          118.51392848,
+          -27.1389674
+        ],
+        "xml_lon_lat": [
+          118.513919,
+          -27.138979
+        ]
+      },
+      "scope": "dataset XML",
+      "severity": "warning"
+    }
+  ],
+  "normalized_metadata_sha256": "6b268df9af26131ee3f06edf0349dd5fb7d68ebb2c56f0066b93c1b6f03c1f85",
+  "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+  "previous_step": 2,
+  "report_format": 2,
+  "source_snapshot_id": "5200b8d8fa066bef562f3e67012cee965139d3b3004aa3e96fca0cd828adb5cf",
+  "status": "passed_with_issues",
+  "step": 3
+}

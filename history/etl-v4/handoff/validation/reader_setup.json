@@ -1,0 +1,13 @@
+{
+  "status": "created",
+  "role": {
+    "rolname": "etl4_reader",
+    "rolsuper": false,
+    "rolcreatedb": false,
+    "rolcreaterole": false,
+    "rolreplication": false,
+    "rolbypassrls": false
+  },
+  "authentication": "IAM only",
+  "checked_at": "2026-09-17T11:08:25.749248+00:00"
+}

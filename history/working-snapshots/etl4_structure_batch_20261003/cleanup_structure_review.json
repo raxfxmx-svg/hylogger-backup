@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "changed_existing_functions": [
+    "cleanup_batch"
+  ],
+  "new_functions": [
+    "collect_cleanup_files",
+    "inspect_cleanup_files"
+  ],
+  "unchanged_function_count": 17,
+  "findings": [],
+  "reasoning": [
+    "Asset-use priority remains evidence, raw, canonical-only, then unknown. Input traversal order and temporary-manifest path checks are unchanged.",
+    "Path-content conflicts are raised before candidate exceptions are caught. Identical content at the same path is checked once. Candidate, retained, and blocked entry order is unchanged.",
+    "File-level blocking reasons are appended to the existing registry-directory block list. Report fields, preview by default, explicit apply, and the final rescan/file-identity check retain their original order."
+  ],
+  "scope": "read-only source comparison; no asset deletion or database/network access"
+}

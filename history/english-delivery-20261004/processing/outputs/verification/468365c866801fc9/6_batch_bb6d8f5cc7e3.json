@@ -1,0 +1,588 @@
+{
+  "active_holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019",
+    "09ATRCD025",
+    "09THD028",
+    "12BRDDH003",
+    "14CADD003"
+  ],
+  "all_five_verified": false,
+  "holes": [
+    {
+      "canonical_bytes": 55071022,
+      "canonical_file_count": 129,
+      "depth_range_query": {
+        "from_m": 129.71019,
+        "matched_rows": 77,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          2
+        ],
+        "source_log_id": "d51e81ed-5649-4659-a651-2ee19fd1d18",
+        "to_m": 130.21019
+      },
+      "directory": "05KCD001/0321e666c667a57a/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 59.5,
+        "returned_sample_count": 14,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "duplicate_depth_samples_preserved": 3008,
+      "hole_id": "05KCD001",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 16,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 147,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "8ff38ce6656e67077b76f5471231667be7a1b7aa648cb4671b367a9a176ef533",
+        "2_integrity.json": "9afe6af806d3bba45313ffdd2e0587f74a20b80692a66beeff2a456de5a16c48",
+        "3_metadata_report.json": "5452e5ccbcf63880411926d8fcb87f9260b938b7bd142549d0d2b6aa643708b4",
+        "4_alignment_report.json": "83437f18a0a6d36dce24cd15f83b6f4abd987f8f7d4e28a58d834176246e7152",
+        "5_storage_report.json": "5ece78a6b9d0107572ffef32fe2698128bd9eaa11fae09fc6e13920597a09000"
+      },
+      "sample_count": 22356,
+      "scalar_data_rows": 2794701,
+      "scalar_log_count": 127,
+      "source_bytes": 192386947,
+      "source_file_count": 175,
+      "source_snapshot_id": "0321e666c667a57a3d2c4be5d984e16f4a814c4b4e8625c6405d38776011d825",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 30
+    },
+    {
+      "canonical_bytes": 223062578,
+      "canonical_file_count": 109,
+      "depth_range_query": {
+        "from_m": 265.38297,
+        "matched_rows": 148,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          14
+        ],
+        "source_log_id": "3b01d87b-1a69-4e53-a8cd-15eda8a030b",
+        "to_m": 265.88297
+      },
+      "directory": "07THD002/cc38581b9b2db9bd/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 62.50175,
+        "returned_sample_count": 16,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "duplicate_depth_samples_preserved": 11047,
+      "hole_id": "07THD002",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 17,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 127,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "fb76b6eb72781dc21dbfb464ed564324d306fab45708c47266a43977889ac36f",
+        "2_integrity.json": "e37892ca89e4e0f4efcdebeab31ca80f4a2616a79abb9cfd84db41fdaa901aca",
+        "3_metadata_report.json": "7cdd98bf3bc27ad27f78a71db5aacb23ee1aaf03630a07618ae514781a9dbbda",
+        "4_alignment_report.json": "5ca14b0cf5f4ca2ad652dda24cb3a25106f44a55554fea3d9dac89063fafef6a",
+        "5_storage_report.json": "ef4dfb44874578ea45095b27764acd6a02a1d5a8f8878aa60cbc4824090d2165"
+      },
+      "sample_count": 116424,
+      "scalar_data_rows": 12225059,
+      "scalar_log_count": 107,
+      "source_bytes": 857014818,
+      "source_file_count": 202,
+      "source_snapshot_id": "cc38581b9b2db9bd38cd6c40b4ed3265b161436aeb62130f7bf326206656818b",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 77
+    },
+    {
+      "canonical_bytes": 107647256,
+      "canonical_file_count": 109,
+      "depth_range_query": {
+        "from_m": 159.91177,
+        "matched_rows": 134,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          6
+        ],
+        "source_log_id": "48ba6697-2374-4905-b812-7dd72726d56",
+        "to_m": 160.41177
+      },
+      "directory": "07THD003/5f29343cd69f590b/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 64.00172,
+        "returned_sample_count": 16,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "duplicate_depth_samples_preserved": 4888,
+      "hole_id": "07THD003",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 17,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 127,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "2fd4b3d118ee31bec61f93f2b11bc64618141e3720bf24dd979bcc6675fa57f0",
+        "2_integrity.json": "4eb66ffb2b40ae2eec8fbf6fa89c330556879220b6c59729ba35781feeca576f",
+        "3_metadata_report.json": "9d8463448f296b7d2f4a3c64fe3768d1bfcd22998cc01e9d5cd865047ec18ce1",
+        "4_alignment_report.json": "7598c7bf8545bc9aeeabe027b5a9b41ef483739d0b1fd289994e5f34bdffcd14",
+        "5_storage_report.json": "6e732747e33ea2d1916fbfbdc80a910d9d0aa545cc2b09c07702d83fec1c4f7c"
+      },
+      "sample_count": 54432,
+      "scalar_data_rows": 5715612,
+      "scalar_log_count": 107,
+      "source_bytes": 400209469,
+      "source_file_count": 161,
+      "source_snapshot_id": "5f29343cd69f590befadf0e92921cf8d347586c2125ea00bc9ade77a562136ba",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 36
+    },
+    {
+      "canonical_bytes": 68853911,
+      "canonical_file_count": 80,
+      "depth_range_query": {
+        "from_m": 215.70454,
+        "matched_rows": 74,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          5
+        ],
+        "source_log_id": "22bc32a2-a122-44e1-b14c-e340c692f43",
+        "to_m": 216.20454
+      },
+      "directory": "09ATD015/eb5faffe345f53f6/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 63.70319,
+        "returned_sample_count": 11,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "duplicate_depth_samples_preserved": 6176,
+      "hole_id": "09ATD015",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "PROFILE_CHANNEL_COUNT_CONFLICT": 1,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 1,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 91,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "1fe58121b13bb80f4a73502ba7f7cc1430f4618d870622f736adfde9fc7b4370",
+        "2_integrity.json": "9c40b37248b49b5ef355b496b58d6efb6d22942c817db0bc8c82f5e0c2ffee4d",
+        "3_metadata_report.json": "00c563cd491837552ed659bb3f11777fb9449f083f32db45bad3204b2deb9364",
+        "4_alignment_report.json": "a49382c8c8d7c6eee65ed210049f8eebd878807698ae502a905bdb0096fc1e48",
+        "5_storage_report.json": "bffea78d7d84d886e21bb96f2a6324b7010869b32bdf642a33fc17da44a6d381"
+      },
+      "sample_count": 46030,
+      "scalar_data_rows": 3498695,
+      "scalar_log_count": 78,
+      "source_bytes": 266302713,
+      "source_file_count": 167,
+      "source_snapshot_id": "eb5faffe345f53f6763027b63fdbbd981c80a9f3fc1a65b90e6aa0f98888c362",
+      "spectral_array_count": 1,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 72
+    },
+    {
+      "canonical_bytes": 33660323,
+      "canonical_file_count": 80,
+      "depth_range_query": {
+        "from_m": 156.04013,
+        "matched_rows": 63,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          2
+        ],
+        "source_log_id": "01f61f2c-3acb-49ff-a293-b28ba541f23",
+        "to_m": 156.54013
+      },
+      "directory": "09ATD019/dc8c8272dc97c57e/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 79.00324,
+        "returned_sample_count": 5,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "duplicate_depth_samples_preserved": 2984,
+      "hole_id": "09ATD019",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "PROFILE_CHANNEL_COUNT_CONFLICT": 1,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 1,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 91,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "30ab60a4ac0b6d438d2fc94a0446ca56319b7fb45fd9b7b8d0b30e07d30f0800",
+        "2_integrity.json": "6a7c40866b224ba8684ecebab78e19550af2fcb02fcbdd114480e7d08c0f44ab",
+        "3_metadata_report.json": "bad71adf3ddc91e301edaeb118826ed31eca412889297897d537dadf6ef786c3",
+        "4_alignment_report.json": "3be6a210808af69c86608639b62ee40ac2325626c2a3d8beb9aa71b992b680c6",
+        "5_storage_report.json": "7a03577ecad311f07e1ce7a6a1faafee8998a0eea8b9a166c5a6ebb8ee03396b"
+      },
+      "sample_count": 22650,
+      "scalar_data_rows": 1721603,
+      "scalar_log_count": 78,
+      "source_bytes": 130358475,
+      "source_file_count": 129,
+      "source_snapshot_id": "dc8c8272dc97c57e7e2e26cad5e35630eaffd96923b333b28a53ff43ffd877a7",
+      "spectral_array_count": 1,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 34
+    },
+    {
+      "canonical_bytes": 34185788,
+      "canonical_file_count": 84,
+      "depth_range_query": {
+        "from_m": 185.95343,
+        "matched_rows": 102,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          2
+        ],
+        "source_log_id": "40b6c032-0675-4fe6-9a0b-acc00066144",
+        "to_m": 186.45343
+      },
+      "directory": "09ATRCD025/5200b8d8fa066bef/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 110.80323,
+        "returned_sample_count": 10,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "duplicate_depth_samples_preserved": 3378,
+      "hole_id": "09ATRCD025",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 1,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 95,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "0edf453971ccd0555d2b3fc27cbac2a2e0a2ce82102af979b7b2666554ddd403",
+        "2_integrity.json": "1e278762c1484cffd8d4e9600953467d32b0849e36401f4a9d50e568f04a3845",
+        "3_metadata_report.json": "5ff645e4de8b8b66233145e285a90f4e8c290821ff776e43114960254149cf67",
+        "4_alignment_report.json": "998adb3fcbc1fc604f42f60978c30057fb32de9fd14da961ad8b5186d36a2eb0",
+        "5_storage_report.json": "1be48e8ef4fec8592e3cef3dac0099e5d8f8193c20f478bb617cd959417b7674"
+      },
+      "sample_count": 22780,
+      "scalar_data_rows": 1822604,
+      "scalar_log_count": 82,
+      "source_bytes": 134943638,
+      "source_file_count": 133,
+      "source_snapshot_id": "5200b8d8fa066bef562f3e67012cee965139d3b3004aa3e96fca0cd828adb5cf",
+      "spectral_array_count": 1,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 34
+    },
+    {
+      "canonical_bytes": 84985617,
+      "canonical_file_count": 112,
+      "depth_range_query": {
+        "from_m": 183.342,
+        "matched_rows": 80,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          5
+        ],
+        "source_log_id": "f8a72dcd-e001-4bf5-b349-ef336d98781",
+        "to_m": 183.842
+      },
+      "directory": "09THD028/55f2d7945a8d4e20/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 41.70344,
+        "returned_sample_count": 13,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "duplicate_depth_samples_preserved": 5818,
+      "hole_id": "09THD028",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 16,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 130,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "e5c77681e3598ac0faef55917bb1169e2311e75adac097975897c9a67c806713",
+        "2_integrity.json": "65571afe095219d776caffd857e622dcf478045d04aa18560ffe81cc6f5a1097",
+        "3_metadata_report.json": "0845ae53bb7b3b47048a499c526f0b2b2140a8f086388a69a288b8ce110fbc5e",
+        "4_alignment_report.json": "5fa73f8be9cfc875b84252f504a017999d40b326287aaaacc4f339ca1ac331ef",
+        "5_storage_report.json": "08b81a23c7c135bb0155ba87e9a3fd6fdca1998c2ed5ff976a032b6f7b8692bd"
+      },
+      "sample_count": 42880,
+      "scalar_data_rows": 4631440,
+      "scalar_log_count": 110,
+      "source_bytes": 346515827,
+      "source_file_count": 208,
+      "source_snapshot_id": "55f2d7945a8d4e20838327726b5dd27682bdc0289bfd2aaa00859d0b58962731",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 80
+    },
+    {
+      "canonical_bytes": 22125832,
+      "canonical_file_count": 110,
+      "depth_range_query": {
+        "from_m": 64.54882,
+        "matched_rows": 76,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          1
+        ],
+        "source_log_id": "4a47b155-69c6-4cf6-a5d6-4c67e6ab8c1",
+        "to_m": 65.04882
+      },
+      "directory": "12BRDDH003/a7f77d9b3c9b9eb0/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 20.5,
+        "returned_sample_count": 12,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "duplicate_depth_samples_preserved": 1254,
+      "hole_id": "12BRDDH003",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 17,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 128,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "bc736b154b87bbfa8811643ae34dbf58b08a99d86dd75684c9c7c15e6984c2fa",
+        "2_integrity.json": "caf98f223004c25107bcd1a140aeccd71686589a1d49915f64b302b4db67ab00",
+        "3_metadata_report.json": "5907604399632ae42ec18928adcbca3e4ea74983aa839a893fd4cc526f392b3e",
+        "4_alignment_report.json": "bb4244eedf937e91a2d04217a997643c0e70e04da2500bcc511ddb35c6bb612a",
+        "5_storage_report.json": "f2159be8dd17a1f2904bc60bfaa9226ac0723936822e7258d322e9eae5c115f1"
+      },
+      "sample_count": 10184,
+      "scalar_data_rows": 1079599,
+      "scalar_log_count": 108,
+      "source_bytes": 81058737,
+      "source_file_count": 145,
+      "source_snapshot_id": "a7f77d9b3c9b9eb0b65483c2fff6f914395dac7c56e329d07e29d8ae00a3d3ef",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 19
+    },
+    {
+      "canonical_bytes": 3819505,
+      "canonical_file_count": 126,
+      "depth_range_query": {
+        "from_m": 45.99694,
+        "matched_rows": 76,
+        "matches_original_csv": true,
+        "row_groups_read": [
+          0
+        ],
+        "source_log_id": "74e5fbf8-fb74-4f53-a204-cd74297ce60",
+        "to_m": 46.49694
+      },
+      "directory": "14CADD003/70d760dad2fcd736/468365c866801fc9",
+      "duplicate_depth_query": {
+        "depth_m": 40.80339,
+        "returned_sample_count": 9,
+        "sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "duplicate_depth_samples_preserved": 564,
+      "hole_id": "14CADD003",
+      "issue_counts": {
+        "COORDINATE_DECLARATIONS_DIFFER": 1,
+        "DUPLICATE_LOG_NAME_PRESERVED": 16,
+        "PROFILE_CHANNEL_COUNT_CONFLICT": 1,
+        "SPECTRAL_MATRIX_ORDER_UNCONFIRMED": 2,
+        "SPECTRAL_SAMPLE_BINDING_PENDING": 1,
+        "UNRESOLVED_SOURCE_REFERENCE": 1
+      },
+      "metadata_log_count": 144,
+      "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+      "profile_count": 1,
+      "report_sha256": {
+        "1_inventory.json": "87c1046158af15c4f85b8f654c7d892ba83c649894c4fcb332199769d517931c",
+        "2_integrity.json": "835c5049c4d4faf16d4d58874c7e73c2d762c2798aaf5709af6193269e86519d",
+        "3_metadata_report.json": "fe95131b0208c58ac543e503701950c5a33288dd93952c4dd1230bccc80430cb",
+        "4_alignment_report.json": "a95c2d8361fe66e55fbb7536a3f1ac1ac2c7c7c47f312a725ef63f441c8b94e7",
+        "5_storage_report.json": "7e54c33c543c3d5203f5b5f04775ea52d158206c30282e762245141e92c2418b"
+      },
+      "sample_count": 1584,
+      "scalar_data_rows": 193263,
+      "scalar_log_count": 124,
+      "source_bytes": 13302321,
+      "source_file_count": 145,
+      "source_snapshot_id": "70d760dad2fcd736cf2084c852b0210e3e8d74604838fe1bf48ee74f9389aef4",
+      "spectral_array_count": 2,
+      "status": "passed_with_known_limitations",
+      "thumbnail_count": 3
+    }
+  ],
+  "limitations": [
+    "F32 sample/wavelength order unconfirmed; no per-sample spectra published",
+    "Physical profile calibration and borehole trajectory unavailable",
+    "Source domain references remain unresolved",
+    "No confidence score computed",
+    "Database import and cloud upload not started"
+  ],
+  "pipeline_id": "468365c866801fc99a76827a4195500edf22b7bcee045f3952d1e07f33142fcb",
+  "source_check_scope": "Full raw hashes checked in step 2; selective raw rereads hashed in steps 4/5/6; source size checked at step entry; import and publication recheck content",
+  "status": "passed_with_known_limitations",
+  "totals": {
+    "canonical_bytes": 633411832,
+    "canonical_file_count": 939,
+    "duplicate_depth_samples_preserved": 39117,
+    "metadata_log_count": 1080,
+    "profile_count": 9,
+    "sample_count": 339320,
+    "scalar_data_rows": 33682576,
+    "scalar_log_count": 921,
+    "source_bytes": 2422092945,
+    "source_file_count": 1465,
+    "spectral_array_count": 15,
+    "thumbnail_count": 385
+  },
+  "verification_code_sha256": "47b7f4b38ff8fb5b365f1a90d96d423f5bde4962ff2d7df7f190cfc6e3e29589"
+}

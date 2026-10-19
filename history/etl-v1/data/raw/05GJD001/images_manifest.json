@@ -1,0 +1,378 @@
+{
+  "logs": [
+    {
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "log_id": "5775a7c6-697c-4376-b2e8-6e13a3bed81",
+      "log_name": "Mosaic",
+      "sample_count": 1,
+      "downloaded": 1,
+      "status": "complete"
+    },
+    {
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "log_name": "Tray Thumbnail Images",
+      "sample_count": 33,
+      "downloaded": 33,
+      "status": "complete"
+    },
+    {
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "log_id": "da7d9c27-208e-4818-abd6-b62d71c804e",
+      "log_name": "Tray Images",
+      "sample_count": 33,
+      "downloaded": 0,
+      "status": "unavailable"
+    },
+    {
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "log_id": "84bc55a4-050e-419b-8c59-2d87e763d1a",
+      "log_name": "Imagery",
+      "sample_count": 25938,
+      "downloaded": 0,
+      "status": "unavailable"
+    }
+  ],
+  "files": [
+    {
+      "file": "images/tray_0.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "0",
+      "depth_from": 150.0,
+      "depth_to": 154.67915,
+      "nbytes": 24468
+    },
+    {
+      "file": "images/tray_1.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "1",
+      "depth_from": 154.70323,
+      "depth_to": 159.77737,
+      "nbytes": 23323
+    },
+    {
+      "file": "images/tray_2.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "2",
+      "depth_from": 159.8031,
+      "depth_to": 164.67827,
+      "nbytes": 23518
+    },
+    {
+      "file": "images/tray_3.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "3",
+      "depth_from": 164.7031,
+      "depth_to": 169.87968,
+      "nbytes": 24964
+    },
+    {
+      "file": "images/tray_4.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "4",
+      "depth_from": 169.87968,
+      "depth_to": 174.67737,
+      "nbytes": 24055
+    },
+    {
+      "file": "images/tray_5.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "5",
+      "depth_from": 174.70323,
+      "depth_to": 179.77737,
+      "nbytes": 23969
+    },
+    {
+      "file": "images/tray_6.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "6",
+      "depth_from": 179.80362,
+      "depth_to": 185.47472,
+      "nbytes": 24226
+    },
+    {
+      "file": "images/tray_7.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "7",
+      "depth_from": 185.50285,
+      "depth_to": 190.22403,
+      "nbytes": 24341
+    },
+    {
+      "file": "images/tray_8.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "8",
+      "depth_from": 190.22403,
+      "depth_to": 195.0272,
+      "nbytes": 22563
+    },
+    {
+      "file": "images/tray_9.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "9",
+      "depth_from": 195.0272,
+      "depth_to": 199.8778,
+      "nbytes": 23700
+    },
+    {
+      "file": "images/tray_10.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "10",
+      "depth_from": 199.90279,
+      "depth_to": 204.34146,
+      "nbytes": 22848
+    },
+    {
+      "file": "images/tray_11.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "11",
+      "depth_from": 204.34146,
+      "depth_to": 209.5629,
+      "nbytes": 22487
+    },
+    {
+      "file": "images/tray_12.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "12",
+      "depth_from": 209.5629,
+      "depth_to": 214.77737,
+      "nbytes": 23058
+    },
+    {
+      "file": "images/tray_13.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "13",
+      "depth_from": 214.80336,
+      "depth_to": 219.8635,
+      "nbytes": 22244
+    },
+    {
+      "file": "images/tray_14.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "14",
+      "depth_from": 219.8635,
+      "depth_to": 225.6,
+      "nbytes": 23432
+    },
+    {
+      "file": "images/tray_15.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "15",
+      "depth_from": 225.90303,
+      "depth_to": 230.85516,
+      "nbytes": 22928
+    },
+    {
+      "file": "images/tray_16.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "16",
+      "depth_from": 230.85516,
+      "depth_to": 235.47871,
+      "nbytes": 21415
+    },
+    {
+      "file": "images/tray_17.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "17",
+      "depth_from": 235.50304,
+      "depth_to": 240.27872,
+      "nbytes": 22367
+    },
+    {
+      "file": "images/tray_18.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "18",
+      "depth_from": 240.30356,
+      "depth_to": 245.77153,
+      "nbytes": 22983
+    },
+    {
+      "file": "images/tray_19.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "19",
+      "depth_from": 245.77153,
+      "depth_to": 251.07693,
+      "nbytes": 20507
+    },
+    {
+      "file": "images/tray_20.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "20",
+      "depth_from": 251.10292,
+      "depth_to": 255.6796,
+      "nbytes": 23251
+    },
+    {
+      "file": "images/tray_21.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "21",
+      "depth_from": 255.70361,
+      "depth_to": 261.3747,
+      "nbytes": 23111
+    },
+    {
+      "file": "images/tray_22.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "22",
+      "depth_from": 261.40298,
+      "depth_to": 266.25372,
+      "nbytes": 22106
+    },
+    {
+      "file": "images/tray_23.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "23",
+      "depth_from": 266.25372,
+      "depth_to": 271.3765,
+      "nbytes": 22489
+    },
+    {
+      "file": "images/tray_24.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "24",
+      "depth_from": 271.40234,
+      "depth_to": 275.98752,
+      "nbytes": 23096
+    },
+    {
+      "file": "images/tray_25.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "25",
+      "depth_from": 275.98752,
+      "depth_to": 281.10355,
+      "nbytes": 21812
+    },
+    {
+      "file": "images/tray_26.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "26",
+      "depth_from": 281.10355,
+      "depth_to": 285.77847,
+      "nbytes": 21941
+    },
+    {
+      "file": "images/tray_27.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "27",
+      "depth_from": 285.80316,
+      "depth_to": 290.94336,
+      "nbytes": 23015
+    },
+    {
+      "file": "images/tray_28.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "28",
+      "depth_from": 290.94336,
+      "depth_to": 296.45312,
+      "nbytes": 22396
+    },
+    {
+      "file": "images/tray_29.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "29",
+      "depth_from": 296.45312,
+      "depth_to": 301.4031,
+      "nbytes": 21600
+    },
+    {
+      "file": "images/tray_30.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "30",
+      "depth_from": 301.4031,
+      "depth_to": 306.7756,
+      "nbytes": 22398
+    },
+    {
+      "file": "images/tray_31.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "31",
+      "depth_from": 306.80334,
+      "depth_to": 312.0765,
+      "nbytes": 22855
+    },
+    {
+      "file": "images/tray_32.jpg",
+      "log_id": "9a26138f-bff0-4de0-8c90-a9d55a29cf7",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "tray_thumbnail",
+      "sample_no": "32",
+      "depth_from": 312.10248,
+      "depth_to": 316.0,
+      "nbytes": 20913
+    },
+    {
+      "file": "mosaics/5775a7c6-697c-4376-b2e8-6e13a3bed81_Mosaic.html",
+      "log_id": "5775a7c6-697c-4376-b2e8-6e13a3bed81",
+      "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+      "kind": "mosaic",
+      "sample_no": null,
+      "depth_from": null,
+      "depth_to": null,
+      "nbytes": 2240
+    }
+  ]
+}

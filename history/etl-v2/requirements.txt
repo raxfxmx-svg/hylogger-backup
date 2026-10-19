@@ -1,0 +1,2 @@
+nvcl-kit==1.3.3
+requests==2.32.5

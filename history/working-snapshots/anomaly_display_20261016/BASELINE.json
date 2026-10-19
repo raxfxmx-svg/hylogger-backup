@@ -1,0 +1,32 @@
+{
+  "repository": "raxfxmx-svg/hylogger",
+  "branch": "main",
+  "commit": "0c4e96173f7f7bc4bde0164353d62ed985e75e18",
+  "files": [
+    "backend/data/anomalies.csv",
+    "frontend/.env.local.example",
+    "frontend/app/compare/page.js",
+    "frontend/app/globals.css",
+    "frontend/app/layout.js",
+    "frontend/app/page.js",
+    "frontend/app/viewer3d/page.js",
+    "frontend/components/CoreStripPanel.jsx",
+    "frontend/components/CoreTrays.jsx",
+    "frontend/components/Hole3D.jsx",
+    "frontend/components/HoleDetail.jsx",
+    "frontend/components/HoleMap.jsx",
+    "frontend/components/MapPanel.jsx",
+    "frontend/components/Nav.jsx",
+    "frontend/components/StripLog.jsx",
+    "frontend/config.js",
+    "frontend/jsconfig.json",
+    "frontend/lib/api.js",
+    "frontend/lib/coreMesh.js",
+    "frontend/lib/dataCache.js",
+    "frontend/lib/desurvey.js",
+    "frontend/lib/format.js",
+    "frontend/next.config.js",
+    "frontend/package-lock.json",
+    "frontend/package.json"
+  ]
+}

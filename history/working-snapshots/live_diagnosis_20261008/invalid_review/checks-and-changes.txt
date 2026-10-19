@@ -1,0 +1,13 @@
+INVALID Classification Fix — 2026-10-08
+
+I traced INVALID from preserved source values through the frontend and prepared an offline-tested local patch. The recorded remote main was baa66348aa4e4572af96cefa41b964299725fe13; this stage did not publish or deploy changes.
+
+API available means a value can be read, not that it names a valid mineral. The frontend excluded ASPECTRAL and NULL but let INVALID become the dominant mineral, legend entry and map color. Hiding the legend alone would not repair the statistics.
+
+The patch makes three local changes in proposal/frontend/lib/api.js: select Grp1 with mineral_group, normalize INVALID/ASPECTRAL/NULL/blank labels to null, and reuse that rule for spectral mineral labels. Other real mineral names remain accepted even when no color is configured. Original rows, values and spectra remain unchanged.
+
+Confidence remains dominant valid mineral samples divided by all samples. Eight INVALID plus two CHLORITE samples therefore give 0.2, not 1.0. All-invalid intervals retain depth/anomaly information with mineral_1=null, confidence=0 and quality_flag=missing. This is a sample-agreement fraction, not calibrated recognition probability.
+
+Replaying the complete 07THD003 log retained 54,432 rows, including 21,403 INVALID values, and all 188 intervals over 64–252 m. Relative to a baseline with the Grp1 field already corrected, dominant INVALID intervals fell from 113 to 0; INVALID intervals at or above 0.5 fell from 74 to 0; intervals below 0.5 increased from 76 to 150. At 81–82 m, the old INVALID majority was 67.28%; the valid WHITE-MICA fraction was 16.54% of all samples. No source sample was reclassified as WHITE-MICA.
+
+Six node --test verify.cjs tests passed, covering labels, denominator preservation, all-invalid intervals, depth gaps, spectral labels and the real-data replay. Evidence: frontend-invalid.patch and verification-result.json. These were offline adapter checks, not live-page acceptance.

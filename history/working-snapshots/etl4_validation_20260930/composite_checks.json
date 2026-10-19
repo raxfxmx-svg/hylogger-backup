@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "database": "etl4_validation_check_20260930",
+  "checks": [
+    "Complete composition passed",
+    "Missing interval rejected",
+    "Missing composition rejected without creating a replacement"
+  ],
+  "forced_rollback": true
+}

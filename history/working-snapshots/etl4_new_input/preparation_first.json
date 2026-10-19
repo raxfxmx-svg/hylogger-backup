@@ -1,0 +1,38 @@
+[
+  {
+    "step": 1,
+    "returncode": 0,
+    "seconds": 0.305,
+    "log": "step_1_first.log"
+  },
+  {
+    "step": 2,
+    "returncode": 0,
+    "seconds": 4.615,
+    "log": "step_2_first.log"
+  },
+  {
+    "step": 3,
+    "returncode": 0,
+    "seconds": 0.166,
+    "log": "step_3_first.log"
+  },
+  {
+    "step": 4,
+    "returncode": 0,
+    "seconds": 0.339,
+    "log": "step_4_first.log"
+  },
+  {
+    "step": 5,
+    "returncode": 0,
+    "seconds": 23.794,
+    "log": "step_5_first.log"
+  },
+  {
+    "step": 6,
+    "returncode": 0,
+    "seconds": 0.723,
+    "log": "step_6_first.log"
+  }
+]

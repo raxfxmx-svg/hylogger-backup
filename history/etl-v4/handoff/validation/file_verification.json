@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-18T11:35:15.290600+00:00",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "data_files": 2810,
+  "data_bytes": 2400546756,
+  "backup_bytes": 10240368,
+  "package_inventory_checked": true
+}

@@ -1,0 +1,17 @@
+{
+  "datasets": [
+    {
+      "dataset_id": "00000000-0000-0000-0000-000000000001",
+      "dataset_revision_id": "46de0178-b65d-5ad0-ba4e-bc1ad35e6f9d"
+    },
+    {
+      "dataset_id": "00000000-0000-0000-0000-000000000002",
+      "dataset_revision_id": "3f5bb5e8-1b49-56d8-98cb-d7ffde84277a"
+    },
+    {
+      "dataset_id": "00000000-0000-0000-0000-000000000003",
+      "dataset_revision_id": "9969d9da-2435-51a2-9395-6938a3011fb6"
+    }
+  ],
+  "expected_active_release_id": "15d351bc-fee3-5c89-ac56-7d0e6a7f3734"
+}

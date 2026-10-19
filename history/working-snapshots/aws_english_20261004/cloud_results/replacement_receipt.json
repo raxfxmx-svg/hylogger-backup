@@ -1,0 +1,22 @@
+{
+  "batch_id": "ac79c3d1825a46ce967237b230bf615e1a2425dc759f4f9a2ec947c5c8bb1fe9",
+  "database_commit": "complete",
+  "database_oid": 16456,
+  "datasets": 17,
+  "dbname": "etl4_core",
+  "holes": 12,
+  "host": "db.example.com",
+  "manifest_sha256": "d635039d2ab4640421b8dfb1ef51a76f4430aafbaeea078fe740ce7368e5c39e",
+  "old_revisions_removed": true,
+  "release_id": "0b2990a6-55d7-5569-8ac4-2b5d9fb346ac",
+  "samples": 732206,
+  "schema_and_permissions_preserved": true,
+  "seconds": 109.543,
+  "status": "complete",
+  "storage": {
+    "bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+    "prefix": "etl4",
+    "region": "ap-southeast-2",
+    "root_key": "etl4_s3_a22098dedb6798558858"
+  }
+}

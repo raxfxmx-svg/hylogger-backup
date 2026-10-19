@@ -1,0 +1,20 @@
+{
+  "stage": "06_prepared",
+  "exit_code": 0,
+  "seconds": 2.219,
+  "command": [
+    "C:\\path\\to\\project\\etl4\\database\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\path\\to\\project\\etl4\\processing\\6_verify_prepared_data.py",
+    "--raw-dir",
+    "C:\\path\\to\\project\\etl4",
+    "--work-dir",
+    "C:\\path\\to\\project\\etl4_english_delivery_20261004",
+    "--dbname",
+    "etl4_english_delivery_20261004",
+    "--db-config",
+    "C:\\path\\to\\project\\etl4\\refactor_work\\database\\runtime\\local_config.json"
+  ]
+}

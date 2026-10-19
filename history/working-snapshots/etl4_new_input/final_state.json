@@ -1,0 +1,33 @@
+{
+  "active_release": "e1083bca-f551-59d6-967a-2853c0e8cfa1",
+  "database": "etl4_new_input_check",
+  "datasets": [
+    {
+      "revision_id": "82b51c69-4d75-5e45-9909-b8f148c367e6",
+      "row_images": 170,
+      "sample_count": 22780,
+      "source_dataset_id": "80b6a3df-6fff-4748-b744-a405a44696b",
+      "source_hole_id": "09ATRCD025",
+      "spectra": 1
+    },
+    {
+      "revision_id": "bf7adeef-03f2-5f3a-93d5-b40b6d265d83",
+      "row_images": 76,
+      "sample_count": 10184,
+      "source_dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+      "source_hole_id": "12BRDDH003",
+      "spectra": 2
+    }
+  ],
+  "original_database": {
+    "active_release": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+    "database": "etl4_refactor_check",
+    "datasets": 13,
+    "revisions": 26
+  },
+  "original_state_unchanged": true,
+  "remaining_trial_databases": [],
+  "revision_count": 4,
+  "schema_migrations": 6,
+  "table_count": 39
+}

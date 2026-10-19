@@ -1,0 +1,541 @@
+{
+  "api_reviewed": false,
+  "cloud_operations": false,
+  "current": {
+    "active_state": [
+      {
+        "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+        "singleton": true,
+        "switched_at": "2026-09-09 07:13:52.773605+08:00"
+      }
+    ],
+    "crop_lineage_errors": [],
+    "crop_pixel_errors": [],
+    "database_bytes": 191204499,
+    "datasets": [
+      {
+        "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+        "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+        "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+        "sample_count": 22356,
+        "source_dataset_id": "99f2aa8a-a676-4416-964b-3f8d8dadf86",
+        "source_hole_id": "05KCD001"
+      },
+      {
+        "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+        "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+        "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+        "sample_count": 116424,
+        "source_dataset_id": "92b7750d-5bf9-4115-bf29-dff7db936f6",
+        "source_hole_id": "07THD002"
+      },
+      {
+        "axis_id": "39f4f0a3-9ca2-5fe9-8ccf-9369ca0ba4ee",
+        "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+        "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936",
+        "sample_count": 54432,
+        "source_dataset_id": "4598e2a6-7910-43c1-8894-09b01d36567",
+        "source_hole_id": "07THD003"
+      },
+      {
+        "axis_id": "85089751-1589-5855-a936-d50f21c8d8d4",
+        "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+        "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71",
+        "sample_count": 46030,
+        "source_dataset_id": "2faa992a-508f-4446-ad7d-095fa2739d1",
+        "source_hole_id": "09ATD015"
+      },
+      {
+        "axis_id": "d9afc2a4-6146-51b8-a896-8bfe3133d87e",
+        "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+        "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2",
+        "sample_count": 22650,
+        "source_dataset_id": "df915067-0e08-4c9b-abb5-763b9c98c61",
+        "source_hole_id": "09ATD019"
+      }
+    ],
+    "file_bytes_hashed": 2400546756,
+    "foreign_keys": {
+      "n": 74,
+      "unvalidated": 0
+    },
+    "invalid_indexes": [],
+    "manifest_mismatches": [],
+    "relation_violations": {
+      "axis_count_and_extent": 0,
+      "chunk_asset_log_relation": 0,
+      "chunk_dense_axis_binding": 0,
+      "chunk_interval_axis_binding": 0,
+      "chunk_profile_row_count": 0,
+      "chunk_row_sequence": 0,
+      "chunk_scalar_row_count": 0,
+      "disabled_triggers": 0,
+      "image_asset_and_tray_relation": 0,
+      "interval_depth_extent": 0,
+      "invalid_indexes": 0,
+      "location_content_identity": 0,
+      "log_has_explicit_binding_status": 0,
+      "present_logs_have_source_payload": 0,
+      "sample_interval_membership": 0,
+      "section_parent_and_extent": 0,
+      "unavailable_logs_have_no_payload": 0,
+      "unconfirmed_spectra_not_marked_usable": 0,
+      "unvalidated_constraints": 0,
+      "valid_collar_geometry": 0,
+      "weight_not_probability": 0
+    },
+    "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+    "releases": [
+      {
+        "created_at": "2026-09-08 02:46:56.455506+08:00",
+        "id": "e0acd882-5e53-5730-b5ca-2e68ce6e841d",
+        "manifest": {
+          "dataset_revisions": [
+            {
+              "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+              "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+              "input_digest": "04c2c967a034b6b63f58065135b43e272a4928bcd3c36b672c4b87777c7c1e32"
+            }
+          ],
+          "input_summary_sha256": "52906aa1972e8a552bd6c401ac4ee387b863ed1728b51dab89475896830370db",
+          "schema_sha256": "542c3ae43588a62ee5e58c6516720b2de65ea35a5a46ef5c3842c85870a84d16"
+        },
+        "manifest_sha256": "c61ba072c62adcdb105d0892f88bb0d992252b85f89ae5bbdc4b6df84154c679",
+        "release_kind": "local_verified"
+      },
+      {
+        "created_at": "2026-09-08 02:47:43.863580+08:00",
+        "id": "20bbb134-501d-54bc-9428-5ee48b6801e4",
+        "manifest": {
+          "dataset_revisions": [
+            {
+              "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+              "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+              "input_digest": "04c2c967a034b6b63f58065135b43e272a4928bcd3c36b672c4b87777c7c1e32"
+            },
+            {
+              "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+              "dataset_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+              "input_digest": "195dd32e9d60af624a2a9dbbc8d57753f4442b31ff2db84839967f9ff964f085"
+            },
+            {
+              "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+              "dataset_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+              "input_digest": "1e7a7a2a8b6483f243a40bd37b1bf451aa185c5608cc99a548e04b9eddbe95fa"
+            },
+            {
+              "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+              "dataset_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+              "input_digest": "6d37c1908c8ad280e26e1ac5f46ef062e92ff00e4c355279dc4bf9dff2c088da"
+            },
+            {
+              "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+              "dataset_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+              "input_digest": "71806b9b6eee75a1099a2ddd21303c0adf3f042826fe555e067348f3fc0372e1"
+            }
+          ],
+          "input_summary_sha256": "52906aa1972e8a552bd6c401ac4ee387b863ed1728b51dab89475896830370db",
+          "schema_sha256": "542c3ae43588a62ee5e58c6516720b2de65ea35a5a46ef5c3842c85870a84d16"
+        },
+        "manifest_sha256": "6a19ca96a2e745741e9b5e49d72e34d5060374d32c4308389e190ae983e0999b",
+        "release_kind": "local_verified"
+      },
+      {
+        "created_at": "2026-09-09 02:58:21.998553+08:00",
+        "id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+        "manifest": {
+          "dataset_revisions": [
+            {
+              "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+              "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3"
+            },
+            {
+              "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+              "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb"
+            },
+            {
+              "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+              "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936"
+            },
+            {
+              "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+              "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71"
+            },
+            {
+              "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+              "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2"
+            }
+          ],
+          "media_package_sha256": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+          "schema_sha256": "e8840cb822ad3006064c93c8fb8e69bfbd7afe46697234e6d1f77eb4972fb367",
+          "source_release_id": "20bbb134-501d-54bc-9428-5ee48b6801e4"
+        },
+        "manifest_sha256": "67f34598b1d8549cc6b59faed37eaad3366818611497c91989aee700e02bda41",
+        "release_kind": "local_media_staged"
+      }
+    ],
+    "role_privileges": {
+      "ingest": {
+        "add_row_asset": true,
+        "append_release_member": true,
+        "insert_logs": true,
+        "switch_release": true
+      },
+      "reader": {
+        "add_row_asset": false,
+        "append_release_member": false,
+        "insert_logs": false,
+        "switch_release": false
+      }
+    },
+    "row_images_checked": 1361,
+    "sample_coverage": {
+      "05KCD001": {
+        "bad_mapping": 0,
+        "n": 22356
+      },
+      "07THD002": {
+        "bad_mapping": 0,
+        "n": 116424
+      },
+      "07THD003": {
+        "bad_mapping": 0,
+        "n": 54432
+      },
+      "09ATD015": {
+        "bad_mapping": 0,
+        "n": 46030
+      },
+      "09ATD019": {
+        "bad_mapping": 0,
+        "n": 22650
+      }
+    },
+    "spectral_arrays_checked": 8,
+    "table_counts": {
+      "active_release": 1,
+      "asset": 4433,
+      "asset_location": 4433,
+      "borehole": 5,
+      "borehole_branch": 0,
+      "borehole_revision": 5,
+      "core_interval": 3220,
+      "data_chunk": 13554,
+      "data_release": 3,
+      "dataset": 5,
+      "dataset_revision": 10,
+      "dataset_segment": 0,
+      "image_frame": 498,
+      "image_region": 1361,
+      "image_region_asset": 1361,
+      "image_sample_mapping": 1361,
+      "ingest_run": 4,
+      "interpretation_input": 0,
+      "interpretation_set": 46,
+      "log_asset": 3893,
+      "log_axis_binding": 1166,
+      "metric_definition": 480,
+      "quality_issue": 150,
+      "release_dataset": 11,
+      "revision_validation": 10,
+      "sample_axis": 10,
+      "scan_log": 1166,
+      "scan_sample": 523784,
+      "schema_migration": 5,
+      "source_document": 140,
+      "source_reference": 30,
+      "spectral_array": 8,
+      "spectral_block": 448,
+      "spectral_sample_map": 8,
+      "spectral_stream": 16,
+      "survey_station": 0
+    },
+    "unique_files_hashed": 2810,
+    "validations": [
+      {
+        "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936",
+        "input_digest": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+        "result": {
+          "scope": "sample-media-v1",
+          "status": "passed"
+        },
+        "validated_at": "2026-09-09 07:13:52.773605+08:00",
+        "verification_code_sha256": "05b3b2640e9f1fcd83b9498e49cb78a5f16c0075f8b7205d3270fc83a8f736af"
+      },
+      {
+        "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+        "input_digest": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+        "result": {
+          "scope": "sample-media-v1",
+          "status": "passed"
+        },
+        "validated_at": "2026-09-09 07:13:52.773605+08:00",
+        "verification_code_sha256": "05b3b2640e9f1fcd83b9498e49cb78a5f16c0075f8b7205d3270fc83a8f736af"
+      },
+      {
+        "dataset_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+        "input_digest": "1e7a7a2a8b6483f243a40bd37b1bf451aa185c5608cc99a548e04b9eddbe95fa",
+        "result": {
+          "asset_bytes_hashed": 509897900,
+          "assets_hashed": 280,
+          "chunks_compared": 1500,
+          "dataset_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+          "hole_id": "07THD003",
+          "images_compared": 36,
+          "input_digest": "1e7a7a2a8b6483f243a40bd37b1bf451aa185c5608cc99a548e04b9eddbe95fa",
+          "logs_compared": 127,
+          "samples_compared": 54432,
+          "status": "passed"
+        },
+        "validated_at": "2026-09-08 02:47:43.863580+08:00",
+        "verification_code_sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+      },
+      {
+        "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2",
+        "input_digest": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+        "result": {
+          "scope": "sample-media-v1",
+          "status": "passed"
+        },
+        "validated_at": "2026-09-09 07:13:52.773605+08:00",
+        "verification_code_sha256": "05b3b2640e9f1fcd83b9498e49cb78a5f16c0075f8b7205d3270fc83a8f736af"
+      },
+      {
+        "dataset_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+        "input_digest": "195dd32e9d60af624a2a9dbbc8d57753f4442b31ff2db84839967f9ff964f085",
+        "result": {
+          "asset_bytes_hashed": 1083208472,
+          "assets_hashed": 321,
+          "chunks_compared": 3105,
+          "dataset_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+          "hole_id": "07THD002",
+          "images_compared": 77,
+          "input_digest": "195dd32e9d60af624a2a9dbbc8d57753f4442b31ff2db84839967f9ff964f085",
+          "logs_compared": 127,
+          "samples_compared": 116424,
+          "status": "passed"
+        },
+        "validated_at": "2026-09-08 02:47:43.863580+08:00",
+        "verification_code_sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+      },
+      {
+        "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71",
+        "input_digest": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+        "result": {
+          "scope": "sample-media-v1",
+          "status": "passed"
+        },
+        "validated_at": "2026-09-09 07:13:52.773605+08:00",
+        "verification_code_sha256": "05b3b2640e9f1fcd83b9498e49cb78a5f16c0075f8b7205d3270fc83a8f736af"
+      },
+      {
+        "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+        "input_digest": "04c2c967a034b6b63f58065135b43e272a4928bcd3c36b672c4b87777c7c1e32",
+        "result": {
+          "asset_bytes_hashed": 249184678,
+          "assets_hashed": 314,
+          "chunks_compared": 764,
+          "dataset_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+          "hole_id": "05KCD001",
+          "images_compared": 30,
+          "input_digest": "04c2c967a034b6b63f58065135b43e272a4928bcd3c36b672c4b87777c7c1e32",
+          "logs_compared": 147,
+          "samples_compared": 22356,
+          "status": "passed"
+        },
+        "validated_at": "2026-09-08 03:03:35.598185+08:00",
+        "verification_code_sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+      },
+      {
+        "dataset_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+        "input_digest": "71806b9b6eee75a1099a2ddd21303c0adf3f042826fe555e067348f3fc0372e1",
+        "result": {
+          "asset_bytes_hashed": 165226943,
+          "assets_hashed": 219,
+          "chunks_compared": 470,
+          "dataset_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+          "hole_id": "09ATD019",
+          "images_compared": 34,
+          "input_digest": "71806b9b6eee75a1099a2ddd21303c0adf3f042826fe555e067348f3fc0372e1",
+          "logs_compared": 91,
+          "samples_compared": 22650,
+          "status": "passed"
+        },
+        "validated_at": "2026-09-08 02:47:43.863580+08:00",
+        "verification_code_sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+      },
+      {
+        "dataset_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+        "input_digest": "6d37c1908c8ad280e26e1ac5f46ef062e92ff00e4c355279dc4bf9dff2c088da",
+        "result": {
+          "asset_bytes_hashed": 336858301,
+          "assets_hashed": 257,
+          "chunks_compared": 938,
+          "dataset_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+          "hole_id": "09ATD015",
+          "images_compared": 72,
+          "input_digest": "6d37c1908c8ad280e26e1ac5f46ef062e92ff00e4c355279dc4bf9dff2c088da",
+          "logs_compared": 91,
+          "samples_compared": 46030,
+          "status": "passed"
+        },
+        "validated_at": "2026-09-08 02:47:43.863580+08:00",
+        "verification_code_sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+      },
+      {
+        "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+        "input_digest": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+        "result": {
+          "scope": "sample-media-v1",
+          "status": "passed"
+        },
+        "validated_at": "2026-09-09 07:13:52.773605+08:00",
+        "verification_code_sha256": "05b3b2640e9f1fcd83b9498e49cb78a5f16c0075f8b7205d3270fc83a8f736af"
+      }
+    ]
+  },
+  "production_modified": false,
+  "recorded_at": "2026-09-09T00:36:23.823820+00:00",
+  "reproducibility": {
+    "frozen_import_requires_mutable_work": true,
+    "frozen_package_sha256": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+    "mutable_work_hashes_match_frozen_steps_now": {
+      "20": true,
+      "21": true,
+      "22": true,
+      "23": true,
+      "24": true,
+      "25": true,
+      "26": true,
+      "27": true
+    },
+    "only_current_code_changes": {
+      "29_verify_media_grain.py": {
+        "new": "ebc107be45a228270763a086f78c49f7a4777de932c86a37e92f6ff9c7665806",
+        "old": "05636b9545f1d897f8b7f7d13e4066799e0d084677f62fd693a3a7d2049e257b"
+      }
+    },
+    "rerun_would_change_all_five_revision_ids": true,
+    "same_data_rerun_package_sha256": "2825b2931692f03ca44a2b7e9d9bda036462f9660873911175ba036889ed67ee",
+    "step20_current_active_matches_original_baseline": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "work_steps_attempted": [
+      22
+    ]
+  },
+  "restore_and_fault_probes": {
+    "concurrency": [
+      {
+        "accepted": false,
+        "detail": "Overlapping visible core rows\nCONTEXT:  PL/pgSQL function check_media_insert() line 12 at RAISE",
+        "isolation": "READ COMMITTED",
+        "regions_overlap_if_accepted": true,
+        "sqlstate": "P0001"
+      },
+      {
+        "accepted": true,
+        "isolation": "REPEATABLE READ",
+        "regions_overlap_if_accepted": true
+      }
+    ],
+    "negative_probes": [
+      {
+        "accepted": true,
+        "evidence": {
+          "appended_log": "a8bb2dd5-19f3-519d-82dc-b8f48340a61b",
+          "revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+          "revision_input_digest_changed": false
+        },
+        "name": "append_log_to_published_revision"
+      },
+      {
+        "accepted": true,
+        "evidence": {
+          "manifest_members": 5,
+          "members_after": 6,
+          "members_before": 5
+        },
+        "name": "append_dataset_to_published_release"
+      },
+      {
+        "accepted": true,
+        "evidence": {
+          "active_release_id": "c47a878b-5b0c-56a0-be00-cc33726a8f5d",
+          "dataset_count": 0,
+          "validation_count": 0
+        },
+        "name": "publish_empty_unvalidated_release"
+      },
+      {
+        "accepted": true,
+        "evidence": {
+          "actual_source_region_id": "31c95be0-7c28-538b-9b89-9460acaa93f4",
+          "different_source_tray": true,
+          "region_id": "e8e147a5-2386-5483-8b80-dfd0c67230d6",
+          "same_image_log": true,
+          "wrong_asset_id": "13b473d4-9add-5bd8-a37d-e61d4532dbba"
+        },
+        "name": "attach_other_tray_crop_same_image_log"
+      },
+      {
+        "accepted": true,
+        "evidence": {
+          "accepted_without_pixel_transform": true,
+          "flip_x": true
+        },
+        "name": "native_crop_allows_flip_recipe"
+      },
+      {
+        "accepted": false,
+        "detail": "insert or update on table \"image_region\" violates foreign key constraint \"image_region_image_frame_id_dataset_revision_id_fkey\"\nDETAIL:  Key (image_frame_id, dataset_revision_id)=(adb26181-c565-5b20-b283-07de7cfed2d6, 1a5e0eac-2004-5efa-a434-9335b297",
+        "error": "ForeignKeyViolation",
+        "name": "control_cross_dataset_frame_rejected",
+        "sqlstate": "23503"
+      }
+    ],
+    "trial_database": "etl4_test_1f9c6bbab3",
+    "trial_removed": true
+  },
+  "schema_sha256": "e8840cb822ad3006064c93c8fb8e69bfbd7afe46697234e6d1f77eb4972fb367",
+  "script_sha256": "6062ae4a00600c28b2464624dd6d5f67c9bb53a8151b9e1412126ff486cb5c66",
+  "source_business_hashes": {
+    "asset": "f2ac4eabb1dd4f32e4075d83c81d583e79b792d4852bef735da4f173782b8982",
+    "asset_location": "b3c0bc4de105b3352e198d7d01c20044656b8e20da1745f3998cae5a5e245d3f",
+    "borehole": "4cfa910ec200a6ce2a9ecc56d640f712398823bae288525fa707ae2a5a5a5d5c",
+    "borehole_branch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "borehole_revision": "04f99f17fdcf9ea596890b88b2d7b07794bc9b3da3837ec9d4b9c8260dbfaa39",
+    "core_interval": "489626477e593a247f7ae82675a6359f02893d13b8d461fb651741d597dc9dc4",
+    "data_chunk": "55a553c54b49aaebae891afbb410205a9237c3d08f1717add24fe599d049d41f",
+    "data_release": "5da0523d38e6b8ad4cb4b06e0a6ed7be924aa7580b283f99efe557ba75cb2c6d",
+    "dataset": "3caa9b18617b1741648060a3bf77632a3f9e3f684b95b9ca8c716d82257716e8",
+    "dataset_revision": "178406eb01ca84294e350bfa594164d49555ef7790f765b7c2b41b96accb0679",
+    "dataset_segment": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_frame": "99f30c21522e0a117f84e511cc9fffbf0dfd9ae56e106ebc6fd5284fdfff92bd",
+    "image_region": "02b46b1cc8458b635acdfee3b27577ce79559a45b428689ff7d9459bb7184a02",
+    "image_region_asset": "390ace70f62023f005232d654a54538cb09d7932ed4008b77a217ce78e91e16d",
+    "image_sample_mapping": "6f4b66e81da4518e4254d3da8cde607a9df8d62b33f27a171d980d7c273f688f",
+    "interpretation_input": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "interpretation_set": "88c669a0b9b72b1422f88a00ada8b0ad61df2a67ccebbebe24c4a23cbdb63b14",
+    "log_asset": "98e2e1cba0c0782e716691e2395e2558f9c5dd92f72e5e8e0df1a9e6c17623f3",
+    "log_axis_binding": "1cb0972712dbd0468ea125c850fd74a3c414c677e6783d174c38574cfdf3c66d",
+    "metric_definition": "498eff5ba4a52d785fe26174dbdfd232c091a9f0161f54644534e7562367bee2",
+    "quality_issue": "1f3245eeffb099b5759e18afb54db4f25b847e38bf9e5846f110ef56c8499ca8",
+    "release_dataset": "eb75d5fc80a206d36b1b71159acf9aaca8c48f5378e2bf8311843693891b2ec2",
+    "sample_axis": "61a56c333e00326880b02f1d93fcdd422c7a17032e7feabcdb239d34d0219c5f",
+    "scan_log": "a4687c5c89c20f3dd64449216b00a55bf0fc5de7554f0ee5a25e71d4480545f0",
+    "scan_sample": "f9b7ab00fc7fa0340c4fd471e3881efa9d89d87826d9b8bd08ae465bb2a869d3",
+    "source_document": "7dfaf1ef957c195bb527087eae4b45035458c7aa35b7523e62574c1c64767435",
+    "source_reference": "a1ec9d09621738d4de23e4cd92cca7c1f4f949cb22849545f27150ef925d1b6e",
+    "spectral_array": "1948a9948e6672c939a9307ae674dda3aeef0f766364848ad523b00f7cea2f33",
+    "spectral_block": "50f2416c5b2b9a4f338c300c1ef587fb2d40f39e3eabbec8ae49f7444e10410e",
+    "spectral_sample_map": "9acc5aebe9d0a8900c1987c160fe6bbe0d120fb398eb1f5444b116ccc654a80f",
+    "spectral_stream": "d864c670929511f871ba0e42895fbde569a9d955acc4df401713be65689212e8",
+    "survey_station": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "status": "audit_complete"
+}

@@ -1,0 +1,618 @@
+{
+  "omitted": "example_selections: local read examples are not cloud asset addresses",
+  "rows": [
+    {
+      "dataset_revision_id": "0af0b122-c87a-59ab-b45e-40b07ab4290d",
+      "input_digest": "92432fe65a1d8726ad6c1adcc1fb89d8c0881f0627ebcfb03083ae218607c741",
+      "result": {
+        "assets_checked": 747,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 1212,
+          "dataset_revision_id": "0af0b122-c87a-59ab-b45e-40b07ab4290d",
+          "hole_id": "09THD028",
+          "images_compared": 80,
+          "input_digest": "92432fe65a1d8726ad6c1adcc1fb89d8c0881f0627ebcfb03083ae218607c741",
+          "logs_compared": 130,
+          "samples_compared": 42880,
+          "status": "passed"
+        },
+        "dataset_revision_id": "0af0b122-c87a-59ab-b45e-40b07ab4290d",
+        "hole_id": "09THD028",
+        "input_digest": "92432fe65a1d8726ad6c1adcc1fb89d8c0881f0627ebcfb03083ae218607c741",
+        "official_reference_spectra_compared": 20,
+        "row_count": 320,
+        "sample_count": 42880,
+        "sample_read_ms": [
+          18.33170000463724,
+          11.628599997493438,
+          11.189299999387003,
+          12.967699993168935,
+          18.042900002910756,
+          16.859800001839176
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "0b84f004-0fa3-58cf-b2d8-6f2d9fbaf4ae",
+      "input_digest": "b7d379a400cb80f3297016a01280b5006026b029a91d581a0184f3e1888e2395",
+      "result": {
+        "assets_checked": 517,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 371,
+          "dataset_revision_id": "0b84f004-0fa3-58cf-b2d8-6f2d9fbaf4ae",
+          "hole_id": "15EIS001",
+          "images_compared": 26,
+          "input_digest": "b7d379a400cb80f3297016a01280b5006026b029a91d581a0184f3e1888e2395",
+          "logs_compared": 143,
+          "samples_compared": 10452,
+          "status": "passed"
+        },
+        "dataset_revision_id": "0b84f004-0fa3-58cf-b2d8-6f2d9fbaf4ae",
+        "hole_id": "15EIS001",
+        "input_digest": "b7d379a400cb80f3297016a01280b5006026b029a91d581a0184f3e1888e2395",
+        "official_reference_spectra_compared": 20,
+        "row_count": 78,
+        "sample_count": 10452,
+        "sample_read_ms": [
+          18.195800003013574,
+          11.371599990525283,
+          11.480000001029111,
+          12.4262000026647,
+          18.44580000033602,
+          17.028800008120015
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "0f4f5f3f-8b88-5a63-b4ca-95efe2999f78",
+      "input_digest": "14702fcf7ad545333695224789727e5972237789f1f2fbc0d88a412e7c1ad898",
+      "result": {
+        "assets_checked": 582,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 764,
+          "dataset_revision_id": "0f4f5f3f-8b88-5a63-b4ca-95efe2999f78",
+          "hole_id": "05KCD001",
+          "images_compared": 30,
+          "input_digest": "14702fcf7ad545333695224789727e5972237789f1f2fbc0d88a412e7c1ad898",
+          "logs_compared": 147,
+          "samples_compared": 22356,
+          "status": "passed"
+        },
+        "dataset_revision_id": "0f4f5f3f-8b88-5a63-b4ca-95efe2999f78",
+        "hole_id": "05KCD001",
+        "input_digest": "14702fcf7ad545333695224789727e5972237789f1f2fbc0d88a412e7c1ad898",
+        "official_reference_spectra_compared": 20,
+        "row_count": 171,
+        "sample_count": 22356,
+        "sample_read_ms": [
+          21.45569999993313,
+          12.611199999810196,
+          12.039199995342642,
+          11.246499998378567,
+          17.985300000873394,
+          18.631300001288764
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "1b851a29-06ad-5324-974e-3f883b370c26",
+      "input_digest": "df4480df6c881b405dfb2b9977208038549e7536a9a113ae2ad264b6cec892c5",
+      "result": {
+        "assets_checked": 675,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 874,
+          "dataset_revision_id": "1b851a29-06ad-5324-974e-3f883b370c26",
+          "hole_id": "12CADD001",
+          "images_compared": 58,
+          "input_digest": "df4480df6c881b405dfb2b9977208038549e7536a9a113ae2ad264b6cec892c5",
+          "logs_compared": 129,
+          "samples_compared": 30632,
+          "status": "passed"
+        },
+        "dataset_revision_id": "1b851a29-06ad-5324-974e-3f883b370c26",
+        "hole_id": "12CADD001",
+        "input_digest": "df4480df6c881b405dfb2b9977208038549e7536a9a113ae2ad264b6cec892c5",
+        "official_reference_spectra_compared": 20,
+        "row_count": 232,
+        "sample_count": 30632,
+        "sample_read_ms": [
+          17.892400006530806,
+          11.51650000247173,
+          11.52390000061132,
+          11.442200004239567,
+          19.047099995077588,
+          17.10159999493044
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "3a347664-386f-54e0-8572-4507e72a66dc",
+      "input_digest": "80ac9022f9de840c043d0c649d0e09185695cab739de38f3c6810302d3277c02",
+      "result": {
+        "assets_checked": 880,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 3105,
+          "dataset_revision_id": "3a347664-386f-54e0-8572-4507e72a66dc",
+          "hole_id": "07THD002",
+          "images_compared": 77,
+          "input_digest": "80ac9022f9de840c043d0c649d0e09185695cab739de38f3c6810302d3277c02",
+          "logs_compared": 127,
+          "samples_compared": 116424,
+          "status": "passed"
+        },
+        "dataset_revision_id": "3a347664-386f-54e0-8572-4507e72a66dc",
+        "hole_id": "07THD002",
+        "input_digest": "80ac9022f9de840c043d0c649d0e09185695cab739de38f3c6810302d3277c02",
+        "official_reference_spectra_compared": 20,
+        "row_count": 462,
+        "sample_count": 116424,
+        "sample_read_ms": [
+          17.851399999926798,
+          11.176500003784895,
+          11.230199990677647,
+          11.075000002165325,
+          19.113799993647262,
+          17.494199986686
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "87ff003a-7ec9-54b6-9927-d2a518e34aae",
+      "input_digest": "fa2cda0b96c74e8aae91c52976ca1307cf03b66ddec0489b6a477e9950d1f340",
+      "result": {
+        "assets_checked": 593,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 1500,
+          "dataset_revision_id": "87ff003a-7ec9-54b6-9927-d2a518e34aae",
+          "hole_id": "07THD003",
+          "images_compared": 36,
+          "input_digest": "fa2cda0b96c74e8aae91c52976ca1307cf03b66ddec0489b6a477e9950d1f340",
+          "logs_compared": 127,
+          "samples_compared": 54432,
+          "status": "passed"
+        },
+        "dataset_revision_id": "87ff003a-7ec9-54b6-9927-d2a518e34aae",
+        "hole_id": "07THD003",
+        "input_digest": "fa2cda0b96c74e8aae91c52976ca1307cf03b66ddec0489b6a477e9950d1f340",
+        "official_reference_spectra_compared": 20,
+        "row_count": 216,
+        "sample_count": 54432,
+        "sample_read_ms": [
+          18.999799998709932,
+          11.965099998633377,
+          11.26319999457337,
+          11.759800006984733,
+          18.883099997765385,
+          16.40140000381507
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "8957b9af-cb99-5489-9f7a-77d4d9642b76",
+      "input_digest": "483809440032688f74a8353513c108397af8db9b5e3e64a2594943c8022158a2",
+      "result": {
+        "assets_checked": 485,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 470,
+          "dataset_revision_id": "8957b9af-cb99-5489-9f7a-77d4d9642b76",
+          "hole_id": "09ATD019",
+          "images_compared": 34,
+          "input_digest": "483809440032688f74a8353513c108397af8db9b5e3e64a2594943c8022158a2",
+          "logs_compared": 91,
+          "samples_compared": 22650,
+          "status": "passed"
+        },
+        "dataset_revision_id": "8957b9af-cb99-5489-9f7a-77d4d9642b76",
+        "hole_id": "09ATD019",
+        "input_digest": "483809440032688f74a8353513c108397af8db9b5e3e64a2594943c8022158a2",
+        "official_reference_spectra_compared": 10,
+        "row_count": 169,
+        "sample_count": 22650,
+        "sample_read_ms": [
+          15.981300006387755,
+          9.147600008873269,
+          8.890800003428012,
+          9.12969998898916,
+          14.114699995843694,
+          12.18610000796616
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "996e4d74-98ea-5244-8c0e-5f56d1031d2e",
+      "input_digest": "830c87e53512cf82db3960014504e97843f01ae7839b8abe9551fab91e6e0945",
+      "result": {
+        "assets_checked": 531,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 965,
+          "dataset_revision_id": "996e4d74-98ea-5244-8c0e-5f56d1031d2e",
+          "hole_id": "14KDD001",
+          "images_compared": 25,
+          "input_digest": "830c87e53512cf82db3960014504e97843f01ae7839b8abe9551fab91e6e0945",
+          "logs_compared": 127,
+          "samples_compared": 33150,
+          "status": "passed"
+        },
+        "dataset_revision_id": "996e4d74-98ea-5244-8c0e-5f56d1031d2e",
+        "hole_id": "14KDD001",
+        "input_digest": "830c87e53512cf82db3960014504e97843f01ae7839b8abe9551fab91e6e0945",
+        "official_reference_spectra_compared": 20,
+        "row_count": 125,
+        "sample_count": 33150,
+        "sample_read_ms": [
+          17.688599997200072,
+          10.751399997388944,
+          10.598900000331923,
+          12.31809999444522,
+          17.054199997801334,
+          15.951300010783598
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "9e6e4287-ac60-546f-b8a0-ba1586cc76c2",
+      "input_digest": "b2bdba226b71a1753dc3384ee1b49138e455157950ed7427515047784b527402",
+      "result": {
+        "assets_checked": 783,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 1154,
+          "dataset_revision_id": "9e6e4287-ac60-546f-b8a0-ba1586cc76c2",
+          "hole_id": "15EIS001",
+          "images_compared": 86,
+          "input_digest": "b2bdba226b71a1753dc3384ee1b49138e455157950ed7427515047784b527402",
+          "logs_compared": 148,
+          "samples_compared": 36716,
+          "status": "passed"
+        },
+        "dataset_revision_id": "9e6e4287-ac60-546f-b8a0-ba1586cc76c2",
+        "hole_id": "15EIS001",
+        "input_digest": "b2bdba226b71a1753dc3384ee1b49138e455157950ed7427515047784b527402",
+        "official_reference_spectra_compared": 20,
+        "row_count": 274,
+        "sample_count": 36716,
+        "sample_read_ms": [
+          19.596500002080575,
+          11.976399997365661,
+          12.126600006013177,
+          11.968999999226071,
+          17.10080000339076,
+          18.16139998845756
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "a8b9e366-fda2-5219-a96a-595875bace5a",
+      "input_digest": "f9f61df4949f44bb8ce69898c83a1514977a29bc0b4846507b32be0c405ef798",
+      "result": {
+        "assets_checked": 880,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 1454,
+          "dataset_revision_id": "a8b9e366-fda2-5219-a96a-595875bace5a",
+          "hole_id": "15EIS001",
+          "images_compared": 113,
+          "input_digest": "f9f61df4949f44bb8ce69898c83a1514977a29bc0b4846507b32be0c405ef798",
+          "logs_compared": 141,
+          "samples_compared": 47972,
+          "status": "passed"
+        },
+        "dataset_revision_id": "a8b9e366-fda2-5219-a96a-595875bace5a",
+        "hole_id": "15EIS001",
+        "input_digest": "f9f61df4949f44bb8ce69898c83a1514977a29bc0b4846507b32be0c405ef798",
+        "official_reference_spectra_compared": 20,
+        "row_count": 358,
+        "sample_count": 47972,
+        "sample_read_ms": [
+          18.962500005727634,
+          11.522000000695698,
+          11.380800002370961,
+          10.929500000202097,
+          18.08799999707844,
+          17.334999996819533
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "b6488e13-80ac-56c1-b245-ab3b3eea6b98",
+      "input_digest": "28ea67efc33cebc851447594aa234374f2fc64662ef0d8a34a60c058f5596d27",
+      "result": {
+        "assets_checked": 494,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 494,
+          "dataset_revision_id": "b6488e13-80ac-56c1-b245-ab3b3eea6b98",
+          "hole_id": "09ATRCD025",
+          "images_compared": 34,
+          "input_digest": "28ea67efc33cebc851447594aa234374f2fc64662ef0d8a34a60c058f5596d27",
+          "logs_compared": 95,
+          "samples_compared": 22780,
+          "status": "passed"
+        },
+        "dataset_revision_id": "b6488e13-80ac-56c1-b245-ab3b3eea6b98",
+        "hole_id": "09ATRCD025",
+        "input_digest": "28ea67efc33cebc851447594aa234374f2fc64662ef0d8a34a60c058f5596d27",
+        "official_reference_spectra_compared": 10,
+        "row_count": 170,
+        "sample_count": 22780,
+        "sample_read_ms": [
+          16.905500000575557,
+          9.222599997883663,
+          9.44069999968633,
+          8.9214999898104,
+          14.001000003190711,
+          13.17160000326112
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "b7965d1c-9968-56fe-a6eb-8b662a0131fe",
+      "input_digest": "2272f3ea53265caa640e5c34a0b83c548db566f9c2c8b68d21871f266a1768bb",
+      "result": {
+        "assets_checked": 2040,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 5326,
+          "dataset_revision_id": "b7965d1c-9968-56fe-a6eb-8b662a0131fe",
+          "hole_id": "15EIS001",
+          "images_compared": 291,
+          "input_digest": "2272f3ea53265caa640e5c34a0b83c548db566f9c2c8b68d21871f266a1768bb",
+          "logs_compared": 141,
+          "samples_compared": 179560,
+          "status": "passed"
+        },
+        "dataset_revision_id": "b7965d1c-9968-56fe-a6eb-8b662a0131fe",
+        "hole_id": "15EIS001",
+        "input_digest": "2272f3ea53265caa640e5c34a0b83c548db566f9c2c8b68d21871f266a1768bb",
+        "official_reference_spectra_compared": 20,
+        "row_count": 1340,
+        "sample_count": 179560,
+        "sample_read_ms": [
+          19.301200009067543,
+          12.139600003138185,
+          12.536199996247888,
+          12.140499995439313,
+          19.86850000685081,
+          19.639899997855537
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "bc2772e4-7111-562d-a290-569b4e76a494",
+      "input_digest": "1a2523ab2a1c625206f81fe60376fba5e919427523b158ddf6ee9288f148fa84",
+      "result": {
+        "assets_checked": 938,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 1838,
+          "dataset_revision_id": "bc2772e4-7111-562d-a290-569b4e76a494",
+          "hole_id": "12CADD001",
+          "images_compared": 93,
+          "input_digest": "1a2523ab2a1c625206f81fe60376fba5e919427523b158ddf6ee9288f148fa84",
+          "logs_compared": 173,
+          "samples_compared": 49104,
+          "status": "passed"
+        },
+        "dataset_revision_id": "bc2772e4-7111-562d-a290-569b4e76a494",
+        "hole_id": "12CADD001",
+        "input_digest": "1a2523ab2a1c625206f81fe60376fba5e919427523b158ddf6ee9288f148fa84",
+        "official_reference_spectra_compared": 20,
+        "row_count": 372,
+        "sample_count": 49104,
+        "sample_read_ms": [
+          18.287500002770685,
+          11.386800004402176,
+          10.394900004030205,
+          11.811100004706532,
+          16.835000002174638,
+          16.866300007677637
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "c06e2010-173e-55f1-9d05-dbbcd045c5fc",
+      "input_digest": "996e7ea722d3a33a2882677be0276153018ac5d76fe8cf715c093bc867b993e4",
+      "result": {
+        "assets_checked": 390,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 126,
+          "dataset_revision_id": "c06e2010-173e-55f1-9d05-dbbcd045c5fc",
+          "hole_id": "14CADD003",
+          "images_compared": 3,
+          "input_digest": "996e7ea722d3a33a2882677be0276153018ac5d76fe8cf715c093bc867b993e4",
+          "logs_compared": 144,
+          "samples_compared": 1584,
+          "status": "passed"
+        },
+        "dataset_revision_id": "c06e2010-173e-55f1-9d05-dbbcd045c5fc",
+        "hole_id": "14CADD003",
+        "input_digest": "996e7ea722d3a33a2882677be0276153018ac5d76fe8cf715c093bc867b993e4",
+        "official_reference_spectra_compared": 16,
+        "row_count": 12,
+        "sample_count": 1584,
+        "sample_read_ms": [
+          16.83459999912884,
+          11.007799999788404,
+          10.881199996219948,
+          11.440599992056377,
+          10.72310000017751,
+          14.220699988072738
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "e61c5a3b-618c-51bb-b1a3-1e7fe2197e43",
+      "input_digest": "d33cc87e28a3c9d0ba6426f10ddec3b8af96b0acd2bef04cf7da6380c611386f",
+      "result": {
+        "assets_checked": 697,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 938,
+          "dataset_revision_id": "e61c5a3b-618c-51bb-b1a3-1e7fe2197e43",
+          "hole_id": "09ATD015",
+          "images_compared": 72,
+          "input_digest": "d33cc87e28a3c9d0ba6426f10ddec3b8af96b0acd2bef04cf7da6380c611386f",
+          "logs_compared": 91,
+          "samples_compared": 46030,
+          "status": "passed"
+        },
+        "dataset_revision_id": "e61c5a3b-618c-51bb-b1a3-1e7fe2197e43",
+        "hole_id": "09ATD015",
+        "input_digest": "d33cc87e28a3c9d0ba6426f10ddec3b8af96b0acd2bef04cf7da6380c611386f",
+        "official_reference_spectra_compared": 10,
+        "row_count": 343,
+        "sample_count": 46030,
+        "sample_read_ms": [
+          15.115600006538443,
+          10.129599992069416,
+          9.020500001497567,
+          9.232199998223223,
+          14.657500010798685,
+          13.755399995716289
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "e705e1bd-466d-5c37-b381-7dc4a6596f32",
+      "input_digest": "eecb2b1db49cc3829f2390f5335688b3b368c814a8ee3803ae4ecd02a7f0569c",
+      "result": {
+        "assets_checked": 405,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 216,
+          "dataset_revision_id": "e705e1bd-466d-5c37-b381-7dc4a6596f32",
+          "hole_id": "14KDD001",
+          "images_compared": 4,
+          "input_digest": "eecb2b1db49cc3829f2390f5335688b3b368c814a8ee3803ae4ecd02a7f0569c",
+          "logs_compared": 127,
+          "samples_compared": 5300,
+          "status": "passed"
+        },
+        "dataset_revision_id": "e705e1bd-466d-5c37-b381-7dc4a6596f32",
+        "hole_id": "14KDD001",
+        "input_digest": "eecb2b1db49cc3829f2390f5335688b3b368c814a8ee3803ae4ecd02a7f0569c",
+        "official_reference_spectra_compared": 20,
+        "row_count": 20,
+        "sample_count": 5300,
+        "sample_read_ms": [
+          18.703900001128204,
+          11.175399995408952,
+          10.491499997442588,
+          11.40240000677295,
+          14.743599997018464,
+          13.892100003431551
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    },
+    {
+      "dataset_revision_id": "fa9340c3-fa4f-5f1b-ac32-1e92c55685a6",
+      "input_digest": "b7e6f1d558a6b1a059a08f4775370c2ca3c262a74a69dbf9143eabfd60811170",
+      "result": {
+        "assets_checked": 438,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 326,
+          "dataset_revision_id": "fa9340c3-fa4f-5f1b-ac32-1e92c55685a6",
+          "hole_id": "12BRDDH003",
+          "images_compared": 19,
+          "input_digest": "b7e6f1d558a6b1a059a08f4775370c2ca3c262a74a69dbf9143eabfd60811170",
+          "logs_compared": 128,
+          "samples_compared": 10184,
+          "status": "passed"
+        },
+        "dataset_revision_id": "fa9340c3-fa4f-5f1b-ac32-1e92c55685a6",
+        "hole_id": "12BRDDH003",
+        "input_digest": "b7e6f1d558a6b1a059a08f4775370c2ca3c262a74a69dbf9143eabfd60811170",
+        "official_reference_spectra_compared": 20,
+        "row_count": 76,
+        "sample_count": 10184,
+        "sample_read_ms": [
+          17.411599998013116,
+          11.570800008485094,
+          11.421899995184503,
+          11.648100000456907,
+          16.930099998717196,
+          16.995199999655597
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 20:01:10.624750+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    }
+  ],
+  "source_rows_sha256": "6ceb73d45b1bbccbcb420778bb04d25d15cf194df7b6a03e4f181b1208e76d05"
+}

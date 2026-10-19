@@ -1,0 +1,13 @@
+Live Display Diagnosis — 2026-10-08
+
+I compared deployed frontend code, public API responses and recorded deployment details, then replayed the adapter locally. The confirmed cause of 99 visible holes but zero mineral intervals, spectra and photos was the Grp1 selector in frontend/lib/api.js: it required mineral_name, while the actual log metric_key was mineral_group. That empty selection also prevented spectral requests and removed sample-depth mappings used by photo intervals.
+
+The deployed build matched main baa66348aa4e4572af96cefa41b964299725fe13, and its public JavaScript contained the same selector. Health and CORS checks passed. An image endpoint was tested separately; health alone does not prove image access. No GitHub, AWS configuration or production deployment was changed during this diagnosis.
+
+For 07THD003, 11 pages returned all 54,432 Grp1 records. Sample 16 at 64.00539 m returned WHITE-MICA, a 341-channel TIR spectrum, a 531-channel VSWIR spectrum and a 399×24 row image. The image endpoint returned HTTP 200, image/png and 22,409 bytes. The first Section covered samples 0–251 at approximately 64.00172–64.85549 m. The tested high-anomaly endpoint returned an empty list; this did not establish the total anomaly count for other holes.
+
+node reproduce.cjs executed the saved adapter with recorded API responses. Original code produced zero intervals and zero scalar-value reads. Changing only the Grp1 selector produced 188 intervals over 64–252 m and 11 scalar pages. See reproduction-result.json.
+
+A second issue was INVALID being treated as a mineral. The same log contained 21,403 INVALID values; after correcting only the selector, 113 intervals were dominated by INVALID and 74 met the 0.5 threshold. Excluding INVALID from mineral candidates retained all intervals. The fix must preserve those samples in the denominator.
+
+All-hole concurrency and failure-to-empty conversions were additional reliability risks, not proven causes of this incident. No live stress test or HTTP 429 occurrence was established. The recommended sequence was the narrow selector fix, invalid-label handling, visible errors, shared request limits and independent sample/interval reads, followed by page regression and deployment verification. No database rewrite or extra cloud resource was needed to fix the confirmed selector defect.

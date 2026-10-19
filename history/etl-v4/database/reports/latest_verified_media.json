@@ -1,0 +1,13 @@
+{
+  "active_sample_count": 261892,
+  "backup_report": "14_database_only_restore.json",
+  "backup_sha256": "cb6a405cfd65fc51f6cdbfa6c95bcaa8630c196b9add29f38abc7de282848bab",
+  "current_code_sha256": "05b3b2640e9f1fcd83b9498e49cb78a5f16c0075f8b7205d3270fc83a8f736af",
+  "image_region_count": 1361,
+  "imported_code_sha256": "f4b3f668498440576bb57e809eea6ed776a956da73a01721e7fcca9fbae88bc6",
+  "recorded_at": "2026-09-08T23:20:53.312456+00:00",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "schema_sha256": "e8840cb822ad3006064c93c8fb8e69bfbd7afe46697234e6d1f77eb4972fb367",
+  "status": "passed",
+  "verification_report": "29_media_verification.json"
+}

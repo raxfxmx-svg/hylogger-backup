@@ -1,0 +1,13 @@
+[
+  {
+    "log_id": "813dac13-7e90-4a42-ab7e-959f96e3ff7",
+    "log_name": "Profile log",
+    "sample_count": 116424,
+    "channel_count": 64,
+    "file": "profilometer/813dac13-7e90-4a42-ab7e-959f96e3ff7_Profile_log.jsonl",
+    "records": 116424,
+    "nbytes": 80840573,
+    "sha256": "486deff3af8e8616adf4b39f03a0171ae5fd270b7140fcd4fdbd7c2e6ce7302e",
+    "status": "complete"
+  }
+]

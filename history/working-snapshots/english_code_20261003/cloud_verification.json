@@ -1,0 +1,38 @@
+{
+  "38_export_batch.py": {
+    "syntax": "passed",
+    "non_text_ast": "unchanged",
+    "uploaded_copy": "identical",
+    "runtime_chinese_tokens": 0
+  },
+  "39_upload_batch.py": {
+    "syntax": "passed",
+    "non_text_ast": "unchanged",
+    "uploaded_copy": "identical",
+    "runtime_chinese_tokens": 0
+  },
+  "40_merge_cloud_batch.py": {
+    "syntax": "passed",
+    "non_text_ast": "unchanged",
+    "uploaded_copy": "identical",
+    "runtime_chinese_tokens": 0
+  },
+  "41_cleanup_batch.py": {
+    "syntax": "passed",
+    "non_text_ast": "unchanged",
+    "uploaded_copy": "identical",
+    "runtime_chinese_tokens": 0
+  },
+  "_batch_files.py": {
+    "syntax": "passed",
+    "non_text_ast": "unchanged",
+    "uploaded_copy": "identical",
+    "runtime_chinese_tokens": 0
+  },
+  "_s3_upload.py": {
+    "syntax": "passed",
+    "non_text_ast": "unchanged",
+    "uploaded_copy": "identical",
+    "runtime_chinese_tokens": 0
+  }
+}

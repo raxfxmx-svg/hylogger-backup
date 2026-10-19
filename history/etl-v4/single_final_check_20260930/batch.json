@@ -1,0 +1,52 @@
+{
+  "decisions": {
+    "confirmation_date": "2026-09-24",
+    "confirmation_text": "Confirm the order and display switch points listed above.",
+    "confirmed_by": "project_owner",
+    "contract": "confirmed-successor-display-v1",
+    "display_2d": "all_datasets_complete_shared_md_scale_independent_images",
+    "display_3d": "single_composite_no_branches",
+    "missing_values": "preserve_no_automatic_fallback",
+    "orders": {
+      "12CADD001": [
+        "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+        "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+      ],
+      "14KDD001": [
+        "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+        "c10744cc-2e42-478a-8bc3-7cea1059044"
+      ],
+      "15EIS001": [
+        "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+        "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+        "c83afeab-5697-4476-b24a-e210af12137",
+        "56d5fe91-626f-48ad-8786-acf91fe83a5"
+      ]
+    },
+    "relation_basis": "Project owner confirmed original/wedge succession and display order; not independently surveyed branch topology",
+    "return_to_predecessor": false,
+    "switch_depth_rule": "successor_first_actual_sample_md_m"
+  },
+  "packages": [
+    {
+      "directory": "refactor_work/database/media_releases/fdd304c10b47bf3d0f07ef2164ae8aa2183106cbdcd22f8f13fc1f7a6554ef57",
+      "prepared_work_dir": "refactor_work"
+    },
+    {
+      "directory": "refactor_work/database/media_releases/db43afa4e04a790be80ae935621cc28c6adceb82314e5be3510707c0a55fcd88",
+      "prepared_work_dir": "refactor_work"
+    },
+    {
+      "directory": "new_input_check/database/media_releases/72ca8878b9f2eaa97ef060ad17c514d4b29c02a6f1199fd988abf2832e4c7611",
+      "prepared_work_dir": "new_input_check"
+    },
+    {
+      "directory": "new_input_check/random_09THD028/database/media_releases/1e61a6bcb1602865cf6ba9b814fde535c476220cac8425bed33f95cb7c280876",
+      "prepared_work_dir": "new_input_check/random_09THD028"
+    },
+    {
+      "directory": "structure_input_20260930/database/media_releases/ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05",
+      "prepared_work_dir": "structure_input_20260930"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "content": {
+    "datasets": {
+      "00000000-0000-0000-0000-000000000002": {
+        "raw_assets": [
+          {
+            "byte_size": 26,
+            "sha256": "0028b22a15f6033901c2caabdcaf96262b29e02aadec72b9fe81a336adf1a971",
+            "source_relative_path": "2.bin"
+          }
+        ],
+        "source_revision_id": "e9c50d15-0e2d-5fa7-836f-2afbcb6e803e"
+      }
+    },
+    "package_sha256": "a0bc291f221b639eb1908de7bbbb4391e4dc7a5cbc429b85a499b1d081e785ec"
+  },
+  "content_sha256": "fe14614f7a537e0b7403a534f88e00ddd1db3dfd9efe354a6fedfb95a161b239",
+  "fixture_only": true,
+  "stage": 1,
+  "status": "passed"
+}

@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-28T04:56:36.071820+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "script": "24_detect_image_rows.py",
+  "code_sha256": "f94cb9a006f84b156b837045e6d5166cecfafcacfb9cfc2fe18b386f21c221be",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.23852549999719486,
+  "finished_at": "2026-09-28T04:56:36.309914+00:00"
+}

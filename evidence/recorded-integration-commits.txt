@@ -1,0 +1,7 @@
+Local repository commit metadata; author filter: raxfxmx-svg. No remote verification was performed.
+
+62c532b 2026-10-05 Resolve live smoke-check identities from the active release
+41a9e9d 2026-10-05 Integrate dataset-based FastAPI views and prepare read-only AWS backend
+f63e5cb 2026-10-05 Replace unavailable streets basemap and keep attribution visible
+28f5257 2026-10-05 Preserve complete dependency lockfile and normalize source line endings
+84fdbc4 2026-10-05 Fix frontend map readiness, stale requests and production API handling

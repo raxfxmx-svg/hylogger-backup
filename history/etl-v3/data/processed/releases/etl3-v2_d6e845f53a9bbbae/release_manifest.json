@@ -1,0 +1,1314 @@
+{
+  "schema_version": "etl3.processed.v2",
+  "release_id": "etl3-v2_d6e845f53a9bbbae",
+  "created_at": "2026-08-25T16:09:55+00:00",
+  "holes": [
+    "05GJD001"
+  ],
+  "source_raw_key": "data/raw/05GJD001",
+  "source_package_status": "complete_with_warnings",
+  "source_content_fingerprint": "d6e845f53a9bbbae3a7f216bd860eeeeb6a5956388284cae497dbae824fd2d7c",
+  "source_raw_tree": {
+    "file_count": 175,
+    "nbytes": 187029702,
+    "tree_sha256": "f28638f1fba40cf68a1b3aa06bec69161aa5718c61d337e1203a1ccc0afb55b8"
+  },
+  "counts": {
+    "hole_count": 1,
+    "dataset_count": 1,
+    "sample_count": 25938,
+    "scalar_source_series_count": 125,
+    "scalar_physical_value_columns": 106,
+    "tray_count": 33,
+    "section_count": 198,
+    "section_image_mapping_rows": 198,
+    "core_strip_complete_count": 198,
+    "spectral_source_series_count": 15,
+    "spectral_complete_series_count": 2,
+    "spectral_axis_count": 2,
+    "asset_catalog_rows": 234,
+    "availability_rows": 145
+  },
+  "files": [
+    {
+      "storage_key": "catalog/assets.parquet",
+      "nbytes": 23582,
+      "sha256": "b2323721cf7a96789fe0a153073fba2675794bcb9d5985ca47e6d732b4d4caec"
+    },
+    {
+      "storage_key": "catalog/availability.parquet",
+      "nbytes": 6994,
+      "sha256": "ee537417f11f4ade0277748aa9eba2d4fc2f4a94e3de24cc724a30f5641a72b6"
+    },
+    {
+      "storage_key": "catalog/datasets.parquet",
+      "nbytes": 11456,
+      "sha256": "b6fec82ccd537faa17a8fd7f63e5d942a7045781f2435d093b305101259515a5"
+    },
+    {
+      "storage_key": "catalog/holes.parquet",
+      "nbytes": 4216,
+      "sha256": "c90e1b3625fe8e19a9f7db956fded791918017fe462f208fc39994db93fe9cae"
+    },
+    {
+      "storage_key": "catalog/scalar_series.parquet",
+      "nbytes": 24968,
+      "sha256": "6279e1844e92656811987eb5198d7eccc51ad8ebb3591b946678d6307a611ff4"
+    },
+    {
+      "storage_key": "catalog/spectral_axes.parquet",
+      "nbytes": 2309,
+      "sha256": "6d7154fa3602cb7e2eb6b6c7c20aee0d0a0dfac505bbbd155dbcc195cb1f08c8"
+    },
+    {
+      "storage_key": "catalog/spectral_series.parquet",
+      "nbytes": 9392,
+      "sha256": "b4b04dabcd8e046a2ca88d2c753007b814c7411513d60d398a6e2ac07eb13e8a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/catalog.json",
+      "nbytes": 221655,
+      "sha256": "06668939ddb6a1c822c19354c4d9f28d15a288173e0e932011eda23212061fcb"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0001_sec_1.jpg",
+      "nbytes": 6075,
+      "sha256": "77f3a3e6a49e66a2d61a509d6a4f865cb253d5a6c840d922facc0dee7e3f8f48"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0001_sec_2.jpg",
+      "nbytes": 4996,
+      "sha256": "276411ba952bc18e18591788d695ee410c8d638424f1a733d3f89a5f5a3b1d26"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0001_sec_3.jpg",
+      "nbytes": 6448,
+      "sha256": "1e80fdb44db7d0f41a98df674112fa518807be9b7257823212eb3f771f32cf3e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0001_sec_4.jpg",
+      "nbytes": 6451,
+      "sha256": "3623833a5506745f19a5e7c3592e81dd0481190e85da46b88ce12d28b8d25985"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0001_sec_5.jpg",
+      "nbytes": 5438,
+      "sha256": "e82739ba7b259287fad3f8e2616bfaca0cf60c52eef7ad35e446753cb0db1133"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0001_sec_6.jpg",
+      "nbytes": 6390,
+      "sha256": "00ad730867ac0074993c5e2042fb2983a4befb8321e6707cae3b0e328c5372c9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0002_sec_1.jpg",
+      "nbytes": 5813,
+      "sha256": "e527a35e32b9690830fdb2269aea90a6fa44036faa16f9aa8ef25ed27a6e6b6c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0002_sec_2.jpg",
+      "nbytes": 4717,
+      "sha256": "02e2732121ca3e65518395d845b2ef81a96af90b8523fbf14b426775926b529e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0002_sec_3.jpg",
+      "nbytes": 6353,
+      "sha256": "992068bfe793679e80f7596c8cba55c87682d234dc46f5ed37c13103e4be1291"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0002_sec_4.jpg",
+      "nbytes": 6140,
+      "sha256": "f90cbd93fa7c5627517a33b8196f8bb21238de1fc985f24c0d16154a6b6cf877"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0002_sec_5.jpg",
+      "nbytes": 5293,
+      "sha256": "618ae8d6dff760f4f6d7b934c4373b02eef53d840015726cfea39438ab4b725c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0002_sec_6.jpg",
+      "nbytes": 6090,
+      "sha256": "30d81f44720b0709372c4573bcfbac27847cbd59d46ef841e351f0fe8e544329"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0003_sec_1.jpg",
+      "nbytes": 5984,
+      "sha256": "754787eb2b01f55c72a4290af65b455ff334d2cf18ec246bf5a4bad21573c3fc"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0003_sec_2.jpg",
+      "nbytes": 4786,
+      "sha256": "18db90f6d58f90f8b5336a29b2e8a081d55fdc37cf8c3111155faab3ddc10f53"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0003_sec_3.jpg",
+      "nbytes": 6025,
+      "sha256": "f90e5d0fefd9725e5f34e4f00c8f2c32a8bec424c04366aec0458eaa85ac7022"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0003_sec_4.jpg",
+      "nbytes": 6230,
+      "sha256": "bbeefb36067c22dee6d10d0a6a58eb310bdc9b86ead3b086f7f7581e1132434f"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0003_sec_5.jpg",
+      "nbytes": 5333,
+      "sha256": "ef47a45d62c7813461305b5af699bebcd43ea24d86ddd3ddf4b779dfa0d4a3e1"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0003_sec_6.jpg",
+      "nbytes": 6105,
+      "sha256": "9e3290194ccb9f1cb9e999d84fc2b694feebaa870f8dc67c3a338ddf05e63074"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0004_sec_1.jpg",
+      "nbytes": 6290,
+      "sha256": "fb37043ca889d7d7374ac2a0e926b8b75d2aae21633f41e65bcd2cbbf142f04b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0004_sec_2.jpg",
+      "nbytes": 4931,
+      "sha256": "ac3406bc3b6bf9b3491d5369a2080d68868da4a7fad3c54752ff3e8e64d4577e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0004_sec_3.jpg",
+      "nbytes": 6376,
+      "sha256": "5bcc4b13e057ad2661b4a4006fbc5ff1818dc644ad97b23590386d161636e165"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0004_sec_4.jpg",
+      "nbytes": 6428,
+      "sha256": "b5ed67189d3fec7ba1896f04fa1488ea5044dae3d8e144c3ebdd2b0a99681cf2"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0004_sec_5.jpg",
+      "nbytes": 5607,
+      "sha256": "12cb03b0d2613b8eaf86b84532e24364b75e155c63ef2cc9a5d455a0099f56f5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0004_sec_6.jpg",
+      "nbytes": 6481,
+      "sha256": "90d8eb2c5a6a678aeae4fbc198a15bdb328b9f746884eddf46dd418392e08f18"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0005_sec_1.jpg",
+      "nbytes": 6071,
+      "sha256": "b1d82dd4728b3dfa2b37f795c3e98929ca7db763c8fee7f8fee5edfc719430ec"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0005_sec_2.jpg",
+      "nbytes": 4825,
+      "sha256": "9abb9be2a01501e424d8999a8242bc0251a0fd08dd930909e373f17baec91aa5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0005_sec_3.jpg",
+      "nbytes": 6536,
+      "sha256": "6c1741eb7e2f612e99b12647c7a4cbf3631f7eb43ed9c514f0a3935e03623b24"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0005_sec_4.jpg",
+      "nbytes": 6600,
+      "sha256": "73c7d837ea2ed44bf323ec2686bea0fe7a7ef740a1672ac467bdf3c6d909d6fd"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0005_sec_5.jpg",
+      "nbytes": 5324,
+      "sha256": "b97585a35b5275411759bd1842d60fe88fb51d1e9bc5e29b8571acb6bd255b8d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0005_sec_6.jpg",
+      "nbytes": 5922,
+      "sha256": "77fcac3008d836c8f78655230dc3e7121e736eb9c3a7920f898318dffd563fe9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0006_sec_1.jpg",
+      "nbytes": 6286,
+      "sha256": "a40fde64b647932f14f829b34e19f827f26d467da4611fa8ab173525e711a628"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0006_sec_2.jpg",
+      "nbytes": 4932,
+      "sha256": "37f1471fa415bcd3e38f768d1dadf9d520c06667c97548f782f1c57c7702c49d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0006_sec_3.jpg",
+      "nbytes": 6614,
+      "sha256": "da694177f0a8c33b11e053d063ab53473d8ef2621ebe0d9fc8d47becce70c9b2"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0006_sec_4.jpg",
+      "nbytes": 6296,
+      "sha256": "f4891faefc84fa06c1a5f1af6a3025bc3452064acd12f21ee3d81a473ca3e179"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0006_sec_5.jpg",
+      "nbytes": 5397,
+      "sha256": "f282162c0a8203b04438e455b2b4e701cd8ce8199039b929ccaf3d7debf01146"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0006_sec_6.jpg",
+      "nbytes": 5894,
+      "sha256": "cb6af6eb0ea670e40c5964ef166194dd3b7a59677925ef695e69be9e87da2018"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0007_sec_1.jpg",
+      "nbytes": 6015,
+      "sha256": "cebe3c07c8a4a9517a5fe365d116491e1b86591e235295ec4e489b44cf1eb559"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0007_sec_2.jpg",
+      "nbytes": 4936,
+      "sha256": "ce24195c587304aed7e77ccf8922a520d7be9b489bb746bf9d54f967d4d9fc77"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0007_sec_3.jpg",
+      "nbytes": 6373,
+      "sha256": "a373c8e0d51cd6780cb9608abf90df77a693b0cac77756a2c26fc715b8e77588"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0007_sec_4.jpg",
+      "nbytes": 6301,
+      "sha256": "0fc84623f1cc63200f5efa1743ef74bb26d81b3c02e0a4bd8595706405d4717e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0007_sec_5.jpg",
+      "nbytes": 5146,
+      "sha256": "d5b577d3b83ce29a7c9e5f3fd2e47e0795d3448adab6b0a054127886de037b7a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0007_sec_6.jpg",
+      "nbytes": 6350,
+      "sha256": "a1be28e80afbe498bf38b31747002e626bf954cfc20bb0658c57032a01912a62"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0008_sec_1.jpg",
+      "nbytes": 6098,
+      "sha256": "e755de21d2212c4e4e722e3a20f9b694b5270a3dfb115e86eff1a057f91aaffe"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0008_sec_2.jpg",
+      "nbytes": 4856,
+      "sha256": "6d5d9e6ebbbe19a0e3096242a41caef9393fdffa25d599000e7eab14e9119c51"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0008_sec_3.jpg",
+      "nbytes": 6426,
+      "sha256": "80fe90b3974a65b00ab4d067f7fc4214a5185f916f4e8bf388cf86cbca8b4731"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0008_sec_4.jpg",
+      "nbytes": 6471,
+      "sha256": "4bd928738c3f48c2ebf37ce0c0cefe150c7dc0bc6986caeeabaf5c3ec042a0f4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0008_sec_5.jpg",
+      "nbytes": 5278,
+      "sha256": "44b0fdac5b2654b10395de9c657f342cd7b793412ba6370d57a72c1aa62cef4d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0008_sec_6.jpg",
+      "nbytes": 6248,
+      "sha256": "112c32aaa67fdbea38066be8ce87da61a557d3a95b0b1948539826184ed35f47"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0009_sec_1.jpg",
+      "nbytes": 5644,
+      "sha256": "f47ab18991b8a04bc89e7a44236306c57a0a44cbac6852844005ed22c1dfee0a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0009_sec_2.jpg",
+      "nbytes": 4515,
+      "sha256": "0706573a713660d5792769c225436168e5b082c27807c4f7b42c2c4de5746d11"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0009_sec_3.jpg",
+      "nbytes": 5822,
+      "sha256": "5737da8bf7d32134eb48e960ed68a3d5765a699cacb7a0967b96450b1fe77d74"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0009_sec_4.jpg",
+      "nbytes": 5999,
+      "sha256": "fd1b6ab36d555e722ed3d04ad7ed8297a080e5bd3b55eb60fb0e2a65e8dd8660"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0009_sec_5.jpg",
+      "nbytes": 4955,
+      "sha256": "5267edefeed9cfc043a7b36342b4a2e496f8ca73dbbb6054c684ab5e0d37b2dd"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0009_sec_6.jpg",
+      "nbytes": 6212,
+      "sha256": "2646df4e80cc94d25ae93d399091244aa8b4550210f998f842d96802a4fe65c3"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0010_sec_1.jpg",
+      "nbytes": 5757,
+      "sha256": "144f3e6bf7b90c629944ebeb052cec6c25a9a83c1d99043fcda62c9b253d0ef6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0010_sec_2.jpg",
+      "nbytes": 4789,
+      "sha256": "89cfb509a37ea426f5a3915663d13a13468f08cb51504be2d536153c65d55a81"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0010_sec_3.jpg",
+      "nbytes": 6126,
+      "sha256": "dc260e7354c493e918968299a5abb98123ace99a14d8de44f4a10e8dde9f3b95"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0010_sec_4.jpg",
+      "nbytes": 6154,
+      "sha256": "949401d557ae2044b602b995a347e0480583aef83c909d86a873f4bd8fdbcbf4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0010_sec_5.jpg",
+      "nbytes": 5330,
+      "sha256": "03040c75d20bb0e3b98483433559f24e8ab06b28791de100ed9b906e9a4bec8f"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0010_sec_6.jpg",
+      "nbytes": 6233,
+      "sha256": "734cfc6e3525c5b2d2cbd3c69f6e03852eae2dabace629b931ddf3d8719eb78c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0011_sec_1.jpg",
+      "nbytes": 5930,
+      "sha256": "16da063fd8d67d4ad86f71721fb7f4e31fdde2b6299657fa90671dac10d81f07"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0011_sec_2.jpg",
+      "nbytes": 4460,
+      "sha256": "269aacbd00e2ce03387a49bad49a944919911cd6873e6e4516cee5284cea178d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0011_sec_3.jpg",
+      "nbytes": 5959,
+      "sha256": "6aea1345976111b85889197ba79026036e72d86192c9cf8de564002ab00553a8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0011_sec_4.jpg",
+      "nbytes": 6170,
+      "sha256": "6500508b4f19c4ae40938902109589a71c1243a96cac90ae6dcaba4443b1edfa"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0011_sec_5.jpg",
+      "nbytes": 5070,
+      "sha256": "adabec3bc92d0554b2a1dd62a3cb7320939883d00cec1a777ad6fd3596eef435"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0011_sec_6.jpg",
+      "nbytes": 5756,
+      "sha256": "de8ce4a643a7f6ad20c4451a34466afec7fb10e70bd464d4450998530182cec6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0012_sec_1.jpg",
+      "nbytes": 5626,
+      "sha256": "e6fdc73d2c4f038240a8a33c09f4b0d11927157453c901fa5fbc0f994e46607e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0012_sec_2.jpg",
+      "nbytes": 4553,
+      "sha256": "5ac66c14adde4419fa224662c14397566f6bb59a4985f1b2d26ff074f52fdef4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0012_sec_3.jpg",
+      "nbytes": 5964,
+      "sha256": "fbc8efcdd8f2ba5744fbb18466c7f462cde60f60c8deb502f71bb0e498de8374"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0012_sec_4.jpg",
+      "nbytes": 6068,
+      "sha256": "6e6e9050776d02c1a267b075e1664bdaed565b8949ca62129f797c4d23f92efd"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0012_sec_5.jpg",
+      "nbytes": 5251,
+      "sha256": "b79518a6275159f73380379789e8d66eb0075f98537413276e1f69535c456e80"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0012_sec_6.jpg",
+      "nbytes": 6071,
+      "sha256": "42efbcfe2aac8d7f3d24ac9344408fb467f3a6e4ec87e92182b248f92ff5aad1"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0013_sec_1.jpg",
+      "nbytes": 5846,
+      "sha256": "d1de211085ad03b78db6442d7f73670c9b3e421b425a9f09723b05aeccd62712"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0013_sec_2.jpg",
+      "nbytes": 4534,
+      "sha256": "6e76bd26ab74479078f388bcf15d7be15ee3a67a4c94b785729b4620059277b0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0013_sec_3.jpg",
+      "nbytes": 6247,
+      "sha256": "668c76ecfbe9534328bc011dd3d8fce71319fa8860601ef916f50003abed7343"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0013_sec_4.jpg",
+      "nbytes": 5957,
+      "sha256": "1d13f21dda845a9638da13ae910b719b2e31e0958043deebe4d8065b061ce13d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0013_sec_5.jpg",
+      "nbytes": 5060,
+      "sha256": "d87f658728c81708448ffc3e9aeeaf13b5c8ceebb6f2ad9e54386ee1c295f5ed"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0013_sec_6.jpg",
+      "nbytes": 6330,
+      "sha256": "044096069753acfa1fed97a0d1224fbfc81daa15c8175b29668f3832c7905eea"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0014_sec_1.jpg",
+      "nbytes": 5956,
+      "sha256": "e50d865725fcd3f4f0d90f2c2af342114aabed3614cba9b9ff70bd3794116436"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0014_sec_2.jpg",
+      "nbytes": 4529,
+      "sha256": "1e6350ca5bd0b9f5cd2eb0b44238ff23bf7deda769f9bcafa06fb921bc37d427"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0014_sec_3.jpg",
+      "nbytes": 5861,
+      "sha256": "ad58010724f202b7047c211d218030f8192ec2e35926fb8e622c992536fd2102"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0014_sec_4.jpg",
+      "nbytes": 6099,
+      "sha256": "6c2b5f08bf48d076a60f0a2cde5c540ac67dcbe7e4bde49cd9bfefa9b3e9f89c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0014_sec_5.jpg",
+      "nbytes": 5111,
+      "sha256": "e5b40cbbc7a41e41590a31f2eca8879a0e3a301ad53ada2f0e61b2b7adb5e35d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0014_sec_6.jpg",
+      "nbytes": 6027,
+      "sha256": "02ee765230b47a5bfe340afb22f5894d44a25c085dc683f02c75e9761efc6b8a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0015_sec_1.jpg",
+      "nbytes": 6072,
+      "sha256": "ddab3af4022d5b0c8c499e226889f168bb3dfce0999f8893d9f99f291d11e112"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0015_sec_2.jpg",
+      "nbytes": 4502,
+      "sha256": "58b8319615bbde4a115e74badf40e78b6751e7ae88b989b18ea07ede18445ec8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0015_sec_3.jpg",
+      "nbytes": 6199,
+      "sha256": "7bc266f89060b4c205825fc0d8c8a216ab30d4a8d608348f6f3679ee3221365c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0015_sec_4.jpg",
+      "nbytes": 6247,
+      "sha256": "388386b79b14cfe21d80ac714b282a7b9db05b3f37c1e1e06a927c1246372fe8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0015_sec_5.jpg",
+      "nbytes": 5320,
+      "sha256": "d11653bbada6b768e694a17bfa70e67af4f7fa2f5c543d6961bf27c2aa52f86c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0015_sec_6.jpg",
+      "nbytes": 6257,
+      "sha256": "640687a5e8f56191129490eecc698ad458524f0c5b580c50ff45c5ca64d71e4f"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0016_sec_1.jpg",
+      "nbytes": 6245,
+      "sha256": "2ece1ca00d2e0375675a67a699925705313f00e43b27e2df4d109ae1257b0535"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0016_sec_2.jpg",
+      "nbytes": 4766,
+      "sha256": "308ae8c18121aa2252a5e096537110740655de9a77190a25f402bb7f605aba1b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0016_sec_3.jpg",
+      "nbytes": 6097,
+      "sha256": "293dc556baef39198eae22c0fd71a934abfb6dbbf8d309fb869db14e899b2b8a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0016_sec_4.jpg",
+      "nbytes": 6215,
+      "sha256": "7be030d5fc0c9f08132ee3626e149560d0ac58805b1c0b5382622ad1ffaa08a4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0016_sec_5.jpg",
+      "nbytes": 5130,
+      "sha256": "87be6bbebd6deaa6adb5af634646cec517884817abca0f32a890d3d3f1323735"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0016_sec_6.jpg",
+      "nbytes": 5983,
+      "sha256": "b655c8513b7fe4a0ae96aff758e3e03a613bd50970997dbd7240c3dddb04dd9c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0017_sec_1.jpg",
+      "nbytes": 5432,
+      "sha256": "25dbd02a17b6ef43b7d669ce59c92e4ec781e2c33a29274e8ff99483db7957cd"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0017_sec_2.jpg",
+      "nbytes": 4217,
+      "sha256": "d0faa13000c1410bd84dad4b91244db973778f8a525fcb770d76715b938f2c82"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0017_sec_3.jpg",
+      "nbytes": 6175,
+      "sha256": "46592a54936fa144117f25d1cb8c48118182ab15836935dc519ae7397ed5c9f6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0017_sec_4.jpg",
+      "nbytes": 6341,
+      "sha256": "9436f381d533cc44de67a21e5b9ffb6f958c4e4f1e1bc50c835c733edb20f8e7"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0017_sec_5.jpg",
+      "nbytes": 4811,
+      "sha256": "7596014257f017847844c53a93530db9e76b008887ccafdf2ed36ff45b444126"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0017_sec_6.jpg",
+      "nbytes": 5590,
+      "sha256": "66b16be21969439ca39ffaf941cfdf25ab569241119d019204bcc01af133c476"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0018_sec_1.jpg",
+      "nbytes": 5763,
+      "sha256": "72f0c3926686a3c1adbd27b8526543f403c1ff0c44fb90c294733be04ce95a15"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0018_sec_2.jpg",
+      "nbytes": 4711,
+      "sha256": "0c74810fea0e686e323b11287f68fff8be99eca05590f4e021496ebbb7d6a7dd"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0018_sec_3.jpg",
+      "nbytes": 6261,
+      "sha256": "7b89b81454bfbb6ca5655f9e90618097c7fb0f035744544c6e47fc3a7a84627e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0018_sec_4.jpg",
+      "nbytes": 6266,
+      "sha256": "87e67c30c1de59e955c6bb7206564902a6308a156934b00461054c77204bd541"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0018_sec_5.jpg",
+      "nbytes": 5342,
+      "sha256": "d4106c66db62ad4f0ce76bf8d762b0fc1c792c3dc390be8c874099bbd2f7aa07"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0018_sec_6.jpg",
+      "nbytes": 5734,
+      "sha256": "34a88eadcdf69794a6e28a9199ebdfac28dca663eccfda4f667795c126ec5f55"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0019_sec_1.jpg",
+      "nbytes": 5962,
+      "sha256": "97c1cf3b24c46d33299795d5207ef1874118ac756b3fe984e9229673eea9702f"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0019_sec_2.jpg",
+      "nbytes": 4939,
+      "sha256": "845b184fd944ac8bdc735af542dd64c4ba7331a8aa0c24b121f97f32b812d00c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0019_sec_3.jpg",
+      "nbytes": 6349,
+      "sha256": "ac15e84022928bb9568d397eabb6bcc739ade98646f9ceb7dd8a9593fca4d473"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0019_sec_4.jpg",
+      "nbytes": 6216,
+      "sha256": "0d0b9d0b1a4c1ca425838dbc46e56f7babb65b339da47a87ad7e7628bbd3ece7"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0019_sec_5.jpg",
+      "nbytes": 5353,
+      "sha256": "0d2fa3bc805a43d4b7eb755deb8d283ca3750239a5321b3c032baa1e622314b7"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0019_sec_6.jpg",
+      "nbytes": 5532,
+      "sha256": "dac8af62f479d87283d29ac6fe49718cb2dfdadd3f122e2077a272fbf4dee7d1"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0020_sec_1.jpg",
+      "nbytes": 4924,
+      "sha256": "ba9d063972d1370a98d9171c9a0d04904f84f08d1018ecd600061545faf777b2"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0020_sec_2.jpg",
+      "nbytes": 4488,
+      "sha256": "68c3dcb0e4c194d5bf40e618cecf78c02f33aa8a848f16411f9270e2b5dae318"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0020_sec_3.jpg",
+      "nbytes": 5849,
+      "sha256": "364050dbafc095eeada2734ef482d06c1c169197f4da184f4854ab4c424c1831"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0020_sec_4.jpg",
+      "nbytes": 5754,
+      "sha256": "c1b3cedd7b0c92fe00dc75c5802e8f5e90f65d65ce16e2e5a3038c0cf60547e2"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0020_sec_5.jpg",
+      "nbytes": 4889,
+      "sha256": "f2d5c394be1d55919ebee5769cc93e9dc34e833f8c4710e0edde49deca1f9873"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0020_sec_6.jpg",
+      "nbytes": 5504,
+      "sha256": "febbe13e1691f9331a16a5a0e8b94a34facff9c33a8ca8a61314464da060c5b6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0021_sec_1.jpg",
+      "nbytes": 5924,
+      "sha256": "9b8e7426b717919a5f2747b9c36480225122116e8d43a6f2adf5060772f1b729"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0021_sec_2.jpg",
+      "nbytes": 4570,
+      "sha256": "dd6aa6a81bc34f389c45beae4a50508e99f9819c47eac69cca870703c813767c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0021_sec_3.jpg",
+      "nbytes": 6194,
+      "sha256": "3cec2603032521c57cc89bdbec1ec24a96e06d125e848aec935443e1333cede5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0021_sec_4.jpg",
+      "nbytes": 6271,
+      "sha256": "d98d54be3fd7f89141efe6aa6b523326da434f5b3b7b679915a04c92dba3fd8e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0021_sec_5.jpg",
+      "nbytes": 5307,
+      "sha256": "1616012e3a48b84982ae84e8b42cff4aa46cd32b6905df914c7e9c56e4da2994"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0021_sec_6.jpg",
+      "nbytes": 6068,
+      "sha256": "0bc1f98465633f93d6a9b86a0437e6129a08f8fcf988f8067729970f5d9ace54"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0022_sec_1.jpg",
+      "nbytes": 5854,
+      "sha256": "ced9da773429a4215c8f0f9999f0790e381f74eb310b5398503369c9d893937f"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0022_sec_2.jpg",
+      "nbytes": 4480,
+      "sha256": "288fa8a2dfd4fa05d99b2f9dd8d3620f337c9f75defe38d7c014035a1492c842"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0022_sec_3.jpg",
+      "nbytes": 6457,
+      "sha256": "a2a53cf3fabd7d4660a58f85e2cf561a0f9c0bc95cefb59e52a8ef3b83e4257b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0022_sec_4.jpg",
+      "nbytes": 6238,
+      "sha256": "8621b9a24a5970948997f0765dbedb071050b3ad381accb99d1e31ead7518f38"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0022_sec_5.jpg",
+      "nbytes": 5414,
+      "sha256": "d8f486853a6ec72868788f6fbc2096869eda4868d35a28f9e2d3e3b0815ca6a9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0022_sec_6.jpg",
+      "nbytes": 5992,
+      "sha256": "892f6a7e99f67d664ebe8d9cbf1b3fbb81ca714df4b18dbc2f5bc258097442e1"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0023_sec_1.jpg",
+      "nbytes": 6158,
+      "sha256": "9f3ff76de5b4b1dc0dc35d8688c39806215f9d594069c4c14ba8fd5f33e44b56"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0023_sec_2.jpg",
+      "nbytes": 4662,
+      "sha256": "f54f794b0e3caa81e4d045172e0b2c7d2eeac414700cd976dd0cb9a02cc111d8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0023_sec_3.jpg",
+      "nbytes": 6049,
+      "sha256": "13205473ea3d3cb6671f47744d242cbe2ee194ee5a48e650d287d738b892ef52"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0023_sec_4.jpg",
+      "nbytes": 5716,
+      "sha256": "9edacaae5fce8e54ed8f781711208b67999146ac143f58118f3398038bef4271"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0023_sec_5.jpg",
+      "nbytes": 4922,
+      "sha256": "aa5ba0139000c6aa612f779f84d0a11ae11eeb09e465261c0239bbf1b3a6ced4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0023_sec_6.jpg",
+      "nbytes": 5175,
+      "sha256": "12822b7c440df80a6ce91248169046d8e33a25bc1e7eb383d601ada86ab22cbf"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0024_sec_1.jpg",
+      "nbytes": 5856,
+      "sha256": "460d914fa10be511b7e0a364bf1883dc8cb0be86cd593d361ff20ffb59383a6c"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0024_sec_2.jpg",
+      "nbytes": 4593,
+      "sha256": "02fdc5385db500fa2c4bcc11cdea6e0cd3229e612eab1b6862dda9c175bf7b05"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0024_sec_3.jpg",
+      "nbytes": 6094,
+      "sha256": "d4aa46e49f67fd12230f51b4651680c14e51c9df617143809a768850d90bb18e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0024_sec_4.jpg",
+      "nbytes": 5945,
+      "sha256": "5ae0b18fb3df54e9bfed2a48e790c0038039f3b6abf7bbd5977f59e4753ac653"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0024_sec_5.jpg",
+      "nbytes": 5151,
+      "sha256": "64778d0d8d8d8260d169587484c3902a439de751bc82f87e892c63a076f40b57"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0024_sec_6.jpg",
+      "nbytes": 5751,
+      "sha256": "8694550910a843ef326db9e12ff7024c52347eb7fa787a95329b43219f72b5c8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0025_sec_1.jpg",
+      "nbytes": 6220,
+      "sha256": "b15d0e57156d1d33a902e6fbf3f1d07fad1236b61f07ef00da5db5af8e99dcd8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0025_sec_2.jpg",
+      "nbytes": 4835,
+      "sha256": "005e981c86a5d37159c95579b4d0986ebf6da1441fa77a67fde74bcb78bc132d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0025_sec_3.jpg",
+      "nbytes": 6568,
+      "sha256": "d6e9a9be5e46156c5bdb84f526daecdd02e71bb10e3ac8fb3296b2cf4567c11b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0025_sec_4.jpg",
+      "nbytes": 6058,
+      "sha256": "449c221ae5b14d92a3f33c4f61a49268162227b8f1622f623c414dc05abf7d0f"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0025_sec_5.jpg",
+      "nbytes": 4857,
+      "sha256": "1d104405ebd62bd4b16c91d374a0b65e181c5562398b1ecc9674abacce17d0eb"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0025_sec_6.jpg",
+      "nbytes": 6081,
+      "sha256": "8dde0fc464d5d44f46938c9031eff7ac2cf401db6757c46eef40bb2fb13df64a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0026_sec_1.jpg",
+      "nbytes": 5551,
+      "sha256": "8f5d50b9c8fa5a259c5b267fba388e4b6d548ffffd0bc8f2c0e2d0ced932c4b5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0026_sec_2.jpg",
+      "nbytes": 4381,
+      "sha256": "fb3a9f65e3bc6887b9ed7c3005f5cfb7f54c6a8df5e33a5f835385fe0617077a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0026_sec_3.jpg",
+      "nbytes": 6160,
+      "sha256": "b931712f2e9e16c78a2a4c3d77b3907e5b0f93cdf4744572de897b7ed407e929"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0026_sec_4.jpg",
+      "nbytes": 6113,
+      "sha256": "1efdcbee1cdd211a4ea27e16ccb2d304c3eaaaab60a470e732c536dbb5a75417"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0026_sec_5.jpg",
+      "nbytes": 5211,
+      "sha256": "ff126e24c32ac2642c388443152f732229b328fa586bb43fbd5c15afd8e913b8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0026_sec_6.jpg",
+      "nbytes": 5708,
+      "sha256": "6bdfbd6a1a9a68a2aa87ffdc7a2b9c5e99b045440cb0a713820131e717143363"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0027_sec_1.jpg",
+      "nbytes": 5709,
+      "sha256": "5423448c39aa7dfd50757dccfbadae327b3308a6d91bbacd4eb8b591509a9001"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0027_sec_2.jpg",
+      "nbytes": 4302,
+      "sha256": "098c22ae99b10e87d3e5e0e5142a8005e950196247983c420675c23805dded82"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0027_sec_3.jpg",
+      "nbytes": 5868,
+      "sha256": "d7db0e3eb12ca133c8e8dce46bf2ff156a43eb3186911d13105c2ad3e97f8e49"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0027_sec_4.jpg",
+      "nbytes": 6123,
+      "sha256": "d47212d0f2b83303a6dd73d5a9757fc5ffdf6366010259744c2cb38280029538"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0027_sec_5.jpg",
+      "nbytes": 5043,
+      "sha256": "b42bc8121ea66a09ed593199a3c8db74d3a719fb3f297889f95708a4a1968a2b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0027_sec_6.jpg",
+      "nbytes": 5550,
+      "sha256": "bec87b3e9c922c24fd0b742e6f383e151b0e4da53add87261aae0937751ffd5e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0028_sec_1.jpg",
+      "nbytes": 5998,
+      "sha256": "2c3d73848f3dbdec202c24b082f794c338f79743e232f2fc2ca246cd31c7de40"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0028_sec_2.jpg",
+      "nbytes": 4617,
+      "sha256": "3972eb0bfd86fbb79e58b2e182fc3657b51a2072a02839b3ae812299edd4c952"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0028_sec_3.jpg",
+      "nbytes": 6318,
+      "sha256": "eb0f405cb6d7cb555d7cb88553af64f2b87b55eee604612e9877c29c98e49af9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0028_sec_4.jpg",
+      "nbytes": 6257,
+      "sha256": "8c6660980eac2043547d591ce2b4d20fd72fc747523e97d6ba9268a91f737c03"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0028_sec_5.jpg",
+      "nbytes": 5249,
+      "sha256": "85a6bdfd772e96e9bed98d7e62f1f1e3441c4ba88aa50f2bff9156871ee06157"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0028_sec_6.jpg",
+      "nbytes": 5536,
+      "sha256": "742fff592ae70a571bbc1a333fef600ce17d883613020a9ce90a25cc8d717724"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0029_sec_1.jpg",
+      "nbytes": 6030,
+      "sha256": "92bf17539f2017387ff52476e2c6f39755585c9363eeaf862632e77fabddef96"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0029_sec_2.jpg",
+      "nbytes": 4506,
+      "sha256": "644166c185a91c51127972674e78bb800ea738e10d632c0b22e2ef97779b6929"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0029_sec_3.jpg",
+      "nbytes": 6126,
+      "sha256": "cdfd2d9080905fcbd015195abcdaa8b1df65bc8e58fca2fa2d1d932a05d2550e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0029_sec_4.jpg",
+      "nbytes": 6329,
+      "sha256": "2a1d0fa7ca8701d31023ba2f1927de5c706c4df009f5f607e21719b36717f1f3"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0029_sec_5.jpg",
+      "nbytes": 5009,
+      "sha256": "86ced00c49bba7a5bf4aadb2eaa1bfc562aa9bd78f743b95da81be83ffa13c09"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0029_sec_6.jpg",
+      "nbytes": 5235,
+      "sha256": "6967bfe616de46bd3a0c588c9e6383d138d1c7d5caeb6876d4aba2738152c331"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0030_sec_1.jpg",
+      "nbytes": 5028,
+      "sha256": "33e1b6a37c67cbabfdce2fa898ba6b92bb34a681cb5744385e9e66416581d5fd"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0030_sec_2.jpg",
+      "nbytes": 4100,
+      "sha256": "42c82bcb4dc04c3c0509fba51faf526546f800e0c34e18a8d6f85faca3c0cf49"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0030_sec_3.jpg",
+      "nbytes": 6279,
+      "sha256": "c1aa30a7b36b3b2b3dbb1a88305119a3c34bbd02463e14be06d08f75936f9dc9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0030_sec_4.jpg",
+      "nbytes": 6143,
+      "sha256": "2f0f93110c6bd9af3d16913549965b644c3d899c14d57ad1607a734101e887f1"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0030_sec_5.jpg",
+      "nbytes": 5159,
+      "sha256": "6b4e0a4a38bbf3af5da671e99cbea4fefa949b6f76393f76af44454b40f3be79"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0030_sec_6.jpg",
+      "nbytes": 5887,
+      "sha256": "37ad77efe381f9704ddcc473d1fa0a46b6ffb90d628d891b3d7bb21f248cad3d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0031_sec_1.jpg",
+      "nbytes": 5888,
+      "sha256": "1e77739a0cc1cf2718bfd12ce4bfb2ca9dd53d16ed53f321717632a082b74089"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0031_sec_2.jpg",
+      "nbytes": 4794,
+      "sha256": "b9bab9cf6d2ecaf4aa6371928226c20e1122d81c2899da8a1fc9a560a85714db"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0031_sec_3.jpg",
+      "nbytes": 6259,
+      "sha256": "6a856c44d3434902eede97a8c4f483b8029e45ae3c6d245706e530390521d867"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0031_sec_4.jpg",
+      "nbytes": 5873,
+      "sha256": "fc721f857f65e4002ddd5daa7f140244323d996fc9ddf605201938bb1b281227"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0031_sec_5.jpg",
+      "nbytes": 5086,
+      "sha256": "30d9266dc7a526a81b6e1c9206cdd11f944b5f7964500315757c91197b0b03af"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0031_sec_6.jpg",
+      "nbytes": 5453,
+      "sha256": "96a8b48239c29095bcd8ef449278c74cea44bf7cd29ac79ae77bf84357b83a8a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0032_sec_1.jpg",
+      "nbytes": 5647,
+      "sha256": "1c8ce3380d2bd9ab06db0e72c32e9041f23b65816e034173e1cad0df5a96b27e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0032_sec_2.jpg",
+      "nbytes": 4701,
+      "sha256": "60d0d339cf0d7ea21430bda2563e73806ed7a257b3ac097d879bacd4c90954d5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0032_sec_3.jpg",
+      "nbytes": 6305,
+      "sha256": "7d4d7987eb9623afaf5c0370d6aa218a5e792560dcdcf748644514db8aa2eba6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0032_sec_4.jpg",
+      "nbytes": 6322,
+      "sha256": "6999a39f8f2df14c84b3dc1b3854b3050323792c5e569ee0608a8ea7221c8b57"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0032_sec_5.jpg",
+      "nbytes": 5240,
+      "sha256": "8614a7143e74351ff0cb317b69897377edb151449a0df4336dd63e66621117d4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0032_sec_6.jpg",
+      "nbytes": 5730,
+      "sha256": "6ebf8cc9b6e412e5f0211a9f790b6cb20a4f14dfb45dbec9382f3302aff4c3b3"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0033_sec_1.jpg",
+      "nbytes": 5912,
+      "sha256": "b74961ecbf67abea27e0fed09f7bb7ed11ee0729c75ffe45ba2b45fd1df96a22"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0033_sec_2.jpg",
+      "nbytes": 4626,
+      "sha256": "516d1158020491953037c8fc456b47f630e54582306add17802b2f4a8e7def18"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0033_sec_3.jpg",
+      "nbytes": 6033,
+      "sha256": "6fd997669546663711fa797ef4a80509a2d88f58521a549634c7f9f6ef30adbf"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0033_sec_4.jpg",
+      "nbytes": 6143,
+      "sha256": "1375df87bffb899e63e5b40b29271a7944bf370e0ef2d26a5d9ed2f21efb5931"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0033_sec_5.jpg",
+      "nbytes": 4486,
+      "sha256": "363af0da74c996fa6af441468a80b54ad7a27036e19d06f1941bbe9d1544582a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/core_strips/tray_0033_sec_6.jpg",
+      "nbytes": 4451,
+      "sha256": "b6f8b743659ba4d7db597d1ba12c0eac24b245bb7ba4a98ecb5c57932575a5e3"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_0.jpg",
+      "nbytes": 24468,
+      "sha256": "a03ab17384ceb27784f02fd7fbcadc4ae0f3308a6eb0e1b8fdeb2dc9a29f110d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_1.jpg",
+      "nbytes": 23323,
+      "sha256": "bfbcc61a4c5641e92914652a4c3f9d5819adee8abcd99cbc1735c4cfbe339195"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_10.jpg",
+      "nbytes": 22848,
+      "sha256": "c2566d4b812aa71101506ec626ee1a336255a8616e5311a8c19a0cb37ff30a53"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_11.jpg",
+      "nbytes": 22487,
+      "sha256": "0a8b97f9b0e36df2c65be94c2717fdab8706849028ff7a5733a93fbb9deca6e7"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_12.jpg",
+      "nbytes": 23058,
+      "sha256": "9bb896f6687fb6a25042594e24aa99e2480d99a7528f8c2c313207a5570b2d08"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_13.jpg",
+      "nbytes": 22244,
+      "sha256": "b0f0c1a6d5f9072675b947d58ba5745eb9de45f1af27bc7cd9e84916403eb9f0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_14.jpg",
+      "nbytes": 23432,
+      "sha256": "181f27158a95ba576d97649e610f3c094d35ad1e1d172fc74bbd827a7bcc2896"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_15.jpg",
+      "nbytes": 22928,
+      "sha256": "ae4a6b3216b14fbfc59d1c158a663e1fe13f3e23482cb79a16f9104f91d5948a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_16.jpg",
+      "nbytes": 21415,
+      "sha256": "98813ef03387f4a3727451b6ffa2ed484ea54c57fbbdc175460fd3785984722e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_17.jpg",
+      "nbytes": 22367,
+      "sha256": "fdc20e97a2000618477c57bac3e192706a805779a2f95f636303c41ff8a42c90"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_18.jpg",
+      "nbytes": 22983,
+      "sha256": "cf5e9b604ec39f7a33f41eb24c72215e40ae016730118f15ab877978e4a6822b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_19.jpg",
+      "nbytes": 20507,
+      "sha256": "285fbe61160658c708dafa5fdf0cf157810544b64f117d3c21805cd7225b4cd9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_2.jpg",
+      "nbytes": 23518,
+      "sha256": "6343969051107b000ec3ee4c8809c654033b916f6b99e2d0e9dd59e0cd0f12c6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_20.jpg",
+      "nbytes": 23251,
+      "sha256": "8edc4af48b56d8ef8a744acccc1ad9b27dd4d7b38317e8e6d0b480f419d8ab86"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_21.jpg",
+      "nbytes": 23111,
+      "sha256": "6e1a44838c3b9b14f7fc7fd0f2f18f2eb3b52c7e71e6b5237f3073d101618be0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_22.jpg",
+      "nbytes": 22106,
+      "sha256": "0032a66970c4e85ab2a0d083f530ac86ac5524db70a47f6cc4ae6204c80eb261"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_23.jpg",
+      "nbytes": 22489,
+      "sha256": "ee0a24a4ddb923c53fff7a9731c00058e2717d89e51ba914d59c72988beffd83"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_24.jpg",
+      "nbytes": 23096,
+      "sha256": "560e9b9b87699accefdc11b04458cd631c2c7bed6a6700a99876f32cd92c2722"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_25.jpg",
+      "nbytes": 21812,
+      "sha256": "1f281910e828058d91ab4fa90fbc8c50e2a2ef419c15d243b1918c4c9ad067a8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_26.jpg",
+      "nbytes": 21941,
+      "sha256": "f70362e2ecc1fe2f10c47bb8e959623a09b79c977a7ec4dea35fd11229b4f9b2"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_27.jpg",
+      "nbytes": 23015,
+      "sha256": "8f2e539e85af6202c37a1d61971d91c6b0c4ce412262acb96d003c986011e4f0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_28.jpg",
+      "nbytes": 22396,
+      "sha256": "6b5de6a2448f079e930a2ede2babd700bad4eaeccb39c66ac0cda9fa836a10d5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_29.jpg",
+      "nbytes": 21600,
+      "sha256": "ecdb871b3031b56fc16add5ba2cde79d180c7e9ca5e5d99de57caca0292b2cc3"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_3.jpg",
+      "nbytes": 24964,
+      "sha256": "939596fd513ef2ca8e1a3033ed41cdb43f981404695b783b61f3b0fa759f3721"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_30.jpg",
+      "nbytes": 22398,
+      "sha256": "fff8fe7bc4e883b2efd4bd214293f89a7acfc48848cb464c51c61b54d1ee0257"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_31.jpg",
+      "nbytes": 22855,
+      "sha256": "77286764ac61d4a8c32da67f421b1712296fbd5ab25dc571390dcf30b1da29a5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_32.jpg",
+      "nbytes": 20913,
+      "sha256": "d7b4b0eb16d31c2145b9206a66ec05d31f9c14a4dce57dd325193fb171316614"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_4.jpg",
+      "nbytes": 24055,
+      "sha256": "73f9dc1c217ffcae8949c460cb3adc7d95840858b94b769e701741c4fa477257"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_5.jpg",
+      "nbytes": 23969,
+      "sha256": "47541549a124c7dfdcbce237d1e9347573282ca32bf7e584fbfa35a2e4853258"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_6.jpg",
+      "nbytes": 24226,
+      "sha256": "4074346fc6d1ca9660e7e0ee391ac014c80ba4c807fde87168f9134348856710"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_7.jpg",
+      "nbytes": 24341,
+      "sha256": "7d0ae491bc4d5e4beb62a3b0503d623dca07d01af6e338353503c97d3146330b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_8.jpg",
+      "nbytes": 22563,
+      "sha256": "78dd336a72744800569fa8a794381399982d6621bb0224363adf5b49da7ce7f4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_9.jpg",
+      "nbytes": 23700,
+      "sha256": "2e4d1bd85b01ef84c7949b27a265e54689c7f4a4567e52410aae8aba075c4231"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/mosaics/5775a7c6-697c-4376-b2e8-6e13a3bed81_Mosaic.html",
+      "nbytes": 2164,
+      "sha256": "a2fac817aeb55d902f4231b28118db395836a0192a2310cb5c18c81140988e8e"
+    },
+    {
+      "storage_key": "holes/05GJD001/core/section_images.json",
+      "nbytes": 242003,
+      "sha256": "d81f20aa625294151c7a6ca361eb963e2a0d12185af9c181cd1f617a49de82e5"
+    },
+    {
+      "storage_key": "holes/05GJD001/core/section_images.parquet",
+      "nbytes": 26723,
+      "sha256": "dc51142c149fde8b1faf0182ab1bf41ef01d1a3253e8d8b91104ba82b6dcbac5"
+    },
+    {
+      "storage_key": "holes/05GJD001/core/sections.parquet",
+      "nbytes": 10235,
+      "sha256": "06bcaa6835ac850e381de8d792d315e97cb6554360ae6adb239614b483a32b5e"
+    },
+    {
+      "storage_key": "holes/05GJD001/core/trays.parquet",
+      "nbytes": 5842,
+      "sha256": "4ab5ceb8989d4f38c7e269c3168b119fb23a7051a3a156b1623f43253a11914f"
+    },
+    {
+      "storage_key": "holes/05GJD001/sample_axis.parquet",
+      "nbytes": 329439,
+      "sha256": "67bb2646f2e37966ad0b3434d921be68ea6b4317d6d8630760405a111e68200e"
+    },
+    {
+      "storage_key": "holes/05GJD001/scalars/series_catalog.json",
+      "nbytes": 120789,
+      "sha256": "eccb6484aeec57fa0170b93530b52675cfa0e6bb2438e1cc01accdcf8880f7c7"
+    },
+    {
+      "storage_key": "holes/05GJD001/scalars/values.parquet",
+      "nbytes": 9241567,
+      "sha256": "685e35c02acc92b961c7b76a1f049490dc30e9421cf65bb9193f526a0b9f42b4"
+    },
+    {
+      "storage_key": "holes/05GJD001/source_metadata.json",
+      "nbytes": 2776,
+      "sha256": "8d2682403a59e1b4b381df3465cf7b679527d4a15c3f4581a83cc07adbc37557"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/axes/axis_5fa0cd7fc2661d5c.json",
+      "nbytes": 6255,
+      "sha256": "cb9851906232d34dd5c3c34c89211852695fbb3b741cba51b6eb38bdb49093b8"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/axes/axis_8a68ef21a4c70103.json",
+      "nbytes": 4311,
+      "sha256": "2188517e94b4382a30199ecc9c3afe8fcd79177c44edcf2b8ce33d3c05cceb45"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/707166ed-4e01-4620-94dc-594dde89fbb/manifest.json",
+      "nbytes": 960,
+      "sha256": "55a9560b6017b74845e02e6a479edceb95be8606cb15a8a322c28e9f1e3643ba"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/707166ed-4e01-4620-94dc-594dde89fbb/values.f32",
+      "nbytes": 55092312,
+      "sha256": "8e6d6c9ed592649b9f0da605fe6465ffc5530f08cd90b4307ae4b124debe679a"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/e0a47ace-a762-498c-9d38-010c934a598/manifest.json",
+      "nbytes": 958,
+      "sha256": "0cfc2da9ca4ea444fc1272444bd919bda3dfaff4be6d6f6d538d0106eacd1df7"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/e0a47ace-a762-498c-9d38-010c934a598/values.f32",
+      "nbytes": 35379432,
+      "sha256": "5a08f728af5763ebdfd1700e2464fad166c780b3c6b8835baaca49af999baa10"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series_catalog.json",
+      "nbytes": 12532,
+      "sha256": "fd97a8a132ce48006e83172e843d7078a3be95c9443cba3db8e258088394662f"
+    },
+    {
+      "storage_key": "quality_report.json",
+      "nbytes": 3800,
+      "sha256": "e35696e9f9557095dd4a8f6d7823e1f7fb578aaa9960ab39d7d28257bfe7d3bb"
+    }
+  ]
+}

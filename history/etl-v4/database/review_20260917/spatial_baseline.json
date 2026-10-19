@@ -1,0 +1,214 @@
+{
+  "scope": "Offline extraction; no live restore or AWS query performed",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "dump_relative_to_database": "backups/etl4_db_review_fd02659c-dc3d-52ea-a8eb-c032b91e7624_20260908T231217Z.dump",
+  "dump_sha256": "cb6a405cfd65fc51f6cdbfa6c95bcaa8630c196b9add29f38abc7de282848bab",
+  "dump_core_schema_sha256": "3b429d69565c4d3d4c6548a05d736a197c0bafcc115d28f37849f4c7d8e8b8dd",
+  "schema_catalog_sha256": "44d5bdca33ca710403b96770f19a7a47608d815c48195832ffd6d3d0da345ead",
+  "migration_sha256": {
+    "001_initial.sql": "35ce6669acacd1e738f6d550f16c1a7631fc937d10f8fc61f063212d23071082",
+    "002_nullable_metric_semantics.sql": "7cad9bd7fd5430dc773c1acee605b89c5465f33d246f15eb63e7e1e0553496db",
+    "003_metric_source_identity.sql": "de3c9a0df5c59f7de888851528f14a2c9870f5f3ee61f14884c986050f885310",
+    "004_relational_integrity.sql": "e0860f1a793ad022a642b3ca6261d0d69280e6687bed80d94d5b06f0b97a5cc9",
+    "005_sample_media.sql": "5bea0cd4bd5cb454b1acec09544020f440460f16e69ee2ae8a0a254ffbbfa680"
+  },
+  "geometry_columns": [
+    {
+      "column_default": null,
+      "column_name": "collar_geom",
+      "data_type": "geometry(Point,4326)",
+      "is_nullable": "YES",
+      "ordinal_position": 14,
+      "table_name": "borehole_revision"
+    }
+  ],
+  "all_borehole_revision_geometries": [
+    {
+      "borehole_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+      "borehole_id": "65c0df55-e5fc-58b0-bd04-e8985606593d",
+      "hole_id": "07THD003",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e610000036e86c7da84c5e40d44bc61084ae37c0",
+        "ndr_ewkb_hex": "0101000020e610000036e86c7da84c5e40d44bc61084ae37c0",
+        "srid": 4326,
+        "x_longitude": 121.19778381,
+        "y_latitude": -23.68170266,
+        "dimensions": 2
+      }
+    },
+    {
+      "borehole_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+      "borehole_id": "dbc09b10-0e8f-547f-9ee5-d610156bdc53",
+      "hole_id": "07THD002",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e6100000343a1898725d5e4009a7263de39137c0",
+        "ndr_ewkb_hex": "0101000020e6100000343a1898725d5e4009a7263de39137c0",
+        "srid": 4326,
+        "x_longitude": 121.46011927,
+        "y_latitude": -23.56987364,
+        "dimensions": 2
+      }
+    },
+    {
+      "borehole_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+      "borehole_id": "90c1d3c8-ab23-5377-845d-e1ec77753a73",
+      "hole_id": "05KCD001",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e61000008b1490170ebe5d40df3ee5779edc40c0",
+        "ndr_ewkb_hex": "0101000020e61000008b1490170ebe5d40df3ee5779edc40c0",
+        "srid": 4326,
+        "x_longitude": 118.96961011,
+        "y_latitude": -33.72358607,
+        "dimensions": 2
+      }
+    },
+    {
+      "borehole_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+      "borehole_id": "3af13b7f-a865-5cf2-937f-c3df0bc17b56",
+      "hole_id": "09ATD019",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e610000011e13ef6e3a05d40c1059796aa233bc0",
+        "ndr_ewkb_hex": "0101000020e610000011e13ef6e3a05d40c1059796aa233bc0",
+        "srid": 4326,
+        "x_longitude": 118.51391369,
+        "y_latitude": -27.13932172,
+        "dimensions": 2
+      }
+    },
+    {
+      "borehole_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+      "borehole_id": "329a9e18-96ac-52f1-9d5e-76d0a444f0d6",
+      "hole_id": "09ATD015",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e610000016b9d02aeda05d4063cf01f68f233bc0",
+        "ndr_ewkb_hex": "0101000020e610000016b9d02aeda05d4063cf01f68f233bc0",
+        "srid": 4326,
+        "x_longitude": 118.51447554,
+        "y_latitude": -27.13891542,
+        "dimensions": 2
+      }
+    }
+  ],
+  "current_release_source_comparison": [
+    {
+      "borehole_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+      "borehole_id": "90c1d3c8-ab23-5377-845d-e1ec77753a73",
+      "hole_id": "05KCD001",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e61000008b1490170ebe5d40df3ee5779edc40c0",
+        "ndr_ewkb_hex": "0101000020e61000008b1490170ebe5d40df3ee5779edc40c0",
+        "srid": 4326,
+        "x_longitude": 118.96961011,
+        "y_latitude": -33.72358607,
+        "dimensions": 2
+      },
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3",
+      "source_file": "05KCD001/borehole.json",
+      "source_file_sha256": "37509639be06e92812b1e3a28ce2f751cb773a31e551944227eff89af83d42ea",
+      "source_x": 118.96961011,
+      "source_y": -33.72358607,
+      "dump_xy_exactly_match_source": true
+    },
+    {
+      "borehole_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+      "borehole_id": "dbc09b10-0e8f-547f-9ee5-d610156bdc53",
+      "hole_id": "07THD002",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e6100000343a1898725d5e4009a7263de39137c0",
+        "ndr_ewkb_hex": "0101000020e6100000343a1898725d5e4009a7263de39137c0",
+        "srid": 4326,
+        "x_longitude": 121.46011927,
+        "y_latitude": -23.56987364,
+        "dimensions": 2
+      },
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+      "source_file": "07THD002/borehole.json",
+      "source_file_sha256": "ae0db9098e827784ba2b1560aaf71cfcf8cfe02f004908b46d13891ff8899a5b",
+      "source_x": 121.46011927,
+      "source_y": -23.56987364,
+      "dump_xy_exactly_match_source": true
+    },
+    {
+      "borehole_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+      "borehole_id": "65c0df55-e5fc-58b0-bd04-e8985606593d",
+      "hole_id": "07THD003",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e610000036e86c7da84c5e40d44bc61084ae37c0",
+        "ndr_ewkb_hex": "0101000020e610000036e86c7da84c5e40d44bc61084ae37c0",
+        "srid": 4326,
+        "x_longitude": 121.19778381,
+        "y_latitude": -23.68170266,
+        "dimensions": 2
+      },
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936",
+      "source_file": "07THD003/borehole.json",
+      "source_file_sha256": "71f97fa631098c79bdc921179b95e15935fb814f45c387a8a1b4aa9333a12a59",
+      "source_x": 121.19778381,
+      "source_y": -23.68170266,
+      "dump_xy_exactly_match_source": true
+    },
+    {
+      "borehole_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+      "borehole_id": "329a9e18-96ac-52f1-9d5e-76d0a444f0d6",
+      "hole_id": "09ATD015",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e610000016b9d02aeda05d4063cf01f68f233bc0",
+        "ndr_ewkb_hex": "0101000020e610000016b9d02aeda05d4063cf01f68f233bc0",
+        "srid": 4326,
+        "x_longitude": 118.51447554,
+        "y_latitude": -27.13891542,
+        "dimensions": 2
+      },
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71",
+      "source_file": "09ATD015/borehole.json",
+      "source_file_sha256": "d93e20f7252f465fa90e1ff19ce4e6117bed18059ce54f63e5ebe42560624373",
+      "source_x": 118.51447554,
+      "source_y": -27.13891542,
+      "dump_xy_exactly_match_source": true
+    },
+    {
+      "borehole_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+      "borehole_id": "3af13b7f-a865-5cf2-937f-c3df0bc17b56",
+      "hole_id": "09ATD019",
+      "coordinate_basis": "project_owner_confirmed borehole.json x/y",
+      "horizontal_crs": "EPSG:4326",
+      "geometry": {
+        "dump_ewkb_hex": "0101000020e610000011e13ef6e3a05d40c1059796aa233bc0",
+        "ndr_ewkb_hex": "0101000020e610000011e13ef6e3a05d40c1059796aa233bc0",
+        "srid": 4326,
+        "x_longitude": 118.51391369,
+        "y_latitude": -27.13932172,
+        "dimensions": 2
+      },
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2",
+      "source_file": "09ATD019/borehole.json",
+      "source_file_sha256": "397068c4304dd5fd9df2cef2323b2e71029124c1bcc6ec39f2069de9a83e5717",
+      "source_x": 118.51391369,
+      "source_y": -27.13932172,
+      "dump_xy_exactly_match_source": true
+    }
+  ]
+}

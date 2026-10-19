@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "batch_id": "ac79c3d1825a46ce967237b230bf615e1a2425dc759f4f9a2ec947c5c8bb1fe9",
+  "objects": 10132,
+  "new_objects": 2153,
+  "reused_objects": 7979,
+  "uploaded_bytes": 1588170299,
+  "reused_bytes": 5664325989,
+  "receipt_archive_bytes": 1205897,
+  "receipt_archive_sha256": "89ee5005b4ede55cacc603c6b00d04433ab5a97f83337d98c40708b98b156416"
+}

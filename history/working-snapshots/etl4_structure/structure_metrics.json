@@ -1,0 +1,110 @@
+{
+  "32_prepare_multi_dataset_payloads.py": {
+    "before": {
+      "selected_metadata": {
+        "start_line": 10,
+        "lines": 18
+      },
+      "dataset_input_identity": {
+        "start_line": 30,
+        "lines": 18
+      },
+      "inventory": {
+        "start_line": 50,
+        "lines": 45
+      },
+      "prepare_unit": {
+        "start_line": 97,
+        "lines": 101
+      },
+      "main": {
+        "start_line": 200,
+        "lines": 23
+      }
+    },
+    "after": {
+      "selected_metadata": {
+        "start_line": 22,
+        "lines": 23
+      },
+      "dataset_input_identity": {
+        "start_line": 47,
+        "lines": 18
+      },
+      "inventory": {
+        "start_line": 67,
+        "lines": 52
+      },
+      "reuse_prepared_result": {
+        "start_line": 121,
+        "lines": 17
+      },
+      "save_prepared_result": {
+        "start_line": 140,
+        "lines": 28
+      },
+      "prepare_unit": {
+        "start_line": 170,
+        "lines": 53
+      },
+      "main": {
+        "start_line": 225,
+        "lines": 25
+      }
+    }
+  },
+  "34_import_multi_dataset_database.py": {
+    "before": {
+      "main": {
+        "start_line": 26,
+        "lines": 124
+      }
+    },
+    "after": {
+      "parse_arguments": {
+        "start_line": 30,
+        "lines": 7
+      },
+      "load_input_package": {
+        "start_line": 39,
+        "lines": 11
+      },
+      "add_complete_segment": {
+        "start_line": 52,
+        "lines": 24
+      },
+      "import_complete_datasets": {
+        "start_line": 78,
+        "lines": 6
+      },
+      "import_dataset_media": {
+        "start_line": 86,
+        "lines": 6
+      },
+      "combine_release_members": {
+        "start_line": 94,
+        "lines": 11
+      },
+      "start_import_record": {
+        "start_line": 107,
+        "lines": 15
+      },
+      "finish_import_record": {
+        "start_line": 124,
+        "lines": 5
+      },
+      "import_release": {
+        "start_line": 131,
+        "lines": 48
+      },
+      "save_import_result": {
+        "start_line": 181,
+        "lines": 10
+      },
+      "main": {
+        "start_line": 193,
+        "lines": 22
+      }
+    }
+  }
+}

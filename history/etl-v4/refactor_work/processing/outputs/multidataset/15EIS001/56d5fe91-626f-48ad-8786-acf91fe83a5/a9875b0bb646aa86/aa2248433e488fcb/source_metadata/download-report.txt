@@ -1,0 +1,13 @@
+hole_id: 15EIS001
+provider: wa
+status: complete_with_warnings
+warnings: 8
+  WARN image: Tray Images retained as metadata only by thumbnail-only policy
+  WARN image: Imagery retained as metadata only by thumbnail-only policy
+  WARN image: Tray Images retained as metadata only by thumbnail-only policy
+  WARN image: Imagery retained as metadata only by thumbnail-only policy
+  WARN image: Tray Images retained as metadata only by thumbnail-only policy
+  WARN image: Imagery retained as metadata only by thumbnail-only policy
+  WARN image: Tray Images retained as metadata only by thumbnail-only policy
+  WARN image: Imagery retained as metadata only by thumbnail-only policy
+errors: 0

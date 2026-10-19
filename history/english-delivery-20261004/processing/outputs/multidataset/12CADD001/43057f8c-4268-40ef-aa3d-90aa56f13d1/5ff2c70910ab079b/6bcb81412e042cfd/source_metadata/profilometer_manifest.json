@@ -1,0 +1,24 @@
+[
+  {
+    "log_id": "d8883e04-33d7-424d-8354-e2160d74039",
+    "log_name": "Profile log",
+    "sample_count": 49104,
+    "channel_count": 128,
+    "file": "profilometer/d8883e04-33d7-424d-8354-e2160d74039_Profile_log.jsonl",
+    "records": 49104,
+    "nbytes": 68016426,
+    "sha256": "11e1b83f6fb7684448e11790e669913a07c8939371f74da42c8cdf2741c2ced4",
+    "status": "complete"
+  },
+  {
+    "log_id": "729561f2-0917-496f-ae60-21879527eaf",
+    "log_name": "Profile log",
+    "sample_count": 30632,
+    "channel_count": 128,
+    "file": "profilometer/729561f2-0917-496f-ae60-21879527eaf_Profile_log.jsonl",
+    "records": 30632,
+    "nbytes": 42855077,
+    "sha256": "76e80845c2d0eb13ad3dada92af76578abb512ef418f6d504f12b8771353a448",
+    "status": "complete"
+  }
+]

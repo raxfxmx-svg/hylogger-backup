@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T04:11:03.384701+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "30_audit_media_database.py",
+  "code_sha256": "69b2f010be90c42439e6fd4c00ab7314fcd108c0c637222251a49f78956b1b97",
+  "sha256_file_scans": 778,
+  "sha256_bytes_read": 288531971,
+  "same_check_cache_hits": 284,
+  "elapsed_seconds": 3.97292520001065,
+  "finished_at": "2026-09-29T04:11:07.359057+00:00"
+}

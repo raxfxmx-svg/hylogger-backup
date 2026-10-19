@@ -1,0 +1,392 @@
+<!doctype html><html><meta charset="utf-8"><title>Anomaly display preview</title><style>/* --------------------------------------------------------------------------
+   All colours and spacing come from the variables below. Change them here and
+   the whole site follows. Mineral colours live in config.js instead, because
+   JavaScript needs to read those too.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --bg: #1a2530;
+  --panel: #22303c;
+  --panel-raised: #2b3a47;
+  --line: #3a4a58;
+  --text: #f0f4f7;
+  --text-dim: #a3b3bf;
+  --accent: #4fd1c5;        /* selected / interactive */
+  --accent-b: #b98cff;      /* the second hole when comparing */
+  --warn: #ffb347;          /* anomalies */
+  --radius: 6px;
+  --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* numbers should line up in columns, always */
+.mono, td.num, .depth { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+a { color: var(--accent); text-decoration: none; }
+
+/* --- layout --------------------------------------------------------------- */
+
+.shell { display: flex; flex-direction: column; height: 100vh; }
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 18px;
+  height: 52px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  flex: 0 0 auto;
+}
+
+.brand {
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.brand span { color: var(--accent); }
+
+.nav { display: flex; gap: 4px; }
+.nav a {
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.nav a:hover { background: var(--panel-raised); color: var(--text); }
+.nav a.active { background: var(--panel-raised); color: var(--text); }
+
+.topbar-stats { margin-left: auto; display: flex; gap: 18px; color: var(--text-dim); font-size: 12px; }
+.topbar-stats b { color: var(--text); font-family: var(--mono); font-weight: 500; }
+
+.columns { flex: 1; display: flex; min-height: 0; }
+
+.detail {
+  width: 253px;
+  flex: 0 0 253px;
+  background: var(--panel);
+  border-left: 1px solid var(--line);
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.map-area { flex: 1; position: relative; min-width: 0; }
+
+.page { flex: 1; overflow-y: auto; padding: 24px; }
+
+/* --- small pieces --------------------------------------------------------- */
+
+.section-title {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+}
+
+input[type="text"], input[type="search"], select {
+  width: 100%;
+  padding: 8px 10px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+}
+input:focus, select:focus, button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.checkbox {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 10px; color: var(--text-dim); font-size: 12px; cursor: pointer;
+}
+
+.hole-list {
+  max-height: 40vh; overflow-y: auto;
+  margin: 8px -12px -10px; border-top: 1px solid var(--line);
+}
+
+.hole-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  width: 100%;
+  padding: 8px 10px;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+}
+.hole-row:hover { background: var(--panel-raised); }
+.hole-row.selected { background: var(--panel-raised); box-shadow: inset 3px 0 0 var(--accent); }
+.hole-row .id {
+  font-family: var(--mono);
+  color: var(--accent);
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hole-row .name {
+  color: var(--text-dim);
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hole-row .len { font-family: var(--mono); color: var(--text-dim); font-size: 12px; }
+.hole-row .flag { color: var(--warn); }
+
+.facts { width: 100%; border-collapse: collapse; margin-bottom: 18px; }
+.facts td { padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+.facts td:first-child { color: var(--text-dim); }
+.facts td:last-child { text-align: right; font-family: var(--mono); }
+
+.badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-family: var(--mono);
+  background: var(--panel-raised);
+  color: var(--text-dim);
+}
+.badge.warn { background: rgba(255, 179, 71, 0.15); color: var(--warn); }
+.badge.confidential { background: rgba(192, 69, 59, 0.15); color: #ff8a7a; }
+
+button.action {
+  padding: 8px 12px;
+  background: var(--panel-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--text);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+}
+button.action:hover { border-color: var(--accent); }
+button.action.primary { background: var(--accent); color: #08201e; border-color: var(--accent); font-weight: 600; }
+
+.hint { color: var(--text-dim); font-size: 12px; line-height: 1.6; }
+.error {
+  padding: 12px;
+  border: 1px solid #7a3b34;
+  background: rgba(192, 69, 59, 0.12);
+  border-radius: var(--radius);
+  color: #ffb4ac;
+  font-size: 13px;
+}
+.empty { padding: 32px 16px; text-align: center; color: var(--text-dim); font-size: 13px; line-height: 1.7; }
+
+.legend {
+  position: absolute; bottom: 12px; left: 12px; z-index: 2;
+  background: rgba(34, 48, 60, 0.9);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 11px;
+}
+.legend-item { display: flex; align-items: center; gap: 7px; margin-top: 5px; }
+.legend-swatch { width: 11px; height: 11px; border-radius: 2px; flex: 0 0 auto; }
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  pointer-events: none;
+  background: var(--panel-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 7px 9px;
+  font-size: 12px;
+  font-family: var(--mono);
+  white-space: nowrap;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+.tray-strip {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.tray-card {
+  flex: 0 0 auto;
+  width: 150px;
+  background: var(--panel-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  font-size: 11px;
+}
+.tray-card img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  display: block;
+  background: var(--bg);
+}
+.tray-card-noimg {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  background: var(--bg);
+}
+.tray-card-depth {
+  padding: 6px 8px 2px;
+  color: var(--text-dim);
+}
+.tray-card-scan {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 2px 8px;
+}
+.tray-card-scan:last-child { padding-bottom: 8px; }
+.tray-card-label { color: var(--text-dim); flex: 0 0 auto; }
+
+/* 3D view: the map alone until a hole is chosen, then map | core viewer */
+.split { flex: 1; display: flex; min-height: 0; }
+.core3d-area { flex: 0 0 50%; position: relative; min-width: 0; border-left: 1px solid var(--line); }
+.core3d {
+  position: absolute; inset: 0; overflow: hidden; outline: none;
+  /* a soft lit backdrop, like core laid out under a lamp */
+  background: radial-gradient(ellipse at 50% 40%, #3a4d5e 0%, #22303c 55%, #17212a 100%);
+}
+.core3d:focus-visible { box-shadow: inset 0 0 0 2px var(--accent); }
+.core3d-head {
+  position: absolute; top: 10px; left: 12px; right: 70px; z-index: 2;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px; pointer-events: none;
+}
+.core3d-chip {
+  display: inline-flex; align-items: center; gap: 7px; pointer-events: auto;
+  padding: 4px 6px 4px 9px; font-size: 12px;
+  background: rgba(34, 48, 60, 0.9); border: 1px solid var(--line); border-left-width: 3px;
+  border-radius: var(--radius);
+}
+.core3d-chip .dot { width: 9px; height: 9px; border-radius: 50%; }
+.core3d-chip button {
+  background: none; border: 0; color: var(--text-dim); font-size: 16px; line-height: 1;
+  cursor: pointer; padding: 0 3px;
+}
+.core3d-chip button:hover { color: var(--text); }
+.core3d-foot {
+  position: absolute; left: 12px; right: 70px; bottom: 10px; z-index: 2;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;
+  padding: 8px 10px; background: rgba(34, 48, 60, 0.9);
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.core3d-foot .hint { flex: 1 1 260px; font-size: 11px; line-height: 1.45; }
+.core3d-depth { font-size: 22px; color: var(--accent); min-width: 88px; }
+.core3d-empty {
+  position: absolute; top: 42%; left: 40px; right: 80px; z-index: 2;
+  text-align: center; color: var(--text-dim); line-height: 1.6;
+}
+.core3d-nav {
+  position: absolute; top: 10px; bottom: 10px; right: 10px; z-index: 2;
+  display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 10px;
+}
+.core3d-nav svg { flex: 1; width: 44px; cursor: ns-resize; border-radius: 3px; touch-action: none; }
+
+/* top-left of the map: Explore's hole list over the 3D core panel, each
+   minimising to its header with "−"; stops short of the bottom-left legend */
+.map-panels {
+  position: absolute; top: 12px; left: 12px; z-index: 2;
+  display: flex; flex-direction: column; gap: 8px;
+  width: 230px; max-height: calc(100% - 96px); overflow-y: auto; scrollbar-width: thin;
+}
+.map-panel {
+  background: rgba(34, 48, 60, 0.9);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+.panel-head { display: flex; align-items: center; gap: 8px; }
+.panel-head .checkbox { margin-top: 0; }
+.panel-toggle {
+  margin-left: auto; flex: 0 0 auto;
+  width: 22px; height: 22px; padding: 0;
+  background: var(--bg); color: var(--text-dim);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  font: 600 15px/1 var(--mono); cursor: pointer;
+}
+.panel-toggle:hover { color: var(--text); border-color: var(--accent); }
+
+/* bottom-right: the left side already holds .map-panels and the Explore legend;
+   34px clears the map attribution */
+.core-strip-panel {
+  position: absolute; bottom: 34px; right: 12px; z-index: 2;
+  background: rgba(34, 48, 60, 0.9);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px; max-width: calc(100% - 270px);
+}
+.core-strip-sheets { display: flex; gap: 10px; overflow-x: auto; margin-top: 8px; }
+.core-strip-sheet { display: flex; flex-direction: column; align-items: center; flex: 0 0 auto; }
+.core-strip-sheet-label { font-size: 10px; color: var(--text-dim); padding-bottom: 4px; }
+.core-strip-pair {
+  display: flex; align-items: flex-start; gap: 1px;
+  height: 38vh; overflow-y: auto;
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.core-strip-pair img { display: block; width: 60px; height: auto; flex-shrink: 0; }
+/* ETL4 core photos: one ~400x25 px crop per tray row, depth left to right -
+   stacked like the rows of a tray instead of side-by-side tall sheets */
+.core-strip-sheets:has(.rows) { flex-direction: column; gap: 2px; max-height: 38vh; overflow-y: auto; }
+.core-strip-sheets:has(.rows) .core-strip-sheet { flex-direction: row; gap: 8px; }
+.core-strip-pair.rows { height: auto; overflow: visible; border: 0; }
+.core-strip-pair.rows img { width: 300px; }
+.map-panel input[type="range"] { width: 100%; }
+
+.seg { display: flex; gap: 6px; margin-top: 8px; }
+.seg button {
+  flex: 1;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--text-dim);
+  padding: 6px 4px;
+  border-radius: var(--radius);
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.seg button:disabled { opacity: 0.4; cursor: default; }
+.seg button.active { background: var(--accent); border-color: var(--accent); color: #08201e; font-weight: 600; }
+
+@media (max-width: 900px) {
+  .columns { flex-direction: column; }
+  .detail { width: 100%; flex: 0 0 auto; max-height: 45vh; border: 0; border-top: 1px solid var(--line); }
+  .map-area { min-height: 320px; }
+  .split { flex-direction: column; }
+  .core3d-area { flex-basis: 60%; border-left: 0; border-top: 1px solid var(--line); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+body{padding:24px;display:flex;gap:24px;align-items:flex-start}.detail{position:static;overflow:visible;width:350px;max-height:none}th{text-align:left}</style><aside class="detail"><h2 style="margin:0 0 2px;font-size:20px" class="mono">05KCD001</h2><p style="margin:0 0 16px;color:var(--text-dim)"></p><table class="facts"><tbody><tr title="Borehole length as reported in the ETL4 borehole record"><td>Reported length</td><td>600.0 m</td></tr><tr title="Depth range the mineral log covers - often starts below the collar"><td>Logged</td><td>72.0–74.0 m</td></tr><tr><td>Collar elevation</td><td>– m</td></tr><tr><td>Latitude</td><td>-25.00000</td></tr><tr><td>Longitude</td><td>120.00000</td></tr><tr><td>Inclination</td><td>–°</td></tr><tr><td>Azimuth</td><td>–°</td></tr><tr><td>Intervals</td><td>2</td></tr><tr><td>Flagged</td><td><span class="badge warn">2 unusual</span></td></tr></tbody></table><p class="section-title">Mineral log</p><div style="display:flex;gap:16px;align-items:flex-start"><div style="position:relative"><svg width="104" height="436" role="img" aria-label="Mineral log to 74 metres"><defs><pattern id="uncertain" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#39424c"></rect><line x1="0" y1="0" x2="0" y2="6" stroke="#5a6672" stroke-width="2"></line></pattern></defs><g transform="translate(0, 8)"><g><text x="36" y="4" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">0</text><line x1="39" y1="0" x2="44" y2="0" stroke="var(--line)"></line></g><g><text x="36" y="60.75675675675676" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">10</text><line x1="39" y1="56.75675675675676" x2="44" y2="56.75675675675676" stroke="var(--line)"></line></g><g><text x="36" y="117.51351351351352" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">20</text><line x1="39" y1="113.51351351351352" x2="44" y2="113.51351351351352" stroke="var(--line)"></line></g><g><text x="36" y="174.2702702702703" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">30</text><line x1="39" y1="170.2702702702703" x2="44" y2="170.2702702702703" stroke="var(--line)"></line></g><g><text x="36" y="231.02702702702703" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">40</text><line x1="39" y1="227.02702702702703" x2="44" y2="227.02702702702703" stroke="var(--line)"></line></g><g><text x="36" y="287.7837837837838" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">50</text><line x1="39" y1="283.7837837837838" x2="44" y2="283.7837837837838" stroke="var(--line)"></line></g><g><text x="36" y="344.5405405405406" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">60</text><line x1="39" y1="340.5405405405406" x2="44" y2="340.5405405405406" stroke="var(--line)"></line></g><g><text x="36" y="401.2972972972973" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">70</text><line x1="39" y1="397.2972972972973" x2="44" y2="397.2972972972973" stroke="var(--line)"></line></g><g><rect x="44" y="408.64864864864865" width="46" height="5.675675675675677" fill="#22c55e"></rect></g><g><rect x="44" y="414.3243243243243" width="46" height="5.675675675675677" fill="#22c55e"></rect></g><rect x="93" y="408.64864864864865" width="7" height="5.675675675675677" fill="#ffb347" aria-label="Anomaly 72–73 m, score 96.77"></rect><rect x="93" y="414.3243243243243" width="7" height="5.675675675675677" fill="#ffb347" aria-label="Anomaly 73–74 m, score 95.10"></rect><rect x="44" y="0" width="46" height="420" fill="none" stroke="var(--line)"></rect></g></svg></div><div style="font-size:11px;color:var(--text-dim)"><div class="legend-item"><span class="legend-swatch" style="background:var(--text-dim)"></span>CHLORITE</div><div class="legend-item" style="margin-top:10px"><span class="legend-swatch" style="background:#39424c"></span>low confidence (0)</div><div class="legend-item"><span class="legend-swatch" style="background:#ffb347"></span>unusual reading</div></div></div><p class="section-title">Unusual intervals (2)</p><p class="hint">Score is a 0–100 model percentile. Model reliability is separate from mineral sample agreement.</p><table class="facts" aria-label="Anomaly scores"><thead><tr><th>Depth (m)</th><th>Score</th><th>Reliability</th></tr></thead><tbody><tr title="Grp1 = smectite (high, &gt;=25.0 sd); Grp2 = oxide (low, &gt;=25.0 sd); Min1 = montmorillonite (high, &gt;=25.0 sd)"><td>72–73</td><td>96.77</td><td>high</td></tr><tr title="Grp1 = smectite (high, &gt;=25.0 sd); Grp1 = other-aloh (high, &gt;=25.0 sd); Grp3 = other-aloh (high, &gt;=25.0 sd)"><td>73–74</td><td>95.10</td><td>high</td></tr></tbody></table><p class="section-title" style="margin-top:22px">Full spectral data</p><p class="hint">No spectral log available for this hole.</p><p class="section-title" style="margin-top:22px">Nearest holes</p><p class="hint">Nothing else within 50 km.</p></aside><aside class="detail"><h2 style="margin:0 0 2px;font-size:20px" class="mono">07THD002</h2><p style="margin:0 0 16px;color:var(--text-dim)"></p><table class="facts"><tbody><tr title="Borehole length as reported in the ETL4 borehole record"><td>Reported length</td><td>600.0 m</td></tr><tr title="Depth range the mineral log covers - often starts below the collar"><td>Logged</td><td>354.0–469.0 m</td></tr><tr><td>Collar elevation</td><td>– m</td></tr><tr><td>Latitude</td><td>-25.00000</td></tr><tr><td>Longitude</td><td>120.00000</td></tr><tr><td>Inclination</td><td>–°</td></tr><tr><td>Azimuth</td><td>–°</td></tr><tr><td>Intervals</td><td>10</td></tr><tr><td>Flagged</td><td><span class="badge warn">10 unusual</span></td></tr></tbody></table><p class="section-title">Mineral log</p><div style="display:flex;gap:16px;align-items:flex-start"><div style="position:relative"><svg width="104" height="436" role="img" aria-label="Mineral log to 469 metres"><defs><pattern id="uncertain" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#39424c"></rect><line x1="0" y1="0" x2="0" y2="6" stroke="#5a6672" stroke-width="2"></line></pattern></defs><g transform="translate(0, 8)"><g><text x="36" y="4" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">0</text><line x1="39" y1="0" x2="44" y2="0" stroke="var(--line)"></line></g><g><text x="36" y="93.55223880597015" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">100</text><line x1="39" y1="89.55223880597015" x2="44" y2="89.55223880597015" stroke="var(--line)"></line></g><g><text x="36" y="183.1044776119403" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">200</text><line x1="39" y1="179.1044776119403" x2="44" y2="179.1044776119403" stroke="var(--line)"></line></g><g><text x="36" y="272.65671641791045" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">300</text><line x1="39" y1="268.65671641791045" x2="44" y2="268.65671641791045" stroke="var(--line)"></line></g><g><text x="36" y="362.2089552238806" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">400</text><line x1="39" y1="358.2089552238806" x2="44" y2="358.2089552238806" stroke="var(--line)"></line></g><g><rect x="44" y="317.01492537313436" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="320.5970149253732" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="330.44776119402985" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="331.34328358208955" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="340.2985074626866" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="342.089552238806" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="346.5671641791045" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="412.8358208955224" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="413.7313432835821" width="46" height="1" fill="#22c55e"></rect></g><g><rect x="44" y="419.1044776119403" width="46" height="1" fill="#22c55e"></rect></g><rect x="93" y="317.01492537313436" width="7" height="2" fill="#ffb347" aria-label="Anomaly 354–355 m, score 95.04"></rect><rect x="93" y="320.5970149253732" width="7" height="2" fill="#ffb347" aria-label="Anomaly 358–359 m, score 96.79"></rect><rect x="93" y="330.44776119402985" width="7" height="2" fill="#ffb347" aria-label="Anomaly 369–370 m, score 97.04"></rect><rect x="93" y="331.34328358208955" width="7" height="2" fill="#ffb347" aria-label="Anomaly 370–371 m, score 96.25"></rect><rect x="93" y="340.2985074626866" width="7" height="2" fill="#ffb347" aria-label="Anomaly 380–381 m, score 97.56"></rect><rect x="93" y="342.089552238806" width="7" height="2" fill="#ffb347" aria-label="Anomaly 382–383 m, score 97.16"></rect><rect x="93" y="346.5671641791045" width="7" height="2" fill="#ffb347" aria-label="Anomaly 387–388 m, score 95.41"></rect><rect x="93" y="412.8358208955224" width="7" height="2" fill="#ffb347" aria-label="Anomaly 461–462 m, score 96.62"></rect><rect x="93" y="413.7313432835821" width="7" height="2" fill="#ffb347" aria-label="Anomaly 462–463 m, score 95.12"></rect><rect x="93" y="419.1044776119403" width="7" height="2" fill="#ffb347" aria-label="Anomaly 468–469 m, score 98.00"></rect><rect x="44" y="0" width="46" height="420" fill="none" stroke="var(--line)"></rect></g></svg></div><div style="font-size:11px;color:var(--text-dim)"><div class="legend-item"><span class="legend-swatch" style="background:var(--text-dim)"></span>CHLORITE</div><div class="legend-item" style="margin-top:10px"><span class="legend-swatch" style="background:#39424c"></span>low confidence (0)</div><div class="legend-item"><span class="legend-swatch" style="background:#ffb347"></span>unusual reading</div></div></div><p class="section-title">Unusual intervals (10)</p><p class="hint">Score is a 0–100 model percentile. Model reliability is separate from mineral sample agreement.</p><table class="facts" aria-label="Anomaly scores"><thead><tr><th>Depth (m)</th><th>Score</th><th>Reliability</th></tr></thead><tbody><tr title="Min1 = muscovite (high, &gt;=25.0 sd); Min2 = chlorite-mg (high, &gt;=25.0 sd); Min1 = phengite (high, &gt;=25.0 sd)"><td>354–355</td><td>95.04</td><td>high</td></tr><tr title="Grp1 = oxide (low, &gt;=25.0 sd); Grp1 = white-mica (high, &gt;=25.0 sd); Min1 = phengite (high, &gt;=25.0 sd)"><td>358–359</td><td>96.79</td><td>high</td></tr><tr title="Grp2 = oxide (low, &gt;=25.0 sd); Min2 = calcite (high, &gt;=25.0 sd); Min1 = muscovite (high, &gt;=25.0 sd)"><td>369–370</td><td>97.04</td><td>high</td></tr><tr title="Grp1 = carbonate (high, &gt;=25.0 sd); Grp1 = oxide (low, &gt;=25.0 sd); Grp2 = oxide (low, &gt;=25.0 sd)"><td>370–371</td><td>96.25</td><td>high</td></tr><tr title="Min1 = phengiticillite (high, &gt;=25.0 sd); Grp1 = oxide (low, &gt;=25.0 sd); Grp2 = oxide (low, &gt;=25.0 sd)"><td>380–381</td><td>97.56</td><td>high</td></tr><tr title="Grp1 = oxide (low, &gt;=25.0 sd); Min1 = muscovite (high, &gt;=25.0 sd); Grp2 = oxide (low, &gt;=25.0 sd)"><td>382–383</td><td>97.16</td><td>high</td></tr><tr title="Grp1 = white-mica (high, &gt;=25.0 sd); Grp2 = oxide (low, &gt;=25.0 sd); Min1 = muscovite (high, &gt;=25.0 sd)"><td>387–388</td><td>95.41</td><td>high</td></tr><tr title="Min1 = phengiticillite (high, &gt;=25.0 sd); Min2 = goethite (low, &gt;=25.0 sd); Min2 = phengite (high, &gt;=25.0 sd)"><td>461–462</td><td>96.62</td><td>high</td></tr><tr title="Min1 = aspectral (low, &gt;=25.0 sd); Grp1 = oxide (low, &gt;=25.0 sd); Grp2 = oxide (low, &gt;=25.0 sd)"><td>462–463</td><td>95.12</td><td>high</td></tr><tr title="Grp1 = chlorite (low, &gt;=25.0 sd); Min2 = hematite (low, &gt;=25.0 sd); HyLogDiag = kt (high, &gt;=25.0 sd)"><td>468–469</td><td>98.00</td><td>high</td></tr></tbody></table><p class="section-title" style="margin-top:22px">Full spectral data</p><p class="hint">No spectral log available for this hole.</p><p class="section-title" style="margin-top:22px">Nearest holes</p><p class="hint">Nothing else within 50 km.</p></aside><aside class="detail"><h2 style="margin:0 0 2px;font-size:20px" class="mono">07THD003</h2><p style="margin:0 0 16px;color:var(--text-dim)"></p><table class="facts"><tbody><tr title="Borehole length as reported in the ETL4 borehole record"><td>Reported length</td><td>600.0 m</td></tr><tr title="Depth range the mineral log covers - often starts below the collar"><td>Logged</td><td>121.0–252.0 m</td></tr><tr><td>Collar elevation</td><td>– m</td></tr><tr><td>Latitude</td><td>-25.00000</td></tr><tr><td>Longitude</td><td>120.00000</td></tr><tr><td>Inclination</td><td>–°</td></tr><tr><td>Azimuth</td><td>–°</td></tr><tr><td>Intervals</td><td>6</td></tr><tr><td>Flagged</td><td><span class="badge warn">6 unusual</span></td></tr></tbody></table><p class="section-title">Mineral log</p><div style="display:flex;gap:16px;align-items:flex-start"><div style="position:relative"><svg width="104" height="436" role="img" aria-label="Mineral log to 252 metres"><defs><pattern id="uncertain" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#39424c"></rect><line x1="0" y1="0" x2="0" y2="6" stroke="#5a6672" stroke-width="2"></line></pattern></defs><g transform="translate(0, 8)"><g><text x="36" y="4" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">0</text><line x1="39" y1="0" x2="44" y2="0" stroke="var(--line)"></line></g><g><text x="36" y="87.33333333333333" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">50</text><line x1="39" y1="83.33333333333333" x2="44" y2="83.33333333333333" stroke="var(--line)"></line></g><g><text x="36" y="170.66666666666666" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">100</text><line x1="39" y1="166.66666666666666" x2="44" y2="166.66666666666666" stroke="var(--line)"></line></g><g><text x="36" y="254" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">150</text><line x1="39" y1="250" x2="44" y2="250" stroke="var(--line)"></line></g><g><text x="36" y="337.3333333333333" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">200</text><line x1="39" y1="333.3333333333333" x2="44" y2="333.3333333333333" stroke="var(--line)"></line></g><g><text x="36" y="420.6666666666667" text-anchor="end" fill="var(--text-dim)" font-size="10" font-family="var(--mono)">250</text><line x1="39" y1="416.6666666666667" x2="44" y2="416.6666666666667" stroke="var(--line)"></line></g><g><rect x="44" y="201.66666666666669" width="46" height="1.6666666666666572" fill="#22c55e"></rect></g><g><rect x="44" y="275" width="46" height="1.6666666666666856" fill="#22c55e"></rect></g><g><rect x="44" y="280" width="46" height="1.6666666666666288" fill="#22c55e"></rect></g><g><rect x="44" y="368.3333333333333" width="46" height="1.6666666666666856" fill="#22c55e"></rect></g><g><rect x="44" y="416.6666666666667" width="46" height="1.6666666666666288" fill="#22c55e"></rect></g><g><rect x="44" y="418.3333333333333" width="46" height="1.6666666666666856" fill="#22c55e"></rect></g><rect x="93" y="201.66666666666669" width="7" height="2" fill="#ffb347" aria-label="Anomaly 121–122 m, score 97.35"></rect><rect x="93" y="275" width="7" height="2" fill="#ffb347" aria-label="Anomaly 165–166 m, score 95.91"></rect><rect x="93" y="280" width="7" height="2" fill="#ffb347" aria-label="Anomaly 168–169 m, score 95.75"></rect><rect x="93" y="368.3333333333333" width="7" height="2" fill="#ffb347" aria-label="Anomaly 221–222 m, score 95.33"></rect><rect x="93" y="416.6666666666667" width="7" height="2" fill="#ffb347" aria-label="Anomaly 250–251 m, score 95.12"></rect><rect x="93" y="418.3333333333333" width="7" height="2" fill="#ffb347" aria-label="Anomaly 251–252 m, score 99.77"></rect><rect x="44" y="0" width="46" height="420" fill="none" stroke="var(--line)"></rect></g></svg></div><div style="font-size:11px;color:var(--text-dim)"><div class="legend-item"><span class="legend-swatch" style="background:var(--text-dim)"></span>CHLORITE</div><div class="legend-item" style="margin-top:10px"><span class="legend-swatch" style="background:#39424c"></span>low confidence (0)</div><div class="legend-item"><span class="legend-swatch" style="background:#ffb347"></span>unusual reading</div></div></div><p class="section-title">Unusual intervals (6)</p><p class="hint">Score is a 0–100 model percentile. Model reliability is separate from mineral sample agreement.</p><table class="facts" aria-label="Anomaly scores"><thead><tr><th>Depth (m)</th><th>Score</th><th>Reliability</th></tr></thead><tbody><tr title="Grp1 = smectite (high, &gt;=25.0 sd); Min1 = phengite (high, &gt;=25.0 sd); Min1 = montmorillonite (high, &gt;=25.0 sd)"><td>121–122</td><td>97.35</td><td>high</td></tr><tr title="Grp2 = oxide (low, &gt;=25.0 sd); Min1 = augite (high, &gt;=25.0 sd); Grp1 = oxide (low, &gt;=25.0 sd)"><td>165–166</td><td>95.91</td><td>high</td></tr><tr title="Min1 = aspectral (low, &gt;=25.0 sd); Min1 = hornblende (high, &gt;=25.0 sd); Grp1 = sulphate (high, &gt;=25.0 sd)"><td>168–169</td><td>95.75</td><td>high</td></tr><tr title="Grp2 = oxide (low, &gt;=25.0 sd); Grp2 = carbonate (high, &gt;=25.0 sd); Min1 = aspectral (low, &gt;=25.0 sd)"><td>221–222</td><td>95.33</td><td>high</td></tr><tr title="Min1 = muscovite (high, &gt;=25.0 sd); Min2 = goethite (low, &gt;=25.0 sd); Min1 = aspectral (low, &gt;=25.0 sd)"><td>250–251</td><td>95.12</td><td>high</td></tr><tr title="Grp2 = oxide (low, &gt;=25.0 sd); HyLogDiag = kt (high, &gt;=25.0 sd); Grp1 = chlorite (low, &gt;=25.0 sd)"><td>251–252</td><td>99.77</td><td>high</td></tr></tbody></table><p class="section-title" style="margin-top:22px">Full spectral data</p><p class="hint">No spectral log available for this hole.</p><p class="section-title" style="margin-top:22px">Nearest holes</p><p class="hint">Nothing else within 50 km.</p></aside></html>

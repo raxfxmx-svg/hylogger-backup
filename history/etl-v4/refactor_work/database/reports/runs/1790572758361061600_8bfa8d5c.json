@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:18.361061+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "20_audit_spectral_sources.py",
+  "code_sha256": "fb6f5c8ff4b43ce0688402390927fe5331b0fbeef1d732fdbd8ec1719b9c4fda",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0010311999940313399,
+  "finished_at": "2026-09-28T05:19:18.361061+00:00"
+}

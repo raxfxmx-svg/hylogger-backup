@@ -1,0 +1,7 @@
+{
+  "detail": "Image direction is not confirmed for 09ATRCD025; provide a scoped confirmation",
+  "error_type": "ValueError",
+  "recorded_at": "2026-09-29T04:04:16.003720+00:00",
+  "script": "26_bind_image_rows_to_samples.py",
+  "status": "failed"
+}

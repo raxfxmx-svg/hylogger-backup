@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-28T11:24:02.360586+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "10_verify_database.py",
+  "code_sha256": "e3d08b2f91aa468ebee5d667fc828fa49e3198f540953d8052ed180a0a5bba2f",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0006831000209785998,
+  "finished_at": "2026-09-28T11:24:02.365725+00:00"
+}

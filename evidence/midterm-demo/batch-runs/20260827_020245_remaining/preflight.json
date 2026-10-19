@@ -1,0 +1,25 @@
+{
+  "mode": "remaining",
+  "target_count": 100,
+  "active_holes": 16,
+  "db_verified_after_reconciliation": 16,
+  "pending_selected": 84,
+  "non_selected_pending": [],
+  "reconciliation_changes": 0,
+  "wave_size": 10,
+  "first_wave": [
+    "09THD032",
+    "09THD033",
+    "10CHD006",
+    "10CHRCD005",
+    "10KRD04",
+    "10KRD06",
+    "10LAD009",
+    "10TJD001",
+    "11SAVD003",
+    "12AMD0015"
+  ],
+  "standby_candidates": 1478,
+  "first_standby": "19EISD002",
+  "min_free_gib": 50.0
+}

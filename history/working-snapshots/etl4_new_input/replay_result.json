@@ -1,0 +1,148 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "returncode": 0,
+      "seconds": 0.325
+    },
+    {
+      "step": 2,
+      "returncode": 0,
+      "seconds": 4.753
+    },
+    {
+      "step": 3,
+      "returncode": 0,
+      "seconds": 0.146
+    },
+    {
+      "step": 4,
+      "returncode": 0,
+      "seconds": 0.352
+    },
+    {
+      "step": 5,
+      "returncode": 0,
+      "seconds": 23.109
+    },
+    {
+      "step": 6,
+      "returncode": 0,
+      "seconds": 0.698
+    },
+    {
+      "step": 7,
+      "returncode": 0,
+      "seconds": 0.72
+    },
+    {
+      "step": 8,
+      "returncode": 0,
+      "seconds": 0.279
+    },
+    {
+      "step": 9,
+      "returncode": 0,
+      "seconds": 0.868
+    },
+    {
+      "step": 10,
+      "returncode": 0,
+      "seconds": 3.792
+    }
+  ],
+  "all_steps_passed": true,
+  "business_tables_compared": 35,
+  "changed_business_tables": [],
+  "prepared_files_compared": 231,
+  "changed_prepared_files": [],
+  "before": {
+    "counts": {
+      "schema_migration": 6,
+      "metric_definition": 91,
+      "borehole": 2,
+      "borehole_revision": 2,
+      "dataset": 2,
+      "dataset_revision": 2,
+      "sample_axis": 2,
+      "core_interval": 299,
+      "scan_sample": 32964,
+      "spectral_stream": 3,
+      "interpretation_set": 9,
+      "interpretation_input": 0,
+      "source_reference": 6,
+      "asset_location": 492,
+      "asset": 492,
+      "log_asset": 442,
+      "data_chunk": 820,
+      "image_frame": 53,
+      "source_document": 28,
+      "spectral_block": 0,
+      "image_region": 0,
+      "image_sample_mapping": 0,
+      "borehole_composite": 0,
+      "image_region_asset": 0,
+      "ingest_run": 1,
+      "revision_validation": 2,
+      "spectral_array": 0,
+      "spectral_sample_map": 0,
+      "active_release": 1,
+      "scan_log": 223,
+      "dataset_succession": 0,
+      "borehole_composite_part": 0,
+      "log_axis_binding": 223,
+      "quality_issue": 26,
+      "data_release": 1,
+      "release_dataset": 2,
+      "borehole_branch": 0,
+      "dataset_segment": 0,
+      "survey_station": 0
+    },
+    "active_release": "d36319f2-4763-507a-a80a-8c6fcb0e263c"
+  },
+  "after": {
+    "counts": {
+      "schema_migration": 6,
+      "scan_sample": 32964,
+      "metric_definition": 91,
+      "borehole": 2,
+      "borehole_revision": 2,
+      "dataset": 2,
+      "dataset_revision": 2,
+      "sample_axis": 2,
+      "core_interval": 299,
+      "spectral_stream": 3,
+      "interpretation_set": 9,
+      "interpretation_input": 0,
+      "image_frame": 53,
+      "asset": 492,
+      "asset_location": 492,
+      "log_asset": 442,
+      "source_document": 28,
+      "data_chunk": 820,
+      "source_reference": 6,
+      "spectral_block": 0,
+      "image_region": 0,
+      "image_sample_mapping": 0,
+      "borehole_composite": 0,
+      "image_region_asset": 0,
+      "revision_validation": 2,
+      "active_release": 1,
+      "spectral_array": 0,
+      "spectral_sample_map": 0,
+      "scan_log": 223,
+      "dataset_succession": 0,
+      "borehole_composite_part": 0,
+      "log_axis_binding": 223,
+      "quality_issue": 26,
+      "data_release": 1,
+      "borehole_branch": 0,
+      "dataset_segment": 0,
+      "release_dataset": 2,
+      "ingest_run": 2,
+      "survey_station": 0
+    },
+    "active_release": "d36319f2-4763-507a-a80a-8c6fcb0e263c"
+  },
+  "total_seconds": 35.042
+}

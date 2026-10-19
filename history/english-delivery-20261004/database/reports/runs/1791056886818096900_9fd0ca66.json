@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-03T19:48:06.310661+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "24_detect_image_rows.py",
+  "code_sha256": "5c17cc0efd4bb95fd0186b414f2cf7687603b3da4e14a23e45b8e5f65036f1d5",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.5030225999944378,
+  "finished_at": "2026-10-03T19:48:06.818096+00:00"
+}

@@ -1,0 +1,5019 @@
+{
+  "raw_dir": "D:\\100demo\\data\\raw",
+  "run_id": "f95576652abf4db0b14f9b98dec89b71",
+  "scope": "Checks manifests, file existence, and sizes only; payload hashes, business content, and database import are outside this precheck",
+  "elapsed_seconds": 11.999,
+  "hole_count": 101,
+  "dataset_count": 106,
+  "unknown_dataset_count_holes": [],
+  "groups": {
+    "single": [
+      "05KCD001",
+      "07THD002",
+      "07THD003",
+      "09ATD015",
+      "09ATD019",
+      "09ATRCD025",
+      "09DKRCD001A",
+      "09DKRCD002",
+      "09FKRCD001",
+      "09HBRCD001",
+      "09RTD001",
+      "09THD028",
+      "09THD029",
+      "09THD030",
+      "09THD031",
+      "09THD032",
+      "09THD033",
+      "10CHD006",
+      "10CHRCD005",
+      "10KRD04",
+      "10KRD06",
+      "10LAD009",
+      "10TJD001",
+      "11SAVD003",
+      "12AMD0015",
+      "12BRDDH001",
+      "12BRDDH002",
+      "12BRDDH003",
+      "12BRDDH004",
+      "12CADD002",
+      "12DHDD0001",
+      "12DHDD0002",
+      "12GMSD001",
+      "13AHDD005",
+      "13CGDD001",
+      "13TRDD012",
+      "13TRDD013",
+      "13TRDD014",
+      "14AMD0043",
+      "14CADD001",
+      "14CADD002",
+      "14CADD003",
+      "15BRDD001",
+      "15BRDD002",
+      "15BRDD003",
+      "15RCDVZ001",
+      "15SYDD0003B",
+      "15SYDD0004",
+      "16CADD001",
+      "16CADD002",
+      "16MYD0047",
+      "16MYD0052",
+      "16MYD0058",
+      "16SHDD10",
+      "17BBDD002",
+      "17BBDD004",
+      "17DD003",
+      "17DHDD0016",
+      "17DTDD0001",
+      "17FCHRCD001",
+      "17FCHRCD002",
+      "17MNDD0001",
+      "17MVDD001",
+      "17MVDD002",
+      "17MVDD003",
+      "17MVDD004",
+      "17MVRCD008",
+      "17MVRCD018",
+      "17NNMD001",
+      "17SRDD0004",
+      "17SRDD0010",
+      "17SRDD0011",
+      "18ABAD01",
+      "18ABAD02",
+      "18AFRD002",
+      "18EISD001",
+      "18EMRCD001",
+      "18GSCRCD0001",
+      "18GSCRCD0002",
+      "18GSLARCD0003",
+      "18JBDD001",
+      "18JBDD002",
+      "18KLDD007",
+      "18KLDD008",
+      "18KLDD010",
+      "18LCDD0001",
+      "18MBDD001",
+      "18MMDD0434",
+      "18QMDD001",
+      "18QMDD002",
+      "18SFDD001",
+      "19AFDD1009",
+      "19EISD002",
+      "19EISD003",
+      "19EISD004"
+    ],
+    "multi": [
+      "12CADD001",
+      "14KDD001",
+      "15EIS001"
+    ],
+    "attention": [
+      "05GJD001",
+      "19AFRD2003",
+      "19AFRD2004"
+    ]
+  },
+  "holes": [
+    {
+      "hole_id": "05GJD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+          "dataset_name": "05GJD001"
+        }
+      ],
+      "status": "warning",
+      "route": "attention",
+      "categories": {
+        "scalars": {
+          "file_count": 125,
+          "expected_file_count": 125,
+          "available_file_count": 125,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 0,
+          "expected_file_count": 0,
+          "available_file_count": 0,
+          "unavailable_log_count": 1,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 33,
+          "expected_file_count": 34,
+          "available_file_count": 34,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Empty profile data: marked unavailable by the source; handle separately before using the current complete-data workflow."
+      ],
+      "source_warnings": [
+        "profilometer: provider returned no data for 2230899f-efab-4588-889b-97481f26f96",
+        "image: provider returned no tray_image for da7d9c27-208e-4818-abd6-b62d71c804e; skipped log",
+        "image: provider returned no imagery for 84bc55a4-050e-419b-8c59-2d87e763d1a; skipped log"
+      ]
+    },
+    {
+      "hole_id": "05KCD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "99f2aa8a-a676-4416-964b-3f8d8dadf86",
+          "dataset_name": "05KCD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 127,
+          "expected_file_count": 127,
+          "available_file_count": 127,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 30,
+          "expected_file_count": 31,
+          "available_file_count": 31,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "92b7750d-5bf9-4115-bf29-dff7db936f6",
+          "dataset_name": "07THD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 77,
+          "expected_file_count": 78,
+          "available_file_count": 78,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "07THD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "4598e2a6-7910-43c1-8894-09b01d36567",
+          "dataset_name": "07THD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 36,
+          "expected_file_count": 37,
+          "available_file_count": 37,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09ATD015",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "2faa992a-508f-4446-ad7d-095fa2739d1",
+          "dataset_name": "09ATD015"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 78,
+          "expected_file_count": 78,
+          "available_file_count": 78,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 7
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 72,
+          "expected_file_count": 73,
+          "available_file_count": 73,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09ATD019",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "df915067-0e08-4c9b-abb5-763b9c98c61",
+          "dataset_name": "09ATD019"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 78,
+          "expected_file_count": 78,
+          "available_file_count": 78,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 7
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 34,
+          "expected_file_count": 35,
+          "available_file_count": 35,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09ATRCD025",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "80b6a3df-6fff-4748-b744-a405a44696b",
+          "dataset_name": "09ATRCD025"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 82,
+          "expected_file_count": 82,
+          "available_file_count": 82,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 7
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 34,
+          "expected_file_count": 35,
+          "available_file_count": 35,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09DKRCD001A",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "420d80f7-7e03-4a1f-b01a-0c15ae3d71e",
+          "dataset_name": "09DKRCD001A"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 129,
+          "expected_file_count": 129,
+          "available_file_count": 129,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 64,
+          "expected_file_count": 65,
+          "available_file_count": 65,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09DKRCD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "203edc3e-331d-4d38-beef-0a80c36b0be",
+          "dataset_name": "09DKRCD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 105,
+          "expected_file_count": 105,
+          "available_file_count": 105,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 68,
+          "expected_file_count": 69,
+          "available_file_count": 69,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09FKRCD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "9c33a004-2244-403c-a3d2-8c2629ab640",
+          "dataset_name": "09FKRCD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 128,
+          "expected_file_count": 128,
+          "available_file_count": 128,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 42,
+          "expected_file_count": 43,
+          "available_file_count": 43,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09HBRCD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "0f63c045-3e9d-461c-a0b4-b9c9fe5f51c",
+          "dataset_name": "09HBRCD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 133,
+          "expected_file_count": 133,
+          "available_file_count": 133,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 76,
+          "expected_file_count": 77,
+          "available_file_count": 77,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09RTD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "bd6ab909-9937-474f-a32b-fd06f5ad0cf",
+          "dataset_name": "09RTD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 75,
+          "expected_file_count": 75,
+          "available_file_count": 75,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 7
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 57,
+          "expected_file_count": 58,
+          "available_file_count": 58,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09THD028",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "8ee07ba8-5646-45a0-b503-a0aeceec13b",
+          "dataset_name": "09THD028"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 80,
+          "expected_file_count": 81,
+          "available_file_count": 81,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09THD029",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "56b8a0eb-8f59-414a-8d5c-01280873106",
+          "dataset_name": "09THD029"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 86,
+          "expected_file_count": 87,
+          "available_file_count": 87,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09THD030",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "7c37bfca-2e2e-469c-b10a-3d972ca53ff",
+          "dataset_name": "09THD030"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 55,
+          "expected_file_count": 56,
+          "available_file_count": 56,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09THD031",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "54f71dfc-c5f3-4ead-8f6c-5c0315fd89c",
+          "dataset_name": "09THD031"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 70,
+          "expected_file_count": 71,
+          "available_file_count": 71,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09THD032",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "76a77cfe-95cc-41c9-81f4-37705c499eb",
+          "dataset_name": "09THD032"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 100,
+          "expected_file_count": 101,
+          "available_file_count": 101,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "09THD033",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "d4f7e955-74d7-4ed1-85bc-78ae44ede53",
+          "dataset_name": "09THD033"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 130,
+          "expected_file_count": 131,
+          "available_file_count": 131,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "10CHD006",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "dd4b7dc6-ded8-4cf2-99cd-c5654fe15b2",
+          "dataset_name": "10CHD006"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 128,
+          "expected_file_count": 128,
+          "available_file_count": 128,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 37,
+          "expected_file_count": 38,
+          "available_file_count": 38,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "10CHRCD005",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "d680763b-3133-4951-9bbc-21db27fa9fc",
+          "dataset_name": "10CHRCD005"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 116,
+          "expected_file_count": 116,
+          "available_file_count": 116,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 31,
+          "expected_file_count": 32,
+          "available_file_count": 32,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "10KRD04",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "de1caa3e-f8c7-4532-9f05-3fdd8da8b80",
+          "dataset_name": "10KRD04"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 124,
+          "expected_file_count": 124,
+          "available_file_count": 124,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 42,
+          "expected_file_count": 43,
+          "available_file_count": 43,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "10KRD06",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "301cf25e-a089-40c5-bd05-d39299a4c42",
+          "dataset_name": "10KRD06"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 124,
+          "expected_file_count": 124,
+          "available_file_count": 124,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 54,
+          "expected_file_count": 55,
+          "available_file_count": 55,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "10LAD009",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "c73693ee-c308-47b7-8925-268225d24d5",
+          "dataset_name": "10LAD009"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 131,
+          "expected_file_count": 131,
+          "available_file_count": 131,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 46,
+          "expected_file_count": 47,
+          "available_file_count": 47,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "10TJD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "497dd3a6-1952-4872-a3a1-3dbf52b5388",
+          "dataset_name": "10TJD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 105,
+          "expected_file_count": 105,
+          "available_file_count": 105,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 66,
+          "expected_file_count": 67,
+          "available_file_count": 67,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "11SAVD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "8c008fb5-63a6-41f9-8442-7fc10908760",
+          "dataset_name": "11SAVD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 133,
+          "expected_file_count": 133,
+          "available_file_count": 133,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 154,
+          "expected_file_count": 155,
+          "available_file_count": 155,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12AMD0015",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "f777c053-03d0-4403-8cf6-1acf3c4c25e",
+          "dataset_name": "12AMD0015"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 124,
+          "expected_file_count": 124,
+          "available_file_count": 124,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 111,
+          "expected_file_count": 112,
+          "available_file_count": 112,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12BRDDH001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "f6d4c35b-ef55-45f3-8507-c9e09cd1e0f",
+          "dataset_name": "12BRDDH001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 24,
+          "expected_file_count": 25,
+          "available_file_count": 25,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12BRDDH002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "5cb50b31-eef6-4ce7-bfc2-f7b23766002",
+          "dataset_name": "12BRDDH002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 108,
+          "expected_file_count": 108,
+          "available_file_count": 108,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 33,
+          "expected_file_count": 34,
+          "available_file_count": 34,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12BRDDH003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+          "dataset_name": "12BRDDH003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 108,
+          "expected_file_count": 108,
+          "available_file_count": 108,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 19,
+          "expected_file_count": 20,
+          "available_file_count": 20,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12BRDDH004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "b1b86861-b3fe-4c20-a6b0-25a597e9af4",
+          "dataset_name": "12BRDDH004"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 34,
+          "expected_file_count": 35,
+          "available_file_count": 35,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12CADD001",
+      "dataset_count": 2,
+      "datasets": [
+        {
+          "dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+          "dataset_name": "12CADD001"
+        },
+        {
+          "dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1",
+          "dataset_name": "12CADD001_wedge"
+        }
+      ],
+      "status": "passed",
+      "route": "multi",
+      "categories": {
+        "scalars": {
+          "file_count": 262,
+          "expected_file_count": 262,
+          "available_file_count": 262,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 4,
+          "expected_file_count": 4,
+          "available_file_count": 4,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 26
+        },
+        "profilometer": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 151,
+          "expected_file_count": 153,
+          "available_file_count": 153,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12CADD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "4e0c9aa3-1660-4a42-a79f-d9f98511120",
+          "dataset_name": "12CADD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 137,
+          "expected_file_count": 137,
+          "available_file_count": 137,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 45,
+          "expected_file_count": 46,
+          "available_file_count": 46,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12DHDD0001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "1fd22ca3-4590-4b33-ba37-d8f84d4dc5b",
+          "dataset_name": "12DHDD0001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 135,
+          "expected_file_count": 135,
+          "available_file_count": 135,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 79,
+          "expected_file_count": 80,
+          "available_file_count": 80,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12DHDD0002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "e2600191-b2dd-41fb-ace1-d36164b8651",
+          "dataset_name": "12DHDD0002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 136,
+          "expected_file_count": 136,
+          "available_file_count": 136,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 84,
+          "expected_file_count": 85,
+          "available_file_count": 85,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "12GMSD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "9e7e9e36-a11e-47eb-9cd3-c7d4ac573ee",
+          "dataset_name": "12GMSD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 258,
+          "expected_file_count": 259,
+          "available_file_count": 259,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "13AHDD005",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "2b9b5673-2972-4cf9-ae75-fe792fb4e44",
+          "dataset_name": "13AHDD005"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 42,
+          "expected_file_count": 43,
+          "available_file_count": 43,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "13CGDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "60976007-13b0-45ca-895a-8dd33124126",
+          "dataset_name": "13CGDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 80,
+          "expected_file_count": 81,
+          "available_file_count": 81,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "13TRDD012",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "533fbd17-554b-4ec8-918c-467e13e9e64",
+          "dataset_name": "13TRDD012"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 108,
+          "expected_file_count": 108,
+          "available_file_count": 108,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 194,
+          "expected_file_count": 195,
+          "available_file_count": 195,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "13TRDD013",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "27c5b310-d509-44e0-9b8c-2e1603f55c7",
+          "dataset_name": "13TRDD013"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 75,
+          "expected_file_count": 76,
+          "available_file_count": 76,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "13TRDD014",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "e5743239-d939-4c70-b546-208b7d2b9f2",
+          "dataset_name": "13TRDD014"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 177,
+          "expected_file_count": 178,
+          "available_file_count": 178,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "14AMD0043",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "6fac6ea1-17ba-4aaa-a007-e4108b19f1a",
+          "dataset_name": "14AMD0043"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 129,
+          "expected_file_count": 129,
+          "available_file_count": 129,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 48,
+          "expected_file_count": 49,
+          "available_file_count": 49,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "14CADD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "80ed1449-b0e1-410d-85a7-06736a15612",
+          "dataset_name": "14CADD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 137,
+          "expected_file_count": 137,
+          "available_file_count": 137,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 62,
+          "expected_file_count": 63,
+          "available_file_count": 63,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "14CADD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "48b27b5a-40fb-4d4b-9a4c-ca56f24f303",
+          "dataset_name": "14CADD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 132,
+          "expected_file_count": 132,
+          "available_file_count": 132,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 52,
+          "expected_file_count": 53,
+          "available_file_count": 53,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "14CADD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+          "dataset_name": "14CADD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 124,
+          "expected_file_count": 124,
+          "available_file_count": 124,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 3,
+          "expected_file_count": 4,
+          "available_file_count": 4,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "14KDD001",
+      "dataset_count": 2,
+      "datasets": [
+        {
+          "dataset_id": "c10744cc-2e42-478a-8bc3-7cea1059044",
+          "dataset_name": "14KDD001_wedge"
+        },
+        {
+          "dataset_id": "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+          "dataset_name": "14KDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "multi",
+      "categories": {
+        "scalars": {
+          "file_count": 214,
+          "expected_file_count": 214,
+          "available_file_count": 214,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 4,
+          "expected_file_count": 4,
+          "available_file_count": 4,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 26
+        },
+        "profilometer": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 29,
+          "expected_file_count": 31,
+          "available_file_count": 31,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15BRDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "3bdc8f0a-0d28-4e87-8f02-37b12aaf4e9",
+          "dataset_name": "15BRDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 122,
+          "expected_file_count": 122,
+          "available_file_count": 122,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 105,
+          "expected_file_count": 106,
+          "available_file_count": 106,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15BRDD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "5d998216-4eba-473b-a29a-2f1d812d3c5",
+          "dataset_name": "15BRDD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 85,
+          "expected_file_count": 86,
+          "available_file_count": 86,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15BRDD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "f552cc33-7f17-4902-b756-711082a9984",
+          "dataset_name": "15BRDD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 107,
+          "expected_file_count": 107,
+          "available_file_count": 107,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 113,
+          "expected_file_count": 114,
+          "available_file_count": 114,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15EIS001",
+      "dataset_count": 4,
+      "datasets": [
+        {
+          "dataset_id": "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+          "dataset_name": "15EIS001"
+        },
+        {
+          "dataset_id": "56d5fe91-626f-48ad-8786-acf91fe83a5",
+          "dataset_name": "15EIS001_wedge3"
+        },
+        {
+          "dataset_id": "c83afeab-5697-4476-b24a-e210af12137",
+          "dataset_name": "15EIS001_wedge2"
+        },
+        {
+          "dataset_id": "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+          "dataset_name": "15EIS001_wedge"
+        }
+      ],
+      "status": "passed",
+      "route": "multi",
+      "categories": {
+        "scalars": {
+          "file_count": 493,
+          "expected_file_count": 493,
+          "available_file_count": 493,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 8,
+          "expected_file_count": 8,
+          "available_file_count": 8,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 52
+        },
+        "profilometer": {
+          "file_count": 4,
+          "expected_file_count": 4,
+          "available_file_count": 4,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 516,
+          "expected_file_count": 520,
+          "available_file_count": 520,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15RCDVZ001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "115c6bdc-24e9-45ac-a3b5-4c822ae1012",
+          "dataset_name": "15RCDVZ001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 186,
+          "expected_file_count": 186,
+          "available_file_count": 186,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 97,
+          "expected_file_count": 98,
+          "available_file_count": 98,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15SYDD0003B",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "9ab25052-6242-4d1c-916f-07cb3c45494",
+          "dataset_name": "15SYDD0003B"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 128,
+          "expected_file_count": 128,
+          "available_file_count": 128,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 105,
+          "expected_file_count": 106,
+          "available_file_count": 106,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "15SYDD0004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "baa9bda8-0ae5-4ba2-a8f7-b8c11cb6e95",
+          "dataset_name": "15SYDD0004"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 126,
+          "expected_file_count": 126,
+          "available_file_count": 126,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 162,
+          "expected_file_count": 163,
+          "available_file_count": 163,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "16CADD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "ace388ac-e3a2-4ff7-a2c2-2353ffbbc5f",
+          "dataset_name": "16CADD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 179,
+          "expected_file_count": 179,
+          "available_file_count": 179,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 161,
+          "expected_file_count": 162,
+          "available_file_count": 162,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "16CADD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "04c3638b-f0c9-41ef-94f6-ac3dfe74042",
+          "dataset_name": "16CADD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 170,
+          "expected_file_count": 170,
+          "available_file_count": 170,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 209,
+          "expected_file_count": 210,
+          "available_file_count": 210,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "16MYD0047",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "51afa092-b66b-44f2-960c-86f9ae1a31c",
+          "dataset_name": "16MYD0047"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 166,
+          "expected_file_count": 166,
+          "available_file_count": 166,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 126,
+          "expected_file_count": 127,
+          "available_file_count": 127,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "16MYD0052",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "66c7d43c-ccd4-4c7c-8d4a-e83a54b15ed",
+          "dataset_name": "16MYD0052"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 167,
+          "expected_file_count": 167,
+          "available_file_count": 167,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 89,
+          "expected_file_count": 90,
+          "available_file_count": 90,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "16MYD0058",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "6a23f66a-00ff-44ae-9d3d-662a1c2a653",
+          "dataset_name": "16MYD0058"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 167,
+          "expected_file_count": 167,
+          "available_file_count": 167,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 74,
+          "expected_file_count": 75,
+          "available_file_count": 75,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "16SHDD10",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "fe7f30db-6681-480d-9896-f2c00ddd964",
+          "dataset_name": "16SHDD10"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 113,
+          "expected_file_count": 113,
+          "available_file_count": 113,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 143,
+          "expected_file_count": 144,
+          "available_file_count": 144,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17BBDD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "1f12c965-0d62-486c-b144-98339bb6afc",
+          "dataset_name": "17BBDD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 134,
+          "expected_file_count": 135,
+          "available_file_count": 135,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17BBDD004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "e06cd8f4-dc49-4e2c-b3d4-02ee70c1488",
+          "dataset_name": "17BBDD004"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 81,
+          "expected_file_count": 81,
+          "available_file_count": 81,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 150,
+          "expected_file_count": 151,
+          "available_file_count": 151,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17DD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "20ac8c87-0931-4e94-9261-c7dd4d3b84d",
+          "dataset_name": "17DD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 197,
+          "expected_file_count": 197,
+          "available_file_count": 197,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 73,
+          "expected_file_count": 74,
+          "available_file_count": 74,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17DHDD0016",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "8d3f5b2c-d656-424d-ba5b-87867a733b8",
+          "dataset_name": "17DHDD0016"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 177,
+          "expected_file_count": 177,
+          "available_file_count": 177,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 83,
+          "expected_file_count": 84,
+          "available_file_count": 84,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17DTDD0001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "484a7577-4a96-4325-98fe-51a87480e7e",
+          "dataset_name": "17DTDD0001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 61,
+          "expected_file_count": 62,
+          "available_file_count": 62,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17FCHRCD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "bf5965f4-aa82-4669-8a40-f062b22000f",
+          "dataset_name": "17FCHRCD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 118,
+          "expected_file_count": 119,
+          "available_file_count": 119,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17FCHRCD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "223e930b-07b9-447a-80ef-ec06889c6dc",
+          "dataset_name": "17FCHRCD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 168,
+          "expected_file_count": 169,
+          "available_file_count": 169,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MNDD0001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "771e0233-231f-45bc-8805-759ec5b1346",
+          "dataset_name": "17MNDD0001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 120,
+          "expected_file_count": 120,
+          "available_file_count": 120,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 49,
+          "expected_file_count": 50,
+          "available_file_count": 50,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MVDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "58b73899-fedd-4a52-8683-6138589d2c6",
+          "dataset_name": "17MVDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 40,
+          "expected_file_count": 41,
+          "available_file_count": 41,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MVDD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "9e650d62-bb19-4e49-ac44-651f8a4e979",
+          "dataset_name": "17MVDD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 17,
+          "expected_file_count": 18,
+          "available_file_count": 18,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MVDD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "b15d019d-dd69-4b84-a67e-bedd861e72d",
+          "dataset_name": "17MVDD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 38,
+          "expected_file_count": 39,
+          "available_file_count": 39,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MVDD004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "c6bc3cc5-c84a-4ae7-9edd-725cac43921",
+          "dataset_name": "17MVDD004"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 57,
+          "expected_file_count": 58,
+          "available_file_count": 58,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MVRCD008",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "882b981d-6cc4-43c2-a6c5-d492990c18d",
+          "dataset_name": "17MVRCD008"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 16,
+          "expected_file_count": 17,
+          "available_file_count": 17,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17MVRCD018",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "150909b8-4b35-4a04-bda2-42a4804b0f7",
+          "dataset_name": "17MVRCD018"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 14,
+          "expected_file_count": 15,
+          "available_file_count": 15,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17NNMD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "ea1593e1-6afb-4b41-bd3a-67806113de0",
+          "dataset_name": "17NNMD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 186,
+          "expected_file_count": 186,
+          "available_file_count": 186,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 114,
+          "expected_file_count": 115,
+          "available_file_count": 115,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17SRDD0004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "39c8356a-fb2d-431f-bdb4-3d646579ff8",
+          "dataset_name": "17SRDD0004"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 161,
+          "expected_file_count": 161,
+          "available_file_count": 161,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 52,
+          "expected_file_count": 53,
+          "available_file_count": 53,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17SRDD0010",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "0278c2d3-e465-420a-9b53-acfb627823c",
+          "dataset_name": "17SRDD0010"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 49,
+          "expected_file_count": 50,
+          "available_file_count": 50,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "17SRDD0011",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "63a981b7-23b4-4593-a3d2-3a5476986e3",
+          "dataset_name": "17SRDD0011"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 49,
+          "expected_file_count": 50,
+          "available_file_count": 50,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18ABAD01",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "9a666126-9922-4b5f-8c52-5cb75dcd561",
+          "dataset_name": "18ABAD01"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 126,
+          "expected_file_count": 126,
+          "available_file_count": 126,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 427,
+          "expected_file_count": 428,
+          "available_file_count": 428,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18ABAD02",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "7db5b663-28ce-4ed8-868f-b784c8f1428",
+          "dataset_name": "18ABAD02"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 274,
+          "expected_file_count": 275,
+          "available_file_count": 275,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18AFRD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "dfa2ea42-3d6c-4cae-94b6-9c3e808a53a",
+          "dataset_name": "18AFRD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 136,
+          "expected_file_count": 136,
+          "available_file_count": 136,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 147,
+          "expected_file_count": 148,
+          "available_file_count": 148,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18EISD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "755c8ab8-25e0-4c68-bc83-9013d4a60bf",
+          "dataset_name": "18EISD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 80,
+          "expected_file_count": 80,
+          "available_file_count": 80,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 316,
+          "expected_file_count": 317,
+          "available_file_count": 317,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18EMRCD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "2624eb8c-8fa5-4027-a4e3-a5d000d81bf",
+          "dataset_name": "18EMRCD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 118,
+          "expected_file_count": 119,
+          "available_file_count": 119,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18GSCRCD0001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "04a4a0a4-3db6-4627-83cd-235bd78ff55",
+          "dataset_name": "18GSCRCD0001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 53,
+          "expected_file_count": 54,
+          "available_file_count": 54,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18GSCRCD0002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "b48dd0d1-c399-45ed-b3d1-4cc5c55ed72",
+          "dataset_name": "18GSCRCD0002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 80,
+          "expected_file_count": 80,
+          "available_file_count": 80,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 56,
+          "expected_file_count": 57,
+          "available_file_count": 57,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18GSLARCD0003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "2ec45fd3-4c93-45d7-bb76-860abbb2a77",
+          "dataset_name": "18GSLARCD0003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 9,
+          "expected_file_count": 10,
+          "available_file_count": 10,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18JBDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "c4478b7e-a0a1-4fd3-a3f0-156a7332d38",
+          "dataset_name": "18JBDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 192,
+          "expected_file_count": 192,
+          "available_file_count": 192,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 67,
+          "expected_file_count": 68,
+          "available_file_count": 68,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18JBDD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "7cc0f723-3c9a-4c95-be7f-e46098cbce4",
+          "dataset_name": "18JBDD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 191,
+          "expected_file_count": 191,
+          "available_file_count": 191,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 91,
+          "expected_file_count": 92,
+          "available_file_count": 92,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18KLDD007",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "3456d746-92b1-43c5-8908-a3ac77dda6c",
+          "dataset_name": "18KLDD007"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 103,
+          "expected_file_count": 104,
+          "available_file_count": 104,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18KLDD008",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "73312ebc-21e4-4b41-8359-b7937e9a20a",
+          "dataset_name": "18KLDD008"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 109,
+          "expected_file_count": 109,
+          "available_file_count": 109,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 87,
+          "expected_file_count": 88,
+          "available_file_count": 88,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18KLDD010",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "6717b90c-f9e9-4011-b84f-ef47e182eae",
+          "dataset_name": "18KLDD010"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 66,
+          "expected_file_count": 67,
+          "available_file_count": 67,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18LCDD0001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "32f4ff09-ea4c-41b7-b26e-c9b50f3bb96",
+          "dataset_name": "18LCDD0001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 130,
+          "expected_file_count": 130,
+          "available_file_count": 130,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 226,
+          "expected_file_count": 227,
+          "available_file_count": 227,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18MBDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "be768c90-84f4-42be-a08a-289adb696d6",
+          "dataset_name": "18MBDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 80,
+          "expected_file_count": 81,
+          "available_file_count": 81,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18MMDD0434",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "94ecd7ae-6502-46e7-97f7-3c8ea7aa0cb",
+          "dataset_name": "18MMDD0434"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 285,
+          "expected_file_count": 285,
+          "available_file_count": 285,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 450,
+          "expected_file_count": 451,
+          "available_file_count": 451,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: unknown image log 'Map1_Location'",
+        "image: unknown image log 'Map2_Geology'",
+        "image: unknown image log 'Map3_X-Section'"
+      ]
+    },
+    {
+      "hole_id": "18QMDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "13a73c10-b56a-4907-b73b-f0a4ef21cc3",
+          "dataset_name": "18QMDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 107,
+          "expected_file_count": 108,
+          "available_file_count": 108,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18QMDD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "60456b68-5ce5-4d70-88ce-78b72158b38",
+          "dataset_name": "18QMDD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 142,
+          "expected_file_count": 143,
+          "available_file_count": 143,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "18SFDD001",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "b4ae2a05-5353-4299-91a2-9e8a1b779ed",
+          "dataset_name": "18SFDD001"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 75,
+          "expected_file_count": 76,
+          "available_file_count": 76,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "19AFDD1009",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "e71a1c8e-b1b7-4bb4-86e5-284c5d13b24",
+          "dataset_name": "19AFDD1009"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 87,
+          "expected_file_count": 88,
+          "available_file_count": 88,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "19AFRD2003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "394c251c-f889-41bc-8443-748dcb3c981",
+          "dataset_name": "19AFRD2003"
+        }
+      ],
+      "status": "error",
+      "route": "attention",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 0,
+          "available_file_count": 0,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 0,
+          "expected_file_count": 0,
+          "available_file_count": 0,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [
+        "Missing package_manifest.json",
+        "Missing profilometer_manifest.json",
+        "Missing image_logs_by_dataset.json",
+        "Missing images_manifest.json",
+        "Missing tray_depths.json",
+        "Found an incomplete .part download: D:\\100demo\\data\\raw\\19AFRD2003\\profilometer\\853d3273-5402-487d-b9e4-da617608123_Profile_log.jsonl.part"
+      ],
+      "warnings": [
+        "Empty image data: category directory is empty or missing; handle separately before using the current complete-data workflow."
+      ],
+      "source_warnings": []
+    },
+    {
+      "hole_id": "19AFRD2004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "56140063-798f-477c-a350-ded56bcb345",
+          "dataset_name": "19AFRD2004"
+        }
+      ],
+      "status": "error",
+      "route": "attention",
+      "categories": {
+        "scalars": {
+          "file_count": 110,
+          "expected_file_count": 110,
+          "available_file_count": 110,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 0,
+          "available_file_count": 0,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "profilometer": {
+          "file_count": 0,
+          "expected_file_count": 0,
+          "available_file_count": 0,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 0,
+          "expected_file_count": 0,
+          "available_file_count": 0,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [
+        "Missing package_manifest.json",
+        "Missing spectral_manifest.json",
+        "Missing profilometer_manifest.json",
+        "Missing image_logs_by_dataset.json",
+        "Missing images_manifest.json",
+        "Missing tray_depths.json",
+        "The file is not listed as a provided payload: D:\\100demo\\data\\raw\\19AFRD2004\\spectral\\02a14176-725d-4787-bbad-ac0423ede5c_Reflectance.f32",
+        "Found an incomplete .part download: D:\\100demo\\data\\raw\\19AFRD2004\\spectral\\9217e6e2-77e2-457d-b360-ef977abb5ad_Base_Refl.f32.part"
+      ],
+      "warnings": [
+        "Empty profile data: category directory is empty or missing; handle separately before using the current complete-data workflow.",
+        "Empty image data: category directory is empty or missing; handle separately before using the current complete-data workflow."
+      ],
+      "source_warnings": []
+    },
+    {
+      "hole_id": "19EISD002",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "bdf1ce55-af58-4403-a64e-38a54ebeca6",
+          "dataset_name": "19EISD002"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 111,
+          "expected_file_count": 112,
+          "available_file_count": 112,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "19EISD003",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "26f1d7e4-c5a8-4c5f-a585-601d1e45ff3",
+          "dataset_name": "19EISD003"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 111,
+          "expected_file_count": 112,
+          "available_file_count": 112,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    },
+    {
+      "hole_id": "19EISD004",
+      "dataset_count": 1,
+      "datasets": [
+        {
+          "dataset_id": "d70ef732-0894-4a63-bf46-607d1f5f87e",
+          "dataset_name": "19EISD004"
+        }
+      ],
+      "status": "passed",
+      "route": "single",
+      "categories": {
+        "scalars": {
+          "file_count": 79,
+          "expected_file_count": 79,
+          "available_file_count": 79,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "spectral": {
+          "file_count": 2,
+          "expected_file_count": 2,
+          "available_file_count": 2,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 13
+        },
+        "profilometer": {
+          "file_count": 1,
+          "expected_file_count": 1,
+          "available_file_count": 1,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        },
+        "images": {
+          "file_count": 121,
+          "expected_file_count": 122,
+          "available_file_count": 122,
+          "unavailable_log_count": 0,
+          "metadata_only_log_count": 0
+        }
+      },
+      "errors": [],
+      "warnings": [],
+      "source_warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "active_release_changed": true,
+  "batch_id": "ac917018e7730169c27f70bca17608455818ca0dba8d442349a84fdfdb77cf80",
+  "bucket": "etl4-offline-fixture",
+  "cloud_target": {
+    "dbname": "etl4_test_batch_flow_flow20261003_target",
+    "fingerprint": "4b0e1398d420e104256ecaa6734fb7dfa6e4b6abe4644c923f77d3d978bbf130",
+    "host": "127.0.0.1",
+    "port": 55433
+  },
+  "completed_at": "2026-10-03T11:18:10.568895+00:00",
+  "database_commit": "complete",
+  "datasets": [
+    {
+      "dataset_id": "00000000-0000-0000-0000-000000000002",
+      "dataset_revision_id": "3f5bb5e8-1b49-56d8-98cb-d7ffde84277a",
+      "input_digest": "6b6a23939e3b5fe52211e8c8716fcbd964339e67ada8037052fa71df3ce04e3a"
+    },
+    {
+      "dataset_id": "00000000-0000-0000-0000-000000000003",
+      "dataset_revision_id": "9969d9da-2435-51a2-9395-6938a3011fb6",
+      "input_digest": "dd32fe853d6e03f8a4c756999261f1d065d5c2598a93b409bf42553206705901"
+    }
+  ],
+  "finalized_release_id": "d2ab225c-10d8-5356-8538-2cec98828535",
+  "format": "etl4-batch-merge-v1",
+  "manifest_sha256": "8d88c243e10905c266df41aa1fbacf94a8bd9f25cc5efb29f17d4ac037ef60f8",
+  "prefix": "etl4",
+  "region": "ap-southeast-2",
+  "release_id": "d2ab225c-10d8-5356-8538-2cec98828535",
+  "replacements": [],
+  "reused": true,
+  "run_id": "794a4bdc-a3ef-581f-a800-10b23bb1ce1d",
+  "s3_root_key": "etl4_s3_2acd08119e9034f10315",
+  "status": "complete",
+  "upload_receipt_sha256": "0e5460a2a5a0917c2cde50529be0bb2f42e8244ad403c72125db19d6f80f93b4"
+}

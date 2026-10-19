@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-28T11:24:02.562626+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "11_measure_capacity.py",
+  "code_sha256": "6fd20722fd72f413b9599d89b95162215c2625517ced72283e3dbc07b84ba682",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0006419999990612268,
+  "finished_at": "2026-09-28T11:24:02.566542+00:00"
+}

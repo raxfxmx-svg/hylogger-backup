@@ -1,0 +1,16 @@
+{
+  "batch_id": "ac917018e7730169c27f70bca17608455818ca0dba8d442349a84fdfdb77cf80",
+  "manifest_sha256": "8d88c243e10905c266df41aa1fbacf94a8bd9f25cc5efb29f17d4ac037ef60f8",
+  "objects": {
+    "objects/sha256/00/0028b22a15f6033901c2caabdcaf96262b29e02aadec72b9fe81a336adf1a971": {
+      "byte_size": 26,
+      "path": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\batch_flow\\flow20261003\\raw\\B\\2.bin",
+      "sha256": "0028b22a15f6033901c2caabdcaf96262b29e02aadec72b9fe81a336adf1a971"
+    },
+    "objects/sha256/24/24b186be90b35c605ef1ce272d21c76ac81181592cc7c42cd5613e4b9fe2d1a2": {
+      "byte_size": 26,
+      "path": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\batch_flow\\flow20261003\\raw\\B\\3.bin",
+      "sha256": "24b186be90b35c605ef1ce272d21c76ac81181592cc7c42cd5613e4b9fe2d1a2"
+    }
+  }
+}

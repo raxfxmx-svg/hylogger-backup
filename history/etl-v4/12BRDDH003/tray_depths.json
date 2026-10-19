@@ -1,0 +1,99 @@
+{
+  "617e58c6-e421-416c-b687-40c0f54bcc1": [
+    {
+      "sample_no": "0",
+      "start_value": "20.5",
+      "end_value": "24.48141"
+    },
+    {
+      "sample_no": "1",
+      "start_value": "24.50353",
+      "end_value": "28.28234"
+    },
+    {
+      "sample_no": "2",
+      "start_value": "28.30353",
+      "end_value": "32.08234"
+    },
+    {
+      "sample_no": "3",
+      "start_value": "32.10771",
+      "end_value": "40.36143"
+    },
+    {
+      "sample_no": "4",
+      "start_value": "40.40363",
+      "end_value": "44.28188"
+    },
+    {
+      "sample_no": "5",
+      "start_value": "44.30585",
+      "end_value": "50.57072"
+    },
+    {
+      "sample_no": "6",
+      "start_value": "50.60344",
+      "end_value": "54.28281"
+    },
+    {
+      "sample_no": "7",
+      "start_value": "54.30344",
+      "end_value": "57.98281"
+    },
+    {
+      "sample_no": "8",
+      "start_value": "58.00465",
+      "end_value": "62.97676"
+    },
+    {
+      "sample_no": "9",
+      "start_value": "63.00325",
+      "end_value": "66.48373"
+    },
+    {
+      "sample_no": "10",
+      "start_value": "66.50353",
+      "end_value": "70.28235"
+    },
+    {
+      "sample_no": "11",
+      "start_value": "70.30344",
+      "end_value": "73.9828"
+    },
+    {
+      "sample_no": "12",
+      "start_value": "74.00335",
+      "end_value": "77.58327"
+    },
+    {
+      "sample_no": "13",
+      "start_value": "77.60339",
+      "end_value": "81.23304"
+    },
+    {
+      "sample_no": "14",
+      "start_value": "81.2533",
+      "end_value": "84.78351"
+    },
+    {
+      "sample_no": "15",
+      "start_value": "84.80344",
+      "end_value": "88.4828"
+    },
+    {
+      "sample_no": "16",
+      "start_value": "88.50335",
+      "end_value": "92.08327"
+    },
+    {
+      "sample_no": "17",
+      "start_value": "92.10349",
+      "end_value": "95.83257"
+    },
+    {
+      "sample_no": "18",
+      "start_value": "95.85339",
+      "end_value": "99.48304"
+    }
+  ]
+}

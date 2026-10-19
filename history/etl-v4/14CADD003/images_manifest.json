@@ -1,0 +1,86 @@
+{
+  "logs": [
+    {
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "32c9e19c-1403-49bf-a730-2887395dea4",
+      "log_name": "Mosaic",
+      "sample_count": 0,
+      "downloaded": 1,
+      "status": "complete"
+    },
+    {
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "374b2ead-2625-4941-b2b9-7a96c7eb399",
+      "log_name": "Tray Thumbnail Images",
+      "sample_count": 3,
+      "downloaded": 3,
+      "status": "complete"
+    },
+    {
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "d9a957eb-c59f-4617-868a-fcfe9bbd79e",
+      "log_name": "Tray Images",
+      "sample_count": 3,
+      "downloaded": 0,
+      "status": "metadata_only"
+    },
+    {
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "6574054e-82c5-4020-a7f7-426e78eb4bc",
+      "log_name": "Imagery",
+      "sample_count": 1584,
+      "downloaded": 0,
+      "status": "metadata_only"
+    }
+  ],
+  "files": [
+    {
+      "file": "images/tray_374b2ead-2625-4941-b2b9-7a96c7eb399_0.jpg",
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "374b2ead-2625-4941-b2b9-7a96c7eb399",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "0",
+      "depth_from": 40.80339,
+      "depth_to": 44.40349,
+      "nbytes": 20133,
+      "sha256": "302f1d44a2a74fc2574e490f039f46211d68db64779da354fc2239caf1f9c1f6"
+    },
+    {
+      "file": "images/tray_374b2ead-2625-4941-b2b9-7a96c7eb399_1.jpg",
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "374b2ead-2625-4941-b2b9-7a96c7eb399",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "1",
+      "depth_from": 44.40349,
+      "depth_to": 48.10066,
+      "nbytes": 19565,
+      "sha256": "84b82ec92b344114de2093b80e4afe1ec1ae5bc89a286a1f71e92f19788ac0eb"
+    },
+    {
+      "file": "images/tray_374b2ead-2625-4941-b2b9-7a96c7eb399_2.jpg",
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "374b2ead-2625-4941-b2b9-7a96c7eb399",
+      "log_name": "Tray Thumbnail Images",
+      "kind": "tray_thumbnail",
+      "sample_no": "2",
+      "depth_from": 48.10066,
+      "depth_to": 48.7967,
+      "nbytes": 11952,
+      "sha256": "e41bd54b7c3b9d1f28c41b1c2aa52907e706a7025faf2e817888e4616e88b113"
+    },
+    {
+      "file": "mosaics/32c9e19c-1403-49bf-a730-2887395dea4_Mosaic.html",
+      "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+      "log_id": "32c9e19c-1403-49bf-a730-2887395dea4",
+      "log_name": "Mosaic",
+      "kind": "mosaic",
+      "sample_no": null,
+      "depth_from": null,
+      "depth_to": null,
+      "nbytes": 2233,
+      "sha256": "a116218fa5ba05cd37e26558631b642716fc9ae9fddca1759a0ee044b66087ca"
+    }
+  ]
+}

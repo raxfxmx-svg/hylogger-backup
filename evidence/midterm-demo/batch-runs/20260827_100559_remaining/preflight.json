@@ -1,0 +1,20 @@
+{
+  "mode": "remaining",
+  "target_count": 100,
+  "active_holes": 93,
+  "db_verified_after_reconciliation": 93,
+  "pending_selected": 3,
+  "pending_in_mode": 7,
+  "no_download": true,
+  "non_selected_pending": [],
+  "reconciliation_changes": 0,
+  "wave_size": 10,
+  "first_wave": [
+    "18QMDD002",
+    "18SFDD001",
+    "19AFDD1009"
+  ],
+  "standby_candidates": 1475,
+  "first_standby": "19EISD005",
+  "min_free_gib": 50.0
+}

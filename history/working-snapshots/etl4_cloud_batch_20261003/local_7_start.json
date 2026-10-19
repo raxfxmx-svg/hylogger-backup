@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\path\\to\\project\\etl4\\database\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\path\\to\\project\\etl4\\database\\7_preflight_database.py",
+    "--runtime-only",
+    "--work-dir",
+    "C:\\path\\to\\project\\etl4\\refactor_work",
+    "--raw-dir",
+    "C:\\path\\to\\project\\etl4",
+    "--dbname",
+    "etl4_test_single_final_20260930"
+  ],
+  "elapsed_seconds": 2.484148700001242,
+  "exit_code": 1,
+  "log": "C:\\path\\to\\project\\_codex_work\\etl4_cloud_batch_20261003\\local_7_start.log",
+  "stage": "local_7_start"
+}

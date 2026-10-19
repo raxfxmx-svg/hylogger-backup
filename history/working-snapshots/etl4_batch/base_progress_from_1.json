@@ -1,0 +1,12 @@
+[
+  {
+    "step": 1,
+    "seconds": 44.9058756,
+    "exit_code": 0
+  },
+  {
+    "step": 2,
+    "seconds": 1091.4235343,
+    "exit_code": -1
+  }
+]

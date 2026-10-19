@@ -1,0 +1,153 @@
+{
+  "changed_files": [
+    {
+      "path": "etl4/database/38_export_batch.py",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "a6684d75f8f56fe17676445c9e5d242b08cad508ee87b4328853e3f3efbca25a",
+      "bytes": 24938,
+      "added_lines": 403,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/39_upload_batch.py",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "e2d8a63c05a48fd695b07b8c187cd5f2c2c11ff03493298e2cb57e04ebfe8ab3",
+      "bytes": 6764,
+      "added_lines": 137,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/BATCH_DELIVERY_CHANGE_REPORT_20261003.md",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "78d7c7ddc526fcb1dbce3548d80ce3ccf99d0689d912234b8293292b6f977c6b",
+      "bytes": 5131,
+      "added_lines": 52,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/BATCH_FORMAT.md",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "026cea340c7920531a55a606afbb7643d8b63700ffabf22680afdc53603c0a50",
+      "bytes": 6302,
+      "added_lines": 68,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/CODE_STRUCTURE.md",
+      "status": "modified",
+      "before_sha256": "464e521980f65b95e71f2ddbdd9fba792e2b62e2e514d95c02473a17af1ab7b7",
+      "sha256": "ded7fe7318a0109921a00b4f38ad09caba70a1e4b17c634a6108d18e51d6172e",
+      "bytes": 6747,
+      "added_lines": 4,
+      "removed_lines": 1
+    },
+    {
+      "path": "etl4/database/LOCAL_BATCH_RUNBOOK.md",
+      "status": "modified",
+      "before_sha256": "2e09dbdf7b8d91754acc0eeceb9e3e1676b4d464328090c70b4a639f98fa45ee",
+      "sha256": "7b3c26bea183c33bfd3641472344f1ad11306a00c14bb873e7dc79a8804f4487",
+      "bytes": 13126,
+      "added_lines": 44,
+      "removed_lines": 4
+    },
+    {
+      "path": "etl4/database/README.md",
+      "status": "modified",
+      "before_sha256": "03b2e56978cb3677437324be232119da469b8fe32c3e5bdf3cb3da83cb5b7940",
+      "sha256": "9154e517546cce61a35f102c5750480d5ad9c26eb79f0a830c677d0cb4c4050b",
+      "bytes": 13566,
+      "added_lines": 1,
+      "removed_lines": 1
+    },
+    {
+      "path": "etl4/database/VALIDATION_POLICY.md",
+      "status": "modified",
+      "before_sha256": "36f73c846a8caadb7b9f5197492521045434f2ad7e05be4d2e119a6653a7a0ff",
+      "sha256": "b6c3f41c30aa3377ca0bee901e2ff9d62ba4747f7061d7971a3c641fa4f75a75",
+      "bytes": 7124,
+      "added_lines": 5,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/_batch_files.py",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "c3492528d225d2de540a7b1375208a26d279396b965d92643e252b281f61323b",
+      "bytes": 8452,
+      "added_lines": 166,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/_final_import.py",
+      "status": "modified",
+      "before_sha256": "7a75bd8f1f769892d73f992e3dba917a31000d0798e39910195e7edc32377535",
+      "sha256": "fbf25a9093af2d335eae49b46736608841487fbf425514154a3b46c6d8ccc712",
+      "bytes": 15071,
+      "added_lines": 13,
+      "removed_lines": 2
+    },
+    {
+      "path": "etl4/database/tests/test_batch_export.py",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "2c8c39220b18ea699774adf87422fa9adc1789f8f4bd0d8696328105b88c271e",
+      "bytes": 21784,
+      "added_lines": 364,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/tests/test_batch_files.py",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "0e2bb6110f2837e62914d34046d3b0becff1315a6415e8d8d3cdff678835849d",
+      "bytes": 9386,
+      "added_lines": 189,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/tests/test_batch_upload.py",
+      "status": "added",
+      "before_sha256": null,
+      "sha256": "11b22cc80cf76ebbe3842a06303315fa8a51ef8c2684dcf59a4498b0dc95a69e",
+      "bytes": 21025,
+      "added_lines": 443,
+      "removed_lines": 0
+    },
+    {
+      "path": "etl4/database/tests/test_local_batch.py",
+      "status": "modified",
+      "before_sha256": "3f927d15d258a0c0d8295aab4f9c40c584387f70a27f36e9b332677a833cb9c0",
+      "sha256": "c0a8ef882acb0b98b32390735afd46694c857e569f90be7daac790f486d22741",
+      "bytes": 16440,
+      "added_lines": 9,
+      "removed_lines": 1
+    },
+    {
+      "path": "etl4/handoff/PACKAGE_FILES.json",
+      "status": "modified",
+      "before_sha256": "d6361dd8d0ddf538fd41425108348b9cd634721d068bbf0544a110c308000fb5",
+      "sha256": "2f7989e5cfe35b9b02ad3c80ae789dc4042254efea57c9b46e6eb097951604a6",
+      "bytes": 833820,
+      "added_lines": 2,
+      "removed_lines": 2
+    },
+    {
+      "path": "etl4/handoff/tools/handoff.py",
+      "status": "modified",
+      "before_sha256": "65e7a0fdef5bb2d2b9137ee3e465b349f1efb92e37ab40c19240264944960a7c",
+      "sha256": "0058a7b7aa3f7e6a73159737db8920e2f5889d5a994e6da0aaf77be77674d0e8",
+      "bytes": 28119,
+      "added_lines": 25,
+      "removed_lines": 11
+    }
+  ],
+  "handoff_inventory_changes": [
+    "tools/handoff.py"
+  ],
+  "unchanged_handoff_file_entries": 2863,
+  "handoff_hash_matches": true
+}

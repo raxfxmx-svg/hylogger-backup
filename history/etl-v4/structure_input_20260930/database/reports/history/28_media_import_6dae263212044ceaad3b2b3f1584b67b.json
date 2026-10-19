@@ -1,0 +1,16 @@
+{
+  "datasets": [
+    {
+      "action": "inserted",
+      "axis_id": "5f1a5a5d-f7b2-5712-b947-512cae756b27",
+      "dataset_id": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+      "dataset_revision_id": "6a4b7a14-b672-5b11-8fdb-930cfd45a244"
+    }
+  ],
+  "media_package_sha256": "ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05",
+  "package_directory": "media_releases/ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05",
+  "previous_release_id": "72fb3992-0dd3-508a-b962-56585afa93b2",
+  "recorded_at": "2026-09-29T23:47:29.076611+00:00",
+  "release_id": "d93bdac1-56fc-5d5a-bd5f-6044e1ae37be",
+  "status": "staged"
+}

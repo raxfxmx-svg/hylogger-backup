@@ -1,0 +1,38 @@
+[
+  {
+    "script": "28_import_media_revision.py",
+    "started_at": "2026-09-29T23:04:43.004784+00:00",
+    "status": "passed",
+    "sha256_file_scans": 1018,
+    "sha256_bytes_read": 454167135,
+    "same_check_cache_hits": 6,
+    "elapsed_seconds": 3.349172899965197
+  },
+  {
+    "script": "29_verify_media_grain.py",
+    "started_at": "2026-09-29T23:04:46.641533+00:00",
+    "status": "passed",
+    "sha256_file_scans": 677,
+    "sha256_bytes_read": 445938793,
+    "same_check_cache_hits": 1031,
+    "elapsed_seconds": 2.3336135999998078
+  },
+  {
+    "script": "28_import_media_revision.py",
+    "started_at": "2026-09-29T23:05:27.895354+00:00",
+    "status": "passed",
+    "sha256_file_scans": 663,
+    "sha256_bytes_read": 445829633,
+    "same_check_cache_hits": 6,
+    "elapsed_seconds": 0.9580667999689467
+  },
+  {
+    "script": "29_verify_media_grain.py",
+    "started_at": "2026-09-29T23:05:29.131488+00:00",
+    "status": "passed",
+    "sha256_file_scans": 677,
+    "sha256_bytes_read": 445938793,
+    "same_check_cache_hits": 1031,
+    "elapsed_seconds": 2.3730715999845415
+  }
+]

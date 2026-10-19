@@ -1,0 +1,14 @@
+# Second 150-Borehole Download Batch
+
+Selected Allanooka 2 through Bootine 1, excluding the 249 previously completed boreholes (99 + 150) recorded in `selection.json`. Run five workers through `etl2/download.py`, with raw files in `D:/100demo/data/raw` and the shared cache in `D:/100demo/data/cache`.
+
+Retain Tray Images/Imagery metadata, tray thumbnails, scalars, spectra, profiles and existing Mosaic display files. Large Tray Images/Imagery downloads are excluded. Pause near 30 GiB free space on either input/cache drive and preserve resumable files.
+
+`process.json` records the process, logs and exit code; `progress.json` updates after each borehole. Inspect individual reports for missing-source and unknown-type warnings. Use original hole IDs from `source_identity.json`; `selection.json` maps local folder names.
+
+The hidden Windows process runs independently of the chat. Keep the computer awake and connected; restarting does not restart the batch. Use `stop.ps1` to request a pause and wait for `paused`, then `start.ps1` to resume after freeing sufficient space. Keep this batch's raw files until completion. Exit codes: 0 finished, 1 failures, 2 paused. Download completion does not imply processing or database import; no scheduled monitoring was configured.
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./stop.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./start.ps1
+```

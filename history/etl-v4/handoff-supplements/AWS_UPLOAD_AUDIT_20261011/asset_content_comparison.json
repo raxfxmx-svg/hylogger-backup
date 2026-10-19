@@ -1,0 +1,79 @@
+[
+  {
+    "kind": "core_row_image",
+    "representation": "canonical",
+    "published": 410,
+    "incoming": 410,
+    "byte_identical_count": 410
+  },
+  {
+    "kind": "image",
+    "representation": "raw",
+    "published": 85,
+    "incoming": 85,
+    "byte_identical_count": 84
+  },
+  {
+    "kind": "media_evidence",
+    "representation": "evidence",
+    "published": 132,
+    "incoming": 26,
+    "byte_identical_count": 6
+  },
+  {
+    "kind": "metadata",
+    "representation": "raw",
+    "published": 14,
+    "incoming": 14,
+    "byte_identical_count": 7
+  },
+  {
+    "kind": "processing_evidence",
+    "representation": "evidence",
+    "published": 10,
+    "incoming": 10,
+    "byte_identical_count": 1
+  },
+  {
+    "kind": "profile",
+    "representation": "canonical",
+    "published": 1,
+    "incoming": 1,
+    "byte_identical_count": 0
+  },
+  {
+    "kind": "profile",
+    "representation": "raw",
+    "published": 1,
+    "incoming": 1,
+    "byte_identical_count": 1
+  },
+  {
+    "kind": "sample_axis",
+    "representation": "canonical",
+    "published": 1,
+    "incoming": 1,
+    "byte_identical_count": 0
+  },
+  {
+    "kind": "scalar",
+    "representation": "canonical",
+    "published": 136,
+    "incoming": 136,
+    "byte_identical_count": 0
+  },
+  {
+    "kind": "scalar",
+    "representation": "raw",
+    "published": 136,
+    "incoming": 136,
+    "byte_identical_count": 136
+  },
+  {
+    "kind": "spectral",
+    "representation": "raw",
+    "published": 2,
+    "incoming": 2,
+    "byte_identical_count": 2
+  }
+]

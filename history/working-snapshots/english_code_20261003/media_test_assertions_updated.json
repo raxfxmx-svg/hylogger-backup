@@ -1,0 +1,14 @@
+[
+  {
+    "file": "etl4\\database\\tests\\test_local_batch.py",
+    "assertion_strings_updated": 9
+  },
+  {
+    "file": "etl4\\database\\tests\\test_refactor.py",
+    "assertion_strings_updated": 1
+  },
+  {
+    "file": "etl4\\database\\tests\\test_batch_entry.py",
+    "assertion_strings_updated": 1
+  }
+]

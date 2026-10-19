@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "hole": "09THD028",
+  "database": "etl4_new_input_check",
+  "dataset_count": 3,
+  "revision_count": 6,
+  "logical_samples_all_three_holes": 75844,
+  "base_release": "40dd8357-c9de-551c-9da2-db165127cbcc",
+  "media_release": "39dd22a0-0885-5505-a11a-ceddba05ddce",
+  "active_release": "e1083bca-f551-59d6-967a-2853c0e8cfa1",
+  "base_checks": {
+    "asset_bytes_hashed": 433612578,
+    "assets_hashed": 330,
+    "chunks_compared": 1212,
+    "dataset_revision_id": "f7378f37-84f0-5a59-9992-79dee8716b01",
+    "hole_id": "09THD028",
+    "images_compared": 80,
+    "input_digest": "3bf9623e3753a985a0b6dbd0abc6475c05b5a594a168a3892ab5a89ad51fea05",
+    "logs_compared": 130,
+    "samples_compared": 42880,
+    "status": "passed"
+  },
+  "media_checks": {
+    "assets_checked": 676,
+    "dataset_revision_id": "66d273c5-3cf4-57e3-8ec5-e186df76d018",
+    "hole_id": "09THD028",
+    "input_digest": "9cdaf93a843e40b4d31d21740fba21d86cee96b2f83b4b958bbfbda44e136695",
+    "official_reference_spectra_compared": 20,
+    "row_count": 320,
+    "sample_count": 42880,
+    "sample_read_ms": [
+      24.720200046431273,
+      12.089200026821345,
+      11.91510003991425,
+      10.853899992071092,
+      17.06690003629774,
+      16.44549996126443
+    ],
+    "status": "passed"
+  },
+  "replay_new_business_rows": 0,
+  "replay_new_revisions": 0,
+  "prepared_files_unchanged": 132,
+  "original_rows_preserved": 74015,
+  "disk": {
+    "source_copy": {
+      "bytes": 346515827,
+      "files": 208
+    },
+    "work": {
+      "bytes": 121618699,
+      "files": 894
+    },
+    "audit": {
+      "bytes": 3046161,
+      "files": 57
+    }
+  }
+}

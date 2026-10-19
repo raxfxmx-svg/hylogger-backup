@@ -1,0 +1,14 @@
+# Tamala 1 Download
+
+Download Tamala 1 with one resumable worker. The source name `Tamala 1_cuttings` identifies cuttings material. Use `etl2/download.py`, raw directory `D:/100demo/data/raw/Tamala 1`, and cache `D:/100demo/data/cache/wa/Tamala 1`.
+
+Keep Tray Images/Imagery metadata, tray thumbnails, scalars, spectra, profiles and existing Mosaic display files. Pause near 30 GiB free space and retain checkpoints.
+
+`process.json` records the background process, logs and exit code; `progress.json` records the result. Individual reports retain missing-source and unknown-type warnings. Keep the computer awake and connected. The process is independent of the chat and does not restart after reboot.
+
+Request a pause with `stop.ps1`, wait for the active network request, and resume through `start.ps1` after checking space. Exit codes: 0 finished, 1 failures, 2 paused. This run includes no monitoring, cleaning or database import. Its download record excludes the borehole from later manifest-based selections.
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./stop.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./start.ps1
+```

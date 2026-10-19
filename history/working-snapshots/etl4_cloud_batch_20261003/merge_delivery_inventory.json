@@ -1,0 +1,16 @@
+{
+  "archive": "C:\\path\\to\\project\\_codex_work\\etl4_cloud_batch_20261003\\etl4_merge_delivery.zip",
+  "byte_size": 1245404,
+  "sha256": "b3a051b951c52111773552df5e3c6d2c792e3a118ccd94c3e76292fe4ebe34b8",
+  "files": [
+    "export/8039f5a6c2c5711141bb201eaa1fb96636924d23c48faddd66edb782253519cd/upload_receipt.json",
+    "cloud_batch_runner.py",
+    "etl4/_file_checks.py",
+    "etl4/database/39_upload_batch.py",
+    "etl4/database/40_merge_cloud_batch.py",
+    "etl4/database/41_cleanup_batch.py",
+    "etl4/database/_batch_files.py"
+  ],
+  "uploaded_objects": 10163,
+  "confirmed_bytes": 7756184046
+}

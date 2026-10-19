@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-28T11:14:49.798779+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "36_backup_multi_dataset_database.py",
+  "code_sha256": "647be9a42ad3aa52ee9f504ec8548bcb899ac46267c0c2accaa02775e112230f",
+  "sha256_file_scans": 17,
+  "sha256_bytes_read": 28164941,
+  "same_check_cache_hits": 6,
+  "elapsed_seconds": 39.11808210000163,
+  "finished_at": "2026-09-28T11:15:28.928799+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-28T05:21:38.944358+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "script": "5_build_columnar.py",
+  "code_sha256": "555c2c173573a482b9757b2d2d9ebb6b3923f75d430a8777893230f08ec8339e",
+  "sha256_file_scans": 392,
+  "sha256_bytes_read": 166198477,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 83.18388549998053,
+  "finished_at": "2026-09-28T05:23:02.130742+00:00"
+}

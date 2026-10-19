@@ -1,0 +1,102 @@
+[
+  {
+    "step": 1,
+    "seconds": 0.35730519995559007,
+    "exit_code": 0
+  },
+  {
+    "step": 2,
+    "seconds": 7.56584950000979,
+    "exit_code": 0
+  },
+  {
+    "step": 3,
+    "seconds": 0.18264299997827038,
+    "exit_code": 0
+  },
+  {
+    "step": 4,
+    "seconds": 0.41560609999578446,
+    "exit_code": 0
+  },
+  {
+    "step": 5,
+    "seconds": 67.6618679999956,
+    "exit_code": 0
+  },
+  {
+    "step": 6,
+    "seconds": 0.9220988000161014,
+    "exit_code": 0
+  },
+  {
+    "step": 7,
+    "seconds": 0.21681280003394932,
+    "exit_code": 0
+  },
+  {
+    "step": 9,
+    "seconds": 0.9707190999761224,
+    "exit_code": 0
+  },
+  {
+    "step": 10,
+    "seconds": 7.326060299994424,
+    "exit_code": 0
+  },
+  {
+    "step": 20,
+    "seconds": 1.04812980000861,
+    "exit_code": 0
+  },
+  {
+    "step": 21,
+    "seconds": 0.33652640000218526,
+    "exit_code": 0
+  },
+  {
+    "step": 22,
+    "seconds": 0.28896510001504794,
+    "exit_code": 0
+  },
+  {
+    "step": 23,
+    "seconds": 0.4040359999635257,
+    "exit_code": 0
+  },
+  {
+    "step": 24,
+    "seconds": 0.3247077999985777,
+    "exit_code": 0
+  },
+  {
+    "step": 25,
+    "seconds": 0.5247942000278272,
+    "exit_code": 0
+  },
+  {
+    "step": 25,
+    "seconds": 0.5036486000171863,
+    "exit_code": 0
+  },
+  {
+    "step": 26,
+    "seconds": 0.2561971000395715,
+    "exit_code": 0
+  },
+  {
+    "step": 27,
+    "seconds": 1.3898513999884017,
+    "exit_code": 0
+  },
+  {
+    "step": 28,
+    "seconds": 2.1070901999482885,
+    "exit_code": 0
+  },
+  {
+    "step": 29,
+    "seconds": 3.637239200004842,
+    "exit_code": 0
+  }
+]

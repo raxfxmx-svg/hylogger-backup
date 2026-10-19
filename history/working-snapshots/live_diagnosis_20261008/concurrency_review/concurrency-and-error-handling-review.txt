@@ -1,0 +1,19 @@
+Request Concurrency and Error Handling — 2026-10-08
+
+I traced frontend requests and reproduced failure handling offline against main baa66348aa4e4572af96cefa41b964299725fe13. GitHub, AWS settings and production data were unchanged; no live load test was performed.
+
+The observed three-hour CloudWatch window showed 351 invocations, maximum concurrency 6, throttles 0, errors 0 and maximum duration 25,230 ms. The configured unreserved account concurrency was 10. This did not establish throttling as the cause of the blank UI; the confirmed mineral_group filter error remained the primary cause. Lambda execution-error counts do not describe every application HTTP response.
+
+Reproduced problems:
+- An anomaly 503 was converted to [], then cached inside successful measurements as no anomaly. Two calls made only one anomaly request even after recovery.
+- Scalar failures became zero statistics and empty map data. Anomaly-filter failures excluded holes as if they had no anomalies.
+- A failed photo section was dropped and the incomplete strip cached as success; later calls did not retry it.
+- A detached spectral Promise had no catch, allowing Loading to persist after failure.
+
+All-hole Promise.all calls, JSON fetches and image loads did not share one request limit. The eight-task photo pool limited a single hole only. Existing request deduplication did work, so navigation and map requests must not simply be counted twice. Limiting concurrency also does not reduce the total amount of raw sample data downloaded.
+
+I tested a reference shared scheduler with complete-response slot ownership and bounded retries. Six offline tests passed. In a controlled 99-hole, one-page-per-hole fixture, 397 total requests were retained while peak active fetches fell from 198 to 4. That 198 is a simulated count; the observed live peak was 6. Tests also confirmed recovery from anomaly/scalar/photo failures, three total attempts for 429 with Retry-After=2 seconds, one attempt for 404 and released slots during backoff.
+
+Recommended changes were explicit loading/success/error/partial states, retryable failed subresources, a shared page-level JSON/image queue, selected-hole priority, timeouts and stale-response handling. A page limit does not cover other tabs/users or guarantee server-side cancellation. Backend summaries would reduce homepage download volume.
+
+reference-transport.cjs is a verification implementation, not a complete deployed patch: image integration, priorities and cancellation were unfinished. Evidence: verify.cjs and verification-result.json.

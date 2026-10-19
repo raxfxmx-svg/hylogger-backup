@@ -1,0 +1,6 @@
+{
+  "root_key": "etl4_s3_primary",
+  "bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+  "region": "ap-southeast-2",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624"
+}

@@ -1,0 +1,40 @@
+{
+  "blocker_count": 0,
+  "candidate_bytes": 1595121029,
+  "candidates": 6662,
+  "deleted_count": 0,
+  "legacy_local_references_checked": false,
+  "raw_included": false,
+  "reference_scope": "C:\\path\\to\\project\\etl4\\single_final_check_20260930\\database\\exports",
+  "reports": [
+    {
+      "blockers": [],
+      "candidate_bytes": 1435799599,
+      "candidate_count": 5652,
+      "deleted_count": 0,
+      "kept_count": 4467,
+      "status": "preview",
+      "work_root": "C:\\path\\to\\project\\etl4\\refactor_work"
+    },
+    {
+      "blockers": [],
+      "candidate_bytes": 155185051,
+      "candidate_count": 872,
+      "deleted_count": 0,
+      "kept_count": 9247,
+      "status": "preview",
+      "work_root": "C:\\path\\to\\project\\etl4\\new_input_check"
+    },
+    {
+      "blockers": [],
+      "candidate_bytes": 4136379,
+      "candidate_count": 138,
+      "deleted_count": 0,
+      "kept_count": 9981,
+      "status": "preview",
+      "work_root": "C:\\path\\to\\project\\etl4\\structure_input_20260930"
+    }
+  ],
+  "requires_user_review_before_cleanup": true,
+  "status": "preview"
+}

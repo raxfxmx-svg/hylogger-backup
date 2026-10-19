@@ -1,0 +1,30 @@
+[
+  {
+    "log_id": "a6e16370-b4dc-46e2-aabd-b7b8138ece3",
+    "log_name": "Mosaic",
+    "sample_count": "0",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "9ee88848-2053-477d-9844-51035992011",
+    "log_name": "Tray Thumbnail Images",
+    "sample_count": "77",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "b3a8b279-a648-4037-a1c8-becd062132e",
+    "log_name": "Tray Images",
+    "sample_count": "77",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  },
+  {
+    "log_id": "20e00f5b-0d62-451e-a5e3-0b2a91a47a8",
+    "log_name": "Imagery",
+    "sample_count": "116424",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "frontend/lib/api.js",
+    "sha": "a3a3e4d21eb1b675ced49ab6594caef0400ceabc"
+  },
+  {
+    "path": "frontend/components/HoleDetail.jsx",
+    "sha": "1ec69b09facfe6145d0dd2f691250b71814aee7f"
+  },
+  {
+    "path": "frontend/components/StripLog.jsx",
+    "sha": "78055b34e362a7dd09940ee20b6e386a506cc2a2"
+  },
+  {
+    "path": "frontend/components/CoreStripPanel.jsx",
+    "sha": "aecec0269dd8fdefd20daff1e1c060a9891e1296"
+  },
+  {
+    "path": "frontend/components/Hole3D.jsx",
+    "sha": "3b8ed41dd4f9d6dbdd8159b4e4633216e21673ab"
+  },
+  {
+    "path": "frontend/package.json",
+    "sha": "fe138a7099d6dae773527d2c55c9f0c7d95eda8c"
+  },
+  {
+    "path": "frontend/test/api-fixture.cjs",
+    "sha": "5a4ea39fd77bac8dce13b3f8c161c65ae3299525"
+  },
+  {
+    "path": "frontend/test/api.test.cjs",
+    "sha": "0db575ab1f7350bf2bae673b18ca1bbca8d9363d"
+  },
+  {
+    "path": "frontend/test/photo.test.cjs",
+    "sha": "8d88141cf60dcf1b6cabb678c7b37e7a63e75099"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:17.920567+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "13_audit_database.py",
+  "code_sha256": "ef396050e6dba14c40a98252080ea4acaaf405c4c75ced18ff0648e80bdd012f",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0006529999955091625,
+  "finished_at": "2026-09-28T05:19:17.920567+00:00"
+}

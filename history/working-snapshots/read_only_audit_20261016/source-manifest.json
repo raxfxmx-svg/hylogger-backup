@@ -1,0 +1,83 @@
+{
+  "commit": "02cac83a7c054777ca7a19b442299f10bd4371e7",
+  "files": [
+    {
+      "path": "anomaly.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/anomaly.py",
+      "status": 200,
+      "bytes": 35808
+    },
+    {
+      "path": "etl.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/etl.py",
+      "status": 200,
+      "bytes": 30546
+    },
+    {
+      "path": "frontend/lib/api.js",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/frontend/lib/api.js",
+      "status": 200,
+      "bytes": 20045
+    },
+    {
+      "path": "frontend/config.js",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/frontend/config.js",
+      "status": 200,
+      "bytes": 4358
+    },
+    {
+      "path": "frontend/components/StripLog.jsx",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/frontend/components/StripLog.jsx",
+      "status": 200,
+      "bytes": 5049
+    },
+    {
+      "path": "frontend/components/HoleDetail.jsx",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/frontend/components/HoleDetail.jsx",
+      "status": 200,
+      "bytes": 11121
+    },
+    {
+      "path": "backend/docs/FRONTEND_API.md",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/backend/docs/FRONTEND_API.md",
+      "status": 200,
+      "bytes": 7956
+    },
+    {
+      "path": "files/extract.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/files/extract.py",
+      "status": 200,
+      "bytes": 15741
+    },
+    {
+      "path": "backend-django-old/holes/ml/anomaly.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/backend-django-old/holes/ml/anomaly.py",
+      "status": 200,
+      "bytes": 4462
+    },
+    {
+      "path": "backend-django-old/holes/management/commands/load_data.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/backend-django-old/holes/management/commands/load_data.py",
+      "status": 200,
+      "bytes": 5927
+    },
+    {
+      "path": "backend-django-old/holes/models.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/backend-django-old/holes/models.py",
+      "status": 200,
+      "bytes": 5401
+    },
+    {
+      "path": "backend-django-old/holes/views.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/backend-django-old/holes/views.py",
+      "status": 200,
+      "bytes": 20389
+    },
+    {
+      "path": "data/make_sample_data.py",
+      "url": "https://raw.githubusercontent.com/raxfxmx-svg/hylogger/02cac83a7c054777ca7a19b442299f10bd4371e7/data/make_sample_data.py",
+      "status": 200,
+      "bytes": 6172
+    }
+  ]
+}

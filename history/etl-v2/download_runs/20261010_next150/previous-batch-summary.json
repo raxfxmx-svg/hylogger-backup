@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-08-27T01:31:03+00:00",
+  "requested": 10,
+  "complete": 0,
+  "complete_with_warnings": 10,
+  "failed": 0,
+  "holes": [
+    {
+      "hole_id": "18GSLARCD0003",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18GSLARCD0003",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18JBDD001",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18JBDD001",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18JBDD002",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18JBDD002",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18KLDD007",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18KLDD007",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18KLDD008",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18KLDD008",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18KLDD010",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18KLDD010",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18LCDD0001",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18LCDD0001",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18MBDD001",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18MBDD001",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18MMDD0434",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18MMDD0434",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy",
+        "image: unknown image log 'Map1_Location'",
+        "image: unknown image log 'Map2_Geology'",
+        "image: unknown image log 'Map3_X-Section'"
+      ],
+      "errors": []
+    },
+    {
+      "hole_id": "18QMDD001",
+      "status": "complete_with_warnings",
+      "raw_dir": "D:\\100demo\\data\\raw\\18QMDD001",
+      "warnings": [
+        "image: Tray Images retained as metadata only by thumbnail-only policy",
+        "image: Imagery retained as metadata only by thumbnail-only policy"
+      ],
+      "errors": []
+    }
+  ]
+}

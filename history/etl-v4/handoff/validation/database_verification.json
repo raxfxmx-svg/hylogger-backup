@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "tables": 36,
+  "current_samples": 261892,
+  "sample_fixtures": 13,
+  "reader_write_privileges": false
+}

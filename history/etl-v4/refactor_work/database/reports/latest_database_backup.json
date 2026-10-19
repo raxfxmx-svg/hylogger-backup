@@ -1,0 +1,7 @@
+{
+  "backup_relative_path": "backups/etl4_refactor_check_after_three_hole_merge_20260929.dump",
+  "backup_sha256": "6db65a7f99a473a391eb61475af50f5188530894bbe3033a2e4ef6e620c89609",
+  "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "report": "merge_new_input_check.json",
+  "restore_test_performed": false
+}

@@ -1,0 +1,1482 @@
+[
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u672c\u5730\u9a8c\u6536\u5c1a\u672a\u901a\u8fc7",
+    "new": "The second local acceptance has not passed"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u9a8c\u6536\u7684\u6570\u636e\u5e93\u4e0e --dbname \u4e0d\u4e00\u81f4",
+    "new": "The database in the second acceptance does not match --dbname"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u9a8c\u6536\u7684\u5185\u5bb9\u6458\u8981\u4e0d\u4e00\u81f4",
+    "new": "The content digest in the second acceptance does not match"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u9a8c\u6536\u672a\u7ed1\u5b9a\u7b2c\u4e00\u5173\u62a5\u544a\uff0c\u8bf7\u7528\u66f4\u65b0\u540e\u7684\u6b65\u9aa4 37 \u590d\u8dd1",
+    "new": "The second acceptance does not reference first-stage reports; rerun the updated step 37"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u9a8c\u6536\u5305\u542b\u91cd\u590d\u7248\u672c",
+    "new": "The second acceptance contains duplicate revisions"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e00\u5173\u51c6\u5907\u5305\u6458\u8981\u65e0\u6548",
+    "new": "The first-stage prepared package digest is invalid"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e00\u5173\u9a8c\u6536\u62a5\u544a\u72b6\u6001\u6216\u6458\u8981\u4e0d\u4e00\u81f4",
+    "new": "The first-stage acceptance status or digest does not match"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u9a8c\u6536\u91cd\u590d\u5f15\u7528\u540c\u4e00\u4e2a\u51c6\u5907\u5305",
+    "new": "The second acceptance references the same prepared package more than once"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e00\u5173\u62a5\u544a\u91cd\u590d\u5305\u542b dataset",
+    "new": "The first-stage reports contain duplicate datasets"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u4e24\u6b21\u9a8c\u6536\u7684 dataset \u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The two acceptances cover different datasets"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u8868\u7ed3\u6784\u8303\u56f4\u5df2\u6539\u53d8\uff0c\u8bf7\u66f4\u65b0\u5bfc\u51fa\u683c\u5f0f\uff1b\u65b0\u589e ",
+    "new": "The table scope changed; update the export format. Added: "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\uff0c\u7f3a\u5c11 ",
+    "new": "; missing: "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u5bfc\u51fa\u8868\u7f3a\u5c11\u5217\u6216\u4e3b\u952e\u5b9a\u4e49",
+    "new": "An exported table is missing column or primary key definitions"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u6570\u636e\u5e93\u8fc1\u79fb\u4e0e\u672c\u5730\u4ee3\u7801\u4e0d\u4e00\u81f4",
+    "new": "Database migrations do not match the local code"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u9a8c\u6536\u6240\u6307\u7684\u6570\u636e\u7248\u672c\u5728\u6570\u636e\u5e93\u4e2d\u7f3a\u5931",
+    "new": "A revision referenced by the acceptance is missing from the database"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u9a8c\u6536\u7248\u672c\u6216\u5185\u5bb9\u4e0e\u6570\u636e\u5e93\u4e0d\u4e00\u81f4",
+    "new": "The accepted revision or content does not match the database"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e00\u5173\u8f93\u5165\u4e0e\u6700\u7ec8\u7248\u672c\u4e0d\u5bf9\u5e94\uff0c\u8bf7\u91cd\u65b0\u8fd0\u884c\u6b65\u9aa4 37",
+    "new": "The first-stage input does not match the final revision; rerun step 37"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u5fc5\u987b\u5bfc\u51fa\u5b8c\u6574\u5b54\uff1a\u672c\u6279\u7248\u672c\u4e0e\u9a8c\u6536\u53d1\u5e03\u5728\u8fd9\u4e9b\u5b54\u4e0a\u7684\u5168\u90e8 dataset \u4e0d\u4e00\u81f4",
+    "new": "Export complete boreholes: this batch does not match all datasets for these boreholes in the accepted release"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u6570\u636e\u5e93\u5185\u7684\u7248\u672c\u9a8c\u6536\u8bb0\u5f55\u7f3a\u5931\u6216\u4e0d\u5bf9\u5e94",
+    "new": "The database revision acceptance record is missing or does not match"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u6240\u9009\u5b54\u7f3a\u5c11 3D \u5c55\u793a\u7ec4\u5408",
+    "new": "Selected boreholes are missing 3D display composites"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "3D \u7ec4\u5408\u5305\u542b\u8303\u56f4\u5916\u6216\u9057\u6f0f\u7684\u7248\u672c",
+    "new": "The 3D composites contain out-of-scope revisions or omit selected revisions"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "3D \u8854\u63a5\u5173\u7cfb\u8d8a\u51fa\u672c\u6279\u8303\u56f4",
+    "new": "The 3D succession relationships extend beyond this batch"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u9a8c\u6536\u53d1\u5e03\u4e0d\u5b58\u5728",
+    "new": "The accepted release does not exist"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u6ca1\u6709\u4e3a ",
+    "new": "No batch scope is defined for "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": " \u5b9a\u4e49\u6279\u6b21\u8303\u56f4",
+    "new": ""
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u53d1\u5e03\u4e13\u5c5e\u8d44\u4ea7\u6e05\u5355\u4e0e\u9a8c\u6536\u53d1\u5e03\u4e0d\u4e00\u81f4",
+    "new": "The release-specific asset manifest does not match the accepted release"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u8d44\u4ea7\u6e05\u5355\u4e0e\u672c\u6279\u6570\u636e\u5e93\u8d44\u4ea7\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The asset manifest does not match this batch's database assets"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u8d44\u4ea7\u6e05\u5355\u4e0e\u6570\u636e\u5e93\u5185\u5bb9\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The asset manifest content identity does not match the database"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u672c\u6279\u8d44\u4ea7\u7f3a\u5c11\u53ef\u8bfb\u53d6\u7684\u672c\u5730\u6587\u4ef6\uff1a",
+    "new": "This batch asset has no readable local file: "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u76f8\u540c\u5bf9\u8c61\u952e\u5bf9\u5e94\u4e0d\u540c\u6587\u4ef6\u8eab\u4efd",
+    "new": "The same object key refers to different file identities"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u76f8\u540c\u6279\u6b21\u8eab\u4efd\u5bfc\u51fa\u4e86\u4e0d\u540c\u4e1a\u52a1\u5185\u5bb9\uff0c\u8bf7\u68c0\u67e5\u8f93\u5165\u6216\u5904\u7406\u89c4\u5219\uff1b\u539f\u6709\u5bfc\u51fa\u672a\u8986\u76d6",
+    "new": "The same batch identity produced different business content; check inputs or processing rules. The existing export was not overwritten"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u8fde\u63a5\u7684\u6570\u636e\u5e93\u4e0e\u7b2c\u4e8c\u6b21\u9a8c\u6536\u4e0d\u4e00\u81f4",
+    "new": "The connected database does not match the second acceptance"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u8fc1\u79fb\u6587\u4ef6\u5728\u5bfc\u51fa\u671f\u95f4\u6539\u53d8\uff0c\u8bf7\u91cd\u65b0\u5bfc\u51fa",
+    "new": "A migration file changed during export; export again"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u672c\u5730\u9a8c\u6536\u62a5\u544a\uff1b\u9ed8\u8ba4\u4f7f\u7528\u672c\u5de5\u4f5c\u76ee\u5f55\u6700\u65b0\u62a5\u544a",
+    "new": "Second local acceptance report; defaults to the latest report in this work directory"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u5bfc\u51fa\u7236\u76ee\u5f55\uff1b\u7ed3\u679c\u653e\u5165\u4ee5\u6279\u6b21\u6458\u8981\u547d\u540d\u7684\u5b50\u76ee\u5f55",
+    "new": "Export parent directory; output is placed in a subdirectory named after the batch digest"
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\u6279\u6b21\u5bfc\u51fa\uff1a",
+    "new": "Batch exported: "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": " \u5b54\uff0c",
+    "new": " boreholes, "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": " \u4e2a dataset\uff1b\u5927\u6587\u4ef6\u672a\u590d\u5236",
+    "new": " datasets; large files were not copied"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u5730\u5740\u683c\u5f0f\u65e0\u6548",
+    "new": "Invalid signed URL format"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u5730\u5740\u4e0d\u5c5e\u4e8e\u672c\u6279\u660e\u786e\u7684 S3 \u5bf9\u8c61",
+    "new": "The signed URL does not belong to an explicitly selected S3 object in this batch"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u6709\u6548\u671f\u5e94\u4e3a 6 \u81f3 12 \u5c0f\u65f6\uff0c\u5b9e\u9645\u8fd8\u53d7\u4e91\u7aef\u4f1a\u8bdd\u5230\u671f\u65f6\u95f4\u9650\u5236",
+    "new": "Signature lifetime must be 6 to 12 hours and is also limited by the cloud session expiry"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u672c\u6279\u5305\u542b\u8d85\u8fc7 5 GiB \u7684\u6587\u4ef6\uff0c\u8bf7\u4f7f\u7528\u6807\u51c6 SDK \u4e0a\u4f20\u8def\u5f84",
+    "new": "This batch contains a file larger than 5 GiB; use the standard SDK upload path"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u79c1\u6709\u7b7e\u540d\u6587\u4ef6\u4e0d\u80fd\u8986\u76d6\u4ea4\u4ed8\u6587\u4ef6\u3001\u8def\u5f84\u6620\u5c04\u6216\u56de\u6267",
+    "new": "The private signature file must not overwrite delivery files, path mappings, or receipts"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u8f93\u51fa\u5df2\u5b58\u5728\u5176\u4ed6\u5185\u5bb9\uff0c\u8bf7\u66f4\u6362\u79c1\u6709\u8f93\u51fa\u8def\u5f84",
+    "new": "The signature output already contains other content; choose another private output path"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e91\u7aef\u7b7e\u540d\u9700\u8981 boto3\uff0c\u8bf7\u4f7f\u7528\u5df2\u8ba4\u8bc1\u7684 CloudShell \u73af\u5883",
+    "new": "Cloud signing requires boto3; use an authenticated CloudShell environment"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "CloudShell \u5f53\u524d\u6ca1\u6709\u53ef\u7528\u7684 AWS \u4f1a\u8bdd",
+    "new": "CloudShell has no usable AWS session"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e91\u7aef AWS \u8d26\u53f7\u4e0e\u660e\u786e\u76ee\u6807\u4e0d\u4e00\u81f4",
+    "new": "The cloud AWS account does not match the explicit target"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "S3 bucket \u533a\u57df\u4e0e\u53c2\u6570\u4e0d\u4e00\u81f4",
+    "new": "The S3 bucket region does not match the argument"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "S3 bucket \u5c1a\u672a\u5b8c\u6574\u542f\u7528 Block Public Access",
+    "new": "S3 Block Public Access is not fully enabled for the bucket"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\uff1b\u8bf7\u91cd\u65b0\u751f\u6210\u4e34\u65f6\u7b7e\u540d",
+    "new": "; regenerate the temporary signatures"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "S3 \u8bf7\u6c42\u672a\u5b8c\u6210\uff08HTTP ",
+    "new": "S3 request failed (HTTP "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u6587\u4ef6\u4e0e\u672c\u6279\u6216\u4e0a\u4f20\u76ee\u6807\u4e0d\u4e00\u81f4",
+    "new": "The signature file does not match this batch or upload target"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u6587\u4ef6\u6ca1\u6709\u5b8c\u6574\u8986\u76d6\u672c\u6279\u5bf9\u8c61",
+    "new": "The signature file does not cover all objects in this batch"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u5bf9\u8c61\u8eab\u4efd\u3001\u5927\u5c0f\u6216\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "A signed object's identity, size, or scope does not match"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u8d85\u8fc7 5 GiB \u7684\u6587\u4ef6\u9700\u8981\u6807\u51c6 SDK multipart \u4e0a\u4f20",
+    "new": "Files larger than 5 GiB require standard SDK multipart upload"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "S3 \u4e34\u65f6\u7b7e\u540d\u8fde\u63a5\u4e2d\u65ad\uff0c\u5df2\u5c1d\u8bd53\u6b21\uff0c\u8bf7\u4fdd\u7559\u56de\u6267\u540e\u91cd\u8bd5",
+    "new": "The S3 temporary-signature connection failed after 3 attempts; keep the receipt and retry"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20\u671f\u95f4\u672c\u5730\u6587\u4ef6\u957f\u5ea6\u6539\u53d8",
+    "new": "The local file length changed during upload"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20\u671f\u95f4\u672c\u5730\u6587\u4ef6\u957f\u5ea6\u6539\u53d8",
+    "new": "The local file length changed during upload"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "HEAD \u8bf7\u6c42\u8d85\u51fa\u672c\u6279\u7b7e\u540d\u8303\u56f4",
+    "new": "The HEAD request is outside this batch's signed scope"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "PUT \u8bf7\u6c42\u8d85\u51fa\u672c\u6279\u7b7e\u540d\u8303\u56f4",
+    "new": "The PUT request is outside this batch's signed scope"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "S3 \u524d\u7f00\u5e94\u4e3a\u666e\u901a\u76ee\u5f55\u540d\uff0c\u4e0d\u80fd\u5305\u542b\u7a7a\u6bb5\u3001\u53cd\u659c\u7ebf\u6216 ..",
+    "new": "The S3 prefix must use ordinary directory names without empty segments, backslashes, or .."
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u672c\u6279\u4e0a\u4f20\u5bf9\u8c61\u952e\u91cd\u590d",
+    "new": "This batch contains duplicate upload object keys"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "] \u6587\u4ef6\u8bfb\u53d6/\u4f20\u8f93 ",
+    "new": "] file read/transfer "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20\u5e76\u884c\u6570\u987b\u5728 1 \u81f3 16 \u4e4b\u95f4",
+    "new": "Upload concurrency must be between 1 and 16"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u79c1\u6709\u7b7e\u540d\u6587\u4ef6\u4e0d\u80fd\u662f\u4ea4\u4ed8\u6587\u4ef6\u6216\u539f\u59cb\u8d44\u4ea7",
+    "new": "The private signature file must not be a delivery file or original asset"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u4e0d\u80fd\u8986\u76d6\u5c01\u5b58\u6587\u4ef6\u6216\u539f\u59cb\u8d44\u4ea7",
+    "new": "The upload receipt must not overwrite sealed files or original assets"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u5df2\u6709\u56de\u6267\u5c5e\u4e8e\u5176\u4ed6\u6279\u6b21\u6216\u4e0a\u4f20\u76ee\u6807\uff0c\u8bf7\u53e6\u9009 --receipt \u8def\u5f84",
+    "new": "The existing receipt belongs to another batch or upload target; choose another --receipt path"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e34\u65f6\u7b7e\u540d\u4e0e SDK client \u4e0d\u80fd\u540c\u65f6\u6307\u5b9a",
+    "new": "Temporary signatures and an SDK client cannot both be specified"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20\u9700\u8981 boto3\uff1b\u8bf7\u5148\u5b89\u88c5 AWS \u4e0a\u4f20\u4f9d\u8d56",
+    "new": "Uploading requires boto3; install the AWS upload dependencies first"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u590d\u7528",
+    "new": "reused"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20",
+    "new": "uploaded"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "] \u5df2",
+    "new": "] "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u5e76\u786e\u8ba4: ",
+    "new": " and verified: "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u6b65\u9aa4 38 \u7684\u5bfc\u51fa\u76ee\u5f55",
+    "new": "Export directory from step 38"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u76ee\u6807 S3 bucket",
+    "new": "Target S3 bucket"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u76ee\u6807 AWS \u533a\u57df",
+    "new": "Target AWS region"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "S3 \u5bf9\u8c61\u524d\u7f00",
+    "new": "S3 object prefix"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u8fdb\u5ea6\u56de\u6267\uff0c\u9ed8\u8ba4\u5bfc\u51fa\u76ee\u5f55/upload_receipt.json",
+    "new": "Progress receipt; defaults to export-directory/upload_receipt.json"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u5728\u5df2\u8ba4\u8bc1 CloudShell \u751f\u6210\u672c\u6279\u79c1\u6709\u77ed\u671f\u7b7e\u540d\u6587\u4ef6",
+    "new": "Generate this batch's private short-lived signature file in authenticated CloudShell"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u672c\u673a\u4f7f\u7528\u4e0b\u8f7d\u7684\u79c1\u6709\u7b7e\u540d\u6587\u4ef6\u4e0a\u4f20\uff0c\u65e0\u9700 AWS \u5bc6\u94a5",
+    "new": "Upload locally using the downloaded private signature file without AWS keys"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u6709\u6548\u671f\uff0c6\u81f312\u5c0f\u65f6\uff0c\u5b9e\u9645\u53d7\u4f1a\u8bdd\u671f\u9650\u9650\u5236",
+    "new": "Signature lifetime, 6 to 12 hours, limited by the session expiry"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u7b7e\u540d\u524d\u6838\u5bf9 AWS \u8d26\u53f7 ID",
+    "new": "Check the AWS account ID before signing"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u5e76\u884c\u4e0a\u4f20\u6587\u4ef6\u6570\uff0c\u9ed8\u8ba41\uff1bmanifest\u59cb\u7ec8\u6700\u540e\u4e0a\u4f20",
+    "new": "Number of concurrent file uploads, default 1; the manifest is always uploaded last"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u5df2\u751f\u6210 ",
+    "new": "Generated private short-lived signatures for "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": " \u4e2a\u5bf9\u8c61\u7684\u79c1\u6709\u77ed\u671f\u7b7e\u540d\uff1b\u4e0d\u8981\u628a\u7b7e\u540d\u6587\u4ef6\u653e\u5165\u4ea4\u4ed8\u6e05\u5355\u6216\u5206\u4eab",
+    "new": " objects; do not include or share the signature file in the delivery package"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u672c\u6279\u4e0a\u4f20\u5b8c\u6210\uff1a",
+    "new": "Batch upload complete: "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": " \u4e2a\u5bf9\u8c61\uff1b\u56de\u6267\u72b6\u6001 complete",
+    "new": " objects; receipt status complete"
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\u4e0a\u4f20\u672a\u5b8c\u6210\uff1a",
+    "new": "Upload incomplete: "
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u8fde\u63a5\u73af\u5883\u53d8\u91cf\u5e94\u4ee5 ETL4_CLOUD_ \u5f00\u5934",
+    "new": "The cloud connection environment variable must start with ETL4_CLOUD_"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8bf7\u5148\u8bbe\u7f6e ",
+    "new": "Set "
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\uff1b\u4e0d\u8981\u628a\u8fde\u63a5\u5bc6\u7801\u653e\u5728\u547d\u4ee4\u884c",
+    "new": " first; do not put connection passwords on the command line"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef DSN \u5fc5\u987b\u660e\u786e host \u548c dbname",
+    "new": "The cloud DSN must explicitly specify host and dbname"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u8fde\u63a5\u4f7f\u7528 sslmode=verify-full",
+    "new": "The cloud connection requires sslmode=verify-full"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6b65\u9aa4 39 \u7684\u4e0a\u4f20\u56de\u6267\u5c1a\u672a\u5b8c\u6210",
+    "new": "The upload receipt from step 39 is not complete"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u4e0e\u672c\u6279\u5bfc\u51fa\u4e0d\u4e00\u81f4",
+    "new": "The upload receipt does not match this batch export"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7f3a\u5c11\u76ee\u6807",
+    "new": "The upload receipt is missing its target"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "S3 \u524d\u7f00\u65e0\u6548",
+    "new": "Invalid S3 prefix"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u6ca1\u6709\u8986\u76d6\u5168\u90e8\u8d44\u4ea7\u548c\u4ea4\u4ed8\u6587\u4ef6",
+    "new": "The upload receipt does not cover all assets and delivery files"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u5bf9\u8c61\u91cd\u590d\u6216\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "Upload receipt objects are duplicated or have a different scope"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7684\u5bf9\u8c61\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "An object identity in the upload receipt does not match"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7f3a\u5c11\u5b8c\u6574\u5bf9\u8c61\u6821\u9a8c\u4f9d\u636e",
+    "new": "The upload receipt is missing full-object checksum evidence"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u6821\u9a8c\u503c\u65e0\u6548",
+    "new": "The upload receipt checksum is invalid"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7684 SHA256 \u4e0d\u4e00\u81f4",
+    "new": "The upload receipt SHA256 does not match"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7684 CRC32 \u65e0\u6548",
+    "new": "The upload receipt CRC32 is invalid"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u8868\u8303\u56f4\u4e0e\u6279\u6b21\u683c\u5f0f\u4e0d\u4e00\u81f4",
+    "new": "The cloud table scope does not match the batch format"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6279\u6b21\u8fc1\u79fb\u4e0d\u662f\u5f53\u524d\u4ee3\u7801\u8ba4\u53ef\u7684\u8fc1\u79fb\uff1b\u4e0d\u4f1a\u6267\u884c\u4efb\u610f\u5305\u5185 SQL",
+    "new": "Batch migrations are not recognized by the current code; arbitrary SQL from the package will not be executed"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u5df2\u6709\u8fc1\u79fb\u7684\u987a\u5e8f\u6216\u6458\u8981\u4e0d\u540c\uff0c\u4e0d\u80fd\u76f4\u63a5\u8ffd\u52a0",
+    "new": "Existing cloud migrations have a different order or digest; the batch cannot be appended directly"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u7f3a\u5c11\u8fc1\u79fb\uff0c\u8bf7\u660e\u786e\u4f7f\u7528 --apply-migrations \u8865\u9f50",
+    "new": "Cloud migrations are missing; explicitly use --apply-migrations to add them"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u5217\u3001\u7c7b\u578b\u6216\u4e3b\u952e\u4e0e\u5bfc\u51fa\u7ed3\u6784\u4e0d\u4e00\u81f4",
+    "new": "Cloud columns, types, or primary keys do not match the exported schema"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e0d\u652f\u6301\u7684\u4e1a\u52a1\u8868",
+    "new": "Unsupported business table"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6570\u636e\u8868\u5217\u6e05\u5355\u4e0e schema \u4e0d\u4e00\u81f4",
+    "new": "The table column list does not match the schema"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8868\u6587\u4ef6\u5b57\u6bb5\u7f3a\u5931\u6216\u5305\u542b\u672a\u77e5\u5b57\u6bb5",
+    "new": "The table file has missing or unknown fields"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8868\u6587\u4ef6\u884c\u6570\u4e0e\u6e05\u5355\u4e0d\u4e00\u81f4",
+    "new": "The table file row count does not match the manifest"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8868\u6587\u4ef6\u4e3b\u952e\u4e0d\u4e00\u81f4",
+    "new": "The table file primary key does not match"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6ca1\u6709\u4e3a\u4e1a\u52a1\u8868\u5b9a\u4e49 dataset \u8303\u56f4",
+    "new": "No dataset scope is defined for the business table"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8868\u6587\u4ef6\u4e2d\u7684\u7248\u672c\u8303\u56f4\u6216\u5185\u5bb9\u8eab\u4efd\u4e0e\u6e05\u5355\u4e0d\u540c",
+    "new": "Revision scope or content identity in the table files differs from the manifest"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": " \u542b\u672c\u6279\u8303\u56f4\u5916\u7684\u8bb0\u5f55",
+    "new": " contains records outside this batch"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8d44\u4ea7\u8868\u4e0e\u5df2\u4e0a\u4f20\u8d44\u4ea7\u6e05\u5355\u4e0d\u4e00\u81f4",
+    "new": "The asset table does not match the uploaded asset manifest"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u76f8\u540c\u6765\u6e90\u5b54\u6216 dataset \u5bf9\u5e94\u4e0d\u540c\u4e3b\u4f53 UUID\uff0c\u8bf7\u5148\u5904\u7406\u6765\u6e90\u6807\u8bc6\u51b2\u7a81",
+    "new": "The same source borehole or dataset has different entity UUIDs; resolve the source identifier conflict first"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": " \u540c\u4e00\u4e3b\u952e\u5bf9\u5e94\u4e0d\u540c\u5185\u5bb9\uff0c\u672a\u8986\u76d6\u539f\u8bb0\u5f55",
+    "new": " has different content for the same primary key; the original record was not overwritten"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5206\u652f\u7236\u94fe\u7f3a\u5931\u6216\u6210\u73af",
+    "new": "The branch parent chain is incomplete or cyclic"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u7b2c\u4e8c\u6b21\u672c\u5730\u9a8c\u6536\u6ca1\u6709\u5bf9\u5e94\u672c\u6279\u6570\u636e",
+    "new": "The second local acceptance does not correspond to this batch's data"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u7f3a\u5c11\u7ed1\u5b9a\u7684\u7b2c\u4e00\u6b21\u672c\u5730\u9a8c\u6536",
+    "new": "The referenced first local acceptance is missing"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u7b2c\u4e00\u5173\u62a5\u544a\u672a\u5217\u5728\u4ea4\u4ed8\u6e05\u5355\u4e2d",
+    "new": "The first-stage report is not listed in the delivery manifest"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u7b2c\u4e00\u6b21\u672c\u5730\u9a8c\u6536\u4e0d\u4e00\u81f4",
+    "new": "The first local acceptance does not match"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u7b2c\u4e00\u5173\u62a5\u544a\u91cd\u590d\u5305\u542b dataset",
+    "new": "The first-stage reports contain duplicate datasets"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u7b2c\u4e00\u6b21\u9a8c\u6536\u7684 dataset \u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The first acceptance covers different datasets"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u672c\u5730\u7248\u672c\u9a8c\u6536\u4f9d\u636e\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The local revision acceptance evidence covers a different scope"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u672c\u5730\u7248\u672c\u9a8c\u6536\u5c1a\u672a\u901a\u8fc7",
+    "new": "The local revision acceptance has not passed"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5c55\u793a\u5b9a\u4e49\u4e0e\u672c\u6279\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The display definition does not match this batch's identity"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u540c\u4e00\u8d44\u4ea7\u6709\u91cd\u590d S3 \u4f4d\u7f6e\uff0c\u8bf7\u5148\u660e\u786e\u8bfb\u53d6\u4f4d\u7f6e",
+    "new": "The same asset has duplicate S3 locations; specify the read location first"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u6709 S3 \u4f4d\u7f6e\u4e0e\u4e0a\u4f20\u56de\u6267\u4e0d\u540c\uff0c\u8bf7\u4f7f\u7528\u72ec\u7acb root_key",
+    "new": "The existing S3 location differs from the upload receipt; use a separate root_key"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8fd9\u4e2a S3 root_key \u5df2\u8868\u793a\u53e6\u4e00\u4e2a\u4e0a\u4f20\u76ee\u6807",
+    "new": "This S3 root_key already represents another upload target"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8fd9\u4e2a S3 root_key \u5df2\u6709\u65e7\u4f4d\u7f6e\u4e14\u65e0\u6279\u6b21\u76ee\u6807\u8bb0\u5f55\uff0c\u8bf7\u4f7f\u7528\u65b0\u7684 root_key",
+    "new": "This S3 root_key has old locations without a batch target record; use a new root_key"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u6709\u7248\u672c\u9a8c\u6536\u4f9d\u636e\u4e0e\u672c\u6279\u4e0d\u540c",
+    "new": "The existing revision acceptance evidence differs from this batch"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6765\u6e90\u53d1\u5e03\u6e05\u5355\u7f3a\u5931\u6216\u6458\u8981\u4e0d\u4e00\u81f4",
+    "new": "The source release manifest is missing or its digest does not match"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6765\u6e90\u53d1\u5e03\u6210\u5458\u4e0e\u6e05\u5355\u4e0d\u4e00\u81f4",
+    "new": "Source release members do not match the manifest"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": " \u53d1\u5e03\u8bb0\u5f55\u8eab\u4efd\u51b2\u7a81",
+    "new": " release record identity conflict"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5019\u9009\u6210\u5458\u7f3a\u5c11\u552f\u4e00\u7684\u5b8c\u6574\u6837\u672c\u8f74",
+    "new": "A candidate member does not have exactly one complete sample axis"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5c55\u793a\u7ec4\u5408\u7684 dataset \u5f52\u5c5e\u4e0d\u4e00\u81f4",
+    "new": "The display composite has inconsistent dataset ownership"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5c55\u793a\u7ec4\u5408\u987a\u5e8f\u4e0d\u5b8c\u6574",
+    "new": "The display composite sequence is incomplete"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u591a dataset \u5b54\u7f3a\u5c11\u5bf9\u5e94\u5b8c\u6574\u6210\u5458\u7684\u5df2\u9a8c\u6536\u53d6\u6bb5\uff0c\u8bf7\u6309\u5b8c\u6574\u5b54\u8865\u5145\u6279\u6b21",
+    "new": "A borehole with multiple datasets lacks accepted segments covering all members; add a complete-borehole batch"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u6709 dataset \u8854\u63a5\u8bed\u4e49\u4e0d\u540c",
+    "new": "The existing dataset succession has different semantics"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u6709\u53d1\u5e03\u53d6\u6bb5\u4e0e\u672c\u6b21\u5b9a\u4e49\u4e0d\u540c",
+    "new": "The existing release segments differ from this definition"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5019\u9009\u53d1\u5e03\u5305\u542b\u672a\u901a\u8fc7\u672c\u5730\u9a8c\u6536\u7684\u7248\u672c",
+    "new": "The candidate release contains revisions that have not passed local acceptance"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5019\u9009\u53d1\u5e03\u4ecd\u6709\u672a\u767b\u8bb0 S3 \u4e0a\u4f20\u7ed3\u679c\u7684\u8d44\u4ea7",
+    "new": "The candidate release still has assets without registered S3 upload results"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u6709\u5019\u9009\u53d1\u5e03\u6210\u5458\u51b2\u7a81",
+    "new": "The existing candidate release members conflict"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "finalize \u6e05\u5355\u5fc5\u987b\u5199\u660e expected_active_release_id\uff08\u7a7a\u5e93\u4e3a null\uff09",
+    "new": "The finalize manifest must specify expected_active_release_id (null for an empty database)"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "finalize \u5fc5\u987b\u660e\u786e\u6bcf\u4e2a dataset \u7684\u6700\u7ec8\u7248\u672c",
+    "new": "Finalize must explicitly select the final revision of every dataset"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "finalize \u5305\u542b\u91cd\u590d dataset",
+    "new": "Finalize contains duplicate datasets"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "finalize \u6f0f\u6389\u7d2f\u8ba1\u6210\u5458\uff1b\u5982\u786e\u5b9e\u4e0d\u5c55\u793a\uff0c\u987b\u5728 omitted_dataset_ids \u660e\u786e\u5217\u51fa",
+    "new": "Finalize omits accumulated members; explicitly list intentionally hidden datasets in omitted_dataset_ids"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "finalize \u7248\u672c\u7f3a\u5931\u6216\u5c5e\u4e8e\u5176\u4ed6 dataset",
+    "new": "A finalize revision is missing or belongs to another dataset"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5f53\u524d\u6d3b\u52a8\u53d1\u5e03\u5df2\u7ecf\u53d8\u5316\uff0c\u672a\u5207\u6362",
+    "new": "The active release has changed; no switch was made"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5408\u5e76\u56de\u6267\u4e0d\u80fd\u8986\u76d6\u5bfc\u51fa\u6587\u4ef6\u6216\u4e0a\u4f20\u56de\u6267",
+    "new": "The merge receipt must not overwrite export files or the upload receipt"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "S3 root_key \u53ea\u80fd\u5305\u542b\u5b57\u6bcd\u3001\u6570\u5b57\u3001\u4e0b\u5212\u7ebf\u548c\u77ed\u6a2a\u7ebf",
+    "new": "An S3 root_key may contain only letters, digits, underscores, and hyphens"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u6709\u5408\u5e76\u56de\u6267\u5c5e\u4e8e\u5176\u4ed6\u5305\u6216\u76ee\u6807\uff0c\u8bf7\u53e6\u9009 --receipt",
+    "new": "The existing merge receipt belongs to another package or target; choose another --receipt"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u53e6\u4e00\u4e2a\u4e91\u7aef\u5bfc\u5165\u6216\u53d1\u5e03\u6b63\u5728\u8fdb\u884c",
+    "new": "Another cloud import or publication is in progress"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u76f8\u540c\u6279\u6b21\u51fa\u73b0\u4e0d\u540c\u4e1a\u52a1\u6587\u4ef6\u6216 S3 \u76ee\u6807\uff0c\u672a\u8986\u76d6\u4e91\u7aef\u8bb0\u5f55",
+    "new": "The same batch has different business files or an S3 target; cloud records were not overwritten"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u7eed\u8dd1\u8bb0\u5f55\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The cloud resume record covers a different scope"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u5b8c\u6210\u8bb0\u5f55\u4e0d\u5b8c\u6574",
+    "new": "The cloud completion record is incomplete"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4fdd\u7559\u516c\u5171\u76ee\u5f55\u53c2\u6570\u4ee5\u7edf\u4e00\u7f16\u53f7\u5165\u53e3\uff1b\u4e91\u7aef\u8fde\u63a5\u53ea\u4f7f\u7528 --cloud-dsn-env\uff0c\u4e0d\u4f7f\u7528 --dbname \u6216 --db-config\u3002",
+    "new": "Common directory arguments are retained for consistent numbered entry points; the cloud connection uses only --cloud-dsn-env, not --dbname or --db-config."
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6b65\u9aa4 38 \u7684\u6279\u6b21\u76ee\u5f55\uff0c\u6216\u4ece S3 \u4e0b\u8f7d\u7684\u76f8\u540c\u7ed3\u6784\u5316\u5305",
+    "new": "Batch directory from step 38, or the same structured package downloaded from S3"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u6b65\u9aa4 39 \u7684\u5b8c\u6574\u56de\u6267\uff0c\u9ed8\u8ba4\u5728\u5bfc\u51fa\u76ee\u5f55",
+    "new": "Complete receipt from step 39; defaults to the export directory"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u8fdb\u5ea6\u4e0e\u5b8c\u6210\u56de\u6267\uff0c\u9ed8\u8ba4 merge_receipt.json",
+    "new": "Progress and completion receipt; defaults to merge_receipt.json"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u72ec\u7acb\u4e91\u7aef\u8fde\u63a5\u73af\u5883\u53d8\u91cf\u540d\uff0c\u4e0d\u4f20\u5bc6\u7801",
+    "new": "Environment variable name for the independent cloud connection; do not pass a password"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u660e\u786e\u5141\u8bb8\u8865\u9f50\u5f53\u524d\u4ee3\u7801\u8ba4\u53ef\u7684\u8fc1\u79fb",
+    "new": "Explicitly allow adding missing migrations recognized by the current code"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "S3 \u5730\u5740\u914d\u7f6e\u6807\u8bc6\uff1b\u9ed8\u8ba4\u4ece bucket/region/prefix \u751f\u6210",
+    "new": "S3 location configuration key; defaults to a value derived from bucket/region/prefix"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u660e\u786e\u7684\u6700\u7ec8\u7248\u672c\u9009\u62e9 JSON\uff1b\u672a\u6307\u5b9a\u65f6\u4e0d\u5207\u6362\u6d3b\u52a8\u53d1\u5e03",
+    "new": "Explicit final revision selection JSON; the active release is not switched when omitted"
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u672c\u6279\u4e91\u7aef\u63d0\u4ea4\u5b8c\u6210\uff1a",
+    "new": "Cloud batch commit complete: "
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": " \u4e2a dataset\uff1b\u5019\u9009\u53d1\u5e03 ",
+    "new": " datasets; candidate release "
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u5df2\u660e\u786e\u8bbe\u7f6e\u6700\u7ec8\u53d1\u5e03\uff1a",
+    "new": "Final release explicitly selected: "
+  },
+  {
+    "file": "40_merge_cloud_batch.py",
+    "old": "\u4e91\u7aef\u5408\u5e76\u672a\u5b8c\u6210\uff1a",
+    "new": "Cloud merge incomplete: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u8def\u5f84\u5fc5\u987b\u662f\u65e0 .. \u7684\u7edd\u5bf9\u8def\u5f84",
+    "new": "Cleanup paths must be absolute and contain no .. segments"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u8def\u5f84\u5305\u542b\u94fe\u63a5\u6216 junction\uff1a",
+    "new": "The cleanup path contains a link or junction: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0d\u80fd\u662f\u78c1\u76d8\u6839\u76ee\u5f55\u6216\u6e90\u7801\u76ee\u5f55\u7684\u4e0a\u7ea7",
+    "new": "must not be a drive root or an ancestor of the source code directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5fc5\u987b\u662f\u73b0\u6709\u76ee\u5f55",
+    "new": "must be an existing directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u5355\u6216\u56de\u6267\u4e0d\u662f\u666e\u901a\u6587\u4ef6",
+    "new": "The manifest or receipt is not a regular file"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u672c\u6279\u5c1a\u672a\u83b7\u5f97\u5b8c\u6574\u4e0a\u4f20\u56de\u6267",
+    "new": "This batch does not have a complete upload receipt"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u4e0e\u672c\u6279\u6e05\u5355\u4e0d\u4e00\u81f4",
+    "new": "The upload receipt does not match this batch manifest"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7f3a\u5c11\u76ee\u6807\u4f4d\u7f6e",
+    "new": "The upload receipt is missing its target location"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7f3a\u5c11\u5bf9\u8c61\u524d\u7f00",
+    "new": "The upload receipt is missing its object prefix"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u6ca1\u6709\u5b8c\u6574\u8986\u76d6\u672c\u6279\u5bf9\u8c61",
+    "new": "The upload receipt does not cover all objects in this batch"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u5bf9\u8c61\u91cd\u590d\u6216\u8d85\u51fa\u672c\u6279",
+    "new": "Upload receipt objects are duplicated or outside this batch"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u5bf9\u8c61\u8eab\u4efd\u6216\u6821\u9a8c\u7c7b\u578b\u4e0d\u4e00\u81f4",
+    "new": "An upload receipt object has a different identity or checksum type"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u56de\u6267\u7f3a\u5c11\u6709\u6548\u670d\u52a1\u7aef\u6821\u9a8c\u503c",
+    "new": "The upload receipt is missing a valid server checksum"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u672c\u6279\u5c1a\u672a\u83b7\u5f97\u4e91\u7aef\u5408\u5e76\u6210\u529f\u56de\u6267",
+    "new": "This batch does not have a successful cloud merge receipt"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5408\u5e76\u56de\u6267\u672a\u7ed1\u5b9a\u672c\u6b21\u4e0a\u4f20\u7ed3\u679c",
+    "new": "The merge receipt does not reference this upload result"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e0a\u4f20\u4e0e\u5408\u5e76\u56de\u6267\u7684\u76ee\u6807\u4f4d\u7f6e\u4e0d\u4e00\u81f4",
+    "new": "The upload and merge receipts have different target locations"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e91\u7aef\u63d0\u4ea4\u7684 dataset \u8303\u56f4\u4e0d\u5b8c\u6574",
+    "new": "The cloud-committed dataset scope is incomplete"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5408\u5e76\u56de\u6267\u7f3a\u5c11\u4e91\u7aef\u6570\u636e\u5e93\u76ee\u6807",
+    "new": "The merge receipt is missing its cloud database target"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e91\u7aef\u6570\u636e\u5e93\u76ee\u6807\u6307\u7eb9\u4e0d\u4e00\u81f4",
+    "new": "The cloud database target fingerprint does not match"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e34\u65f6\u6587\u4ef6\u6e05\u7406\u6e05\u5355\u4e0d\u5c5e\u4e8e\u672c\u6279",
+    "new": "The temporary-file cleanup manifest does not belong to this batch"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e34\u65f6\u6587\u4ef6\u6e05\u7406\u6e05\u5355\u7f3a\u5c11 files",
+    "new": "The temporary-file cleanup manifest is missing files"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e34\u65f6\u6587\u4ef6\u6e05\u7406\u6e05\u5355\u5185\u5bb9\u65e0\u6548",
+    "new": "The temporary-file cleanup manifest has invalid content"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u8d44\u4ea7\u8868\u4e0e\u516c\u5f00\u8d44\u4ea7\u6e05\u5355\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The asset table and public asset manifest cover different scopes"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u8d44\u4ea7\u8868\u4e0e\u516c\u5f00\u8d44\u4ea7\u6e05\u5355\u7684\u5185\u5bb9\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The asset table content identity does not match the public asset manifest"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u8d44\u4ea7\u8868\u7f3a\u5c11\u672c\u6279\u6587\u4ef6\u7684\u6765\u6e90\u7c7b\u578b",
+    "new": "The asset table is missing a source kind for a file in this batch"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5176\u4ed6\u6ce8\u518c\u6279\u6b21\u56de\u6267\u635f\u574f\u6216\u72b6\u6001\u4e0d\u660e",
+    "new": "Another registered batch has a damaged receipt or unknown status"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6279\u6b21\u6ce8\u518c\u76ee\u5f55\u65e0\u6cd5\u5b8c\u6574\u8bfb\u53d6\uff1a",
+    "new": "The batch registry directory could not be read completely: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u672c\u6279\u5bfc\u51fa\u76ee\u5f55\u4e0d\u5728\u7edf\u4e00\u6279\u6b21\u6ce8\u518c\u76ee\u5f55\u5185",
+    "new": "This batch's export directory is not inside the shared batch registry directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5176\u4ed6\u6216\u672c\u6279\u6ce8\u518c\u8d44\u6599\u65e0\u6cd5\u786e\u8ba4\uff1a",
+    "new": "Registry data for this or another batch could not be confirmed: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4fdd\u7559\u6e90\u7801\u3001\u6570\u636e\u5e93\u6216\u4f9d\u636e\u6587\u4ef6",
+    "new": "Keep source code, database, or evidence files"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5176\u4ed6\u672a\u5b8c\u6210\u6279\u6b21\u4ecd\u5f15\u7528\uff1a",
+    "new": "Still referenced by other incomplete batches: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4fdd\u7559\u9a8c\u6536\u4f9d\u636e\u6216\u6765\u6e90\u7c7b\u578b\u672a\u660e\u786e\u7684\u8d44\u4ea7",
+    "new": "Keep acceptance evidence or assets with unspecified source kinds"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u539f\u59cb\u8d44\u4ea7\u9ed8\u8ba4\u4fdd\u7559\uff0c\u987b\u663e\u5f0f\u9009\u62e9\u5176 raw \u6839\u76ee\u5f55",
+    "new": "Keep original assets by default; explicitly select their raw root directory to remove them"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e34\u65f6\u6587\u4ef6\u4e0d\u5728\u660e\u786e\u5de5\u4f5c\u76ee\u5f55\u5185",
+    "new": "The temporary file is outside the explicit work directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u539f\u59cb\u6570\u636e\u9ed8\u8ba4\u4fdd\u7559\u6216\u8def\u5f84\u4e0d\u5728\u660e\u786e\u6e05\u7406\u6839\u76ee\u5f55\u5185",
+    "new": "Keep raw data by default or because its path is outside the explicit cleanup root"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6587\u4ef6\u5df2\u4e0d\u5b58\u5728",
+    "new": "The file no longer exists"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u5bf9\u8c61\u4e0d\u662f\u666e\u901a\u6587\u4ef6\uff1a",
+    "new": "The cleanup target is not a regular file: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u786c\u94fe\u63a5\u6216\u6587\u4ef6\u8eab\u4efd\u4e0d\u53ef\u786e\u8ba4\uff0c\u4fdd\u7559",
+    "new": "Keep the file because it has hard links or its identity cannot be confirmed"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5019\u9009\u6587\u4ef6\u5185\u5bb9\u4e0e\u6e05\u5355\u4e0d\u540c\uff1a",
+    "new": "The candidate file content differs from the manifest: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6838\u5bf9\u671f\u95f4\u6587\u4ef6\u53d1\u751f\u53d8\u5316\uff1a",
+    "new": "The file changed during verification: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5220\u9664\u524d\u6587\u4ef6\u8eab\u4efd\u53d1\u751f\u53d8\u5316\uff1a",
+    "new": "The file identity changed before deletion: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5220\u9664\u524d\u6587\u4ef6\u5185\u5bb9\u53d1\u751f\u53d8\u5316\uff1a",
+    "new": "The file content changed before deletion: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5220\u9664\u524d\u8def\u5f84\u6216\u6587\u4ef6\u53d1\u751f\u53d8\u5316\uff1a",
+    "new": "The path or file changed before deletion: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4e34\u65f6\u6e05\u7406\u6e05\u5355\u5fc5\u987b\u662f\u672c\u6279\u6ce8\u518c\u76ee\u5f55\u5185\u7684 cleanup_files.json",
+    "new": "The temporary cleanup manifest must be cleanup_files.json inside this batch's registry directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6307\u5b9a\u7684\u4e34\u65f6\u6587\u4ef6\u6e05\u7406\u6e05\u5355\u4e0d\u5b58\u5728",
+    "new": "The specified temporary-file cleanup manifest does not exist"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u540c\u4e00\u8def\u5f84\u5728\u6e05\u7406\u6e05\u5355\u4e2d\u6709\u4e0d\u540c\u5185\u5bb9\u8eab\u4efd",
+    "new": "The same path has different content identities in the cleanup manifest"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6587\u4ef6\u65e0\u6cd5\u8bfb\u53d6\uff1a",
+    "new": "The file cannot be read: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6279\u6b21\u6ce8\u518c\u76ee\u5f55",
+    "new": "Batch registry directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5de5\u4f5c\u76ee\u5f55",
+    "new": "Work directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u672c\u6279\u5fc5\u987b\u662f\u7edf\u4e00\u6ce8\u518c\u76ee\u5f55\u4e2d\u7684\u72ec\u7acb\u6279\u6b21",
+    "new": "This batch must have its own directory inside the shared registry"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406 raw \u5fc5\u987b\u540c\u65f6\u6307\u5b9a --include-raw \u548c --raw-root",
+    "new": "Cleaning raw data requires both --include-raw and --raw-root"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "raw \u76ee\u5f55",
+    "new": "Raw directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5de5\u4f5c\u76ee\u5f55\u4e0e raw \u76ee\u5f55\u4e0d\u80fd\u91cd\u53e0",
+    "new": "The work and raw directories must not overlap"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u62a5\u544a\u4f4d\u7f6e\u5df2\u6709\u5176\u4ed6\u5185\u5bb9\uff0c\u672a\u8986\u76d6",
+    "new": "The cleanup report path already contains other content; it was not overwritten"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u62a5\u544a\u8def\u5f84\u4e0e\u8d44\u4ea7\u6765\u6e90\u51b2\u7a81",
+    "new": "The cleanup report path conflicts with an asset source"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u5b58\u5728\u672a\u89e3\u51b3\u9879\u76ee\uff0c\u672a\u5220\u9664\u4efb\u4f55\u6587\u4ef6\uff0c\u8bf7\u67e5\u770b cleanup_report.json",
+    "new": "Cleanup has unresolved items; no files were deleted. See cleanup_report.json"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u524d\u6279\u6b21\u6ce8\u518c\u8d44\u6599\u5df2\u53d8\u5316\uff0c\u672a\u7ee7\u7eed\u5220\u9664",
+    "new": "The batch registry changed before cleanup; deletion did not continue"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u767b\u8bb0\u6240\u6709\u672c\u673a\u6279\u6b21\u7684\u7edf\u4e00\u5bfc\u51fa\u76ee\u5f55",
+    "new": "Shared export directory registering all local batches"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u4ec5\u5141\u8bb8\u6e05\u7406\u5176\u4e2d\u5df2\u5217\u51fa\u7684\u5de5\u4f5c\u6587\u4ef6",
+    "new": "Allow cleanup only of listed work files inside this directory"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u660e\u786e\u7684\u539f\u59cb\u6570\u636e\u6839\u76ee\u5f55\uff0c\u9ed8\u8ba4\u4fdd\u7559",
+    "new": "Explicit raw data root directory; retained by default"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u540c\u65f6\u6e05\u7406\u6e05\u5355\u4e2d\u5df2\u5b8c\u6210\u4ea4\u4ed8\u7684 raw \u6587\u4ef6",
+    "new": "Also clean up listed raw files whose delivery is complete"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u672c\u6279\u76ee\u5f55 cleanup_files.json\uff0c\u5217\u51fa\u53ef\u6e05\u7406\u7684\u4e34\u65f6\u6587\u4ef6",
+    "new": "cleanup_files.json in this batch directory, listing temporary files eligible for cleanup"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6267\u884c\u5df2\u6838\u5bf9\u7684\u9010\u6587\u4ef6\u5220\u9664\uff1b\u4e0d\u6307\u5b9a\u65f6\u53ea\u751f\u6210\u9884\u89c8",
+    "new": "Perform verified per-file deletion; generate only a preview when omitted"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u72b6\u6001\uff1a",
+    "new": "Cleanup status: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\uff1b\u5019\u9009 ",
+    "new": "; candidates: "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": " \u4e2a\u6587\u4ef6\u3001",
+    "new": " files, "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": " \u5b57\u8282\uff1b",
+    "new": " bytes; "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u5df2\u5220\u9664 ",
+    "new": "deleted "
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": " \u4e2a\u6587\u4ef6\u3002\u8be6\u89c1\u672c\u6279 cleanup_report.json",
+    "new": " files. See this batch's cleanup_report.json"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\u6e05\u7406\u672a\u5b8c\u6210\uff1a",
+    "new": "Cleanup incomplete: "
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8d44\u4ea7\u7f3a\u5c11\u6709\u6548 SHA256",
+    "new": "The asset is missing a valid SHA256"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21 JSON \u5b58\u5728\u91cd\u590d\u952e\uff1a",
+    "new": "The batch JSON contains a duplicate key: "
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4ea4\u4ed8\u6587\u4ef6\u6458\u8981\u65e0\u6548",
+    "new": "Invalid delivery file digest"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4ea4\u4ed8\u6587\u4ef6\u5927\u5c0f\u65e0\u6548",
+    "new": "Invalid delivery file size"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4ea4\u4ed8\u6587\u4ef6\u987b\u4f7f\u7528\u6b63\u659c\u6760\u76f8\u5bf9\u8def\u5f84",
+    "new": "Delivery files must use relative paths with forward slashes"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4e0d\u652f\u6301\u7684\u6279\u6b21\u683c\u5f0f",
+    "new": "Unsupported batch format"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u7f16\u53f7\u4e0e\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The batch ID does not match its identity"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u8eab\u4efd\u683c\u5f0f\u4e0d\u4e00\u81f4",
+    "new": "The batch identity format does not match"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u672a\u5305\u542b\u7ed3\u6784\u5316\u6587\u4ef6",
+    "new": "The batch contains no structured files"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6e05\u5355\u5305\u542b\u975e\u4ea4\u4ed8\u6587\u4ef6\u6216\u79c1\u6709\u8fd0\u884c\u6587\u4ef6",
+    "new": "The manifest contains non-delivery files or private run files"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4ea4\u4ed8\u6587\u4ef6\u7f3a\u5931\u6216\u5185\u5bb9\u5df2\u6539\u53d8\uff1a",
+    "new": "The delivery file is missing or its content changed: "
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u6570\u636e\u5e93\u7ed3\u6784\u7684\u8868\u8303\u56f4\u4e0d\u5b8c\u6574",
+    "new": "The batch database schema has an incomplete table scope"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u7f3a\u5c11\u8fc1\u79fb\u6e05\u5355",
+    "new": "The batch is missing its migration manifest"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8fc1\u79fb\u540d\u79f0\u91cd\u590d\u6216\u6458\u8981\u65e0\u6548",
+    "new": "A migration name is duplicated or its digest is invalid"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8fc1\u79fb\u6587\u4ef6\u4e0e\u7ed3\u6784\u6e05\u5355\u7684\u6458\u8981\u4e0d\u4e00\u81f4",
+    "new": "The migration file digest does not match the schema manifest"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8fc1\u79fb\u6e05\u5355\u4e0e\u6279\u6b21\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The migration manifest does not match the batch identity"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u6570\u636e\u8868\u8303\u56f4\u4e0d\u5b8c\u6574",
+    "new": "The batch has an incomplete data table scope"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6570\u636e\u8868\u540d\u79f0\u65e0\u6548",
+    "new": "Invalid data table name"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6570\u636e\u8868\u6587\u4ef6\u4e0d\u5728\u4ea4\u4ed8\u6e05\u5355\u4e2d",
+    "new": "The data table file is not in the delivery manifest"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6570\u636e\u8868\u4e0e\u6587\u4ef6\u6e05\u5355\u7684\u6458\u8981\u4e0d\u4e00\u81f4",
+    "new": "The data table digest does not match the file manifest"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4ea4\u4ed8\u6587\u4ef6\u542b\u6709\u672a\u5217\u51fa\u7684\u6570\u636e\u8868",
+    "new": "The delivery files contain unlisted data tables"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u6ca1\u6709 dataset",
+    "new": "The batch contains no datasets"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u91cd\u590d\u5305\u542b dataset",
+    "new": "The batch contains duplicate datasets"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "dataset \u8f93\u5165\u8eab\u4efd\u65e0\u6548",
+    "new": "Invalid dataset input identity"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "dataset \u6e05\u5355\u4e0e\u6279\u6b21\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The dataset manifest does not match the batch identity"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u6279\u6b21\u7f3a\u5c11\u8d44\u4ea7\u6e05\u5355",
+    "new": "The batch is missing its asset manifest"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8d44\u4ea7 ID \u7f3a\u5931\u6216\u91cd\u590d",
+    "new": "An asset ID is missing or duplicated"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8d44\u4ea7\u5c5e\u4e8e\u672c\u6279\u8303\u56f4\u5916\u7684\u7248\u672c",
+    "new": "The asset belongs to a revision outside this batch"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u8d44\u4ea7\u5bf9\u8c61\u952e\u4e0e\u5185\u5bb9\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The asset object key does not match its content identity"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u540c\u4e00\u5bf9\u8c61\u952e\u51fa\u73b0\u5185\u5bb9\u51b2\u7a81",
+    "new": "The same object key has conflicting content"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u672c\u673a\u8def\u5f84\u6620\u5c04\u5bf9\u5e94\u53e6\u4e00\u4efd\u5bfc\u51fa",
+    "new": "The local path mapping belongs to another export"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u672c\u673a\u8def\u5f84\u6620\u5c04\u4e0e\u8d44\u4ea7\u8303\u56f4\u4e0d\u4e00\u81f4",
+    "new": "The local path mapping does not match the asset scope"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u672c\u673a\u8d44\u4ea7\u6620\u5c04\u7684\u5185\u5bb9\u8eab\u4efd\u4e0d\u4e00\u81f4",
+    "new": "The local asset mapping has a different content identity"
+  },
+  {
+    "file": "_batch_files.py",
+    "old": "\u4e0a\u4f20\u6765\u6e90\u987b\u660e\u786e\u4e3a\u672c\u673a\u7edd\u5bf9\u8def\u5f84",
+    "new": "Upload sources must explicitly use absolute local paths"
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u6765\u6e90\u6587\u4ef6\u7f3a\u5931\u6216\u5927\u5c0f\u4e0e\u6e05\u5355\u4e0d\u4e00\u81f4: ",
+    "new": "The source file is missing or its size differs from the manifest: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u6765\u6e90\u6587\u4ef6\u5185\u5bb9\u4e0e\u6e05\u5355\u4e0d\u4e00\u81f4: ",
+    "new": "The source file content differs from the manifest: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u5f53\u524d boto3/botocore \u7f3a\u5c11\u5b8c\u6574\u6821\u9a8c\u63a5\u53e3\uff0c\u8bf7\u5347\u7ea7 AWS \u4e0a\u4f20\u4f9d\u8d56",
+    "new": "The installed boto3/botocore lacks full-object checksum APIs; upgrade the AWS upload dependencies"
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u5df2\u6709\u5bf9\u8c61\u5927\u5c0f\u51b2\u7a81\uff0c\u672a\u8986\u76d6: ",
+    "new": "The existing object has a size conflict; it was not overwritten: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u5df2\u6709\u5bf9\u8c61\u5185\u5bb9\u8eab\u4efd\u51b2\u7a81\uff0c\u672a\u8986\u76d6: ",
+    "new": "The existing object has a content identity conflict; it was not overwritten: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u5df2\u6709\u5bf9\u8c61\u6ca1\u6709\u53ef\u6bd4\u8f83\u7684\u5b8c\u6574\u6821\u9a8c\u503c\uff0c\u8bf7\u4f7f\u7528\u65b0\u524d\u7f00: ",
+    "new": "The existing object has no comparable full-object checksum; use a new prefix: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u5df2\u6709\u5bf9\u8c61 SHA256 \u51b2\u7a81\uff0c\u672a\u8986\u76d6: ",
+    "new": "The existing object has a SHA256 conflict; it was not overwritten: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u5df2\u6709\u5bf9\u8c61\u6821\u9a8c\u503c\u7f3a\u5931\u6216\u4e0d\u4e00\u81f4\uff0c\u672a\u8986\u76d6: ",
+    "new": "The existing object checksum is missing or does not match; it was not overwritten: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "S3 \u5206\u7247\u6821\u9a8c\u56de\u590d\u4e0d\u4e00\u81f4: ",
+    "new": "The S3 part checksum response does not match: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u4e0a\u4f20\u671f\u95f4\u6765\u6e90\u5927\u5c0f\u6539\u53d8\u6216\u5206\u7247\u6570\u8d85\u51fa\u4e0a\u9650: ",
+    "new": "The source size changed during upload or the part count exceeded the limit: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "S3 \u5206\u7247\u5927\u5c0f\u5fc5\u987b\u5728 5 MiB \u5230 5 GiB \u4e4b\u95f4",
+    "new": "The S3 part size must be between 5 MiB and 5 GiB"
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u6587\u4ef6\u8eab\u4efd\u683c\u5f0f\u9519\u8bef",
+    "new": "Invalid file identity format"
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u6587\u4ef6\u8d85\u8fc7 S3 multipart \u652f\u6301\u7684\u5927\u5c0f",
+    "new": "The file exceeds the size supported by S3 multipart upload"
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u6761\u4ef6\u5199\u5165\u51b2\u7a81\u540e\u672a\u627e\u5230\u5b8c\u6574\u5bf9\u8c61: ",
+    "new": "No complete object was found after a conditional-write conflict: "
+  },
+  {
+    "file": "_s3_upload.py",
+    "old": "\u4e0a\u4f20\u540e\u672a\u627e\u5230\u5b8c\u6574\u5bf9\u8c61: ",
+    "new": "No complete object was found after upload: "
+  },
+  {
+    "file": "38_export_batch.py",
+    "old": "\uff1b",
+    "new": "; "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\uff0c",
+    "new": ", "
+  },
+  {
+    "file": "39_upload_batch.py",
+    "old": "\uff09",
+    "new": ")"
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\uff08",
+    "new": " ("
+  },
+  {
+    "file": "41_cleanup_batch.py",
+    "old": "\uff09",
+    "new": ")"
+  }
+]

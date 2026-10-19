@@ -1,0 +1,93 @@
+{
+  "code_sha256": "9992bebbe545c983a9c8beecf23e39a39a9e56c72a8f61292c2863c4f763c498",
+  "constraint_probes": [
+    {
+      "database_rejected": true,
+      "name": "duplicate_sample",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23505"
+    },
+    {
+      "database_rejected": true,
+      "name": "sample_nan_depth",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": true,
+      "name": "sample_wrong_interval_kind",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": true,
+      "name": "sample_wrong_parent_tray",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": true,
+      "name": "sample_wrong_local_offset",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": false,
+      "name": "valid_repeated_depth_bulk_copy",
+      "passed": true,
+      "should_reject": false,
+      "sqlstate": null
+    },
+    {
+      "database_rejected": true,
+      "name": "location_checksum_mismatch",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23503"
+    },
+    {
+      "database_rejected": true,
+      "name": "location_path_traversal",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": true,
+      "name": "image_asset_not_linked_to_log",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23503"
+    },
+    {
+      "database_rejected": true,
+      "name": "chunk_asset_not_linked_to_log",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23503"
+    },
+    {
+      "database_rejected": false,
+      "name": "valid_same_hole_second_dataset_overlapping_depth",
+      "passed": true,
+      "should_reject": false,
+      "sqlstate": null
+    },
+    {
+      "database_rejected": true,
+      "name": "section_parent_is_not_tray",
+      "passed": true,
+      "should_reject": true,
+      "sqlstate": "23514"
+    }
+  ],
+  "database_only": true,
+  "recorded_at": "2026-09-08T02:45:11.238333+00:00",
+  "schema_sha256": "0e4477e35e73f70e72118d832d357fe0cba64caefae028a93c796a859c391f82",
+  "status": "passed"
+}

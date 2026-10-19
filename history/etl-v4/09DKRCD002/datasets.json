@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "203edc3e-331d-4d38-beef-0a80c36b0be",
+    "dataset_name": "09DKRCD002",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/09DKRCD002",
+    "tray_id": "e1a7ee5e-6678-4242-aa6c-922da11be5e",
+    "section_id": "175a5a59-f471-4da9-8c48-74ebcdd53e9",
+    "domain_id": "a381a666-efaf-4580-ae35-3fa0cb5b71c",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>09DKRCD002</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Quinns</Project><Owner>GSWA</Owner><DrillDate>2008-01-01 13:01:04</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-27.106075</Latitude><Longitude>118.569366</Longitude><Azimuth>0.000000</Azimuth><Inclination>0.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-07T00:00:00+08:00",
+    "created_date": "2017-04-05T00:00:00+08:00"
+  }
+]

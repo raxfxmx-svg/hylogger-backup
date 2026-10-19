@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-28T11:11:02.700041+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "34_import_multi_dataset_database.py",
+  "code_sha256": "e58fb9b7e0a3e7a5c611552fdd6daf389f8fea9e8b8cb1ce0ec3b4ae076222ac",
+  "sha256_file_scans": 5859,
+  "sha256_bytes_read": 4825789761,
+  "same_check_cache_hits": 27559,
+  "elapsed_seconds": 40.632070299994666,
+  "finished_at": "2026-09-28T11:11:43.331932+00:00"
+}

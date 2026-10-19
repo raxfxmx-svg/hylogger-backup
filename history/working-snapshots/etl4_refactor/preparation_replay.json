@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scripts": [
+    "1_inventory.py",
+    "2_validate_payloads.py",
+    "3_normalize_metadata.py",
+    "4_align_samples.py",
+    "5_build_columnar.py",
+    "6_verify_prepared_data.py"
+  ],
+  "identity_unchanged": true,
+  "sealed_files_unchanged": 145,
+  "elapsed_seconds": 94.83056740000029
+}

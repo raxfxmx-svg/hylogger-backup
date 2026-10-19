@@ -1,0 +1,46 @@
+[
+  {
+    "log_id": "be68d744-9c8a-4942-aac3-bee3bbdc9a4",
+    "log_name": "Profile log",
+    "sample_count": 36716,
+    "channel_count": 0,
+    "file": "profilometer/be68d744-9c8a-4942-aac3-bee3bbdc9a4_Profile_log.jsonl",
+    "records": 36716,
+    "nbytes": 49849477,
+    "sha256": "112cea768bc58c3d9306b28b03ff3f578c8eb64f2397cba2c9e1ebb2793ae62b",
+    "status": "complete"
+  },
+  {
+    "log_id": "24a31fee-6a94-4954-8500-31263d8515d",
+    "log_name": "Profile log",
+    "sample_count": 179560,
+    "channel_count": 0,
+    "file": "profilometer/24a31fee-6a94-4954-8500-31263d8515d_Profile_log.jsonl",
+    "records": 179560,
+    "nbytes": 246979432,
+    "sha256": "86043c21bb311548930e0fe7818347dab7c0ab3a750d626915596cf20b8a7f0d",
+    "status": "complete"
+  },
+  {
+    "log_id": "1f00094b-a195-40b3-a15e-6dbb537a3da",
+    "log_name": "Profile log",
+    "sample_count": 10452,
+    "channel_count": 0,
+    "file": "profilometer/1f00094b-a195-40b3-a15e-6dbb537a3da_Profile_log.jsonl",
+    "records": 10452,
+    "nbytes": 14178912,
+    "sha256": "6c3ca41858768f4e3e85d4f746add7de611d13e66dfaca1dfff38b8fc23dae54",
+    "status": "complete"
+  },
+  {
+    "log_id": "1c7e655b-76a2-483c-9fe2-5887f5e022c",
+    "log_name": "Profile log",
+    "sample_count": 47972,
+    "channel_count": 0,
+    "file": "profilometer/1c7e655b-76a2-483c-9fe2-5887f5e022c_Profile_log.jsonl",
+    "records": 47972,
+    "nbytes": 64508158,
+    "sha256": "39008731875afc1d2fdf210f367db0b39d220965efe3272790e638ef742073d8",
+    "status": "complete"
+  }
+]

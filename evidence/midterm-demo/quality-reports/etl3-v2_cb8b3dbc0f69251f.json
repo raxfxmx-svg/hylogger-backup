@@ -1,0 +1,233 @@
+{
+  "schema_version": "etl3.processed.v2",
+  "release_id": "etl3-v2_cb8b3dbc0f69251f",
+  "hole_id": "19EISD004",
+  "status": "pass",
+  "generated_at": "2026-08-26T22:19:43+00:00",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "raw_package_tree_recorded",
+      "status": "pass",
+      "details": {
+        "file_count": 218,
+        "nbytes": 450698802,
+        "tree_sha256": "4c985bc7be6c54b219db938d474e67406a58c0bc5ca040ff964869a892b6f254"
+      }
+    },
+    {
+      "name": "asset_files_verified_and_copied",
+      "status": "pass",
+      "details": {
+        "copied_files": 122,
+        "catalog_rows": 124
+      }
+    },
+    {
+      "name": "scalar_common_axis",
+      "status": "pass",
+      "details": {
+        "sample_count": 62775,
+        "axis_source_log_id": "0098f5fd-9d13-4ec8-bf21-91b8bdebc28",
+        "aligned_source_series": 77,
+        "irregular_source_series": 0,
+        "physical_value_columns": 61,
+        "duplicate_axis_coordinate_rows": 11285
+      }
+    },
+    {
+      "name": "tray_partition",
+      "status": "pass",
+      "details": {
+        "tray_count": 121
+      }
+    },
+    {
+      "name": "section_partition",
+      "status": "pass",
+      "details": {
+        "section_count": 465,
+        "sections_per_tray": {
+          "0": 3,
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 3,
+          "17": 3,
+          "18": 3,
+          "19": 4,
+          "20": 4,
+          "21": 4,
+          "22": 4,
+          "23": 4,
+          "24": 4,
+          "25": 4,
+          "26": 4,
+          "27": 4,
+          "28": 4,
+          "29": 4,
+          "30": 4,
+          "31": 4,
+          "32": 4,
+          "33": 4,
+          "34": 4,
+          "35": 4,
+          "36": 4,
+          "37": 4,
+          "38": 4,
+          "39": 4,
+          "40": 4,
+          "41": 4,
+          "42": 4,
+          "43": 4,
+          "44": 4,
+          "45": 4,
+          "46": 4,
+          "47": 4,
+          "48": 4,
+          "49": 4,
+          "50": 4,
+          "51": 4,
+          "52": 4,
+          "53": 4,
+          "54": 4,
+          "55": 4,
+          "56": 4,
+          "57": 4,
+          "58": 4,
+          "59": 4,
+          "60": 4,
+          "61": 4,
+          "62": 4,
+          "63": 4,
+          "64": 4,
+          "65": 4,
+          "66": 4,
+          "67": 4,
+          "68": 4,
+          "69": 4,
+          "70": 4,
+          "71": 4,
+          "72": 4,
+          "73": 4,
+          "74": 4,
+          "75": 4,
+          "76": 4,
+          "77": 4,
+          "78": 4,
+          "79": 4,
+          "80": 4,
+          "81": 4,
+          "82": 4,
+          "83": 4,
+          "84": 4,
+          "85": 4,
+          "86": 4,
+          "87": 4,
+          "88": 4,
+          "89": 4,
+          "90": 4,
+          "91": 4,
+          "92": 4,
+          "93": 4,
+          "94": 4,
+          "95": 4,
+          "96": 4,
+          "97": 4,
+          "98": 4,
+          "99": 4,
+          "100": 4,
+          "101": 4,
+          "102": 4,
+          "103": 4,
+          "104": 4,
+          "105": 4,
+          "106": 4,
+          "107": 4,
+          "108": 4,
+          "109": 4,
+          "110": 4,
+          "111": 4,
+          "112": 4,
+          "113": 4,
+          "114": 4,
+          "115": 4,
+          "116": 4,
+          "117": 4,
+          "118": 4,
+          "119": 4,
+          "120": 4
+        }
+      }
+    },
+    {
+      "name": "thumbnail_core_section_strips",
+      "status": "pass",
+      "details": {
+        "mapping_rows": 465,
+        "complete_strips": 465,
+        "unavailable_or_failed": 0,
+        "image_quality": "thumbnail_derived",
+        "output_resized": false,
+        "jpeg_quality": 90
+      }
+    },
+    {
+      "name": "spectral_series_separated",
+      "status": "pass",
+      "details": {
+        "source_series": 15,
+        "complete_series": 2,
+        "axis_count": 2,
+        "combined_signals_csv_created": false
+      }
+    }
+  ],
+  "counts": {
+    "hole_count": 1,
+    "dataset_count": 1,
+    "sample_count": 62775,
+    "scalar_source_series_count": 79,
+    "scalar_physical_value_columns": 61,
+    "tray_count": 121,
+    "section_count": 465,
+    "section_image_mapping_rows": 465,
+    "core_strip_complete_count": 465,
+    "spectral_source_series_count": 15,
+    "spectral_complete_series_count": 2,
+    "spectral_axis_count": 2,
+    "asset_catalog_rows": 589,
+    "availability_rows": 99
+  },
+  "important_storage_keys": {
+    "sample_axis": "holes/19EISD004/sample_axis.parquet",
+    "scalar_values": "holes/19EISD004/scalars/values.parquet",
+    "section_images": "holes/19EISD004/core/section_images.parquet"
+  },
+  "interpretation_policy": {
+    "scientific_interpretation_added": false,
+    "unknown_source_units_filled": false,
+    "mineral_truth_algorithm_selected": false,
+    "theoretical_borehole_path_generated": false,
+    "heatmap_or_other_visual_derivative_generated": true,
+    "visual_derivative_kinds": [
+      "thumbnail_core_section_strips"
+    ]
+  }
+}

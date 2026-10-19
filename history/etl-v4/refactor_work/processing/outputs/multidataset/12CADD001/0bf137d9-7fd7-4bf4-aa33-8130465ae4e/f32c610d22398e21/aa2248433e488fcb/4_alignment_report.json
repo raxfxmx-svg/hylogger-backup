@@ -1,0 +1,70 @@
+{
+  "anchor_choice_basis": "lexically first source ID after all dense depth vectors verified equal",
+  "artifacts": {
+    "4_axis_bindings.json": "e996247e45895205feb1498ff00f63c3ff72ff3263c4f7985444a5e35e1eb075",
+    "4_core_intervals.json": "d9724e67d339301bf61ee2b4d0c8125f6148c9cb62573fefe59ecf6c42c86cd5",
+    "4_image_frames.json": "44a7cec09fa5b902008074f2af9ae6c850866228fd72949b03c74bd428f94f98",
+    "4_sample_axis.npz": "c821e9cdf209d83be0a113551009c25c37fcc56d24ca889475f23e07ed747d65"
+  },
+  "axis_id": "e5e966c1-77a9-539a-b706-62f79982746c",
+  "dense_logs_aligned": 151,
+  "depth_anchor_log_id": "0174e4df-12d1-4428-8361-71bed933dfa",
+  "duplicate_depth_samples_preserved": 7827,
+  "hole_id": "12CADD001",
+  "image_depth_comparison_policy": "decimal_1e-5_or_same_float32",
+  "image_frames_bound": 93,
+  "issues": [],
+  "observed_depth_max_m": 324.18823,
+  "observed_depth_min_m": 0.00368,
+  "pipeline_id": "aa2248433e488fcb4e6b6643bd555c41d27c4ef72e549e47c8e5b81e45402c83",
+  "position_evidence": [
+    {
+      "method": "all rows equal interval-relative one-based sample number",
+      "role": "TraySamp",
+      "source_log_id": "2a37a333-de8c-4202-84d5-7212a5c6729"
+    },
+    {
+      "method": "all rows equal interval-relative one-based sample number",
+      "role": "TraySamp",
+      "source_log_id": "af3545a1-1310-4ef8-b662-63e59bdec10"
+    },
+    {
+      "method": "all rows equal interval-relative one-based sample number",
+      "role": "SecSamp",
+      "source_log_id": "ef8ad689-e459-40f0-aa2c-9b5feaf94d9"
+    },
+    {
+      "method": "all rows equal interval-relative one-based sample number",
+      "role": "SecSamp",
+      "source_log_id": "f6744a1f-884c-488f-b980-27eeb65e38b"
+    },
+    {
+      "role": "section_distance_mm",
+      "source_log_id": "5937a9c7-bc69-4148-bd08-da0c31ac977"
+    },
+    {
+      "role": "section_distance_mm",
+      "source_log_id": "f3268fb2-fc4f-4b01-91df-8caf49b8d74"
+    }
+  ],
+  "previous_step": 3,
+  "profile_alignment_checks": [
+    {
+      "max_absolute_difference": 3.813476567415819e-06,
+      "method": "minimum strictly positive profile value; all-zero row represented by 0; alignment evidence only",
+      "profile_log_id": "d8883e04-33d7-424d-8354-e2160d74039",
+      "sample_count": 49104,
+      "scalar_log_id": "33bc2663-72f8-4c3f-b11c-c9a40eb364d",
+      "tolerance": 0.0001
+    }
+  ],
+  "report_format": 2,
+  "sample_count": 49104,
+  "section_count": 372,
+  "source_snapshot_id": "f32c610d22398e21fdfeab115f450553c63f961e364606533b87355b6b23a9b3",
+  "spectral_sample_binding_status": "unconfirmed_matrix_order",
+  "status": "passed",
+  "step": 4,
+  "tray_count": 93,
+  "unique_depth_count": 41277
+}

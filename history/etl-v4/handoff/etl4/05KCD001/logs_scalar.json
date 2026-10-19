@@ -1,0 +1,1272 @@
+[
+  {
+    "log_id": "0131ffa5-f164-4691-b4ac-bd84904c5a6",
+    "log_name": "Grp1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "03266a6e-f877-48ca-9fc6-3ec2cdb59cc",
+    "log_name": "sec_end_mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0367056c-0a00-4989-aa59-bcf861ce192",
+    "log_name": "Kahuna",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "067511a2-a36a-4305-8ad6-2f102586c9f",
+    "log_name": "Grp3 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "078767e5-18f3-40d6-b791-26b128f4898",
+    "log_name": "Min1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "09ba4526-4e0b-457f-96d5-d1c7cb2a57c",
+    "log_name": "Min3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0a562bae-7f9b-4224-a2b0-ff9d3644489",
+    "log_name": "Grp3 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0c2e7048-82dc-4d89-92a6-7050b4dc675",
+    "log_name": "Wt3 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0c8613f8-9fb2-4470-8164-e3341e11d1b",
+    "log_name": "TNorm sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "0f0de2dd-2997-4edc-956f-33c95c2a2a2",
+    "log_name": "Wt1 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1008a586-2f89-4623-ab17-d7745abd9f5",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "113a6a1a-7b14-436f-a977-2fb2d9699f8",
+    "log_name": "SNR sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "12016d66-cfb1-4431-9e4e-8abd41124af",
+    "log_name": "Min1 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "15484833-3414-4677-ab5c-62459dfe828",
+    "log_name": "FMI",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "159d1af0-a1ca-48dd-b02d-9372200c6fa",
+    "log_name": "Final Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "169f3ff1-536f-4b77-afba-65878c559b0",
+    "log_name": "Grp1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "177b92e1-2d6f-45f2-a535-c27da57f130",
+    "log_name": "RelDate",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "17a283d2-695e-4be8-9408-a1726744909",
+    "log_name": "Grp2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "18e996a5-1f4b-424a-9187-6e474bd01d2",
+    "log_name": "Wt1 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1b83fee0-89c4-4e01-b2e5-63798deeb4b",
+    "log_name": "Wt3 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1dbd42fb-effd-4c2a-8dad-8033171a0a2",
+    "log_name": "Wt1 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1e47e3ab-3bd0-47b1-b0cd-474c7566d26",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1ec79f42-01f0-4bdf-8aa2-614680a7255",
+    "log_name": "Error sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1f2bbf9e-85ba-4983-bc1b-3c2f09a379d",
+    "log_name": "Min3 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "1f405a72-8192-4c56-834b-8093e30d602",
+    "log_name": "TIRDeltaTemp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "209c3c6c-62d9-40e9-b30d-965aa03af47",
+    "log_name": "Carbonate 6500 Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "21790f96-fc75-41fc-9012-4c94c3e680a",
+    "log_name": "Min1 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "26c38f06-8c89-4655-9861-e70d6452644",
+    "log_name": "Grp2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "272aecf2-c461-4df6-ae76-72b244acbc5",
+    "log_name": "RelRange",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "276c06f9-a124-4a57-8e22-5c527682231",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "278ed70c-43d0-4ee7-8d75-84793318db0",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "28b5a579-2559-4a2c-b5b5-dfdf179f08e",
+    "log_name": "AspRat sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "28f6025f-48b4-4864-9dec-a32f19b0424",
+    "log_name": "Quartz Depth",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "298a97eb-417d-431d-b960-4e2462f4fed",
+    "log_name": "Wt3 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2cbd02ee-88a8-4277-aaa3-51522a8942f",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2ece552c-ccfa-4806-905b-5284d65c375",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2f2be5e6-53e8-4b86-aff6-12de858aa5a",
+    "log_name": "w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "2fdbccfd-e016-4c85-8b39-040831f8509",
+    "log_name": "Tray",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "306fc86a-03f8-489b-8494-255e9538295",
+    "log_name": "spodumene",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3494c5a1-fc71-408f-9e2e-b2fd793376e",
+    "log_name": "NIL_Stat sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "360f264f-0031-48b5-a73e-b7501db661b",
+    "log_name": "AspRat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "148",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3712b4ab-72c3-4400-bfd9-0f313b21de8",
+    "log_name": "Chlorite w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "37a5e6a5-b935-46e7-982e-16a2f01db59",
+    "log_name": "Unbound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "385820b2-a6f4-4f34-a201-c492fae9ef9",
+    "log_name": "Min3 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "38b13bd4-30e9-40da-b33a-17d525c42ae",
+    "log_name": "SNR sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3b1be8e8-0f5d-4d03-a30a-a9d61831dc1",
+    "log_name": "Grp1 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "3d51fc67-ff0c-4c8c-986b-5971e83c3bd",
+    "log_name": "spodumene (11500D)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "428bdb5d-911b-433f-a902-17acf5d9ac3",
+    "log_name": "Grp3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4547614a-3673-497c-b9c7-4045804623d",
+    "log_name": "Hematite-goethite_distr",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "46770c01-466c-4a97-8f87-cd99ed683eb",
+    "log_name": "Min3 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4b91e8d5-60de-4234-abfd-d233ed704fe",
+    "log_name": "Albedo",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4b958f2b-c97a-48a3-a847-0d3282447b8",
+    "log_name": "Grp1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4c1c0412-1f10-411f-a7f1-d57161bedb8",
+    "log_name": "NIL_Stat sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "101",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4d43d617-6607-4144-9119-e91c217d6ff",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "4fba8c3f-f285-4a55-8473-21b49d9f507",
+    "log_name": "Error sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "99",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "50f482ab-1ead-401f-9b3a-df321598034",
+    "log_name": "prof_min",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "526f68d4-421b-4e1a-b05c-7925bfb8c31",
+    "log_name": "petalite",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "52c2975d-a02c-4edb-8514-76ff85cd327",
+    "log_name": "Error ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "52c8a7cf-b553-4d2f-b1b1-8a6a9acab61",
+    "log_name": "Carbonate 6500 WvL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "55df6001-add1-4ada-a79e-5c08bb0a09a",
+    "log_name": "TirBkgOffset",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "55fad617-8dbc-4604-9436-8bdca620dc0",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "5f4d12b1-955a-4301-b044-a23ac623ea7",
+    "log_name": "HyLogDiag",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "627c7329-f178-42b3-8b2e-cd4786890e5",
+    "log_name": "w2250",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "62eb8c62-e04e-4503-af4c-8f3aef5d36f",
+    "log_name": "CustScore",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "6c123567-f830-4e79-9527-04b04f5cc16",
+    "log_name": "Bound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "6d500467-8834-4332-a20b-7f2fcaf96bd",
+    "log_name": "recovery_rate",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "73dc54f8-d73d-4068-a788-3096ceaad77",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "74e7f372-0c17-4a1d-a3b2-97b887b4127",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "77ec1dd0-97e9-4b25-b5bc-c5629fd07fb",
+    "log_name": "Carbonate 6500 Mask",
+    "is_public": "false",
+    "log_type": "6",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "790d84db-c782-440e-ada7-03b7995dc33",
+    "log_name": "Wt2 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "7d5fc5e4-e137-40b1-81a7-2c93b0bd2d3",
+    "log_name": "Min2 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "7efa4987-7d0c-4269-a558-75f8f738a34",
+    "log_name": "Wt3 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "7f9a428f-2cc1-4602-b1b4-241fa50c604",
+    "log_name": "TNorm ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "843f64a5-bfd6-42b8-8b0e-093589415b0",
+    "log_name": "White Mica w2200",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "88b10118-c0f3-4b08-889f-44e756e2882",
+    "log_name": "holmquistite",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "898fff07-73e9-429d-a30a-04bd1c44f72",
+    "log_name": "Carbonate 11300 Height",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "8d57c9dc-cb01-431c-84d6-232371b1005",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "90882a60-b871-4399-b965-1e2be6e054f",
+    "log_name": "Ferric oxide abundance 25062014",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "949a61ca-a19f-4de3-8685-2dd444986c8",
+    "log_name": "SecDist (mm)",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9561da65-3b76-4e36-8e31-0223eb56e3d",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9732ca8c-f58e-4a37-848e-b46d06575fb",
+    "log_name": "Error sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "145",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9961dd4f-4d96-4aae-ad9f-6ffe2d6c396",
+    "log_name": "Error uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "111",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9a1cce26-4e1e-4d3a-b036-21933b857b3",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9aaaffe5-6d2d-4e0e-9ca3-c4520f332f6",
+    "log_name": "NIL_Stat ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "147",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9bf9f272-6ec3-4ae2-83aa-05ab4b74f55",
+    "log_name": "Grp1 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9edc45ec-9479-4593-a5f0-52bf41ddd77",
+    "log_name": "SNR sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "100",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9f1ce617-d4e1-4532-943d-e4d91d39378",
+    "log_name": "Grp2 sjCLST",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9f47efc9-640c-4c91-8c37-c146a185aa1",
+    "log_name": "Min1 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "9fbb2387-bd04-4463-bf28-5d4a8bfcf13",
+    "log_name": "Bound_Water uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "115",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "a395d476-4acc-455d-827f-0be79d328d6",
+    "log_name": "Carbonate 11300 WvL",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "a5aac08c-afcc-42b7-a9d1-7f1df10c58d",
+    "log_name": "Wt2 ujCLST",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "a879ecef-2157-4e30-b287-66614934ef1",
+    "log_name": "RockMarks",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "aa60aa99-a197-441b-a6eb-80208a0097b",
+    "log_name": "Wt2 sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "adc6b4cf-a0a9-4d9d-a7be-96ec6d7f202",
+    "log_name": "Min2 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "142",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ae07d9b9-3d28-450e-b0cc-84eb7d93524",
+    "log_name": "Grp3 ujCLST",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "143",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "b262d62a-c9d1-4fe9-9d8a-fc5951cbd01",
+    "log_name": "SecSamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "bc46be75-d448-4bd9-a073-103072e7717",
+    "log_name": "NIL_Stat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c1ef1aee-3dd5-4eea-bd58-1cfccc8cebc",
+    "log_name": "Min2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "96",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c29748c0-dea9-474a-a8af-23ee2e8bf55",
+    "log_name": "Grp2 sTSAV",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "97",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c3a5ff03-0a6e-4f85-9115-0e5c390a2c1",
+    "log_name": "SNR uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "112",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c3dfcefa-e127-4999-9f4e-f40dcf6d701",
+    "log_name": "NIL_Stat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "113",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c69391ab-f646-47bb-963e-8bdfcebe8a3",
+    "log_name": "Unbound_Water sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "114",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c8cf6218-bee4-4f89-b9ab-040c52211e8",
+    "log_name": "Wt1 uTSAS",
+    "is_public": "true",
+    "log_type": "2",
+    "algorithm_id": "110",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "c9e84420-54ba-44c7-9f2b-07871df7d1c",
+    "log_name": "CustGroup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "cb10e423-ea59-485d-8a03-9de4d8d7a8e",
+    "log_name": "virtual_section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "cdf8ba3a-d42a-4c6a-86ba-627414b5701",
+    "log_name": "HoleID",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "d51e81ed-5649-4659-a651-2ee19fd1d18",
+    "log_name": "Min1 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "da6fa7ea-b15f-4188-97b4-95ad0333054",
+    "log_name": "Min2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "db11fa45-1089-4ddf-a749-dc394b2fcfc",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dcca8e06-05d1-4f81-a33d-05fa079adae",
+    "log_name": "Wt1 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dcf2bbd2-f124-4973-b32e-6f401af1035",
+    "log_name": "SNR ujCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "146",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dcfdea67-05e1-4797-bfb7-6d203e75e92",
+    "log_name": "AspRat sTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "de619425-403e-4983-a952-461fa94274d",
+    "log_name": "TNorm sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "149",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "dea42193-2960-4ce0-893d-4f36572ed44",
+    "log_name": "Wt2 sTSAV",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "98",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ded38c78-cb86-4bc5-91df-e766c2f8682",
+    "log_name": "AspRat uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "116",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e1d82190-f63d-4267-9a7e-9f5a837426d",
+    "log_name": "Grp2 sTSAS",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "109",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e4bbe94c-5ca9-4844-b4f7-49e3981f1d9",
+    "log_name": "Domain",
+    "is_public": "false",
+    "log_type": "1",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e6189190-3105-48a1-b556-df5f6f4d1e1",
+    "log_name": "Date",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e7c17be2-b27d-41c1-a190-a4801195d84",
+    "log_name": "Min2 uTSAS",
+    "is_public": "true",
+    "log_type": "1",
+    "algorithm_id": "108",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "e7eefe1c-2f8d-4b31-aa71-6e1b828c44d",
+    "log_name": "TNorm uTSAS",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "117",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ebf375d0-5501-4b63-b035-bdf630a8a69",
+    "log_name": "Wt2 sjCLST",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "144",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "ef557774-d6bf-4006-a695-495e8713d2e",
+    "log_name": "TraySamp",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f2e1bee4-4a7f-4f9a-a5fb-b9cb4ba9bb3",
+    "log_name": "TIDL Depth Backup",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f3cad4e6-ae68-4b3c-8460-4938ef5ee39",
+    "log_name": "CustSample",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f711777e-ce1f-4273-8b1c-077f35bae2b",
+    "log_name": "Interactive Depth Logging",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "f804718d-5269-49fc-8103-578a4ae985f",
+    "log_name": "Subpix",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  },
+  {
+    "log_id": "fa5739d5-9ad7-4cc0-9f13-6b5ef78ef30",
+    "log_name": "Section",
+    "is_public": "false",
+    "log_type": "2",
+    "algorithm_id": "0",
+    "mask_log_id": "",
+    "modified_date": "2022-12-06T00:00:00+08:00",
+    "created_date": "2022-12-06T00:00:00+08:00"
+  }
+]

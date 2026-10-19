@@ -1,0 +1,16 @@
+{
+  "omitted": "example_selections: local read examples are not cloud asset addresses",
+  "rows": [
+    {
+      "dataset_revision_id": "46de0178-b65d-5ad0-ba4e-bc1ad35e6f9d",
+      "input_digest": "df61ee4b296e1bbc19559bf82880acc811ce6acd1346af7887a41564b3827342",
+      "result": {
+        "fixture_only": true,
+        "status": "passed"
+      },
+      "validated_at": "2026-10-03 11:18:07.730165+00:00",
+      "verification_code_sha256": "94a0fae4ef3faae976a830c07d4046d16d80dd8eafaa22a74f3b941c95b29b6c"
+    }
+  ],
+  "source_rows_sha256": "aba66832a4918b08ab1a8d005c3f4c4ec136be12fa14c8ec44cafcf0405f7e9e"
+}

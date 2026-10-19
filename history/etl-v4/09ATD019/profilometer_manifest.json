@@ -1,0 +1,13 @@
+[
+  {
+    "log_id": "5ab298d6-ffce-425b-b539-a30b615a8cc",
+    "log_name": "Profile log",
+    "sample_count": 22650,
+    "channel_count": 0,
+    "file": "profilometer/5ab298d6-ffce-425b-b539-a30b615a8cc_Profile_log.jsonl",
+    "records": 22650,
+    "nbytes": 31449650,
+    "sha256": "fa34dd0d50d40ed69f8784532a27c89aca0ef63dddf172e2ea2e62c586100e16",
+    "status": "complete"
+  }
+]

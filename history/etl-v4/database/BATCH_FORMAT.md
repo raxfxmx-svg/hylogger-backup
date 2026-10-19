@@ -1,0 +1,21 @@
+# Independent Batch Format
+
+`etl4-batch-v1` packages validated datasets for transfer without copying large assets. Step 38 exports; step 39 uploads. See [the runbook](LOCAL_BATCH_RUNBOOK.md).
+
+The package contains `manifest.json`, 29 compressed business-table files, all 39 table definitions, six original migrations, both local acceptance records and `composites.json`. Empty tables retain files. Two tables represent validation/file locations, two represent local run management, and six release/display tables are represented through target publication definitions. New schema tables require an explicit export classification.
+
+Dataset, revision, axis, sample and asset UUIDs remain unchanged. PostgreSQL emits typed JSON records sorted by primary key, with deterministic gzip headers and UTC/ISO session settings. Restore through PostgreSQL record types to retain numeric precision, NULL, arrays, JSON and UUID. Collar geometry uses hexadecimal EWKB including SRID, restored with `ST_GeomFromEWKB(decode(value,'hex'))`.
+
+`batch_id` hashes the format, migrations, sorted dataset/input identities and display definitions. Times, run IDs and local paths are excluded. File SHA256 values separately identify transmitted bytes. Identical exports reuse the saved public package; conflicting business content for the same identity is rejected.
+
+Large assets remain in place. `manifest.assets` records their IDs, versions, byte sizes, SHA256, media types and object keys. Equal content shares an object key while retaining distinct asset identities. `local_sources.json` binds the manifest digest to private local file paths and is not uploaded.
+
+The default S3 prefix is `etl4`: assets use `<prefix>/objects/sha256/<first-two-hash-characters>/<sha256>`; package files use `<prefix>/batches/<batch_id>/<manifest_sha256>/<relative-path>`. The manifest uploads last. Receipts record the actual target, object keys and partial/complete progress. Matching remote full-object checksums allow reuse; conflicts are not overwritten. ETags or self-reported metadata alone do not prove integrity. Interrupted files restart from their beginning; completed objects can be reused.
+
+Step 39 supports SDK uploads with complete CRC32 checksums or CloudShell-signed HTTPS PUT/HEAD with complete SHA256 and `If-None-Match: *`. Workers range from 1 to 16. Private signed files bind the exact batch and target; expiry is 21,600–43,200 seconds and may be shortened by the session. Signed uploads support files up to 5 GiB; larger files use SDK multipart. Network errors and HTTP 429/500/502/503/504 get up to three attempts; 400/403 stop automatic retries, and 412 triggers a HEAD check. Receipts exclude credentials, signed URLs and raw server messages.
+
+Step 40 uses `ETL4_CLOUD_DSN` with explicit host/database and `sslmode=verify-full`. It stages the 29 tables, validates structure and scope, then commits each dataset independently. Trays precede sections and samples; parents precede child branches. Identical UUID/content is reused; conflicting content stops the import. Missing migrations require `--apply-migrations`. It records existing local acceptance evidence without a third full scientific recomputation.
+
+The default release is a cumulative candidate. `--finalize` requires explicit dataset/revision pairs, `expected_active_release_id`, and individually listed `omitted_dataset_ids` for omitted accumulated members. Optional `source_release_ids` supplies additional display provenance. The active pointer changes transactionally only if the expected previous release still matches. `merge_receipt.json` binds the batch, manifest, upload-receipt hash, target and commits; `complete` alone does not mean publication switched.
+
+Step 41 defaults to preview. It requires matching complete upload/merge receipts and explicit export/work roots, checks other registered batches, and retains unfinished shared references. It does not scan old database asset locations or unregistered workspaces. Raw data, evidence, code, databases, backups and export packages are protected by default. Explicit raw cleanup additionally requires separate `--include-raw --raw-root`. `--apply` rechecks each file and rejects links, junctions, hard links and protected paths; it does not recursively delete directories or databases.

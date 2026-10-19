@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "978822fb-de28-4603-b02e-af6882e5951",
+    "dataset_name": "14CADD003",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/14CADD003",
+    "tray_id": "a6366530-3085-4efb-9767-7382252fe22",
+    "section_id": "b3a08e55-f884-4312-af82-2068bd94a40",
+    "domain_id": "d453868a-7cce-4c89-ae70-2c030fcaf4d",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>14CADD003</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Calingiri Diamond</Project><Owner>GSWA</Owner><DrillDate>2014-01-01 15:06:50</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-30.979556</Latitude><Longitude>116.602552</Longitude><Azimuth>0.000000</Azimuth><Inclination>0.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-08T00:00:00+08:00",
+    "created_date": "2017-07-03T00:00:00+08:00"
+  }
+]

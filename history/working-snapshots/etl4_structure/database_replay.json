@@ -1,0 +1,103 @@
+{
+  "business_hashes_unchanged": true,
+  "business_rows_after": {
+    "asset": 14307,
+    "asset_location": 14307,
+    "borehole": 8,
+    "borehole_branch": 0,
+    "borehole_composite": 8,
+    "borehole_composite_part": 13,
+    "borehole_revision": 13,
+    "core_interval": 10210,
+    "data_chunk": 37950,
+    "data_release": 3,
+    "dataset": 13,
+    "dataset_revision": 26,
+    "dataset_segment": 16,
+    "dataset_succession": 5,
+    "image_frame": 1890,
+    "image_region": 4160,
+    "image_region_asset": 4160,
+    "image_sample_mapping": 4160,
+    "interpretation_input": 0,
+    "interpretation_set": 128,
+    "log_asset": 12040,
+    "log_axis_binding": 3424,
+    "metric_definition": 1498,
+    "quality_issue": 504,
+    "release_dataset": 23,
+    "sample_axis": 26,
+    "scan_log": 3424,
+    "scan_sample": 1309556,
+    "source_document": 364,
+    "source_reference": 78,
+    "spectral_array": 24,
+    "spectral_block": 1222,
+    "spectral_sample_map": 24,
+    "spectral_stream": 48,
+    "survey_station": 0
+  },
+  "business_rows_before": {
+    "asset": 14307,
+    "asset_location": 14307,
+    "borehole": 8,
+    "borehole_branch": 0,
+    "borehole_composite": 8,
+    "borehole_composite_part": 13,
+    "borehole_revision": 13,
+    "core_interval": 10210,
+    "data_chunk": 37950,
+    "data_release": 3,
+    "dataset": 13,
+    "dataset_revision": 26,
+    "dataset_segment": 16,
+    "dataset_succession": 5,
+    "image_frame": 1890,
+    "image_region": 4160,
+    "image_region_asset": 4160,
+    "image_sample_mapping": 4160,
+    "interpretation_input": 0,
+    "interpretation_set": 128,
+    "log_asset": 12040,
+    "log_axis_binding": 3424,
+    "metric_definition": 1498,
+    "quality_issue": 504,
+    "release_dataset": 23,
+    "sample_axis": 26,
+    "scan_log": 3424,
+    "scan_sample": 1309556,
+    "source_document": 364,
+    "source_reference": 78,
+    "spectral_array": 24,
+    "spectral_block": 1222,
+    "spectral_sample_map": 24,
+    "spectral_stream": 48,
+    "survey_station": 0
+  },
+  "new_business_rows": 0,
+  "recorded_at": "2026-09-28T17:18:22.527121+00:00",
+  "runs": [
+    {
+      "elapsed_seconds": 2.9816723000258207,
+      "script": "9_import_prepared_data.py"
+    },
+    {
+      "elapsed_seconds": 12.392440799972974,
+      "script": "28_import_media_revision.py"
+    },
+    {
+      "elapsed_seconds": 24.941195599967614,
+      "script": "29_verify_media_grain.py"
+    },
+    {
+      "elapsed_seconds": 50.23337409994565,
+      "script": "34_import_multi_dataset_database.py"
+    },
+    {
+      "elapsed_seconds": 68.08987450000132,
+      "script": "35_verify_multi_dataset_database.py"
+    }
+  ],
+  "status": "passed",
+  "temporary_directories_unavailable": true
+}

@@ -1,0 +1,18 @@
+{
+  "source_files": [
+    "etl4/_settings.py",
+    "etl4/processing/_etl_common.py",
+    "etl4/database/10_verify_database.py",
+    "etl4/database/20_audit_spectral_sources.py",
+    "etl4/database/25_review_image_row_regions.py",
+    "etl4/database/26_bind_image_rows_to_samples.py",
+    "etl4/database/7_preflight_database.py",
+    "etl4/database/9_import_prepared_data.py",
+    "etl4/database/_media_common.py",
+    "etl4/database/_prepared_inputs.py",
+    "etl4/database/tests/test_input_selection.py",
+    "etl4/database/tests/test_database_contracts.py"
+  ],
+  "issues": [],
+  "report_missing_links": []
+}

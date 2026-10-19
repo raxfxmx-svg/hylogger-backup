@@ -1,0 +1,418 @@
+{
+  "paths": [
+    "etl4/_file_checks.py",
+    "etl4/_settings.py",
+    "etl4/database/20_audit_spectral_sources.py",
+    "etl4/database/21_verify_spectral_bindings.py",
+    "etl4/database/22_prepare_spectral_access.py",
+    "etl4/database/23_audit_dataset_image_groups.py",
+    "etl4/database/24_detect_image_rows.py",
+    "etl4/database/25_review_image_row_regions.py",
+    "etl4/database/26_bind_image_rows_to_samples.py",
+    "etl4/database/27_build_image_row_assets.py",
+    "etl4/database/28_import_media_revision.py",
+    "etl4/database/31_audit_multi_dataset_sources.py",
+    "etl4/database/32_prepare_multi_dataset_payloads.py",
+    "etl4/database/33_prepare_multi_dataset_media.py",
+    "etl4/database/37_import_final_version.py",
+    "etl4/database/38_export_batch.py",
+    "etl4/database/39_upload_batch.py",
+    "etl4/database/40_merge_cloud_batch.py",
+    "etl4/database/41_cleanup_batch.py",
+    "etl4/database/7_preflight_database.py",
+    "etl4/database/8_apply_schema.py",
+    "etl4/database/_batch_files.py",
+    "etl4/database/_db_common.py",
+    "etl4/database/_db_files.py",
+    "etl4/database/_final_import.py",
+    "etl4/database/_ingest.py",
+    "etl4/database/_media_common.py",
+    "etl4/database/_media_import.py",
+    "etl4/database/_media_manifest.py",
+    "etl4/database/_media_reader.py",
+    "etl4/database/_media_rows.py",
+    "etl4/database/_media_verification.py",
+    "etl4/database/_multi_common.py",
+    "etl4/database/_multi_db.py",
+    "etl4/database/_prepared_inputs.py",
+    "etl4/database/_publication.py",
+    "etl4/database/_run_reports.py",
+    "etl4/database/_schema_docs.py",
+    "etl4/database/_verification.py",
+    "etl4/processing/0_check_raw.py",
+    "etl4/processing/1_inventory.py",
+    "etl4/processing/2_validate_payloads.py",
+    "etl4/processing/3_normalize_metadata.py",
+    "etl4/processing/4_align_samples.py",
+    "etl4/processing/5_build_columnar.py",
+    "etl4/processing/6_verify_prepared_data.py",
+    "etl4/processing/_etl_common.py",
+    "etl4/processing/columnar_storage.py",
+    "etl4/processing/metadata_normalization.py",
+    "etl4/processing/payload_validation.py",
+    "etl4/processing/sample_alignment.py",
+    "etl4/handoff/tools/handoff.py"
+  ],
+  "entries": [
+    "etl4/database/20_audit_spectral_sources.py",
+    "etl4/database/21_verify_spectral_bindings.py",
+    "etl4/database/22_prepare_spectral_access.py",
+    "etl4/database/23_audit_dataset_image_groups.py",
+    "etl4/database/24_detect_image_rows.py",
+    "etl4/database/25_review_image_row_regions.py",
+    "etl4/database/26_bind_image_rows_to_samples.py",
+    "etl4/database/27_build_image_row_assets.py",
+    "etl4/database/28_import_media_revision.py",
+    "etl4/database/31_audit_multi_dataset_sources.py",
+    "etl4/database/32_prepare_multi_dataset_payloads.py",
+    "etl4/database/33_prepare_multi_dataset_media.py",
+    "etl4/database/37_import_final_version.py",
+    "etl4/database/38_export_batch.py",
+    "etl4/database/39_upload_batch.py",
+    "etl4/database/40_merge_cloud_batch.py",
+    "etl4/database/41_cleanup_batch.py",
+    "etl4/database/7_preflight_database.py",
+    "etl4/database/8_apply_schema.py",
+    "etl4/processing/0_check_raw.py",
+    "etl4/processing/1_inventory.py",
+    "etl4/processing/2_validate_payloads.py",
+    "etl4/processing/3_normalize_metadata.py",
+    "etl4/processing/4_align_samples.py",
+    "etl4/processing/5_build_columnar.py",
+    "etl4/processing/6_verify_prepared_data.py"
+  ],
+  "reasons": {
+    "etl4/processing/0_check_raw.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/processing/1_inventory.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/processing/2_validate_payloads.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/processing/3_normalize_metadata.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/processing/4_align_samples.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/processing/5_build_columnar.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/processing/6_verify_prepared_data.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/20_audit_spectral_sources.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/21_verify_spectral_bindings.py": [
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "Numbered production entry points"
+    ],
+    "etl4/database/22_prepare_spectral_access.py": [
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "Numbered production entry points"
+    ],
+    "etl4/database/23_audit_dataset_image_groups.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/24_detect_image_rows.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/25_review_image_row_regions.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/26_bind_image_rows_to_samples.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/27_build_image_row_assets.py": [
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "Numbered production entry points"
+    ],
+    "etl4/database/28_import_media_revision.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/31_audit_multi_dataset_sources.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/32_prepare_multi_dataset_payloads.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/33_prepare_multi_dataset_media.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/37_import_final_version.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/38_export_batch.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/39_upload_batch.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/40_merge_cloud_batch.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/41_cleanup_batch.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/7_preflight_database.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/database/8_apply_schema.py": [
+      "Numbered production entry points"
+    ],
+    "etl4/_settings.py": [
+      "etl4/database/20_audit_spectral_sources.py",
+      "etl4/database/21_verify_spectral_bindings.py",
+      "etl4/database/22_prepare_spectral_access.py",
+      "etl4/database/23_audit_dataset_image_groups.py",
+      "etl4/database/24_detect_image_rows.py",
+      "etl4/database/25_review_image_row_regions.py",
+      "etl4/database/26_bind_image_rows_to_samples.py",
+      "etl4/database/27_build_image_row_assets.py",
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/31_audit_multi_dataset_sources.py",
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/38_export_batch.py",
+      "etl4/database/39_upload_batch.py",
+      "etl4/database/40_merge_cloud_batch.py",
+      "etl4/database/41_cleanup_batch.py",
+      "etl4/database/7_preflight_database.py",
+      "etl4/database/8_apply_schema.py",
+      "etl4/database/_batch_files.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_db_files.py",
+      "etl4/database/_final_import.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_media_common.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_media_reader.py",
+      "etl4/database/_media_verification.py",
+      "etl4/database/_multi_common.py",
+      "etl4/database/_multi_db.py",
+      "etl4/database/_prepared_inputs.py",
+      "etl4/database/_publication.py",
+      "etl4/database/_run_reports.py",
+      "etl4/database/_schema_docs.py",
+      "etl4/database/_verification.py",
+      "etl4/processing/0_check_raw.py",
+      "etl4/processing/1_inventory.py",
+      "etl4/processing/6_verify_prepared_data.py",
+      "etl4/processing/_etl_common.py"
+    ],
+    "etl4/processing/_etl_common.py": [
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/database/_multi_common.py",
+      "etl4/processing/1_inventory.py",
+      "etl4/processing/2_validate_payloads.py",
+      "etl4/processing/3_normalize_metadata.py",
+      "etl4/processing/4_align_samples.py",
+      "etl4/processing/5_build_columnar.py",
+      "etl4/processing/6_verify_prepared_data.py",
+      "etl4/processing/columnar_storage.py",
+      "etl4/processing/metadata_normalization.py",
+      "etl4/processing/payload_validation.py",
+      "etl4/processing/sample_alignment.py"
+    ],
+    "etl4/processing/payload_validation.py": [
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/processing/2_validate_payloads.py"
+    ],
+    "etl4/processing/metadata_normalization.py": [
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/processing/3_normalize_metadata.py"
+    ],
+    "etl4/processing/sample_alignment.py": [
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/processing/4_align_samples.py"
+    ],
+    "etl4/processing/columnar_storage.py": [
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/processing/5_build_columnar.py"
+    ],
+    "etl4/database/_db_common.py": [
+      "etl4/database/20_audit_spectral_sources.py",
+      "etl4/database/24_detect_image_rows.py",
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/31_audit_multi_dataset_sources.py",
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/38_export_batch.py",
+      "etl4/database/40_merge_cloud_batch.py",
+      "etl4/database/7_preflight_database.py",
+      "etl4/database/8_apply_schema.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_final_import.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_media_common.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_media_reader.py",
+      "etl4/database/_media_verification.py",
+      "etl4/database/_multi_common.py",
+      "etl4/database/_multi_db.py",
+      "etl4/database/_publication.py",
+      "etl4/database/_run_reports.py",
+      "etl4/database/_schema_docs.py",
+      "etl4/database/_verification.py",
+      "etl4/handoff/tools/handoff.py"
+    ],
+    "etl4/database/_db_files.py": [
+      "etl4/database/20_audit_spectral_sources.py",
+      "etl4/database/21_verify_spectral_bindings.py",
+      "etl4/database/23_audit_dataset_image_groups.py",
+      "etl4/database/25_review_image_row_regions.py",
+      "etl4/database/27_build_image_row_assets.py",
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/31_audit_multi_dataset_sources.py",
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/38_export_batch.py",
+      "etl4/database/40_merge_cloud_batch.py",
+      "etl4/database/41_cleanup_batch.py",
+      "etl4/database/7_preflight_database.py",
+      "etl4/database/8_apply_schema.py",
+      "etl4/database/_batch_files.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_final_import.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_media_common.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_media_reader.py",
+      "etl4/database/_media_verification.py",
+      "etl4/database/_multi_common.py",
+      "etl4/database/_multi_db.py",
+      "etl4/database/_prepared_inputs.py",
+      "etl4/database/_publication.py",
+      "etl4/database/_run_reports.py",
+      "etl4/database/_schema_docs.py",
+      "etl4/database/_verification.py"
+    ],
+    "etl4/database/_media_common.py": [
+      "etl4/database/20_audit_spectral_sources.py",
+      "etl4/database/21_verify_spectral_bindings.py",
+      "etl4/database/22_prepare_spectral_access.py",
+      "etl4/database/23_audit_dataset_image_groups.py",
+      "etl4/database/24_detect_image_rows.py",
+      "etl4/database/25_review_image_row_regions.py",
+      "etl4/database/26_bind_image_rows_to_samples.py",
+      "etl4/database/27_build_image_row_assets.py",
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/_final_import.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_media_reader.py",
+      "etl4/database/_media_rows.py",
+      "etl4/database/_media_verification.py"
+    ],
+    "etl4/database/_prepared_inputs.py": [
+      "etl4/database/20_audit_spectral_sources.py",
+      "etl4/database/7_preflight_database.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_verification.py"
+    ],
+    "etl4/database/_run_reports.py": [
+      "etl4/database/20_audit_spectral_sources.py",
+      "etl4/database/21_verify_spectral_bindings.py",
+      "etl4/database/22_prepare_spectral_access.py",
+      "etl4/database/23_audit_dataset_image_groups.py",
+      "etl4/database/24_detect_image_rows.py",
+      "etl4/database/25_review_image_row_regions.py",
+      "etl4/database/26_bind_image_rows_to_samples.py",
+      "etl4/database/27_build_image_row_assets.py",
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/31_audit_multi_dataset_sources.py",
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/38_export_batch.py",
+      "etl4/database/7_preflight_database.py",
+      "etl4/database/8_apply_schema.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_verification.py"
+    ],
+    "etl4/database/_media_rows.py": [
+      "etl4/database/25_review_image_row_regions.py",
+      "etl4/database/26_bind_image_rows_to_samples.py",
+      "etl4/database/33_prepare_multi_dataset_media.py"
+    ],
+    "etl4/database/_media_import.py": [
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/_final_import.py"
+    ],
+    "etl4/database/_publication.py": [
+      "etl4/database/28_import_media_revision.py",
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_multi_db.py",
+      "etl4/database/_verification.py"
+    ],
+    "etl4/database/_multi_common.py": [
+      "etl4/database/31_audit_multi_dataset_sources.py",
+      "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "etl4/database/33_prepare_multi_dataset_media.py",
+      "etl4/database/_multi_db.py"
+    ],
+    "etl4/_file_checks.py": [
+      "etl4/database/37_import_final_version.py",
+      "etl4/database/_db_files.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_run_reports.py",
+      "etl4/database/_verification.py",
+      "etl4/processing/_etl_common.py"
+    ],
+    "etl4/database/_final_import.py": [
+      "etl4/database/37_import_final_version.py"
+    ],
+    "etl4/database/_media_verification.py": [
+      "etl4/database/37_import_final_version.py"
+    ],
+    "etl4/database/_multi_db.py": [
+      "etl4/database/37_import_final_version.py"
+    ],
+    "etl4/database/_batch_files.py": [
+      "etl4/database/38_export_batch.py",
+      "etl4/database/39_upload_batch.py",
+      "etl4/database/40_merge_cloud_batch.py",
+      "etl4/database/41_cleanup_batch.py"
+    ],
+    "etl4/handoff/tools/handoff.py": [
+      "etl4/database/39_upload_batch.py"
+    ],
+    "etl4/database/_schema_docs.py": [
+      "etl4/database/8_apply_schema.py"
+    ],
+    "etl4/database/_ingest.py": [
+      "etl4/database/_db_common.py",
+      "etl4/database/_final_import.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_verification.py"
+    ],
+    "etl4/database/_media_manifest.py": [
+      "etl4/database/_media_common.py",
+      "etl4/database/_media_import.py"
+    ],
+    "etl4/database/_media_reader.py": [
+      "etl4/database/_media_verification.py",
+      "etl4/handoff/tools/handoff.py"
+    ],
+    "etl4/database/_verification.py": [
+      "etl4/database/_media_verification.py"
+    ]
+  },
+  "not_bundled_imports": [
+    [
+      "etl4\\database\\_verification.py",
+      "api.app"
+    ]
+  ]
+}

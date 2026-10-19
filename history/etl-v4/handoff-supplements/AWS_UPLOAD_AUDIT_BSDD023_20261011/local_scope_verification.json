@@ -1,0 +1,53 @@
+{
+  "scope_issues": [],
+  "asset_table_matches_manifest": true,
+  "table_rows": 9314,
+  "table_count": 29,
+  "sample_axes": [
+    {
+      "sample_count": 8040,
+      "depth_min_m": 0.0052,
+      "depth_max_m": 51.39814
+    }
+  ],
+  "spectral_arrays": [
+    {
+      "sample_count": 8040,
+      "channel_count": 531,
+      "matrix_order": "C",
+      "layout_status": "verified_sample_major"
+    },
+    {
+      "sample_count": 8040,
+      "channel_count": 341,
+      "matrix_order": "C",
+      "layout_status": "verified_sample_major"
+    }
+  ],
+  "spectral_maps": [
+    "verified",
+    "verified"
+  ],
+  "image_counts": {
+    "image_frame": 15,
+    "image_region": 60,
+    "image_region_asset": 60,
+    "image_sample_mapping": 60
+  },
+  "image_mapping_status": {
+    "metadata_associated": 60
+  },
+  "asset_kinds": {
+    "media_evidence:evidence": 26,
+    "core_row_image:canonical": 60,
+    "profile:raw": 1,
+    "scalar:canonical": 79,
+    "scalar:raw": 79,
+    "processing_evidence:evidence": 10,
+    "metadata:raw": 14,
+    "image:raw": 16,
+    "spectral:raw": 2,
+    "profile:canonical": 1,
+    "sample_axis:canonical": 1
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "status": "passed",
+  "folder": "C:\\path\\to\\project\\github-upload",
+  "python_files": 52,
+  "numbered_entries": 26,
+  "other_python_files": 26,
+  "python_bytes": 530644,
+  "all_copies_match_source": true,
+  "source_files_modified": false,
+  "uploaded_to_github": false,
+  "non_python_files": [
+    "README.md"
+  ],
+  "files": [
+    {
+      "path": "etl4/_file_checks.py",
+      "bytes": 4400,
+      "sha256": "08d48a749905ba1cc1be0fcb0534d6bf6f099053a9f54e35c5e83839a0dacd8b"
+    },
+    {
+      "path": "etl4/_settings.py",
+      "bytes": 9330,
+      "sha256": "675a16c8d2a331f09a543c12a657023e22c0ff7966f71a19de19ee371e618e70"
+    },
+    {
+      "path": "etl4/database/20_audit_spectral_sources.py",
+      "bytes": 5253,
+      "sha256": "4fa59e3ef65c8ffa11705702aa67e3327faf732fbdbbb7d0d236cea43d6018b1"
+    },
+    {
+      "path": "etl4/database/21_verify_spectral_bindings.py",
+      "bytes": 5437,
+      "sha256": "077e30ed41ae516ab1a1d1cd3f58258e51b3b2e9dadd220488c4d12e56436d82"
+    },
+    {
+      "path": "etl4/database/22_prepare_spectral_access.py",
+      "bytes": 2382,
+      "sha256": "fcb7ec4d41ab514e635e5040b3fed683811b90f48b663394357be4020344dcbe"
+    },
+    {
+      "path": "etl4/database/23_audit_dataset_image_groups.py",
+      "bytes": 2328,
+      "sha256": "ac8c1c36c36d92e914a6536955f59b424e73e7f1bc100883b3a8d5830b4c3392"
+    },
+    {
+      "path": "etl4/database/24_detect_image_rows.py",
+      "bytes": 3674,
+      "sha256": "46ddf839ab032a74b7fc0a24dd877374b5bbbdb2e3dcb5a5789a0a9109013ad0"
+    },
+    {
+      "path": "etl4/database/25_review_image_row_regions.py",
+      "bytes": 4134,
+      "sha256": "9738a03d4e0fcbe987bc0fefcb9c69ddd025924dcb8c6ff64cdef7509504a1e9"
+    },
+    {
+      "path": "etl4/database/26_bind_image_rows_to_samples.py",
+      "bytes": 1277,
+      "sha256": "b2acc90a8f2b55e5cf8153d2d48e00a434d7b8122cf4710011695e7ee4f80f4f"
+    },
+    {
+      "path": "etl4/database/27_build_image_row_assets.py",
+      "bytes": 3159,
+      "sha256": "8c40270bb5294e3d0aa55387abd1591c841d22e8a6695da370ad027b8f1d6002"
+    },
+    {
+      "path": "etl4/database/28_import_media_revision.py",
+      "bytes": 4335,
+      "sha256": "968ca49ab31fe5487e083f0775b1fcece04e2d19480b2dfbaabb902d2f480ca0"
+    },
+    {
+      "path": "etl4/database/31_audit_multi_dataset_sources.py",
+      "bytes": 8621,
+      "sha256": "1455b830303f4505812faaf426d66ab4dd6c0dbedae04324cdab1c126e38f2d3"
+    },
+    {
+      "path": "etl4/database/32_prepare_multi_dataset_payloads.py",
+      "bytes": 10362,
+      "sha256": "fe8b2f9c992e47f5c20227d18cd3570cec00323aef7f28efc8a3a76b27459536"
+    },
+    {
+      "path": "etl4/database/33_prepare_multi_dataset_media.py",
+      "bytes": 11612,
+      "sha256": "ea9a9f7e7eac7fec0dd4426674340908103e9365ca73d0b760b5b554ef4425d8"
+    },
+    {
+      "path": "etl4/database/37_import_final_version.py",
+      "bytes": 8245,
+      "sha256": "513fbec07dd334cfb2c05c6467c7eb7518a4835ea83f6a486668e3f3deeba316"
+    },
+    {
+      "path": "etl4/database/38_export_batch.py",
+      "bytes": 24938,
+      "sha256": "a6684d75f8f56fe17676445c9e5d242b08cad508ee87b4328853e3f3efbca25a"
+    },
+    {
+      "path": "etl4/database/39_upload_batch.py",
+      "bytes": 26962,
+      "sha256": "f28484c801dbbffb7d8fdfde801dee7ead0f6015a46cfbea31266b1028e9bd72"
+    },
+    {
+      "path": "etl4/database/40_merge_cloud_batch.py",
+      "bytes": 45827,
+      "sha256": "c40966769ab8db3aef7f7974872e8f95078d72d1ce515e486c7690a215659f38"
+    },
+    {
+      "path": "etl4/database/41_cleanup_batch.py",
+      "bytes": 22081,
+      "sha256": "f2494a488ac238ca57f0c718beb0d27c7a28ec33d2e5d50515a8bc29414954fb"
+    },
+    {
+      "path": "etl4/database/7_preflight_database.py",
+      "bytes": 8800,
+      "sha256": "a6150811fdbc8d63f7ab88c5519e8ead3b99ec3e3c8a5d7425241e26d0945c0b"
+    },
+    {
+      "path": "etl4/database/8_apply_schema.py",
+      "bytes": 5469,
+      "sha256": "87c3b15a9c61750798d0b163db4318cf21875779e92bc84ad7ab094aafaef2a6"
+    },
+    {
+      "path": "etl4/database/_batch_files.py",
+      "bytes": 8812,
+      "sha256": "39fad63076d01471617b66cb3b9f67bb0efd287bf459832a3d786f692736daa2"
+    },
+    {
+      "path": "etl4/database/_db_common.py",
+      "bytes": 3392,
+      "sha256": "9078acb2d462fe621a7836dd9f57ed0e026c1c9a575fc84d498b6f3e8d0c2b21"
+    },
+    {
+      "path": "etl4/database/_db_files.py",
+      "bytes": 1684,
+      "sha256": "d3549645d724a3aaf3cbb0b574aab111088bb686678e5e886daf463718776ce5"
+    },
+    {
+      "path": "etl4/database/_final_import.py",
+      "bytes": 7862,
+      "sha256": "da5da82e702cd742c2ac2d1d16563677483830132351c454f13c4754ad3bd42d"
+    },
+    {
+      "path": "etl4/database/_ingest.py",
+      "bytes": 20393,
+      "sha256": "27b74ffa7469592e856677d52bf1a536556f93cd93d909960e7f233efaef62aa"
+    },
+    {
+      "path": "etl4/database/_media_common.py",
+      "bytes": 4233,
+      "sha256": "549247bb9e8b20e35dfb10c55a7ac49df90441c73bbffad899d32ec602ca3b7a"
+    },
+    {
+      "path": "etl4/database/_media_import.py",
+      "bytes": 34042,
+      "sha256": "fa6729128297d7f47a76c25cd6fe9ed3630b4276fb4bc599470bd4ae05592aab"
+    },
+    {
+      "path": "etl4/database/_media_manifest.py",
+      "bytes": 4205,
+      "sha256": "1ae02ebdf77abb2fe60dbee3001415124104a10692c55368031c0fc27eff776d"
+    },
+    {
+      "path": "etl4/database/_media_reader.py",
+      "bytes": 14971,
+      "sha256": "6e086fd33b5f5514d2f81c66dbcd3be8ad4f262a46adbdc6c08c07e6f4ddcd8d"
+    },
+    {
+      "path": "etl4/database/_media_rows.py",
+      "bytes": 2395,
+      "sha256": "071ad5ad7d4028c14acb68abc912450f59dabcb0cffd873b93758abf8848c36d"
+    },
+    {
+      "path": "etl4/database/_media_verification.py",
+      "bytes": 12750,
+      "sha256": "ab50abdb255faab4c6ebd10f92062286a6e2a78d89a0421c5189b273f1e16a97"
+    },
+    {
+      "path": "etl4/database/_multi_common.py",
+      "bytes": 2037,
+      "sha256": "d74a09a888352e7cccf6236b0571b99f893cfb5cc68cb2570ddd32833cea626b"
+    },
+    {
+      "path": "etl4/database/_multi_db.py",
+      "bytes": 8946,
+      "sha256": "f17fec0c36c82453c85b78780c3652ecd2552441a9b26ffd52722c8827ec61e3"
+    },
+    {
+      "path": "etl4/database/_prepared_inputs.py",
+      "bytes": 2727,
+      "sha256": "ce499ae6d2e2f0ccc5286800c006d6dcfd0698839d7e86c6410f927f1c758eae"
+    },
+    {
+      "path": "etl4/database/_publication.py",
+      "bytes": 7705,
+      "sha256": "cc1d7569cae5cea2e6976e9e0dd3d3e9dcf7d207eb383666e1a8e910cbf7c1f6"
+    },
+    {
+      "path": "etl4/database/_run_reports.py",
+      "bytes": 2649,
+      "sha256": "2c52f62c871a4b4808231638330d065201f850ea48049b8fabf7408476cf993c"
+    },
+    {
+      "path": "etl4/database/_schema_docs.py",
+      "bytes": 20770,
+      "sha256": "79a17ae5fd947a73c2a87e803794f38802ee45516576f8ddc2369af6414bca9f"
+    },
+    {
+      "path": "etl4/database/_verification.py",
+      "bytes": 18738,
+      "sha256": "7f96b5207399402545f2141a7d290eeeb30dd0e12e324bf30e6a5919de429945"
+    },
+    {
+      "path": "etl4/processing/0_check_raw.py",
+      "bytes": 14692,
+      "sha256": "0c1d41d5cf115db82671df94088eb0ae20766aa8f220d12d6847976e0d6f2a17"
+    },
+    {
+      "path": "etl4/processing/1_inventory.py",
+      "bytes": 4725,
+      "sha256": "c4b407d8d3bb5ab9110c5469aef71928ab9b1a0dfbd62a8dfcb9042dd1843b62"
+    },
+    {
+      "path": "etl4/processing/2_validate_payloads.py",
+      "bytes": 428,
+      "sha256": "c21740d76d6bfbceb8dbaf3c7e856d29df379f534ee9d1e95e14f6f1aebae0a1"
+    },
+    {
+      "path": "etl4/processing/3_normalize_metadata.py",
+      "bytes": 423,
+      "sha256": "5865d189702b02149bd1fd629d4653c37612806d2d6ed9cf7997df78f207ddde"
+    },
+    {
+      "path": "etl4/processing/4_align_samples.py",
+      "bytes": 419,
+      "sha256": "0d79124c4febd363bb8dda0bfe6a0d5a2319b48f19ad9193921705cd0edf1c35"
+    },
+    {
+      "path": "etl4/processing/5_build_columnar.py",
+      "bytes": 411,
+      "sha256": "700d11fb2e88e02e78e443eef3cd9fa627bc57e70c316e096d8d178247c90bbd"
+    },
+    {
+      "path": "etl4/processing/6_verify_prepared_data.py",
+      "bytes": 10701,
+      "sha256": "ab439fe2ae48152fdd3b3d4bbef3047b1fb3b61db77697d01978996c2d2f1d25"
+    },
+    {
+      "path": "etl4/processing/_etl_common.py",
+      "bytes": 11385,
+      "sha256": "49495ea485fada8c8ee9f9574df77fd3bb37ef039982031947813123d9fba573"
+    },
+    {
+      "path": "etl4/processing/columnar_storage.py",
+      "bytes": 14170,
+      "sha256": "143fd8d93b02ad4630263cfd784e9cfce0b5b89d6e996e7114903f12b8e49c25"
+    },
+    {
+      "path": "etl4/processing/metadata_normalization.py",
+      "bytes": 19042,
+      "sha256": "da622f2bc0645d24add8b04b6a3b26840f16e6d5f9651711adcae2aa7839f3b1"
+    },
+    {
+      "path": "etl4/processing/payload_validation.py",
+      "bytes": 13369,
+      "sha256": "ae349fcaa86ab4ea69d964cbe46851c9a09bdb1499e4451e76bfd118a182cad6"
+    },
+    {
+      "path": "etl4/processing/sample_alignment.py",
+      "bytes": 15823,
+      "sha256": "c3baee491493383632fca111989ba08a0cb9b8004099616e112484df9c8d15f1"
+    },
+    {
+      "path": "etl4/handoff/tools/handoff.py",
+      "bytes": 28119,
+      "sha256": "0058a7b7aa3f7e6a73159737db8920e2f5889d5a994e6da0aaf77be77674d0e8"
+    }
+  ]
+}

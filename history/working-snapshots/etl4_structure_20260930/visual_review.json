@@ -1,0 +1,7 @@
+{
+  "status": "reviewed",
+  "reviewer": "codex_visual_review",
+  "image": "C:\\path\\to\\project\\etl4\\structure_input_20260930\\database\\media_work\\25_review_1.png",
+  "sha256": "f24839d50cef880eb2db10bb1165716dc5865e9b36ef46331d79773b537ea4df",
+  "findings": "Reviewed all three representative trays. The four row boundaries follow tray dividers. Empty sections in the final tray are preserved; no empty sections were cropped out and no samples were fabricated."
+}

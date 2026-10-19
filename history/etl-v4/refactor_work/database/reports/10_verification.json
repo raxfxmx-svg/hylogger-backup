@@ -1,0 +1,72 @@
+{
+  "activated": true,
+  "holes": [
+    {
+      "asset_bytes_hashed": 249177212,
+      "assets_hashed": 314,
+      "chunks_compared": 764,
+      "dataset_revision_id": "97afdd4f-28d3-5f43-b01f-53f8d4ed17a5",
+      "hole_id": "05KCD001",
+      "images_compared": 30,
+      "input_digest": "f7a3a421a8dfd634df2ee8c6a972dfadbf6cef8c8ceb15c41af28fa6340cdcad",
+      "logs_compared": 147,
+      "samples_compared": 22356,
+      "status": "passed"
+    },
+    {
+      "asset_bytes_hashed": 1083199389,
+      "assets_hashed": 321,
+      "chunks_compared": 3105,
+      "dataset_revision_id": "20bc66d6-78c8-5a46-9c5e-23d0fe9e67f9",
+      "hole_id": "07THD002",
+      "images_compared": 77,
+      "input_digest": "5f4fa511917d621dc5603f39983cbbf756f3b9b5e169c8d5925964b0b20e9ee9",
+      "logs_compared": 127,
+      "samples_compared": 116424,
+      "status": "passed"
+    },
+    {
+      "asset_bytes_hashed": 509890908,
+      "assets_hashed": 280,
+      "chunks_compared": 1500,
+      "dataset_revision_id": "89130553-7a4f-53d9-8a8a-3221e8a0569d",
+      "hole_id": "07THD003",
+      "images_compared": 36,
+      "input_digest": "792dac00c0cccb2e712d30f5ca8e0c3af069860c999d680694ecc4ae19765275",
+      "logs_compared": 127,
+      "samples_compared": 54432,
+      "status": "passed"
+    },
+    {
+      "asset_bytes_hashed": 336850643,
+      "assets_hashed": 257,
+      "chunks_compared": 938,
+      "dataset_revision_id": "6f6a3838-72ef-5132-93c9-c2f0eaf12ffc",
+      "hole_id": "09ATD015",
+      "images_compared": 72,
+      "input_digest": "8d246fcdb4011ad99063ba2efc4e3fecd1b25dd11d43b51d678b178e5c72d656",
+      "logs_compared": 91,
+      "samples_compared": 46030,
+      "status": "passed"
+    },
+    {
+      "asset_bytes_hashed": 165221223,
+      "assets_hashed": 219,
+      "chunks_compared": 470,
+      "dataset_revision_id": "83ac0dd4-a7c6-5667-84ec-899f8d2eb9be",
+      "hole_id": "09ATD019",
+      "images_compared": 34,
+      "input_digest": "8a26a83d7a4ed8de6951e88e3dc5a37340747c473e7c5ec89d641c0f421113c1",
+      "logs_compared": 91,
+      "samples_compared": 22650,
+      "status": "passed"
+    }
+  ],
+  "http_checks": {
+    "status": "not_requested"
+  },
+  "recorded_at": "2026-09-28T04:54:28.205818+00:00",
+  "release_id": "7fd9379b-2266-5543-b5c9-749d3c5fad89",
+  "status": "passed",
+  "verification_code_sha256": "364bf14dc43142f9d5d40a5bc66321d6ebacb99007805baf9148ea4222d81762"
+}

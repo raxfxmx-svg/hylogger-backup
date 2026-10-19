@@ -1,0 +1,43 @@
+{
+  "etl4_refactor_check": {
+    "active_release": {
+      "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2"
+    },
+    "holes": [
+      {
+        "source_hole_id": "05KCD001"
+      },
+      {
+        "source_hole_id": "07THD002"
+      },
+      {
+        "source_hole_id": "07THD003"
+      },
+      {
+        "source_hole_id": "09ATD015"
+      },
+      {
+        "source_hole_id": "09ATD019"
+      },
+      {
+        "source_hole_id": "09ATRCD025"
+      },
+      {
+        "source_hole_id": "09THD028"
+      },
+      {
+        "source_hole_id": "12BRDDH003"
+      },
+      {
+        "source_hole_id": "12CADD001"
+      },
+      {
+        "source_hole_id": "14KDD001"
+      },
+      {
+        "source_hole_id": "15EIS001"
+      }
+    ],
+    "revisions": 32
+  }
+}

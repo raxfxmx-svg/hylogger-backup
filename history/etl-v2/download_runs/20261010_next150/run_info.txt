@@ -1,0 +1,16 @@
+# 150-Borehole Resumable Download
+
+Run five workers from two existing checkpoints using `etl2/download.py`. `holes.txt` defines the batch; `selection.json` excludes the 99 previously completed cloud-delivery boreholes and records folder mappings. Raw files use `D:/100demo/data/raw`; cache files use `D:/100demo/data/cache`.
+
+Folders `79%2F9D1` and `79%2F9D2` represent source IDs `79/9D1` and `79/9D2`. Read the original `hole_id` from `source_identity.json` during processing.
+
+Download tray thumbnails, scalars, spectra, profiles and existing Mosaic display files. Retain only metadata for large Tray Images/Imagery. Pause near 30 GiB free space, retaining checkpoints; 228 GiB available space does not guarantee capacity for all 150 boreholes.
+
+The independent hidden process requires an awake, connected computer and does not restart after reboot. `stop.ps1` waits for current requests to finish; confirm `process.json` says `paused`. `start.ps1` resumes after space checks. Preserve unfinished raw files to avoid redownloads.
+
+`process.json` records the download PID, logs and exit code. `progress.json` updates per completed borehole, not per block. Inspect `package_manifest.json` and `download-report.txt` for results. Exit codes: 0 finished with possible warnings, 1 failures, 2 paused. No scheduled monitoring, cleaning or database import is included.
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./stop.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./start.ps1
+```

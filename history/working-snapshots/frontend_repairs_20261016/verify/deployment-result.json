@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-16T05:21:45.362Z",
+  "site": "https://app.example.com",
+  "scripts": [
+    "/_next/static/chunks/fd9d1056-84041741536e19ff.js",
+    "/_next/static/chunks/23-e7c083a42be9606e.js",
+    "/_next/static/chunks/main-app-5119373265d3a479.js",
+    "/_next/static/chunks/138-3861d635c420c03d.js",
+    "/_next/static/chunks/657-6be1cabeb1b79199.js",
+    "/_next/static/chunks/app/page-62f33a2c898054aa.js",
+    "/_next/static/chunks/app/layout-2b2aee29c3e23ac3.js",
+    "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+    "/_next/static/chunks/webpack-a4bc18e698ac7956.js"
+  ],
+  "features": {
+    "multiDatasetSplice": true,
+    "spectralRetry": true,
+    "batchLimit16": true,
+    "confidenceExplained": true,
+    "photoCropping": true,
+    "mineralGroupFix": true,
+    "invalidNormalization": true,
+    "persistentCacheAbsent": true
+  },
+  "apiOrigins": [
+    "https://api.example.com"
+  ],
+  "allFeaturesPresent": true
+}

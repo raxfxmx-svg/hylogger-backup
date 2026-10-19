@@ -1,0 +1,69 @@
+{
+  "generated_with_ai": true,
+  "reviewed_on": "2026-10-18",
+  "basis": "Allowlisted fields extracted from historical local receipts; not a live AWS query.",
+  "omitted": "Cloud account, host, bucket, full membership lists and local operational paths.",
+  "milestones": [
+    {
+      "date_china": "2026-10-05",
+      "recorded_at_utc": "2026-10-05T14:04:44.252349+00:00",
+      "source_filename": "final_result.json",
+      "source_sha256": "1d5c574a72e9d9006a8cc700c71a809df55559b7be25f399d506a65992a48594",
+      "historical_status": "complete",
+      "holes": 99,
+      "datasets": 104,
+      "samples": 6256402,
+      "new_holes": 87,
+      "new_samples": 5524196,
+      "release_id": "9a79d410-0cf3-58f6-ac73-2374998f7fdd",
+      "all_batch_merges_complete": true,
+      "local_acceptance_complete": true
+    },
+    {
+      "date_china": "2026-10-10",
+      "recorded_at_utc": "2026-10-10T08:45:44.696650+00:00",
+      "source_filename": "delivery_summary.json",
+      "source_sha256": "46e74ee62abd7cefb00dcd74b66af01827d30455bbf5aba07a0ac148afa2f369",
+      "historical_status": "published",
+      "holes": 247,
+      "datasets": 252,
+      "samples": 14337925,
+      "new_holes": 148,
+      "new_samples": 8081523,
+      "release_id": "ec4e602b-f58c-58b2-94fa-bbc2ec11e507",
+      "batch_count": 21
+    },
+    {
+      "date_china": "2026-10-11",
+      "recorded_at_utc": "2026-10-11T01:38:28.112805+00:00",
+      "source_filename": "delivery_summary.json",
+      "source_sha256": "d2055cab3291b9a078727dda5c3e599e2337d7cab3970cbcf4c1234c058129b6",
+      "historical_status": "published",
+      "holes": 386,
+      "datasets": 391,
+      "samples": 18303620,
+      "new_holes": 139,
+      "new_samples": 3965695,
+      "release_id": "4ddd1962-028c-5baa-8614-6f522607152a",
+      "batch_count": 18
+    },
+    {
+      "date_china": "2026-10-13",
+      "recorded_at_utc": "2026-10-12T17:10:51.182874+00:00",
+      "source_filename": "cloud_publication.json",
+      "source_sha256": "9ea89eeeb457e32cc674a9c7bd545866a4bf06bcd7b79cb785fedd8e0c5dfb82",
+      "historical_status": "published",
+      "holes": 405,
+      "datasets": 410,
+      "samples": 19147718,
+      "new_holes": 18,
+      "new_source_holes": 13,
+      "new_samples": 836058,
+      "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+      "old_members_preserved": true,
+      "checked_previous_members": 392,
+      "checked_current_members": 410,
+      "checked_missing_previous_members": 0
+    }
+  ]
+}

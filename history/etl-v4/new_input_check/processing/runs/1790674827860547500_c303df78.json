@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T09:39:20.625016+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "5_build_columnar.py",
+  "code_sha256": "700d11fb2e88e02e78e443eef3cd9fa627bc57e70c316e096d8d178247c90bbd",
+  "sha256_file_scans": 592,
+  "sha256_bytes_read": 170461454,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 67.23718240001472,
+  "finished_at": "2026-09-29T09:40:27.860547+00:00"
+}

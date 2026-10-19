@@ -1,0 +1,18 @@
+{
+  "connection_calls_blocked": 1,
+  "database_created": false,
+  "failure_report_written": true,
+  "input_identity": [
+    {
+      "axis_id": "f874a902-9fa0-51e9-ac14-27a1c9d6dc20",
+      "dataset_id": "8110cd1e-3b13-5589-b013-fc16d3f51105",
+      "dataset_revision_id": "984f74b7-3ba5-5d14-bf9d-9f8f783d1506",
+      "input_digest": "7841dced30c03013bb9223e7a2cbade94e3fcf6e899f90b0946302a912db5fb0"
+    }
+  ],
+  "output_directory": "C:\\path\\to\\project\\_codex_work\\etl4_structure_batch_20261003\\local_37_3fa457a46dd3",
+  "prior_failure": "Test script used database-scoped write for outputs outside database_dir; no database had been created",
+  "scope": "offline pre-database boundary only",
+  "source_input_check_passed": true,
+  "status": "passed"
+}

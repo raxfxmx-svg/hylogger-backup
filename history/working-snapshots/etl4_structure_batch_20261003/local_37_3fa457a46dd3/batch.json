@@ -1,0 +1,11 @@
+{
+  "decisions": {
+    "orders": {}
+  },
+  "packages": [
+    {
+      "directory": "C:\\path\\to\\project\\etl4\\structure_input_20260930\\database\\media_releases\\ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05",
+      "prepared_work_dir": "C:\\path\\to\\project\\etl4\\structure_input_20260930"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "20_audit_spectral_sources",
+  "exit_code": 0,
+  "seconds": 0.719,
+  "command": [
+    "C:\\path\\to\\project\\etl4\\database\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\path\\to\\project\\etl4\\database\\20_audit_spectral_sources.py",
+    "--raw-dir",
+    "C:\\path\\to\\project\\etl4",
+    "--work-dir",
+    "C:\\path\\to\\project\\etl4_english_delivery_20261004",
+    "--dbname",
+    "etl4_english_delivery_20261004",
+    "--db-config",
+    "C:\\path\\to\\project\\etl4\\refactor_work\\database\\runtime\\local_config.json",
+    "--files-only"
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "all_asset_logical_bytes": 11171234132,
+  "all_asset_unique_bytes_by_sha256": 6996369518,
+  "asset_categories": {
+    "canonical_payloads": {
+      "logical_asset_count": 5652,
+      "logical_bytes": 1435799599,
+      "unique_bytes_by_sha256": 1435799599,
+      "unique_files_by_sha256": 5652
+    },
+    "original_spectral_arrays": {
+      "logical_asset_count": 24,
+      "logical_bytes": 2190186144,
+      "unique_bytes_by_sha256": 2190186144,
+      "unique_files_by_sha256": 24
+    },
+    "other_original_archive": {
+      "logical_asset_count": 1674,
+      "logical_bytes": 2975040358,
+      "unique_bytes_by_sha256": 2749949202,
+      "unique_files_by_sha256": 1452
+    },
+    "processing_evidence": {
+      "logical_asset_count": 1595,
+      "logical_bytes": 4554233761,
+      "unique_bytes_by_sha256": 606305664,
+      "unique_files_by_sha256": 385
+    },
+    "tray_thumbnails": {
+      "logical_asset_count": 945,
+      "logical_bytes": 15974270,
+      "unique_bytes_by_sha256": 15974270,
+      "unique_files_by_sha256": 945
+    }
+  },
+  "asset_count": 9890,
+  "benchmarks": [],
+  "core_total_relation_bytes": 556908544,
+  "empty_extension_database_bytes": 16174227,
+  "increase_over_empty_bytes": 558800896,
+  "label": "refactor_full",
+  "limitations": [
+    "WAL directory is a current allocation, not an observed historical peak",
+    "Query temp_bytes does not cover every index-build or OS temporary allocation",
+    "First timed reads include full-file checksum validation; payload byte counters exclude that separate pass",
+    "No cloud transfer, latency or egress has been measured",
+    "Five holes do not determine the final size of 2000 holes; full original archive retention and revision retention change storage needs"
+  ],
+  "minimum_scalar_thumbnail_payload_bytes": 1451773869,
+  "query_plans": [
+    {
+      "hole_id": "05KCD001",
+      "sample_query_plan": [
+        {
+          "Execution Time": 0.066,
+          "Plan": {
+            "Actual Loops": 1,
+            "Actual Rows": 77,
+            "Actual Startup Time": 0.047,
+            "Actual Total Time": 0.058,
+            "Alias": "scan_sample",
+            "Async Capable": false,
+            "Index Cond": "((axis_id = 'a3432f1d-a47a-57d0-bd62-5027e0dd31f8'::uuid) AND (md_m >= '129.71019'::double precision) AND (md_m <= '130.21019'::double precision))",
+            "Index Name": "sample_depth_idx",
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Node Type": "Index Scan",
+            "Parallel Aware": false,
+            "Plan Rows": 25,
+            "Plan Width": 88,
+            "Relation Name": "scan_sample",
+            "Rows Removed by Index Recheck": 0,
+            "Scan Direction": "Forward",
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 0,
+            "Shared Read Blocks": 5,
+            "Shared Written Blocks": 0,
+            "Startup Cost": 0.43,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0,
+            "Total Cost": 90.06
+          },
+          "Planning": {
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 55,
+            "Shared Read Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "Planning Time": 0.12,
+          "Triggers": []
+        }
+      ]
+    },
+    {
+      "hole_id": "07THD002",
+      "sample_query_plan": [
+        {
+          "Execution Time": 0.072,
+          "Plan": {
+            "Actual Loops": 1,
+            "Actual Rows": 148,
+            "Actual Startup Time": 0.039,
+            "Actual Total Time": 0.065,
+            "Alias": "scan_sample",
+            "Async Capable": false,
+            "Index Cond": "((axis_id = '0508d1bf-3350-529a-896b-eeae570dc022'::uuid) AND (md_m >= '265.38297'::double precision) AND (md_m <= '265.88297'::double precision))",
+            "Index Name": "sample_depth_idx",
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Node Type": "Index Scan",
+            "Parallel Aware": false,
+            "Plan Rows": 61,
+            "Plan Width": 88,
+            "Relation Name": "scan_sample",
+            "Rows Removed by Index Recheck": 0,
+            "Scan Direction": "Forward",
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 1,
+            "Shared Read Blocks": 6,
+            "Shared Written Blocks": 0,
+            "Startup Cost": 0.43,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0,
+            "Total Cost": 216.47
+          },
+          "Planning": {
+            "Local Dirtied Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Local Written Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Hit Blocks": 0,
+            "Shared Read Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "Planning Time": 0.034,
+          "Triggers": []
+        }
+      ]
+    }
+  ],
+  "recorded_at": "2026-09-28T11:15:30.708257+00:00",
+  "release_id": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "status": "measured_local_only",
+  "system": {
+    "cumulative_query_temp_bytes": 3057536864,
+    "current_wal_directory_bytes": 973078528,
+    "database": "etl4_refactor_check",
+    "database_bytes": 574975123,
+    "postgis_version": "POSTGIS=\"3.6.2 3.6.2\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.14.1dev-CAPI-1.20.4\" PROJ=\"8.2.1 NETWORK_ENABLED=OFF URL_ENDPOINT=https://cdn.proj.org USER_WRITABLE_DIRECTORY=C:\\Users\\USER\\AppData DATABASE_PATH=C:\\Program Files\\PostgreSQL\\17\\share\\contrib\\postgis-3.6\\proj\\proj.db\" (compiled against PROJ 8.2.1) LIBXML=\"2.12.5\" LIBJSON=\"0.12\" LIBPROTOBUF=\"1.2.1\" WAGYU=\"0.5.0 (Internal)\"",
+    "postgres_version": "PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit",
+    "wal_lsn": "0/800E0298"
+  },
+  "tables": [
+    {
+      "index_bytes": 16384,
+      "row_count": 1,
+      "table_bytes": 8192,
+      "table_name": "active_release",
+      "toast_bytes_included": 0,
+      "total_bytes": 24576
+    },
+    {
+      "index_bytes": 8617984,
+      "row_count": 14307,
+      "table_bytes": 10706944,
+      "table_name": "asset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 19324928
+    },
+    {
+      "index_bytes": 5013504,
+      "row_count": 14307,
+      "table_bytes": 4505600,
+      "table_name": "asset_location",
+      "toast_bytes_included": 8192,
+      "total_bytes": 9519104
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 8,
+      "table_bytes": 16384,
+      "table_name": "borehole",
+      "toast_bytes_included": 8192,
+      "total_bytes": 49152
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "borehole_branch",
+      "toast_bytes_included": 8192,
+      "total_bytes": 24576
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 8,
+      "table_bytes": 16384,
+      "table_name": "borehole_composite",
+      "toast_bytes_included": 8192,
+      "total_bytes": 65536
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 13,
+      "table_bytes": 16384,
+      "table_name": "borehole_composite_part",
+      "toast_bytes_included": 8192,
+      "total_bytes": 65536
+    },
+    {
+      "index_bytes": 40960,
+      "row_count": 13,
+      "table_bytes": 73728,
+      "table_name": "borehole_revision",
+      "toast_bytes_included": 8192,
+      "total_bytes": 114688
+    },
+    {
+      "index_bytes": 2539520,
+      "row_count": 10210,
+      "table_bytes": 1974272,
+      "table_name": "core_interval",
+      "toast_bytes_included": 8192,
+      "total_bytes": 4513792
+    },
+    {
+      "index_bytes": 5472256,
+      "row_count": 37950,
+      "table_bytes": 8921088,
+      "table_name": "data_chunk",
+      "toast_bytes_included": 8192,
+      "total_bytes": 14393344
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 3,
+      "table_bytes": 32768,
+      "table_name": "data_release",
+      "toast_bytes_included": 24576,
+      "total_bytes": 65536
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 13,
+      "table_bytes": 16384,
+      "table_name": "dataset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 65536
+    },
+    {
+      "index_bytes": 65536,
+      "row_count": 26,
+      "table_bytes": 98304,
+      "table_name": "dataset_revision",
+      "toast_bytes_included": 8192,
+      "total_bytes": 163840
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 16,
+      "table_bytes": 16384,
+      "table_name": "dataset_segment",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 5,
+      "table_bytes": 16384,
+      "table_name": "dataset_succession",
+      "toast_bytes_included": 8192,
+      "total_bytes": 49152
+    },
+    {
+      "index_bytes": 483328,
+      "row_count": 1890,
+      "table_bytes": 655360,
+      "table_name": "image_frame",
+      "toast_bytes_included": 8192,
+      "total_bytes": 1138688
+    },
+    {
+      "index_bytes": 720896,
+      "row_count": 4160,
+      "table_bytes": 1646592,
+      "table_name": "image_region",
+      "toast_bytes_included": 8192,
+      "total_bytes": 2367488
+    },
+    {
+      "index_bytes": 319488,
+      "row_count": 4160,
+      "table_bytes": 2170880,
+      "table_name": "image_region_asset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 2490368
+    },
+    {
+      "index_bytes": 1155072,
+      "row_count": 4160,
+      "table_bytes": 2269184,
+      "table_name": "image_sample_mapping",
+      "toast_bytes_included": 8192,
+      "total_bytes": 3424256
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 5,
+      "table_bytes": 16384,
+      "table_name": "ingest_run",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 8192,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "interpretation_input",
+      "toast_bytes_included": 8192,
+      "total_bytes": 16384
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 128,
+      "table_bytes": 65536,
+      "table_name": "interpretation_set",
+      "toast_bytes_included": 8192,
+      "total_bytes": 114688
+    },
+    {
+      "index_bytes": 2637824,
+      "row_count": 12040,
+      "table_bytes": 1196032,
+      "table_name": "log_asset",
+      "toast_bytes_included": 8192,
+      "total_bytes": 3833856
+    },
+    {
+      "index_bytes": 172032,
+      "row_count": 3424,
+      "table_bytes": 524288,
+      "table_name": "log_axis_binding",
+      "toast_bytes_included": 8192,
+      "total_bytes": 696320
+    },
+    {
+      "index_bytes": 278528,
+      "row_count": 1498,
+      "table_bytes": 278528,
+      "table_name": "metric_definition",
+      "toast_bytes_included": 8192,
+      "total_bytes": 557056
+    },
+    {
+      "index_bytes": 40960,
+      "row_count": 504,
+      "table_bytes": 172032,
+      "table_name": "quality_issue",
+      "toast_bytes_included": 8192,
+      "total_bytes": 212992
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 23,
+      "table_bytes": 8192,
+      "table_name": "release_dataset",
+      "toast_bytes_included": 0,
+      "total_bytes": 40960
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 18,
+      "table_bytes": 2678784,
+      "table_name": "revision_validation",
+      "toast_bytes_included": 2670592,
+      "total_bytes": 2695168
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 26,
+      "table_bytes": 188416,
+      "table_name": "sample_axis",
+      "toast_bytes_included": 147456,
+      "total_bytes": 221184
+    },
+    {
+      "index_bytes": 1703936,
+      "row_count": 3424,
+      "table_bytes": 6823936,
+      "table_name": "scan_log",
+      "toast_bytes_included": 1204224,
+      "total_bytes": 8527872
+    },
+    {
+      "index_bytes": 323297280,
+      "row_count": 1309556,
+      "table_bytes": 153321472,
+      "table_name": "scan_sample",
+      "toast_bytes_included": 0,
+      "total_bytes": 476618752
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 6,
+      "table_bytes": 16384,
+      "table_name": "schema_migration",
+      "toast_bytes_included": 8192,
+      "total_bytes": 32768
+    },
+    {
+      "index_bytes": 98304,
+      "row_count": 364,
+      "table_bytes": 4300800,
+      "table_name": "source_document",
+      "toast_bytes_included": 4022272,
+      "total_bytes": 4399104
+    },
+    {
+      "index_bytes": 16384,
+      "row_count": 78,
+      "table_bytes": 57344,
+      "table_name": "source_reference",
+      "toast_bytes_included": 8192,
+      "total_bytes": 73728
+    },
+    {
+      "index_bytes": 49152,
+      "row_count": 24,
+      "table_bytes": 114688,
+      "table_name": "spectral_array",
+      "toast_bytes_included": 8192,
+      "total_bytes": 163840
+    },
+    {
+      "index_bytes": 229376,
+      "row_count": 1222,
+      "table_bytes": 237568,
+      "table_name": "spectral_block",
+      "toast_bytes_included": 8192,
+      "total_bytes": 466944
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 24,
+      "table_bytes": 49152,
+      "table_name": "spectral_sample_map",
+      "toast_bytes_included": 8192,
+      "total_bytes": 81920
+    },
+    {
+      "index_bytes": 32768,
+      "row_count": 48,
+      "table_bytes": 180224,
+      "table_name": "spectral_stream",
+      "toast_bytes_included": 8192,
+      "total_bytes": 212992
+    },
+    {
+      "index_bytes": 8192,
+      "row_count": 0,
+      "table_bytes": 8192,
+      "table_name": "survey_station",
+      "toast_bytes_included": 8192,
+      "total_bytes": 16384
+    }
+  ]
+}

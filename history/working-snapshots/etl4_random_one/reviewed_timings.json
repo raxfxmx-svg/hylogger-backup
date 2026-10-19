@@ -1,0 +1,27 @@
+[
+  {
+    "step": 25,
+    "seconds": 0.556,
+    "exit_code": 0
+  },
+  {
+    "step": 26,
+    "seconds": 0.22,
+    "exit_code": 0
+  },
+  {
+    "step": 27,
+    "seconds": 1.553,
+    "exit_code": 0
+  },
+  {
+    "step": 28,
+    "seconds": 1.905,
+    "exit_code": 0
+  },
+  {
+    "step": 29,
+    "seconds": 2.851,
+    "exit_code": 0
+  }
+]

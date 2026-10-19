@@ -1,0 +1,26 @@
+{
+  "function_ast_unchanged": {
+    "require": true,
+    "verify_hole": true,
+    "profile_window": true,
+    "api_checks": true,
+    "verify_and_publish": true
+  },
+  "current_module_functions": [
+    "require",
+    "verify_hole"
+  ],
+  "legacy_module_functions": [
+    "profile_window",
+    "api_checks",
+    "verify_and_publish"
+  ],
+  "modified_entries": [
+    "10_verify_database.py"
+  ],
+  "unchanged_entries": [
+    "11_measure_capacity.py",
+    "12_verify_restore.py"
+  ],
+  "database_and_api_operations": "none"
+}

@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:20.487394+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "28_import_media_revision.py",
+  "code_sha256": "b670b19c80be9e653c5aa9701566923a4ac9cd593697293fc13de7dd76542627",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0008465000137221068,
+  "finished_at": "2026-09-28T05:19:20.489747+00:00"
+}

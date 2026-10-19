@@ -1,0 +1,312 @@
+{
+  "schema_version": "etl3.processed.v1",
+  "release_id": "etl3-v1_d6e845f53a9bbbae",
+  "created_at": "2026-08-20T16:35:17+00:00",
+  "holes": [
+    "05GJD001"
+  ],
+  "source_raw_key": "data/raw/05GJD001",
+  "source_package_status": "complete_with_warnings",
+  "source_content_fingerprint": "d6e845f53a9bbbae3a7f216bd860eeeeb6a5956388284cae497dbae824fd2d7c",
+  "source_raw_tree": {
+    "file_count": 175,
+    "nbytes": 187029702,
+    "tree_sha256": "f28638f1fba40cf68a1b3aa06bec69161aa5718c61d337e1203a1ccc0afb55b8"
+  },
+  "counts": {
+    "hole_count": 1,
+    "dataset_count": 1,
+    "sample_count": 25938,
+    "scalar_source_series_count": 125,
+    "scalar_physical_value_columns": 106,
+    "tray_count": 33,
+    "section_count": 198,
+    "spectral_source_series_count": 15,
+    "spectral_complete_series_count": 2,
+    "spectral_axis_count": 2,
+    "asset_catalog_rows": 36,
+    "availability_rows": 145
+  },
+  "files": [
+    {
+      "storage_key": "catalog/assets.parquet",
+      "nbytes": 8989,
+      "sha256": "0abaa91fb66e7c256ee70cc4e3dcec606708cf68518f3d5f986db0e8598411ac"
+    },
+    {
+      "storage_key": "catalog/availability.parquet",
+      "nbytes": 6994,
+      "sha256": "ee537417f11f4ade0277748aa9eba2d4fc2f4a94e3de24cc724a30f5641a72b6"
+    },
+    {
+      "storage_key": "catalog/datasets.parquet",
+      "nbytes": 11456,
+      "sha256": "b6fec82ccd537faa17a8fd7f63e5d942a7045781f2435d093b305101259515a5"
+    },
+    {
+      "storage_key": "catalog/holes.parquet",
+      "nbytes": 4216,
+      "sha256": "c90e1b3625fe8e19a9f7db956fded791918017fe462f208fc39994db93fe9cae"
+    },
+    {
+      "storage_key": "catalog/scalar_series.parquet",
+      "nbytes": 24968,
+      "sha256": "6279e1844e92656811987eb5198d7eccc51ad8ebb3591b946678d6307a611ff4"
+    },
+    {
+      "storage_key": "catalog/spectral_axes.parquet",
+      "nbytes": 2309,
+      "sha256": "6d7154fa3602cb7e2eb6b6c7c20aee0d0a0dfac505bbbd155dbcc195cb1f08c8"
+    },
+    {
+      "storage_key": "catalog/spectral_series.parquet",
+      "nbytes": 9392,
+      "sha256": "b4b04dabcd8e046a2ca88d2c753007b814c7411513d60d398a6e2ac07eb13e8a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/catalog.json",
+      "nbytes": 26723,
+      "sha256": "c8c63c54319bcb4a260cb28d5c8f6c45cdb9946ac37131f7bcaca637d91bf73d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_0.jpg",
+      "nbytes": 24468,
+      "sha256": "a03ab17384ceb27784f02fd7fbcadc4ae0f3308a6eb0e1b8fdeb2dc9a29f110d"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_1.jpg",
+      "nbytes": 23323,
+      "sha256": "bfbcc61a4c5641e92914652a4c3f9d5819adee8abcd99cbc1735c4cfbe339195"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_10.jpg",
+      "nbytes": 22848,
+      "sha256": "c2566d4b812aa71101506ec626ee1a336255a8616e5311a8c19a0cb37ff30a53"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_11.jpg",
+      "nbytes": 22487,
+      "sha256": "0a8b97f9b0e36df2c65be94c2717fdab8706849028ff7a5733a93fbb9deca6e7"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_12.jpg",
+      "nbytes": 23058,
+      "sha256": "9bb896f6687fb6a25042594e24aa99e2480d99a7528f8c2c313207a5570b2d08"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_13.jpg",
+      "nbytes": 22244,
+      "sha256": "b0f0c1a6d5f9072675b947d58ba5745eb9de45f1af27bc7cd9e84916403eb9f0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_14.jpg",
+      "nbytes": 23432,
+      "sha256": "181f27158a95ba576d97649e610f3c094d35ad1e1d172fc74bbd827a7bcc2896"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_15.jpg",
+      "nbytes": 22928,
+      "sha256": "ae4a6b3216b14fbfc59d1c158a663e1fe13f3e23482cb79a16f9104f91d5948a"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_16.jpg",
+      "nbytes": 21415,
+      "sha256": "98813ef03387f4a3727451b6ffa2ed484ea54c57fbbdc175460fd3785984722e"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_17.jpg",
+      "nbytes": 22367,
+      "sha256": "fdc20e97a2000618477c57bac3e192706a805779a2f95f636303c41ff8a42c90"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_18.jpg",
+      "nbytes": 22983,
+      "sha256": "cf5e9b604ec39f7a33f41eb24c72215e40ae016730118f15ab877978e4a6822b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_19.jpg",
+      "nbytes": 20507,
+      "sha256": "285fbe61160658c708dafa5fdf0cf157810544b64f117d3c21805cd7225b4cd9"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_2.jpg",
+      "nbytes": 23518,
+      "sha256": "6343969051107b000ec3ee4c8809c654033b916f6b99e2d0e9dd59e0cd0f12c6"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_20.jpg",
+      "nbytes": 23251,
+      "sha256": "8edc4af48b56d8ef8a744acccc1ad9b27dd4d7b38317e8e6d0b480f419d8ab86"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_21.jpg",
+      "nbytes": 23111,
+      "sha256": "6e1a44838c3b9b14f7fc7fd0f2f18f2eb3b52c7e71e6b5237f3073d101618be0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_22.jpg",
+      "nbytes": 22106,
+      "sha256": "0032a66970c4e85ab2a0d083f530ac86ac5524db70a47f6cc4ae6204c80eb261"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_23.jpg",
+      "nbytes": 22489,
+      "sha256": "ee0a24a4ddb923c53fff7a9731c00058e2717d89e51ba914d59c72988beffd83"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_24.jpg",
+      "nbytes": 23096,
+      "sha256": "560e9b9b87699accefdc11b04458cd631c2c7bed6a6700a99876f32cd92c2722"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_25.jpg",
+      "nbytes": 21812,
+      "sha256": "1f281910e828058d91ab4fa90fbc8c50e2a2ef419c15d243b1918c4c9ad067a8"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_26.jpg",
+      "nbytes": 21941,
+      "sha256": "f70362e2ecc1fe2f10c47bb8e959623a09b79c977a7ec4dea35fd11229b4f9b2"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_27.jpg",
+      "nbytes": 23015,
+      "sha256": "8f2e539e85af6202c37a1d61971d91c6b0c4ce412262acb96d003c986011e4f0"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_28.jpg",
+      "nbytes": 22396,
+      "sha256": "6b5de6a2448f079e930a2ede2babd700bad4eaeccb39c66ac0cda9fa836a10d5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_29.jpg",
+      "nbytes": 21600,
+      "sha256": "ecdb871b3031b56fc16add5ba2cde79d180c7e9ca5e5d99de57caca0292b2cc3"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_3.jpg",
+      "nbytes": 24964,
+      "sha256": "939596fd513ef2ca8e1a3033ed41cdb43f981404695b783b61f3b0fa759f3721"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_30.jpg",
+      "nbytes": 22398,
+      "sha256": "fff8fe7bc4e883b2efd4bd214293f89a7acfc48848cb464c51c61b54d1ee0257"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_31.jpg",
+      "nbytes": 22855,
+      "sha256": "77286764ac61d4a8c32da67f421b1712296fbd5ab25dc571390dcf30b1da29a5"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_32.jpg",
+      "nbytes": 20913,
+      "sha256": "d7b4b0eb16d31c2145b9206a66ec05d31f9c14a4dce57dd325193fb171316614"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_4.jpg",
+      "nbytes": 24055,
+      "sha256": "73f9dc1c217ffcae8949c460cb3adc7d95840858b94b769e701741c4fa477257"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_5.jpg",
+      "nbytes": 23969,
+      "sha256": "47541549a124c7dfdcbce237d1e9347573282ca32bf7e584fbfa35a2e4853258"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_6.jpg",
+      "nbytes": 24226,
+      "sha256": "4074346fc6d1ca9660e7e0ee391ac014c80ba4c807fde87168f9134348856710"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_7.jpg",
+      "nbytes": 24341,
+      "sha256": "7d0ae491bc4d5e4beb62a3b0503d623dca07d01af6e338353503c97d3146330b"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_8.jpg",
+      "nbytes": 22563,
+      "sha256": "78dd336a72744800569fa8a794381399982d6621bb0224363adf5b49da7ce7f4"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/images/tray_9a26138f-bff0-4de0-8c90-a9d55a29cf7_9.jpg",
+      "nbytes": 23700,
+      "sha256": "2e4d1bd85b01ef84c7949b27a265e54689c7f4a4567e52410aae8aba075c4231"
+    },
+    {
+      "storage_key": "holes/05GJD001/assets/files/mosaics/5775a7c6-697c-4376-b2e8-6e13a3bed81_Mosaic.html",
+      "nbytes": 2164,
+      "sha256": "a2fac817aeb55d902f4231b28118db395836a0192a2310cb5c18c81140988e8e"
+    },
+    {
+      "storage_key": "holes/05GJD001/core/sections.parquet",
+      "nbytes": 10235,
+      "sha256": "06bcaa6835ac850e381de8d792d315e97cb6554360ae6adb239614b483a32b5e"
+    },
+    {
+      "storage_key": "holes/05GJD001/core/trays.parquet",
+      "nbytes": 5842,
+      "sha256": "4ab5ceb8989d4f38c7e269c3168b119fb23a7051a3a156b1623f43253a11914f"
+    },
+    {
+      "storage_key": "holes/05GJD001/sample_axis.parquet",
+      "nbytes": 329439,
+      "sha256": "67bb2646f2e37966ad0b3434d921be68ea6b4317d6d8630760405a111e68200e"
+    },
+    {
+      "storage_key": "holes/05GJD001/scalars/series_catalog.json",
+      "nbytes": 120789,
+      "sha256": "eccb6484aeec57fa0170b93530b52675cfa0e6bb2438e1cc01accdcf8880f7c7"
+    },
+    {
+      "storage_key": "holes/05GJD001/scalars/values.parquet",
+      "nbytes": 9241567,
+      "sha256": "685e35c02acc92b961c7b76a1f049490dc30e9421cf65bb9193f526a0b9f42b4"
+    },
+    {
+      "storage_key": "holes/05GJD001/source_metadata.json",
+      "nbytes": 2776,
+      "sha256": "8d2682403a59e1b4b381df3465cf7b679527d4a15c3f4581a83cc07adbc37557"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/axes/axis_5fa0cd7fc2661d5c.json",
+      "nbytes": 6255,
+      "sha256": "cb9851906232d34dd5c3c34c89211852695fbb3b741cba51b6eb38bdb49093b8"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/axes/axis_8a68ef21a4c70103.json",
+      "nbytes": 4311,
+      "sha256": "2188517e94b4382a30199ecc9c3afe8fcd79177c44edcf2b8ce33d3c05cceb45"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/707166ed-4e01-4620-94dc-594dde89fbb/manifest.json",
+      "nbytes": 960,
+      "sha256": "4667310c8c5d689bfefc2c437dbc485a0eacb01546ce20fa6609fb48b919a585"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/707166ed-4e01-4620-94dc-594dde89fbb/values.f32",
+      "nbytes": 55092312,
+      "sha256": "8e6d6c9ed592649b9f0da605fe6465ffc5530f08cd90b4307ae4b124debe679a"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/e0a47ace-a762-498c-9d38-010c934a598/manifest.json",
+      "nbytes": 958,
+      "sha256": "6b110166fe86941ad8fcdf2112f90be3bb50f8dd5f504cdf66745e3bfa9e7504"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series/e0a47ace-a762-498c-9d38-010c934a598/values.f32",
+      "nbytes": 35379432,
+      "sha256": "5a08f728af5763ebdfd1700e2464fad166c780b3c6b8835baaca49af999baa10"
+    },
+    {
+      "storage_key": "holes/05GJD001/spectra/series_catalog.json",
+      "nbytes": 12532,
+      "sha256": "fd97a8a132ce48006e83172e843d7078a3be95c9443cba3db8e258088394662f"
+    },
+    {
+      "storage_key": "quality_report.json",
+      "nbytes": 3263,
+      "sha256": "33a905e7843f3343196ecf844c9fd839109d4df3b58c96a03f3538a57aeb45d1"
+    }
+  ]
+}

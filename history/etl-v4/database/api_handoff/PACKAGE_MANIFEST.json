@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-09-12T15:42:06.127760+00:00",
+  "purpose": "Fixed five-hole read-only API handoff",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "data_payloads_included": false,
+  "credentials_included": false,
+  "live_database_or_aws_tested": false,
+  "readonly_sql_queries": 6,
+  "fixture_count": 13,
+  "reference_code": "Byte-identical snapshots; require cloud adaptation",
+  "reference_documents": "Link paths adjusted for package portability; borehole_revision.coordinate_basis description corrected in dictionary copy; production files unchanged",
+  "files": [
+    {
+      "path": "ACCEPTANCE_FIXTURES.json",
+      "bytes": 5675,
+      "sha256": "95eab640d096a35008ee1d065cd5ef37e29a4b5a6ad5550787e0bbd897f9f8b6"
+    },
+    {
+      "path": "API_HANDOFF.md",
+      "bytes": 20207,
+      "sha256": "cc370198215494dc82855c6dfb7d9f91374349facb324199048a5c80f1bcf056"
+    },
+    {
+      "path": "DATASET_CATALOG.json",
+      "bytes": 4510,
+      "sha256": "efdaebf5c1f28d9d440e76dd68be7e4d7017561ff2496b99dfbd5628fc5704b0"
+    },
+    {
+      "path": "READONLY_QUERIES.sql",
+      "bytes": 10931,
+      "sha256": "7341dd72b046f917bfc4d1ded4fb30cff60f5db75fea76951312da611f439265"
+    },
+    {
+      "path": "reference_code/_db_common.py",
+      "bytes": 6423,
+      "sha256": "e8255d497137a6525e5cfa9dbd260ed49c960d175b389f63eaf9a953b14b88ab"
+    },
+    {
+      "path": "reference_code/_media_common.py",
+      "bytes": 2074,
+      "sha256": "a04c74d3c504b9ac09956ef64fce07b353d3b6950757cc386e42fbe01eabae6e"
+    },
+    {
+      "path": "reference_code/_media_reader.py",
+      "bytes": 9127,
+      "sha256": "5fadb95dcd95e3b215df2877d0b89159ba5694dab2a5c0f86757b271511f25b4"
+    },
+    {
+      "path": "reference_code/api/__init__.py",
+      "bytes": 27,
+      "sha256": "ea27ae52c79daf31008505bba54eaae727581b884b200a4f433b6062b0fe0143"
+    },
+    {
+      "path": "reference_code/api/app.py",
+      "bytes": 19729,
+      "sha256": "b79f618ad48b9f467b8cf1e5d319e0b8847234fbb24c82e01587beaf0b749e14"
+    },
+    {
+      "path": "reference_code/requirements.txt",
+      "bytes": 454,
+      "sha256": "f6bc77b2d72c19358a2423ea77541e68218380f554b0f9639486135594bbceeb"
+    },
+    {
+      "path": "reference_docs/api_contract.md",
+      "bytes": 4118,
+      "sha256": "875329c89a245220cc72a1a4f9cdae7b6617f8098fb3df997b543b575a20fef6"
+    },
+    {
+      "path": "reference_docs/architecture.md",
+      "bytes": 3450,
+      "sha256": "3ad3bd58968a9494ba407edd977d3f98c64ec245a532511537c9b8f5848a2a0c"
+    },
+    {
+      "path": "reference_docs/MEDIA_READ_CONTRACT.md",
+      "bytes": 6211,
+      "sha256": "12c4e735032b57676eb0365b79c7dc8237f9e2ee3cb4b9b71e20695f1465f9e1"
+    },
+    {
+      "path": "reference_docs/schema_dictionary.md",
+      "bytes": 104859,
+      "sha256": "0e6ff5db3b34b82cb49b38ac55f20df71c4e957d17585f8ce26fddbbf01e8272"
+    },
+    {
+      "path": "reference_docs/source_to_table_mapping.md",
+      "bytes": 6422,
+      "sha256": "f9b0cb308afc3c7cc7063145b9fc50c5f9a36cdb44dd9af4392148fbeced61f7"
+    },
+    {
+      "path": "SAMPLE_REFERENCE.json",
+      "bytes": 2561,
+      "sha256": "d035a1e4a204dcd3b460fdd7f2236117fabca1bfc39a4fcb6bbf1bbba9342548"
+    }
+  ]
+}

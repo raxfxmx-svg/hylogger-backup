@@ -1,0 +1,11 @@
+{
+  "module": "test_batch_upload",
+  "tests_run": 55,
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds": 5.698,
+  "checked_workers": 16,
+  "reported_by": "s3_review",
+  "real_aws_operations": false,
+  "scope": "After increasing the maximum workers to 16; existing signed parallel test verifies receipt workers and manifest ordering."
+}

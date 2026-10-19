@@ -1,0 +1,308 @@
+[
+  {
+    "file": "test_batch_export.py",
+    "line": 139,
+    "old": "\u6ca1\u6709",
+    "new": "No batch scope is defined"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 144,
+    "old": "\u66f4\u65b0\u5bfc\u51fa\u683c\u5f0f",
+    "new": "update the export format"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 159,
+    "old": "\u7b2c\u4e00\u5173",
+    "new": "first-stage acceptance status or digest"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 165,
+    "old": "\u8303\u56f4",
+    "new": "two acceptances cover different datasets"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 193,
+    "old": "\u5b8c\u6574\u5b54",
+    "new": "Export complete boreholes"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 199,
+    "old": "\u7b2c\u4e00\u5173\u8f93\u5165",
+    "new": "first-stage input does not match the final revision"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 270,
+    "old": "\u4e0d\u540c\u4e1a\u52a1\u5185\u5bb9",
+    "new": "different business content"
+  },
+  {
+    "file": "test_batch_export.py",
+    "line": 297,
+    "old": "\u7f3a\u5c11\u53ef\u8bfb\u53d6",
+    "new": "no readable local file"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 170,
+    "old": "\u6307\u7eb9",
+    "new": "cloud database target fingerprint does not match"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 179,
+    "old": "\u8986\u76d6",
+    "new": "upload receipt does not cover all objects"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 208,
+    "old": "\u672a\u5b8c\u6210",
+    "new": "other incomplete batches"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 220,
+    "old": "\u672a\u5220\u9664",
+    "new": "no files were deleted"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 227,
+    "old": "\u7edf\u4e00\u6ce8\u518c",
+    "new": "shared registry"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 284,
+    "old": "\u672a\u5220\u9664",
+    "new": "no files were deleted"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 297,
+    "old": "\u8eab\u4efd",
+    "new": "file identity changed before deletion"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 307,
+    "old": "\u672a\u5220\u9664",
+    "new": "no files were deleted"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 321,
+    "old": "\u6ce8\u518c\u8d44\u6599",
+    "new": "batch registry changed before cleanup"
+  },
+  {
+    "file": "test_batch_cleanup.py",
+    "line": 337,
+    "old": "\u672a\u8986\u76d6",
+    "new": "cleanup report path already contains other content; it was not overwritten"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 84,
+    "old": "\u5185\u5bb9\u5df2\u6539\u53d8",
+    "new": "content changed"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 90,
+    "old": "\u6279\u6b21\u7f16\u53f7",
+    "new": "batch ID does not match its identity"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 112,
+    "old": "\u91cd\u590d",
+    "new": "asset ID is missing or duplicated"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 118,
+    "old": "\u6458\u8981\u4e0d\u4e00\u81f4",
+    "new": "data table digest does not match the file manifest"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 125,
+    "old": "\u53e6\u4e00\u4efd\u5bfc\u51fa",
+    "new": "local path mapping belongs to another export"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 131,
+    "old": "dataset \u6e05\u5355",
+    "new": "dataset manifest does not match the batch identity"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 138,
+    "old": "\u6570\u636e\u8868\u8303\u56f4",
+    "new": "incomplete data table scope"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 144,
+    "old": "\u7ed3\u6784\u7684\u8868\u8303\u56f4",
+    "new": "database schema has an incomplete table scope"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 152,
+    "old": "\u672a\u5217\u51fa",
+    "new": "unlisted data tables"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 162,
+    "old": "\u8fc1\u79fb\u6e05\u5355\u4e0e\u6279\u6b21\u8eab\u4efd",
+    "new": "migration manifest does not match the batch identity"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 171,
+    "old": "\u8d44\u4ea7\u8303\u56f4",
+    "new": "local path mapping does not match the asset scope"
+  },
+  {
+    "file": "test_batch_files.py",
+    "line": 223,
+    "old": "\u91cd\u590d\u952e",
+    "new": "duplicate key"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 170,
+    "old": "\u7b2c\u4e8c\u6b21",
+    "new": "second local acceptance does not correspond"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 236,
+    "old": "\u4e0d\u540c\u4e1a\u52a1\u6587\u4ef6",
+    "new": "different business files"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 279,
+    "old": "\u4e0d\u540c\u5185\u5bb9",
+    "new": "different content for the same primary key"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 286,
+    "old": "\u4e3b\u4f53 UUID",
+    "new": "different entity UUIDs"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 329,
+    "old": "\u53e6\u4e00\u4e2a\u4e0a\u4f20\u76ee\u6807",
+    "new": "another upload target"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 336,
+    "old": "\u6f0f\u6389",
+    "new": "Finalize omits accumulated members"
+  },
+  {
+    "file": "test_batch_merge.py",
+    "line": 347,
+    "old": "\u5df2\u7ecf\u53d8\u5316",
+    "new": "active release has changed"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 175,
+    "old": "\u5185\u5bb9",
+    "new": "source file content differs from the manifest"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 239,
+    "old": "\u5347\u7ea7",
+    "new": "upgrade the AWS upload dependencies"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 324,
+    "old": "\u8986\u76d6",
+    "new": "must not overwrite"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 333,
+    "old": "\u5176\u4ed6\u6279\u6b21\u6216\u4e0a\u4f20\u76ee\u6807",
+    "new": "another batch or upload target"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 340,
+    "old": "\u7f16\u53f7",
+    "new": "batch ID does not match its identity"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 364,
+    "old": "\u5bf9\u8c61\u952e",
+    "new": "asset object key does not match its content identity"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 371,
+    "old": "\u8def\u5f84",
+    "new": "File paths must be relative paths within the root directory"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 382,
+    "old": "\u5176\u4ed6\u6279\u6b21",
+    "new": "another batch or upload target"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 402,
+    "old": "\u8303\u56f4",
+    "new": "local path mapping does not match the asset scope"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 409,
+    "old": "\u5185\u5bb9",
+    "new": "source file content differs from the manifest"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 616,
+    "old": "\u533a\u57df",
+    "new": "S3 bucket region does not match"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 624,
+    "old": "\u8d26\u53f7",
+    "new": "cloud AWS account does not match"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 656,
+    "old": "\u8986\u76d6",
+    "new": "must not overwrite"
+  },
+  {
+    "file": "test_batch_upload.py",
+    "line": 726,
+    "old": "\u8986\u76d6",
+    "new": "must not overwrite"
+  }
+]

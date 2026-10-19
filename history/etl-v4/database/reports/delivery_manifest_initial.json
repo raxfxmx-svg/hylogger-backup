@@ -1,0 +1,221 @@
+{
+  "checks": {
+    "backup_asset_manifest_matches": true,
+    "backup_hash_matches": true,
+    "core_tables": 30,
+    "live_database_release_matches": true,
+    "live_http_health": "ok",
+    "live_http_holes": 5,
+    "live_http_role": "etl4_reader",
+    "powershell_launcher_syntax": "passed; stop/restart not executed",
+    "report_release_agreement": true,
+    "test_script_matches_report": true,
+    "verification_script_matches_report": true
+  },
+  "files": [
+    {
+      "bytes": 468,
+      "path": ".env.example",
+      "sha256": "eb265884154bee4d5f7f07b47d2e42a3acbeb1bffbfc573fed94eaaf55f1e5e9"
+    },
+    {
+      "bytes": 88,
+      "path": ".gitignore",
+      "sha256": "c29b82940b58fd00291b26730e653f34e5caba18747b11dc66e41e51d7d97f61"
+    },
+    {
+      "bytes": 745,
+      "path": "10_verify_database.py",
+      "sha256": "1c7081c4acaff5491b114b39df5bd05f8ea3aad1024aba62b910885747c662da"
+    },
+    {
+      "bytes": 8358,
+      "path": "11_measure_capacity.py",
+      "sha256": "4704b8529446f824d3b63bbb1734fe61bc927e9f45513b971e6537cdbe3ba031"
+    },
+    {
+      "bytes": 3639,
+      "path": "12_verify_restore.py",
+      "sha256": "c39ff575aa147cfc640dad929762e399df934e6fa704e1678eac0880ef98edf9"
+    },
+    {
+      "bytes": 6546,
+      "path": "7_preflight_database.py",
+      "sha256": "7e6c9913b9d7c93a111ed578a2825033ddc5357b2c7d3587de870b0735e988c4"
+    },
+    {
+      "bytes": 3698,
+      "path": "8_apply_schema.py",
+      "sha256": "fe049f3d3b95d7d62532891ee71244942deaaf7ab6b91ff9983c3485e4334176"
+    },
+    {
+      "bytes": 548,
+      "path": "9_import_prepared_data.py",
+      "sha256": "96f659974ce1d049da85afe3da7d9483b266133c24ca6de88e38cb3f2541a227"
+    },
+    {
+      "bytes": 6423,
+      "path": "_db_common.py",
+      "sha256": "e8255d497137a6525e5cfa9dbd260ed49c960d175b389f63eaf9a953b14b88ab"
+    },
+    {
+      "bytes": 13127,
+      "path": "_ingest.py",
+      "sha256": "f571288056de3324361fecc92804a8ffa692c86079eb1634b5ee9a410490a5e8"
+    },
+    {
+      "bytes": 11152,
+      "path": "_schema_docs.py",
+      "sha256": "515e38bbf0ad0c308af52d0d9ec5638de2d9539996869f2160ca57ecbfcc9260"
+    },
+    {
+      "bytes": 4666,
+      "path": "_trial_support.py",
+      "sha256": "b78244aa9ef4865c0019a26159ba83b677f3ed4dc80c8ac41c9e472a7650d8b0"
+    },
+    {
+      "bytes": 14640,
+      "path": "_verification.py",
+      "sha256": "b42f6deab30cd5583699ba8c10cb46d75bba35565a1ff3f1b79007ae76ee213b"
+    },
+    {
+      "bytes": 27,
+      "path": "api/__init__.py",
+      "sha256": "ea27ae52c79daf31008505bba54eaae727581b884b200a4f433b6062b0fe0143"
+    },
+    {
+      "bytes": 19729,
+      "path": "api/app.py",
+      "sha256": "b79f618ad48b9f467b8cf1e5d319e0b8847234fbb24c82e01587beaf0b749e14"
+    },
+    {
+      "bytes": 3912,
+      "path": "api_contract.md",
+      "sha256": "93f25e22a5ccc3f833611416d275fbb1d2d3ebf1e845f39f76489b95d859f263"
+    },
+    {
+      "bytes": 2210,
+      "path": "architecture.md",
+      "sha256": "fbcb634d8217543bbf061b7084b88860399bf1a11fe5f12ff9ae84d8f1a21d81"
+    },
+    {
+      "bytes": 4755097,
+      "path": "backups/etl4_20bbb134-501d-54bc-9428-5ee48b6801e4_20260907T230103Z.dump",
+      "sha256": "abe43551b10cd7191abc330678781bbe7bb1dcb968b8059566eef0579d8677c4"
+    },
+    {
+      "bytes": 704286,
+      "path": "backups/etl4_20bbb134-501d-54bc-9428-5ee48b6801e4_20260907T230103Z.manifest.json",
+      "sha256": "821394704b1ec722b775759756007718f2676c171ba8865a7484ee52f8aa6092"
+    },
+    {
+      "bytes": 6111,
+      "path": "DELIVERY.md",
+      "sha256": "f120d59dd058acf704addbe5e4cd1a695c8d2dc823f373c2d737fcf2d5a67d6b"
+    },
+    {
+      "bytes": 16417,
+      "path": "migrations/001_initial.sql",
+      "sha256": "35ce6669acacd1e738f6d550f16c1a7631fc937d10f8fc61f063212d23071082"
+    },
+    {
+      "bytes": 397,
+      "path": "migrations/002_nullable_metric_semantics.sql",
+      "sha256": "7cad9bd7fd5430dc773c1acee605b89c5465f33d246f15eb63e7e1e0553496db"
+    },
+    {
+      "bytes": 225,
+      "path": "migrations/003_metric_source_identity.sql",
+      "sha256": "de3c9a0df5c59f7de888851528f14a2c9870f5f3ee61f14884c986050f885310"
+    },
+    {
+      "bytes": 14354,
+      "path": "PLAN.md",
+      "sha256": "cc7aedd4f000e19bf82a9c7fa962a864f79a8bcc9b87a7b719c7ec63f71233d0"
+    },
+    {
+      "bytes": 10007,
+      "path": "README.md",
+      "sha256": "2c2f00e7ad2a630d3e67bab1acb2005d338f97b083020bfde17d90329e27af83"
+    },
+    {
+      "bytes": 18965,
+      "path": "reports/11_capacity_after_restore.json",
+      "sha256": "4b08254e9aa7d7a5c261a68dc5f1883980086410f44c4b99d9a7ca481c61a538"
+    },
+    {
+      "bytes": 1273,
+      "path": "reports/11_capacity_after_restore.md",
+      "sha256": "21e3084ca0203c10459f9c50d5209c3a4ca34504c3e80213dcb065e7f013fffa"
+    },
+    {
+      "bytes": 12549,
+      "path": "reports/12_restore.json",
+      "sha256": "5838dcf66937a2d7916e9f252ca26cc79c4b156e5e286c67b2b49596f6e52369"
+    },
+    {
+      "bytes": 187266,
+      "path": "reports/7_input_lock.json",
+      "sha256": "a38345a8aad953fd3aa7d337c7e85f8f5bb53f970b3fe77cf4b4677538dc5d5a"
+    },
+    {
+      "bytes": 673268,
+      "path": "reports/deployment_asset_manifest.json",
+      "sha256": "8bce9c8817cbeb7d9709afa0d463c0c7a31ede4ce83397b46091d63050087c7f"
+    },
+    {
+      "bytes": 4422,
+      "path": "reports/latest_verified_database.json",
+      "sha256": "1b3525437d8d0f9c86cbf4c93e552aabffd4169a404cc917e47fda5348d329da"
+    },
+    {
+      "bytes": 323,
+      "path": "reports/lifecycle_check.json",
+      "sha256": "90690396b85e5b7b31f072f17752debbf2e18ab726f0390d41273d699b45ef8f"
+    },
+    {
+      "bytes": 10057,
+      "path": "reports/test_full_import_operation_sampling.json",
+      "sha256": "2a723bc3ac208a646a94d6c8bc8b35ab4de47f387e35a4d0805fbef6703cb1a0"
+    },
+    {
+      "bytes": 219,
+      "path": "reports/tests_latest.json",
+      "sha256": "9a8e4f6e66b5cf909b5e9c9cc8adb28eb301afffa7696f03ef682602eb3b0528"
+    },
+    {
+      "bytes": 2713,
+      "path": "reports/tests_latest.txt",
+      "sha256": "54daabfe68c27e1c3462453c28c388efc9027826c4c3be7696f633e9c9611d35"
+    },
+    {
+      "bytes": 439,
+      "path": "requirements.txt",
+      "sha256": "97beeea29abe3a3d07da81533597c7951074bde5102c4ba7139c006f4845ed91"
+    },
+    {
+      "bytes": 65418,
+      "path": "schema_dictionary.md",
+      "sha256": "666f9a136af5072d3b6dd6f019af3be347c2a6f9e1e696e6bdcd51a297d07aed"
+    },
+    {
+      "bytes": 2048,
+      "path": "serve_api.ps1",
+      "sha256": "7d370e226532e2a53dc5b340d836f79ab52b828b97313926edd892547df0288f"
+    },
+    {
+      "bytes": 5374,
+      "path": "source_to_table_mapping.md",
+      "sha256": "0f5bfcbd7b24d3d7b8ac93f775d35e70fb801a8ea05c84f43c1777d98f7888c0"
+    },
+    {
+      "bytes": 11552,
+      "path": "tests/test_database_contracts.py",
+      "sha256": "5f3c0b1f8624d3d5812d8b75ce78868827aaaf91983df1b96eaefc9739e816c7"
+    }
+  ],
+  "recorded_at": "2026-09-07T23:14:40.766592+00:00",
+  "release_id": "20bbb134-501d-54bc-9428-5ee48b6801e4",
+  "scope": "Local delivery only; excludes runtime credentials, venv, cloud actions and raw/prepared payload copies. Payload hashes are in the input lock and asset manifest.",
+  "status": "passed"
+}

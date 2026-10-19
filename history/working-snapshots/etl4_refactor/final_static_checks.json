@@ -1,0 +1,169 @@
+{
+  "source_files_checked": 47,
+  "pyflakes_issues": 0,
+  "entries": [
+    {
+      "script": "10_verify_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "11_measure_capacity.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "12_verify_restore.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "13_audit_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "14_verify_database_backup.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "20_audit_spectral_sources.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "21_verify_spectral_bindings.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "22_prepare_spectral_access.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "23_audit_dataset_image_groups.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "24_detect_image_rows.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "25_review_image_row_regions.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "26_bind_image_rows_to_samples.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "27_build_image_row_assets.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "28_import_media_revision.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "29_verify_media_grain.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "30_audit_media_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "31_audit_multi_dataset_sources.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "32_prepare_multi_dataset_payloads.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "33_prepare_multi_dataset_media.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "34_import_multi_dataset_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "35_verify_multi_dataset_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "36_backup_multi_dataset_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "7_preflight_database.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "8_apply_schema.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "9_import_prepared_data.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "1_inventory.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "2_validate_payloads.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "3_normalize_metadata.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "4_align_samples.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "5_build_columnar.py",
+      "exit": 0,
+      "common_args": true
+    },
+    {
+      "script": "6_verify_prepared_data.py",
+      "exit": 0,
+      "common_args": true
+    }
+  ],
+  "migrations_unchanged": {
+    "etl4/database/migrations/001_initial.sql": true,
+    "etl4/database/migrations/002_nullable_metric_semantics.sql": true,
+    "etl4/database/migrations/003_metric_source_identity.sql": true,
+    "etl4/database/migrations/004_relational_integrity.sql": true,
+    "etl4/database/migrations/005_sample_media.sql": true,
+    "etl4/database/migrations/006_multi_dataset_composites.sql": true
+  }
+}

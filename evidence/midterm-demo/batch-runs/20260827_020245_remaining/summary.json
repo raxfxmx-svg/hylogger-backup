@@ -1,0 +1,16 @@
+{
+  "run_id": "20260827_020245_remaining",
+  "mode": "remaining",
+  "state": "running",
+  "target_count": 100,
+  "active_holes": 93,
+  "manifest_counts": {
+    "db_verified": 93,
+    "pending": 7
+  },
+  "waves_completed": 8,
+  "failures": 3,
+  "replacements": 3,
+  "detail": "",
+  "updated_at": "2026-08-27T01:37:57+00:00"
+}

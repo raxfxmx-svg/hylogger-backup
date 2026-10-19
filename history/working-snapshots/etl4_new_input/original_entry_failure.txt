@@ -1,0 +1,2 @@
+Original step 1 --holes 05GJD001 09ATRCD025: invalid choice; accepted only 05KCD001,07THD002,07THD003,09ATD015,09ATD019.
+05GJD001 excluded from final two inputs because its raw profile is declared unavailable with no checksum, while a payload path remains listed. No payload was fabricated.

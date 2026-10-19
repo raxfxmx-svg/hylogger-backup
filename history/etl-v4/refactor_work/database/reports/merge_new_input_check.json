@@ -1,0 +1,1917 @@
+{
+  "activated": true,
+  "after_backup": {
+    "bytes": 31541768,
+    "database": "etl4_refactor_check",
+    "path": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\backups\\etl4_refactor_check_after_three_hole_merge_20260929.dump",
+    "sha256": "6db65a7f99a473a391eb61475af50f5188530894bbe3033a2e4ef6e620c89609"
+  },
+  "api_holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019",
+    "09ATRCD025",
+    "09THD028",
+    "12BRDDH003",
+    "12CADD001",
+    "14KDD001",
+    "15EIS001"
+  ],
+  "asset_count": 11368,
+  "before_backups": [
+    {
+      "bytes": 28124434,
+      "database": "etl4_refactor_check",
+      "path": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\backups\\etl4_refactor_check_before_three_hole_merge_20260929.dump",
+      "sha256": "e14afc7323234774fd923be894cc2de8cb76036adde045cd1b365b2b8529ce5f"
+    },
+    {
+      "bytes": 3598831,
+      "database": "etl4_new_input_check",
+      "path": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\backups\\etl4_new_input_check_before_three_hole_merge_20260929.dump",
+      "sha256": "da3a56ad61a9b2b8a3c495b2bdb7f45759b6c8242ff6348d92c4817e1c52715f"
+    }
+  ],
+  "business_table_count": 35,
+  "business_table_hashes": {
+    "asset": {
+      "count": 16607,
+      "sha256": "904a19c1d2a943110ab05c5b7627822635d6ae5a6d46e28ecc338bbc45b7893c"
+    },
+    "asset_location": {
+      "count": 16607,
+      "sha256": "7cc3c14ed05618f24bdaa7ae84700ed18d8b95002682cb2ed2c7d37d034145bb"
+    },
+    "borehole": {
+      "count": 11,
+      "sha256": "6496cdee3674ec2a176fd4b556808d0d3b9450c39aafb1645bff6f2c0c43de67"
+    },
+    "borehole_branch": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "borehole_composite": {
+      "count": 19,
+      "sha256": "5ba6a063e62588f72eb3fc4b47b19b89bfc8e25f0f7fb2462c720472b7f03b20"
+    },
+    "borehole_composite_part": {
+      "count": 29,
+      "sha256": "9eeaa712da8394d650eee48dfa13d9df8f42d6767575ea620b230a248f8082e4"
+    },
+    "borehole_revision": {
+      "count": 16,
+      "sha256": "c15526b91001d18f1cd26f97cb7fe3078c336a2884be634694956c44390e04fe"
+    },
+    "core_interval": {
+      "count": 11608,
+      "sha256": "677b653cd68c671693af6198280624aad3815c74e46bbbeff8df6186b813e29f"
+    },
+    "data_chunk": {
+      "count": 42014,
+      "sha256": "c3ad6fa49ed29a753e6e40ebf649a99f0a4d26737e173a52d9151f6c9e49cf74"
+    },
+    "data_release": {
+      "count": 8,
+      "sha256": "594e3e3a03a9c4827556a3e69abcc5b2105fb462f04d9c01e97ffd8826a84f16"
+    },
+    "dataset": {
+      "count": 16,
+      "sha256": "992d08c49acdaeb18c96560691605455795bfaa09b2cd94a288eddd1364d38be"
+    },
+    "dataset_revision": {
+      "count": 32,
+      "sha256": "3e07bb2e06da882c5516693c7fe277d14d2f7e65c5b447ba4a4210a3bf3f75f4"
+    },
+    "dataset_segment": {
+      "count": 16,
+      "sha256": "3837acea55af8cf88e7d9ca9cf93eb84617e24b0344253c14cd2c20f897327c6"
+    },
+    "dataset_succession": {
+      "count": 5,
+      "sha256": "4fcdec5c1c6e531383560cc7a3f36ed918cf0bad7bc2c0c5a68bce6dcb303773"
+    },
+    "image_frame": {
+      "count": 2156,
+      "sha256": "1937475fe015cc3061a3b9fa19220db74993e18f8bbd6f53e3cf8f7ab5794408"
+    },
+    "image_region": {
+      "count": 4726,
+      "sha256": "2cb9ebe97921789b7a34da0a71ca516f835e4d08029130b7941658fa33240989"
+    },
+    "image_region_asset": {
+      "count": 4726,
+      "sha256": "3da99b2bc35a2426e7b04bf02b1408efdaf5031396faab29a5d0378d77a71486"
+    },
+    "image_sample_mapping": {
+      "count": 4726,
+      "sha256": "63d27bb7f3011963968bf321c2ceee60a2b613d296e84e2074ca8a09412c2079"
+    },
+    "interpretation_input": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "interpretation_set": {
+      "count": 156,
+      "sha256": "d38c4ac98fecbec4af3359fddbcac5ad4589ed89849430762f05298bf36c6a79"
+    },
+    "log_asset": {
+      "count": 14100,
+      "sha256": "7a76f9a65435efaa4c8e50794006f595a5139108afbb81614ac1dd913a06ff6b"
+    },
+    "log_axis_binding": {
+      "count": 4130,
+      "sha256": "ceff9dfc5ab30157ebc4094832b83a4d89c7371abfa14b22ba9933e0cd08c205"
+    },
+    "metric_definition": {
+      "count": 1782,
+      "sha256": "78f9707954442291b0b6333efd2fb3f79496892a16835eae353955da54f4c175"
+    },
+    "quality_issue": {
+      "count": 598,
+      "sha256": "508de3d5e1e5a15babf40980359f98d2ad496c2398f29ee6a05c8e08ece6d68b"
+    },
+    "release_dataset": {
+      "count": 45,
+      "sha256": "c9e7b350afc19b90bc10576196bb16a4ef3ec858404eeaba427601375dd215af"
+    },
+    "sample_axis": {
+      "count": 32,
+      "sha256": "30414598ee232b8a5930a39e7da6901fae2116debafafff9215746a7633e2e84"
+    },
+    "scan_log": {
+      "count": 4130,
+      "sha256": "409adeb9a3204e53344139cb5e44bf0fd2c8d26df7cff85216fc4e41e9d92b0c"
+    },
+    "scan_sample": {
+      "count": 1461244,
+      "sha256": "fddd45d429271953ce34e8621daee141aabec92f80ddd0873d569c2120212f46"
+    },
+    "source_document": {
+      "count": 448,
+      "sha256": "f9b1b38a2a2426a5aab9c6dc5537be42329fdafe5d770ba5cd849c17518ef635"
+    },
+    "source_reference": {
+      "count": 96,
+      "sha256": "c8d389d432bfc3fa3688b331249f0d195fbc0629c31004a392dacf68cd1bf785"
+    },
+    "spectral_array": {
+      "count": 29,
+      "sha256": "757e453f92a78e906a1633e365a9fdf17bde6a9450b1579eb3c14aafa2fc3cf2"
+    },
+    "spectral_block": {
+      "count": 1349,
+      "sha256": "668bb19f2eb4debbe316f76f4c2c28139184d6ce833c51d21701894ab5858df1"
+    },
+    "spectral_sample_map": {
+      "count": 29,
+      "sha256": "3db23649cc2ab8d93f5fc3c84f90e6e5582885ee8729dce3652645afc62894d2"
+    },
+    "spectral_stream": {
+      "count": 58,
+      "sha256": "1457774945debbe7108613c0eaa9ebccbd2665f3e899038d984fb5db22eea9fc"
+    },
+    "survey_station": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "counts": {
+    "datasets": 16,
+    "full_samples": 730622,
+    "holes": 11,
+    "image_rows": 4726,
+    "overview_samples": 714175,
+    "revisions": 32,
+    "spectral_arrays": 29
+  },
+  "database_bytes": 601722003,
+  "default_api_holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019",
+    "09ATRCD025",
+    "09THD028",
+    "12BRDDH003",
+    "12CADD001",
+    "14KDD001",
+    "15EIS001"
+  ],
+  "file_checks": {
+    "elapsed_seconds": 78.10852970002452,
+    "same_check_cache_hits": 3614,
+    "sha256_bytes_read": 7965490098,
+    "sha256_file_scans": 10105
+  },
+  "layouts": [
+    {
+      "composite": {
+        "borehole_id": "90c1d3c8-ab23-5377-845d-e1ec77753a73",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "de6ffd4931d619b53d7aabdb527f1b0313a819774030b16fa61946df47b491e1",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "05KCD001",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "013e5fef-e7e5-59c1-8a7c-bf508fbaf842",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "05KCD001",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "a530f0ab-a6d0-568d-bb0d-6b78712a4a61",
+          "borehole_id": "90c1d3c8-ab23-5377-845d-e1ec77753a73",
+          "composite_id": "013e5fef-e7e5-59c1-8a7c-bf508fbaf842",
+          "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+          "dataset_revision_id": "a422065d-5bb4-5fa6-994a-9642d69975a9",
+          "depth_max_m": 201.5,
+          "depth_min_m": 59.5,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "3e59a12d-ecbd-52b3-a35b-b9c396b24709",
+              "source_log_id": "9839fdeb-b8ed-41fc-b293-2d3cb0cf0ef",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "fae86d8b-48ba-54bc-acc8-d1c52dafbf82",
+              "source_log_id": "4ba6c321-766a-4e7f-bef8-14d0858c19a",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "4bf055d5-f88e-505b-89a9-f212cf747f7c",
+              "source_log_id": "23250484-bf86-4a21-8c4b-cb516b04249",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "5cb1bc90-b82f-5718-8f9e-74e7b8297de3",
+              "source_log_id": "4dda9196-0688-47ad-a806-e9427b04235",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 22356,
+          "sequence_no": 0,
+          "source_dataset_id": "99f2aa8a-a676-4416-964b-3f8d8dadf86",
+          "source_dataset_name": "05KCD001"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 201.5,
+        "common_min_m": 59.5,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "a530f0ab-a6d0-568d-bb0d-6b78712a4a61",
+          "borehole_id": "90c1d3c8-ab23-5377-845d-e1ec77753a73",
+          "composite_id": "013e5fef-e7e5-59c1-8a7c-bf508fbaf842",
+          "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+          "dataset_revision_id": "a422065d-5bb4-5fa6-994a-9642d69975a9",
+          "first_selected_md_m": 59.5,
+          "last_selected_md_m": 201.5,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 22355,
+          "selected_sample_count": 22356,
+          "selection_from_md_m": 59.5,
+          "selection_status": "selected",
+          "selection_to_md_m": 201.5,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "dbc09b10-0e8f-547f-9ee5-d610156bdc53",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "8dce828cc0ab3cea73f3d8d0c698148231ce3e15c87d880e69291f844011bc4f",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "07THD002",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "b1fbc8c3-609e-56a5-8f38-8d407f7dab7a",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "07THD002",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "02cb50c8-848a-52bf-ab03-3b6f36a79837",
+          "borehole_id": "dbc09b10-0e8f-547f-9ee5-d610156bdc53",
+          "composite_id": "b1fbc8c3-609e-56a5-8f38-8d407f7dab7a",
+          "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+          "dataset_revision_id": "dcc5c06d-9741-55ad-a0fb-a112e730bda6",
+          "depth_max_m": 468.29929,
+          "depth_min_m": 62.50175,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "583d4ef0-70d8-5693-87e0-938a8fa887a8",
+              "source_log_id": "20e00f5b-0d62-451e-a5e3-0b2a91a47a8",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "5f1495f9-e667-5304-813f-2477cde3ab59",
+              "source_log_id": "a6e16370-b4dc-46e2-aabd-b7b8138ece3",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "f1523b6d-01d9-56f7-b47b-4bac66161162",
+              "source_log_id": "b3a8b279-a648-4037-a1c8-becd062132e",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "b3f50264-8539-5951-8c90-960ed9ae8a8d",
+              "source_log_id": "9ee88848-2053-477d-9844-51035992011",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 116424,
+          "sequence_no": 0,
+          "source_dataset_id": "92b7750d-5bf9-4115-bf29-dff7db936f6",
+          "source_dataset_name": "07THD002"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 468.29929,
+        "common_min_m": 62.50175,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "02cb50c8-848a-52bf-ab03-3b6f36a79837",
+          "borehole_id": "dbc09b10-0e8f-547f-9ee5-d610156bdc53",
+          "composite_id": "b1fbc8c3-609e-56a5-8f38-8d407f7dab7a",
+          "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+          "dataset_revision_id": "dcc5c06d-9741-55ad-a0fb-a112e730bda6",
+          "first_selected_md_m": 62.50175,
+          "last_selected_md_m": 468.29929,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 116423,
+          "selected_sample_count": 116424,
+          "selection_from_md_m": 62.50175,
+          "selection_status": "selected",
+          "selection_to_md_m": 468.29929,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "65c0df55-e5fc-58b0-bd04-e8985606593d",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "a9935c6a045d73c1c19b02981d62013f021ec686550f6ead2f5206272db9866c",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "07THD003",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "f870e280-e172-5429-9699-48f9eeca9251",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "07THD003",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "54f14bc5-7815-5745-a20b-b9c8ab1cd5c7",
+          "borehole_id": "65c0df55-e5fc-58b0-bd04-e8985606593d",
+          "composite_id": "f870e280-e172-5429-9699-48f9eeca9251",
+          "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+          "dataset_revision_id": "ef3c4b7a-cbd2-5cfd-b3a0-f87923efd21b",
+          "depth_max_m": 251.99918,
+          "depth_min_m": 64.00172,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "3afdea50-6cbc-573c-a17d-3746ace9b56a",
+              "source_log_id": "f086775c-c167-4efb-94ee-0389e4319bc",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "ffd836b8-ecb8-50b3-9088-16b24e0e84fe",
+              "source_log_id": "984c2b98-41c2-439e-8a94-6d68cbe58ab",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "7a668d9d-1e4f-54f0-9f12-03f0c5dd73d0",
+              "source_log_id": "75979c62-c9ce-45f1-a0b7-b1558bf632b",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "bc9cf478-cf60-5de3-b5d6-11f7f91ce113",
+              "source_log_id": "945c92f6-a5c5-4894-9203-8d119810338",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 54432,
+          "sequence_no": 0,
+          "source_dataset_id": "4598e2a6-7910-43c1-8894-09b01d36567",
+          "source_dataset_name": "07THD003"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 251.99918,
+        "common_min_m": 64.00172,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "54f14bc5-7815-5745-a20b-b9c8ab1cd5c7",
+          "borehole_id": "65c0df55-e5fc-58b0-bd04-e8985606593d",
+          "composite_id": "f870e280-e172-5429-9699-48f9eeca9251",
+          "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+          "dataset_revision_id": "ef3c4b7a-cbd2-5cfd-b3a0-f87923efd21b",
+          "first_selected_md_m": 64.00172,
+          "last_selected_md_m": 251.99918,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 54431,
+          "selected_sample_count": 54432,
+          "selection_from_md_m": 64.00172,
+          "selection_status": "selected",
+          "selection_to_md_m": 251.99918,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "329a9e18-96ac-52f1-9d5e-76d0a444f0d6",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "dde69c8f2594d70f877d035e78816d23f3ab446ef15be4d1ff9556d07083b7fe",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "09ATD015",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "a9197147-ecd9-517a-a108-3409e1244584",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "09ATD015",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "36caf2ec-70fd-52f9-9aa1-5044152eda86",
+          "borehole_id": "329a9e18-96ac-52f1-9d5e-76d0a444f0d6",
+          "composite_id": "a9197147-ecd9-517a-a108-3409e1244584",
+          "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+          "dataset_revision_id": "a800ca9d-25cb-58f8-8421-b64b73184fa5",
+          "depth_max_m": 369.39835,
+          "depth_min_m": 63.70319,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "24363b8d-fc43-5c3d-a1d7-34d790f099e4",
+              "source_log_id": "84869a16-ecdb-41f2-a7d8-88ebc18b6e5",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "8f625151-16da-585b-bf6a-32e3e7012a1e",
+              "source_log_id": "4ae1e184-9330-40c5-ac9a-f9bad8fe37b",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "7ec454e6-d835-533a-a130-4ce8ede3008f",
+              "source_log_id": "ecbf850b-e698-4036-bef5-6bd8db73205",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "4b9db0a2-7a61-5675-a8f4-ae846c2ea561",
+              "source_log_id": "38630139-9b19-4813-928a-55410f68327",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 46030,
+          "sequence_no": 0,
+          "source_dataset_id": "2faa992a-508f-4446-ad7d-095fa2739d1",
+          "source_dataset_name": "09ATD015"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 369.39835,
+        "common_min_m": 63.70319,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "36caf2ec-70fd-52f9-9aa1-5044152eda86",
+          "borehole_id": "329a9e18-96ac-52f1-9d5e-76d0a444f0d6",
+          "composite_id": "a9197147-ecd9-517a-a108-3409e1244584",
+          "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+          "dataset_revision_id": "a800ca9d-25cb-58f8-8421-b64b73184fa5",
+          "first_selected_md_m": 63.70319,
+          "last_selected_md_m": 369.39835,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 46029,
+          "selected_sample_count": 46030,
+          "selection_from_md_m": 63.70319,
+          "selection_status": "selected",
+          "selection_to_md_m": 369.39835,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "3af13b7f-a865-5cf2-937f-c3df0bc17b56",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "cde850f853ae3b156cc30247fcd6ea059fdf439b99bf3a427d311e37bc81ad77",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "09ATD019",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "7a936c1d-2737-5ca0-87a8-6e1ba8f3f757",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "09ATD019",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "658093c4-0d9c-52dd-84fb-3b0782a2ede9",
+          "borehole_id": "3af13b7f-a865-5cf2-937f-c3df0bc17b56",
+          "composite_id": "7a936c1d-2737-5ca0-87a8-6e1ba8f3f757",
+          "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+          "dataset_revision_id": "80865caf-ef1b-55bf-8fc0-def39283916e",
+          "depth_max_m": 233.29688,
+          "depth_min_m": 79.00324,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "de014e79-9506-5ca7-905f-ecc160d4ace4",
+              "source_log_id": "200974d2-f7a4-4959-8e73-bd8a8c458eb",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "f8d738b3-5b9e-5eab-a4f2-3091dacc38ac",
+              "source_log_id": "e61da052-eacf-4ac9-a8de-dc6b85a76d8",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "345e099a-8378-5008-bf79-6dcdc1d95705",
+              "source_log_id": "e127d8ed-ab29-4c14-b22f-b611a4a978f",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "1ae10798-89d1-5d75-b58f-14254c2af375",
+              "source_log_id": "49d29f5e-a4d3-4a98-8a59-3d18f68b6a2",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 22650,
+          "sequence_no": 0,
+          "source_dataset_id": "df915067-0e08-4c9b-abb5-763b9c98c61",
+          "source_dataset_name": "09ATD019"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 233.29688,
+        "common_min_m": 79.00324,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "658093c4-0d9c-52dd-84fb-3b0782a2ede9",
+          "borehole_id": "3af13b7f-a865-5cf2-937f-c3df0bc17b56",
+          "composite_id": "7a936c1d-2737-5ca0-87a8-6e1ba8f3f757",
+          "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+          "dataset_revision_id": "80865caf-ef1b-55bf-8fc0-def39283916e",
+          "first_selected_md_m": 79.00324,
+          "last_selected_md_m": 233.29688,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 22649,
+          "selected_sample_count": 22650,
+          "selection_from_md_m": 79.00324,
+          "selection_status": "selected",
+          "selection_to_md_m": 233.29688,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "71e593c7-1db8-5832-8689-b4660533aef3",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "9147ac1f5159c271f81c4000f2f5df6f6839a09d0ab7718ddbc425083efe2fb3",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "09ATRCD025",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "ce060b2d-ab34-5f5a-ad12-be31c652eaca",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "09ATRCD025",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "bd85d4bc-9d27-53f3-9b58-3fe36db94286",
+          "borehole_id": "71e593c7-1db8-5832-8689-b4660533aef3",
+          "composite_id": "ce060b2d-ab34-5f5a-ad12-be31c652eaca",
+          "dataset_id": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+          "dataset_revision_id": "82b51c69-4d75-5e45-9909-b8f148c367e6",
+          "depth_max_m": 261.19763,
+          "depth_min_m": 110.80323,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "1f85188e-ca1f-579e-8489-f64f7a325722",
+              "source_log_id": "d494df1e-afb1-4340-954d-f03cb10c724",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "1caf68ad-309c-5dc2-a11e-beeb7f7e8b47",
+              "source_log_id": "0c6a79cb-9a66-4da5-a414-548d984ba31",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "0b868bdd-2ffe-5b95-b15e-8b6d8c6e51cf",
+              "source_log_id": "c1c10e9b-76fc-418e-b47c-3ef9130d6c7",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "5c859ff9-8ffb-5cdb-a17d-65df7d2786be",
+              "source_log_id": "1577436f-ae7e-4c9c-9371-8133ef0fbca",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 22780,
+          "sequence_no": 0,
+          "source_dataset_id": "80b6a3df-6fff-4748-b744-a405a44696b",
+          "source_dataset_name": "09ATRCD025"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 261.19763,
+        "common_min_m": 110.80323,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "bd85d4bc-9d27-53f3-9b58-3fe36db94286",
+          "borehole_id": "71e593c7-1db8-5832-8689-b4660533aef3",
+          "composite_id": "ce060b2d-ab34-5f5a-ad12-be31c652eaca",
+          "dataset_id": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+          "dataset_revision_id": "82b51c69-4d75-5e45-9909-b8f148c367e6",
+          "first_selected_md_m": 110.80323,
+          "last_selected_md_m": 261.19763,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 22779,
+          "selected_sample_count": 22780,
+          "selection_from_md_m": 110.80323,
+          "selection_status": "selected",
+          "selection_to_md_m": 261.19763,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "2ca90ac9-6a22-5503-88a3-fdf27e40f134",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "9dcdf584927e061f1fc3d4e5180d3cc417161814f3c4fb9a1c5542b5dc34f2f1",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "09THD028",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "52a7d989-9adb-50b7-bdd8-216d5b8a62a6",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "09THD028",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "64c715a8-7831-5679-8018-b82adad5b85c",
+          "borehole_id": "2ca90ac9-6a22-5503-88a3-fdf27e40f134",
+          "composite_id": "52a7d989-9adb-50b7-bdd8-216d5b8a62a6",
+          "dataset_id": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+          "dataset_revision_id": "66d273c5-3cf4-57e3-8ec5-e186df76d018",
+          "depth_max_m": 330.60001,
+          "depth_min_m": 41.70344,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "828eaec2-3ec4-5a7e-b0a1-9af3d80669a6",
+              "source_log_id": "8dad5101-4437-4c6e-a287-f3852e50204",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "b40db79b-1fcf-5018-8b77-d6f5cd4b2ed2",
+              "source_log_id": "c48c0c1c-487b-4674-ae3d-c3c5775f757",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "10dfc5af-343a-5bf5-a822-79769fc30e53",
+              "source_log_id": "0b939917-03cb-4563-be24-e74773c297d",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "e08985eb-c190-588d-a7b4-93d494c343b9",
+              "source_log_id": "9831d568-2b04-42b9-9532-3131c91b9a4",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 42880,
+          "sequence_no": 0,
+          "source_dataset_id": "8ee07ba8-5646-45a0-b503-a0aeceec13b",
+          "source_dataset_name": "09THD028"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 330.60001,
+        "common_min_m": 41.70344,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "64c715a8-7831-5679-8018-b82adad5b85c",
+          "borehole_id": "2ca90ac9-6a22-5503-88a3-fdf27e40f134",
+          "composite_id": "52a7d989-9adb-50b7-bdd8-216d5b8a62a6",
+          "dataset_id": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+          "dataset_revision_id": "66d273c5-3cf4-57e3-8ec5-e186df76d018",
+          "first_selected_md_m": 41.70344,
+          "last_selected_md_m": 330.60001,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 42879,
+          "selected_sample_count": 42880,
+          "selection_from_md_m": 41.70344,
+          "selection_status": "selected",
+          "selection_to_md_m": 330.60001,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "45ee661f-0707-5946-82e2-c1b5b8c571eb",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "definition_sha256": "76a4edf0c32340b718f02ac0fa61378bf30b6cdd5f7211db85bc05d13c479463",
+        "evidence": {
+          "decisions": {
+            "single_dataset": true
+          },
+          "depth_units": "m",
+          "hole_id": "12BRDDH003",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "1f238502-3ec3-5ec5-99e8-130113b27d2a",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "12BRDDH003",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "d416c9a0-f100-5f2b-aa82-25c4f8fae16e",
+          "borehole_id": "45ee661f-0707-5946-82e2-c1b5b8c571eb",
+          "composite_id": "1f238502-3ec3-5ec5-99e8-130113b27d2a",
+          "dataset_id": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+          "dataset_revision_id": "bf7adeef-03f2-5f3a-93d5-b40b6d265d83",
+          "depth_max_m": 99.48304,
+          "depth_min_m": 20.5,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "e8d1d525-d46c-551a-a4eb-434d273ccb74",
+              "source_log_id": "e356e94c-e491-4f8e-952a-ecf390a39bc",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "9d0c8770-b0f3-545a-9a72-469c2ab7198b",
+              "source_log_id": "5e8803a9-b20e-4bee-b66a-5369be14d00",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "098b9e38-baee-5104-83c6-cf61084b866e",
+              "source_log_id": "8a1f8376-3975-46a4-a5c2-5e0c78b468c",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "62204a6f-16f4-5302-ada5-6e536c9f191f",
+              "source_log_id": "617e58c6-e421-416c-b687-40c0f54bcc1",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 10184,
+          "sequence_no": 0,
+          "source_dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+          "source_dataset_name": "12BRDDH003"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 99.48304,
+        "common_min_m": 20.5,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "d416c9a0-f100-5f2b-aa82-25c4f8fae16e",
+          "borehole_id": "45ee661f-0707-5946-82e2-c1b5b8c571eb",
+          "composite_id": "1f238502-3ec3-5ec5-99e8-130113b27d2a",
+          "dataset_id": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+          "dataset_revision_id": "bf7adeef-03f2-5f3a-93d5-b40b6d265d83",
+          "first_selected_md_m": 20.5,
+          "last_selected_md_m": 99.48304,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 10183,
+          "selected_sample_count": 10184,
+          "selection_from_md_m": 20.5,
+          "selection_status": "selected",
+          "selection_to_md_m": 99.48304,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "8ed6c98e-2d77-5329-8cc2-7a8208725a89",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "confirmed_successor_chain",
+        "definition_sha256": "a006be4a10973d728af795eb0d7f6ca15885e240c4a41fa2dd7b28e6bed70d79",
+        "evidence": {
+          "decisions": {
+            "confirmation_date": "2026-09-24",
+            "confirmation_text": "Confirm the order and display switch points listed above.",
+            "confirmed_by": "project_owner",
+            "contract": "confirmed-successor-display-v1",
+            "display_2d": "all_datasets_complete_shared_md_scale_independent_images",
+            "display_3d": "single_composite_no_branches",
+            "missing_values": "preserve_no_automatic_fallback",
+            "orders": {
+              "12CADD001": [
+                "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+                "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+              ],
+              "14KDD001": [
+                "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+                "c10744cc-2e42-478a-8bc3-7cea1059044"
+              ],
+              "15EIS001": [
+                "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+                "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+                "c83afeab-5697-4476-b24a-e210af12137",
+                "56d5fe91-626f-48ad-8786-acf91fe83a5"
+              ]
+            },
+            "relation_basis": "Project owner confirmed original/wedge succession and display order; not independently surveyed branch topology",
+            "return_to_predecessor": false,
+            "switch_depth_rule": "successor_first_actual_sample_md_m"
+          },
+          "depth_units": "m",
+          "hole_id": "12CADD001",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "0e57e109-c214-5302-b043-e59235f0cfd3",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "12CADD001",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "d95a2ff4-c2bc-5201-8411-38973e2c4ce0",
+          "borehole_id": "8ed6c98e-2d77-5329-8cc2-7a8208725a89",
+          "composite_id": "0e57e109-c214-5302-b043-e59235f0cfd3",
+          "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+          "dataset_revision_id": "dd23fa6c-26f8-5945-b2fd-33c52e0af3c8",
+          "depth_max_m": 324.18823,
+          "depth_min_m": 0.00368,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "20732a26-c188-5081-9d07-892268232a55",
+              "source_log_id": "52e88344-d5ab-4cb4-a005-2a62c48ceeb",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "44000ec7-bc10-5eb4-baf0-0b0f5b84b519",
+              "source_log_id": "360f90ff-8ad1-4784-b6b5-d2b34dce93b",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "68df1e08-cc29-5983-a66f-6ef5021f6369",
+              "source_log_id": "fb880260-5b44-4736-8f24-6f946e45913",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "c075793e-7441-5544-abda-a86b292d25bf",
+              "source_log_id": "ec9309c4-dbc6-431f-9f43-8cddb730101",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 49104,
+          "sequence_no": 0,
+          "source_dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+          "source_dataset_name": "12CADD001"
+        },
+        {
+          "axis_id": "c80c1d58-ebbd-5d3a-9967-0ecfe7832c96",
+          "borehole_id": "8ed6c98e-2d77-5329-8cc2-7a8208725a89",
+          "composite_id": "0e57e109-c214-5302-b043-e59235f0cfd3",
+          "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+          "dataset_revision_id": "07bbc6fb-fccd-5533-8876-b496cc51431e",
+          "depth_max_m": 537.09998,
+          "depth_min_m": 324.20358,
+          "depth_offset_from_common_origin_m": 324.1999,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "5224da36-b927-5475-a6e5-fcce6c294368",
+              "source_log_id": "e4ac25df-fd2a-4695-906b-258f8badee9",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "6e3d85ec-2567-546c-80d6-de693d3a7cfb",
+              "source_log_id": "fe916414-5f3f-4fcf-b7d0-fe938d99679",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "a2cfa770-6bfb-5835-afd5-b284b886f815",
+              "source_log_id": "0da4b105-f06f-4f9b-92a3-c7f83591513",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "eb368685-37c6-50e4-9ad9-44dffc7d3a8e",
+              "source_log_id": "06d1494a-bd8e-48f9-b3da-0c8c80a414b",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 30632,
+          "sequence_no": 1,
+          "source_dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1",
+          "source_dataset_name": "12CADD001_wedge"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 537.09998,
+        "common_min_m": 0.00368,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "d95a2ff4-c2bc-5201-8411-38973e2c4ce0",
+          "borehole_id": "8ed6c98e-2d77-5329-8cc2-7a8208725a89",
+          "composite_id": "0e57e109-c214-5302-b043-e59235f0cfd3",
+          "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+          "dataset_revision_id": "dd23fa6c-26f8-5945-b2fd-33c52e0af3c8",
+          "first_selected_md_m": 0.00368,
+          "last_selected_md_m": 324.18823,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 49103,
+          "selected_sample_count": 49104,
+          "selection_from_md_m": 0.00368,
+          "selection_status": "selected",
+          "selection_to_md_m": 324.18823,
+          "sequence_no": 0,
+          "upper_inclusive": true
+        },
+        {
+          "axis_id": "c80c1d58-ebbd-5d3a-9967-0ecfe7832c96",
+          "borehole_id": "8ed6c98e-2d77-5329-8cc2-7a8208725a89",
+          "composite_id": "0e57e109-c214-5302-b043-e59235f0cfd3",
+          "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+          "dataset_revision_id": "07bbc6fb-fccd-5533-8876-b496cc51431e",
+          "first_selected_md_m": 324.20358,
+          "last_selected_md_m": 537.09998,
+          "predecessor_relation_id": "8370d8c3-7450-5a95-b859-626f86230ea2",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 30631,
+          "selected_sample_count": 30632,
+          "selection_from_md_m": 324.20358,
+          "selection_status": "selected",
+          "selection_to_md_m": 537.09998,
+          "sequence_no": 1,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "2096470b-f3cc-5d15-9771-e4f83d863755",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "confirmed_successor_chain",
+        "definition_sha256": "217f0f0d1c50edc261caec88ec371bc5172e3c67d4af8cdb4868c504bfd8b624",
+        "evidence": {
+          "decisions": {
+            "confirmation_date": "2026-09-24",
+            "confirmation_text": "Confirm the order and display switch points listed above.",
+            "confirmed_by": "project_owner",
+            "contract": "confirmed-successor-display-v1",
+            "display_2d": "all_datasets_complete_shared_md_scale_independent_images",
+            "display_3d": "single_composite_no_branches",
+            "missing_values": "preserve_no_automatic_fallback",
+            "orders": {
+              "12CADD001": [
+                "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+                "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+              ],
+              "14KDD001": [
+                "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+                "c10744cc-2e42-478a-8bc3-7cea1059044"
+              ],
+              "15EIS001": [
+                "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+                "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+                "c83afeab-5697-4476-b24a-e210af12137",
+                "56d5fe91-626f-48ad-8786-acf91fe83a5"
+              ]
+            },
+            "relation_basis": "Project owner confirmed original/wedge succession and display order; not independently surveyed branch topology",
+            "return_to_predecessor": false,
+            "switch_depth_rule": "successor_first_actual_sample_md_m"
+          },
+          "depth_units": "m",
+          "hole_id": "14KDD001",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "ff5c6913-017e-5cf3-ae05-cd759deb0202",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "14KDD001",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "79cb9a9d-7f39-5eff-b19d-fbad45951275",
+          "borehole_id": "2096470b-f3cc-5d15-9771-e4f83d863755",
+          "composite_id": "ff5c6913-017e-5cf3-ae05-cd759deb0202",
+          "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+          "dataset_revision_id": "4da3d81a-059c-504e-b8fa-23cf9b842434",
+          "depth_max_m": 27.49838,
+          "depth_min_m": 3.50234,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "5de5471e-786e-5030-b0c5-16510f8e93c2",
+              "source_log_id": "b6ffaa21-470e-4c2a-968e-05533978288",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "457fb3ca-b3c4-5cb4-8518-41e89af1d373",
+              "source_log_id": "ed8fdbe6-262d-4013-b83d-2ed60011739",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "20725734-0089-5b5e-8cea-9ed60bc696ac",
+              "source_log_id": "2e8ee4be-e0f5-4f7b-8b2b-99b8a684481",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "cb19e2d0-948f-5a95-8bd8-befda4a64a27",
+              "source_log_id": "cee4a956-1c65-458b-9215-c3772e34872",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 5300,
+          "sequence_no": 0,
+          "source_dataset_id": "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+          "source_dataset_name": "14KDD001"
+        },
+        {
+          "axis_id": "773c0d5a-ab59-53bf-9bb9-3efcdc6b2662",
+          "borehole_id": "2096470b-f3cc-5d15-9771-e4f83d863755",
+          "composite_id": "ff5c6913-017e-5cf3-ae05-cd759deb0202",
+          "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+          "dataset_revision_id": "b6339bdc-58f4-5a2a-83bf-9d4da91643a3",
+          "depth_max_m": 144.19881,
+          "depth_min_m": 25.50151,
+          "depth_offset_from_common_origin_m": 21.99917,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "a942ace0-4fa1-56b1-acdb-26817a3b0f86",
+              "source_log_id": "31c94b52-5140-433e-b528-975c842448b",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "b5aa9fc2-8e31-5a82-a662-2ffc76de7215",
+              "source_log_id": "9614bb3e-4171-4d06-896d-dbbfe482e9b",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "361e96f3-2613-5e0d-b81a-4f6fd9d66c9d",
+              "source_log_id": "24b1d4c9-7e07-4313-a3db-e0b82499d8e",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "78bcd9ee-9dbf-52d0-9580-56a1ac3bf5be",
+              "source_log_id": "284d53c6-e0f8-400c-9528-44b703a2f2b",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 33150,
+          "sequence_no": 1,
+          "source_dataset_id": "c10744cc-2e42-478a-8bc3-7cea1059044",
+          "source_dataset_name": "14KDD001_wedge"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 144.19881,
+        "common_min_m": 3.50234,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "79cb9a9d-7f39-5eff-b19d-fbad45951275",
+          "borehole_id": "2096470b-f3cc-5d15-9771-e4f83d863755",
+          "composite_id": "ff5c6913-017e-5cf3-ae05-cd759deb0202",
+          "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+          "dataset_revision_id": "4da3d81a-059c-504e-b8fa-23cf9b842434",
+          "first_selected_md_m": 3.50234,
+          "last_selected_md_m": 25.50068,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 4656,
+          "selected_sample_count": 4657,
+          "selection_from_md_m": 3.50234,
+          "selection_status": "selected",
+          "selection_to_md_m": 25.50151,
+          "sequence_no": 0,
+          "upper_inclusive": false
+        },
+        {
+          "axis_id": "773c0d5a-ab59-53bf-9bb9-3efcdc6b2662",
+          "borehole_id": "2096470b-f3cc-5d15-9771-e4f83d863755",
+          "composite_id": "ff5c6913-017e-5cf3-ae05-cd759deb0202",
+          "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+          "dataset_revision_id": "b6339bdc-58f4-5a2a-83bf-9d4da91643a3",
+          "first_selected_md_m": 25.50151,
+          "last_selected_md_m": 144.19881,
+          "predecessor_relation_id": "457ce497-a8c9-51be-b71d-ed36a4fe5004",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 33149,
+          "selected_sample_count": 33150,
+          "selection_from_md_m": 25.50151,
+          "selection_status": "selected",
+          "selection_to_md_m": 144.19881,
+          "sequence_no": 1,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    },
+    {
+      "composite": {
+        "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "confirmed_successor_chain",
+        "definition_sha256": "cf680b49fb55861ddb0436d5d5fbb33ba6a4464c03da26a39beee934942fc7b7",
+        "evidence": {
+          "decisions": {
+            "confirmation_date": "2026-09-24",
+            "confirmation_text": "Confirm the order and display switch points listed above.",
+            "confirmed_by": "project_owner",
+            "contract": "confirmed-successor-display-v1",
+            "display_2d": "all_datasets_complete_shared_md_scale_independent_images",
+            "display_3d": "single_composite_no_branches",
+            "missing_values": "preserve_no_automatic_fallback",
+            "orders": {
+              "12CADD001": [
+                "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+                "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+              ],
+              "14KDD001": [
+                "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+                "c10744cc-2e42-478a-8bc3-7cea1059044"
+              ],
+              "15EIS001": [
+                "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+                "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+                "c83afeab-5697-4476-b24a-e210af12137",
+                "56d5fe91-626f-48ad-8786-acf91fe83a5"
+              ]
+            },
+            "relation_basis": "Project owner confirmed original/wedge succession and display order; not independently surveyed branch topology",
+            "return_to_predecessor": false,
+            "switch_depth_rule": "successor_first_actual_sample_md_m"
+          },
+          "depth_units": "m",
+          "hole_id": "15EIS001",
+          "range_semantics": "sample selection, not proof of continuous physical recovery"
+        },
+        "id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+        "missing_policy": "preserve_no_fallback",
+        "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+        "source_hole_id": "15EIS001",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      },
+      "datasets_2d_full": [
+        {
+          "axis_id": "fd57b017-056e-5e34-9c74-858645a5e81d",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+          "dataset_revision_id": "302b453a-ed06-5f03-989c-2c9f49bf7d5c",
+          "depth_max_m": 221.4977,
+          "depth_min_m": 0.00415,
+          "depth_offset_from_common_origin_m": 0.0,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "b048ebbc-3645-5bca-9b9f-faa77825b625",
+              "source_log_id": "5805c122-09ee-42ad-bbcd-b1067e5e07c",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "f00076dd-ce0e-571d-92c0-078e6257542f",
+              "source_log_id": "f958a494-9c1f-4e54-96c3-33d4ffb67a0",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "7bf53e0b-c3f0-5577-82f8-3b1e6ffdcaa0",
+              "source_log_id": "e8e0f6d3-3d55-4c50-84e5-f7d6c8827c6",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "7016516a-ab62-5c16-9047-ebfd0b3dfdd6",
+              "source_log_id": "cf3c94b5-2296-4ba3-b48a-ef2af5da6a6",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 36716,
+          "sequence_no": 0,
+          "source_dataset_id": "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+          "source_dataset_name": "15EIS001"
+        },
+        {
+          "axis_id": "e09972f7-e28f-5d80-915f-2f61c0ad3a50",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+          "dataset_revision_id": "31c21102-c295-566f-8719-d1ab4a4a0a5b",
+          "depth_max_m": 501.9975,
+          "depth_min_m": 183.40323,
+          "depth_offset_from_common_origin_m": 183.39908,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "f0859017-5212-5f77-97e1-553b4eb4314a",
+              "source_log_id": "aab42bed-590a-4cd4-9a5f-a4a2304fea7",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "eb5f12e0-af28-52b3-a461-e446c5cdaed4",
+              "source_log_id": "648dc8fe-55ef-4b1a-841b-ff701565e10",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "e7a84ac1-37b7-5133-9475-928d6556a5da",
+              "source_log_id": "377ad552-72f2-4203-809d-8e61d8618fd",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "7f434a3e-dbc0-5529-8d77-00f7a63fd5d6",
+              "source_log_id": "f996642d-bc4d-48d8-a01b-43f8685eec6",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 47972,
+          "sequence_no": 1,
+          "source_dataset_id": "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+          "source_dataset_name": "15EIS001_wedge"
+        },
+        {
+          "axis_id": "687a657a-6777-5d79-a98a-33834d5f9b2d",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+          "dataset_revision_id": "7f66e852-a15c-5a8e-81ae-932cc866022f",
+          "depth_max_m": 501.04172,
+          "depth_min_m": 429.20374,
+          "depth_offset_from_common_origin_m": 429.19959,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "f1c8b33a-9568-5020-ba72-3fbc6b425987",
+              "source_log_id": "6592d91f-2b68-4190-9103-84cfefdce50",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "56d450fa-85ac-541e-bd96-1631cbf759b1",
+              "source_log_id": "d1c205a9-b530-417e-a1f7-060a41125ee",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "195003d5-f5d8-5487-a400-c6bc1de51b10",
+              "source_log_id": "38ffdc0f-fb55-4587-9cfe-2f6d306275a",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "8dc29f4c-a488-597c-9564-5c357a04fa6b",
+              "source_log_id": "d6c6d88f-f88e-48c7-afdb-d7e847e5417",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 10452,
+          "sequence_no": 2,
+          "source_dataset_id": "c83afeab-5697-4476-b24a-e210af12137",
+          "source_dataset_name": "15EIS001_wedge2"
+        },
+        {
+          "axis_id": "747cf13b-c3af-59c4-a2e4-3088a13289b4",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+          "dataset_revision_id": "e5378b5f-4f70-55d7-b111-816a9403cbaa",
+          "depth_max_m": 1701.797,
+          "depth_min_m": 495.50299,
+          "depth_offset_from_common_origin_m": 495.49884000000003,
+          "image_logs": [
+            {
+              "availability_status": "metadata_only",
+              "id": "e0f972a4-92b1-5d13-be9b-d3b8b7b036ca",
+              "source_log_id": "f808d360-6817-485e-a648-66c1338f25f",
+              "source_log_name": "Imagery"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "8a106570-d741-56f9-b857-a8e194ba9f49",
+              "source_log_id": "b1798843-ab94-4425-9878-71911cc44ed",
+              "source_log_name": "Mosaic"
+            },
+            {
+              "availability_status": "metadata_only",
+              "id": "14aa4b90-05cf-53ad-a33e-ca61f09af492",
+              "source_log_id": "9154ecd5-a07b-4df5-b902-f04a083668c",
+              "source_log_name": "Tray Images"
+            },
+            {
+              "availability_status": "payload_present",
+              "id": "536593db-afd3-574c-8e2e-cd2f437299b1",
+              "source_log_id": "084af0a5-c925-4d1f-a523-9f4b5482a6b",
+              "source_log_name": "Tray Thumbnail Images"
+            }
+          ],
+          "overview_selection_status": "selected",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_count": 179560,
+          "sequence_no": 3,
+          "source_dataset_id": "56d5fe91-626f-48ad-8786-acf91fe83a5",
+          "source_dataset_name": "15EIS001_wedge3"
+        }
+      ],
+      "depth_reference": {
+        "common_max_m": 1701.797,
+        "common_min_m": 0.00415,
+        "kind": "source_measured_depth",
+        "unit": "m"
+      },
+      "layout_note": "Use one common depth scale for all 2D columns; each dataset keeps its own image log and sample index. Width and column placement belong to the frontend.",
+      "parts_3d_selected": [
+        {
+          "axis_id": "fd57b017-056e-5e34-9c74-858645a5e81d",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+          "dataset_revision_id": "302b453a-ed06-5f03-989c-2c9f49bf7d5c",
+          "first_selected_md_m": 0.00415,
+          "last_selected_md_m": 183.40227,
+          "predecessor_relation_id": null,
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 30615,
+          "selected_sample_count": 30616,
+          "selection_from_md_m": 0.00415,
+          "selection_status": "selected",
+          "selection_to_md_m": 183.40323,
+          "sequence_no": 0,
+          "upper_inclusive": false
+        },
+        {
+          "axis_id": "e09972f7-e28f-5d80-915f-2f61c0ad3a50",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+          "dataset_revision_id": "31c21102-c295-566f-8719-d1ab4a4a0a5b",
+          "first_selected_md_m": 183.40323,
+          "last_selected_md_m": 429.19678,
+          "predecessor_relation_id": "ed80421c-116e-5424-b06b-a77ea597b197",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 39238,
+          "selected_sample_count": 39239,
+          "selection_from_md_m": 183.40323,
+          "selection_status": "selected",
+          "selection_to_md_m": 429.20374,
+          "sequence_no": 1,
+          "upper_inclusive": false
+        },
+        {
+          "axis_id": "687a657a-6777-5d79-a98a-33834d5f9b2d",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+          "dataset_revision_id": "7f66e852-a15c-5a8e-81ae-932cc866022f",
+          "first_selected_md_m": 429.20374,
+          "last_selected_md_m": 495.50055,
+          "predecessor_relation_id": "9485e6a9-af82-5db5-a93e-eba6be313a67",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 9480,
+          "selected_sample_count": 9481,
+          "selection_from_md_m": 429.20374,
+          "selection_status": "selected",
+          "selection_to_md_m": 495.50299,
+          "sequence_no": 2,
+          "upper_inclusive": false
+        },
+        {
+          "axis_id": "747cf13b-c3af-59c4-a2e4-3088a13289b4",
+          "borehole_id": "6ce25f29-320b-5220-96f0-2d7fd7a33296",
+          "composite_id": "075b74ef-0f7d-57ac-877f-5e89e8498bf2",
+          "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+          "dataset_revision_id": "e5378b5f-4f70-55d7-b111-816a9403cbaa",
+          "first_selected_md_m": 495.50299,
+          "last_selected_md_m": 1701.797,
+          "predecessor_relation_id": "a1276e4f-921d-563e-98c7-1142c68289ba",
+          "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+          "sample_no_from": 0,
+          "sample_no_to": 179559,
+          "selected_sample_count": 179560,
+          "selection_from_md_m": 495.50299,
+          "selection_status": "selected",
+          "selection_to_md_m": 1701.797,
+          "sequence_no": 3,
+          "upper_inclusive": true
+        }
+      ],
+      "sample_identity": [
+        "dataset_revision_id",
+        "axis_id",
+        "sample_no"
+      ]
+    }
+  ],
+  "location_count": 11368,
+  "old_display_parts_unchanged": true,
+  "original_and_source_rows_preserved": {
+    "asset": 16607,
+    "asset_location": 16607,
+    "borehole": 11,
+    "borehole_branch": 0,
+    "borehole_composite": 8,
+    "borehole_composite_part": 13,
+    "borehole_revision": 16,
+    "core_interval": 11608,
+    "data_chunk": 42014,
+    "data_release": 7,
+    "dataset": 16,
+    "dataset_revision": 32,
+    "dataset_segment": 16,
+    "dataset_succession": 5,
+    "image_frame": 2156,
+    "image_region": 4726,
+    "image_region_asset": 4726,
+    "image_sample_mapping": 4726,
+    "interpretation_input": 0,
+    "interpretation_set": 156,
+    "log_asset": 14100,
+    "log_axis_binding": 4130,
+    "metric_definition": 1782,
+    "quality_issue": 598,
+    "release_dataset": 29,
+    "sample_axis": 32,
+    "scan_log": 4130,
+    "scan_sample": 1461244,
+    "source_document": 448,
+    "source_reference": 96,
+    "spectral_array": 29,
+    "spectral_block": 1349,
+    "spectral_sample_map": 29,
+    "spectral_stream": 58,
+    "survey_station": 0
+  },
+  "physical_files_reused": true,
+  "previous_release_id": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "replay_new_business_rows": 0,
+  "replay_new_releases": 0,
+  "replay_new_revisions": 0,
+  "sample_read_checks": [
+    {
+      "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "image_status": "available",
+      "sample_no": 36715,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "image_status": "available",
+      "sample_no": 47971,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "image_status": "available",
+      "sample_no": 5299,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "image_status": "available",
+      "sample_no": 54431,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "image_status": "available",
+      "sample_no": 42879,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+      "image_status": "available",
+      "sample_no": 33149,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "image_status": "available",
+      "sample_no": 22355,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 1
+    },
+    {
+      "dataset_id": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "image_status": "available",
+      "sample_no": 22779,
+      "spectra": 1
+    },
+    {
+      "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "image_status": "available",
+      "sample_no": 10451,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "image_status": "available",
+      "sample_no": 10183,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 1
+    },
+    {
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "image_status": "available",
+      "sample_no": 46029,
+      "spectra": 1
+    },
+    {
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 1
+    },
+    {
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "image_status": "available",
+      "sample_no": 22649,
+      "spectra": 1
+    },
+    {
+      "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "image_status": "available",
+      "sample_no": 179559,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "image_status": "available",
+      "sample_no": 116423,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "image_status": "available",
+      "sample_no": 30631,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "image_status": "available",
+      "sample_no": 0,
+      "spectra": 2
+    },
+    {
+      "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "image_status": "available",
+      "sample_no": 49103,
+      "spectra": 2
+    }
+  ],
+  "schema_unchanged": true,
+  "source_database_unchanged": true,
+  "source_file_directories_must_be_preserved": [
+    "etl4/new_input_check",
+    "etl4/09ATRCD025",
+    "etl4/12BRDDH003",
+    "etl4/09THD028"
+  ],
+  "status": "passed"
+}

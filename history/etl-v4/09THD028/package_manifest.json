@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "hole_id": "09THD028",
+  "provider": "wa",
+  "status": "complete_with_warnings",
+  "started_at": "2026-08-26T17:40:29+00:00",
+  "finished_at": "2026-08-26T17:47:16+00:00",
+  "content_fingerprint": "f382a35d924e0bf84a30a0b5aeb32c6112bbc7a0a974edd34f123f6bb20c7fce",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": []
+}

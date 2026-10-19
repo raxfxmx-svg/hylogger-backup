@@ -1,0 +1,18 @@
+{
+  "after_with_one_check_deduplication": {
+    "elapsed_seconds": 18.37532829999691,
+    "same_check_cache_hits": 1238,
+    "sha256_bytes_read": 7229984809,
+    "sha256_file_scans": 8652
+  },
+  "before_without_deduplication": {
+    "elapsed_seconds": 18.017633999988902,
+    "sha256_bytes_read": 11171234132,
+    "sha256_file_scans": 9890
+  },
+  "limitation": "Results depend on the OS file cache. This compares file validation, not total runtime of the old and new workflows.",
+  "recorded_at": "2026-09-28T11:13:05.267746+00:00",
+  "release_id": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "status": "passed",
+  "workload": "Request SHA256 once per local asset reference in the same release, preserving input order"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "step": 7,
+    "returncode": 0,
+    "seconds": 0.74,
+    "log": "step_7_first.log"
+  },
+  {
+    "step": 8,
+    "returncode": 0,
+    "seconds": 1.636,
+    "log": "step_8_first.log"
+  },
+  {
+    "step": 9,
+    "returncode": 0,
+    "seconds": 2.071,
+    "log": "step_9_first.log"
+  },
+  {
+    "step": 10,
+    "returncode": 0,
+    "seconds": 4.413,
+    "log": "step_10_first.log"
+  }
+]

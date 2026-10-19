@@ -1,0 +1,874 @@
+{
+  "crop_comparison": {
+    "identical_files": true,
+    "new_seconds": 1.258507200051099,
+    "new_source_decodes": 80,
+    "old_seconds": 1.4629504999611527,
+    "old_source_decodes": 320,
+    "rows": 320
+  },
+  "identical_multi_dataset_identities": 8,
+  "multi_image_algorithms": {
+    "frames": 696,
+    "identical": true,
+    "rows": 2799
+  },
+  "multi_manifest_roundtrips": [
+    {
+      "after_bytes": 1373802,
+      "before_bytes": 7601865,
+      "step": 20
+    },
+    {
+      "after_bytes": 1418476,
+      "before_bytes": 7230758,
+      "step": 21
+    },
+    {
+      "after_bytes": 811503,
+      "before_bytes": 1218848,
+      "step": 22
+    },
+    {
+      "after_bytes": 2953443,
+      "before_bytes": 39426269,
+      "step": 23
+    },
+    {
+      "after_bytes": 2082,
+      "before_bytes": 2000,
+      "step": 24
+    },
+    {
+      "after_bytes": 5167537,
+      "before_bytes": 154711793,
+      "step": 25
+    },
+    {
+      "after_bytes": 7462286,
+      "before_bytes": 157006542,
+      "step": 26
+    },
+    {
+      "after_bytes": 9768415,
+      "before_bytes": 159312671,
+      "step": 27
+    }
+  ],
+  "reader_comparisons": [
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 143,
+      "before_sql": 19,
+      "dataset": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "hole": "05KCD001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 143,
+      "before_sql": 19,
+      "dataset": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "hole": "05KCD001",
+      "result_count": 6,
+      "sample": 11178,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 143,
+      "before_sql": 19,
+      "dataset": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "hole": "05KCD001",
+      "result_count": 6,
+      "sample": 22355,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "hole": "07THD002",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "hole": "07THD002",
+      "result_count": 6,
+      "sample": 58212,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "hole": "07THD002",
+      "result_count": 6,
+      "sample": 116423,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "hole": "07THD003",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "hole": "07THD003",
+      "result_count": 6,
+      "sample": 27216,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "hole": "07THD003",
+      "result_count": 6,
+      "sample": 54431,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 87,
+      "before_sql": 15,
+      "dataset": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "hole": "09ATD015",
+      "result_count": 5,
+      "sample": 0,
+      "statuses": {
+        "available": 1,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 87,
+      "before_sql": 15,
+      "dataset": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "hole": "09ATD015",
+      "result_count": 5,
+      "sample": 23015,
+      "statuses": {
+        "available": 1,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 87,
+      "before_sql": 15,
+      "dataset": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "hole": "09ATD015",
+      "result_count": 5,
+      "sample": 46029,
+      "statuses": {
+        "available": 1,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 87,
+      "before_sql": 15,
+      "dataset": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "hole": "09ATD019",
+      "result_count": 5,
+      "sample": 0,
+      "statuses": {
+        "available": 1,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 87,
+      "before_sql": 15,
+      "dataset": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "hole": "09ATD019",
+      "result_count": 5,
+      "sample": 11325,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 87,
+      "before_sql": 15,
+      "dataset": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "hole": "09ATD019",
+      "result_count": 5,
+      "sample": 22649,
+      "statuses": {
+        "available": 1,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 91,
+      "before_sql": 15,
+      "dataset": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "hole": "09ATRCD025",
+      "result_count": 5,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 91,
+      "before_sql": 15,
+      "dataset": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "hole": "09ATRCD025",
+      "result_count": 5,
+      "sample": 11390,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 5,
+      "after_sql": 9,
+      "before_catalog_rows": 91,
+      "before_sql": 15,
+      "dataset": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "hole": "09ATRCD025",
+      "result_count": 5,
+      "sample": 22779,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 126,
+      "before_sql": 19,
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 126,
+      "before_sql": 19,
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "result_count": 6,
+      "sample": 21440,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 126,
+      "before_sql": 19,
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "result_count": 6,
+      "sample": 42879,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 0,
+      "after_sql": 5,
+      "before_catalog_rows": 126,
+      "before_sql": 5,
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "result_count": 0,
+      "sample": 0,
+      "statuses": {}
+    },
+    {
+      "after_catalog_rows": 126,
+      "after_sql": 9,
+      "before_catalog_rows": 126,
+      "before_sql": 231,
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "result_count": 126,
+      "sample": 0,
+      "statuses": {
+        "available": 30,
+        "available_uncalibrated_profile": 1,
+        "axis_binding_unavailable": 2,
+        "metadata_only": 13,
+        "source_null": 80
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 126,
+      "before_sql": 19,
+      "dataset": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "hole": "09THD028",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 124,
+      "before_sql": 17,
+      "dataset": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "hole": "12BRDDH003",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "axis_binding_unavailable": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 124,
+      "before_sql": 17,
+      "dataset": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "hole": "12BRDDH003",
+      "result_count": 6,
+      "sample": 5092,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "axis_binding_unavailable": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 124,
+      "before_sql": 17,
+      "dataset": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "hole": "12BRDDH003",
+      "result_count": 6,
+      "sample": 10183,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "axis_binding_unavailable": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 125,
+      "before_sql": 19,
+      "dataset": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "hole": "12CADD001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 125,
+      "before_sql": 19,
+      "dataset": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "hole": "12CADD001",
+      "result_count": 6,
+      "sample": 15316,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 125,
+      "before_sql": 19,
+      "dataset": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "hole": "12CADD001",
+      "result_count": 6,
+      "sample": 30631,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 169,
+      "before_sql": 19,
+      "dataset": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "hole": "12CADD001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 169,
+      "before_sql": 19,
+      "dataset": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "hole": "12CADD001",
+      "result_count": 6,
+      "sample": 24552,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 169,
+      "before_sql": 19,
+      "dataset": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "hole": "12CADD001",
+      "result_count": 6,
+      "sample": 49103,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "hole": "14KDD001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "hole": "14KDD001",
+      "result_count": 6,
+      "sample": 2650,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "hole": "14KDD001",
+      "result_count": 6,
+      "sample": 5299,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "4c791226-a966-5c15-a146-ed956f58948e",
+      "hole": "14KDD001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "4c791226-a966-5c15-a146-ed956f58948e",
+      "hole": "14KDD001",
+      "result_count": 6,
+      "sample": 16575,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 123,
+      "before_sql": 19,
+      "dataset": "4c791226-a966-5c15-a146-ed956f58948e",
+      "hole": "14KDD001",
+      "result_count": 6,
+      "sample": 33149,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 144,
+      "before_sql": 19,
+      "dataset": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 144,
+      "before_sql": 19,
+      "dataset": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 18358,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 144,
+      "before_sql": 19,
+      "dataset": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 36715,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 137,
+      "before_sql": 19,
+      "dataset": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 4,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 137,
+      "before_sql": 19,
+      "dataset": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 23986,
+      "statuses": {
+        "available": 4,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 137,
+      "before_sql": 19,
+      "dataset": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 47971,
+      "statuses": {
+        "available": 4,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 139,
+      "before_sql": 19,
+      "dataset": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 139,
+      "before_sql": 19,
+      "dataset": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 5226,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 139,
+      "before_sql": 19,
+      "dataset": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 10451,
+      "statuses": {
+        "available": 3,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 1
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 137,
+      "before_sql": 19,
+      "dataset": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 0,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 137,
+      "before_sql": 19,
+      "dataset": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 89780,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    },
+    {
+      "after_catalog_rows": 6,
+      "after_sql": 9,
+      "before_catalog_rows": 137,
+      "before_sql": 19,
+      "dataset": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "hole": "15EIS001",
+      "result_count": 6,
+      "sample": 179559,
+      "statuses": {
+        "available": 2,
+        "available_uncalibrated_profile": 1,
+        "metadata_only": 1,
+        "source_null": 2
+      }
+    }
+  ],
+  "release": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "status": "passed"
+}

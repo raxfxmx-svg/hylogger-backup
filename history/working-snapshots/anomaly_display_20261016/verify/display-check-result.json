@@ -1,0 +1,46 @@
+{
+  "baseline": "0c4e96173f7f7bc4bde0164353d62ed985e75e18",
+  "holes": {
+    "05KCD001": {
+      "count": 2,
+      "scores": [
+        96.77,
+        95.1
+      ]
+    },
+    "07THD002": {
+      "count": 10,
+      "scores": [
+        95.04,
+        96.79,
+        97.04,
+        96.25,
+        97.56,
+        97.16,
+        95.41,
+        96.62,
+        95.12,
+        98
+      ]
+    },
+    "07THD003": {
+      "count": 6,
+      "scores": [
+        97.35,
+        95.91,
+        95.75,
+        95.33,
+        95.12,
+        99.77
+      ]
+    }
+  },
+  "checks": [
+    "18 unchanged source scores; counts and filter agree; mineral calculations match current baseline",
+    "API priority and duplicate removal",
+    "Supplied intervals remain available; unrelated holes retain error behaviour",
+    "No mineral rows required to count anomaly intervals",
+    "18 independently rendered 2D marks and all scores in detail tables; no historical labels",
+    "18 3D marks, each with its score, independent of mineral rows"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "experiment": "Compare version keys from the original and new functions without writing to the database.",
+  "new_media_version_keys_changed_by_code_hash": 0,
+  "new_processing_pipeline_changed_by_comment": false,
+  "old_database_new_rows": "not measured; original database was not rerun",
+  "old_media_version_keys_changed_by_package_code_hash": 5,
+  "old_processing_pipeline_changed_by_comment": true,
+  "recorded_at": "2026-09-28T11:20:29.803212+00:00",
+  "status": "passed"
+}

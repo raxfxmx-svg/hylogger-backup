@@ -1,0 +1,40 @@
+{
+  "datasets": [
+    {
+      "action": "inserted",
+      "axis_id": "6b1e2af2-3e03-522b-8d23-11615999ad18",
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "dataset_revision_id": "1a5e0eac-2004-5efa-a434-9335b297c7c3"
+    },
+    {
+      "action": "inserted",
+      "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb"
+    },
+    {
+      "action": "inserted",
+      "axis_id": "39f4f0a3-9ca2-5fe9-8ccf-9369ca0ba4ee",
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "dataset_revision_id": "0d30c7c4-ab07-5a9c-b669-7ed2de5fd936"
+    },
+    {
+      "action": "inserted",
+      "axis_id": "85089751-1589-5855-a936-d50f21c8d8d4",
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "dataset_revision_id": "47cf05e4-91f5-521d-bda8-cbffa2e9ae71"
+    },
+    {
+      "action": "inserted",
+      "axis_id": "d9afc2a4-6146-51b8-a896-8bfe3133d87e",
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "dataset_revision_id": "28802f55-a962-5c3c-95e4-594252b909f2"
+    }
+  ],
+  "media_package_sha256": "74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+  "package_directory": "media_releases/74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6",
+  "previous_release_id": "20bbb134-501d-54bc-9428-5ee48b6801e4",
+  "recorded_at": "2026-09-08T18:58:46.862020+00:00",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "status": "staged"
+}

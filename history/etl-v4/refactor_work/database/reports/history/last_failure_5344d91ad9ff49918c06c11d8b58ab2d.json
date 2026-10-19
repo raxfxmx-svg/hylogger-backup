@@ -1,0 +1,7 @@
+{
+  "detail": "pg_ctl.exe failed (1): pg_ctl: another server might be running; trying to start server anyway\r\npg_ctl: could not create restricted token: error code 87\r\npg_ctl: could not start server: error code 87\r\n ",
+  "error_type": "RuntimeError",
+  "recorded_at": "2026-10-03T05:57:30.692815+00:00",
+  "script": "7_preflight_database.py",
+  "status": "failed"
+}

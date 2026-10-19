@@ -1,0 +1,41 @@
+{
+  "old_two_stage": {
+    "first_import": {
+      "elapsed_seconds": 6.156479199999012,
+      "physical_samples": 65928,
+      "revisions": 4,
+      "same_check_cache_hits": 3943,
+      "sha256_bytes_read": 286558361,
+      "sha256_file_scans": 777
+    },
+    "replay": {
+      "elapsed_seconds": 3.6887016999535263,
+      "new_business_records": 0,
+      "physical_samples": 65928,
+      "revisions": 4,
+      "same_check_cache_hits": 3917,
+      "sha256_bytes_read": 286558361,
+      "sha256_file_scans": 777
+    }
+  },
+  "scope": "Use the same existing files for two boreholes, including base and media acceptance; exclude download, preparation, and API startup",
+  "single_final": {
+    "first_import": {
+      "elapsed_seconds": 4.489119400037453,
+      "physical_samples": 32964,
+      "revisions": 2,
+      "same_check_cache_hits": 1836,
+      "sha256_bytes_read": 286568217,
+      "sha256_file_scans": 777
+    },
+    "replay": {
+      "elapsed_seconds": 3.222598700027447,
+      "new_business_records": 0,
+      "physical_samples": 32964,
+      "revisions": 2,
+      "same_check_cache_hits": 1834,
+      "sha256_bytes_read": 286568217,
+      "sha256_file_scans": 777
+    }
+  }
+}

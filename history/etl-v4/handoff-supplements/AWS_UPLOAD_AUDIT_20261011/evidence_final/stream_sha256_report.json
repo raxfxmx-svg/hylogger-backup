@@ -1,0 +1,1055 @@
+{
+  "started_at": "2026-10-10T17:12:31.939988+00:00",
+  "method": "S3 GetObject with IfMatch to audited ETag; incremental SHA256; no bulk file stored",
+  "batch_id": "6e6c5d26ae2dd97de46ae6a94a8ee495dec2a05ec2388c712e61951473b4c970",
+  "manifest_sha256": "13522cd5c97ccfc0ea335d8d4fe0f1a2b505f73b0fda4001fadb8a035f883b1f",
+  "objects": [
+    {
+      "key": "etl4/objects/sha256/88/88d7d045a3088dd74cc80f9fde40ebb79f567a6a04ae3b4d4d4cbe95947519ee",
+      "bytes_read": 1296215,
+      "sha256": "88d7d045a3088dd74cc80f9fde40ebb79f567a6a04ae3b4d4d4cbe95947519ee",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/89/89db24a5921442c3663a1d29edff60cbefac06de75b7a96ead0e4ae1c64c5567",
+      "bytes_read": 4223,
+      "sha256": "89db24a5921442c3663a1d29edff60cbefac06de75b7a96ead0e4ae1c64c5567",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d2/d287729bd4b3924765f859bcce626b1d7084c8aa5999a203fa2fb2d6c3129ce6",
+      "bytes_read": 1247527,
+      "sha256": "d287729bd4b3924765f859bcce626b1d7084c8aa5999a203fa2fb2d6c3129ce6",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/8b/8bd5125f9ccbd6d3e57e79c2f5f5580abd688b861609d33e42627a64a90d57a7",
+      "bytes_read": 1341082,
+      "sha256": "8bd5125f9ccbd6d3e57e79c2f5f5580abd688b861609d33e42627a64a90d57a7",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/45/459621447727ac04d230013a567317e981f361f4f3a0417350519b77d6f696b1",
+      "bytes_read": 666676,
+      "sha256": "459621447727ac04d230013a567317e981f361f4f3a0417350519b77d6f696b1",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/fa/fae9241b14368259a41babb9dc0d514cdb81a3bc71a80a99ef4e772e12bdd946",
+      "bytes_read": 645926,
+      "sha256": "fae9241b14368259a41babb9dc0d514cdb81a3bc71a80a99ef4e772e12bdd946",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/30/309323c0fefd78c3f03887b38c1fe163af4a2fa83ec5712e4e958381fca66e9c",
+      "bytes_read": 678237,
+      "sha256": "309323c0fefd78c3f03887b38c1fe163af4a2fa83ec5712e4e958381fca66e9c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/14/14dc35f7d85cd96a6f1676781268f8d6bdbdb1c467e7e265082303e6107224cc",
+      "bytes_read": 644992,
+      "sha256": "14dc35f7d85cd96a6f1676781268f8d6bdbdb1c467e7e265082303e6107224cc",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/91/912a4e56e7524335e2f3794edc386b96044c65f5c9499fa7a00e619b2fc1c028",
+      "bytes_read": 756735,
+      "sha256": "912a4e56e7524335e2f3794edc386b96044c65f5c9499fa7a00e619b2fc1c028",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a4/a46d4947c3a242a0c7e415625effdd56cbf0746731e8747a977ee14333a6d8eb",
+      "bytes_read": 662245,
+      "sha256": "a46d4947c3a242a0c7e415625effdd56cbf0746731e8747a977ee14333a6d8eb",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c6/c6ee5b2291f34a4faeffaee9bedd4eae45443681ec2110397a1263abac502da5",
+      "bytes_read": 668452,
+      "sha256": "c6ee5b2291f34a4faeffaee9bedd4eae45443681ec2110397a1263abac502da5",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/fb/fb16356b155c7055ce81af8ea35671d1fb7ce26f3537068f135136fde6d882c6",
+      "bytes_read": 644991,
+      "sha256": "fb16356b155c7055ce81af8ea35671d1fb7ce26f3537068f135136fde6d882c6",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/46/4627d8889db25cce236dfd5499a8ac29dedb67a091c9d74cc793ca9976526bd9",
+      "bytes_read": 40514,
+      "sha256": "4627d8889db25cce236dfd5499a8ac29dedb67a091c9d74cc793ca9976526bd9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d8/d83f0b77f327607383f5c1c91af5e5d8944d95a0f4f965abcfb2f073c5d8da4b",
+      "bytes_read": 671500,
+      "sha256": "d83f0b77f327607383f5c1c91af5e5d8944d95a0f4f965abcfb2f073c5d8da4b",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/64/64980fd2ed514410b7c992f19507d861caa859b9166171fbe8777dda80aa210e",
+      "bytes_read": 648814,
+      "sha256": "64980fd2ed514410b7c992f19507d861caa859b9166171fbe8777dda80aa210e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e4/e479bcc06c21f12b25aa7a33d78475471588080e531fd69f4902899815441dc6",
+      "bytes_read": 612980,
+      "sha256": "e479bcc06c21f12b25aa7a33d78475471588080e531fd69f4902899815441dc6",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/80/80adc9e5d4f7f2d52032d94e5a1ef266882b75bdf5ccc9940012e87051ebe2bc",
+      "bytes_read": 767974,
+      "sha256": "80adc9e5d4f7f2d52032d94e5a1ef266882b75bdf5ccc9940012e87051ebe2bc",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e8/e8a7ad00a27e41dd16dbbe91ce69aa4284772c6da4a7e8e43c41ec3da9704599",
+      "bytes_read": 646520,
+      "sha256": "e8a7ad00a27e41dd16dbbe91ce69aa4284772c6da4a7e8e43c41ec3da9704599",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3a/3a035fc9626b68c7ec5c67a03ff569232b456b9d2d34976c605d1fc41048b40e",
+      "bytes_read": 654216,
+      "sha256": "3a035fc9626b68c7ec5c67a03ff569232b456b9d2d34976c605d1fc41048b40e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a2/a2de3999dcbaec8b70d679dafd856778fdf345d0e9931f004c40b32f5ffd2dbd",
+      "bytes_read": 1276893,
+      "sha256": "a2de3999dcbaec8b70d679dafd856778fdf345d0e9931f004c40b32f5ffd2dbd",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/4b/4b79d45e754ef340400fe44d7f45f7529317eb1ec1c6a0f7d6e0388b1457ebbc",
+      "bytes_read": 1090946,
+      "sha256": "4b79d45e754ef340400fe44d7f45f7529317eb1ec1c6a0f7d6e0388b1457ebbc",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3c/3cbe2b049016cd0a58b177e02eaedeeb0c6c9b4d85498039c52d58e2fc931236",
+      "bytes_read": 1301212,
+      "sha256": "3cbe2b049016cd0a58b177e02eaedeeb0c6c9b4d85498039c52d58e2fc931236",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/44/4421045d154b284096538617b337f6f6ff3ba179e487b838887e52530d41ff8d",
+      "bytes_read": 646520,
+      "sha256": "4421045d154b284096538617b337f6f6ff3ba179e487b838887e52530d41ff8d",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/cd/cdf1564ad625044366d50be6322bd2f8c7346a44738d5cf0e5c4a017d0bb6ef6",
+      "bytes_read": 1298493,
+      "sha256": "cdf1564ad625044366d50be6322bd2f8c7346a44738d5cf0e5c4a017d0bb6ef6",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/95/95d6121a11c6a3e42f62e49a397a0751037b4be8b8f0dfbab94506cbc1c5af0d",
+      "bytes_read": 834373,
+      "sha256": "95d6121a11c6a3e42f62e49a397a0751037b4be8b8f0dfbab94506cbc1c5af0d",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d3/d3638f7444ef12118673b4c4f0f82b248a524b2fd7845e65e577d0e6e5f2b590",
+      "bytes_read": 706449,
+      "sha256": "d3638f7444ef12118673b4c4f0f82b248a524b2fd7845e65e577d0e6e5f2b590",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/30/30b41b443a1434ab0c27201501847dbe8ab6e81e7ab676bfba00b3d27be29e3d",
+      "bytes_read": 371521,
+      "sha256": "30b41b443a1434ab0c27201501847dbe8ab6e81e7ab676bfba00b3d27be29e3d",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2a/2a45a444196ac6cfe271c4e8c29af802ba9abb4f45910fcf952f39c93f3eb261",
+      "bytes_read": 566426,
+      "sha256": "2a45a444196ac6cfe271c4e8c29af802ba9abb4f45910fcf952f39c93f3eb261",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/61/6198e5952cd0b82c5383871341cd07ab17953a85d169155e18823e05c63f9a2c",
+      "bytes_read": 1294065,
+      "sha256": "6198e5952cd0b82c5383871341cd07ab17953a85d169155e18823e05c63f9a2c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c3/c351a24cbc02cd18dc1af6b8fe34fc77c87328826aa7805fa1e90800c650cbb2",
+      "bytes_read": 646191,
+      "sha256": "c351a24cbc02cd18dc1af6b8fe34fc77c87328826aa7805fa1e90800c650cbb2",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/46/46fb4797235596cd4ebdf6904ffebe45b8657c8f0d0ff8d0dfb9b600f38e8e13",
+      "bytes_read": 659670,
+      "sha256": "46fb4797235596cd4ebdf6904ffebe45b8657c8f0d0ff8d0dfb9b600f38e8e13",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/78/78bd799cd4883e641d9db23628ed64bbfa374707c4416e3cfa59c9d8f6bcb823",
+      "bytes_read": 673690,
+      "sha256": "78bd799cd4883e641d9db23628ed64bbfa374707c4416e3cfa59c9d8f6bcb823",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a1/a110ff049064fd035c507c4edff7ca781d63480f7f1c30c3f6021f8859c3b6fa",
+      "bytes_read": 1221932,
+      "sha256": "a110ff049064fd035c507c4edff7ca781d63480f7f1c30c3f6021f8859c3b6fa",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e7/e74c16cc769c8812a733137829dff0c864ce7f2e147426f888064e1bcd65f37f",
+      "bytes_read": 645879,
+      "sha256": "e74c16cc769c8812a733137829dff0c864ce7f2e147426f888064e1bcd65f37f",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/69/69d86dcf327193ac7228959a04088c0cc9f546a9d5a61ea49693359bbb342341",
+      "bytes_read": 653823,
+      "sha256": "69d86dcf327193ac7228959a04088c0cc9f546a9d5a61ea49693359bbb342341",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3b/3b286b8ee4a0918f1d9c2d1514ead202f103b742204d7e7e421ee508f6bc48f1",
+      "bytes_read": 902541,
+      "sha256": "3b286b8ee4a0918f1d9c2d1514ead202f103b742204d7e7e421ee508f6bc48f1",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/03/0372daf02fc489a1bc580e5df565d6a9f886b08be2fb4f0c9994f61b5561f997",
+      "bytes_read": 644991,
+      "sha256": "0372daf02fc489a1bc580e5df565d6a9f886b08be2fb4f0c9994f61b5561f997",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/70/70375b809ef63a795c13aa56e8af6d0034e54671984f319090a3abdb52f36474",
+      "bytes_read": 657358,
+      "sha256": "70375b809ef63a795c13aa56e8af6d0034e54671984f319090a3abdb52f36474",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/18/18b04312ad8c2e52fe252350e65bec3926f003c5d97a07445026a461f18f0e36",
+      "bytes_read": 645926,
+      "sha256": "18b04312ad8c2e52fe252350e65bec3926f003c5d97a07445026a461f18f0e36",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2f/2f0e2e59f5ba1e0163e150e86634a03edc8700200102a33be6dc0c467925de17",
+      "bytes_read": 730937,
+      "sha256": "2f0e2e59f5ba1e0163e150e86634a03edc8700200102a33be6dc0c467925de17",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/85/853217cd7251e936505c493bf7346d79cbb75bf5f2050d1babb87e2784e4ff3b",
+      "bytes_read": 14696,
+      "sha256": "853217cd7251e936505c493bf7346d79cbb75bf5f2050d1babb87e2784e4ff3b",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/37/3715246a2247e0abdf260340bb042b0e7072a183975cc1a5010b1418f171ec06",
+      "bytes_read": 645622,
+      "sha256": "3715246a2247e0abdf260340bb042b0e7072a183975cc1a5010b1418f171ec06",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/36/368c9f372b9f99af5ef8ec6ed054a4601fab6f9381dbdde4f913d9f19c3737cd",
+      "bytes_read": 675254,
+      "sha256": "368c9f372b9f99af5ef8ec6ed054a4601fab6f9381dbdde4f913d9f19c3737cd",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/74/7441cb6682c1f5fcd65411d66349d1fa2a5cbaf26e7af537f71ccbb8a033f0bd",
+      "bytes_read": 648764,
+      "sha256": "7441cb6682c1f5fcd65411d66349d1fa2a5cbaf26e7af537f71ccbb8a033f0bd",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/00/00e43a99eedf66eae406ae2ca5cc866d7926ca9ec227bf87ddf5df24b91e7fe2",
+      "bytes_read": 14055911,
+      "sha256": "00e43a99eedf66eae406ae2ca5cc866d7926ca9ec227bf87ddf5df24b91e7fe2",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3a/3ac7f4671b66a10fa6083b769259e1557b841f90c039447d08cedb0f8e21ef98",
+      "bytes_read": 190944,
+      "sha256": "3ac7f4671b66a10fa6083b769259e1557b841f90c039447d08cedb0f8e21ef98",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a7/a7cec5958e1e999c0ae98399cc95582059f813db7addd44226ba08b3483badd0",
+      "bytes_read": 1288940,
+      "sha256": "a7cec5958e1e999c0ae98399cc95582059f813db7addd44226ba08b3483badd0",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2c/2cd250f5d2eb26facac57a2f8888b16fcd1cdfc4ecae2e39b4277c4c2bb6a338",
+      "bytes_read": 1301329,
+      "sha256": "2cd250f5d2eb26facac57a2f8888b16fcd1cdfc4ecae2e39b4277c4c2bb6a338",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/31/318a8a76beb924d907c60f31cd743e3b43ebbd4053e015b08bffb21a018d5b42",
+      "bytes_read": 646346,
+      "sha256": "318a8a76beb924d907c60f31cd743e3b43ebbd4053e015b08bffb21a018d5b42",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/f2/f259cc29e084354279c586328e6705ff5f28df4c226e87da1ff0cbe9813af5d1",
+      "bytes_read": 1271137,
+      "sha256": "f259cc29e084354279c586328e6705ff5f28df4c226e87da1ff0cbe9813af5d1",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/42/428b7687ae6ff107d11d41865f900e1f74fd34a43a2b65f043d56e83e3a51889",
+      "bytes_read": 1282170,
+      "sha256": "428b7687ae6ff107d11d41865f900e1f74fd34a43a2b65f043d56e83e3a51889",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/9c/9cc48c91bf426da404e477154e149a7ea0f5b34616ddb09ded15d0d751c5b8c4",
+      "bytes_read": 9081,
+      "sha256": "9cc48c91bf426da404e477154e149a7ea0f5b34616ddb09ded15d0d751c5b8c4",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/09/09ee6eaf7f093d77da2723a6168d876930c20527248c15eef4228245d3d9dcaa",
+      "bytes_read": 1293854,
+      "sha256": "09ee6eaf7f093d77da2723a6168d876930c20527248c15eef4228245d3d9dcaa",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/44/44b8d06c052fcc9e93cdb48c598a9883d7555e17edee0b9f65e9653c45f6784f",
+      "bytes_read": 21710,
+      "sha256": "44b8d06c052fcc9e93cdb48c598a9883d7555e17edee0b9f65e9653c45f6784f",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/1b/1be47f8cc23ef4112067c2977679a670acca5da856b689d99e75e1f35e3d1b9e",
+      "bytes_read": 1128687,
+      "sha256": "1be47f8cc23ef4112067c2977679a670acca5da856b689d99e75e1f35e3d1b9e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a7/a7331164ac0c17259d0fb6721216cde32b2c9f2849aa3df00522309cd1266f7e",
+      "bytes_read": 679068,
+      "sha256": "a7331164ac0c17259d0fb6721216cde32b2c9f2849aa3df00522309cd1266f7e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2b/2bb1e79638a017fc1568c22c109305eb4b7a5b8e8d5cf026611acc01e532a9a1",
+      "bytes_read": 1193877,
+      "sha256": "2bb1e79638a017fc1568c22c109305eb4b7a5b8e8d5cf026611acc01e532a9a1",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2a/2a9887ca84da99294974fa79c1d3c4c77b0a6642b42724e0480ab165e3022fd9",
+      "bytes_read": 1087623,
+      "sha256": "2a9887ca84da99294974fa79c1d3c4c77b0a6642b42724e0480ab165e3022fd9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e1/e1a50d991992721e9964b1c0152b4846fffc68c43268b93c5abec03aaf04a1e8",
+      "bytes_read": 654454,
+      "sha256": "e1a50d991992721e9964b1c0152b4846fffc68c43268b93c5abec03aaf04a1e8",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/af/af352c6ccb3a900a0abf36d44d0c5dec577112c479d7932ca34f4f83db5ae34f",
+      "bytes_read": 4824,
+      "sha256": "af352c6ccb3a900a0abf36d44d0c5dec577112c479d7932ca34f4f83db5ae34f",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3f/3f3f06833931f94ad60953c5e3bcdddcc4ee3715b75a5415c65d08ec23c64ade",
+      "bytes_read": 1298621,
+      "sha256": "3f3f06833931f94ad60953c5e3bcdddcc4ee3715b75a5415c65d08ec23c64ade",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/69/6963aafd9368aff9ddee10efe416e42e03689c25a791acc4d79d5eb3895c21a8",
+      "bytes_read": 21634,
+      "sha256": "6963aafd9368aff9ddee10efe416e42e03689c25a791acc4d79d5eb3895c21a8",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/50/50ae4c196ba9f2747dad29e45dceb2b0c98dbc6e716df83171a073768e3d48e7",
+      "bytes_read": 1274596,
+      "sha256": "50ae4c196ba9f2747dad29e45dceb2b0c98dbc6e716df83171a073768e3d48e7",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a2/a2bd2bdbf20a0fba60d74ff2ea4ab9b2fcb80c7e13162e92575991e44a7096bd",
+      "bytes_read": 805040,
+      "sha256": "a2bd2bdbf20a0fba60d74ff2ea4ab9b2fcb80c7e13162e92575991e44a7096bd",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2d/2d0e5706fbe83a91dec5a5cf3c571ed2eb7a9ac3b929f16281b84864eb9787b9",
+      "bytes_read": 874,
+      "sha256": "2d0e5706fbe83a91dec5a5cf3c571ed2eb7a9ac3b929f16281b84864eb9787b9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e3/e3f610b0fd8de9e1be6f15b78ba2191fa156c05b1f44dcb2f190699324b4ab29",
+      "bytes_read": 1033872,
+      "sha256": "e3f610b0fd8de9e1be6f15b78ba2191fa156c05b1f44dcb2f190699324b4ab29",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/dd/ddc3f03f12c3717ba368f5249d7f465401425f7b994fa5b9a6c20c1535c73090",
+      "bytes_read": 841946,
+      "sha256": "ddc3f03f12c3717ba368f5249d7f465401425f7b994fa5b9a6c20c1535c73090",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/88/88594827dcb7c182b0b82a10260438dbd8de0cd87b0bd78830aad931e45f416c",
+      "bytes_read": 1280896,
+      "sha256": "88594827dcb7c182b0b82a10260438dbd8de0cd87b0bd78830aad931e45f416c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/4e/4e211923da11e41a9437f698c18779b94598f64090faebfa2d42665c9ff4fc33",
+      "bytes_read": 646616,
+      "sha256": "4e211923da11e41a9437f698c18779b94598f64090faebfa2d42665c9ff4fc33",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c2/c235675ee8beee098fc225a55e184555fef238699c976baa2eaa77b0ad969c7b",
+      "bytes_read": 1293005,
+      "sha256": "c235675ee8beee098fc225a55e184555fef238699c976baa2eaa77b0ad969c7b",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2c/2c2ba5abad2ef55de090c2857e6bb0a2d0cd980b0d45fd06033f93afc68b1290",
+      "bytes_read": 1254137,
+      "sha256": "2c2ba5abad2ef55de090c2857e6bb0a2d0cd980b0d45fd06033f93afc68b1290",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/59/595ff9524cf32663c9d7ad54b1c9fc4f5e751d9a76a21159469468c181fa2219",
+      "bytes_read": 653003,
+      "sha256": "595ff9524cf32663c9d7ad54b1c9fc4f5e751d9a76a21159469468c181fa2219",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/ba/ba7f8f5d413ff338df745b7e969167999d99bb113e42a0424d53dc682f6a02d5",
+      "bytes_read": 651920,
+      "sha256": "ba7f8f5d413ff338df745b7e969167999d99bb113e42a0424d53dc682f6a02d5",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/19/197170c634c52273fe72cd8f1d347da8bfbae75c2380f2dd3a6150cad1b5cbb3",
+      "bytes_read": 1067599,
+      "sha256": "197170c634c52273fe72cd8f1d347da8bfbae75c2380f2dd3a6150cad1b5cbb3",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/85/8525508c17f468c984ab8b0a6a87e3b8b0de0d59321112b2c3592b86d939914c",
+      "bytes_read": 753642,
+      "sha256": "8525508c17f468c984ab8b0a6a87e3b8b0de0d59321112b2c3592b86d939914c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/49/49d0f3c828a4a38e255b0458dfda84e8fb50dd570c3d4695a53da86213953118",
+      "bytes_read": 660028,
+      "sha256": "49d0f3c828a4a38e255b0458dfda84e8fb50dd570c3d4695a53da86213953118",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/97/9735a311aea0e37b8d32255b9f3746f4c132d4c6006afd32a9492628175cad40",
+      "bytes_read": 14616,
+      "sha256": "9735a311aea0e37b8d32255b9f3746f4c132d4c6006afd32a9492628175cad40",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/95/951d74881406670450ae62c47a46de24b83921b91845af2aea29178491075445",
+      "bytes_read": 1203890,
+      "sha256": "951d74881406670450ae62c47a46de24b83921b91845af2aea29178491075445",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/09/093b4147ed41ab5229254903f3f85b4664ac11e362ff3aa967b223fe6aa50705",
+      "bytes_read": 1222663,
+      "sha256": "093b4147ed41ab5229254903f3f85b4664ac11e362ff3aa967b223fe6aa50705",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a6/a6665fce36eb63e439be1b40c82f9d1822f922bb68b06ad55dfb5695e687e675",
+      "bytes_read": 675803,
+      "sha256": "a6665fce36eb63e439be1b40c82f9d1822f922bb68b06ad55dfb5695e687e675",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/0f/0f92c07a232df4223b7c2622666a0b029eb62c194ebc1426ddd2c89ce19e779e",
+      "bytes_read": 771903,
+      "sha256": "0f92c07a232df4223b7c2622666a0b029eb62c194ebc1426ddd2c89ce19e779e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/6f/6f4fff30113cd9b9e50f90b9aa3c85e2b11befd2dc918b4cb88608cb01c3b64a",
+      "bytes_read": 1101476,
+      "sha256": "6f4fff30113cd9b9e50f90b9aa3c85e2b11befd2dc918b4cb88608cb01c3b64a",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/52/52aff5e0c5a300a62c3028768d0a1a4e406c26bf303bb324a3e9ff30b6cb5f7a",
+      "bytes_read": 2680,
+      "sha256": "52aff5e0c5a300a62c3028768d0a1a4e406c26bf303bb324a3e9ff30b6cb5f7a",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e3/e33c7a8800288b3ad9299f3d700ddf25defe9ff504d7fee9d8e3ded3593bd829",
+      "bytes_read": 882615,
+      "sha256": "e33c7a8800288b3ad9299f3d700ddf25defe9ff504d7fee9d8e3ded3593bd829",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/51/51b64885981e7013189d62b0532bf2e565c7493e9c062a1331450e5432d39b53",
+      "bytes_read": 701320,
+      "sha256": "51b64885981e7013189d62b0532bf2e565c7493e9c062a1331450e5432d39b53",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/89/895b4e9d1cb66774d694ee446482d770c516cb33696a2a26477fa1d56193442d",
+      "bytes_read": 645879,
+      "sha256": "895b4e9d1cb66774d694ee446482d770c516cb33696a2a26477fa1d56193442d",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/70/704b4a834dcb3ffcb34c914864074bbb144729e2ab945c41ce9f84ecb0698c4f",
+      "bytes_read": 21985,
+      "sha256": "704b4a834dcb3ffcb34c914864074bbb144729e2ab945c41ce9f84ecb0698c4f",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/f2/f2cf4b20f87cb4f054fe9fc584e84ab4b59955871d4202d6f354ae6aea723a93",
+      "bytes_read": 678463,
+      "sha256": "f2cf4b20f87cb4f054fe9fc584e84ab4b59955871d4202d6f354ae6aea723a93",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/af/af94eae6ef36dd3f94005daa87d1f26942c9013e9855830740647f8e548d7497",
+      "bytes_read": 14650,
+      "sha256": "af94eae6ef36dd3f94005daa87d1f26942c9013e9855830740647f8e548d7497",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2f/2f429a623380ed210ed79f390987b41a5729d5f15a50ec7ce573dae1371f2f40",
+      "bytes_read": 1109176,
+      "sha256": "2f429a623380ed210ed79f390987b41a5729d5f15a50ec7ce573dae1371f2f40",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/7b/7b850a2648fe96c5c3b8feb357c684d985e025ced8d72f4ee3bfde51bf77ab41",
+      "bytes_read": 644992,
+      "sha256": "7b850a2648fe96c5c3b8feb357c684d985e025ced8d72f4ee3bfde51bf77ab41",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/f1/f13f551c04a63ac63fae03c962712e1875130a1b48becc15642332b523ccaaa6",
+      "bytes_read": 648074,
+      "sha256": "f13f551c04a63ac63fae03c962712e1875130a1b48becc15642332b523ccaaa6",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/6e/6e8971179ad9459a738794566504732a06075293abe89e4772dca83a7c023733",
+      "bytes_read": 255478,
+      "sha256": "6e8971179ad9459a738794566504732a06075293abe89e4772dca83a7c023733",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/23/23ed247ec45c981b3b2ccba4cf46cb957078238770789bc4ae08e5e6fd348a77",
+      "bytes_read": 691158,
+      "sha256": "23ed247ec45c981b3b2ccba4cf46cb957078238770789bc4ae08e5e6fd348a77",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/1a/1a5e17ae3765750e59f70749c7c3eb08b5e7425b262d07da31eb516ba507df5c",
+      "bytes_read": 76155,
+      "sha256": "1a5e17ae3765750e59f70749c7c3eb08b5e7425b262d07da31eb516ba507df5c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d5/d5f25d15a68cc4d02e3839b5bb7b6aecc7739b129df6e27542810edd32c2cae9",
+      "bytes_read": 60403,
+      "sha256": "d5f25d15a68cc4d02e3839b5bb7b6aecc7739b129df6e27542810edd32c2cae9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/51/519d93161d77bcfd1248bd13025e6ff3042d5a5c4b795b9de9d18a77dba7e45a",
+      "bytes_read": 650531,
+      "sha256": "519d93161d77bcfd1248bd13025e6ff3042d5a5c4b795b9de9d18a77dba7e45a",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/71/715e440f4ca1ef590536d5243906047c054e92c9c230c644450b5ccdf7d3a6d0",
+      "bytes_read": 695011,
+      "sha256": "715e440f4ca1ef590536d5243906047c054e92c9c230c644450b5ccdf7d3a6d0",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d3/d34c7e37accb7d6f1ce4c9d83df24c886acdbdcdd7a56a6a2818160a2ad6fbd5",
+      "bytes_read": 1560056,
+      "sha256": "d34c7e37accb7d6f1ce4c9d83df24c886acdbdcdd7a56a6a2818160a2ad6fbd5",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/48/4867c131535417d249fbafdb5bcf69a6e6086aaee2840160b4537e54e58e3e04",
+      "bytes_read": 994401,
+      "sha256": "4867c131535417d249fbafdb5bcf69a6e6086aaee2840160b4537e54e58e3e04",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/75/75a2c86f305f479f839639d6abc0d9ae152c847e13049c03687789ddb56f81ad",
+      "bytes_read": 1565298,
+      "sha256": "75a2c86f305f479f839639d6abc0d9ae152c847e13049c03687789ddb56f81ad",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d0/d0e5fdd85fe5a2b4419e65219cfebc46b119efeb75ea335bc564a2d512afbc96",
+      "bytes_read": 653823,
+      "sha256": "d0e5fdd85fe5a2b4419e65219cfebc46b119efeb75ea335bc564a2d512afbc96",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/ad/ad1bfa653cd238e4811ee3d9b02c92baef2d84336b3281820385f108b9dfb5b1",
+      "bytes_read": 14742,
+      "sha256": "ad1bfa653cd238e4811ee3d9b02c92baef2d84336b3281820385f108b9dfb5b1",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/96/96c052fd6c53b8c94204a4421212cc6e30fae3e9cbe6c117408195fc650e8edb",
+      "bytes_read": 29568,
+      "sha256": "96c052fd6c53b8c94204a4421212cc6e30fae3e9cbe6c117408195fc650e8edb",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/96/96ecf01abbc4dea35c4e9ac27e5389de6e0d1f27008c5b48b922215272c2b150",
+      "bytes_read": 656747,
+      "sha256": "96ecf01abbc4dea35c4e9ac27e5389de6e0d1f27008c5b48b922215272c2b150",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c2/c219bc26635d503d1adee8854b4af30c7bcf2866c8ed79d5c4db5fd6c9696529",
+      "bytes_read": 667355,
+      "sha256": "c219bc26635d503d1adee8854b4af30c7bcf2866c8ed79d5c4db5fd6c9696529",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/95/95cacb4a169c219d08aa50165d2565617a092a11f58fff5d08e0a86a57c8a9c0",
+      "bytes_read": 654454,
+      "sha256": "95cacb4a169c219d08aa50165d2565617a092a11f58fff5d08e0a86a57c8a9c0",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/6b/6b9dbc410f8a6896056e3fbd40a584ac826f136d0fc3cd520283c3f8c93ceafa",
+      "bytes_read": 148927,
+      "sha256": "6b9dbc410f8a6896056e3fbd40a584ac826f136d0fc3cd520283c3f8c93ceafa",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/7b/7bf54dad46d4b0fea06a614dc3e74ea4b0d62950ebc694629893fbc51203dedf",
+      "bytes_read": 652624,
+      "sha256": "7bf54dad46d4b0fea06a614dc3e74ea4b0d62950ebc694629893fbc51203dedf",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e5/e5b9c826067fae31524c8e8b063e784a001ab5af5c6aa1394ce1f917c6430b1f",
+      "bytes_read": 1273994,
+      "sha256": "e5b9c826067fae31524c8e8b063e784a001ab5af5c6aa1394ce1f917c6430b1f",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/8a/8a51068da9c792665c6c1104f970f3f65496a1bf074b83d13dbbe6ab97883dcc",
+      "bytes_read": 21690,
+      "sha256": "8a51068da9c792665c6c1104f970f3f65496a1bf074b83d13dbbe6ab97883dcc",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/b6/b644fbb023aad4d52b716626202b9bd98721c7fff2353c0857b6fb0c60259b45",
+      "bytes_read": 647819,
+      "sha256": "b644fbb023aad4d52b716626202b9bd98721c7fff2353c0857b6fb0c60259b45",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a6/a6ee6292c3e3f96f8a72c2e760945df2dc95952df8742410ba9b1af8ed067707",
+      "bytes_read": 21916,
+      "sha256": "a6ee6292c3e3f96f8a72c2e760945df2dc95952df8742410ba9b1af8ed067707",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c8/c88bf1ae5f86bf4955a24ddb48a3e4c023aedace1f2b8e159e23c0f2e6f6096e",
+      "bytes_read": 671035,
+      "sha256": "c88bf1ae5f86bf4955a24ddb48a3e4c023aedace1f2b8e159e23c0f2e6f6096e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/60/60f4aefcc3260aeb1fe45b78f21eb0c054e94f9cfba22a66d85aa7656f0d91eb",
+      "bytes_read": 1282243,
+      "sha256": "60f4aefcc3260aeb1fe45b78f21eb0c054e94f9cfba22a66d85aa7656f0d91eb",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/f7/f7be2109408eccceb871503cb3af7c4cf15e4852e62d5dd7a955efc6d8532c80",
+      "bytes_read": 1273994,
+      "sha256": "f7be2109408eccceb871503cb3af7c4cf15e4852e62d5dd7a955efc6d8532c80",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/53/5335d6823186538c181a89662ea102d57f23e1d6aea3a67a2d3d126ae3a16af9",
+      "bytes_read": 40668,
+      "sha256": "5335d6823186538c181a89662ea102d57f23e1d6aea3a67a2d3d126ae3a16af9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/61/61e1f722f6679d1ef5116a835d9f4c140c6d2636a6090bee233374da85df0306",
+      "bytes_read": 1300481,
+      "sha256": "61e1f722f6679d1ef5116a835d9f4c140c6d2636a6090bee233374da85df0306",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/43/43b93d025ab9aa6d58e9190dbeb333318ad91a5e10575fb9948a9db9454ede94",
+      "bytes_read": 652624,
+      "sha256": "43b93d025ab9aa6d58e9190dbeb333318ad91a5e10575fb9948a9db9454ede94",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/25/25d8197f1b362a5fb18ded45cb5afef32652ea763697797ea608f7ccb9ece1b1",
+      "bytes_read": 748664,
+      "sha256": "25d8197f1b362a5fb18ded45cb5afef32652ea763697797ea608f7ccb9ece1b1",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/17/17bb38cb245ba0b29950478206b4db763cfcdfa88d9e5133f512867d7ab9152e",
+      "bytes_read": 654216,
+      "sha256": "17bb38cb245ba0b29950478206b4db763cfcdfa88d9e5133f512867d7ab9152e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e7/e7cead1e6cf79ee8f1b1a4c3f0d4edc2a4c064e71dd1ce3812aeba6d37fdd3f2",
+      "bytes_read": 644991,
+      "sha256": "e7cead1e6cf79ee8f1b1a4c3f0d4edc2a4c064e71dd1ce3812aeba6d37fdd3f2",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/32/3220a330836b8ec3228d931b8ed45fb703aa95235de6d700c861c8f7538fead9",
+      "bytes_read": 540518,
+      "sha256": "3220a330836b8ec3228d931b8ed45fb703aa95235de6d700c861c8f7538fead9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c5/c5eccabc7376b207538895996dcfad6117a976c095ed9c81f4fe581e66e89c5e",
+      "bytes_read": 646191,
+      "sha256": "c5eccabc7376b207538895996dcfad6117a976c095ed9c81f4fe581e66e89c5e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/fa/fa744f2511f2489a97f5636126cb13f26e22533b4cf20fd48f3037d8816381a5",
+      "bytes_read": 1287255,
+      "sha256": "fa744f2511f2489a97f5636126cb13f26e22533b4cf20fd48f3037d8816381a5",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a0/a0b80193146f96f051005dbf4daa9a046461efc18d5d429e87f2629684a3f641",
+      "bytes_read": 656747,
+      "sha256": "a0b80193146f96f051005dbf4daa9a046461efc18d5d429e87f2629684a3f641",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/9f/9f9c1191f99ef54d1346c261fc17dae5d25eed78df0a57f4bdee753fc8845eea",
+      "bytes_read": 39089,
+      "sha256": "9f9c1191f99ef54d1346c261fc17dae5d25eed78df0a57f4bdee753fc8845eea",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/9b/9b3ed30fa3aaa708720f4cacc42baed2045b5467620caf5af4aa2b0cde476764",
+      "bytes_read": 689667,
+      "sha256": "9b3ed30fa3aaa708720f4cacc42baed2045b5467620caf5af4aa2b0cde476764",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/a8/a83bc5275558489d2c4e8ec67b1956aaa7349b1be477c29369e46891108a4582",
+      "bytes_read": 1247527,
+      "sha256": "a83bc5275558489d2c4e8ec67b1956aaa7349b1be477c29369e46891108a4582",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/01/01290b376d050dc867141b03305e7720a2c17e0e8c5f7970104772bd461ba655",
+      "bytes_read": 1203658,
+      "sha256": "01290b376d050dc867141b03305e7720a2c17e0e8c5f7970104772bd461ba655",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/6f/6f887f4a02015d6051816527a217e50e9a762397bff9cb2143841ae84068a1c3",
+      "bytes_read": 1254137,
+      "sha256": "6f887f4a02015d6051816527a217e50e9a762397bff9cb2143841ae84068a1c3",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/fc/fc779720cdd66ead21b1e90766a1eed9f62b08603ecc9a9d4d62230e276f84af",
+      "bytes_read": 940,
+      "sha256": "fc779720cdd66ead21b1e90766a1eed9f62b08603ecc9a9d4d62230e276f84af",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/24/24759761dbdd307109b856c16649021865dbef98f127e21ca089f3e0c8296f97",
+      "bytes_read": 673304,
+      "sha256": "24759761dbdd307109b856c16649021865dbef98f127e21ca089f3e0c8296f97",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e6/e6ff07757daa3d8c0b81b021d068786957ddefe76e777393fd6c508d7e1219b9",
+      "bytes_read": 673395,
+      "sha256": "e6ff07757daa3d8c0b81b021d068786957ddefe76e777393fd6c508d7e1219b9",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/88/886fa9b8831279937bdc04f9d2f9058641eda5a5ad6b5f01030d73821644b0c0",
+      "bytes_read": 660028,
+      "sha256": "886fa9b8831279937bdc04f9d2f9058641eda5a5ad6b5f01030d73821644b0c0",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/2b/2b6ffbf3578316616c96883f7d846b747bdce1892b313229be3998d863bef491",
+      "bytes_read": 753642,
+      "sha256": "2b6ffbf3578316616c96883f7d846b747bdce1892b313229be3998d863bef491",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/bd/bdc7afe23b7892c0cd715ba3651523734ff3eecba325286028573a1f39fcb194",
+      "bytes_read": 644991,
+      "sha256": "bdc7afe23b7892c0cd715ba3651523734ff3eecba325286028573a1f39fcb194",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/09/092999a0a6e3f632f7c533e14bef1e74a45495a870264586d0a7c1ba00db33a7",
+      "bytes_read": 174135,
+      "sha256": "092999a0a6e3f632f7c533e14bef1e74a45495a870264586d0a7c1ba00db33a7",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/66/66745b049d797d2018c7d07b52e4e9fea8d5de797b224e67583d42c963b2cf8b",
+      "bytes_read": 645622,
+      "sha256": "66745b049d797d2018c7d07b52e4e9fea8d5de797b224e67583d42c963b2cf8b",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/48/489f0863fffa15a55f95e9d48ea893d5ce420e8f1e9cb20c90940c685592e315",
+      "bytes_read": 663880,
+      "sha256": "489f0863fffa15a55f95e9d48ea893d5ce420e8f1e9cb20c90940c685592e315",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/24/24b56d32817ad6c6ff68f820c90db1e8d72320fd0fc0b9ed3fbe1a9281e841f2",
+      "bytes_read": 688709,
+      "sha256": "24b56d32817ad6c6ff68f820c90db1e8d72320fd0fc0b9ed3fbe1a9281e841f2",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/29/2939a10fc2dd4270140e4bab17a9d762b8da9fc1c891cdd047feb6b3fd4f9d4c",
+      "bytes_read": 969541,
+      "sha256": "2939a10fc2dd4270140e4bab17a9d762b8da9fc1c891cdd047feb6b3fd4f9d4c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/d8/d8aa88d8247cc4ec023a5b97e2ec86b36e017297cae98bf2e53913d51c53f62e",
+      "bytes_read": 677515,
+      "sha256": "d8aa88d8247cc4ec023a5b97e2ec86b36e017297cae98bf2e53913d51c53f62e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/84/8488d8b9a9467024ac1d1f224cd2036c062588a2461df734e7ddf43bb8942544",
+      "bytes_read": 691633,
+      "sha256": "8488d8b9a9467024ac1d1f224cd2036c062588a2461df734e7ddf43bb8942544",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c9/c90db7ff95f392e7a957d1c18f764cae6ed4fb4a8cf5f0ed2a20f953042672f5",
+      "bytes_read": 143191,
+      "sha256": "c90db7ff95f392e7a957d1c18f764cae6ed4fb4a8cf5f0ed2a20f953042672f5",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/b5/b579ef90b3663fad8376ed1d2712461bac2044fa14c9dea9ecba7ef6ea941fca",
+      "bytes_read": 1108411,
+      "sha256": "b579ef90b3663fad8376ed1d2712461bac2044fa14c9dea9ecba7ef6ea941fca",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/bd/bd6407b37be504cae737c99cbe704a9566aabfe451b967e7c4b44b8eb7eef371",
+      "bytes_read": 730937,
+      "sha256": "bd6407b37be504cae737c99cbe704a9566aabfe451b967e7c4b44b8eb7eef371",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/01/013e7b2a6bb799241ef4a36e55b6c0f1c03e61578c6b8071f8d124466606a9a0",
+      "bytes_read": 653003,
+      "sha256": "013e7b2a6bb799241ef4a36e55b6c0f1c03e61578c6b8071f8d124466606a9a0",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/ee/ee57a1f3a96a890a9eb2e355f1612f55f2ebbf877d12cee6a4c4098080e1a28a",
+      "bytes_read": 680720,
+      "sha256": "ee57a1f3a96a890a9eb2e355f1612f55f2ebbf877d12cee6a4c4098080e1a28a",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/37/379a9f001a1537d3162c852c2c504d29a4451e78e97b31ed87eca57bf0da4551",
+      "bytes_read": 1222029,
+      "sha256": "379a9f001a1537d3162c852c2c504d29a4451e78e97b31ed87eca57bf0da4551",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/cd/cdb6c1b85573cdb5d2517fbf15f5cdfb3fc08509652e96e0e3473947d0a5faf3",
+      "bytes_read": 648764,
+      "sha256": "cdb6c1b85573cdb5d2517fbf15f5cdfb3fc08509652e96e0e3473947d0a5faf3",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3e/3ec3836268d289b6ac103db6b10ac4950292f535398682649c8a25ff378092bf",
+      "bytes_read": 676240,
+      "sha256": "3ec3836268d289b6ac103db6b10ac4950292f535398682649c8a25ff378092bf",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/11/110c65f7a9296ee3f51bcfbc21347137a20ccebca004366e9e6641544e528246",
+      "bytes_read": 992099,
+      "sha256": "110c65f7a9296ee3f51bcfbc21347137a20ccebca004366e9e6641544e528246",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/c2/c2366f6adafa97708eb22dde3b16b561449b315a8a0815eec065ec240f125dac",
+      "bytes_read": 1195466,
+      "sha256": "c2366f6adafa97708eb22dde3b16b561449b315a8a0815eec065ec240f125dac",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/b9/b9e9c9dd236dad4be6d702f9eff218bd0556a7745ef8409af0bf48aa14371b32",
+      "bytes_read": 1102329,
+      "sha256": "b9e9c9dd236dad4be6d702f9eff218bd0556a7745ef8409af0bf48aa14371b32",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/69/69648de75742dcc07ee9989a6ecb4c170303ea354f85e7570055635e1f133dc8",
+      "bytes_read": 1276443,
+      "sha256": "69648de75742dcc07ee9989a6ecb4c170303ea354f85e7570055635e1f133dc8",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/83/83d0c2dd527dcffbbac8661047bd26846756dabd550ff6239850ab38a8faaede",
+      "bytes_read": 646346,
+      "sha256": "83d0c2dd527dcffbbac8661047bd26846756dabd550ff6239850ab38a8faaede",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/17/17f5eda4a9a9d60d14918941c98a5c49579f9a8dde2b8e53f7e1bbd7a76bc0b0",
+      "bytes_read": 15206,
+      "sha256": "17f5eda4a9a9d60d14918941c98a5c49579f9a8dde2b8e53f7e1bbd7a76bc0b0",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/23/23979ae84258a6b8cb3018b7eb1c484fb4a37b1a8919a8c834987e8c9245f45c",
+      "bytes_read": 648104,
+      "sha256": "23979ae84258a6b8cb3018b7eb1c484fb4a37b1a8919a8c834987e8c9245f45c",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/66/6649f1b0920ff56e41c6b0392be5cc1a48827f3e2b966bbccb53c769237470f2",
+      "bytes_read": 1261890,
+      "sha256": "6649f1b0920ff56e41c6b0392be5cc1a48827f3e2b966bbccb53c769237470f2",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/b4/b48d7d64721b0f3012710f23ed7b42c4b4e19c35bbde1ea2e9f2f5a437d7ffe5",
+      "bytes_read": 1292067,
+      "sha256": "b48d7d64721b0f3012710f23ed7b42c4b4e19c35bbde1ea2e9f2f5a437d7ffe5",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/47/47a650f77e9d5ded56010bd57019c224946b954edd3a85d636f80de364029686",
+      "bytes_read": 644991,
+      "sha256": "47a650f77e9d5ded56010bd57019c224946b954edd3a85d636f80de364029686",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/15/156607c879e9c576632f3028659144c077a303d99e1c4b39a614b18e8ad9a790",
+      "bytes_read": 72,
+      "sha256": "156607c879e9c576632f3028659144c077a303d99e1c4b39a614b18e8ad9a790",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/22/2254ba27bd60640ae75092f47df7e3d4a4d0d15385bbd887f723b9ecf645957e",
+      "bytes_read": 1044456,
+      "sha256": "2254ba27bd60640ae75092f47df7e3d4a4d0d15385bbd887f723b9ecf645957e",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/ca/ca9b55970519c47af1a2986e8ad2976f9d3c333957af7c877b847cde53406c84",
+      "bytes_read": 647740,
+      "sha256": "ca9b55970519c47af1a2986e8ad2976f9d3c333957af7c877b847cde53406c84",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/f7/f7878b2efa3096bdb824879e3afe49086c886615c42976460e990f472a933c27",
+      "bytes_read": 1359151,
+      "sha256": "f7878b2efa3096bdb824879e3afe49086c886615c42976460e990f472a933c27",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/00/0062175728c2c7e23addc679480bc2d74551cce7fc5f5a2053a6465a00d24e52",
+      "bytes_read": 1293414,
+      "sha256": "0062175728c2c7e23addc679480bc2d74551cce7fc5f5a2053a6465a00d24e52",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/e7/e7814bf9b44f7082c3dfd66680dd32b5b12b8acd3633af2c59ff2068b326817a",
+      "bytes_read": 668714,
+      "sha256": "e7814bf9b44f7082c3dfd66680dd32b5b12b8acd3633af2c59ff2068b326817a",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/6e/6eee544ed119b2c440b091dd3c26c3b29df12f6a2278e6ecf40e303dee5967a2",
+      "bytes_read": 644991,
+      "sha256": "6eee544ed119b2c440b091dd3c26c3b29df12f6a2278e6ecf40e303dee5967a2",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/6f/6f399446055a153d5ee5c6a87265577d25b53e6f8f68bc225d30440c601eca2b",
+      "bytes_read": 1298522,
+      "sha256": "6f399446055a153d5ee5c6a87265577d25b53e6f8f68bc225d30440c601eca2b",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/3b/3b129dcc16afea652cf0523ff537dd63da7cf882cf3e078ae45ef77255f60916",
+      "bytes_read": 673304,
+      "sha256": "3b129dcc16afea652cf0523ff537dd63da7cf882cf3e078ae45ef77255f60916",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/b1/b112e61ca61da01198699d27eff592e8eff93cbfbf67d150f84192b755cc5d26",
+      "bytes_read": 408,
+      "sha256": "b112e61ca61da01198699d27eff592e8eff93cbfbf67d150f84192b755cc5d26",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/72/72280bdeac8ce8e7bf414881ad0562e8c34d9ef8d1c4e607975598c7a86b0469",
+      "bytes_read": 659439,
+      "sha256": "72280bdeac8ce8e7bf414881ad0562e8c34d9ef8d1c4e607975598c7a86b0469",
+      "passed": true
+    },
+    {
+      "key": "etl4/objects/sha256/08/08d00c4b91a216b46aa948bc712e7cc24c093e5c30cf055747766ca2523e8e23",
+      "bytes_read": 1371520,
+      "sha256": "08d00c4b91a216b46aa948bc712e7cc24c093e5c30cf055747766ca2523e8e23",
+      "passed": true
+    }
+  ],
+  "finished_at": "2026-10-10T17:12:43.092063+00:00",
+  "all_passed": true,
+  "bytes_read": 142084717
+}

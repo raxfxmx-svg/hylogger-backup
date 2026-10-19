@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:18.671640+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "21_verify_spectral_bindings.py",
+  "code_sha256": "e2b07a9901809500084aaca9d81888b505c57813cc974a81640a3461292f673a",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0010383999906480312,
+  "finished_at": "2026-09-28T05:19:18.671640+00:00"
+}

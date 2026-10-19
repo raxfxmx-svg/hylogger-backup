@@ -1,0 +1,56 @@
+"""Import media revisions from a sealed package; publish after independent validation."""
+
+from pathlib import Path
+from _db_common import ROOT, LOCK_KEY, connection, assert_schema, main_guard, read, report
+from _media_common import require, save_stage
+from _media_import import prepare_package, import_media, package_step, check_package
+from _publication import stage_release
+from _settings import StepParser
+
+
+def main():
+    parser = StepParser()
+    parser.add_argument("--package", type=Path, help='Existing sealed package directory; supports reruns without the media work directory')
+    args = parser.parse_args()
+    if args.package:
+        destination = args.package.resolve()
+        manifest = read(destination / "manifest.json")
+        key = destination.name
+        check_package(destination, manifest)
+    else:
+        key, destination, manifest = prepare_package()
+    source = package_step(destination, 20)
+    results = []
+    with connection() as conn:
+        assert_schema(conn)
+        require(
+            conn.execute("SELECT pg_try_advisory_lock(%s) ok", (LOCK_KEY,)).fetchone()["ok"],
+            "Another import is active",
+        )
+        try:
+            with conn.transaction():
+                for unit in source["datasets"]:
+                    print(f"Import media {unit['hole_id']}", flush=True)
+                    results.append(import_media(conn, unit, key, destination, manifest))
+                release = stage_release(
+                    conn,
+                    results,
+                    "local_media_v2",
+                    {"source_release_id": source["source_release_id"]},
+                )
+        finally:
+            conn.execute("SELECT pg_advisory_unlock(%s)", (LOCK_KEY,))
+    staged = {
+        "status": "staged",
+        "release_id": release,
+        "datasets": results,
+        "media_package_sha256": key,
+        "package_directory": destination.relative_to(ROOT).as_posix(),
+        "previous_release_id": source["source_release_id"],
+    }
+    save_stage(28, staged)
+    report("28_media_import.json", staged)
+
+
+if __name__ == "__main__":
+    main_guard(main)

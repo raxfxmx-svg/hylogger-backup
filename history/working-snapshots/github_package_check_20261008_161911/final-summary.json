@@ -1,0 +1,8 @@
+{
+  "package_files": 72,
+  "copied_files_match_source": 65,
+  "offline_tests_passed_after_environment_retry": 179,
+  "resolved_dependency_count": 20,
+  "aws_sdk_interface_check": "passed",
+  "database_and_aws_operations_performed": false
+}

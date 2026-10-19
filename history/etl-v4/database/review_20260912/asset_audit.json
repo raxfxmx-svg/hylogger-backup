@@ -1,0 +1,172 @@
+{
+  "recorded_at": "2026-09-12T20:11:07.2596038+08:00",
+  "scope": "Read-only local verification of every unique (root_key, backend, object_key) in deployment_asset_manifest.json. Actual local file existence, byte size and SHA256 were checked in this review session. No live database or AWS contents were audited.",
+  "manifest_relative_to_etl4": "database/reports/deployment_asset_manifest.json",
+  "manifest_sha256": "925363ad6f77dff42a0be898c27608c5b8526b8c946bfc8c9e3ff50fad8fc388",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "schema_sha256": "e8840cb822ad3006064c93c8fb8e69bfbd7afe46697234e6d1f77eb4972fb367",
+  "asset_records": 3042,
+  "location_records": 3042,
+  "unique_file_count": 2810,
+  "total_bytes": 2400546756,
+  "by_extension": [
+    {
+      "extension": ".csv",
+      "file_count": 497,
+      "byte_size": 775703947
+    },
+    {
+      "extension": ".f32",
+      "file_count": 8,
+      "byte_size": 819799776
+    },
+    {
+      "extension": ".html",
+      "file_count": 6,
+      "byte_size": 12856
+    },
+    {
+      "extension": ".java",
+      "file_count": 4,
+      "byte_size": 111376
+    },
+    {
+      "extension": ".jpg",
+      "file_count": 249,
+      "byte_size": 4889146
+    },
+    {
+      "extension": ".json",
+      "file_count": 159,
+      "byte_size": 30458202
+    },
+    {
+      "extension": ".jsonl",
+      "file_count": 5,
+      "byte_size": 244962153
+    },
+    {
+      "extension": ".npz",
+      "file_count": 5,
+      "byte_size": 1386965
+    },
+    {
+      "extension": ".parquet",
+      "file_count": 507,
+      "byte_size": 488295090
+    },
+    {
+      "extension": ".png",
+      "file_count": 1364,
+      "byte_size": 34922708
+    },
+    {
+      "extension": ".txt",
+      "file_count": 6,
+      "byte_size": 4537
+    }
+  ],
+  "by_asset_kind_and_representation": [
+    {
+      "asset_kind": "core_row_image",
+      "representation": "canonical",
+      "file_count": 1361,
+      "byte_size": 30846972
+    },
+    {
+      "asset_kind": "image",
+      "representation": "raw",
+      "file_count": 254,
+      "byte_size": 4900311
+    },
+    {
+      "asset_kind": "media_evidence",
+      "representation": "evidence",
+      "file_count": 58,
+      "byte_size": 25323490
+    },
+    {
+      "asset_kind": "metadata",
+      "representation": "raw",
+      "file_count": 70,
+      "byte_size": 906235
+    },
+    {
+      "asset_kind": "processing_evidence",
+      "representation": "evidence",
+      "file_count": 50,
+      "byte_size": 9808782
+    },
+    {
+      "asset_kind": "profile",
+      "representation": "canonical",
+      "file_count": 5,
+      "byte_size": 50445596
+    },
+    {
+      "asset_kind": "profile",
+      "representation": "raw",
+      "file_count": 5,
+      "byte_size": 244962153
+    },
+    {
+      "asset_kind": "sample_axis",
+      "representation": "canonical",
+      "file_count": 5,
+      "byte_size": 2853390
+    },
+    {
+      "asset_kind": "scalar",
+      "representation": "canonical",
+      "file_count": 497,
+      "byte_size": 434996104
+    },
+    {
+      "asset_kind": "scalar",
+      "representation": "raw",
+      "file_count": 497,
+      "byte_size": 775703947
+    },
+    {
+      "asset_kind": "spectral",
+      "representation": "raw",
+      "file_count": 8,
+      "byte_size": 819799776
+    }
+  ],
+  "by_storage_root": [
+    {
+      "root_key": "etl4",
+      "backend": "local",
+      "file_count": 2810,
+      "byte_size": 2400546756
+    }
+  ],
+  "checks": {
+    "performed_in_current_review_session": true,
+    "local_file_existence": "pass",
+    "local_byte_size": "pass",
+    "local_sha256": "pass",
+    "same_object_key_hash_consistency": "pass",
+    "missing_files": [],
+    "hash_mismatches": [],
+    "size_mismatches": [],
+    "object_key_hash_conflicts": [],
+    "aws_remote_verification_performed": false,
+    "live_database_verification_performed": false
+  },
+  "notes": [
+    "All 3042 manifest locations use backend=local, root_key=etl4, access_status=verified_local.",
+    "There are 2810 unique physical paths because multiple asset identities can reference the same path.",
+    "1364 PNG files comprise 1361 formal core-row images and 3 other PNG evidence/check images.",
+    "Counts by asset_kind/representation deduplicate identical storage paths before grouping.",
+    "The report does not claim original scientific source values were re-audited."
+  ],
+  "backup": {
+    "relative_to_etl4": "database/backups/etl4_db_review_fd02659c-dc3d-52ea-a8eb-c032b91e7624_20260908T231217Z.dump",
+    "bytes": 10240368,
+    "actual_sha256": "cb6a405cfd65fc51f6cdbfa6c95bcaa8630c196b9add29f38abc7de282848bab",
+    "matches_latest_backup_pointer": true,
+    "content_not_included_in_asset_file_total": true
+  }
+}

@@ -1,0 +1,12 @@
+.venv/
+runtime/
+reports/
+backups/
+__pycache__/
+api/__pycache__/
+tests/__pycache__/
+.env
+media_work/
+media_releases/
+media_evidence/
+multi_work/

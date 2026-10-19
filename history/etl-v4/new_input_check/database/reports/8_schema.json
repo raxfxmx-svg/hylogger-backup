@@ -1,0 +1,7 @@
+{
+  "postgis": "POSTGIS=\"3.6.2 3.6.2\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.14.1dev-CAPI-1.20.4\" PROJ=\"8.2.1 NETWORK_ENABLED=OFF URL_ENDPOINT=https://cdn.proj.org USER_WRITABLE_DIRECTORY=C:\\Users\\USER\\AppData DATABASE_PATH=C:\\Program Files\\PostgreSQL\\17\\share\\contrib\\postgis-3.6\\proj\\proj.db\" (compiled against PROJ 8.2.1) LIBXML=\"2.12.5\" LIBJSON=\"0.12\" LIBPROTOBUF=\"1.2.1\" WAGYU=\"0.5.0 (Internal)\"",
+  "recorded_at": "2026-09-29T04:06:24.846422+00:00",
+  "schema_sha256": "c54652c8be1cf82d7f90f1bcca7ac196661c9d444311f5c3ed51a24f3c78ad66",
+  "status": "passed",
+  "table_count": 39
+}

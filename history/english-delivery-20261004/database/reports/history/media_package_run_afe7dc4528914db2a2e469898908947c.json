@@ -1,0 +1,53 @@
+{
+  "code_sha256": "e0d89fc233ed78399b09b071980b3f233c07d7b04afe2558e207dfd4aeb55582",
+  "datasets": {
+    "15ceec94-a908-5550-adae-ca4b4494b762": {
+      "content_sha256": "fa7c2087cf1cfea2c12cc79c442910e06f0be088fe0a710feaf571a01374737f",
+      "input_key": "a116e23ad3daafca1b14c20051ebd1dd1cc6cc667b5189ced142fa1c0675259d",
+      "rule_version": "sample-media-v2"
+    },
+    "3dafb229-4f6d-51a4-83e6-9cbecacb4318": {
+      "content_sha256": "7a8e2b354ec3c243980a0f4f0ec06c9f7e98e383378194f8c41baf77ca7bd7e8",
+      "input_key": "299d93dc2427dd4b4ad10ae2b5f689946a71804675e2e210262ffce4e912ffa9",
+      "rule_version": "sample-media-v2"
+    },
+    "8110cd1e-3b13-5589-b013-fc16d3f51105": {
+      "content_sha256": "6175ac1b2e23d92fda974c92cc11133d55e0992b04471591cb64348f5f269606",
+      "input_key": "b9e0a352adf706e4d4a2673040c5b29697791aec6cbc6e10437fee77a8b876f9",
+      "rule_version": "sample-media-v2"
+    },
+    "8a3129ba-7d32-507b-b8fe-385ba208033f": {
+      "content_sha256": "98c3570830205f8936ae67356ac0ad8c59da90ced3f1da40b0c41cfe68e900e5",
+      "input_key": "28ae483c269431f2f22782501c8a325bc2540432a58a08a91a28400b3bf11eca",
+      "rule_version": "sample-media-v2"
+    },
+    "8e8c1311-0b5c-533d-862d-931be0914b3e": {
+      "content_sha256": "134a302ef5e63f45bc54cf41a605e5c154dcb1fe6eacee0e714cc17676d9aa7e",
+      "input_key": "54228de01e31933cd63f2087c6d4f1a58eb52e64fd27415e7f5db026dab1d82f",
+      "rule_version": "sample-media-v2"
+    },
+    "97bfea48-bed5-5488-99ee-52d4d5f3579b": {
+      "content_sha256": "d546ee67b5011b5a0b942a683a6a7c5020181cc9b3bc0e5bf308b75d47482c36",
+      "input_key": "f130d403f345b5bb7561187e300898797de9a26d93d1c0647c02debe4451f3ed",
+      "rule_version": "sample-media-v2"
+    },
+    "9dde95f1-20ea-5ef6-aeea-755566810632": {
+      "content_sha256": "ff3501d06664450215d7151dde4b682bc22da0fe3756f78f67a2f699e0e5e7f4",
+      "input_key": "a2b11c1aaa46e29140784a974f84c1e6e73ac9847b020b6328c278a65a1cb0b5",
+      "rule_version": "sample-media-v2"
+    },
+    "bccd5b0a-67fa-5411-9327-778ce8cf898f": {
+      "content_sha256": "83db89e6abd55ec068144b20a1efbbfe086430a400d567413e372a2e3a9d8b5b",
+      "input_key": "421d85e6b686b57cd7cef5aab6ef0b99cbbbd1f4418df39fd54ad90cbee4032a",
+      "rule_version": "sample-media-v2"
+    },
+    "d3c51d8a-3c91-553b-89dd-cee9e926979d": {
+      "content_sha256": "ab0cf8c0b51dbc9536dd66895693706877c6821370fd0859de9a099ebda5d585",
+      "input_key": "bc68973673286a9beae2027506fdf2cc8521f4c56401cc5e0533a91367852d30",
+      "rule_version": "sample-media-v2"
+    }
+  },
+  "package": "490361996abe54c4864e47d8253efb3940cb8e998070f81afe7de04738d8473a",
+  "recorded_at": "2026-10-03T19:56:58.504413+00:00",
+  "status": "passed"
+}

@@ -1,0 +1,22 @@
+{
+  "base_commit": "aacb5df1085e0ad1b4b8f1fef21b928ba91c5a6c",
+  "checkedAt": "2026-10-16T05:32:36.971Z",
+  "changed": [
+    "frontend/lib/api.js",
+    "frontend/components/HoleDetail.jsx",
+    "frontend/components/StripLog.jsx",
+    "frontend/components/CoreStripPanel.jsx",
+    "frontend/components/Hole3D.jsx",
+    "frontend/package.json"
+  ],
+  "added": [
+    "frontend/test/api-fixture.cjs",
+    "frontend/test/api.test.cjs",
+    "frontend/test/photo.test.cjs"
+  ],
+  "global_concurrency_and_failure_handling_unchanged": true,
+  "persistent_cache_absent": true,
+  "mineral_group_and_INVALID_fixes_preserved": true,
+  "patch_apply_check": "passed",
+  "patch_sha256": "6e68a1b198b935f450cba68fb5d9bf28d9f88a50370cb71d52588ac13adfe6ff"
+}

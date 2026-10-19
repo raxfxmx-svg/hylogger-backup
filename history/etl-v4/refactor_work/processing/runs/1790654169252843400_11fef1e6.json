@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-29T03:56:09.222601+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "1_inventory.py",
+  "code_sha256": "14b365acbb40b405a5ab43945a4856854c78d735f6336b1fc61a1acfcedd7b54",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0010936000035144389,
+  "finished_at": "2026-09-29T03:56:09.252843+00:00"
+}

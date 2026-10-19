@@ -1,0 +1,24 @@
+[
+  {
+    "dataset_id": "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+    "dataset_name": "12CADD001",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/12CADD001",
+    "tray_id": "380a7230-ba4e-447c-8ea9-52241a3f096",
+    "section_id": "39c3a0a2-5491-448b-89a1-0b7a1146036",
+    "domain_id": "3b0c91f5-4596-4eaa-8acf-c4814285616",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>12CADD001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Calingiri-Dasher</Project><Owner>GSWA</Owner><DrillDate>2012-01-01 10:10:20</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-31.031014</Latitude><Longitude>116.619853</Longitude><Azimuth>90.000000</Azimuth><Inclination>-55.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-24T00:00:00+08:00",
+    "created_date": "2015-01-13T00:00:00+08:00"
+  },
+  {
+    "dataset_id": "43057f8c-4268-40ef-aa3d-90aa56f13d1",
+    "dataset_name": "12CADD001_wedge",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/12CADD001",
+    "tray_id": "22895f25-3502-4b3a-a21e-21636fd1634",
+    "section_id": "c86865b9-f2c6-4cf6-a1db-31f8e7aa9f9",
+    "domain_id": "6caf20f0-f680-4794-9dfe-b828e417c47",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>12CADD001</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Calingiri</Project><Owner>GSWA</Owner><DrillDate>2014-10-08 14:45:13</DrillDate><ExecSumm>GSWA UWI: M0002159|WAMEX Report ID: A104278|Tectonic Unit: South West Terrane|250K Map Sheet: Perth SH50-14|100K Map Sheet:  Goomalling 2235|Archive Location: Perth Core Library|EIS Round: 9</ExecSumm><Datum>GDA94</Datum><Latitude>-31.031014</Latitude><Longitude>116.619853</Longitude><Azimuth>90.000000</Azimuth><Inclination>-55.000000</Inclination><RL>300.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-24T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  }
+]

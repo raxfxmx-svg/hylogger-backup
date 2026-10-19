@@ -1,0 +1,20 @@
+{
+  "changed_database_python_files": [
+    "20_audit_spectral_sources.py",
+    "28_import_media_revision.py",
+    "29_verify_media_grain.py",
+    "37_import_final_version.py",
+    "_final_import.py",
+    "_ingest.py",
+    "_media_common.py",
+    "_media_import.py",
+    "_media_reader.py",
+    "_media_verification.py",
+    "_prepared_inputs.py",
+    "_publication.py",
+    "_verification.py"
+  ],
+  "final_release": "aa9899e8-e81e-5f5a-b5a0-74818c50cb1c",
+  "original_business_hashes_unchanged": true,
+  "original_database_release_unchanged": "c8522bfa-7c4b-5886-a7b3-b002eea84f4d"
+}

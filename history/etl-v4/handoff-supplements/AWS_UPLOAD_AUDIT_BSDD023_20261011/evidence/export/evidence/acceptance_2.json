@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "assets_checked": 289,
+      "base_check": {
+        "asset_bytes_hashed": 0,
+        "assets_hashed": 0,
+        "chunks_compared": 160,
+        "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+        "hole_id": "BSDD023",
+        "images_compared": 15,
+        "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4",
+        "logs_compared": 99,
+        "samples_compared": 8040,
+        "status": "passed"
+      },
+      "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+      "hole_id": "BSDD023",
+      "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4",
+      "official_reference_spectra_compared": 20,
+      "row_count": 60,
+      "sample_count": 8040,
+      "sample_read_ms": [
+        41.19380000338424,
+        25.075800003833137,
+        25.99569999438245,
+        25.590299992472865,
+        34.96140000061132,
+        37.147399998502806
+      ],
+      "status": "passed"
+    }
+  ],
+  "content_sha256": "6c9c6b78b9d473750f5cff6a1228a51ce78a73dfebfd12679e0595d8b2bf6f4e",
+  "database": "etl4_bsdd023",
+  "dataset_contents": {
+    "6f167916-b51d-584a-84b2-3fbc4a8dcde8": {
+      "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+      "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4"
+    }
+  },
+  "datasets": [
+    {
+      "action": "inserted",
+      "axis_id": "5c40e59c-d9d2-5874-b199-30151328419b",
+      "dataset_id": "6f167916-b51d-584a-84b2-3fbc4a8dcde8",
+      "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+      "hole_id": "BSDD023",
+      "sample_count": 8040
+    }
+  ],
+  "export_evidence": {
+    "omitted": "example_selections: local read examples are not cloud asset addresses",
+    "source_report_sha256": "9f21271d760320d50ab93b82cf30ec5c41892aa82fe66420b539fce17d9be8c6"
+  },
+  "prepared_acceptances": [
+    {
+      "content_sha256": "dd31488a5c69870bf5bea19bc8233cba247b6baab7654898a163c530083b3d9f",
+      "package_sha256": "6362db0adfb06d7eaa0ee96e87d8449a852a6b943ef249e1d8992e8df6b4851e",
+      "report_path": "evidence/acceptance_1_6362db0adfb06d7eaa0ee96e87d8449a852a6b943ef249e1d8992e8df6b4851e.json"
+    }
+  ],
+  "release_id": "cfdf6f74-d76f-50fd-b83d-299c32b6e749",
+  "run_id": "a1c8d861-3b78-4c6b-b664-6b2084c7d8ef",
+  "stage": 2,
+  "status": "passed"
+}

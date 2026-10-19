@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "tested_at": "2026-09-13T04:42:20.623149+00:00",
+  "scope": "Isolated local PostgreSQL 17.4/PostGIS 3.6.2 restore using copied package files; no source database or AWS operations",
+  "checks": {
+    "empty_database_restore": true,
+    "nonempty_restore_refused": true,
+    "readonly_role_and_13_fixtures": true,
+    "portable_sample_scalar_and_image": true,
+    "six_sql_queries_executed": [
+      5,
+      1,
+      143,
+      126,
+      1,
+      2
+    ],
+    "eight_spectral_arrays_read": [
+      {
+        "hole": "05KCD001",
+        "region": "TIR",
+        "channels": 341
+      },
+      {
+        "hole": "05KCD001",
+        "region": "VSWIR",
+        "channels": 531
+      },
+      {
+        "hole": "07THD002",
+        "region": "VSWIR",
+        "channels": 531
+      },
+      {
+        "hole": "07THD002",
+        "region": "TIR",
+        "channels": 341
+      },
+      {
+        "hole": "07THD003",
+        "region": "VSWIR",
+        "channels": 531
+      },
+      {
+        "hole": "07THD003",
+        "region": "TIR",
+        "channels": 341
+      },
+      {
+        "hole": "09ATD015",
+        "region": "VSWIR",
+        "channels": 531
+      },
+      {
+        "hole": "09ATD019",
+        "region": "VSWIR",
+        "channels": 531
+      }
+    ],
+    "no_sender_local_config": true,
+    "isolated_test_server_stopped": true,
+    "s3_adapter_mock_tests": {
+      "upload_and_remote_hash": true,
+      "identical_object_not_overwritten": true,
+      "corruption_rejected": true,
+      "stale_success_receipt_invalidated": true,
+      "incomplete_receipt_registration_refused": true
+    }
+  },
+  "aws_account_tested": false,
+  "s3_transfer_tested_against_aws": false
+}

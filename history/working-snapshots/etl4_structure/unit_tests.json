@@ -1,0 +1,23 @@
+[
+  {
+    "folder": "etl4/processing/tests",
+    "pattern": "test_*.py",
+    "returncode": 0,
+    "elapsed_seconds": 1.0125166000216268,
+    "output": "............\r\n----------------------------------------------------------------------\r\nRan 12 tests in 0.755s\r\n\r\nOK\r\n"
+  },
+  {
+    "folder": "etl4/database/tests",
+    "pattern": "test_refactor.py",
+    "returncode": 0,
+    "elapsed_seconds": 0.7312749000266194,
+    "output": "Verify hole\r\nVerify hole\r\n.................\r\n----------------------------------------------------------------------\r\nRan 17 tests in 0.392s\r\n\r\nOK\r\n"
+  },
+  {
+    "folder": "etl4/database/tests",
+    "pattern": "test_code_structure.py",
+    "returncode": 0,
+    "elapsed_seconds": 0.4701447999686934,
+    "output": "Step 20: passed\r\nStep 20: passed\r\n  0 logs; 0 interpretation sets; 4 recorded issues\r\n........\r\n----------------------------------------------------------------------\r\nRan 8 tests in 0.155s\r\n\r\nOK\r\n"
+  }
+]

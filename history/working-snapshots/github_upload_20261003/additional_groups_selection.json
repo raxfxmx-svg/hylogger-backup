@@ -1,0 +1,69 @@
+{
+  "review-and-recovery": {
+    "entries": [
+      "etl4/database/13_audit_database.py",
+      "etl4/database/14_verify_database_backup.py",
+      "etl4/database/30_audit_media_database.py",
+      "etl4/database/36_backup_multi_dataset_database.py"
+    ],
+    "new_paths": [
+      "etl4/database/13_audit_database.py",
+      "etl4/database/14_verify_database_backup.py",
+      "etl4/database/29_verify_media_grain.py",
+      "etl4/database/30_audit_media_database.py",
+      "etl4/database/35_verify_multi_dataset_database.py",
+      "etl4/database/36_backup_multi_dataset_database.py",
+      "etl4/database/_media_tests.py",
+      "etl4/database/_multi_reader.py",
+      "etl4/database/_trial_support.py"
+    ],
+    "shared_paths": [
+      "etl4/_file_checks.py",
+      "etl4/_settings.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_db_files.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_media_common.py",
+      "etl4/database/_media_import.py",
+      "etl4/database/_media_manifest.py",
+      "etl4/database/_media_reader.py",
+      "etl4/database/_media_verification.py",
+      "etl4/database/_multi_common.py",
+      "etl4/database/_multi_db.py",
+      "etl4/database/_prepared_inputs.py",
+      "etl4/database/_publication.py",
+      "etl4/database/_run_reports.py",
+      "etl4/database/_schema_docs.py",
+      "etl4/database/_verification.py",
+      "etl4/processing/_etl_common.py"
+    ]
+  },
+  "cloud-batch-processing": {
+    "entries": [
+      "etl4/database/38_export_batch.py",
+      "etl4/database/39_upload_batch.py",
+      "etl4/database/40_merge_cloud_batch.py",
+      "etl4/database/41_cleanup_batch.py"
+    ],
+    "new_paths": [
+      "etl4/database/38_export_batch.py",
+      "etl4/database/39_upload_batch.py",
+      "etl4/database/40_merge_cloud_batch.py",
+      "etl4/database/41_cleanup_batch.py",
+      "etl4/database/_batch_files.py",
+      "etl4/handoff/tools/handoff.py"
+    ],
+    "shared_paths": [
+      "etl4/_file_checks.py",
+      "etl4/_settings.py",
+      "etl4/database/_db_common.py",
+      "etl4/database/_db_files.py",
+      "etl4/database/_ingest.py",
+      "etl4/database/_media_common.py",
+      "etl4/database/_media_manifest.py",
+      "etl4/database/_media_reader.py",
+      "etl4/database/_prepared_inputs.py",
+      "etl4/database/_run_reports.py"
+    ]
+  }
+}

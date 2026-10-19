@@ -1,0 +1,66 @@
+Normal preparation: A
+Automatic retry: A cases 02
+Automatic retry: A cases 02,06
+test_retry_keeps_prior_rules_when_a_later_failure_reveals_another_case (test_automatic_preparation.AutomaticPreparationTests.test_retry_keeps_prior_rules_when_a_later_failure_reveals_another_case) ... ok
+Normal preparation: A
+test_success_does_not_trigger_diagnosis (test_automatic_preparation.AutomaticPreparationTests.test_success_does_not_trigger_diagnosis) ... ok
+Normal preparation: A
+test_unresolved_problem_stops_without_retry_or_timeout (test_automatic_preparation.AutomaticPreparationTests.test_unresolved_problem_stops_without_retry_or_timeout) ... ok
+test_all_cuttings_produces_no_package (test_dataset_inputs.DatasetInputTests.test_all_cuttings_produces_no_package) ... ok
+Preparing BH01-Behemoth
+Preparing BH01-unnamed
+test_both_split_identities_are_distinct_and_dataset_ids_stay (test_dataset_inputs.DatasetInputTests.test_both_split_identities_are_distinct_and_dataset_ids_stay) ... ok
+Preparing Test1
+test_changed_retained_bytes_same_size_are_rejected (test_dataset_inputs.DatasetInputTests.test_changed_retained_bytes_same_size_are_rejected) ... ok
+Preparing Test1
+test_cross_dataset_image_reference_is_rejected (test_dataset_inputs.DatasetInputTests.test_cross_dataset_image_reference_is_rejected) ... ok
+Preparing Test1
+test_cuttings_removed_and_core_payloads_unchanged (test_dataset_inputs.DatasetInputTests.test_cuttings_removed_and_core_payloads_unchanged) ... ok
+1/1 Test1: routed 12
+Preparing Test1
+Test1: prepared
+test_failures_are_routed_to_new_handler_and_success_is_excluded (test_dataset_inputs.DatasetInputTests.test_failures_are_routed_to_new_handler_and_success_is_excluded) ... ok
+test_invalid_numeric_coordinates_are_rejected (test_dataset_inputs.DatasetInputTests.test_invalid_numeric_coordinates_are_rejected) ... ok
+Preparing Test1
+test_missing_excluded_payload_does_not_block_core (test_dataset_inputs.DatasetInputTests.test_missing_excluded_payload_does_not_block_core) ... ok
+Preparing Test1
+test_missing_retained_file_is_rejected (test_dataset_inputs.DatasetInputTests.test_missing_retained_file_is_rejected) ... ok
+Preparing Test1
+test_missing_selected_manifest_entry_is_rejected (test_dataset_inputs.DatasetInputTests.test_missing_selected_manifest_entry_is_rejected) ... ok
+Preparing BH01-Behemoth
+Preparing BH01-unnamed
+test_missing_source_coordinates_stop_only_the_affected_output (test_dataset_inputs.DatasetInputTests.test_missing_source_coordinates_stop_only_the_affected_output) ... ok
+test_modified_metadata_and_existing_output_are_rejected (test_dataset_inputs.DatasetInputTests.test_modified_metadata_and_existing_output_are_rejected) ... ok
+1/1 BH01: routed 13
+Preparing BH01-Behemoth
+Preparing BH01-unnamed
+BH01: prepared
+test_new_input_handler_can_replace_the_missing_legacy_membership_cache (test_dataset_inputs.DatasetInputTests.test_new_input_handler_can_replace_the_missing_legacy_membership_cache) ... ok
+test_official_membership_mismatch_is_rejected (test_dataset_inputs.DatasetInputTests.test_official_membership_mismatch_is_rejected) ... ok
+Preparing BH01-Behemoth
+Preparing BH01-unnamed
+test_one_corrupt_dataset_does_not_cancel_the_other_output (test_dataset_inputs.DatasetInputTests.test_one_corrupt_dataset_does_not_cancel_the_other_output) ... ok
+test_optional_override_cannot_borrow_another_sites_coordinates (test_dataset_inputs.DatasetInputTests.test_optional_override_cannot_borrow_another_sites_coordinates) ... ok
+test_path_escape_is_rejected (test_dataset_inputs.DatasetInputTests.test_path_escape_is_rejected) ... ok
+test_unknown_remaining_type_requires_review (test_dataset_inputs.DatasetInputTests.test_unknown_remaining_type_requires_review) ... ok
+test_duplicate_failure_rows_are_rejected (test_failure_routing.RoutingTests.test_duplicate_failure_rows_are_rejected) ... ok
+test_empty_failure_list_creates_no_processing_group (test_failure_routing.RoutingTests.test_empty_failure_list_creates_no_processing_group) ... ok
+1/1 bad: needs_review 01,02,06
+test_environment_error_does_not_enter_known_case (test_failure_routing.RoutingTests.test_environment_error_does_not_enter_known_case) ... ok
+1/1 bad: routed 01,02,06
+test_only_failed_holes_are_diagnosed_and_assigned_once (test_failure_routing.RoutingTests.test_only_failed_holes_are_diagnosed_and_assigned_once) ... ok
+1/1 bad: needs_review 01,02,06
+test_repeat_failure_is_not_sent_through_same_rules_forever (test_failure_routing.RoutingTests.test_repeat_failure_is_not_sent_through_same_rules_forever) ... ok
+test_running_batch_is_not_diagnosed (test_failure_routing.RoutingTests.test_running_batch_is_not_diagnosed) ... ok
+1/1 bad: routed 01,02,06
+1/1 bad: cases 01,02,06
+test_source_change_stops_before_processing (test_failure_routing.RoutingTests.test_source_change_stops_before_processing) ... ok
+1/1 bad: needs_review 
+test_unknown_error_stays_pending (test_failure_routing.RoutingTests.test_unknown_error_stays_pending) ... ok
+1/1 bad: routed 01,02,06
+test_wrong_group_and_successful_hole_are_rejected (test_failure_routing.RoutingTests.test_wrong_group_and_successful_hole_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.845s
+
+OK

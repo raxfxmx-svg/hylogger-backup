@@ -1,0 +1,13 @@
+[
+  {"ParameterKey":"CodeBucket","ParameterValue":"hyloggerdemo-000000000000-ap-southeast-2-an"},
+  {"ParameterKey":"CodeKey","ParameterValue":"deployments/hylogger-api/193f75b6bb7e0f0a11aba730e50529764e5199742a9e8d9f1f2035a1f5b5d795.zip"},
+  {"ParameterKey":"DataBucket","ParameterValue":"hyloggerdemo-000000000000-ap-southeast-2-an"},
+  {"ParameterKey":"DataPrefix","ParameterValue":"etl4/objects/sha256"},
+  {"ParameterKey":"DataRootKey","ParameterValue":"etl4_s3_a22098dedb6798558858"},
+  {"ParameterKey":"DatabaseHost","ParameterValue":"db.example.com"},
+  {"ParameterKey":"DatabaseResourceId","ParameterValue":"cluster-EXAMPLE"},
+  {"ParameterKey":"DatabaseName","ParameterValue":"etl4_core"},
+  {"ParameterKey":"DatabaseReader","ParameterValue":"etl4_reader"},
+  {"ParameterKey":"AllowedOrigin","ParameterValue":"https://app.example.com"},
+  {"ParameterKey":"PublicAccess","ParameterValue":"true"}
+]

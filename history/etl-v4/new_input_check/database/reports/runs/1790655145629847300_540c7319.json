@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-29T04:12:24.897865+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "20_audit_spectral_sources.py",
+  "code_sha256": "326f2e62979345ea8308a14eedd8fbcc147f18d34f1c677fa12bbebce0abb4c7",
+  "sha256_file_scans": 493,
+  "sha256_bytes_read": 274933724,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.7275074999779463,
+  "finished_at": "2026-09-29T04:12:25.629847+00:00"
+}

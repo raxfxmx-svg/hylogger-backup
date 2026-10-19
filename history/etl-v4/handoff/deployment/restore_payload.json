@@ -1,0 +1,12 @@
+{
+  "source_dump_sha256": "cb6a405cfd65fc51f6cdbfa6c95bcaa8630c196b9add29f38abc7de282848bab",
+  "sql_sha256": "d35f7eca1a95ab621aef06878be28061af9ccffc44e3a77eeae84f120adde1ac",
+  "gzip_sha256": "423cd5c87fa4b45b310ba39aaac3abc6750630cb88e1a7c37ed497bc2ed2f5ff",
+  "gzip_bytes": 9877649,
+  "export_options": [
+    "--schema=core",
+    "--no-owner",
+    "--no-acl"
+  ],
+  "note": "Derivative SQL export only. Original dump, migrations and scientific data are unchanged."
+}

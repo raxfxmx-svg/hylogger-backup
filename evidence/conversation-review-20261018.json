@@ -1,0 +1,138 @@
+{
+  "sources": [
+    {
+      "id": "C01",
+      "topic": "Correcting the first demonstration",
+      "dates": [
+        "2026-08-09"
+      ]
+    },
+    {
+      "id": "C02",
+      "topic": "Readable outputs and separate download/ETL entry points",
+      "dates": [
+        "2026-08-11"
+      ]
+    },
+    {
+      "id": "C03",
+      "topic": "Separate scalar tables and spectral matrices",
+      "dates": [
+        "2026-08-20",
+        "2026-08-21"
+      ]
+    },
+    {
+      "id": "C04",
+      "topic": "Image strips, prototype integration and metric definitions",
+      "dates": [
+        "2026-08-26",
+        "2026-09-16"
+      ]
+    },
+    {
+      "id": "C05",
+      "topic": "Explaining the hybrid database/file design",
+      "dates": [
+        "2026-08-27"
+      ]
+    },
+    {
+      "id": "C06",
+      "topic": "ETL4 semantics, sample-level media and dataset succession",
+      "dates": [
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-16",
+        "2026-09-24",
+        "2026-10-10"
+      ]
+    },
+    {
+      "id": "C07",
+      "topic": "Read-only cloud handoff and a teammate batch",
+      "dates": [
+        "2026-09-12",
+        "2026-09-13",
+        "2026-10-11"
+      ]
+    },
+    {
+      "id": "C08",
+      "topic": "Stable data identity, batch delivery and external exceptions",
+      "dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-05",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ]
+    },
+    {
+      "id": "C09",
+      "topic": "Connecting the team frontend to the deployed API",
+      "dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "id": "C10",
+      "topic": "Consolidating the source handoff",
+      "dates": [
+        "2026-10-08"
+      ]
+    },
+    {
+      "id": "C11",
+      "topic": "Case documentation and handler boundaries",
+      "dates": [
+        "2026-10-12"
+      ]
+    },
+    {
+      "id": "C12",
+      "topic": "Release mismatch diagnosis, rollback and anomaly display",
+      "dates": [
+        "2026-10-16"
+      ]
+    },
+    {
+      "id": "C13",
+      "topic": "Schematic depth views and overlapping scans",
+      "dates": [
+        "2026-09-20"
+      ]
+    },
+    {
+      "id": "C14",
+      "topic": "Aggregation placement and invalid classifications",
+      "dates": [
+        "2026-10-04"
+      ]
+    },
+    {
+      "id": "C15",
+      "topic": "Database-to-web responsibility boundaries",
+      "dates": [
+        "2026-10-03"
+      ]
+    },
+    {
+      "id": "C16",
+      "topic": "Mineral-enrichment proposal",
+      "dates": [
+        "2026-10-04"
+      ]
+    },
+    {
+      "id": "C17",
+      "topic": "Early role and scope definition",
+      "dates": [
+        "2026-08-14"
+      ]
+    }
+  ]
+}

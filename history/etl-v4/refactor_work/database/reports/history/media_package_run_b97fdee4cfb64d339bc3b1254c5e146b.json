@@ -1,0 +1,13 @@
+{
+  "code_sha256": "ff41578400570b3cadbe4588427f6fe51f311ec4c50275d4557cc45f08008a5e",
+  "datasets": {
+    "dataset": {
+      "content_sha256": "e5efa1af2f1855dfa5f9f6b89b9a0ead74d37c9a6655f60c7398e76214988cdc",
+      "input_key": "71f641582474d483aba13779998dd02410217fab88c68236edc712ca60c376b3",
+      "rule_version": "sample-media-v2"
+    }
+  },
+  "package": "5100634d5929c4a80fb3c5fcfb01fd1aa76f826106fa9e159dd8cbce0f1dd378",
+  "recorded_at": "2026-09-28T11:22:35.513648+00:00",
+  "status": "passed"
+}

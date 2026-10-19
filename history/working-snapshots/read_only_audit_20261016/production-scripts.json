@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://app.example.com/_next/static/chunks/fd9d1056-84041741536e19ff.js",
+    "file": "production-fd9d1056-84041741536e19ff.js",
+    "status": 200,
+    "sha256": "71ed963804cbd4b773b16a2e290fb534288140999cca4833a8ff300a9d72a9b1"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/23-e7c083a42be9606e.js",
+    "file": "production-23-e7c083a42be9606e.js",
+    "status": 200,
+    "sha256": "839d821426383cc0f978a6a20074e6f5524d23ad66f19bdb883f6874bca1cfce"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/main-app-6ee40ba051ead3b4.js",
+    "file": "production-main-app-6ee40ba051ead3b4.js",
+    "status": 200,
+    "sha256": "945f2427e76986eb9cbbe0197df5f8bc0e2db7c8700d1701002d0aaefad21ffd"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/138-3861d635c420c03d.js",
+    "file": "production-138-3861d635c420c03d.js",
+    "status": 200,
+    "sha256": "5600ae7e9efa1c0b90ac5ec79a675c9a3fc48e42590e1ae99a8c2df3b44d5935"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/657-89032f28979e9800.js",
+    "file": "production-657-89032f28979e9800.js",
+    "status": 200,
+    "sha256": "6b556ba9d4db735b23f101b9c9697968684f0eecd21c8f16e1d381cd0c1b9b95"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/app/page-a01b87c1dafbd6c6.js",
+    "file": "production-page-a01b87c1dafbd6c6.js",
+    "status": 200,
+    "sha256": "ac68740a1c76a38032f3006179bf2cc54e326ef50a8dfbbe5110e5b6dfb6fd62"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/app/layout-f0191dbeffb50603.js",
+    "file": "production-layout-f0191dbeffb50603.js",
+    "status": 200,
+    "sha256": "3d48f059896973311814eb8324523df45ffcc92bbbe2e7ec56afcb292adb2d3c"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+    "file": "production-polyfills-78c92fac7aa8fdd8.js",
+    "status": 200,
+    "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200"
+  },
+  {
+    "url": "https://app.example.com/_next/static/chunks/webpack-a4bc18e698ac7956.js",
+    "file": "production-webpack-a4bc18e698ac7956.js",
+    "status": 200,
+    "sha256": "fd1f85d5eb354707c67b3ddce1d2bf58612f25d10e0a0af9841d2816734ae01a"
+  }
+]

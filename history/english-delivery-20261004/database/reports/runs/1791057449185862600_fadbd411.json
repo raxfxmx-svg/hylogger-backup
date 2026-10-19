@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-03T19:57:03.363711+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "33_prepare_multi_dataset_media.py",
+  "code_sha256": "e9a4a81b8df0a80138ed1c88f3e6a4aef0b15ebb9ef713dd1831feade57d197f",
+  "sha256_file_scans": 3516,
+  "sha256_bytes_read": 89873912,
+  "same_check_cache_hits": 702,
+  "elapsed_seconds": 25.81897890000255,
+  "finished_at": "2026-10-03T19:57:29.185862+00:00"
+}

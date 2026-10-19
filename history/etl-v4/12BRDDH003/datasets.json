@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "9e2646b6-c507-4f3c-a7c9-031f9241d37",
+    "dataset_name": "12BRDDH003",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/12BRDDH003",
+    "tray_id": "0a48c987-e71c-4166-b07d-25580ab18ce",
+    "section_id": "49254375-978c-406b-a61a-e8881eba831",
+    "domain_id": "12a469ec-5d93-49d9-ba8c-166ae181459",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>12BRDDH003</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Dunnsville - Big Red prospect</Project><Owner>GSWA</Owner><DrillDate>2012-08-29 13:03:44</DrillDate><ExecSumm>GSWA UWI: M0001475|WAMEX Report ID: A96374|EIS Round 4|Commodity: Au</ExecSumm><Datum>GDA94</Datum><Latitude>-30.656781</Latitude><Longitude>120.800860</Longitude><Azimuth>90.000000</Azimuth><Inclination>-60.000000</Inclination><RL>414.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-07-19T00:00:00+08:00",
+    "created_date": "2020-04-01T00:00:00+08:00"
+  }
+]

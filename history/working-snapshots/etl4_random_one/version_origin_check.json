@@ -1,0 +1,68 @@
+{
+  "versions": [
+    {
+      "hole": "09ATRCD025",
+      "revision_id": "5cad2f02-d51f-5808-a6a7-f58fab182df3",
+      "derived_from": null,
+      "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+      "samples": 22780,
+      "spectra": 0,
+      "image_rows": 0
+    },
+    {
+      "hole": "09ATRCD025",
+      "revision_id": "82b51c69-4d75-5e45-9909-b8f148c367e6",
+      "derived_from": "5cad2f02-d51f-5808-a6a7-f58fab182df3",
+      "pipeline_id": "sample-media-v2",
+      "samples": 22780,
+      "spectra": 1,
+      "image_rows": 170
+    },
+    {
+      "hole": "09THD028",
+      "revision_id": "f7378f37-84f0-5a59-9992-79dee8716b01",
+      "derived_from": null,
+      "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+      "samples": 42880,
+      "spectra": 0,
+      "image_rows": 0
+    },
+    {
+      "hole": "09THD028",
+      "revision_id": "66d273c5-3cf4-57e3-8ec5-e186df76d018",
+      "derived_from": "f7378f37-84f0-5a59-9992-79dee8716b01",
+      "pipeline_id": "sample-media-v2",
+      "samples": 42880,
+      "spectra": 2,
+      "image_rows": 320
+    },
+    {
+      "hole": "12BRDDH003",
+      "revision_id": "932f97f2-9e96-5387-bb3f-162896b8a8a8",
+      "derived_from": null,
+      "pipeline_id": "dc6cc135d789e7d661c51aaaf11e01f66181f767a6e97e0c0424e063e2930a62",
+      "samples": 10184,
+      "spectra": 0,
+      "image_rows": 0
+    },
+    {
+      "hole": "12BRDDH003",
+      "revision_id": "bf7adeef-03f2-5f3a-93d5-b40b6d265d83",
+      "derived_from": "932f97f2-9e96-5387-bb3f-162896b8a8a8",
+      "pipeline_id": "sample-media-v2",
+      "samples": 10184,
+      "spectra": 2,
+      "image_rows": 76
+    }
+  ],
+  "release_counts": [
+    {
+      "release_kind": "local_base_v2",
+      "n": 2
+    },
+    {
+      "release_kind": "local_media_v2",
+      "n": 2
+    }
+  ]
+}

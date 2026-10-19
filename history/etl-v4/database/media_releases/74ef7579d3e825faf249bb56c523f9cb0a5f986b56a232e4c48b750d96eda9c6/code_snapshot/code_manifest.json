@@ -1,0 +1,19 @@
+{
+  "code_sha256": "f4b3f668498440576bb57e809eea6ed776a956da73a01721e7fcca9fbae88bc6",
+  "files": {
+    "20_audit_spectral_sources.py": "7689528199cb88d384a95dda1a5c75b4020d5a826300131aac7c2e1131a57572",
+    "21_verify_spectral_bindings.py": "4a74414abdc326187909e26fe90f4e354bdd8be833f75516cebc35268b79c55c",
+    "22_prepare_spectral_access.py": "380bace9707cdf19040bba93c02e12ecfb625d40bbbd1f0a9eaf67de5e1b5d5f",
+    "23_audit_dataset_image_groups.py": "93c9776f20e8d5ebac3db4cd1024a2ea22366dc9cd229b417603aef6724876b4",
+    "24_detect_image_rows.py": "f3ab017f050bd0a2bebfaa96793b4bdf548967344c233d5393cd837a5d506395",
+    "25_review_image_row_regions.py": "61ce7d9f1a91bedec3ced0509f4946dcf2e9f01cf37bf28c667580d772d28a00",
+    "26_bind_image_rows_to_samples.py": "8b83355367dc03da965102154c30123c564b139996c4c90e2d2daf63f5c363d6",
+    "27_build_image_row_assets.py": "0583a50f11d5cefa0413b0551750735bc39315b47a6695aad000e183233e2cac",
+    "28_import_media_revision.py": "53dee1359f61fa8a0e86b248b7103c304a528fb4cd402fc9d0df425d397b4d6b",
+    "29_verify_media_grain.py": "05636b9545f1d897f8b7f7d13e4066799e0d084677f62fd693a3a7d2049e257b",
+    "_media_common.py": "a04c74d3c504b9ac09956ef64fce07b353d3b6950757cc386e42fbe01eabae6e",
+    "_media_import.py": "128b0896b3b0eeceb5f0ab014c2a538b7a7a1109aa4aec5daebebe82610093dc",
+    "_media_reader.py": "5fadb95dcd95e3b215df2877d0b89159ba5694dab2a5c0f86757b271511f25b4",
+    "_media_tests.py": "43e182fc29e386fc8b990a3b8b794b7f6ac9f0a5cb3554088219dcf390f9a85a"
+  }
+}

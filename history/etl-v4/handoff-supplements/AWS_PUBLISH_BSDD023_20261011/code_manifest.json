@@ -1,0 +1,15 @@
+{
+  "code/_settings.py": "580424e2ffad37a2e16f99aa26d039d667a3513de815edfcc12fbb01706df112",
+  "code/_file_checks.py": "d9ccf94924a1d6176aa9833b6ab2df85e4e52771e3145f4ef4405d24c7945ae4",
+  "code/database/40_merge_cloud_batch.py": "5ea25ad7a496397c953074aa8234fbb09b2f96e4a99f1c2886a7810775d350a1",
+  "code/database/_batch_files.py": "3d2059b441a7d30c50e76c11abe16b6f1eba018ada4d87d76eb431a602e7c3c7",
+  "code/database/_db_common.py": "5af704527939f1036a250ab27e702353c693938a2ce4ebeb16038ca54c2da65c",
+  "code/database/_db_files.py": "42521ce6ad2812047722e460dbb5923912fce9f3e75c38ed52a16ff60bca78e7",
+  "code/database/migrations/001_initial.sql": "35ce6669acacd1e738f6d550f16c1a7631fc937d10f8fc61f063212d23071082",
+  "code/database/migrations/002_nullable_metric_semantics.sql": "7cad9bd7fd5430dc773c1acee605b89c5465f33d246f15eb63e7e1e0553496db",
+  "code/database/migrations/003_metric_source_identity.sql": "de3c9a0df5c59f7de888851528f14a2c9870f5f3ee61f14884c986050f885310",
+  "code/database/migrations/004_relational_integrity.sql": "e0860f1a793ad022a642b3ca6261d0d69280e6687bed80d94d5b06f0b97a5cc9",
+  "code/database/migrations/005_sample_media.sql": "5bea0cd4bd5cb454b1acec09544020f440460f16e69ee2ae8a0a254ffbbfa680",
+  "code/database/migrations/006_multi_dataset_composites.sql": "8f8447e5805a409f2fdb5e5f1c5ca578ff208b8a1cf62d45a1280ce3c147e6a6",
+  "execute_bsdd023.py": "af0f68524b88f0565090363e4d1465316f29cba1a0e27e6427768b87016751a9"
+}

@@ -1,0 +1,9 @@
+Multi-Hole Smoke Test — 2026-08-09
+
+I tested three-hole reads and write isolation with synthetic TEST001/TEST002 copies of 05GJD001. The original hole database and raw directory were unchanged. The test copies shared source files and used deliberately different top-level depths, so copied tray depths were not a real geological consistency test.
+
+All three holes returned 9,426 VNIR and 5,530 TIR intervals; lists, metadata and strip-image reads passed. Updating interval 1 in TEST002 created one annotation only there. TEST001 and 05GJD001 retained their original status/counts and no annotations.
+
+Two limitations were reproduced. Synthetic renamed holes returned spectrum 404 because raw BIP paths were derived from hole_id; the real 05GJD001 returned 531 bands. GET handlers used sqlite3 transaction contexts without explicit connection close, retaining file handles on Windows and preventing test-directory removal until the server stopped. The POST handler already closed its connection. No server fixes were made in this test.
+
+After stopping the server, both test directories and index entries were removed. The original hole retained 51,876 samples, 33 trays/photos, 9,426/5,530 intervals, zero annotations, the original status distributions and PRAGMA integrity_check=ok. The server was stopped after verification.

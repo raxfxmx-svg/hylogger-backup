@@ -1,0 +1,9 @@
+{
+  "current_import_has_no_legacy_or_api_dependency": true,
+  "old_api_path_is_mocked": true,
+  "database_access_forbidden": true,
+  "tests_run": 1,
+  "failures": 0,
+  "errors": 0,
+  "output": "test_api_is_optional_and_explicit_failure_prevents_publish (test_refactor.RefactorContracts.test_api_is_optional_and_explicit_failure_prevents_publish) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nOK\n"
+}

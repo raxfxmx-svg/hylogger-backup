@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "8ee07ba8-5646-45a0-b503-a0aeceec13b",
+    "dataset_name": "09THD028",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/09THD028",
+    "tray_id": "ac053d28-ef07-41ea-a0e7-128b464b328",
+    "section_id": "811c75c2-2b2c-47d4-818f-7b79353bd54",
+    "domain_id": "e2d61921-5806-497e-9f26-54f741a3fa1",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>09THD028</DrillHoleName><InstrumentName>HyLogger 3-2</InstrumentName><Project>Table Hill</Project><Owner>GSWA</Owner><DrillDate>2009-01-11 08:44:38</DrillDate><ExecSumm>GSWA UWI: M0001463|WAMEX Report ID: A87536|Tectonic Unit: Officer Basin|250K Map Sheet: Trainor SG 51-02|100K Map Sheet:  Mcauliffe 3249|Archive Location: Perth Core Library|EIS Round: 1</ExecSumm><Datum>GDA94</Datum><Latitude>-24.104900</Latitude><Longitude>121.696900</Longitude><Azimuth>0.000000</Azimuth><Inclination>-90.000000</Inclination><RL>521.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-07T00:00:00+08:00",
+    "created_date": "2019-06-13T00:00:00+08:00"
+  }
+]

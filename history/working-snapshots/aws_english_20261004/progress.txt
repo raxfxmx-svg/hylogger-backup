@@ -1,0 +1,11 @@
+English AWS Data Update — 2026-10-04
+
+I regenerated the delivery with English runtime text and replaced the data in the existing etl4_core database. The instance, database OID 16456, 39 tables, views, schema, ownership and permissions remained. A single transaction replaced 27 earlier revisions with 17 complete revisions across 12 holes and 17 datasets in 109.543 seconds.
+
+Release: 0b2990a6-55d7-5569-8ac4-2b5d9fb346ac. The delivery contained 732,206 samples, 4,738 row images, 31 spectral matrices and 715,759 selected 3D samples. Normal step 28/37 acceptance passed. Decoded exported records and JSON manifests contained zero Chinese-text matches. Six migration files/history remained; eight database descriptions became English.
+
+S3 delivery covered 10,132 objects: 7,979 reused (5,664,325,989 bytes) and 2,153 uploaded (1,588,170,299 bytes). The approved historical cleanup removed 4,997 old objects totaling 4,496,752,837 bytes: 44 batch files, one control package, 2,142 objects and 2,810 release files. The remaining etl4/ objects exactly matched the new delivery manifest.
+
+The approved CloudShell cleanup removed 156 old delivery files totaling 108,008,876 bytes. The current etl4-english-20261004 delivery, API code, runtime, certificates and other configuration remained. This update did not change or deploy the API/frontend. Local comparison data remained available. These are recorded historical operations, not actions performed while preparing this archive.
+
+Evidence: cloud_results/replacement_receipt.json, cleanup_receipt.json, cloudshell_cleanup_receipt.json, final_status.json and replacement.log; pre_replacement_cleanup_plan.json and cloudshell_cleanup_plan.json record the approved scope.

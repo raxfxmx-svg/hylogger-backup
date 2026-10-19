@@ -1,0 +1,5 @@
+{
+  "boto3": "1.43.109",
+  "botocore": "1.43.109",
+  "s3_required_interfaces": "passed"
+}

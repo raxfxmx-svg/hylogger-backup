@@ -1,0 +1,376 @@
+{
+  "requested_at": "2026-09-29T18:04:52.3858431+08:00",
+  "workspace": "C:\\path\\to\\project",
+  "free_before": 45724725248,
+  "estimated_file_bytes": 48863049685,
+  "targets": [
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09DKRCD001A",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09DKRCD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09FKRCD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09HBRCD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09RTD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09THD028",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09THD029",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09THD030",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09THD031",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09THD032",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\09THD033",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\10CHD006",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\10CHRCD005",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\10KRD04",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\10KRD06",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\10LAD009",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\10TJD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\11SAVD003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12AMD0015",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12BRDDH001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12BRDDH002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12BRDDH004",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12CADD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12DHDD0001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12DHDD0002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\12GMSD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\13AHDD005",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\13CGDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\13TRDD012",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\13TRDD013",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\13TRDD014",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\14AMD0043",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\14CADD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\14CADD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\14CADD003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\15BRDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\15BRDD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\15BRDD003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\15RCDVZ001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\15SYDD0003B",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\15SYDD0004",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\16CADD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\16CADD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\16MYD0047",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\16MYD0052",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\16MYD0058",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\16SHDD10",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17BBDD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17BBDD004",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17DD003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17DHDD0016",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17DTDD0001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17FCHRCD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17FCHRCD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MNDD0001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MVDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MVDD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MVDD003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MVDD004",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MVRCD008",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17MVRCD018",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17NNMD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17SRDD0004",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17SRDD0010",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\17SRDD0011",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18ABAD01",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18ABAD02",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18AFRD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18EISD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18EMRCD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18GSCRCD0001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18GSCRCD0002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18GSLARCD0003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18JBDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18JBDD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18KLDD007",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18KLDD008",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18KLDD010",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18LCDD0001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18MBDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18MMDD0434",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18QMDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18QMDD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\18SFDD001",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\19AFDD1009",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\19EISD002",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\19EISD003",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\19EISD004",
+      "kind": "new_raw_copy"
+    },
+    {
+      "path": "C:\\path\\to\\project\\etl4\\batch_check",
+      "kind": "new_batch_work"
+    }
+  ],
+  "preserved_holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019",
+    "09ATRCD025",
+    "12BRDDH003",
+    "12CADD001",
+    "14KDD001",
+    "15EIS001"
+  ]
+}

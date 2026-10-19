@@ -1,0 +1,58 @@
+{
+  "backup": {
+    "bytes": 17838135,
+    "path": "C:\\path\\to\\project\\etl4\\single_final_check_20260930\\database\\backups\\final_version_20260930.dump",
+    "sha256": "ccb5ee25b4f3d713a229df5f19bee2662a79b79a74e13f9e6c5f3e4d42c2b05e"
+  },
+  "compaction": {
+    "after_bytes": 218918035,
+    "before_bytes": 307793043,
+    "reclaimed_bytes": 88875008
+  },
+  "new": {
+    "borehole": 11,
+    "data_release": 2,
+    "database_bytes": 306474131,
+    "dataset": 16,
+    "dataset_revision": 16,
+    "image_region": 4726,
+    "overview_samples": 714175,
+    "release_id": "aa9899e8-e81e-5f5a-b5a0-74818c50cb1c",
+    "scan_sample": 730622,
+    "spectral_array": 29
+  },
+  "old": {
+    "borehole": 12,
+    "data_release": 11,
+    "database_bytes": 603712659,
+    "dataset": 17,
+    "dataset_revision": 34,
+    "image_region": 4738,
+    "overview_samples": 715759,
+    "release_id": "c8522bfa-7c4b-5886-a7b3-b002eea84f4d",
+    "scan_sample": 1464412,
+    "spectral_array": 31
+  },
+  "reference_database_business_tables_unchanged": true,
+  "reference_release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "replay": {
+    "elapsed_seconds": 56.848305299994536,
+    "new_business_records": 0,
+    "same_check_cache_hits": 24947,
+    "sha256_bytes_read": 7965435589,
+    "sha256_file_scans": 10106
+  },
+  "restored": {
+    "borehole": 11,
+    "data_release": 2,
+    "database_bytes": 220990611,
+    "dataset": 16,
+    "dataset_revision": 16,
+    "image_region": 4726,
+    "overview_samples": 714175,
+    "release_id": "aa9899e8-e81e-5f5a-b5a0-74818c50cb1c",
+    "scan_sample": 730622,
+    "spectral_array": 29
+  },
+  "status": "passed"
+}

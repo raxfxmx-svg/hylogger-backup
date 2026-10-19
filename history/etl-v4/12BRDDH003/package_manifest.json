@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "hole_id": "12BRDDH003",
+  "provider": "wa",
+  "status": "complete_with_warnings",
+  "started_at": "2026-08-26T18:48:59+00:00",
+  "finished_at": "2026-08-26T18:51:55+00:00",
+  "content_fingerprint": "aced22cac94eeb37c6f463431e452c7f5aff329c83c41e6325e319c278bd79a7",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": []
+}

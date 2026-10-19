@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "df915067-0e08-4c9b-abb5-763b9c98c61",
+    "dataset_name": "09ATD019",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/09ATD019",
+    "tray_id": "df1221e6-e583-4680-937e-04e298f1a30",
+    "section_id": "b257240a-59f9-4809-ae9d-d8923ff24ff",
+    "domain_id": "d174451b-0abc-4447-83e9-aa52f095a3d",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>09ATD019</DrillHoleName><InstrumentName>HyLogger 2-2</InstrumentName><Project>Austin</Project><Owner>GSWA</Owner><DrillDate>2009-01-01 15:56:27</DrillDate><ExecSumm></ExecSumm><Datum></Datum><Latitude>-27.139333</Latitude><Longitude>118.513904</Longitude><Azimuth>0.000000</Azimuth><Inclination>0.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-05-27T00:00:00+08:00",
+    "created_date": "2017-01-11T00:00:00+08:00"
+  }
+]

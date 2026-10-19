@@ -1,0 +1,18 @@
+{
+  "elapsed_seconds": 0.48817839997354895,
+  "holes": [
+    {
+      "action": "already_present",
+      "dataset_revision_id": "5cad2f02-d51f-5808-a6a7-f58fab182df3",
+      "hole_id": "09ATRCD025"
+    },
+    {
+      "action": "already_present",
+      "dataset_revision_id": "932f97f2-9e96-5387-bb3f-162896b8a8a8",
+      "hole_id": "12BRDDH003"
+    }
+  ],
+  "recorded_at": "2026-09-29T09:40:30.068078+00:00",
+  "run_id": "acabbaff-497a-4ce2-876d-f6a1baa26370",
+  "status": "staged"
+}

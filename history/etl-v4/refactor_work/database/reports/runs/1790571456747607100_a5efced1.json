@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-28T04:57:36.059885+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "script": "25_review_image_row_regions.py",
+  "code_sha256": "3ef2c7cbf17482d708d275c9752e1fb585d4272446491b36bc0abf3bdb89b6e3",
+  "sha256_file_scans": 3,
+  "sha256_bytes_read": 4075736,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.686385999986669,
+  "finished_at": "2026-09-28T04:57:36.747607+00:00"
+}

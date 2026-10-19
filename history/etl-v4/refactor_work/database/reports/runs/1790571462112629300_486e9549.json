@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-09-28T04:57:37.265714+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "script": "27_build_image_row_assets.py",
+  "code_sha256": "da0799279776c3527139a1cb7811fd444c93c6b17319ff79d80bd8369ad5ec60",
+  "sha256_file_scans": 1610,
+  "sha256_bytes_read": 35736118,
+  "same_check_cache_hits": 1112,
+  "elapsed_seconds": 4.851449900015723,
+  "finished_at": "2026-09-28T04:57:42.112629+00:00"
+}

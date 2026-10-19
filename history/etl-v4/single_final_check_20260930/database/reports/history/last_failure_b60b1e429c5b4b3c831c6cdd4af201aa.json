@@ -1,0 +1,7 @@
+{
+  "detail": "out of shared memory\nHINT:  You might need to increase \"max_locks_per_transaction\".",
+  "error_type": "OutOfMemory",
+  "recorded_at": "2026-09-30T00:11:32.813103+00:00",
+  "script": "37_import_final_version.py",
+  "status": "failed"
+}

@@ -1,0 +1,24 @@
+{
+  "content": {
+    "datasets": {
+      "00000000-0000-0000-0000-000000000001": {
+        "raw_assets": [
+          {
+            "byte_size": 26,
+            "sha256": "effb7c637037cf41d066fb388cf717e3071fc04903fff878b532a330380d65fb",
+            "source_relative_path": "1.bin"
+          }
+        ],
+        "source_revision_id": "d991edc8-c4f8-5df7-a934-57708e4df7aa"
+      }
+    },
+    "package_sha256": "8f42f5f975f54411b661ceac8218ce80b1687c9e8c8e02b5f0a8a49830779dc7"
+  },
+  "content_sha256": "ba9927f5c85a753f9b894cb8f3061860bae24daff80ebf30234b8fe86843c650",
+  "export_evidence": {
+    "source_report_sha256": "0ec6c8a2a9bd65324ed06791dd686dd95c76fc4d0ee1304f69266ee1ad50898a"
+  },
+  "fixture_only": true,
+  "stage": 1,
+  "status": "passed"
+}

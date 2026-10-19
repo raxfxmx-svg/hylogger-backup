@@ -1,0 +1,3843 @@
+{
+  "business_hashes": {
+    "asset": "3ea3721c78167b88f6c1ea9757d07d87e8866a423b3c539cfd1d36671b142f4b",
+    "asset_location": "f0a62ae1020e7ffa7ac13a0ba475241f2e5f291ed08e95caf76fb6cd2a8b004e",
+    "borehole": "4cfa910ec200a6ce2a9ecc56d640f712398823bae288525fa707ae2a5a5a5d5c",
+    "borehole_branch": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "borehole_revision": "04f99f17fdcf9ea596890b88b2d7b07794bc9b3da3837ec9d4b9c8260dbfaa39",
+    "core_interval": "e586280a0fb26a47fb74f93c13ac456275ce3f94cd90b025bbe2971b2eb7a234",
+    "data_chunk": "8efa75052c07e3ffeef1ede1c4357e0ab3af62f3d1dc7747a64e065293409f5d",
+    "data_release": "e60077e31813aeb338a5d3057048da6bec6b2f95d2b30cbeb6137b03fc090de0",
+    "dataset": "3caa9b18617b1741648060a3bf77632a3f9e3f684b95b9ca8c716d82257716e8",
+    "dataset_revision": "db93cf0e1eec37089a702af09e25f1e9eace048120e27ecdd38dfe1bde17eb72",
+    "dataset_segment": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_frame": "e47581d02c614988e62f67a17d79b952c006944377ab4a5f837574aaecd2261f",
+    "interpretation_input": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "interpretation_set": "89b022d9311db73be052a58257a66a755f0c699d963ea3a03e8d1f7b7c2d3dee",
+    "log_asset": "9be734af0ccfb8f5ba41622248383738d90191ea8d8e61a8f1348385b1309c37",
+    "log_axis_binding": "95ab7d4001f7c881a71cbb364900fbb343a3744339b5557d60b03a6e0090b4b4",
+    "metric_definition": "98201536608cebb3d736be79be44555f5ad1938098e07ecf4e30b069623c4ec1",
+    "quality_issue": "dd7c52ecc16de937b9acd20412da1b644229ddbb4fa56afed4fa5be8d7053e65",
+    "release_dataset": "39882b33cca27d5a83010f2affd6f36b46f655227d7de1c5ee7713eaa4caacd9",
+    "sample_axis": "06285e17b2bd527990eec424160cebb68616d778d6c0be693d2b066aaa8d761f",
+    "scan_log": "d562186a0090ffba842f364e9eaef09ffd32b6781d140db3ea8222be7d7af68e",
+    "scan_sample": "7169bba63e286d4f114766ecfb8b7bc846d1181c603dd4e810a9f1794feeb29b",
+    "source_document": "da015bb9cdb441e15e33270fc335740877e5f5d23b8c5b111b94424036510ea7",
+    "source_reference": "52185fda4f99bbca20fc399e302ada8d713a450123ca493897df8ca2ccbc1edc",
+    "spectral_stream": "8d0fac68aa6018fb0a44e8a50537f0b440ba33113c5dd560d21457cc67d3ad9e",
+    "survey_station": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "code_sha256": "87b555f02e922f75105889c0d1c6c963187afc4abf868c9e074dab8117219b5d",
+  "constraint_probes": [
+    {
+      "database_rejected": true,
+      "name": "duplicate_sample",
+      "sqlstate": "23505"
+    },
+    {
+      "database_rejected": true,
+      "name": "sample_nan_depth",
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": false,
+      "name": "sample_wrong_interval_kind",
+      "sqlstate": null
+    },
+    {
+      "database_rejected": false,
+      "name": "location_checksum_mismatch",
+      "sqlstate": null
+    },
+    {
+      "database_rejected": true,
+      "name": "location_path_traversal",
+      "sqlstate": "23514"
+    },
+    {
+      "database_rejected": false,
+      "name": "image_asset_not_linked_to_log",
+      "sqlstate": null
+    },
+    {
+      "database_rejected": false,
+      "name": "chunk_asset_not_linked_to_log",
+      "sqlstate": null
+    }
+  ],
+  "database_bytes": 86330515,
+  "foreign_keys_checked": 51,
+  "permissions": [
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "active_release"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "asset"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "asset_location"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "borehole"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "borehole_branch"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "borehole_revision"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "core_interval"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "data_chunk"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "data_release"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "dataset"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "dataset_revision"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "dataset_segment"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "image_frame"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "ingest_run"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "interpretation_input"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "interpretation_set"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "log_asset"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "log_axis_binding"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "metric_definition"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "quality_issue"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "release_dataset"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "revision_validation"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "sample_axis"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "scan_log"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "scan_sample"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "schema_migration"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "source_document"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "source_reference"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "spectral_stream"
+    },
+    {
+      "ingest_destructive": false,
+      "reader_any_write": false,
+      "reader_select": true,
+      "tablename": "survey_station"
+    }
+  ],
+  "recorded_at": "2026-09-08T02:41:22.266518+00:00",
+  "relation_checks": {
+    "axis_count_and_extent": {
+      "violations": 0
+    },
+    "chunk_asset_log_relation": {
+      "violations": 0
+    },
+    "chunk_dense_axis_binding": {
+      "violations": 0
+    },
+    "chunk_interval_axis_binding": {
+      "violations": 0
+    },
+    "chunk_profile_row_count": {
+      "violations": 0
+    },
+    "chunk_row_sequence": {
+      "violations": 0
+    },
+    "chunk_scalar_row_count": {
+      "violations": 0
+    },
+    "disabled_triggers": {
+      "violations": 0
+    },
+    "image_asset_and_tray_relation": {
+      "violations": 0
+    },
+    "interval_depth_extent": {
+      "violations": 0
+    },
+    "invalid_indexes": {
+      "violations": 0
+    },
+    "location_content_identity": {
+      "violations": 0
+    },
+    "log_has_explicit_binding_status": {
+      "violations": 0
+    },
+    "present_logs_have_source_payload": {
+      "violations": 0
+    },
+    "sample_interval_membership": {
+      "violations": 0
+    },
+    "section_parent_and_extent": {
+      "violations": 0
+    },
+    "unavailable_logs_have_no_payload": {
+      "violations": 0
+    },
+    "unconfirmed_spectra_not_marked_usable": {
+      "violations": 0
+    },
+    "unvalidated_constraints": {
+      "violations": 0
+    },
+    "valid_collar_geometry": {
+      "violations": 0
+    },
+    "weight_not_probability": {
+      "violations": 0
+    }
+  },
+  "release_id": "20bbb134-501d-54bc-9428-5ee48b6801e4",
+  "restored_baseline_matches": true,
+  "schema": {
+    "columns": [
+      {
+        "column_default": "true",
+        "column_name": "singleton",
+        "data_type": "boolean",
+        "is_nullable": "NO",
+        "table_name": "active_release",
+        "udt_name": "bool"
+      },
+      {
+        "column_default": null,
+        "column_name": "release_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "active_release",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": "now()",
+        "column_name": "switched_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "table_name": "active_release",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "asset_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "representation",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "logical_path",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "byte_size",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "media_type",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": "'present'::text",
+        "column_name": "payload_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "semantic_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "provenance",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "asset",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "asset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "backend",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "root_key",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "object_key",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "access_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "verified_sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "asset_location",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "borehole",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "provider_code",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "borehole",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_hole_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "borehole",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_identifier",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "borehole_branch",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "borehole_branch",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "parent_branch_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "borehole_branch",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_branch_id",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_branch",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "branch_depth_m",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "borehole_branch",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "evidence",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "borehole_branch",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "borehole_revision",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "borehole_revision",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_name",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "provider_code",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "custodian_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "driller_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "operator_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "project_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "drilling_method",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "reported_length_m",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "drill_start_date",
+        "data_type": "date",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "date"
+      },
+      {
+        "column_default": null,
+        "column_name": "drill_end_date",
+        "data_type": "date",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "date"
+      },
+      {
+        "column_default": null,
+        "column_name": "actual_drill_date_precision",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "collar_geom",
+        "data_type": "USER-DEFINED",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "geometry"
+      },
+      {
+        "column_default": null,
+        "column_name": "coordinate_basis",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "horizontal_crs",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "vertical_crs",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "elevation_m",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "azimuth_deg",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "inclination_deg",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "inclination_convention",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "orientation_missing_reason",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "orientation_missing_reason_source",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "trajectory_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "borehole_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "normalized_metadata",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "borehole_revision",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "axis_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "interval_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "ordinal",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_label",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "parent_interval_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "core_interval",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "sample_no_from",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "sample_no_to",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "observed_depth_min_m",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "core_interval",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "observed_depth_max_m",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "core_interval",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_log_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_data_row",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_interval_convention",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "core_interval",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "asset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "axis_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "log_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "data_chunk",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "row_group",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_row_from",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_row_to_exclusive",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "row_count",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "coordinate_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "coordinate_min",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "coordinate_max",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "logical_sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "data_chunk",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "data_release",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "manifest_sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "data_release",
+        "udt_name": "text"
+      },
+      {
+        "column_default": "now()",
+        "column_name": "created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "table_name": "data_release",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": "'local_verified'::text",
+        "column_name": "release_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "data_release",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "manifest",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "data_release",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_dataset_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "dataset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_dataset_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_borehole_uri",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_project_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "instrument_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "owner_name",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_snapshot_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "pipeline_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "input_digest",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "mapping_version",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_modified_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_download_started_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_download_finished_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "dataset_revision",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "normalized_metadata",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "dataset_revision",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "branch_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "dataset_segment",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "axis_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "sample_no_from",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "sample_no_to",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "sequence_no",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "table_name": "dataset_segment",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "evidence",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "dataset_segment",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "axis_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "core_interval_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "log_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "asset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "image_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "image_ordinal",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_tray_label",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "width_px",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "height_px",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_from_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_to_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_from_difference_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_to_difference_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_comparison_tolerance_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "association_basis",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "image_frame",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "pixel_depth_mapping",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "table_name": "image_frame",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": "now()",
+        "column_name": "started_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "finished_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "ingest_run",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "input_digest",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "code_sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "schema_sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "holes",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "text"
+      },
+      {
+        "column_default": "'{}'::jsonb",
+        "column_name": "detail",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "ingest_run",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "interpretation_set_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "interpretation_input",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "spectral_stream_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "interpretation_input",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "interpretation_input",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "evidence",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "interpretation_input",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "interpretation_set",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "interpretation_set",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_set_code",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "algorithm_family",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "output_region",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "variant_code",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "algorithm_version",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "actual_mineral_library",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "parameters",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "table_name": "interpretation_set",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "grouping_basis",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "input_association_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "interpretation_set",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "log_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "log_asset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "asset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "log_asset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "log_asset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "role",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "log_asset",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "log_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "log_axis_binding",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "log_axis_binding",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "axis_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "log_axis_binding",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "log_axis_binding",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "basis",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "log_axis_binding",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "metric_definition",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "metric_key",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "metric_definition",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "display_name",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "metric_definition",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "value_type",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "metric_definition",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "unit",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "metric_definition",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "definition_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "metric_definition",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "is_probability",
+        "data_type": "boolean",
+        "is_nullable": "YES",
+        "table_name": "metric_definition",
+        "udt_name": "bool"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_log_id",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "metric_definition",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "processing_step",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "code",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "severity",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "scope",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "detail",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "evidence",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "table_name": "quality_issue",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "impact",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "quality_issue",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "release_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "release_dataset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "release_dataset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "release_dataset",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "revision_validation",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": "now()",
+        "column_name": "validated_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "table_name": "revision_validation",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "input_digest",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "revision_validation",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "verification_code_sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "revision_validation",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "result",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "revision_validation",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "sample_count",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_min_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "depth_max_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": "'measured_depth_m'::text",
+        "column_name": "coordinate_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "alignment_evidence",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "sample_axis",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_log_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_log_name",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "log_kind",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_log_type",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_algorithm_id",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_mask_log_id",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_is_public",
+        "data_type": "boolean",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "bool"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_created_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_modified_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_status",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "metric_key",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "metric_code",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "component_rank",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "interpretation_set_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "spectral_stream_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "coordinate_kind",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "observed_row_count",
+        "data_type": "bigint",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "observed_value_kind",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "unit",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "origin",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "availability_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "omission_reason",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "definition_status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "array_layout_status",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": "false",
+        "column_name": "per_sample_publication_allowed",
+        "data_type": "boolean",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "bool"
+      },
+      {
+        "column_default": null,
+        "column_name": "declared_channel_count",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "observed_channel_count",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "physical_geometry_status",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "null_tokens",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "table_name": "scan_log",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_metadata_file",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "normalized_metadata",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "scan_log",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "axis_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "sample_no",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "md_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "tray_interval_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "section_interval_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "tray_sample_no",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "section_sample_no",
+        "data_type": "bigint",
+        "is_nullable": "NO",
+        "table_name": "scan_sample",
+        "udt_name": "int8"
+      },
+      {
+        "column_default": null,
+        "column_name": "section_distance_mm",
+        "data_type": "double precision",
+        "is_nullable": "YES",
+        "table_name": "scan_sample",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "name",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "schema_migration",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "sha256",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "schema_migration",
+        "udt_name": "text"
+      },
+      {
+        "column_default": "now()",
+        "column_name": "applied_at",
+        "data_type": "timestamp with time zone",
+        "is_nullable": "NO",
+        "table_name": "schema_migration",
+        "udt_name": "timestamptz"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "source_document",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "source_document",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "asset_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "source_document",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "document_name",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "source_document",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "content_json",
+        "data_type": "jsonb",
+        "is_nullable": "YES",
+        "table_name": "source_document",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "content_text",
+        "data_type": "text",
+        "is_nullable": "YES",
+        "table_name": "source_document",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "source_reference",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "source_reference",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "role",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "source_reference",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "source_target_id",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "source_reference",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "target_log_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "source_reference",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "status",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "source_reference",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "evidence",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "source_reference",
+        "udt_name": "jsonb"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "dataset_revision_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "region_code",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "wavelength_unit",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "wavelength_count",
+        "data_type": "integer",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "int4"
+      },
+      {
+        "column_default": null,
+        "column_name": "wavelengths",
+        "data_type": "ARRAY",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "_float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "classification_basis",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "spectral_stream",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "borehole_id",
+        "data_type": "uuid",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "branch_id",
+        "data_type": "uuid",
+        "is_nullable": "YES",
+        "table_name": "survey_station",
+        "udt_name": "uuid"
+      },
+      {
+        "column_default": null,
+        "column_name": "survey_version",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "md_m",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "azimuth_deg",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "inclination_deg",
+        "data_type": "double precision",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "float8"
+      },
+      {
+        "column_default": null,
+        "column_name": "angle_convention",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "text"
+      },
+      {
+        "column_default": null,
+        "column_name": "evidence",
+        "data_type": "jsonb",
+        "is_nullable": "NO",
+        "table_name": "survey_station",
+        "udt_name": "jsonb"
+      }
+    ],
+    "constraints": [
+      {
+        "conname": "active_release_pkey",
+        "definition": "PRIMARY KEY (singleton)",
+        "relname": "active_release"
+      },
+      {
+        "conname": "active_release_release_id_fkey",
+        "definition": "FOREIGN KEY (release_id) REFERENCES data_release(id)",
+        "relname": "active_release"
+      },
+      {
+        "conname": "active_release_singleton_check",
+        "definition": "CHECK (singleton)",
+        "relname": "active_release"
+      },
+      {
+        "conname": "asset_byte_size_check",
+        "definition": "CHECK ((byte_size >= 0))",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_dataset_revision_id_representation_logical_path_key",
+        "definition": "UNIQUE (dataset_revision_id, representation, logical_path)",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_id_dataset_revision_id_key",
+        "definition": "UNIQUE (id, dataset_revision_id)",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_representation_check",
+        "definition": "CHECK ((representation = ANY (ARRAY['raw'::text, 'canonical'::text, 'evidence'::text])))",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_sha256_check",
+        "definition": "CHECK ((sha256 ~ '^[a-f0-9]{64}$'::text))",
+        "relname": "asset"
+      },
+      {
+        "conname": "asset_location_asset_id_backend_root_key_object_key_key",
+        "definition": "UNIQUE (asset_id, backend, root_key, object_key)",
+        "relname": "asset_location"
+      },
+      {
+        "conname": "asset_location_asset_id_fkey",
+        "definition": "FOREIGN KEY (asset_id) REFERENCES asset(id)",
+        "relname": "asset_location"
+      },
+      {
+        "conname": "asset_location_object_key_check",
+        "definition": "CHECK ((object_key !~ '(^[/\\\\]|(^|[/\\\\])\\.\\.([/\\\\]|$)|:)'::text))",
+        "relname": "asset_location"
+      },
+      {
+        "conname": "asset_location_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "asset_location"
+      },
+      {
+        "conname": "borehole_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "borehole"
+      },
+      {
+        "conname": "borehole_provider_code_source_hole_id_key",
+        "definition": "UNIQUE (provider_code, source_hole_id)",
+        "relname": "borehole"
+      },
+      {
+        "conname": "borehole_branch_borehole_id_fkey",
+        "definition": "FOREIGN KEY (borehole_id) REFERENCES borehole(id)",
+        "relname": "borehole_branch"
+      },
+      {
+        "conname": "borehole_branch_check",
+        "definition": "CHECK (((parent_branch_id IS NULL) OR (parent_branch_id <> id)))",
+        "relname": "borehole_branch"
+      },
+      {
+        "conname": "borehole_branch_id_borehole_id_key",
+        "definition": "UNIQUE (id, borehole_id)",
+        "relname": "borehole_branch"
+      },
+      {
+        "conname": "borehole_branch_parent_branch_id_borehole_id_fkey",
+        "definition": "FOREIGN KEY (parent_branch_id, borehole_id) REFERENCES borehole_branch(id, borehole_id)",
+        "relname": "borehole_branch"
+      },
+      {
+        "conname": "borehole_branch_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "borehole_branch"
+      },
+      {
+        "conname": "borehole_revision_borehole_id_fkey",
+        "definition": "FOREIGN KEY (borehole_id) REFERENCES borehole(id)",
+        "relname": "borehole_revision"
+      },
+      {
+        "conname": "borehole_revision_id_borehole_id_key",
+        "definition": "UNIQUE (id, borehole_id)",
+        "relname": "borehole_revision"
+      },
+      {
+        "conname": "borehole_revision_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "borehole_revision"
+      },
+      {
+        "conname": "core_interval_axis_id_fkey",
+        "definition": "FOREIGN KEY (axis_id) REFERENCES sample_axis(id)",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_axis_id_interval_kind_ordinal_key",
+        "definition": "UNIQUE (axis_id, interval_kind, ordinal)",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_axis_id_sample_no_from_fkey",
+        "definition": "FOREIGN KEY (axis_id, sample_no_from) REFERENCES scan_sample(axis_id, sample_no) DEFERRABLE INITIALLY DEFERRED",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_axis_id_sample_no_to_fkey",
+        "definition": "FOREIGN KEY (axis_id, sample_no_to) REFERENCES scan_sample(axis_id, sample_no) DEFERRABLE INITIALLY DEFERRED",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_check",
+        "definition": "CHECK ((sample_no_from <= sample_no_to))",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_check1",
+        "definition": "CHECK ((((interval_kind = 'tray'::text) AND (parent_interval_id IS NULL)) OR ((interval_kind = 'section'::text) AND (parent_interval_id IS NOT NULL))))",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_id_axis_id_key",
+        "definition": "UNIQUE (id, axis_id)",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_interval_kind_check",
+        "definition": "CHECK ((interval_kind = ANY (ARRAY['tray'::text, 'section'::text])))",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_ordinal_check",
+        "definition": "CHECK ((ordinal >= 0))",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_parent_interval_id_axis_id_fkey",
+        "definition": "FOREIGN KEY (parent_interval_id, axis_id) REFERENCES core_interval(id, axis_id)",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_sample_no_from_check",
+        "definition": "CHECK ((sample_no_from >= 0))",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "core_interval_source_interval_convention_check",
+        "definition": "CHECK ((source_interval_convention = 'closed'::text))",
+        "relname": "core_interval"
+      },
+      {
+        "conname": "data_chunk_asset_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (asset_id, dataset_revision_id) REFERENCES asset(id, dataset_revision_id)",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_axis_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (axis_id, dataset_revision_id) REFERENCES sample_axis(id, dataset_revision_id)",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_check",
+        "definition": "CHECK (((source_row_to_exclusive - source_row_from) = row_count))",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_check1",
+        "definition": "CHECK ((coordinate_min <= coordinate_max))",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_log_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (log_id, dataset_revision_id) REFERENCES scan_log(id, dataset_revision_id)",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_pkey",
+        "definition": "PRIMARY KEY (asset_id, row_group)",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_row_count_check",
+        "definition": "CHECK ((row_count > 0))",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_row_group_check",
+        "definition": "CHECK ((row_group >= 0))",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_chunk_source_row_from_check",
+        "definition": "CHECK ((source_row_from >= 0))",
+        "relname": "data_chunk"
+      },
+      {
+        "conname": "data_release_manifest_sha256_key",
+        "definition": "UNIQUE (manifest_sha256)",
+        "relname": "data_release"
+      },
+      {
+        "conname": "data_release_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "data_release"
+      },
+      {
+        "conname": "dataset_borehole_id_fkey",
+        "definition": "FOREIGN KEY (borehole_id) REFERENCES borehole(id)",
+        "relname": "dataset"
+      },
+      {
+        "conname": "dataset_borehole_id_source_dataset_id_key",
+        "definition": "UNIQUE (borehole_id, source_dataset_id)",
+        "relname": "dataset"
+      },
+      {
+        "conname": "dataset_id_borehole_id_key",
+        "definition": "UNIQUE (id, borehole_id)",
+        "relname": "dataset"
+      },
+      {
+        "conname": "dataset_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "dataset"
+      },
+      {
+        "conname": "dataset_revision_borehole_revision_id_borehole_id_fkey",
+        "definition": "FOREIGN KEY (borehole_revision_id, borehole_id) REFERENCES borehole_revision(id, borehole_id)",
+        "relname": "dataset_revision"
+      },
+      {
+        "conname": "dataset_revision_dataset_id_borehole_id_fkey",
+        "definition": "FOREIGN KEY (dataset_id, borehole_id) REFERENCES dataset(id, borehole_id)",
+        "relname": "dataset_revision"
+      },
+      {
+        "conname": "dataset_revision_dataset_id_source_snapshot_id_pipeline_id__key",
+        "definition": "UNIQUE (dataset_id, source_snapshot_id, pipeline_id, mapping_version)",
+        "relname": "dataset_revision"
+      },
+      {
+        "conname": "dataset_revision_id_borehole_id_key",
+        "definition": "UNIQUE (id, borehole_id)",
+        "relname": "dataset_revision"
+      },
+      {
+        "conname": "dataset_revision_id_dataset_id_key",
+        "definition": "UNIQUE (id, dataset_id)",
+        "relname": "dataset_revision"
+      },
+      {
+        "conname": "dataset_revision_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "dataset_revision"
+      },
+      {
+        "conname": "dataset_segment_axis_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (axis_id, dataset_revision_id) REFERENCES sample_axis(id, dataset_revision_id)",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "dataset_segment_axis_id_sample_no_from_fkey",
+        "definition": "FOREIGN KEY (axis_id, sample_no_from) REFERENCES scan_sample(axis_id, sample_no)",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "dataset_segment_axis_id_sample_no_to_fkey",
+        "definition": "FOREIGN KEY (axis_id, sample_no_to) REFERENCES scan_sample(axis_id, sample_no)",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "dataset_segment_branch_id_borehole_id_fkey",
+        "definition": "FOREIGN KEY (branch_id, borehole_id) REFERENCES borehole_branch(id, borehole_id)",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "dataset_segment_check",
+        "definition": "CHECK ((sample_no_from <= sample_no_to))",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "dataset_segment_dataset_revision_id_borehole_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id, borehole_id) REFERENCES dataset_revision(id, borehole_id)",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "dataset_segment_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "dataset_segment"
+      },
+      {
+        "conname": "image_frame_asset_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (asset_id, dataset_revision_id) REFERENCES asset(id, dataset_revision_id)",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_axis_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (axis_id, dataset_revision_id) REFERENCES sample_axis(id, dataset_revision_id)",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_check",
+        "definition": "CHECK ((depth_from_m <= depth_to_m))",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_core_interval_id_axis_id_fkey",
+        "definition": "FOREIGN KEY (core_interval_id, axis_id) REFERENCES core_interval(id, axis_id)",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_height_px_check",
+        "definition": "CHECK ((height_px > 0))",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_log_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (log_id, dataset_revision_id) REFERENCES scan_log(id, dataset_revision_id)",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_log_id_image_ordinal_key",
+        "definition": "UNIQUE (log_id, image_ordinal)",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "image_frame_width_px_check",
+        "definition": "CHECK ((width_px > 0))",
+        "relname": "image_frame"
+      },
+      {
+        "conname": "ingest_run_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "ingest_run"
+      },
+      {
+        "conname": "ingest_run_status_check",
+        "definition": "CHECK ((status = ANY (ARRAY['running'::text, 'staged'::text, 'failed'::text])))",
+        "relname": "ingest_run"
+      },
+      {
+        "conname": "interpretation_input_interpretation_set_id_dataset_revisio_fkey",
+        "definition": "FOREIGN KEY (interpretation_set_id, dataset_revision_id) REFERENCES interpretation_set(id, dataset_revision_id)",
+        "relname": "interpretation_input"
+      },
+      {
+        "conname": "interpretation_input_pkey",
+        "definition": "PRIMARY KEY (interpretation_set_id, spectral_stream_id)",
+        "relname": "interpretation_input"
+      },
+      {
+        "conname": "interpretation_input_spectral_stream_id_dataset_revision_i_fkey",
+        "definition": "FOREIGN KEY (spectral_stream_id, dataset_revision_id) REFERENCES spectral_stream(id, dataset_revision_id)",
+        "relname": "interpretation_input"
+      },
+      {
+        "conname": "interpretation_set_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "interpretation_set"
+      },
+      {
+        "conname": "interpretation_set_dataset_revision_id_source_set_code_key",
+        "definition": "UNIQUE (dataset_revision_id, source_set_code)",
+        "relname": "interpretation_set"
+      },
+      {
+        "conname": "interpretation_set_id_dataset_revision_id_key",
+        "definition": "UNIQUE (id, dataset_revision_id)",
+        "relname": "interpretation_set"
+      },
+      {
+        "conname": "interpretation_set_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "interpretation_set"
+      },
+      {
+        "conname": "log_asset_asset_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (asset_id, dataset_revision_id) REFERENCES asset(id, dataset_revision_id)",
+        "relname": "log_asset"
+      },
+      {
+        "conname": "log_asset_log_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (log_id, dataset_revision_id) REFERENCES scan_log(id, dataset_revision_id)",
+        "relname": "log_asset"
+      },
+      {
+        "conname": "log_asset_pkey",
+        "definition": "PRIMARY KEY (log_id, asset_id)",
+        "relname": "log_asset"
+      },
+      {
+        "conname": "log_axis_binding_axis_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (axis_id, dataset_revision_id) REFERENCES sample_axis(id, dataset_revision_id)",
+        "relname": "log_axis_binding"
+      },
+      {
+        "conname": "log_axis_binding_check",
+        "definition": "CHECK (((status <> 'verified'::text) OR (axis_id IS NOT NULL)))",
+        "relname": "log_axis_binding"
+      },
+      {
+        "conname": "log_axis_binding_log_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (log_id, dataset_revision_id) REFERENCES scan_log(id, dataset_revision_id)",
+        "relname": "log_axis_binding"
+      },
+      {
+        "conname": "log_axis_binding_pkey",
+        "definition": "PRIMARY KEY (log_id)",
+        "relname": "log_axis_binding"
+      },
+      {
+        "conname": "metric_definition_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "metric_definition"
+      },
+      {
+        "conname": "metric_definition_pkey",
+        "definition": "PRIMARY KEY (dataset_revision_id, metric_key)",
+        "relname": "metric_definition"
+      },
+      {
+        "conname": "quality_issue_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "quality_issue"
+      },
+      {
+        "conname": "quality_issue_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "quality_issue"
+      },
+      {
+        "conname": "release_dataset_dataset_revision_id_dataset_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id, dataset_id) REFERENCES dataset_revision(id, dataset_id)",
+        "relname": "release_dataset"
+      },
+      {
+        "conname": "release_dataset_pkey",
+        "definition": "PRIMARY KEY (release_id, dataset_id)",
+        "relname": "release_dataset"
+      },
+      {
+        "conname": "release_dataset_release_id_fkey",
+        "definition": "FOREIGN KEY (release_id) REFERENCES data_release(id)",
+        "relname": "release_dataset"
+      },
+      {
+        "conname": "revision_validation_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "revision_validation"
+      },
+      {
+        "conname": "revision_validation_pkey",
+        "definition": "PRIMARY KEY (dataset_revision_id)",
+        "relname": "revision_validation"
+      },
+      {
+        "conname": "sample_axis_check",
+        "definition": "CHECK ((depth_min_m <= depth_max_m))",
+        "relname": "sample_axis"
+      },
+      {
+        "conname": "sample_axis_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "sample_axis"
+      },
+      {
+        "conname": "sample_axis_id_dataset_revision_id_key",
+        "definition": "UNIQUE (id, dataset_revision_id)",
+        "relname": "sample_axis"
+      },
+      {
+        "conname": "sample_axis_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "sample_axis"
+      },
+      {
+        "conname": "sample_axis_sample_count_check",
+        "definition": "CHECK ((sample_count > 0))",
+        "relname": "sample_axis"
+      },
+      {
+        "conname": "scan_log_component_rank_check",
+        "definition": "CHECK (((component_rank IS NULL) OR (component_rank > 0)))",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_dataset_revision_id_log_kind_source_log_id_key",
+        "definition": "UNIQUE (dataset_revision_id, log_kind, source_log_id)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_dataset_revision_id_metric_key_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id, metric_key) REFERENCES metric_definition(dataset_revision_id, metric_key)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_id_dataset_revision_id_key",
+        "definition": "UNIQUE (id, dataset_revision_id)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_interpretation_set_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (interpretation_set_id, dataset_revision_id) REFERENCES interpretation_set(id, dataset_revision_id)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_log_spectral_stream_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (spectral_stream_id, dataset_revision_id) REFERENCES spectral_stream(id, dataset_revision_id)",
+        "relname": "scan_log"
+      },
+      {
+        "conname": "scan_sample_axis_id_fkey",
+        "definition": "FOREIGN KEY (axis_id) REFERENCES sample_axis(id)",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_md_m_check",
+        "definition": "CHECK (((md_m > '-Infinity'::double precision) AND (md_m < 'Infinity'::double precision)))",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_pkey",
+        "definition": "PRIMARY KEY (axis_id, sample_no)",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_sample_no_check",
+        "definition": "CHECK ((sample_no >= 0))",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_section_interval_id_axis_id_fkey",
+        "definition": "FOREIGN KEY (section_interval_id, axis_id) REFERENCES core_interval(id, axis_id)",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_section_sample_no_check",
+        "definition": "CHECK ((section_sample_no > 0))",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_tray_interval_id_axis_id_fkey",
+        "definition": "FOREIGN KEY (tray_interval_id, axis_id) REFERENCES core_interval(id, axis_id)",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "scan_sample_tray_sample_no_check",
+        "definition": "CHECK ((tray_sample_no > 0))",
+        "relname": "scan_sample"
+      },
+      {
+        "conname": "schema_migration_pkey",
+        "definition": "PRIMARY KEY (name)",
+        "relname": "schema_migration"
+      },
+      {
+        "conname": "source_document_asset_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (asset_id, dataset_revision_id) REFERENCES asset(id, dataset_revision_id)",
+        "relname": "source_document"
+      },
+      {
+        "conname": "source_document_check",
+        "definition": "CHECK (((content_json IS NOT NULL) OR (content_text IS NOT NULL)))",
+        "relname": "source_document"
+      },
+      {
+        "conname": "source_document_dataset_revision_id_document_name_key",
+        "definition": "UNIQUE (dataset_revision_id, document_name)",
+        "relname": "source_document"
+      },
+      {
+        "conname": "source_document_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "source_document"
+      },
+      {
+        "conname": "source_reference_check",
+        "definition": "CHECK (((status <> 'resolved'::text) OR (target_log_id IS NOT NULL)))",
+        "relname": "source_reference"
+      },
+      {
+        "conname": "source_reference_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "source_reference"
+      },
+      {
+        "conname": "source_reference_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "source_reference"
+      },
+      {
+        "conname": "source_reference_target_log_id_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (target_log_id, dataset_revision_id) REFERENCES scan_log(id, dataset_revision_id)",
+        "relname": "source_reference"
+      },
+      {
+        "conname": "spectral_stream_check",
+        "definition": "CHECK ((cardinality(wavelengths) = wavelength_count))",
+        "relname": "spectral_stream"
+      },
+      {
+        "conname": "spectral_stream_dataset_revision_id_fkey",
+        "definition": "FOREIGN KEY (dataset_revision_id) REFERENCES dataset_revision(id)",
+        "relname": "spectral_stream"
+      },
+      {
+        "conname": "spectral_stream_id_dataset_revision_id_key",
+        "definition": "UNIQUE (id, dataset_revision_id)",
+        "relname": "spectral_stream"
+      },
+      {
+        "conname": "spectral_stream_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "spectral_stream"
+      },
+      {
+        "conname": "spectral_stream_wavelength_count_check",
+        "definition": "CHECK ((wavelength_count > 0))",
+        "relname": "spectral_stream"
+      },
+      {
+        "conname": "survey_station_azimuth_deg_check",
+        "definition": "CHECK (((azimuth_deg >= (0)::double precision) AND (azimuth_deg < (360)::double precision)))",
+        "relname": "survey_station"
+      },
+      {
+        "conname": "survey_station_borehole_id_fkey",
+        "definition": "FOREIGN KEY (borehole_id) REFERENCES borehole(id)",
+        "relname": "survey_station"
+      },
+      {
+        "conname": "survey_station_branch_id_borehole_id_fkey",
+        "definition": "FOREIGN KEY (branch_id, borehole_id) REFERENCES borehole_branch(id, borehole_id)",
+        "relname": "survey_station"
+      },
+      {
+        "conname": "survey_station_pkey",
+        "definition": "PRIMARY KEY (id)",
+        "relname": "survey_station"
+      }
+    ],
+    "functions": [
+      {
+        "definition": "CREATE OR REPLACE FUNCTION core.reject_mutation()\n RETURNS trigger\n LANGUAGE plpgsql\nAS $function$\nBEGIN RAISE EXCEPTION 'Immutable prepared record: create a new revision instead' USING ERRCODE='55000'; END $function$\n",
+        "proname": "reject_mutation"
+      }
+    ],
+    "indexes": [
+      {
+        "indexdef": "CREATE UNIQUE INDEX active_release_pkey ON core.active_release USING btree (singleton)",
+        "indexname": "active_release_pkey",
+        "tablename": "active_release"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX asset_dataset_revision_id_representation_logical_path_key ON core.asset USING btree (dataset_revision_id, representation, logical_path)",
+        "indexname": "asset_dataset_revision_id_representation_logical_path_key",
+        "tablename": "asset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX asset_id_dataset_revision_id_key ON core.asset USING btree (id, dataset_revision_id)",
+        "indexname": "asset_id_dataset_revision_id_key",
+        "tablename": "asset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX asset_pkey ON core.asset USING btree (id)",
+        "indexname": "asset_pkey",
+        "tablename": "asset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX asset_location_asset_id_backend_root_key_object_key_key ON core.asset_location USING btree (asset_id, backend, root_key, object_key)",
+        "indexname": "asset_location_asset_id_backend_root_key_object_key_key",
+        "tablename": "asset_location"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX asset_location_pkey ON core.asset_location USING btree (id)",
+        "indexname": "asset_location_pkey",
+        "tablename": "asset_location"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX borehole_pkey ON core.borehole USING btree (id)",
+        "indexname": "borehole_pkey",
+        "tablename": "borehole"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX borehole_provider_code_source_hole_id_key ON core.borehole USING btree (provider_code, source_hole_id)",
+        "indexname": "borehole_provider_code_source_hole_id_key",
+        "tablename": "borehole"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX borehole_branch_id_borehole_id_key ON core.borehole_branch USING btree (id, borehole_id)",
+        "indexname": "borehole_branch_id_borehole_id_key",
+        "tablename": "borehole_branch"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX borehole_branch_pkey ON core.borehole_branch USING btree (id)",
+        "indexname": "borehole_branch_pkey",
+        "tablename": "borehole_branch"
+      },
+      {
+        "indexdef": "CREATE INDEX borehole_collar_gist ON core.borehole_revision USING gist (collar_geom)",
+        "indexname": "borehole_collar_gist",
+        "tablename": "borehole_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX borehole_revision_id_borehole_id_key ON core.borehole_revision USING btree (id, borehole_id)",
+        "indexname": "borehole_revision_id_borehole_id_key",
+        "tablename": "borehole_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX borehole_revision_pkey ON core.borehole_revision USING btree (id)",
+        "indexname": "borehole_revision_pkey",
+        "tablename": "borehole_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX core_interval_axis_id_interval_kind_ordinal_key ON core.core_interval USING btree (axis_id, interval_kind, ordinal)",
+        "indexname": "core_interval_axis_id_interval_kind_ordinal_key",
+        "tablename": "core_interval"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX core_interval_id_axis_id_key ON core.core_interval USING btree (id, axis_id)",
+        "indexname": "core_interval_id_axis_id_key",
+        "tablename": "core_interval"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX core_interval_pkey ON core.core_interval USING btree (id)",
+        "indexname": "core_interval_pkey",
+        "tablename": "core_interval"
+      },
+      {
+        "indexdef": "CREATE INDEX chunk_range_idx ON core.data_chunk USING btree (log_id, coordinate_min, coordinate_max)",
+        "indexname": "chunk_range_idx",
+        "tablename": "data_chunk"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX data_chunk_pkey ON core.data_chunk USING btree (asset_id, row_group)",
+        "indexname": "data_chunk_pkey",
+        "tablename": "data_chunk"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX data_release_manifest_sha256_key ON core.data_release USING btree (manifest_sha256)",
+        "indexname": "data_release_manifest_sha256_key",
+        "tablename": "data_release"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX data_release_pkey ON core.data_release USING btree (id)",
+        "indexname": "data_release_pkey",
+        "tablename": "data_release"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_borehole_id_source_dataset_id_key ON core.dataset USING btree (borehole_id, source_dataset_id)",
+        "indexname": "dataset_borehole_id_source_dataset_id_key",
+        "tablename": "dataset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_id_borehole_id_key ON core.dataset USING btree (id, borehole_id)",
+        "indexname": "dataset_id_borehole_id_key",
+        "tablename": "dataset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_pkey ON core.dataset USING btree (id)",
+        "indexname": "dataset_pkey",
+        "tablename": "dataset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_revision_dataset_id_source_snapshot_id_pipeline_id__key ON core.dataset_revision USING btree (dataset_id, source_snapshot_id, pipeline_id, mapping_version)",
+        "indexname": "dataset_revision_dataset_id_source_snapshot_id_pipeline_id__key",
+        "tablename": "dataset_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_revision_id_borehole_id_key ON core.dataset_revision USING btree (id, borehole_id)",
+        "indexname": "dataset_revision_id_borehole_id_key",
+        "tablename": "dataset_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_revision_id_dataset_id_key ON core.dataset_revision USING btree (id, dataset_id)",
+        "indexname": "dataset_revision_id_dataset_id_key",
+        "tablename": "dataset_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_revision_pkey ON core.dataset_revision USING btree (id)",
+        "indexname": "dataset_revision_pkey",
+        "tablename": "dataset_revision"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX dataset_segment_pkey ON core.dataset_segment USING btree (id)",
+        "indexname": "dataset_segment_pkey",
+        "tablename": "dataset_segment"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX image_frame_log_id_image_ordinal_key ON core.image_frame USING btree (log_id, image_ordinal)",
+        "indexname": "image_frame_log_id_image_ordinal_key",
+        "tablename": "image_frame"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX image_frame_pkey ON core.image_frame USING btree (id)",
+        "indexname": "image_frame_pkey",
+        "tablename": "image_frame"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX ingest_run_pkey ON core.ingest_run USING btree (id)",
+        "indexname": "ingest_run_pkey",
+        "tablename": "ingest_run"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX interpretation_input_pkey ON core.interpretation_input USING btree (interpretation_set_id, spectral_stream_id)",
+        "indexname": "interpretation_input_pkey",
+        "tablename": "interpretation_input"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX interpretation_set_dataset_revision_id_source_set_code_key ON core.interpretation_set USING btree (dataset_revision_id, source_set_code)",
+        "indexname": "interpretation_set_dataset_revision_id_source_set_code_key",
+        "tablename": "interpretation_set"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX interpretation_set_id_dataset_revision_id_key ON core.interpretation_set USING btree (id, dataset_revision_id)",
+        "indexname": "interpretation_set_id_dataset_revision_id_key",
+        "tablename": "interpretation_set"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX interpretation_set_pkey ON core.interpretation_set USING btree (id)",
+        "indexname": "interpretation_set_pkey",
+        "tablename": "interpretation_set"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX log_asset_pkey ON core.log_asset USING btree (log_id, asset_id)",
+        "indexname": "log_asset_pkey",
+        "tablename": "log_asset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX log_axis_binding_pkey ON core.log_axis_binding USING btree (log_id)",
+        "indexname": "log_axis_binding_pkey",
+        "tablename": "log_axis_binding"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX metric_definition_pkey ON core.metric_definition USING btree (dataset_revision_id, metric_key)",
+        "indexname": "metric_definition_pkey",
+        "tablename": "metric_definition"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX quality_issue_pkey ON core.quality_issue USING btree (id)",
+        "indexname": "quality_issue_pkey",
+        "tablename": "quality_issue"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX release_dataset_pkey ON core.release_dataset USING btree (release_id, dataset_id)",
+        "indexname": "release_dataset_pkey",
+        "tablename": "release_dataset"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX revision_validation_pkey ON core.revision_validation USING btree (dataset_revision_id)",
+        "indexname": "revision_validation_pkey",
+        "tablename": "revision_validation"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX sample_axis_id_dataset_revision_id_key ON core.sample_axis USING btree (id, dataset_revision_id)",
+        "indexname": "sample_axis_id_dataset_revision_id_key",
+        "tablename": "sample_axis"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX sample_axis_pkey ON core.sample_axis USING btree (id)",
+        "indexname": "sample_axis_pkey",
+        "tablename": "sample_axis"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX scan_log_dataset_revision_id_log_kind_source_log_id_key ON core.scan_log USING btree (dataset_revision_id, log_kind, source_log_id)",
+        "indexname": "scan_log_dataset_revision_id_log_kind_source_log_id_key",
+        "tablename": "scan_log"
+      },
+      {
+        "indexdef": "CREATE INDEX scan_log_filter_idx ON core.scan_log USING btree (dataset_revision_id, log_kind, interpretation_set_id, metric_key)",
+        "indexname": "scan_log_filter_idx",
+        "tablename": "scan_log"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX scan_log_id_dataset_revision_id_key ON core.scan_log USING btree (id, dataset_revision_id)",
+        "indexname": "scan_log_id_dataset_revision_id_key",
+        "tablename": "scan_log"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX scan_log_pkey ON core.scan_log USING btree (id)",
+        "indexname": "scan_log_pkey",
+        "tablename": "scan_log"
+      },
+      {
+        "indexdef": "CREATE INDEX sample_depth_idx ON core.scan_sample USING btree (axis_id, md_m, sample_no)",
+        "indexname": "sample_depth_idx",
+        "tablename": "scan_sample"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX scan_sample_pkey ON core.scan_sample USING btree (axis_id, sample_no)",
+        "indexname": "scan_sample_pkey",
+        "tablename": "scan_sample"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX schema_migration_pkey ON core.schema_migration USING btree (name)",
+        "indexname": "schema_migration_pkey",
+        "tablename": "schema_migration"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX source_document_dataset_revision_id_document_name_key ON core.source_document USING btree (dataset_revision_id, document_name)",
+        "indexname": "source_document_dataset_revision_id_document_name_key",
+        "tablename": "source_document"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX source_document_pkey ON core.source_document USING btree (id)",
+        "indexname": "source_document_pkey",
+        "tablename": "source_document"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX source_reference_pkey ON core.source_reference USING btree (id)",
+        "indexname": "source_reference_pkey",
+        "tablename": "source_reference"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX spectral_stream_id_dataset_revision_id_key ON core.spectral_stream USING btree (id, dataset_revision_id)",
+        "indexname": "spectral_stream_id_dataset_revision_id_key",
+        "tablename": "spectral_stream"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX spectral_stream_pkey ON core.spectral_stream USING btree (id)",
+        "indexname": "spectral_stream_pkey",
+        "tablename": "spectral_stream"
+      },
+      {
+        "indexdef": "CREATE UNIQUE INDEX survey_station_pkey ON core.survey_station USING btree (id)",
+        "indexname": "survey_station_pkey",
+        "tablename": "survey_station"
+      }
+    ],
+    "triggers": [
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.asset FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "asset",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.borehole FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "borehole",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.borehole_branch FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "borehole_branch",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.borehole_revision FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "borehole_revision",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.core_interval FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "core_interval",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.data_chunk FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "data_chunk",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.data_release FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "data_release",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.dataset FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "dataset",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.dataset_revision FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "dataset_revision",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.dataset_segment FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "dataset_segment",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.image_frame FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "image_frame",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.interpretation_input FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "interpretation_input",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.interpretation_set FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "interpretation_set",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.log_asset FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "log_asset",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.log_axis_binding FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "log_axis_binding",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.metric_definition FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "metric_definition",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.quality_issue FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "quality_issue",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.release_dataset FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "release_dataset",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.sample_axis FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "sample_axis",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.scan_log FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "scan_log",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.scan_sample FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "scan_sample",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.source_document FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "source_document",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.source_reference FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "source_reference",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.spectral_stream FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "spectral_stream",
+        "tgname": "immutable_record"
+      },
+      {
+        "definition": "CREATE TRIGGER immutable_record BEFORE DELETE OR UPDATE ON core.survey_station FOR EACH ROW EXECUTE FUNCTION reject_mutation()",
+        "relname": "survey_station",
+        "tgname": "immutable_record"
+      }
+    ]
+  },
+  "schema_reproduction": "passed",
+  "schema_sha256": "542c3ae43588a62ee5e58c6516720b2de65ea35a5a46ef5c3842c85870a84d16",
+  "scope": "database only; no API calls, no cloud operations",
+  "source_checks": [
+    {
+      "hole_id": "05KCD001",
+      "status": "passed",
+      "typed_fields_compared": 4903
+    },
+    {
+      "hole_id": "07THD002",
+      "status": "passed",
+      "typed_fields_compared": 4948
+    },
+    {
+      "hole_id": "07THD003",
+      "status": "passed",
+      "typed_fields_compared": 4333
+    },
+    {
+      "hole_id": "09ATD015",
+      "status": "passed",
+      "typed_fields_compared": 3837
+    },
+    {
+      "hole_id": "09ATD019",
+      "status": "passed",
+      "typed_fields_compared": 3267
+    }
+  ],
+  "status": "passed_existing_data",
+  "stream_summary": [
+    {
+      "count": 3,
+      "region_code": "TIR",
+      "wavelength_count": 341,
+      "wavelength_unit": "nm"
+    },
+    {
+      "count": 5,
+      "region_code": "VSWIR",
+      "wavelength_count": 531,
+      "wavelength_unit": "nm"
+    }
+  ],
+  "tables": [
+    {
+      "bytes": 24576,
+      "rows": 1,
+      "table": "active_release"
+    },
+    {
+      "bytes": 1294336,
+      "rows": 1391,
+      "table": "asset"
+    },
+    {
+      "bytes": 761856,
+      "rows": 1391,
+      "table": "asset_location"
+    },
+    {
+      "bytes": 49152,
+      "rows": 5,
+      "table": "borehole"
+    },
+    {
+      "bytes": 24576,
+      "rows": 0,
+      "table": "borehole_branch"
+    },
+    {
+      "bytes": 90112,
+      "rows": 5,
+      "table": "borehole_revision"
+    },
+    {
+      "bytes": 761856,
+      "rows": 1610,
+      "table": "core_interval"
+    },
+    {
+      "bytes": 2482176,
+      "rows": 6777,
+      "table": "data_chunk"
+    },
+    {
+      "bytes": 49152,
+      "rows": 2,
+      "table": "data_release"
+    },
+    {
+      "bytes": 65536,
+      "rows": 5,
+      "table": "dataset"
+    },
+    {
+      "bytes": 114688,
+      "rows": 5,
+      "table": "dataset_revision"
+    },
+    {
+      "bytes": 16384,
+      "rows": 0,
+      "table": "dataset_segment"
+    },
+    {
+      "bytes": 163840,
+      "rows": 249,
+      "table": "image_frame"
+    },
+    {
+      "bytes": 32768,
+      "rows": 4,
+      "table": "ingest_run"
+    },
+    {
+      "bytes": 16384,
+      "rows": 0,
+      "table": "interpretation_input"
+    },
+    {
+      "bytes": 65536,
+      "rows": 23,
+      "table": "interpretation_set"
+    },
+    {
+      "bytes": 270336,
+      "rows": 1266,
+      "table": "log_asset"
+    },
+    {
+      "bytes": 155648,
+      "rows": 583,
+      "table": "log_axis_binding"
+    },
+    {
+      "bytes": 114688,
+      "rows": 240,
+      "table": "metric_definition"
+    },
+    {
+      "bytes": 73728,
+      "rows": 75,
+      "table": "quality_issue"
+    },
+    {
+      "bytes": 24576,
+      "rows": 6,
+      "table": "release_dataset"
+    },
+    {
+      "bytes": 32768,
+      "rows": 5,
+      "table": "revision_validation"
+    },
+    {
+      "bytes": 106496,
+      "rows": 5,
+      "table": "sample_axis"
+    },
+    {
+      "bytes": 1507328,
+      "rows": 583,
+      "table": "scan_log"
+    },
+    {
+      "bytes": 60030976,
+      "rows": 261892,
+      "table": "scan_sample"
+    },
+    {
+      "bytes": 32768,
+      "rows": 3,
+      "table": "schema_migration"
+    },
+    {
+      "bytes": 409600,
+      "rows": 70,
+      "table": "source_document"
+    },
+    {
+      "bytes": 32768,
+      "rows": 15,
+      "table": "source_reference"
+    },
+    {
+      "bytes": 90112,
+      "rows": 8,
+      "table": "spectral_stream"
+    },
+    {
+      "bytes": 16384,
+      "rows": 0,
+      "table": "survey_station"
+    }
+  ],
+  "trial_database_removed": true,
+  "variant_summary": [
+    {
+      "algorithm_family": "TSA",
+      "count": 5,
+      "output_region": "SWIR",
+      "variant_code": "s"
+    },
+    {
+      "algorithm_family": "TSA",
+      "count": 5,
+      "output_region": "SWIR",
+      "variant_code": "u"
+    },
+    {
+      "algorithm_family": "TSA",
+      "count": 5,
+      "output_region": "VNIR",
+      "variant_code": "s"
+    },
+    {
+      "algorithm_family": "TSA",
+      "count": 2,
+      "output_region": "VNIR",
+      "variant_code": "u"
+    },
+    {
+      "algorithm_family": "jCLST",
+      "count": 3,
+      "output_region": "TIR",
+      "variant_code": "s"
+    },
+    {
+      "algorithm_family": "jCLST",
+      "count": 3,
+      "output_region": "TIR",
+      "variant_code": "u"
+    }
+  ]
+}

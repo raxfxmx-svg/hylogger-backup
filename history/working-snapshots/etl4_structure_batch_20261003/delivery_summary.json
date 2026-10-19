@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "changed_files": [
+    {
+      "path": "etl4/database/37_import_final_version.py",
+      "before_sha256": "5595788c39f4e6c657c294a0a28fc16e13c31e680fe96b36786da94d61febfad",
+      "after_sha256": "513fbec07dd334cfb2c05c6467c7eb7518a4835ea83f6a486668e3f3deeba316"
+    },
+    {
+      "path": "etl4/database/41_cleanup_batch.py",
+      "before_sha256": "9c211b914bad6ed583ff6412c030b91cb29758ec6b36b8425464ab46cff12fd0",
+      "after_sha256": "f2494a488ac238ca57f0c718beb0d27c7a28ec33d2e5d50515a8bc29414954fb"
+    },
+    {
+      "path": "etl4/database/_final_import.py",
+      "before_sha256": "fbf25a9093af2d335eae49b46736608841487fbf425514154a3b46c6d8ccc712",
+      "after_sha256": "da5da82e702cd742c2ac2d1d16563677483830132351c454f13c4754ad3bd42d"
+    },
+    {
+      "path": "etl4/database/CODE_STRUCTURE.md",
+      "before_sha256": "1f55f99a4af41e9129db2c61d1eac76e1975014f176a455a6acb60920a8c39e0",
+      "after_sha256": "5944a602f9cae7dadbf861a946020afbb25ccfd0a41ec88d13eaad308c2b1f2e"
+    },
+    {
+      "path": "etl4/database/LOCAL_BATCH_RUNBOOK.md",
+      "before_sha256": "30c9b50c0ca75b39a7ebb4e1636d7215109938727e7688f21ff61b515a4ebde0",
+      "after_sha256": "b82e552cdc1193bd0ac15f02df2be1d1b5955e8db5503063d9cc3193cfce8ef2"
+    },
+    {
+      "path": "etl4/database/README.md",
+      "before_sha256": "6ebd01d309cbab25b794c6d1e93bf2e1a72d145a9f6ecceb357ca1dded71d438",
+      "after_sha256": "a8147b47e81b917e163b455989bf4e4f47664f9d3f97e63a3e4c25bbcdb1f41c"
+    },
+    {
+      "path": "etl4/database/tests/check_final_flow.py",
+      "before_sha256": "5cc7cfc111963c327a55ed60e710b8c774f865e0ae6cdf111f9a7bce9368af74",
+      "after_sha256": "47ada58810d12f3443f86ccb3dab83a6ab85323131eae794015a758c35f63267"
+    },
+    {
+      "path": "etl4/database/tests/measure_final_flow.py",
+      "before_sha256": "3c7d938287aa5a5cbea4776e9bcf0beca3ac4069c321077cb58ba31da811b9ac",
+      "after_sha256": "f6a9a5890e72d8594a19572bcea35c37258c43f3207ebaaca9c87f87b91ac9d0"
+    },
+    {
+      "path": "etl4/database/tests/test_local_batch.py",
+      "before_sha256": "94476de7439be50715fab105db9f12fa371b5b2941403ab50e77d3945d4382c1",
+      "after_sha256": "e4a56c72262a7406806d2047bd3376d14f15d7e77e1ef09b20493ff8714feaa0"
+    },
+    {
+      "path": "etl4/database/tests/check_batch_flow.py",
+      "new_file": true,
+      "sha256": "fa0db745c63ddd9492916a41cb62ab8159fff87c9f49a3f161c9b089b6c638c8"
+    },
+    {
+      "path": "etl4/database/ETL_STRUCTURE_BATCH_REPORT_20261003.md",
+      "new_file": true,
+      "sha256": "4cb5f5171f0bc5a81d16742957b70d1e1e02d16b3506cb99d259a5b90c1eb121"
+    }
+  ],
+  "protected_files_unchanged": 29,
+  "offline_tests": 224,
+  "batch_test": "passed",
+  "real_hole_check": "passed",
+  "temporary_databases_dropped": 3,
+  "real_asset_cleanup_performed": false,
+  "aws_or_api_operations": false
+}

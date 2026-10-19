@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-16T04:30:21.978Z",
+  "hole": "12CADD001",
+  "datasetCount": 2,
+  "revision": "bc2772e4-7111-562d-a290-569b4e76a494",
+  "axis": "b0f1f5ac-0d3d-5968-9ce4-26d9e170edf3",
+  "sampleNo": 0,
+  "currentRequest": {
+    "logCount": 18,
+    "status": 422,
+    "detail": [
+      {
+        "type": "too_long",
+        "loc": [
+          "query",
+          "log_ids"
+        ],
+        "msg": "List should have at most 16 items after validation, not 18",
+        "input": [
+          "575cc39a-485a-5848-a9e8-e58d9be7c459",
+          "52ac9c16-0d48-5014-a8c9-1467ebde9b57",
+          "578ba9f0-d163-523e-981d-ee1a71a68d0e",
+          "4ded5b79-3210-5709-9738-fb558cd41a4c",
+          "da9a935d-4914-5cdd-b447-d53468a474ac",
+          "27caca06-2f24-59ae-98d8-9e8efff15271",
+          "722265b4-7714-59fe-82b0-482484708404",
+          "931a8743-e388-5777-82db-88c38557087d",
+          "60eff224-7c21-5c87-8294-6fbadd8bbc1f",
+          "20d54200-114c-5317-9252-06930ace0f50",
+          "d6e08d85-f1ca-57a4-9558-995276b5ecca",
+          "61c720fa-d1e0-5b67-898a-32ba201506f9",
+          "6a5227c6-b252-50cc-9db1-0d3433270a38",
+          "ef022bdd-de63-5b40-9059-aba0cb0f8dfd",
+          "406e6263-622c-5e10-9e6d-66b6e6ea7b8c",
+          "f02b1a09-4160-52ec-8363-548f50d4cffc",
+          "ca7380df-3bbd-572f-9a58-9abe795d5bf5",
+          "6708328a-662b-5837-942b-bb3f1c2ee5d1"
+        ],
+        "ctx": {
+          "field_type": "List",
+          "max_length": 16,
+          "actual_length": 18
+        }
+      }
+    ]
+  },
+  "cappedRequest": {
+    "logCount": 16,
+    "status": 200,
+    "spectra": [
+      {
+        "region": "TIR",
+        "channels": 341,
+        "status": "available"
+      },
+      {
+        "region": "VSWIR",
+        "channels": 531,
+        "status": "available"
+      }
+    ]
+  },
+  "note": "Read-only API requests; no deployed code or backend data changed."
+}

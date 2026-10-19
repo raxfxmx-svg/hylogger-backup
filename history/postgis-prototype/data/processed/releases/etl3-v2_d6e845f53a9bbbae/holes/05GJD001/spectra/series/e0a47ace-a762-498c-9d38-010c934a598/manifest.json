@@ -1,0 +1,28 @@
+{
+  "schema_version": "etl3.processed.v2",
+  "hole_id": "05GJD001",
+  "dataset_id": "8a294cfc-68df-4f03-995b-c5fd0d47ab0",
+  "source_log_id": "e0a47ace-a762-498c-9d38-010c934a598",
+  "source_log_name": "Base Refl",
+  "source_status": "complete",
+  "shape": [
+    25938,
+    341
+  ],
+  "dtype": "float32",
+  "byte_order": "little",
+  "row_order": "sample_index",
+  "row_byte_width": 1364,
+  "row_offset_formula": "sample_index * band_count * 4",
+  "axis_id": "axis_8a68ef21a4c70103",
+  "axis_storage_key": "holes/05GJD001/spectra/axes/axis_8a68ef21a4c70103.json",
+  "values_storage_key": "holes/05GJD001/spectra/series/e0a47ace-a762-498c-9d38-010c934a598/values.f32",
+  "nbytes": 35379432,
+  "sha256": "5a08f728af5763ebdfd1700e2464fad166c780b3c6b8835baaca49af999baa10",
+  "statistics_for_validation_only": {
+    "finite_value_count": 8844858,
+    "nonfinite_value_count": 0,
+    "finite_min": -0.004281418863683939,
+    "finite_max": 0.8009085655212402
+  }
+}

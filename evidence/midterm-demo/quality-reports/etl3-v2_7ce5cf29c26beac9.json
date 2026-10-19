@@ -1,0 +1,165 @@
+{
+  "schema_version": "etl3.processed.v2",
+  "release_id": "etl3-v2_7ce5cf29c26beac9",
+  "hole_id": "18GSCRCD0001",
+  "status": "pass",
+  "generated_at": "2026-08-27T00:07:28+00:00",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "raw_package_tree_recorded",
+      "status": "pass",
+      "details": {
+        "file_count": 150,
+        "nbytes": 259866431,
+        "tree_sha256": "357ee7a804407e15d62f5ad0e5da6f9a2d9dd1a1daf36c971f472d60ba5b7c63"
+      }
+    },
+    {
+      "name": "asset_files_verified_and_copied",
+      "status": "pass",
+      "details": {
+        "copied_files": 54,
+        "catalog_rows": 56
+      }
+    },
+    {
+      "name": "scalar_common_axis",
+      "status": "pass",
+      "details": {
+        "sample_count": 36040,
+        "axis_source_log_id": "00ea672e-0475-4847-a35e-921e6c09801",
+        "aligned_source_series": 77,
+        "irregular_source_series": 0,
+        "physical_value_columns": 58,
+        "duplicate_axis_coordinate_rows": 7296
+      }
+    },
+    {
+      "name": "tray_partition",
+      "status": "pass",
+      "details": {
+        "tray_count": 53
+      }
+    },
+    {
+      "name": "section_partition",
+      "status": "pass",
+      "details": {
+        "section_count": 265,
+        "sections_per_tray": {
+          "0": 5,
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5,
+          "16": 5,
+          "17": 5,
+          "18": 5,
+          "19": 5,
+          "20": 5,
+          "21": 5,
+          "22": 5,
+          "23": 5,
+          "24": 5,
+          "25": 5,
+          "26": 5,
+          "27": 5,
+          "28": 5,
+          "29": 5,
+          "30": 5,
+          "31": 5,
+          "32": 5,
+          "33": 5,
+          "34": 5,
+          "35": 5,
+          "36": 5,
+          "37": 5,
+          "38": 5,
+          "39": 5,
+          "40": 5,
+          "41": 5,
+          "42": 5,
+          "43": 5,
+          "44": 5,
+          "45": 5,
+          "46": 5,
+          "47": 5,
+          "48": 5,
+          "49": 5,
+          "50": 5,
+          "51": 5,
+          "52": 5
+        }
+      }
+    },
+    {
+      "name": "thumbnail_core_section_strips",
+      "status": "pass",
+      "details": {
+        "mapping_rows": 265,
+        "complete_strips": 265,
+        "unavailable_or_failed": 0,
+        "image_quality": "thumbnail_derived",
+        "output_resized": false,
+        "jpeg_quality": 90
+      }
+    },
+    {
+      "name": "spectral_series_separated",
+      "status": "pass",
+      "details": {
+        "source_series": 15,
+        "complete_series": 2,
+        "axis_count": 2,
+        "combined_signals_csv_created": false
+      }
+    }
+  ],
+  "counts": {
+    "hole_count": 1,
+    "dataset_count": 1,
+    "sample_count": 36040,
+    "scalar_source_series_count": 79,
+    "scalar_physical_value_columns": 58,
+    "tray_count": 53,
+    "section_count": 265,
+    "section_image_mapping_rows": 265,
+    "core_strip_complete_count": 265,
+    "spectral_source_series_count": 15,
+    "spectral_complete_series_count": 2,
+    "spectral_axis_count": 2,
+    "asset_catalog_rows": 321,
+    "availability_rows": 99
+  },
+  "important_storage_keys": {
+    "sample_axis": "holes/18GSCRCD0001/sample_axis.parquet",
+    "scalar_values": "holes/18GSCRCD0001/scalars/values.parquet",
+    "section_images": "holes/18GSCRCD0001/core/section_images.parquet"
+  },
+  "interpretation_policy": {
+    "scientific_interpretation_added": false,
+    "unknown_source_units_filled": false,
+    "mineral_truth_algorithm_selected": false,
+    "theoretical_borehole_path_generated": false,
+    "heatmap_or_other_visual_derivative_generated": true,
+    "visual_derivative_kinds": [
+      "thumbnail_core_section_strips"
+    ]
+  }
+}

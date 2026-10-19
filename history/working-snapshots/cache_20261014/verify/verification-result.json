@@ -1,0 +1,43 @@
+{
+  "source_commit": "baa66348aa4e4572af96cefa41b964299725fe13",
+  "hole": "07THD003",
+  "total_samples": 54432,
+  "raw_INVALID_samples": 21403,
+  "before": {
+    "intervals": 188,
+    "invalid_dominant": 113,
+    "invalid_above_threshold": 74,
+    "low_agreement": 76
+  },
+  "after": {
+    "intervals": 188,
+    "invalid_dominant": 0,
+    "invalid_above_threshold": 0,
+    "low_agreement": 150
+  },
+  "example": {
+    "before": {
+      "depth_from_m": 81,
+      "depth_to_m": 82,
+      "mineral_1": "INVALID",
+      "mineral_1_pct": 0.6727941176470589,
+      "confidence": 0.6727941176470589,
+      "quality_flag": "ok",
+      "is_anomaly": false,
+      "anomaly_score": null,
+      "why": null
+    },
+    "after": {
+      "depth_from_m": 81,
+      "depth_to_m": 82,
+      "mineral_1": "WHITE-MICA",
+      "mineral_1_pct": 0.16544117647058823,
+      "confidence": 0.16544117647058823,
+      "quality_flag": "ok",
+      "is_anomaly": false,
+      "anomaly_score": null,
+      "why": null
+    }
+  },
+  "disclaimer": "Offline verification of a proposed patch; not deployed. Confidence means dominant-group share of all samples, not model probability."
+}

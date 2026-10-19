@@ -1,0 +1,9 @@
+{
+  "reviewer": "codex_visual_review",
+  "representative_count": 5,
+  "contact_sheet_sha256": {
+    "25_review_1.png": "c96b99508b2b08355cf69da36801e184183c789856ce7f1d855be765363a5a6e"
+  },
+  "result": "passed",
+  "observation": "Reviewed five representative images covering three layouts. Dividers lie between rows, black empty sections in final trays are retained, and no core was visibly cut across rows. Full crop-pixel and source checks still follow."
+}

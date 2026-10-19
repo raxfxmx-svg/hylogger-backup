@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-28T11:24:06.389272+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "33_prepare_multi_dataset_media.py",
+  "code_sha256": "b9f91cdc04ac4f1b4d807fd99c1249e553efb96df2c7b57be62367ec6d4d4434",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0006812000065110624,
+  "finished_at": "2026-09-28T11:24:06.393280+00:00"
+}

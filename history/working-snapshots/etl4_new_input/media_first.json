@@ -1,0 +1,40 @@
+[
+  {
+    "step": 20,
+    "returncode": 0,
+    "seconds": 0.75,
+    "log": "step_20_first.log"
+  },
+  {
+    "step": 21,
+    "returncode": 1,
+    "seconds": 0.489,
+    "log": "step_21_first.log"
+  },
+  {
+    "step": 21,
+    "returncode": 0,
+    "network_access": "approved retry",
+    "result": "Step 21: passed"
+  },
+  {
+    "step": 22,
+    "returncode": 0,
+    "seconds": 0.257
+  },
+  {
+    "step": 23,
+    "returncode": 0,
+    "seconds": 0.351
+  },
+  {
+    "step": 24,
+    "returncode": 0,
+    "seconds": 0.265
+  },
+  {
+    "step": 25,
+    "returncode": 0,
+    "seconds": 0.432
+  }
+]

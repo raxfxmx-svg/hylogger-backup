@@ -1,0 +1,12 @@
+{
+  "base_url": "http://127.0.0.1:58000",
+  "borehole_count": 5,
+  "health": {
+    "database": "etl4_core",
+    "role": "etl4_reader",
+    "status": "ok"
+  },
+  "recorded_at": "2026-09-07T19:06:54.267888+00:00",
+  "release_id": "20bbb134-501d-54bc-9428-5ee48b6801e4",
+  "status": "passed"
+}

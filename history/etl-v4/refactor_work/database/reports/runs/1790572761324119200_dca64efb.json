@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T05:19:21.320208+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "script": "31_audit_multi_dataset_sources.py",
+  "code_sha256": "ca744c8a61c2612551db5b815b311994c014707f1abaad1ae6bd3211e98c4c7c",
+  "error_type": "SystemExit",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.0006260999944061041,
+  "finished_at": "2026-09-28T05:19:21.324119+00:00"
+}

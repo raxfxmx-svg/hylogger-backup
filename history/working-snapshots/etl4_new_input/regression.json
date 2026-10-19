@@ -1,0 +1,37 @@
+[
+  {
+    "folder": "etl4/processing/tests",
+    "pattern": "test_*.py",
+    "returncode": 0,
+    "seconds": 0.966,
+    "log": "processing_tests.log"
+  },
+  {
+    "folder": "etl4/database/tests",
+    "pattern": "test_refactor.py",
+    "returncode": 0,
+    "seconds": 0.674,
+    "log": "test_refactor.log"
+  },
+  {
+    "folder": "etl4/database/tests",
+    "pattern": "test_code_structure.py",
+    "returncode": 0,
+    "seconds": 0.392,
+    "log": "test_code_structure.log"
+  },
+  {
+    "folder": "etl4/database/tests",
+    "pattern": "test_input_selection.py",
+    "returncode": 0,
+    "seconds": 0.207,
+    "log": "test_input_selection_final.log"
+  },
+  {
+    "folder": "etl4/database/tests",
+    "pattern": "test_database_contracts.py",
+    "returncode": 0,
+    "seconds": 20.386,
+    "log": "test_database_contracts_final.log"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-10-16T04:45:16.014Z",
+  "results": [
+    {
+      "label": "18-log spectral validation",
+      "status": 422,
+      "elapsedMs": 3525,
+      "body": {
+        "detail": [
+          {
+            "type": "too_long",
+            "loc": [
+              "query",
+              "log_ids"
+            ],
+            "msg": "List should have at most 16 items after validation, not 18",
+            "input": [
+              "575cc39a-485a-5848-a9e8-e58d9be7c459",
+              "52ac9c16-0d48-5014-a8c9-1467ebde9b57",
+              "578ba9f0-d163-523e-981d-ee1a71a68d0e",
+              "4ded5b79-3210-5709-9738-fb558cd41a4c",
+              "da9a935d-4914-5cdd-b447-d53468a474ac",
+              "27caca06-2f24-59ae-98d8-9e8efff15271",
+              "722265b4-7714-59fe-82b0-482484708404",
+              "931a8743-e388-5777-82db-88c38557087d",
+              "60eff224-7c21-5c87-8294-6fbadd8bbc1f",
+              "20d54200-114c-5317-9252-06930ace0f50",
+              "d6e08d85-f1ca-57a4-9558-995276b5ecca",
+              "61c720fa-d1e0-5b67-898a-32ba201506f9",
+              "6a5227c6-b252-50cc-9db1-0d3433270a38",
+              "ef022bdd-de63-5b40-9059-aba0cb0f8dfd",
+              "406e6263-622c-5e10-9e6d-66b6e6ea7b8c",
+              "f02b1a09-4160-52ec-8363-548f50d4cffc",
+              "ca7380df-3bbd-572f-9a58-9abe795d5bf5",
+              "6708328a-662b-5837-942b-bb3f1c2ee5d1"
+            ],
+            "ctx": {
+              "field_type": "List",
+              "max_length": 16,
+              "actual_length": 18
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "15EIS001 datasets",
+      "status": 200,
+      "elapsedMs": 646,
+      "body": {
+        "hole_id": "15EIS001",
+        "items": [
+          {
+            "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+            "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+            "dataset_revision_id": "9e6e4287-ac60-546f-b8a0-ba1586cc76c2",
+            "source_dataset_name": "15EIS001",
+            "instrument_name": "HyLogger 3-2",
+            "axis_id": "140144dd-43ff-5c10-9ac0-35f70464030d",
+            "sample_count": 36716,
+            "depth_min_m": 0.00415,
+            "depth_max_m": 221.4977,
+            "coordinate_kind": "measured_depth_m"
+          },
+          {
+            "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+            "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+            "dataset_revision_id": "a8b9e366-fda2-5219-a96a-595875bace5a",
+            "source_dataset_name": "15EIS001_wedge",
+            "instrument_name": "HyLogger 3-2",
+            "axis_id": "71835f8f-431f-5f90-9c20-4f42a8ea2b29",
+            "sample_count": 47972,
+            "depth_min_m": 183.40323,
+            "depth_max_m": 501.9975,
+            "coordinate_kind": "measured_depth_m"
+          },
+          {
+            "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+            "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+            "dataset_revision_id": "0b84f004-0fa3-58cf-b2d8-6f2d9fbaf4ae",
+            "source_dataset_name": "15EIS001_wedge2",
+            "instrument_name": "HyLogger 3-2",
+            "axis_id": "6b52feb6-c623-54a5-8063-260961da9750",
+            "sample_count": 10452,
+            "depth_min_m": 429.20374,
+            "depth_max_m": 501.04172,
+            "coordinate_kind": "measured_depth_m"
+          },
+          {
+            "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+            "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+            "dataset_revision_id": "b7965d1c-9968-56fe-a6eb-8b662a0131fe",
+            "source_dataset_name": "15EIS001_wedge3",
+            "instrument_name": "HyLogger 3-2",
+            "axis_id": "8bb90b16-a9a6-5f0a-a4eb-365b66cd650a",
+            "sample_count": 179560,
+            "depth_min_m": 495.50299,
+            "depth_max_m": 1701.797,
+            "coordinate_kind": "measured_depth_m"
+          }
+        ]
+      }
+    },
+    {
+      "label": "12CADD001 datasets",
+      "status": 200,
+      "elapsedMs": 4832,
+      "body": {
+        "hole_id": "12CADD001",
+        "items": [
+          {
+            "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+            "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+            "dataset_revision_id": "bc2772e4-7111-562d-a290-569b4e76a494",
+            "source_dataset_name": "12CADD001",
+            "instrument_name": "HyLogger 3-2",
+            "axis_id": "b0f1f5ac-0d3d-5968-9ce4-26d9e170edf3",
+            "sample_count": 49104,
+            "depth_min_m": 0.00368,
+            "depth_max_m": 324.18823,
+            "coordinate_kind": "measured_depth_m"
+          },
+          {
+            "release_id": "1156d65b-384b-539f-882c-c43d5d08fa79",
+            "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+            "dataset_revision_id": "1b851a29-06ad-5324-974e-3f883b370c26",
+            "source_dataset_name": "12CADD001_wedge",
+            "instrument_name": "HyLogger 3-2",
+            "axis_id": "112abae9-5296-5ce6-b363-47b464effca7",
+            "sample_count": 30632,
+            "depth_min_m": 324.20358,
+            "depth_max_m": 537.09998,
+            "coordinate_kind": "measured_depth_m"
+          }
+        ]
+      }
+    }
+  ]
+}

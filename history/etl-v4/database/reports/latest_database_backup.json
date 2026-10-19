@@ -1,0 +1,8 @@
+{
+  "backup_relative_path": "backups/etl4_multi_177d1720-d327-534c-90da-5e3f517d8807_20260924T075109Z.dump",
+  "backup_sha256": "23dd625fab1cf7b45b14f6cb062d5cf583e2eb0b44daa4307e24f32113cc1a2b",
+  "recorded_at": "2026-09-24T07:51:25.704413+00:00",
+  "release_id": "177d1720-d327-534c-90da-5e3f517d8807",
+  "report": "36_multi_dataset_restore.json",
+  "schema_sha256": "c54652c8be1cf82d7f90f1bcca7ac196661c9d444311f5c3ed51a24f3c78ad66"
+}

@@ -1,0 +1,22 @@
+test_axis_selection_never_silently_combines_different_axes (test_database_contracts.DatabaseContracts.test_axis_selection_never_silently_combines_different_axes) ... ok
+test_checksum_rejects_corrupted_fixture_file (test_database_contracts.DatabaseContracts.test_checksum_rejects_corrupted_fixture_file) ... ok
+test_concurrent_import_lock_rejects_second_writer (test_database_contracts.DatabaseContracts.test_concurrent_import_lock_rejects_second_writer) ... ok
+test_cross_revision_axis_binding_is_rejected (test_database_contracts.DatabaseContracts.test_cross_revision_axis_binding_is_rejected) ... ok
+test_existing_sample_values_are_immutable (test_database_contracts.DatabaseContracts.test_existing_sample_values_are_immutable) ... ok
+test_failed_api_validation_keeps_the_previous_release (test_database_contracts.DatabaseContracts.test_failed_api_validation_keeps_the_previous_release) ... ok
+test_failed_copy_rolls_back_business_rows_but_preserves_audit (test_database_contracts.DatabaseContracts.test_failed_copy_rolls_back_business_rows_but_preserves_audit) ... ok
+test_interval_endpoint_must_reference_a_real_sample (test_database_contracts.DatabaseContracts.test_interval_endpoint_must_reference_a_real_sample) ... ok
+test_path_traversal_is_rejected (test_database_contracts.DatabaseContracts.test_path_traversal_is_rejected) ... ok
+test_previous_single_hole_release_remains_readable (test_database_contracts.DatabaseContracts.test_previous_single_hole_release_remains_readable) ... ok
+test_reader_cannot_write_even_when_readonly_setting_disabled (test_database_contracts.DatabaseContracts.test_reader_cannot_write_even_when_readonly_setting_disabled) ... ok
+test_reference_holes_are_rejected (test_database_contracts.DatabaseContracts.test_reference_holes_are_rejected) ... ok
+test_repeat_import_is_byte_logically_identical (test_database_contracts.DatabaseContracts.test_repeat_import_is_byte_logically_identical) ... ok
+test_same_hole_multiple_datasets_and_overlapping_depth_are_retained (test_database_contracts.DatabaseContracts.test_same_hole_multiple_datasets_and_overlapping_depth_are_retained) ... ok
+test_same_sample_number_cannot_be_inserted_twice (test_database_contracts.DatabaseContracts.test_same_sample_number_cannot_be_inserted_twice) ... ok
+test_special_labels_weights_and_nulls_survive_actual_api (test_database_contracts.DatabaseContracts.test_special_labels_weights_and_nulls_survive_actual_api) ... ok
+test_unpublished_revision_cannot_be_read_through_another_release (test_database_contracts.DatabaseContracts.test_unpublished_revision_cannot_be_read_through_another_release) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 13.802s
+
+OK

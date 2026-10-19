@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "postgres": "17.9",
+  "postgis": "3.5.6",
+  "tables": 36,
+  "current_samples": "261892",
+  "checked_at": "2026-09-17T10:46:03.575042+00:00",
+  "spatial_results": [
+    [
+      {
+        "database_name": "etl4_core",
+        "login_role": "postgres",
+        "server_build": "PostgreSQL 17.9 on aarch64-unknown-linux-gnu, compiled by aarch64-unknown-linux-gnu-gcc (GCC) 10.5.0, 64-bit",
+        "server_version_num": 170009,
+        "expected_pg_17_9": true
+      }
+    ],
+    [
+      {
+        "extversion": "3.5.6",
+        "extension_schema": "public",
+        "expected_extension_passed": true
+      }
+    ],
+    [
+      {
+        "postgis_build": "POSTGIS=\"3.5.6 0\" [EXTENSION] PGSQL=\"170\" GEOS=\"3.13.0-CAPI-1.19.0\" PROJ=\"9.5.0 NETWORK_ENABLED=OFF URL_ENDPOINT=https://cdn.proj.org USER_WRITABLE_DIRECTORY=/tmp/proj DATABASE_PATH=/rdsdbbin/aurora/bin/../share/postgresql/proj/proj.db\" (compiled against PROJ 9.5.0) LIBXML=\"2.14.2\" LIBJSON=\"0.15.99\" LIBPROTOBUF=\"1.3.0\" WAGYU=\"0.5.0 (Internal)\""
+      }
+    ],
+    [
+      {
+        "spatial_column_count_passed": true,
+        "spatial_typmod_passed": true
+      }
+    ],
+    [
+      {
+        "spatial_index_passed": true
+      }
+    ],
+    [
+      {
+        "dump_collar_count_passed": true,
+        "fixed_release_membership_count_passed": true,
+        "active_release_passed": true
+      }
+    ],
+    [
+      {
+        "hole_id": "05KCD001",
+        "actual_borehole_revision_id": "ac0dbfc0-4d53-5f51-bd2a-8ee4dcc08fa1",
+        "actual_longitude": 118.96961011,
+        "actual_latitude": -33.72358607,
+        "source_longitude": 118.96961011,
+        "source_latitude": -33.72358607,
+        "actual_ewkb_hex": "0101000020e61000008b1490170ebe5d40df3ee5779edc40c0",
+        "dump_ewkb_hex": "0101000020e61000008b1490170ebe5d40df3ee5779edc40c0",
+        "exact_dump_geometry_passed": true,
+        "source_xy_passed": true,
+        "geometry_semantics_passed": true,
+        "fixed_release_identity_passed": true,
+        "coordinate_provenance_passed": true
+      },
+      {
+        "hole_id": "07THD002",
+        "actual_borehole_revision_id": "3b63ac25-111e-5c4c-b03f-5ed8594ee672",
+        "actual_longitude": 121.46011927,
+        "actual_latitude": -23.56987364,
+        "source_longitude": 121.46011927,
+        "source_latitude": -23.56987364,
+        "actual_ewkb_hex": "0101000020e6100000343a1898725d5e4009a7263de39137c0",
+        "dump_ewkb_hex": "0101000020e6100000343a1898725d5e4009a7263de39137c0",
+        "exact_dump_geometry_passed": true,
+        "source_xy_passed": true,
+        "geometry_semantics_passed": true,
+        "fixed_release_identity_passed": true,
+        "coordinate_provenance_passed": true
+      },
+      {
+        "hole_id": "07THD003",
+        "actual_borehole_revision_id": "1f0d6d0d-035d-5d85-b8c2-e9130d4ad5e4",
+        "actual_longitude": 121.19778381,
+        "actual_latitude": -23.68170266,
+        "source_longitude": 121.19778381,
+        "source_latitude": -23.68170266,
+        "actual_ewkb_hex": "0101000020e610000036e86c7da84c5e40d44bc61084ae37c0",
+        "dump_ewkb_hex": "0101000020e610000036e86c7da84c5e40d44bc61084ae37c0",
+        "exact_dump_geometry_passed": true,
+        "source_xy_passed": true,
+        "geometry_semantics_passed": true,
+        "fixed_release_identity_passed": true,
+        "coordinate_provenance_passed": true
+      },
+      {
+        "hole_id": "09ATD015",
+        "actual_borehole_revision_id": "c75ce468-9d01-5858-a81d-049640d6e626",
+        "actual_longitude": 118.51447554,
+        "actual_latitude": -27.13891542,
+        "source_longitude": 118.51447554,
+        "source_latitude": -27.13891542,
+        "actual_ewkb_hex": "0101000020e610000016b9d02aeda05d4063cf01f68f233bc0",
+        "dump_ewkb_hex": "0101000020e610000016b9d02aeda05d4063cf01f68f233bc0",
+        "exact_dump_geometry_passed": true,
+        "source_xy_passed": true,
+        "geometry_semantics_passed": true,
+        "fixed_release_identity_passed": true,
+        "coordinate_provenance_passed": true
+      },
+      {
+        "hole_id": "09ATD019",
+        "actual_borehole_revision_id": "b99e34f6-d295-5b91-a886-0627e46c7c22",
+        "actual_longitude": 118.51391369,
+        "actual_latitude": -27.13932172,
+        "source_longitude": 118.51391369,
+        "source_latitude": -27.13932172,
+        "actual_ewkb_hex": "0101000020e610000011e13ef6e3a05d40c1059796aa233bc0",
+        "dump_ewkb_hex": "0101000020e610000011e13ef6e3a05d40c1059796aa233bc0",
+        "exact_dump_geometry_passed": true,
+        "source_xy_passed": true,
+        "geometry_semantics_passed": true,
+        "fixed_release_identity_passed": true,
+        "coordinate_provenance_passed": true
+      }
+    ],
+    [
+      {
+        "hole_id": "05KCD001",
+        "collar_geometry": {
+          "type": "Point",
+          "coordinates": [
+            118.96961011,
+            -33.72358607
+          ]
+        },
+        "api_geojson_passed": true,
+        "api_inside_bbox_passed": true,
+        "api_outside_bbox_passed": true
+      },
+      {
+        "hole_id": "07THD002",
+        "collar_geometry": {
+          "type": "Point",
+          "coordinates": [
+            121.46011927,
+            -23.56987364
+          ]
+        },
+        "api_geojson_passed": true,
+        "api_inside_bbox_passed": true,
+        "api_outside_bbox_passed": true
+      },
+      {
+        "hole_id": "07THD003",
+        "collar_geometry": {
+          "type": "Point",
+          "coordinates": [
+            121.19778381,
+            -23.68170266
+          ]
+        },
+        "api_geojson_passed": true,
+        "api_inside_bbox_passed": true,
+        "api_outside_bbox_passed": true
+      },
+      {
+        "hole_id": "09ATD015",
+        "collar_geometry": {
+          "type": "Point",
+          "coordinates": [
+            118.51447554,
+            -27.13891542
+          ]
+        },
+        "api_geojson_passed": true,
+        "api_inside_bbox_passed": true,
+        "api_outside_bbox_passed": true
+      },
+      {
+        "hole_id": "09ATD019",
+        "collar_geometry": {
+          "type": "Point",
+          "coordinates": [
+            118.51391369,
+            -27.13932172
+          ]
+        },
+        "api_geojson_passed": true,
+        "api_inside_bbox_passed": true,
+        "api_outside_bbox_passed": true
+      }
+    ]
+  ]
+}

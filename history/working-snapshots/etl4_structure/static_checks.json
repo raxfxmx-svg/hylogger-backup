@@ -1,0 +1,174 @@
+{
+  "source_files": 54,
+  "test_files": 7,
+  "lint_issues": 0,
+  "entries": [
+    {
+      "entry": "etl4\\processing\\1_inventory.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\processing\\2_validate_payloads.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\processing\\3_normalize_metadata.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\processing\\4_align_samples.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\processing\\5_build_columnar.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\processing\\6_verify_prepared_data.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\10_verify_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\11_measure_capacity.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\12_verify_restore.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\13_audit_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\14_verify_database_backup.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\20_audit_spectral_sources.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\21_verify_spectral_bindings.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\22_prepare_spectral_access.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\23_audit_dataset_image_groups.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\24_detect_image_rows.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\25_review_image_row_regions.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\26_bind_image_rows_to_samples.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\27_build_image_row_assets.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\28_import_media_revision.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\29_verify_media_grain.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\30_audit_media_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\31_audit_multi_dataset_sources.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\32_prepare_multi_dataset_payloads.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\33_prepare_multi_dataset_media.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\34_import_multi_dataset_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\35_verify_multi_dataset_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\36_backup_multi_dataset_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\7_preflight_database.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\8_apply_schema.py",
+      "returncode": 0,
+      "common_options": true
+    },
+    {
+      "entry": "etl4\\database\\9_import_prepared_data.py",
+      "returncode": 0,
+      "common_options": true
+    }
+  ],
+  "migration_bytes_unchanged": {
+    "etl4\\database\\migrations\\001_initial.sql": true,
+    "etl4\\database\\migrations\\002_nullable_metric_semantics.sql": true,
+    "etl4\\database\\migrations\\003_metric_source_identity.sql": true,
+    "etl4\\database\\migrations\\004_relational_integrity.sql": true,
+    "etl4\\database\\migrations\\005_sample_media.sql": true,
+    "etl4\\database\\migrations\\006_multi_dataset_composites.sql": true
+  },
+  "reader_signatures_unchanged": {
+    "_media_reader.py": true,
+    "_multi_reader.py": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "acceptance_report": "single_final_check_20260930/database/reports/local_acceptance_1_fdd304c10b47bf3d0f07ef2164ae8aa2183106cbdcd22f8f13fc1f7a6554ef57.json",
+  "acceptance_status": "passed",
+  "local_acceptance": 1,
+  "package_object_key": "refactor_work/database/media_releases/fdd304c10b47bf3d0f07ef2164ae8aa2183106cbdcd22f8f13fc1f7a6554ef57",
+  "recorded_at": "2026-10-03T05:59:57.353893+00:00",
+  "status": "prepared"
+}

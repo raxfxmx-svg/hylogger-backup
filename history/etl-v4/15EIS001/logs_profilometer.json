@@ -1,0 +1,34 @@
+[
+  {
+    "log_id": "be68d744-9c8a-4942-aac3-bee3bbdc9a4",
+    "log_name": "Profile log",
+    "sample_count": 36716,
+    "floats_per_sample": 0.0,
+    "min_val": 1.9073486e-06,
+    "max_val": 109.75189
+  },
+  {
+    "log_id": "24a31fee-6a94-4954-8500-31263d8515d",
+    "log_name": "Profile log",
+    "sample_count": 179560,
+    "floats_per_sample": 0.0,
+    "min_val": 0.00055122375,
+    "max_val": 84.291626
+  },
+  {
+    "log_id": "1f00094b-a195-40b3-a15e-6dbb537a3da",
+    "log_name": "Profile log",
+    "sample_count": 10452,
+    "floats_per_sample": 0.0,
+    "min_val": 0.0025644302,
+    "max_val": 97.60845
+  },
+  {
+    "log_id": "1c7e655b-76a2-483c-9fe2-5887f5e022c",
+    "log_name": "Profile log",
+    "sample_count": 47972,
+    "floats_per_sample": 0.0,
+    "min_val": 0.001039505,
+    "max_val": 109.777824
+  }
+]

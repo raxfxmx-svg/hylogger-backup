@@ -1,0 +1,52 @@
+[
+  {
+    "step": 1,
+    "returncode": 0,
+    "seconds": 0.325
+  },
+  {
+    "step": 2,
+    "returncode": 0,
+    "seconds": 4.753
+  },
+  {
+    "step": 3,
+    "returncode": 0,
+    "seconds": 0.146
+  },
+  {
+    "step": 4,
+    "returncode": 0,
+    "seconds": 0.352
+  },
+  {
+    "step": 5,
+    "returncode": 0,
+    "seconds": 23.109
+  },
+  {
+    "step": 6,
+    "returncode": 0,
+    "seconds": 0.698
+  },
+  {
+    "step": 7,
+    "returncode": 0,
+    "seconds": 0.72
+  },
+  {
+    "step": 8,
+    "returncode": 0,
+    "seconds": 0.279
+  },
+  {
+    "step": 9,
+    "returncode": 0,
+    "seconds": 0.868
+  },
+  {
+    "step": 10,
+    "returncode": 0,
+    "seconds": 3.792
+  }
+]

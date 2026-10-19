@@ -1,0 +1,7 @@
+hole_id: 05KCD001
+provider: wa
+status: complete_with_warnings
+warnings: 2
+  WARN image: Tray Images retained as metadata only by thumbnail-only policy
+  WARN image: Imagery retained as metadata only by thumbnail-only policy
+errors: 0

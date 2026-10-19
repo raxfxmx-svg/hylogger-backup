@@ -1,0 +1,73 @@
+{
+  "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+  "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+  "dataset_revision_id": "ca3660de-f678-5256-89f5-40d17832e4eb",
+  "image_status": "available",
+  "images": [
+    {
+      "error_depth_m": null,
+      "error_px": null,
+      "height_px": 25,
+      "image_asset_id": "2a4b5519-b410-543f-a671-54ef1ae03f32",
+      "image_log_id": "4c9fd8be-dfd7-501a-85c6-fa0604fc9850",
+      "image_region_id": "029d8fef-1907-5a35-b643-2b6a126ecea3",
+      "indicator": {
+        "method": "sample_index_linear",
+        "p": 0.05976095617529881,
+        "status": "approximate",
+        "version": 1,
+        "x_px": 23.784860557768926
+      },
+      "mapping_level": "section_interval",
+      "mapping_status": "metadata_associated",
+      "object_key": "database/media_releases/74ef7579d3e825faf249bb56c523f9cb0a5f986b56a232e4c48b750d96eda9c6/crops/d3c51d8a-3c91-553b-89dd-cee9e926979d/9ee88848-2053-477d-9844-51035992011/0092101d-e6b3-5fce-a7e0-eb7c102a560a.png",
+      "sample_no_from": 0,
+      "sample_no_to": 251,
+      "source_depth_direction": "left_to_right",
+      "source_image_asset_id": "44e913d8-a91d-5e0e-954d-c29157c22281",
+      "status": "available",
+      "width_px": 399
+    }
+  ],
+  "indicator_label": "The indicator position is estimated from the sample number; depth and results come from the selected sample.",
+  "md_m": 62.50175,
+  "release_id": "fd02659c-dc3d-52ea-a8eb-c032b91e7624",
+  "results": [
+    {
+      "algorithm_family": "TSA",
+      "component_rank": 1,
+      "interpretation_set_id": "574bebb8-d0e7-5687-beb5-871f41790bf0",
+      "log_id": "a4a5c7d3-0fe8-53be-97a2-02a5c7771ae8",
+      "log_kind": "scalar",
+      "metric_key": "mineral_name",
+      "output_region": "SWIR",
+      "source_log_id": "3b01d87b-1a69-4e53-a8cd-15eda8a030b",
+      "source_log_name": "Min1 sTSAS",
+      "status": "available",
+      "unit": null,
+      "value": {
+        "depth_m": 62.50175,
+        "sample_no": 15,
+        "sample_no_from": null,
+        "sample_no_to": null,
+        "source_row": 15,
+        "value_numeric": null,
+        "value_raw": "Muscovite",
+        "value_text": "Muscovite"
+      },
+      "variant_code": "s"
+    }
+  ],
+  "sample": {
+    "axis_id": "b9ba28cd-0216-5314-83df-f6247b0f56b6",
+    "md_m": 62.50175,
+    "sample_no": 15,
+    "section_distance_mm": 64.0,
+    "section_interval_id": "feeadb8f-6df5-52ea-ab28-50973364f774",
+    "section_sample_no": 16,
+    "tray_interval_id": "485a9683-103c-5331-a410-a8086bc25332",
+    "tray_sample_no": 16
+  },
+  "sample_count": 116424,
+  "sample_no": 15
+}

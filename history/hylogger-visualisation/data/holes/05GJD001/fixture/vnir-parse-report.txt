@@ -1,0 +1,31 @@
+VNIR-SWIR parse report for 05GJD001
+raw dir : C:\path\to\project\8a294cfc-68df-4f03-995b-c5fd0d47ab0
+out dir : C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture
+
+[PASS] .tsg [dimensions] samples/bands — samples=25938, bands=531
+[PASS] [sample headers] line count — parsed 25938 sample header lines
+[PASS] ini Param_id count — 74 entries
+[PASS] ini<->tsg GUID cross-validation — 73/73 non-Index params matched by GUID
+[PASS] ini vs tsg parameter names — all matched names identical
+[PASS] parameter names unique
+[PASS] resolved 74 columns — 74 columns
+[PASS] .bip byte-exact for (2, 25938, 531) float32 — file=110184624 bytes, expected=110184624
+[PASS] .bip element count — 27546156 float32 elements
+[PASS] wavelength ramp located in .cal by scanning — byte offset 1088; 33/33 identical windows (one per tray)
+[PASS] wavelengths 380.0-2500.0 nm, 531 bands — n=531, first=380.0000, last=2500.0000
+[PASS] wavelength spacing uniform 4 nm — step min=4.000000, max=4.000000
+[PASS] depth range 150.000-316.000 m — min=150.000000, max=316.000000, nulls=0
+[PASS] depth non-decreasing within every tray — worst within-tray step=0.000000 m
+[PASS] 33 trays x 786 samples — trays=33, per-tray counts=[786], tray scalar range=0..32 (0-based)
+[PASS] Tray scalar == T-1 from [sample headers] — tray scalar 0..32 vs T 0001..0033 (33 unique T)
+[PASS] Section scalar == (T-1)*6 + L — section range=1..198 (expect 1..198)
+[PASS] params[:,80] matches [sample headers] D — max |diff|=9.995e-06 m (float32 quantisation of D values)
+[PASS] reflectance range 0.0087-0.7313 — min=0.008657, max=0.731273, null spectra values=0
+
+wrote C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture\vnir-scalars.csv
+columns with nulls (sentinel -> empty): {'CustSample': 25938, 'CustGroup': 25938, 'CustScore': 25938, 'RockMarks': 25938, 'Min1 sTSAS': 9513, 'Grp1 sTSAS': 9513, 'Wt1 sTSAS': 9513, 'Min2 sTSAS': 12659, 'Grp2 sTSAS': 12659, 'Wt2 sTSAS': 12659, 'Min3 sTSAS': 22105, 'Grp3 sTSAS': 22105, 'Wt3 sTSAS': 22105, 'Error sTSAS': 9513, 'SNR sTSAS': 7430, 'NIL_Stat sTSAS': 7430, 'Unbound_Water sTSAS': 9513, 'Bound_Water sTSAS': 9513, 'AspRat sTSAS': 7430, 'TNorm sTSAS': 10935, 'Min1 sTSAV': 16458, 'Grp1 sTSAV': 16458, 'Wt1 sTSAV': 16458, 'Min2 sTSAV': 25761, 'Grp2 sTSAV': 25761, 'Wt2 sTSAV': 25761, 'Error sTSAV': 16458, 'SNR sTSAV': 7430, 'NIL_Stat sTSAV': 7430, 'Interactive Depth Logging': 25138, 'recovery_rate': 7430, 'Min1 uTSAS': 9932, 'Grp1 uTSAS': 9932, 'Wt1 uTSAS': 9932, 'Min2 uTSAS': 13405, 'Grp2 uTSAS': 13405, 'Wt2 uTSAS': 13405, 'Min3 uTSAS': 22353, 'Grp3 uTSAS': 22353, 'Wt3 uTSAS': 22353, 'Error uTSAS': 9932, 'SNR uTSAS': 7430, 'NIL_Stat uTSAS': 7430, 'Unbound_Water uTSAS': 9932, 'Bound_Water uTSAS': 9932, 'AspRat uTSAS': 7430, 'TNorm uTSAS': 11686, 'w2250': 9241, 'Chlorite w2250': 18083, 'w2200': 10676, 'White Mica w2200': 19417, 'Hematite-goethite_distr': 12066, 'Ferric oxide abundance 25062014': 11410}
+wrote C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture\vnir-wavelengths.csv
+[PASS] vnir-scalars.csv shape — 25938 data rows x 74 columns
+[PASS] vnir-wavelengths.csv rows — 531 rows
+
+checks: 21/21 passed

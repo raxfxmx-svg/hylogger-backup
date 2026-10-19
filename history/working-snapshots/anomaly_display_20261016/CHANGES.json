@@ -1,0 +1,15 @@
+{
+  "baseline": "0c4e96173f7f7bc4bde0164353d62ed985e75e18",
+  "files": [
+    "frontend/components/Hole3D.jsx",
+    "frontend/components/HoleDetail.jsx",
+    "frontend/components/StripLog.jsx",
+    "frontend/data/anomalies.json",
+    "frontend/lib/api.js"
+  ],
+  "count": 5,
+  "committed": true,
+  "deployed": false,
+  "commit": "6b8b99b4136ade216c23aa01952d1cade4925dde",
+  "pull_request": "https://github.com/raxfxmx-svg/hylogger/pull/4"
+}

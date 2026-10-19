@@ -1,0 +1,170 @@
+{
+  "document_type": "preparation_baseline_not_runtime_config",
+  "document_version": 1,
+  "prepared_on": "2026-09-07",
+  "status": "preparation_only",
+  "source_root": "C:/path/to/project/etl4",
+  "source_scope": "Only the listed five downloaded hole packages are processing inputs. Other project folders are not data authorities.",
+  "active_holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019"
+  ],
+  "reference_only_holes": [
+    "12CADD001",
+    "14KDD001",
+    "15EIS001"
+  ],
+  "reference_payload_processing_allowed": false,
+  "source_package_mutation_allowed": false,
+  "automatic_high_resolution_image_download": false,
+  "display_groups": ["VSWIR", "TIR"],
+  "interpretation_output_regions": ["VNIR", "SWIR", "TIR"],
+  "current_interpretation_variants": ["s", "u"],
+  "source_id_storage_type": "text",
+  "sample_identity": ["axis_id", "sample_no"],
+  "sample_number_base": 0,
+  "duplicate_depths_allowed": true,
+  "confidentiality_note": {
+    "scope": "Unprovided orientation and trajectory-related information identified by the project owner",
+    "reason": "withheld_for_confidentiality",
+    "reason_source": "project_owner_statement",
+    "missing_values_are_not_zero": true
+  },
+  "coordinate_decision": {
+    "horizontal_crs": "EPSG:4326",
+    "source_fields": ["borehole.json:x", "borehole.json:y"],
+    "basis": "project_owner_confirmation",
+    "z_zero_is_not_verified_elevation": true
+  },
+  "proposed_display_defaults": {
+    "status": "implementation_recommendation_not_a_source_quality_standard",
+    "additional_minimum_weight_filter": null,
+    "universal_maximum_fit_error": null,
+    "generate_confidence_score": false,
+    "renormalize_after_display_filter": false
+  },
+  "verification_provenance": {
+    "this_preparation_pass": [
+      "Five-hole metadata manifests and result-family counts",
+      "Source file counts and total byte sizes",
+      "First record array length for each profilometer file"
+    ],
+    "earlier_conversation_audit": [
+      "Full scalar row counts and depth-vector alignment",
+      "Tray and section sample index relationships",
+      "Full profile row shapes and sample numbers",
+      "Manifest-listed payload size and SHA256 checks"
+    ],
+    "pipeline_must_emit_machine_verification_report": true,
+    "scientific_accuracy_of_mineral_identifications_independently_validated": false
+  },
+  "holes": [
+    {
+      "hole_id": "05KCD001",
+      "source_package_fingerprint": "d40c48faedc99ffbbca6798e0a3e562eeb7bda100584b89a71482777ec43db39",
+      "dataset_count": 1,
+      "sample_count": 22356,
+      "scalar_log_count": 127,
+      "spectral_log_count": 15,
+      "spectral_array_count": 2,
+      "thumbnail_count": 30,
+      "section_count": 171,
+      "profile_declared_channel_count": 128,
+      "profile_observed_channel_count": 128,
+      "source_bytes": 192386947,
+      "reported_length_m": 142,
+      "observed_depth_min_m": 59.5,
+      "observed_depth_max_m": 201.5,
+      "result_families": ["sTSAV", "sTSAS", "uTSAS", "sjCLST", "ujCLST"]
+    },
+    {
+      "hole_id": "07THD002",
+      "source_package_fingerprint": "3e7115f7e26620ccf121c9fbe9bf66e393975a5c51b6c61e42b9e124bc41fd73",
+      "dataset_count": 1,
+      "sample_count": 116424,
+      "scalar_log_count": 107,
+      "spectral_log_count": 15,
+      "spectral_array_count": 2,
+      "thumbnail_count": 77,
+      "section_count": 462,
+      "profile_declared_channel_count": 64,
+      "profile_observed_channel_count": 64,
+      "source_bytes": 857014818,
+      "reported_length_m": 405.8,
+      "observed_depth_min_m": 62.50175,
+      "observed_depth_max_m": 468.29929,
+      "result_families": ["sTSAV", "sTSAS", "uTSAS", "sjCLST", "ujCLST"]
+    },
+    {
+      "hole_id": "07THD003",
+      "source_package_fingerprint": "7ff39d8b3cfff15a73975cecbb3e18f1ef7fa824a9fc202abb441269e8e0048c",
+      "dataset_count": 1,
+      "sample_count": 54432,
+      "scalar_log_count": 107,
+      "spectral_log_count": 15,
+      "spectral_array_count": 2,
+      "thumbnail_count": 36,
+      "section_count": 216,
+      "profile_declared_channel_count": 64,
+      "profile_observed_channel_count": 64,
+      "source_bytes": 400209469,
+      "reported_length_m": 188,
+      "observed_depth_min_m": 64.00172,
+      "observed_depth_max_m": 251.99918,
+      "result_families": ["sTSAV", "sTSAS", "uTSAS", "sjCLST", "ujCLST"]
+    },
+    {
+      "hole_id": "09ATD015",
+      "source_package_fingerprint": "525b6b717af3789d35dca51409fbd197bd1cfac596dab242705399b14ff74c81",
+      "dataset_count": 1,
+      "sample_count": 46030,
+      "scalar_log_count": 78,
+      "spectral_log_count": 8,
+      "spectral_array_count": 1,
+      "thumbnail_count": 72,
+      "section_count": 343,
+      "profile_declared_channel_count": 0,
+      "profile_observed_channel_count": 128,
+      "source_bytes": 266302713,
+      "reported_length_m": 305.7,
+      "observed_depth_min_m": 63.70319,
+      "observed_depth_max_m": 369.39835,
+      "result_families": ["sTSAV", "uTSAV", "sTSAS", "uTSAS"]
+    },
+    {
+      "hole_id": "09ATD019",
+      "source_package_fingerprint": "7a925d3b35f52723fc7d904b2de75a2c17a1eb9a959b90433a6c5fb5066131d7",
+      "dataset_count": 1,
+      "sample_count": 22650,
+      "scalar_log_count": 78,
+      "spectral_log_count": 8,
+      "spectral_array_count": 1,
+      "thumbnail_count": 34,
+      "section_count": 169,
+      "profile_declared_channel_count": 0,
+      "profile_observed_channel_count": 128,
+      "source_bytes": 130358475,
+      "reported_length_m": 154.3,
+      "observed_depth_min_m": 79.00324,
+      "observed_depth_max_m": 233.29688,
+      "result_families": ["sTSAV", "uTSAV", "sTSAS", "uTSAS"]
+    }
+  ],
+  "totals": {
+    "dataset_count": 5,
+    "sample_count": 261892,
+    "scalar_log_count": 497,
+    "scalar_data_row_count_from_earlier_audit": 25955670,
+    "spectral_log_count": 61,
+    "spectral_array_count": 8,
+    "metadata_only_spectral_log_count": 53,
+    "profilometer_file_count": 5,
+    "thumbnail_count": 249,
+    "mosaic_html_count": 5,
+    "manifest_payload_count_from_earlier_audit": 764,
+    "source_bytes": 1846272422
+  }
+}

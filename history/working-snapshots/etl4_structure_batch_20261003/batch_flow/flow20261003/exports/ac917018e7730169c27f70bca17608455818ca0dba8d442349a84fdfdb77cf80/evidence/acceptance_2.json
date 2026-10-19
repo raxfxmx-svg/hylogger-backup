@@ -1,0 +1,29 @@
+{
+  "content_sha256": "e3a11dcac9fe71323c10e2f15ed232c1d6a56baeeefce7fc3da05d0ab935941e",
+  "database": "etl4_test_batch_flow_flow20261003_source",
+  "dataset_contents": {
+    "00000000-0000-0000-0000-000000000002": {
+      "dataset_revision_id": "3f5bb5e8-1b49-56d8-98cb-d7ffde84277a",
+      "input_digest": "6b6a23939e3b5fe52211e8c8716fcbd964339e67ada8037052fa71df3ce04e3a"
+    },
+    "00000000-0000-0000-0000-000000000003": {
+      "dataset_revision_id": "9969d9da-2435-51a2-9395-6938a3011fb6",
+      "input_digest": "dd32fe853d6e03f8a4c756999261f1d065d5c2598a93b409bf42553206705901"
+    }
+  },
+  "export_evidence": {
+    "omitted": "example_selections: local read examples are not cloud asset addresses",
+    "source_report_sha256": "9c589c2fa416154f442fd25ffcda57359f2879a718403d1c730abe41933169fe"
+  },
+  "fixture_only": true,
+  "prepared_acceptances": [
+    {
+      "content_sha256": "efad62147d2182a50a296ec4fd8fa8227f7007f5dd74baaa8d5de0232961e4cc",
+      "package_sha256": "f36566313f09964fd39a47edd5c08e9a0f48823abbeed5d61d2172b66a0ac820",
+      "report_path": "evidence/acceptance_1_f36566313f09964fd39a47edd5c08e9a0f48823abbeed5d61d2172b66a0ac820.json"
+    }
+  ],
+  "release_id": "9c6141a9-8f25-5f4b-991d-bffa7e752343",
+  "stage": 2,
+  "status": "passed"
+}

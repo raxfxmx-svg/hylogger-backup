@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "review_basis": "Image inspected before first import; replay sheet hashes match the inspected sealed package",
+  "contact_sheet_sha256": {
+    "25_review_1.png": "f0ef54282721e465730a2fb5f9e9d29a6407e664357239c83b146da3474f7e2f"
+  },
+  "representatives": 10
+}

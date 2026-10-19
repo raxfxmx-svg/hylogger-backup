@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-09-29T23:45:30.962432+00:00",
+  "python_version": "3.12.14",
+  "status": "failed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "21_verify_spectral_bindings.py",
+  "code_sha256": "1e138dc83909fc599e1113b8ae3b2c8af1a716d6a3aabc14fcae7371466ef244",
+  "error_type": "ConnectError",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.13484579999931157,
+  "finished_at": "2026-09-29T23:45:31.095959+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "command": [
+    "C:\\path\\to\\project\\etl4\\database\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\path\\to\\project\\etl4\\database\\28_import_media_revision.py",
+    "--raw-dir",
+    "C:\\path\\to\\project\\etl4",
+    "--work-dir",
+    "C:\\path\\to\\project\\etl4\\single_final_check_20260930",
+    "--dbname",
+    "etl4_test_single_final_20260930",
+    "--db-config",
+    "C:\\path\\to\\project\\etl4\\refactor_work\\database\\runtime\\local_config.json",
+    "--package-only",
+    "--package",
+    "C:\\path\\to\\project\\etl4\\new_input_check\\random_09THD028\\database\\media_releases\\1e61a6bcb1602865cf6ba9b814fde535c476220cac8425bed33f95cb7c280876",
+    "--prepared-work-dir",
+    "C:\\path\\to\\project\\etl4\\new_input_check\\random_09THD028"
+  ],
+  "elapsed_seconds": 1.6183215999990352,
+  "exit_code": 0,
+  "log": "C:\\path\\to\\project\\_codex_work\\etl4_cloud_batch_20261003\\local_28_4.log",
+  "stage": "local_28_4"
+}

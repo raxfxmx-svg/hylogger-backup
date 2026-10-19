@@ -1,0 +1,98 @@
+[
+  {
+    "log_id": "dd833beb-60d0-4dba-b1e5-8841e9addb7",
+    "log_name": "Reflectance",
+    "sample_count": 22780,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": "spectral/dd833beb-60d0-4dba-b1e5-8841e9addb7_Reflectance.f32",
+    "nbytes": 48384720,
+    "sha256": "e6a1b6c769ba25ba9ed393dbc6c3f64cffb8f490fed8d6948a75c4ab688bfea4",
+    "status": "complete"
+  },
+  {
+    "log_id": "b0ea4840-cf5c-4f6c-a888-32564e2a30b",
+    "log_name": "HullQuot",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  },
+  {
+    "log_id": "92862dee-c85f-4af2-9caf-5caefb58e5f",
+    "log_name": "Norm. Refl.",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  },
+  {
+    "log_id": "8c9a93e6-2f4e-4f18-a8f8-b55e28e6598",
+    "log_name": "Norm. HullQ",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  },
+  {
+    "log_id": "5057f9a5-1f8f-46c0-95e3-a4a06bd09a7",
+    "log_name": "Deriv1",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  },
+  {
+    "log_id": "3a68ef56-aaeb-4e17-a8a5-061a9e109b9",
+    "log_name": "Deriv2",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  },
+  {
+    "log_id": "4d24b4a9-a25c-4920-894c-5ba15aec73b",
+    "log_name": "Hull",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  },
+  {
+    "log_id": "5131eabb-9ab2-4614-8def-0603274035f",
+    "log_name": "TSA Residual",
+    "sample_count": 0,
+    "band_count": 531,
+    "dtype": "float32",
+    "byte_order": "little",
+    "file": null,
+    "nbytes": 0,
+    "sha256": null,
+    "status": "metadata_only"
+  }
+]

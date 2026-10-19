@@ -1,0 +1,25 @@
+{
+  "tests_run": 221,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "elapsed_seconds": 31.525,
+  "syntax_files": 67,
+  "modules": [
+    "test_batch_entry",
+    "test_code_structure",
+    "test_input_selection",
+    "test_media_structure",
+    "test_refactor",
+    "test_validation_flow",
+    "test_local_batch",
+    "test_data_contracts",
+    "test_batch_files",
+    "test_batch_export",
+    "test_batch_upload",
+    "test_batch_merge",
+    "test_batch_cleanup"
+  ],
+  "real_database_connection_blocked": true,
+  "s3_client": "test fake only"
+}

@@ -1,0 +1,11 @@
+Early 3D Frontend Verification — 2026-08-09
+
+The early web prototype combined hole/sensor selection, a 3D cylinder, 2D depth/mineral tracks, legends, details, spectra and review buttons. web/index.html provides the page/import map, app.js the native-module interaction, and style.css the theme. Three.js r160 was loaded from a CDN with an eight-second load-error watchdog.
+
+I fixed the server's strips.json fallback: checking a tray's partially populated sections inside the loop previously kept only its first section. Computing the fallback tray set before the loop restored all 198 consecutive Sections, six per tray, from 150.000 to 316.000 m without changing response fields.
+
+Recorded local HTTP checks passed for static assets, hole metadata, 9,426 VNIR intervals, 5,530 TIR intervals, selected JPEG strips, 531-band VNIR spectra and 341-band TIR spectra. Invalid sensors returned 422 and missing holes 404. A review-status round trip restored interval 6 to doubtful and retained two annotation records. JavaScript parseModule and CDN HEAD checks passed. The server was stopped after testing.
+
+This prototype mapped sample selection approximately using (section-1)*131 + round(section-depth-fraction*130). It used 198 stacked cylinders, clockwise-rotated strip textures, a 0.55 mineral overlay and top-20 mineral colors; other minerals shared a fallback color. Doubtful intervals used hatching. The zero-length final foam section rendered with a 0.02 m minimum display thickness.
+
+No browser automation or screenshot acceptance was available in this historical check; texture direction was checked from code and Three.js UV behavior. CDN access was required. Textures were reduced to 512×64, using approximately 26 MB, so zoomed detail was limited. These are historical prototype assumptions, not the later validated sample/media contract.

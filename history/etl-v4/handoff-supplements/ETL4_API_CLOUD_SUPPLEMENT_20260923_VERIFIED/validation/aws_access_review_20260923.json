@@ -1,0 +1,73 @@
+{
+  "status": "configuration_verified",
+  "checked_at": "2026-09-23T10:05:46.611473+00:00",
+  "method": "Read-only inspection through AWS console UI in the project administrator session",
+  "aws_account_id": "000000000000",
+  "region": "ap-southeast-2",
+  "user": {
+    "username": "teammembera.Contributor3",
+    "arn": "arn:aws:iam::000000000000:user/teammembera.Contributor3",
+    "directly_attached_policies": [
+      "ETL4PilotReadOnly",
+      "IAMUserChangePassword",
+      "SignInLocalDevelopmentAccess"
+    ],
+    "runtime_policy_matches_template": true,
+    "runtime_policy": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "ConnectAsEtl4Reader",
+          "Effect": "Allow",
+          "Action": "rds-db:connect",
+          "Resource": "arn:aws:rds-db:ap-southeast-2:000000000000:dbuser:cluster-EXAMPLE/etl4_reader"
+        },
+        {
+          "Sid": "ReadFixedEtl4Release",
+          "Effect": "Allow",
+          "Action": "s3:GetObject",
+          "Resource": "arn:aws:s3:::hyloggerdemo-000000000000-ap-southeast-2-an/etl4/releases/fd02659c-dc3d-52ea-a8eb-c032b91e7624/*"
+        }
+      ]
+    },
+    "signin_actions": [
+      "signin:AuthorizeOAuth2Access",
+      "signin:CreateOAuth2Token"
+    ],
+    "password_actions": [
+      "iam:ChangePassword",
+      "iam:GetAccountPasswordPolicy"
+    ]
+  },
+  "aurora": {
+    "cluster": "database-1",
+    "cluster_status": "Available",
+    "writer_instance_status": "Available",
+    "cluster_resource_id": "cluster-EXAMPLE",
+    "policy_resource_id_matches": true,
+    "host": "db.example.com",
+    "iam_authentication_enabled": true,
+    "internet_access_gateway_enabled": true,
+    "engine_version": "17.9"
+  },
+  "s3": {
+    "bucket": "hyloggerdemo-000000000000-ap-southeast-2-an",
+    "block_all_public_access": true,
+    "bucket_policy": "No policy to display",
+    "object_ownership": "Bucket owner enforced",
+    "prefix": "etl4/releases/fd02659c-dc3d-52ea-a8eb-c032b91e7624/",
+    "observed_hole_folders": [
+      "05KCD001",
+      "07THD002",
+      "07THD003",
+      "09ATD015",
+      "09ATD019"
+    ]
+  },
+  "limitations": [
+    "No AWS configuration, permissions or credentials were changed during this review.",
+    "No sign-in or API execution was performed with TeamMemberA credentials.",
+    "PostgreSQL role grants, database contents and full S3 checksums were not rerun in this review; see historical deployment acceptance.",
+    "The recipient should run deployment/run_api.py --check with their own AWS profile for end-to-end acceptance."
+  ]
+}

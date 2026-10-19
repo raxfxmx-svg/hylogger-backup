@@ -1,0 +1,13 @@
+{
+  "code_sha256": "4e650b6c98e745b3b3a69759ec0f10c7f1ef6fc3fc9bc231720aa4d55e0e5a52",
+  "datasets": {
+    "8110cd1e-3b13-5589-b013-fc16d3f51105": {
+      "content_sha256": "fe045ccdff277598d30eb4a107db24449a15011908822c44be4cf4bfdd74ef34",
+      "input_key": "c83b5cc362e50bac4bc59632175d6997ebc568c59da455afbff4e7a9b449b889",
+      "rule_version": "sample-media-v2"
+    }
+  },
+  "package": "ec89f56974ca834b7769d7cf578a10b685f999c56541e5937f916fe7356eef05",
+  "recorded_at": "2026-09-29T23:47:28.330463+00:00",
+  "status": "passed"
+}

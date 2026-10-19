@@ -1,0 +1,475 @@
+{
+  "backups": [
+    {
+      "bytes": 28124434,
+      "database": "etl4_refactor_check",
+      "path": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\backups\\etl4_refactor_check_before_three_hole_merge_20260929.dump",
+      "sha256": "e14afc7323234774fd923be894cc2de8cb76036adde045cd1b365b2b8529ce5f"
+    },
+    {
+      "bytes": 3598831,
+      "database": "etl4_new_input_check",
+      "path": "C:\\path\\to\\project\\etl4\\refactor_work\\database\\backups\\etl4_new_input_check_before_three_hole_merge_20260929.dump",
+      "sha256": "da3a56ad61a9b2b8a3c495b2bdb7f45759b6c8242ff6348d92c4817e1c52715f"
+    }
+  ],
+  "business_tables": [
+    "asset",
+    "asset_location",
+    "borehole",
+    "borehole_branch",
+    "borehole_composite",
+    "borehole_composite_part",
+    "borehole_revision",
+    "core_interval",
+    "data_chunk",
+    "data_release",
+    "dataset",
+    "dataset_revision",
+    "dataset_segment",
+    "dataset_succession",
+    "image_frame",
+    "image_region",
+    "image_region_asset",
+    "image_sample_mapping",
+    "interpretation_input",
+    "interpretation_set",
+    "log_asset",
+    "log_axis_binding",
+    "metric_definition",
+    "quality_issue",
+    "release_dataset",
+    "sample_axis",
+    "scan_log",
+    "scan_sample",
+    "source_document",
+    "source_reference",
+    "spectral_array",
+    "spectral_block",
+    "spectral_sample_map",
+    "spectral_stream",
+    "survey_station"
+  ],
+  "source": "etl4_new_input_check",
+  "source_active": "e1083bca-f551-59d6-967a-2853c0e8cfa1",
+  "source_holes": [
+    "09ATRCD025",
+    "09THD028",
+    "12BRDDH003"
+  ],
+  "source_tables": {
+    "active_release": {
+      "count": 1,
+      "sha256": "03bdb5efb046afe1301ba9bf949de9dc42941e6033477f14be7faa73ada6f3e6"
+    },
+    "asset": {
+      "count": 2300,
+      "sha256": "d140722f1d1531e7e598695701738c21d7cc20f0896a53ebf603047218d342ed"
+    },
+    "asset_location": {
+      "count": 2300,
+      "sha256": "ab62b6bc436217161039cb2ab18e662ba586dd8102ba29fe5f37232c7ffbc621"
+    },
+    "borehole": {
+      "count": 3,
+      "sha256": "87a0236c7a4ead31cd51c8aea2bba3bae46416ba7bdb83facc177c078654366e"
+    },
+    "borehole_branch": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "borehole_composite": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "borehole_composite_part": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "borehole_revision": {
+      "count": 3,
+      "sha256": "34f8bdf6cbad3c30d692bd40c5faa4f02c1b2bbdc5a17480fbf4125e1b40c5f6"
+    },
+    "core_interval": {
+      "count": 1398,
+      "sha256": "e7cee267157c0237d75fb742401adb15d91666f2ab275ba7134699325b958387"
+    },
+    "data_chunk": {
+      "count": 4064,
+      "sha256": "6c5f5de4307ee15ef612f978be0445f84dd57033df0e420ebf8763b8a117820b"
+    },
+    "data_release": {
+      "count": 4,
+      "sha256": "bfd33f53fc26b9306ce8a59ca39768b198f42eda6a890f5c6faf82423a963b7f"
+    },
+    "dataset": {
+      "count": 3,
+      "sha256": "516dce5dfaf7f3983cbbbf115a7d1cb04def8a2675e4d7a41fbbec0a7fe4852f"
+    },
+    "dataset_revision": {
+      "count": 6,
+      "sha256": "14d7dc8129a865d278a5dd5927dc3e5b461f84b362a28bd75cd5ae72c1a76809"
+    },
+    "dataset_segment": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "dataset_succession": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "image_frame": {
+      "count": 266,
+      "sha256": "d6cb8cf8941415609af649d867526072e8260599febd19b12a3bd5fddf8a53c9"
+    },
+    "image_region": {
+      "count": 566,
+      "sha256": "925935929a3196cf18887bf225dcbe6e7e615f1db3574026ab52701da82b16e1"
+    },
+    "image_region_asset": {
+      "count": 566,
+      "sha256": "81958e65148baad368f3f4918a8d0799b766eb4096f68fef06744e3eadbea75e"
+    },
+    "image_sample_mapping": {
+      "count": 566,
+      "sha256": "269ac91e4a05b7f6e41646f290a0339acfd728593ef471ef52a2f745fba2a5f3"
+    },
+    "ingest_run": {
+      "count": 5,
+      "sha256": "364470fadf939fc2a3c97a64ea247fe4350bca967d1a9c6afe1c110f1e38afbc"
+    },
+    "interpretation_input": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "interpretation_set": {
+      "count": 28,
+      "sha256": "18a5361369fa0d0a2c665bd07f278aad0ccac9214333a367d7bca1f1e036fbda"
+    },
+    "log_asset": {
+      "count": 2060,
+      "sha256": "0936d4d39074ed741462662861642903a6fe023d03c468600071f25be689900d"
+    },
+    "log_axis_binding": {
+      "count": 706,
+      "sha256": "271484b135809c26bddca13fb7f0b48d66e17c90e06d251a2ce0c2bfcca25f40"
+    },
+    "metric_definition": {
+      "count": 284,
+      "sha256": "d40c6d00de1ba4ed32515789eafbebe53b5e82afaf2e496edfbdc62f83320cbe"
+    },
+    "quality_issue": {
+      "count": 94,
+      "sha256": "2996d2cd69af4f45aaaf603b072fa92040c205c536659dcf293ff6e913191dac"
+    },
+    "release_dataset": {
+      "count": 6,
+      "sha256": "b5dd47e1d5227c7ec124b688278aef728757177dfcf2f07c2aeec4a1074cc409"
+    },
+    "revision_validation": {
+      "count": 6,
+      "sha256": "49fa768c4d6d68b1960b7b87e1093f7fc620f4f3c1e9d7b369b8ca264ec21203"
+    },
+    "sample_axis": {
+      "count": 6,
+      "sha256": "24dfd36d2599194a8306e715e38800354d059b05671b6b1a7ca097c83ddc9749"
+    },
+    "scan_log": {
+      "count": 706,
+      "sha256": "6f1d5f26f7290b5f8fa12257c1671fd97bbbe00366f6c0ecdd6eaae24073cd6a"
+    },
+    "scan_sample": {
+      "count": 151688,
+      "sha256": "aef1f28c1a19342aa91c2d67749824755aae0cc80f6f74f986939a559e3ccda1"
+    },
+    "schema_migration": {
+      "count": 6,
+      "sha256": "02bbaa463b3e4a13553a3b4a7ee61e78ca13e16f60e581e58b185a2d162721c9"
+    },
+    "source_document": {
+      "count": 84,
+      "sha256": "e1b49a23d83df25ade6d8187da19e4de49818977f530a15fec0a3f8b3a73d6de"
+    },
+    "source_reference": {
+      "count": 18,
+      "sha256": "f7fb62e91be399717ac44a0e10b164c3f7251454231249c3bebc6bdbdbc12de6"
+    },
+    "spectral_array": {
+      "count": 5,
+      "sha256": "23be4c122d3037a567e8593f963f50e259969767f8ae09b7a2c57b9cfb3dedd0"
+    },
+    "spectral_block": {
+      "count": 127,
+      "sha256": "69fd93546e99d1ff086fcf6a743959d2b038878fa4d896b1d3778385c76db5be"
+    },
+    "spectral_sample_map": {
+      "count": 5,
+      "sha256": "a05d08b01ad4a79cfed34dd1bfd0a8542f71a80a5e166f9019f0a4c9bce43e22"
+    },
+    "spectral_stream": {
+      "count": 10,
+      "sha256": "d775de7535d8cadd210ffdfc852afe9a19aee03397a8ab981ec20a9b621b5844"
+    },
+    "survey_station": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "status": "passed",
+  "target": "etl4_refactor_check",
+  "target_active": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "target_holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019",
+    "12CADD001",
+    "14KDD001",
+    "15EIS001"
+  ],
+  "target_manifest": {
+    "dataset_revisions": [
+      {
+        "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+        "dataset_revision_id": "302b453a-ed06-5f03-989c-2c9f49bf7d5c"
+      },
+      {
+        "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+        "dataset_revision_id": "31c21102-c295-566f-8719-d1ab4a4a0a5b"
+      },
+      {
+        "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+        "dataset_revision_id": "4da3d81a-059c-504e-b8fa-23cf9b842434"
+      },
+      {
+        "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+        "dataset_revision_id": "ef3c4b7a-cbd2-5cfd-b3a0-f87923efd21b"
+      },
+      {
+        "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+        "dataset_revision_id": "b6339bdc-58f4-5a2a-83bf-9d4da91643a3"
+      },
+      {
+        "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+        "dataset_revision_id": "a422065d-5bb4-5fa6-994a-9642d69975a9"
+      },
+      {
+        "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+        "dataset_revision_id": "7f66e852-a15c-5a8e-81ae-932cc866022f"
+      },
+      {
+        "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+        "dataset_revision_id": "a800ca9d-25cb-58f8-8421-b64b73184fa5"
+      },
+      {
+        "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+        "dataset_revision_id": "80865caf-ef1b-55bf-8fc0-def39283916e"
+      },
+      {
+        "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+        "dataset_revision_id": "e5378b5f-4f70-55d7-b111-816a9403cbaa"
+      },
+      {
+        "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+        "dataset_revision_id": "dcc5c06d-9741-55ad-a0fb-a112e730bda6"
+      },
+      {
+        "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+        "dataset_revision_id": "07bbc6fb-fccd-5533-8876-b496cc51431e"
+      },
+      {
+        "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+        "dataset_revision_id": "dd23fa6c-26f8-5945-b2fd-33c52e0af3c8"
+      }
+    ],
+    "schema_sha256": "c54652c8be1cf82d7f90f1bcca7ac196661c9d444311f5c3ed51a24f3c78ad66",
+    "source_release_id": "0e9f20b8-9681-5f08-9d9d-50a5d737ab35",
+    "succession_decisions": {
+      "confirmation_date": "2026-09-24",
+      "confirmation_text": "Confirm the order and display switch points listed above.",
+      "confirmed_by": "project_owner",
+      "contract": "confirmed-successor-display-v1",
+      "display_2d": "all_datasets_complete_shared_md_scale_independent_images",
+      "display_3d": "single_composite_no_branches",
+      "missing_values": "preserve_no_automatic_fallback",
+      "orders": {
+        "12CADD001": [
+          "0bf137d9-7fd7-4bf4-aa33-8130465ae4e",
+          "43057f8c-4268-40ef-aa3d-90aa56f13d1"
+        ],
+        "14KDD001": [
+          "eb0c6c07-1957-421a-b974-47d8a30aa7a",
+          "c10744cc-2e42-478a-8bc3-7cea1059044"
+        ],
+        "15EIS001": [
+          "443bd630-f6df-4f32-8e5c-0a756c9a56f",
+          "ea2aad6e-6b09-4086-ab88-2d49b09459d",
+          "c83afeab-5697-4476-b24a-e210af12137",
+          "56d5fe91-626f-48ad-8786-acf91fe83a5"
+        ]
+      },
+      "relation_basis": "Project owner confirmed original/wedge succession and display order; not independently surveyed branch topology",
+      "return_to_predecessor": false,
+      "switch_depth_rule": "successor_first_actual_sample_md_m"
+    }
+  },
+  "target_tables": {
+    "active_release": {
+      "count": 1,
+      "sha256": "77691eb1db26755d2236fc958548d295bc4cfe16ba5de59c98c25ca4b30129d6"
+    },
+    "asset": {
+      "count": 14307,
+      "sha256": "58414f9a97fddffe79d105cf20732a90439e6f2018591b80bdbf1d89a054c9c8"
+    },
+    "asset_location": {
+      "count": 14307,
+      "sha256": "e2a961e7bdaacb9a879c5ee926b0b15969123aad5456c254ebf12b8328dda284"
+    },
+    "borehole": {
+      "count": 8,
+      "sha256": "ef978a733a373eb04a2aa633b2f701db113a3a76078b7c1e3e9cd0cd9967e674"
+    },
+    "borehole_branch": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "borehole_composite": {
+      "count": 8,
+      "sha256": "814dcad34c92457636e6cce307940649283cea892b895ef23de2dc77c1444ae4"
+    },
+    "borehole_composite_part": {
+      "count": 13,
+      "sha256": "b6796ffff3d02f12a22688c0d6290d256f3b027ed0707aae2605358ebf6769be"
+    },
+    "borehole_revision": {
+      "count": 13,
+      "sha256": "6126e4850a68627e177442c96b94ac23dd3938d6077013051d4df8e257bf3fe3"
+    },
+    "core_interval": {
+      "count": 10210,
+      "sha256": "f5075c259aec213f3989b9fef363358eedf609a9d440ddc92cc95c21549345ce"
+    },
+    "data_chunk": {
+      "count": 37950,
+      "sha256": "2701349f40f481bcbfdf1e66011e05fbe5607562681ba74de756835439fa1271"
+    },
+    "data_release": {
+      "count": 3,
+      "sha256": "35d94ebd3287cb32a33aca3a9399dde3314699d7daab33d7386f8082875f3ef3"
+    },
+    "dataset": {
+      "count": 13,
+      "sha256": "484da9741df5677558917fa1898d519d8a10babc416e0c4f8c3133439b28b7cd"
+    },
+    "dataset_revision": {
+      "count": 26,
+      "sha256": "c65d5a932e372afd7acb12d0d4cf6350d5ef996e4c05188c86291c5ea13fb5f1"
+    },
+    "dataset_segment": {
+      "count": 16,
+      "sha256": "3837acea55af8cf88e7d9ca9cf93eb84617e24b0344253c14cd2c20f897327c6"
+    },
+    "dataset_succession": {
+      "count": 5,
+      "sha256": "4fcdec5c1c6e531383560cc7a3f36ed918cf0bad7bc2c0c5a68bce6dcb303773"
+    },
+    "image_frame": {
+      "count": 1890,
+      "sha256": "e32ded56ca1bbeb929d19e6bbfe6f4e6a05b7d000072e6f63c0fed4453332472"
+    },
+    "image_region": {
+      "count": 4160,
+      "sha256": "93c1ff8e869e1152bd6dc18398b0d378ff957dbe2162787f5477e3f8ddc88a14"
+    },
+    "image_region_asset": {
+      "count": 4160,
+      "sha256": "d0700e25ac10a2a843782c3309ff81e068ce5266944dbfa6a01c1ddb5b3fe844"
+    },
+    "image_sample_mapping": {
+      "count": 4160,
+      "sha256": "657379b588ac06eea5f01c3fb4ec390868d4794bde9836ba3ffefc8bb57c9521"
+    },
+    "ingest_run": {
+      "count": 8,
+      "sha256": "482922b3bab5763f4faac0c87973f48d8a6fa8da00090b9354545d44f4a1687b"
+    },
+    "interpretation_input": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "interpretation_set": {
+      "count": 128,
+      "sha256": "1947c95bb85fae637f809985827d7732922cb0bf02660c9af37dd0ee86eba801"
+    },
+    "log_asset": {
+      "count": 12040,
+      "sha256": "9820bc66b10cb1f2cf78408e7a5ed89d91970238ee857bfd601b0fb2e7d98d8b"
+    },
+    "log_axis_binding": {
+      "count": 3424,
+      "sha256": "7dc784b8810c9b5bb22429dcc9ed15da640f8c6ef9bed008118177cbce02730d"
+    },
+    "metric_definition": {
+      "count": 1498,
+      "sha256": "9c95ea527c24dd80327c06013d004cc0b4d7b4d38d1ca55eaf2203b9b73e2ab3"
+    },
+    "quality_issue": {
+      "count": 504,
+      "sha256": "ab1bdd95eba8561f1a7253f5348950e96c70a75be43ebfbb43489dc4a365b382"
+    },
+    "release_dataset": {
+      "count": 23,
+      "sha256": "7d087914f81818841ef068bf2daa5f77f5a866c4cb1e3ec0a2eb5609671c12c7"
+    },
+    "revision_validation": {
+      "count": 18,
+      "sha256": "f9330b4eeb922ae346ab03f0f3a6d62e667179dddb7dc6f6bba835f8606cbb4c"
+    },
+    "sample_axis": {
+      "count": 26,
+      "sha256": "a0e377607991310c7a95103de6640fee67dabe46b0eade126946d166b189c93f"
+    },
+    "scan_log": {
+      "count": 3424,
+      "sha256": "935f6841ee02bea07d018e74cd20f382cf04437fd99aa8a2173fff45725fd163"
+    },
+    "scan_sample": {
+      "count": 1309556,
+      "sha256": "b8da7904671b286641a74f89ae4c6235024c023289bf62a7aac554c125e02666"
+    },
+    "schema_migration": {
+      "count": 6,
+      "sha256": "ca8067e027e8b1bea35fadbdb349127ee74c283915a9d9fbf4caface96177e26"
+    },
+    "source_document": {
+      "count": 364,
+      "sha256": "523e3344329bdcf01e338b75522903e916ac0dc4828005e9cfb771102d99468d"
+    },
+    "source_reference": {
+      "count": 78,
+      "sha256": "7f4d67dc9de9b453462b706a4a53c44ee4d438d9b113b24b638a3e8b00c6dd05"
+    },
+    "spectral_array": {
+      "count": 24,
+      "sha256": "c022ff19910686c87ae092f7cedd695307a7b2910ef594703f7d67831ae7d26f"
+    },
+    "spectral_block": {
+      "count": 1222,
+      "sha256": "405311c1b0127c41d8941d377601cae4e7b416557292a3ddff467131968558dc"
+    },
+    "spectral_sample_map": {
+      "count": 24,
+      "sha256": "39193b2f22e9048e1c790a85d687b8d98cc648c1bc5eb802dbae8a969ba557c8"
+    },
+    "spectral_stream": {
+      "count": 48,
+      "sha256": "3ba6cfaab4e065ebdb3928356fb4053a378c78a0e96a24550a9a2fba85c1b6fc"
+    },
+    "survey_station": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

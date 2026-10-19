@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ConnectAsEtl4Reader",
+      "Effect": "Allow",
+      "Action": "rds-db:connect",
+      "Resource": "arn:aws:rds-db:ap-southeast-2:000000000000:dbuser:cluster-EXAMPLE/etl4_reader"
+    },
+    {
+      "Sid": "ReadFixedEtl4Release",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::hyloggerdemo-000000000000-ap-southeast-2-an/etl4/releases/fd02659c-dc3d-52ea-a8eb-c032b91e7624/*"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "composites": [
+    {
+      "borehole_id": "c1484f00-0d44-560b-b47c-a15f39229207",
+      "boundary_rule": "successor_first_actual_sample_md_m",
+      "composition_kind": "single_dataset",
+      "definition_sha256": "34b7e46da3f439bfc2dc5fba390470a8dbba5045493d0d278282abca7a4f9775",
+      "evidence": {
+        "decisions": {
+          "single_dataset": true
+        },
+        "depth_units": "m",
+        "hole_id": "BSDD023",
+        "range_semantics": "sample selection, not proof of continuous physical recovery"
+      },
+      "id": "9581cd65-d03d-5a39-a059-c74af8b3b9b8",
+      "missing_policy": "preserve_no_fallback",
+      "release_id": "cfdf6f74-d76f-50fd-b83d-299c32b6e749",
+      "trajectory_kind": "display_composite_not_surveyed_path"
+    }
+  ],
+  "decisions": {
+    "orders": {}
+  },
+  "definition": {
+    "composites": [
+      {
+        "borehole_id": "c1484f00-0d44-560b-b47c-a15f39229207",
+        "boundary_rule": "successor_first_actual_sample_md_m",
+        "composition_kind": "single_dataset",
+        "missing_policy": "preserve_no_fallback",
+        "trajectory_kind": "display_composite_not_surveyed_path"
+      }
+    ],
+    "decisions": {
+      "orders": {}
+    },
+    "parts": [
+      {
+        "axis_id": "5c40e59c-d9d2-5874-b199-30151328419b",
+        "borehole_id": "c1484f00-0d44-560b-b47c-a15f39229207",
+        "dataset_id": "6f167916-b51d-584a-84b2-3fbc4a8dcde8",
+        "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+        "sample_no_from": 0,
+        "sample_no_to": 8039,
+        "selection_from_md_m": 0.0052,
+        "selection_status": "selected",
+        "selection_to_md_m": 51.39814,
+        "sequence_no": 0,
+        "upper_inclusive": true
+      }
+    ],
+    "relations": []
+  },
+  "parts": [
+    {
+      "axis_id": "5c40e59c-d9d2-5874-b199-30151328419b",
+      "borehole_id": "c1484f00-0d44-560b-b47c-a15f39229207",
+      "composite_id": "9581cd65-d03d-5a39-a059-c74af8b3b9b8",
+      "dataset_id": "6f167916-b51d-584a-84b2-3fbc4a8dcde8",
+      "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+      "predecessor_relation_id": null,
+      "release_id": "cfdf6f74-d76f-50fd-b83d-299c32b6e749",
+      "sample_no_from": 0,
+      "sample_no_to": 8039,
+      "selection_from_md_m": 0.0052,
+      "selection_status": "selected",
+      "selection_to_md_m": 51.39814,
+      "sequence_no": 0,
+      "upper_inclusive": true
+    }
+  ],
+  "source_release_id": "cfdf6f74-d76f-50fd-b83d-299c32b6e749",
+  "succession": []
+}

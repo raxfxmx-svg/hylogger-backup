@@ -1,0 +1,42 @@
+{
+  "omitted": "example_selections: local read examples are not cloud asset addresses",
+  "rows": [
+    {
+      "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+      "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4",
+      "result": {
+        "assets_checked": 289,
+        "base_check": {
+          "asset_bytes_hashed": 0,
+          "assets_hashed": 0,
+          "chunks_compared": 160,
+          "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+          "hole_id": "BSDD023",
+          "images_compared": 15,
+          "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4",
+          "logs_compared": 99,
+          "samples_compared": 8040,
+          "status": "passed"
+        },
+        "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+        "hole_id": "BSDD023",
+        "input_digest": "88784ff2eb821ad5011e4dfb8a78a0b1212fc4c383d476f39e1a1efc5a313ba4",
+        "official_reference_spectra_compared": 20,
+        "row_count": 60,
+        "sample_count": 8040,
+        "sample_read_ms": [
+          41.19380000338424,
+          25.075800003833137,
+          25.99569999438245,
+          25.590299992472865,
+          34.96140000061132,
+          37.147399998502806
+        ],
+        "status": "passed"
+      },
+      "validated_at": "2026-10-11 02:35:47.959893+00:00",
+      "verification_code_sha256": "753e4fc96764718c04cb29f84a0c74aef999bfb5bc7e165b04a5d6ab6e48482e"
+    }
+  ],
+  "source_rows_sha256": "c9ac314947d27999759b5035a2fd702571c1bb04975a8a3110e09adb721d3dfb"
+}

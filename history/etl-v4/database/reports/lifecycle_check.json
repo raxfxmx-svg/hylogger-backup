@@ -1,0 +1,8 @@
+{
+  "cloud_actions": "not_authorized_and_not_performed",
+  "existing_instance_status": "running; health check passed",
+  "reason": "automatic approval review rejected due to usage limit",
+  "recorded_at": "2026-09-07T23:09:52.558768+00:00",
+  "start_and_live_connection": "passed",
+  "stop_restart_check": "not_executed"
+}

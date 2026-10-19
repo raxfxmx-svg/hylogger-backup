@@ -1,0 +1,62 @@
+{
+  "steps": [
+    {
+      "step": 20,
+      "returncode": 0,
+      "seconds": 0.923
+    },
+    {
+      "step": 21,
+      "returncode": 0,
+      "seconds": 0.315
+    },
+    {
+      "step": 22,
+      "returncode": 0,
+      "seconds": 0.275
+    },
+    {
+      "step": 23,
+      "returncode": 0,
+      "seconds": 0.35
+    },
+    {
+      "step": 24,
+      "returncode": 0,
+      "seconds": 0.271
+    },
+    {
+      "step": 25,
+      "returncode": 0,
+      "seconds": 0.465
+    },
+    {
+      "step": 26,
+      "returncode": 0,
+      "seconds": 0.219
+    },
+    {
+      "step": 27,
+      "returncode": 0,
+      "seconds": 1.273
+    },
+    {
+      "step": 28,
+      "returncode": 0,
+      "seconds": 1.471
+    },
+    {
+      "step": 29,
+      "returncode": 0,
+      "seconds": 2.983
+    }
+  ],
+  "business_tables_compared": 35,
+  "changed_business_tables": [],
+  "revisions_before": 4,
+  "revisions_after": 4,
+  "active_before": "e1083bca-f551-59d6-967a-2853c0e8cfa1",
+  "active_after": "e1083bca-f551-59d6-967a-2853c0e8cfa1",
+  "all_steps_passed": true,
+  "total_seconds": 8.545
+}

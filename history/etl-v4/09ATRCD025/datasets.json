@@ -1,0 +1,13 @@
+[
+  {
+    "dataset_id": "80b6a3df-6fff-4748-b744-a405a44696b",
+    "dataset_name": "09ATRCD025",
+    "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/09ATRCD025",
+    "tray_id": "84eb4c94-7331-44ce-a781-3dbb96973a9",
+    "section_id": "9f25ccbb-6f0d-44f2-91c3-ca91cfc6a38",
+    "domain_id": "6d2c5b85-de85-4be3-84cc-875b9d69af2",
+    "description": "<?xml version=\"1.0\" encoding=\"utf-8\"?><TSGDrillHoleMiscMeta xmlns=\"\"><DrillHoleName>09ATRCD025</DrillHoleName><InstrumentName>HyLogger 2-2</InstrumentName><Project>Quinns</Project><Owner>GSWA</Owner><DrillDate>2009-09-05 15:23:44</DrillDate><ExecSumm>GSWA UWI: NA|WAMEX Report ID: A87118|Tectonic Unit: Youanmi Terrane, Murchison Province|250K Map Sheet: Sandstone SG 50-16|100K Map Sheet:  Nowthanna 2643|Archive Location: Returned to company</ExecSumm><Datum>GDA94</Datum><Latitude>-27.138979</Latitude><Longitude>118.513919</Longitude><Azimuth>190.000000</Azimuth><Inclination>-60.000000</Inclination><RL>0.000000</RL></TSGDrillHoleMiscMeta>",
+    "modified_date": "2022-06-22T00:00:00+08:00",
+    "created_date": "2018-12-06T00:00:00+08:00"
+  }
+]

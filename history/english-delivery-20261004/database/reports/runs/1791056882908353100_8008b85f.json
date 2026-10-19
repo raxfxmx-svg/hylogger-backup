@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-03T19:48:02.072833+00:00",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pyarrow": "21.0.0",
+    "psycopg": "3.3.5",
+    "Pillow": "12.3.0"
+  },
+  "script": "22_prepare_spectral_access.py",
+  "code_sha256": "b1ab98e78319ed1931b5bed7a1a15c68370294955622898c05ace088773ddebc",
+  "sha256_file_scans": 0,
+  "sha256_bytes_read": 0,
+  "same_check_cache_hits": 0,
+  "elapsed_seconds": 0.8299947000050452,
+  "finished_at": "2026-10-03T19:48:02.908353+00:00"
+}

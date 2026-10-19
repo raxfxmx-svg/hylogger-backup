@@ -1,0 +1,138 @@
+{
+  "active_unchanged": true,
+  "copied_rows": {
+    "asset": 2300,
+    "asset_location": 2300,
+    "borehole": 3,
+    "borehole_branch": 0,
+    "borehole_composite": 0,
+    "borehole_composite_part": 0,
+    "borehole_revision": 3,
+    "core_interval": 1398,
+    "data_chunk": 4064,
+    "data_release": 4,
+    "dataset": 3,
+    "dataset_revision": 6,
+    "dataset_segment": 0,
+    "dataset_succession": 0,
+    "image_frame": 266,
+    "image_region": 566,
+    "image_region_asset": 566,
+    "image_sample_mapping": 566,
+    "interpretation_input": 0,
+    "interpretation_set": 28,
+    "log_asset": 2060,
+    "log_axis_binding": 706,
+    "metric_definition": 284,
+    "quality_issue": 94,
+    "release_dataset": 6,
+    "sample_axis": 6,
+    "scan_log": 706,
+    "scan_sample": 151688,
+    "source_document": 84,
+    "source_reference": 18,
+    "spectral_array": 5,
+    "spectral_block": 127,
+    "spectral_sample_map": 5,
+    "spectral_stream": 10,
+    "survey_station": 0
+  },
+  "holes": [
+    "05KCD001",
+    "07THD002",
+    "07THD003",
+    "09ATD015",
+    "09ATD019",
+    "09ATRCD025",
+    "09THD028",
+    "12BRDDH003",
+    "12CADD001",
+    "14KDD001",
+    "15EIS001"
+  ],
+  "incoming": [
+    {
+      "dataset_id": "3dafb229-4f6d-51a4-83e6-9cbecacb4318",
+      "dataset_revision_id": "66d273c5-3cf4-57e3-8ec5-e186df76d018"
+    },
+    {
+      "dataset_id": "8e8c1311-0b5c-533d-862d-931be0914b3e",
+      "dataset_revision_id": "82b51c69-4d75-5e45-9909-b8f148c367e6"
+    },
+    {
+      "dataset_id": "97bfea48-bed5-5488-99ee-52d4d5f3579b",
+      "dataset_revision_id": "bf7adeef-03f2-5f3a-93d5-b40b6d265d83"
+    }
+  ],
+  "original_members": [
+    {
+      "dataset_id": "089954e6-2c8a-5f27-a9aa-d46fa81eb53c",
+      "dataset_revision_id": "302b453a-ed06-5f03-989c-2c9f49bf7d5c",
+      "input_digest": "a59ff2ddc2decbef7e76dbb7cee67bc167e29e08cc30945e5309bbc12146ebb4"
+    },
+    {
+      "dataset_id": "0cfc0927-9db2-59b6-9a7f-2d53f3e108ba",
+      "dataset_revision_id": "31c21102-c295-566f-8719-d1ab4a4a0a5b",
+      "input_digest": "18285ab3ee449baa5d52280c3dc701030aa400e4486592cd1e7c7bdc8f0c5236"
+    },
+    {
+      "dataset_id": "12af15ad-0e5b-53ec-a474-7feca99e5e18",
+      "dataset_revision_id": "4da3d81a-059c-504e-b8fa-23cf9b842434",
+      "input_digest": "b6114825aaabcd8354fdccf09d39348b046ba5b17c19d4614aabc9533ff0ab6e"
+    },
+    {
+      "dataset_id": "15ceec94-a908-5550-adae-ca4b4494b762",
+      "dataset_revision_id": "ef3c4b7a-cbd2-5cfd-b3a0-f87923efd21b",
+      "input_digest": "6c416bd21bcc73022cb42ac32c98ddfd51bfcacc9f0b59aeda6336b688aa84f4"
+    },
+    {
+      "dataset_id": "4c791226-a966-5c15-a146-ed956f58948e",
+      "dataset_revision_id": "b6339bdc-58f4-5a2a-83bf-9d4da91643a3",
+      "input_digest": "891b4f4079dccfac9b93e695441edd0912d25c94598c49ec3e2a01260e5aefd5"
+    },
+    {
+      "dataset_id": "8a3129ba-7d32-507b-b8fe-385ba208033f",
+      "dataset_revision_id": "a422065d-5bb4-5fa6-994a-9642d69975a9",
+      "input_digest": "ac9042972b4574e8b9d1e94ee1aaba4cccb812190f737e561c903081585558e8"
+    },
+    {
+      "dataset_id": "9396cf85-7dcb-50fe-9fae-d2b06b1082dc",
+      "dataset_revision_id": "7f66e852-a15c-5a8e-81ae-932cc866022f",
+      "input_digest": "d0c5e1667c1beb182fbcaf2ce9aa6c67c3e2a8c01cdc35d2964ac91a3aedd377"
+    },
+    {
+      "dataset_id": "9dde95f1-20ea-5ef6-aeea-755566810632",
+      "dataset_revision_id": "a800ca9d-25cb-58f8-8421-b64b73184fa5",
+      "input_digest": "4bc15835e453b8667ef92cec134855ae48d77e50734f6f8a9b21159ddb5c8bd1"
+    },
+    {
+      "dataset_id": "bccd5b0a-67fa-5411-9327-778ce8cf898f",
+      "dataset_revision_id": "80865caf-ef1b-55bf-8fc0-def39283916e",
+      "input_digest": "c16b4d9da80a390b90e5403d04f6298c02f91160037ae6095b75ab34300fd6de"
+    },
+    {
+      "dataset_id": "cb8aa704-2fce-5816-be5f-b96931a57515",
+      "dataset_revision_id": "e5378b5f-4f70-55d7-b111-816a9403cbaa",
+      "input_digest": "e6a6a8353e5165228098a8adb621ee91d58662a3233bae62641b5cd6c9ad4877"
+    },
+    {
+      "dataset_id": "d3c51d8a-3c91-553b-89dd-cee9e926979d",
+      "dataset_revision_id": "dcc5c06d-9741-55ad-a0fb-a112e730bda6",
+      "input_digest": "dc3c3367f963123daccb1588f6ee009adfc2ffccab1778cd5653ed89d3e23f49"
+    },
+    {
+      "dataset_id": "e7d46c1d-76ae-5b76-818c-a56f373c3250",
+      "dataset_revision_id": "07bbc6fb-fccd-5533-8876-b496cc51431e",
+      "input_digest": "29b4db9ac95a8f2bdaac186938e9a722c5462a9deb30f0d7030038bf239607b5"
+    },
+    {
+      "dataset_id": "f8d45508-aa13-540b-8b2f-6a2b305892cd",
+      "dataset_revision_id": "dd23fa6c-26f8-5945-b2fd-33c52e0af3c8",
+      "input_digest": "49c31335c9637036ec3855b0921fe66712f5ed88a8f7cac2d2803575216a6e4d"
+    }
+  ],
+  "previous_release_id": "707bbb9e-6e0a-50f9-9638-96cb13a6daf3",
+  "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+  "run_id": "ee27ba10-5e4f-4494-be4e-91694f100451",
+  "status": "staged"
+}

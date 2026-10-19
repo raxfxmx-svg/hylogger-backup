@@ -1,0 +1,17 @@
+{
+  "active_release": {
+    "release_id": "43033059-8e6a-5f10-8247-b4487956cfc2",
+    "singleton": true,
+    "switched_at": "2026-09-29 19:21:15.153889+08:00"
+  },
+  "business_tables_unchanged": 35,
+  "changed_tables": [
+    "ingest_run",
+    "revision_validation"
+  ],
+  "status": "passed",
+  "table_deltas": {
+    "ingest_run": 1,
+    "revision_validation": 0
+  }
+}

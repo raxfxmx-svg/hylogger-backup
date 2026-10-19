@@ -1,0 +1,154 @@
+{
+  "schema_version": "etl3.processed.v2",
+  "release_id": "etl3-v2_e4b2edfcdf3d9ce8",
+  "hole_id": "09FKRCD001",
+  "status": "pass",
+  "generated_at": "2026-08-26T17:55:25+00:00",
+  "warnings": [
+    "image: Tray Images retained as metadata only by thumbnail-only policy",
+    "image: Imagery retained as metadata only by thumbnail-only policy"
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "raw_package_tree_recorded",
+      "status": "pass",
+      "details": {
+        "file_count": 188,
+        "nbytes": 292170528,
+        "tree_sha256": "74d7ce0d7a0ff992cf2157f81b4f777a2aa7b460ec31cb7cb091a0c27926a8a0"
+      }
+    },
+    {
+      "name": "asset_files_verified_and_copied",
+      "status": "pass",
+      "details": {
+        "copied_files": 43,
+        "catalog_rows": 45
+      }
+    },
+    {
+      "name": "scalar_common_axis",
+      "status": "pass",
+      "details": {
+        "sample_count": 33516,
+        "axis_source_log_id": "00902375-eb81-4783-bd2f-75851861567",
+        "aligned_source_series": 126,
+        "irregular_source_series": 0,
+        "physical_value_columns": 100,
+        "duplicate_axis_coordinate_rows": 4260
+      }
+    },
+    {
+      "name": "tray_partition",
+      "status": "pass",
+      "details": {
+        "tray_count": 42
+      }
+    },
+    {
+      "name": "section_partition",
+      "status": "pass",
+      "details": {
+        "section_count": 252,
+        "sections_per_tray": {
+          "0": 6,
+          "1": 6,
+          "2": 6,
+          "3": 6,
+          "4": 6,
+          "5": 6,
+          "6": 6,
+          "7": 6,
+          "8": 6,
+          "9": 6,
+          "10": 6,
+          "11": 6,
+          "12": 6,
+          "13": 6,
+          "14": 6,
+          "15": 6,
+          "16": 6,
+          "17": 6,
+          "18": 6,
+          "19": 6,
+          "20": 6,
+          "21": 6,
+          "22": 6,
+          "23": 6,
+          "24": 6,
+          "25": 6,
+          "26": 6,
+          "27": 6,
+          "28": 6,
+          "29": 6,
+          "30": 6,
+          "31": 6,
+          "32": 6,
+          "33": 6,
+          "34": 6,
+          "35": 6,
+          "36": 6,
+          "37": 6,
+          "38": 6,
+          "39": 6,
+          "40": 6,
+          "41": 6
+        }
+      }
+    },
+    {
+      "name": "thumbnail_core_section_strips",
+      "status": "pass",
+      "details": {
+        "mapping_rows": 252,
+        "complete_strips": 252,
+        "unavailable_or_failed": 0,
+        "image_quality": "thumbnail_derived",
+        "output_resized": false,
+        "jpeg_quality": 90
+      }
+    },
+    {
+      "name": "spectral_series_separated",
+      "status": "pass",
+      "details": {
+        "source_series": 15,
+        "complete_series": 2,
+        "axis_count": 2,
+        "combined_signals_csv_created": false
+      }
+    }
+  ],
+  "counts": {
+    "hole_count": 1,
+    "dataset_count": 1,
+    "sample_count": 33516,
+    "scalar_source_series_count": 128,
+    "scalar_physical_value_columns": 100,
+    "tray_count": 42,
+    "section_count": 252,
+    "section_image_mapping_rows": 252,
+    "core_strip_complete_count": 252,
+    "spectral_source_series_count": 15,
+    "spectral_complete_series_count": 2,
+    "spectral_axis_count": 2,
+    "asset_catalog_rows": 297,
+    "availability_rows": 148
+  },
+  "important_storage_keys": {
+    "sample_axis": "holes/09FKRCD001/sample_axis.parquet",
+    "scalar_values": "holes/09FKRCD001/scalars/values.parquet",
+    "section_images": "holes/09FKRCD001/core/section_images.parquet"
+  },
+  "interpretation_policy": {
+    "scientific_interpretation_added": false,
+    "unknown_source_units_filled": false,
+    "mineral_truth_algorithm_selected": false,
+    "theoretical_borehole_path_generated": false,
+    "heatmap_or_other_visual_derivative_generated": true,
+    "visual_derivative_kinds": [
+      "thumbnail_core_section_strips"
+    ]
+  }
+}

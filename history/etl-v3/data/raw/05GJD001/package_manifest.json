@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "hole_id": "05GJD001",
+  "provider": "wa",
+  "status": "complete_with_warnings",
+  "started_at": "2026-08-11T09:53:42+00:00",
+  "finished_at": "2026-08-11T09:58:10+00:00",
+  "content_fingerprint": "d6e845f53a9bbbae3a7f216bd860eeeeb6a5956388284cae497dbae824fd2d7c",
+  "warnings": [
+    "profilometer: provider returned no data for 2230899f-efab-4588-889b-97481f26f96",
+    "image: provider returned no tray_image for da7d9c27-208e-4818-abd6-b62d71c804e; skipped log",
+    "image: provider returned no imagery for 84bc55a4-050e-419b-8c59-2d87e763d1a; skipped log"
+  ],
+  "errors": []
+}

@@ -1,0 +1,9 @@
+{
+  "raw_samples": 54432,
+  "raw_INVALID": 21403,
+  "intervals": 188,
+  "low_confidence": 150,
+  "INVALID_minerals": 0,
+  "from": 64,
+  "to": 252
+}

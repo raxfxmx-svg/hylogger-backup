@@ -1,0 +1,52 @@
+TIR parse report - hole 05GJD001
+raw dataset : C:\path\to\project\8a294cfc-68df-4f03-995b-c5fd0d47ab0
+output dir  : C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture
+
+[PASS] input exists: 05GJD001_tsg_tir.tsg  (2075403 bytes, sha256 db614f1518d068a3c6bfce025eec47d37a3ff84580e4daf44bbb3796ce46848b)
+[PASS] input exists: 05GJD001_tsg_tir.ini  (109773 bytes, sha256 f4c6ce11467fe8ae5b62ae53cfbe222b7b5d4221f03a528f37c9227b01393d71)
+[PASS] input exists: 05GJD001_tsg_tir.cal  (839520 bytes, sha256 4b777c92fbd88e78461caa89bc007108b71a2224590f43aee87ff5b35f22c94a)
+[PASS] input exists: 05GJD001_tsg_tir.bip  (70758864 bytes, sha256 8846da17e08fe3e007c73714c7d2211d2056420eb25f8e5696c65d281b7e8cfe)
+
+tsg sections: [description], [structure], [coordinates], [dimensions], [platform], [reflibs], [dbextra], [checklist], [dynaimp], [band headers], [sample headers], [line headers], [spec calc], [class 0], [class 1], [class 2], [class 3], [class 4], [class 5], [class 6], [class 7], [class 8], [tsasettings 2], [tsatircal], [sclrsets], [domain 0], [events], [wavelength specs]
+[PASS] dimensions samples  (25938)
+[PASS] dimensions bands  (341)
+[PASS] sample header count  (25938)
+[PASS] sample indices sequential 0..N-1
+[PASS] 33 trays x 786 samples  (trays=33, counts unique=[786])
+[PASS] 6 lines x 131 points per tray
+[PASS] points numbered 1..131 within each line
+[PASS] header depth range 150.000-316.000 m  (150.000000 .. 316.000009)
+[PASS] band headers = 0..77 + 80..135 (sparse, 78/79 skipped)  (134 entries)
+[PASS] ini parameter catalogue size  (57)
+[PASS] 56 scalar parameters resolved
+[PASS] all scalar columns within 80..135
+[PASS] scalar columns are a bijection onto bands 80..135
+GUID cross-check: 52/56 matched by GUID; name fallback for ['Tray', 'Section', 'Depth (m)', 'Spodumene AuxMatch']
+note: ini GUIDs are the well-known parameter GUIDs; tsg band headers carry per-dataset instance GUIDs for Tray/Section/Depth (m), and band 125 (Spodumene AuxMatch) has no GUID at all.
+note: last GUID group has 11 hex digits instead of 12 (dataset flaw, both files agree).
+
+[PASS] bip byte size == 2*25938*341*4 (float32 LE biplanar)  (70758864 bytes)
+[PASS] null sentinel bits are exactly 0xFF7FFFFE  (unique null bit patterns: ['0xff7ffffe'])
+[PASS] no NaN anywhere in the cube
+[PASS] plane-1 columns outside 0..135 are entirely null
+scalar columns entirely empty (all sentinel): [(80, 'CustSample'), (111, 'CustGroup'), (98, 'CustScore'), (107, 'RockMarks')]
+[PASS] bip Depth (m) range 150.000-316.000  (150.000000 .. 316.000000)
+[PASS] bip Depth (m) equals header D at float32 precision  (max abs diff 9.995e-06)
+[PASS] bip Tray (0-based) == T-1  (range 0..32)
+[PASS] bip Section == (T-1)*6 + L  (range 1..198)
+[PASS] bip SecDist (mm) equals header X at float32 precision  (max abs diff 4.824e-07)
+
+[PASS] wavelength specs unit is nm
+[PASS] wavelengths 6000..14500 nm, uniform 25 nm step  (start=6000.0, end=14500.0, step=25.0)
+note: the TIR .cal holds per-tray radiometric calibration records (binary, no wavelength table); wavelengths come from [wavelength specs].
+
+wrote C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture\tir-scalars.csv (7140383 bytes)
+wrote C:\path\to\project\hylogger-visualisation\data\holes\05GJD001\fixture\tir-wavelengths.csv (5546 bytes)
+[PASS] tir-scalars.csv shape 25938 x 57  ((25938, 57))
+[PASS] Index column is 0..N-1
+[PASS] column order follows the ini catalogue (Index first)
+[PASS] all 56 parameter columns bitwise identical to bip plane 1 (exhaustive, nulls included)
+[PASS] tir-wavelengths.csv shape 341 x 2  ((341, 2))
+[PASS] wavelength grid exact on re-read
+
+RESULT: all checks passed

@@ -1,0 +1,50 @@
+{
+  "active_release_id": "3bd3ae3a-04a8-5e98-a0b6-57894d65bf2f",
+  "api_http_test": "Not performed: no live teammate API endpoint was supplied.",
+  "asset_locations": 289,
+  "composite_samples": 8040,
+  "database_user": "etl4_reader",
+  "new_dataset": {
+    "axis_id": "5c40e59c-d9d2-5874-b199-30151328419b",
+    "borehole_id": "c1484f00-0d44-560b-b47c-a15f39229207",
+    "composite_id": "a44b8fba-b805-5406-861c-deaf189ba103",
+    "dataset_id": "6f167916-b51d-584a-84b2-3fbc4a8dcde8",
+    "dataset_revision_id": "7711c92e-8698-5657-af71-308c382e4902",
+    "depth_max_m": 51.39814,
+    "depth_min_m": 0.0052,
+    "overview_selection_status": "selected",
+    "release_id": "3bd3ae3a-04a8-5e98-a0b6-57894d65bf2f",
+    "sample_count": 8040,
+    "sequence_no": 0,
+    "source_dataset_id": "fef5e839-0c5b-4597-9b30-4a82d5292d3",
+    "source_dataset_name": "BSDD023"
+  },
+  "old_dataset_readable": true,
+  "s3_range_reads": [
+    {
+      "bytes_read": 64,
+      "http_status": 206,
+      "key": "etl4/objects/sha256/7b/7ba9076032d2cd1040871b35c752c35b3f681472075380a03513a123792e1cbf",
+      "kind": "scalar"
+    },
+    {
+      "bytes_read": 64,
+      "http_status": 206,
+      "key": "etl4/objects/sha256/62/62a95ca2c55c812bd28f64d785f36d28484a99ad2774f9f0a09e781bc75d8ec4",
+      "kind": "spectral"
+    },
+    {
+      "bytes_read": 64,
+      "http_status": 206,
+      "key": "etl4/objects/sha256/f2/f25620c9bcb6834a5c340a224d34851e12e064364e113ab2d2be7c20142a2e77",
+      "kind": "image"
+    },
+    {
+      "bytes_read": 64,
+      "http_status": 206,
+      "key": "etl4/objects/sha256/73/734f0914d34fdbecddb28e231e15656f2323a3669d3a257a875f51523af27d93",
+      "kind": "core_row_image"
+    }
+  ],
+  "s3_request_identity": "Owner AWS identity; tests actual reader-visible S3 keys, not teammate IAM identity"
+}
